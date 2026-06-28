@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-prose-the-attic",
+  "unitId": "C-VII",
+  "name": "Prose: \"The Attic\" — Satyajit Ray",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" },
+    { "type": "web-research", "label": "brainkart.com - plot summary, the medal's exact engraving and resolution" }
+  ],
+  "researchNotes": "OCR index search for 'the attic/satyajit ray/aditya/sasanka sanyal' returned zero hits — web research only. A first-person short story about guilt and confession, distinct from Ray's famous Feluda/Bengali-detective work — real evidence clusters on factual plot details (places, names, timeframes) rather than figures of speech.",
+  "reading": {
+    "intro": "A first-person short story by Satyajit Ray (better known as a filmmaker) about Aditya, the narrator's friend and business partner, who revisits his ancestral hometown of Brahmapur after many years and finally confesses to a childhood theft — taking a medal belonging to a boy named Sasanka Sanyal — that has weighed on his conscience for 29 years.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Attic\", and what is the central theme of the story?", "answer": "Satyajit Ray. Central theme: human flaws, guilt, and the power of confession/forgiveness — Aditya finally confesses to a childhood theft that has burdened his conscience for decades." },
+      { "id": "r02", "question": "What was Aditya's relationship to the narrator, and what was his ancestral hometown?", "answer": "Aditya was the narrator's friend and business partner; together they had newly started a factory in Deodarganj. Aditya's ancestral hometown (which they revisit during the story) was Brahmapur." },
+      { "id": "r03", "question": "What had Aditya done 29 years earlier that he finally confesses to, and who was the victim?", "answer": "As a child, Aditya had stolen a medal — a 'Special Prize for Recitation' (engraved 'Sriman Sasanka Sanyal — Special Prize for Recitation — 1948') — belonging to a boy named Sasanka Sanyal, and had hidden it in the attic of his ancestral house. He confesses this theft to Sanyal after 29 years, and the medal is finally restored to its rightful owner." },
+      { "id": "r04", "question": "What was special about the attic, and what objects from childhood were found there?", "answer": "The attic was Aditya's favourite childhood place, a private world of his own (a common motif — attics being favoured spaces for children's imagination). Among the objects found there were a broken cricket bat, the remains of an armchair, and a wooden packing case." },
+      { "id": "r05", "question": "What other factual details about the setting does the story establish — the house's age, the season of the visit, and a notable nearby landmark?", "answer": "Aditya's ancestral house was about 200 years old. The visit took place in the Bengali month of Maha (January/February). Opposite the tea shop in the town (owned by 'Nagen Uncle') stood a Shiva temple." },
+      { "id": "r06", "question": "What was Aditya's father's occupation?", "answer": "He was a landlord." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Attic\" was written by:", "options": ["R.K. Narayan", "Rabindranath Tagore", "Satyajit Ray", "Mulk Raj Anand"], "correctIndex": 2, "explanation": "Satyajit Ray.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Aditya's ancestral hometown, which he revisits in the story, was:", "options": ["Brahmapur", "Deodarganj", "Kolkata", "Delhi"], "correctIndex": 0, "explanation": "Brahmapur.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What had Aditya done 29 years earlier that he finally confesses to in the story?", "options": ["Fought with a friend", "Stolen a book", "Stolen someone's medal", "Run away from school"], "correctIndex": 2, "explanation": "He had stolen Sasanka Sanyal's recitation medal.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Who was the rightful owner of the medal that Aditya had stolen and hidden in the attic?", "options": ["Nagen Uncle", "Sasanka Sanyal", "Jogesh Kabiraj", "Aditya's own brother"], "correctIndex": 1, "explanation": "Sasanka Sanyal.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Aditya's ancestral house, where the attic was located, was approximately how old?", "options": ["50 years", "100 years", "200 years", "300 years"], "correctIndex": 2, "explanation": "About 200 years.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "During which season/month did Aditya and the narrator's visit to Brahmapur take place?", "options": ["Summer", "Maha (January/February)", "Monsoon", "Autumn"], "correctIndex": 1, "explanation": "Maha (Jan/Feb).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "What stood opposite the tea shop in the town?", "options": ["A school", "A bank", "A hospital", "A Shiva temple"], "correctIndex": 3, "explanation": "A Shiva temple.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "The tea shop in the town was owned by:", "options": ["Sanyal", "Kabiraj", "Nagen Uncle", "Aditya's uncle"], "correctIndex": 2, "explanation": "Nagen Uncle.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "What was Aditya's favourite childhood place in his ancestral house?", "options": ["The library", "The attic", "The garden", "The kitchen"], "correctIndex": 1, "explanation": "The attic.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m10", "prompt": "Aditya's father's occupation was:", "options": ["Teacher", "Landlord", "Police officer", "Priest"], "correctIndex": 1, "explanation": "Landlord.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

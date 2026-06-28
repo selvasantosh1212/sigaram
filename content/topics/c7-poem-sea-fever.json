@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-poem-sea-fever",
+  "unitId": "C-VII",
+  "name": "Poem: \"Sea Fever\" — John Masefield",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - figure-of-speech MCQ set" },
+    { "type": "web-research", "label": "poemanalysis.com / litcharts.com - structure, theme, and device analysis" }
+  ],
+  "researchNotes": "OCR index search for 'masefield' / 'sea fever' returned zero hits — web research only. Raw pool combined the coaching-site MCQ set (6 items, mostly figure-of-speech) with literary-analysis sites for structure/theme (anaphora across stanzas, 3-stanza arc) since the coaching site alone didn't cover the poem's overall shape, only individual lines.",
+  "reading": {
+    "intro": "A well-known poem about the pull of the sea, from Masefield's 1902 collection Salt-Water Ballads. Real coaching-site evidence shows heavy figure-of-speech testing per line, plus structure (anaphora, rhyme scheme) — both covered below.",
+    "qa": [
+      { "id": "r01", "question": "What is the structure and central theme of \"Sea Fever\"?", "answer": "Three stanzas, each opening with the same declaration 'I must go down to the seas again' (anaphora — repetition at the start of successive lines/stanzas), expressing an irresistible compulsion to return to sailing. Stanza 1 focuses on navigation and sensory details of sailing; stanza 2 on the wildness/freedom of the sea; stanza 3 contrasts the adventurous 'vagrant gypsy life' with the peace found after a long voyage." },
+      { "id": "r02", "question": "Identify the figure of speech: \"where the wind's like a whetted knife.\"", "answer": "Simile — directly compares the wind's sharpness to a 'whetted' (sharpened) knife using 'like'." },
+      { "id": "r03", "question": "Identify the figure of speech: \"the wheel's kick and the wind's song and the white sail's shaking.\"", "answer": "Personification — the ship's wheel 'kicks', the wind 'sings', giving human-like actions to non-human/inanimate things." },
+      { "id": "r04", "question": "Identify the figure of speech: \"And the flung spray and the blown spume, and the sea-gulls crying.\"", "answer": "Alliteration — repeated initial sounds ('flung'/'spray', 'blown'/'spume')." },
+      { "id": "r05", "question": "Identify the figure of speech: \"And quiet sleep and a sweet dream when the long trick's over.\"", "answer": "Alliteration — repeated 's' sounds ('sleep'/'sweet') ." },
+      { "id": "r06", "question": "What is the rhyme scheme of the opening stanza, and what word rhymes with 'shaking'?", "answer": "AABB rhyme scheme. 'Shaking' rhymes with 'breaking' (as in 'a tall ship and a star to steer her by ... And the wheel's kick and the wind's song and the white sail's shaking, And a grey mist on the sea's face, and a grey dawn breaking')." },
+      { "id": "r07", "question": "What does \"the sea's face\" personify, and what other phrases use the same device?", "answer": "It gives the sea a human-like 'face'. Other personification-style phrases include 'the wind's song' and 'call of the running tide' — the sea and wind are repeatedly given human qualities throughout the poem." },
+      { "id": "r08", "question": "Which collection did \"Sea Fever\" first appear in, and when?", "answer": "Salt-Water Ballads, John Masefield's 1902 poetry collection." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Sea Fever\" begins every stanza with the same line, \"I must go down to the seas again.\" This repetition at the start of successive stanzas is called:", "options": ["Simile", "Anaphora", "Onomatopoeia", "Oxymoron"], "correctIndex": 1, "explanation": "Anaphora — repetition of a phrase at the start of successive lines/stanzas.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "\"Where the wind's like a whetted knife\" uses which figure of speech?", "options": ["Metaphor", "Simile", "Personification", "Hyperbole"], "correctIndex": 1, "explanation": "Simile — uses 'like' to compare the wind to a sharpened knife.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "\"The wheel's kick and the wind's song\" is an example of:", "options": ["Simile", "Personification", "Onomatopoeia", "Alliteration"], "correctIndex": 1, "explanation": "Personification — the wheel 'kicks' and the wind 'sings'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"And the flung spray and the blown spume\" demonstrates which figure of speech?", "options": ["Alliteration", "Simile", "Metaphor", "Hyperbole"], "correctIndex": 0, "explanation": "Alliteration — repeated initial consonant sounds.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "The rhyme scheme of the opening stanza of \"Sea Fever\" is:", "options": ["ABAB", "ABBA", "AABB", "ABCB"], "correctIndex": 2, "explanation": "AABB.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Which word rhymes with \"shaking\" in the opening stanza?", "options": ["Star", "Song", "Breaking", "Face"], "correctIndex": 2, "explanation": "'Shaking' rhymes with 'breaking'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "\"Sea Fever\" first appeared in which 1902 collection by John Masefield?", "options": ["Salt-Water Ballads", "Collected Poems", "The Everlasting Mercy", "Reynard the Fox"], "correctIndex": 0, "explanation": "Salt-Water Ballads (1902).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m08", "prompt": "The phrase \"the sea's face\" gives the sea a human-like quality. This is an example of:", "options": ["Simile", "Personification", "Hyperbole", "Onomatopoeia"], "correctIndex": 1, "explanation": "Personification.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "topicId": "a1-current-affairs-11",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (11): The GenomeIndia Project's Findings",
+  "sourceRefs": [
+    { "type": "web-research", "label": "biotecnika.org/pib.gov.in - GenomeIndia Project results (44 million novel genetic variants; 10,074 people, 83 population groups); WGS cost drop below $200" }
+  ],
+  "researchNotes": "Twelfth Science current-affairs topic, opening Part A's 11th rotation lap. A landmark indigenous genomics project with strong public-health relevance (most global drug-related genetic databases were built on European/North American genomes, not representative of Indian populations).",
+  "reading": {
+    "intro": "Covers the GenomeIndia Project's major findings — India's most comprehensive indigenous genomic study.",
+    "qa": [
+      { "id": "r01", "question": "When was the GenomeIndia Project launched, and by which body?", "answer": "Launched in January 2020, led by the Department of Biotechnology under the Ministry of Science and Technology." },
+      { "id": "r02", "question": "How many people and population groups did the project's final sequencing cover?", "answer": "10,074 people, from 83 population groups — including tribal, rural, and urban communities, with 20+ leading research institutes (IISc Bengaluru, IITs, CSIR labs, genomics centers) participating." },
+      { "id": "r03", "question": "What did the project find in terms of genetic variants?", "answer": "Nearly 130 million genetic variants total, including more than 44 million variants NEVER recorded in global genetic databases before." },
+      { "id": "r04", "question": "Why is this significant for medicine in India, specifically?", "answer": "The project found 38 important genetic variants linked to how the body processes drugs (pharmacogenomic variants) — significant because most medicines used in India were developed based on genetic databases built primarily on European and North American genomes, not Indian populations." },
+      { "id": "r05", "question": "What infrastructure milestone has genomic sequencing reached in 2026?", "answer": "The cost of Whole Genome Sequencing (WGS) dropped below $200 — making it cheaper than (or comparable to) a traditional PET scan, with sequencing now available through a nationwide network of regional hubs, private diagnostics providers, and biobanks (not just elite academic labs)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The GenomeIndia Project was launched in January 2020, led by which body?", "options": ["ICMR", "Department of Biotechnology", "DRDO", "CSIR alone"], "correctIndex": 1, "explanation": "Department of Biotechnology, Ministry of Science and Technology.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The GenomeIndia Project's final sequencing covered how many people, from how many population groups?", "options": ["5,000 people, 50 groups", "10,074 people, 83 groups", "20,000 people, 100 groups", "50,074 people, 150 groups"], "correctIndex": 1, "explanation": "10,074 people, 83 population groups.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Of the nearly 130 million genetic variants found, how many had never been recorded in global genetic databases before?", "options": ["14 million", "24 million", "34 million", "44 million"], "correctIndex": 3, "explanation": "44 million.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Why is the project significant for Indian medicine specifically?", "options": ["It found a cure for diabetes", "Most existing drug-related genetic databases were built on European/North American genomes, not Indian populations", "It eliminated the need for clinical trials", "It only studied animal genomes"], "correctIndex": 1, "explanation": "Existing pharmacogenomic databases weren't representative of Indian populations.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "In 2026, the cost of Whole Genome Sequencing (WGS) dropped below:", "options": ["$100", "$200", "$500", "$1,000"], "correctIndex": 1, "explanation": "$200.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

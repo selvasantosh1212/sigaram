@@ -1,0 +1,28 @@
+{
+  "topicId": "a2-current-affairs-9",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography of India (9): India's Port Capacity & Maritime Infrastructure (2026)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "tarangya.com/visionias.in - India's port capacity (2,762 MTPA, 2026); Mundra Port's 200 MT milestone; Vizhinjam Port's automated terminal; port turnaround-time improvement" }
+  ],
+  "researchNotes": "Tenth Geography current-affairs topic (9th lap). Deliberately distinct from the Day-70 Economy topic's Coastal Cargo Promotion Scheme mention — this topic focuses on Geography-specific port/coastline facts (capacity, turnaround time, specific port milestones) rather than repeating the already-covered policy scheme.",
+  "reading": {
+    "intro": "Covers India's maritime geography fundamentals and 2026 port-infrastructure milestones.",
+    "qa": [
+      { "id": "r01", "question": "What are India's coastline length and Exclusive Economic Zone (EEZ) area, and what share of GDP does the maritime sector contribute?", "answer": "Coastline: 11,098 km. EEZ: 2.3 million sq km. Maritime sector contributes about 4% of GDP, with ports handling 95% of India's trade volume." },
+      { "id": "r02", "question": "What is India's total port cargo-handling capacity as of 2026, and which port is India's largest commercial port?", "answer": "2,762 million tonnes per annum (MTPA) total capacity. Mundra Port is India's largest commercial port — the first Indian port to handle 200 million tonnes (MT) of cargo in a single year." },
+      { "id": "r03", "question": "What is distinctive about Vizhinjam Port, Kerala?", "answer": "It is India's first fully automated deep-water container terminal, designed to handle ultra-large 'megamax' ships, with automated quay cranes and rail-mounted gantries." },
+      { "id": "r04", "question": "How has average port turnaround time changed from 2010-11 to FY26?", "answer": "Fallen from 127 hours (2010-11) to 49.32 hours (FY26) — a major efficiency improvement." },
+      { "id": "r05", "question": "What technology milestone did an Indian major port achieve in March 2026?", "answer": "Became the first port in India to implement Digital Twin technology, enabling real-time monitoring and predictive analysis of port operations." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "India's coastline length is approximately:", "options": ["7,516 km", "9,098 km", "11,098 km", "13,098 km"], "correctIndex": 2, "explanation": "11,098 km.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which port became the first in India to handle 200 million tonnes of cargo in a single year?", "options": ["Jawaharlal Nehru Port", "Mundra Port", "Vizhinjam Port", "Kandla Port"], "correctIndex": 1, "explanation": "Mundra Port.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Vizhinjam Port (Kerala) is notable as India's first:", "options": ["Inland river port", "Fully automated deep-water container terminal", "Floating port", "Naval-only port"], "correctIndex": 1, "explanation": "Fully automated deep-water container terminal.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "India's total port cargo-handling capacity as of 2026 is approximately:", "options": ["1,762 MTPA", "2,262 MTPA", "2,762 MTPA", "3,262 MTPA"], "correctIndex": 2, "explanation": "2,762 MTPA.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Average port turnaround time in India has fallen from 127 hours (2010-11) to approximately how much in FY26?", "options": ["29.32 hours", "39.32 hours", "49.32 hours", "69.32 hours"], "correctIndex": 2, "explanation": "49.32 hours.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

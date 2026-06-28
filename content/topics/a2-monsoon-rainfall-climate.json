@@ -1,0 +1,41 @@
+{
+  "topicId": "a2-monsoon-rainfall-climate",
+  "unitId": "A-II",
+  "name": "Geography of India: Monsoon, Rainfall, Weather & Climate",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2026_q page 60 Q62 (tropical cyclone Assertion-Reason, with answer key)" },
+    { "type": "web-research", "label": "tnpscguru.in - Monsoon, Rainfall, Weather, Climate TNPSC Q&A (11-question real past-paper set)" }
+  ],
+  "researchNotes": "One direct real hit plus an 11-question web-sourced set drawn from real past papers across multiple TNPSC exam tiers. Good spread across instruments (psychrometer), climate causes (continental climate, meso-thermal zones), and named weather events (cyclone naming, Chinook winds).",
+  "reading": {
+    "intro": "Second sub-topic of Geography Unit II. Real exam evidence favors specific named facts (instrument names, place names, named cyclones) over general monsoon theory — know the specifics.",
+    "qa": [
+      { "id": "r01", "question": "Real exam (Assertion-Reason): \"The eastern coast of India is affected by tropical cyclones more than the western coast.\" Is the reason \"tropical cyclones form only in the Bay of Bengal\" correct?", "answer": "The Assertion is TRUE (the eastern/Bay-of-Bengal-facing coast is indeed hit harder), but the Reason is FALSE — cyclones form in both the Bay of Bengal AND the Arabian Sea, just more frequently and intensely in the Bay of Bengal (due to warmer sea surface temperatures and wind patterns there)." },
+      { "id": "r02", "question": "A sudden fall in barometer reading indicates what kind of weather is coming?", "answer": "A storm." },
+      { "id": "r03", "question": "Which instrument measures humidity?", "answer": "A Psychrometer (not a hydrometer, altimeter, or radiometer — those measure liquid density, altitude, and radiation respectively)." },
+      { "id": "r04", "question": "What causes North India's continental climate (large temperature swings between seasons)?", "answer": "Its location far away from the moderating influence of the seas — not sun-ray angle or simply being on plains." },
+      { "id": "r05", "question": "Where in India do you find a Meso-thermal climate?", "answer": "The Gangetic plain." },
+      { "id": "r06", "question": "Which Indian states are most affected by tropical cyclones?", "answer": "Odisha and Andhra Pradesh (on the Bay of Bengal coast)." },
+      { "id": "r07", "question": "Where is the highest temperature in India typically recorded?", "answer": "Ganga Nagar (Rajasthan)." },
+      { "id": "r08", "question": "Which cyclone is nicknamed the 'Quirky Cyclone'?", "answer": "Cyclone Gaja." },
+      { "id": "r09", "question": "Where does the Chinook wind blow?", "answer": "North America." },
+      { "id": "r10", "question": "At what wind speed does the World Meteorological Organisation officially recognize a storm as a cyclone?", "answer": "Exceeding 63 kph." },
+      { "id": "r11", "question": "What are 'Twisters' otherwise known as, and what are winds that blow from one fixed direction all year called?", "answer": "Twisters = Tornadoes. Winds blowing consistently from one direction year-round are called Planetary winds (distinct from seasonal Monsoon winds or Trade winds)." },
+      { "id": "r12", "question": "Which place in India/world receives the highest rainfall, and what share of India's total rainfall comes from the Southwest Monsoon?", "answer": "Mawsynram (Meghalaya) receives the highest rainfall in the world (~1,141 cm annually). The Southwest Monsoon accounts for roughly 75% of India's total rainfall." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "A sudden fall in barometer reading most likely indicates approaching:", "options": ["Clear weather", "Rain", "A storm", "An earthquake"], "correctIndex": 2, "explanation": "A storm.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Which instrument is used to measure humidity?", "options": ["Hydrometer", "Altimeter", "Psychrometer", "Radiometer"], "correctIndex": 2, "explanation": "Psychrometer.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "North India's continental-type climate (large seasonal temperature swings) is mainly due to:", "options": ["Vertical sun rays", "Its location far from the sea", "Its flat plains", "High altitude"], "correctIndex": 1, "explanation": "Distance from the moderating influence of the seas.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which Indian states are most affected by tropical cyclones?", "options": ["Tamil Nadu and Kerala", "Odisha and Andhra Pradesh", "Karnataka and Odisha", "Kerala and Karnataka"], "correctIndex": 1, "explanation": "Odisha and Andhra Pradesh.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Cyclones in the Bay of Bengal and Arabian Sea form only in the Bay of Bengal — true or false?", "options": ["True — Arabian Sea cyclones don't occur", "False — cyclones form in both, just more often in the Bay of Bengal", "True, but only in winter", "False — they only form in the Arabian Sea"], "correctIndex": 1, "explanation": "Cyclones form in both seas; the Bay of Bengal simply sees them more frequently/intensely.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The Chinook wind is associated with which region?", "options": ["Africa", "Thailand", "North America", "Russia"], "correctIndex": 2, "explanation": "North America.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Per the World Meteorological Organisation, a storm is classified as a cyclone once wind speed exceeds:", "options": ["50 kph", "63 kph", "75 kph", "100 kph"], "correctIndex": 1, "explanation": "63 kph.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "'Twisters' is another name for:", "options": ["Tsunamis", "Landslides", "Earthquakes", "Tornadoes"], "correctIndex": 3, "explanation": "Tornadoes.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "Winds that blow consistently from one direction throughout the year are called:", "options": ["Monsoon winds", "Trade winds", "Planetary winds", "Polar winds"], "correctIndex": 2, "explanation": "Planetary winds.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Which place receives the highest rainfall in the world?", "options": ["Cherrapunji", "Mawsynram", "Shillong", "Darjeeling"], "correctIndex": 1, "explanation": "Mawsynram, Meghalaya.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

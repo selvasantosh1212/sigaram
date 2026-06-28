@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-poem-house-on-elm-street",
+  "unitId": "C-VII",
+  "name": "Poem: \"The House on Elm Street\" — Naida Bush",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" }
+  ],
+  "researchNotes": "OCR index search for 'house on elm street/naida bush' returned zero hits — no past-paper evidence, web research only (matches the pattern of several other less-tested Unit VII poems). NOTE: the source site itself spells the author 'Nadia Bush' in its own question text while the TNPSC syllabus PDF spells it 'Naida Bush' — a name-spelling discrepancy similar to other name-confusion traps already flagged elsewhere in this project; using the syllabus's official spelling 'Naida Bush' as authoritative, but flagging the variant since a real exam's options may use either spelling. No full poem text or textbook source was available locally to verify the literary analysis directly (same limitation as other poems with no local English-medium textbook) — content below is reconstructed entirely from the two coaching-site MCQ sets' question+answer pairs, all of which are internally consistent with each other on theme/imagery.",
+  "reading": {
+    "intro": "A poem describing an isolated, eerie, possibly haunted house, told through a narrator who feels both curiosity and fear. Real coaching-site evidence focuses on (a) the house's physical description and atmosphere, (b) the narrator's emotional reaction, and (c) figures of speech describing the house as if alive.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The House on Elm Street\", and what is the poem's central theme?", "answer": "Naida Bush (spelled 'Nadia Bush' on some coaching sites — syllabus spelling 'Naida Bush' is authoritative). Central theme: a mysterious, isolated house that feels eerie and almost alive, exploring how the unknown provokes a mix of curiosity and fear in an observer." },
+      { "id": "r02", "question": "How is the house's isolation and emptiness described?", "answer": "\"It sat alone\" — describing the house as lonely and isolated, set apart from other buildings. \"Bare to the bone\" describes it as completely empty or lifeless, stripped of any warmth or occupants." },
+      { "id": "r03", "question": "What dominant emotion does the poet/narrator express toward the house?", "answer": "Curiosity mixed with fear — the narrator is drawn to investigate the mysterious house but is simultaneously afraid, and per the poem, fear ultimately overtakes curiosity (the narrator does not enter)." },
+      { "id": "r04", "question": "What unnatural/spooky details does the poem use to bring the house 'to life'?", "answer": "Lights that flicker on and off (suggesting something unnatural rather than a simple power outage); the house seeming 'a bit brighter' in summer (around May); and a tree beside the house that strangely never grows or sheds its leaves — all small unnatural details that build an eerie atmosphere." },
+      { "id": "r05", "question": "What does the line \"It plays with your mind\" suggest?", "answer": "Psychological/mental unease and confusion — the house's effect is described as primarily a mental or emotional disturbance rather than a physical threat." },
+      { "id": "r06", "question": "Identify the figure of speech: \"At night the house seems to be alive.\"", "answer": "Personification — attributing life/animation to the inanimate house." },
+      { "id": "r07", "question": "Identify the figure of speech: \"The house seems to be a bit brighter\" (in the context of describing the house's mood/behaviour changing with the season).", "answer": "Personification — again attributing a living, changeable quality (mood/appearance shifting like a living thing) to the house." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The House on Elm Street\" was written by:", "options": ["Jane Taylor", "Naida Bush", "L.M. Montgomery", "Emily Dickinson"], "correctIndex": 1, "explanation": "Naida Bush (per the TNPSC syllabus spelling; some sources spell it 'Nadia Bush').", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The central theme of the poem is:", "options": ["A peaceful village", "A mysterious, possibly haunted house", "A family gathering", "A natural disaster"], "correctIndex": 1, "explanation": "A mysterious haunted house.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What dominant emotion does the narrator express toward the house?", "options": ["Anger", "Joy", "Curiosity mixed with fear", "Boredom"], "correctIndex": 2, "explanation": "Curiosity mixed with fear.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"It sat alone\" implies that the house is:", "options": ["In a busy town", "Lonely and isolated", "Overcrowded", "A guest house"], "correctIndex": 1, "explanation": "Lonely and isolated.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "The phrase \"bare to the bone\" (describing the house) means:", "options": ["Full of bones", "Very strong", "Completely empty or lifeless", "Covered in skin"], "correctIndex": 2, "explanation": "Completely empty or lifeless.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Why does the narrator ultimately not enter the house?", "options": ["There are dogs inside", "It is guarded by someone", "Fear overtakes curiosity", "She has no time"], "correctIndex": 2, "explanation": "Fear overtakes curiosity.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "\"Lights flicker on and off\" in the poem creates an image of:", "options": ["A simple power outage", "Normal home life", "Something unnatural and spooky", "Traffic signals"], "correctIndex": 2, "explanation": "Something unnatural and spooky.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What is strange about the tree beside the house?", "options": ["It has golden leaves", "It grows sideways", "It never grows or sheds its leaves", "It talks to the house"], "correctIndex": 2, "explanation": "It never grows or sheds its leaves.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "\"It plays with your mind\" refers to:", "options": ["Physical tricks", "Confusion and mental unease", "Educational games", "Hallucination caused by drugs"], "correctIndex": 1, "explanation": "Confusion and mental unease.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "\"At night the house seems to be alive\" is an example of which figure of speech?", "options": ["Simile", "Irony", "Personification", "Alliteration"], "correctIndex": 2, "explanation": "Personification.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

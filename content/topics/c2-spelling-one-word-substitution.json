@@ -1,0 +1,34 @@
+{
+  "topicId": "c2-spelling-one-word-substitution",
+  "unitId": "C-II",
+  "name": "Vocabulary: Spelling, Correct Usage, and One-Word Substitution",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 17 Q30 (Bourgeoisie spelling, stashed earlier, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC One Word Substitution MCQ set" }
+  ],
+  "researchNotes": "Fourth Vocabulary topic, combining two related syllabus sub-bullets (Spelling/Correct Usage and One-Word Substitution) since each individually had modest evidence. One-word substitutions for 'belief about God' (theist/agnostic/atheist) are a classic confusable cluster worth knowing precisely.",
+  "reading": {
+    "intro": "Covers correct spelling of tricky words and one-word substitutions — replacing a descriptive phrase with a single precise word, a format TNPSC tests heavily, especially around belief-systems and power/knowledge-related words.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What is the correct spelling for \"a class of people in society interested mainly in having more money and a higher social position\"?", "answer": "BOURGEOISIE — not 'Bourgeiose', 'Borgieoise', or 'Bourgeoise', confirmed by a real exam question." },
+      { "id": "r02", "question": "What is the one word for a person who knows EVERYTHING, versus a person who is ALL-POWERFUL?", "answer": "OMNISCIENT = a person who knows everything (all-knowing). OMNIPOTENT = a person who is all-powerful — these two are commonly confused with each other since both start with 'omni-'." },
+      { "id": "r03", "question": "What is the one word for a person who BELIEVES in the existence of God, versus one who DOUBTS it, versus one who DENIES it entirely?", "answer": "THEIST = believes in the existence of God. AGNOSTIC = doubts/is uncertain about the existence of God (neither affirms nor denies). ATHEIST = denies/disbelieves in the existence of God entirely — a classic three-way confusable cluster." },
+      { "id": "r04", "question": "What is the one word for a person who opposes war and violence?", "answer": "PACIFIST." },
+      { "id": "r05", "question": "What is the one word for a place where weapons are kept?", "answer": "ARSENAL (not 'cellar', 'larder', or 'pantry' — those store food/wine, not weapons)." },
+      { "id": "r06", "question": "What are the one-word substitutions for 'a person who loves mankind' and 'an annual publication with important dates/astronomical data'?", "answer": "PHILANTHROPIST = a person who loves mankind (typically shown through charitable giving). ALMANAC = an annual calendar/publication containing important dates and statistical/astronomical data." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Identify the correct spelling for 'a class of people interested mainly in money and social status':", "options": ["Bourgeiose", "Borgieoise", "Bourgeoisie", "Bourgeoise"], "correctIndex": 2, "explanation": "Bourgeoisie.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "What do you call a person who knows everything?", "options": ["Omnipotent", "Omniscient", "Omnipresent", "Scholar"], "correctIndex": 1, "explanation": "Omniscient.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What is the one word for a person who is all-powerful?", "options": ["Omniscient", "Almighty", "Omnipotent", "Intellectual"], "correctIndex": 2, "explanation": "Omnipotent.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What is the one word for a person who believes in the existence of God?", "options": ["Atheist", "Agnostic", "Pessimist", "Theist"], "correctIndex": 3, "explanation": "Theist.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What is the one word for a person who doubts the existence of God (neither affirms nor denies)?", "options": ["Pessimist", "Agnostic", "Realist", "Optimist"], "correctIndex": 1, "explanation": "Agnostic.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Choose the correct one word for a person who opposes war and violence:", "options": ["Activist", "Pacifist", "Terrorist", "Pessimist"], "correctIndex": 1, "explanation": "Pacifist.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "What is the one word for a place where weapons are kept?", "options": ["Arsenal", "Cellar", "Larder", "Pantry"], "correctIndex": 0, "explanation": "Arsenal.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What is the one word for a person who loves mankind?", "options": ["Philosopher", "Philanthropist", "Patriot", "Pacifist"], "correctIndex": 1, "explanation": "Philanthropist.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "What is the one word for an annual publication containing important dates and astronomical/statistical data?", "options": ["Almanac", "Anthology", "Periodical", "Gazette"], "correctIndex": 0, "explanation": "Almanac.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

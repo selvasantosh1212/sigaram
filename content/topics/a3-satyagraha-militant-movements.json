@@ -1,0 +1,35 @@
+{
+  "topicId": "a3-satyagraha-militant-movements",
+  "unitId": "A-III",
+  "name": "Different Modes of Agitation: Growth of Satyagraha and Militant Movements",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2026_q page 90 Q110 (Satyagraha-location matching: Vaikom/Bardoli/Neil Statue/Simon Commission, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 24 Q30 (Periyar's chronology incl. organizing Vaikom Satyagraha, with answer key)" },
+    { "type": "question-bank", "label": "2022_q page 9 Q31 (Gandhi's influence — Ruskin's 'Unto This Last', with answer key)" },
+    { "type": "web-research", "label": "Chauri Chaura incident, Dandi March/Salt Satyagraha, Quit India Movement — standard well-established history" }
+  ],
+  "researchNotes": "8th topic of Unit III. 3 real hits, including a genuinely useful 'match the Satyagraha to its location' question covering 4 different named Satyagrahas in one go. Cross-references Day 22's Periyar content (he organized the Vaikom Satyagraha) without repeating it verbatim.",
+  "reading": {
+    "intro": "This topic covers the SPECTRUM of resistance — from Gandhi's non-violent Satyagraha (tested via specific named campaigns and their locations) to the militant/revolutionary strand (already covered via Bhagat Singh's HSRA in Day 22). Real exam evidence favors matching named Satyagrahas to their locations.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Match these movements to their locations — arrival of Simon Commission protest, No-Tax movement, Temple-entry movement, Neil Statue Satyagraha.", "answer": "Simon Commission protest → Bombay. No-Tax movement → Bardoli (the Bardoli Satyagraha, 1928, against an unjust land-revenue hike). Temple-entry movement → Vaikom (the Vaikom Satyagraha, 1924-25, for lower-caste temple-road access). Neil Statue Satyagraha → Chennai (a TN-specific protest against a colonial-era statue)." },
+      { "id": "r02", "question": "Real exam: Who organized the Vaikom Satyagraha, and where does this fit in his career chronology?", "answer": "Thanthai Periyar organized it — chronologically, after he joined Congress but before he became president of the Tamil Nadu Congress Committee, and well before he later founded/led the Justice Party phase of his career." },
+      { "id": "r03", "question": "Real exam: Which book influenced Mahatma Gandhi's thinking?", "answer": "John Ruskin's 'Unto This Last' (an economics/social-critique work that shaped Gandhi's ideas on simple living and economic justice, feeding into his broader Satyagraha philosophy)." },
+      { "id": "r04", "question": "What was the Chauri Chaura incident (1922), and what was its consequence?", "answer": "A violent clash on 4 February 1922 in Chauri Chaura (Gorakhpur district) during the Non-Cooperation Movement, where a mob killed 22 policemen. Gandhi held this violated the movement's non-violence pledge and called off the Non-Cooperation Movement as a result, believing the masses weren't yet sufficiently disciplined in Satyagraha." },
+      { "id": "r05", "question": "What was the Dandi March (Salt Satyagraha), and what did it trigger?", "answer": "A 240-mile, 24-day non-violent march (12 March - 5 April 1930) led by Gandhi and 78 followers from Sabarmati Ashram to the coastal village of Dandi, Gujarat. On 6 April, Gandhi symbolically broke the Salt Act by making salt from seawater — this triggered the broader Civil Disobedience Movement, leading to over 60,000 arrests including Gandhi's own (5 May 1930)." },
+      { "id": "r06", "question": "What was the Quit India Movement (1942)?", "answer": "A mass uprising launched by Gandhi and Congress during World War II, demanding immediate British withdrawal ('Quit India'). Planned as non-violent, it turned violent in places after the British arrested Congress leaders almost immediately." },
+      { "id": "r07", "question": "How does the 'militant movements' strand differ from Satyagraha, and what's a key example already covered?", "answer": "Militant/revolutionary nationalism rejected strict non-violence, favoring direct action (including armed resistance) against British rule — e.g., Bhagat Singh's Hindustan Socialist Republican Association (HSRA, covered in the Leaders II topic), which carried out the Saunders assassination and was tried in the Lahore Conspiracy Case." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Vaikom Satyagraha (temple-entry movement) took place in:", "options": ["Bombay", "Bardoli", "Vaikom", "Chennai"], "correctIndex": 2, "explanation": "Vaikom (Kerala).", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Bardoli Satyagraha is best known as a:", "options": ["Temple-entry movement", "No-tax movement against an unjust revenue hike", "Anti-statue protest", "Anti-Simon-Commission protest"], "correctIndex": 1, "explanation": "A no-tax movement (1928), against a land-revenue increase.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Who organized the Vaikom Satyagraha?", "options": ["Mahatma Gandhi", "Thanthai Periyar", "C. Rajagopalachari", "Bhagat Singh"], "correctIndex": 1, "explanation": "Thanthai Periyar.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which book by John Ruskin influenced Mahatma Gandhi's thinking?", "options": ["Unto This Last", "The Stones of Venice", "Modern Painters", "Sesame and Lilies"], "correctIndex": 0, "explanation": "Unto This Last.", "sourceTag": "question-bank-2022", "difficulty": "hard" },
+      { "id": "m05", "prompt": "The Chauri Chaura incident (1922) directly led Gandhi to:", "options": ["Launch the Quit India Movement", "Call off the Non-Cooperation Movement", "Begin the Dandi March", "Found the Indian National Army"], "correctIndex": 1, "explanation": "He called off the Non-Cooperation Movement.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The Dandi March (1930) directly protested which British law?", "options": ["The Rowlatt Act", "The Salt Act", "The Vernacular Press Act", "The Arms Act"], "correctIndex": 1, "explanation": "The Salt Act of 1882.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "The Quit India Movement (1942) was launched during which global conflict?", "options": ["World War I", "World War II", "The Korean War", "The Sino-Indian War"], "correctIndex": 1, "explanation": "World War II.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

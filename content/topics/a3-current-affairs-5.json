@@ -1,0 +1,27 @@
+{
+  "topicId": "a3-current-affairs-5",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (5): 86th Anniversary of the Forward Bloc's Nagpur Conference",
+  "sourceRefs": [
+    { "type": "web-research", "label": "insightsonindia.com/vajiramandravi.com - 86th-anniversary commemoration (June 2026) of the All India Forward Bloc's first plenary conference, Nagpur, June 1940" }
+  ],
+  "researchNotes": "Fifth History/National-Movement current-affairs topic (5th lap), in the same style as the Day-74 Vande Mataram anniversary topic — a dated commemoration anchoring a deep dive into real National Movement history. Note: sources disagree on the exact conference dates (18-22 June vs. 20-22 June 1940) — flagged transparently rather than presenting false precision.",
+  "reading": {
+    "intro": "Covers the All India Forward Bloc's founding and its first plenary conference at Nagpur (June 1940) — marking its 86th anniversary in June 2026.",
+    "qa": [
+      { "id": "r01", "question": "Who founded the All India Forward Bloc, and when?", "answer": "Subhas Chandra Bose, in May 1939 — after he resigned as Indian National Congress President (following conflict with the Gandhian leadership after the Tripuri Congress session) and formed Forward Bloc initially as a left-wing faction within the Congress." },
+      { "id": "r02", "question": "Where and when was the Forward Bloc's first plenary conference held, marking its 86th anniversary in 2026?", "answer": "At Nagpur, in June 1940 (sources vary on the exact dates — either 18-22 or 20-22 June 1940)." },
+      { "id": "r03", "question": "What was the significance of the Nagpur plenary conference for the Forward Bloc?", "answer": "It transformed the Forward Bloc from a Congress faction into an INDEPENDENT socialist political party, committed to a militant, anti-imperialist programme." },
+      { "id": "r04", "question": "What was the key resolution/slogan that emerged from the Nagpur conference?", "answer": "The resolution 'All Power to the Indian People' — Bose's rallying cry moving past standard constitutional demands toward urging militant action against British colonial rule." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The All India Forward Bloc was founded by Subhas Chandra Bose in:", "options": ["1937", "1939", "1940", "1942"], "correctIndex": 1, "explanation": "May 1939.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Forward Bloc's first plenary conference (its 86th anniversary fell in June 2026) was held at:", "options": ["Nagpur", "Lucknow", "Haripura", "Tripuri"], "correctIndex": 0, "explanation": "Nagpur, June 1940.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Nagpur plenary conference (June 1940) transformed the Forward Bloc into:", "options": ["A wing of the Muslim League", "An independent socialist, anti-imperialist political party", "A purely cultural organisation", "A British-recognised constitutional body"], "correctIndex": 1, "explanation": "An independent socialist, anti-imperialist political party.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What rallying resolution emerged from the Nagpur conference?", "options": ["Do or Die", "All Power to the Indian People", "Swaraj is my birthright", "Inquilab Zindabad"], "correctIndex": 1, "explanation": "All Power to the Indian People.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Subhas Chandra Bose resigned as Congress President and formed the Forward Bloc following conflict after which Congress session?", "options": ["Lahore session", "Tripuri session", "Haripura session", "Karachi session"], "correctIndex": 1, "explanation": "Tripuri Congress session.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "topicId": "a2-current-affairs-7",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography of India (7): The Delhi-Dehradun Expressway & India's Expressway Network",
+  "sourceRefs": [
+    { "type": "web-research", "label": "blackridgeresearch.com/studyiq.com - Delhi-Dehradun Expressway inauguration (14 April 2026); India's expressway network status (April 2026); Delhi-Mumbai Expressway" }
+  ],
+  "researchNotes": "Seventh Geography current-affairs topic (7th lap). Picked a dated infrastructure INAUGURATION (stable, fixed fact) over the monsoon/rainfall forecast data found in initial research — forecasts are exactly the kind of volatile, soon-to-be-outdated statistic flagged as lower-priority since Day 58.",
+  "reading": {
+    "intro": "Covers the newly inaugurated Delhi-Dehradun Expressway and the broader status of India's expressway network.",
+    "qa": [
+      { "id": "r01", "question": "When was the Delhi-Dehradun Expressway inaugurated, and by whom?", "answer": "14 April 2026, by Prime Minister Narendra Modi." },
+      { "id": "r02", "question": "How long is the Delhi-Dehradun Expressway, and how much does it reduce travel time to?", "answer": "210 km, reducing Delhi-Dehradun travel time to just 2.5 hours." },
+      { "id": "r03", "question": "What are some key engineering features of the Delhi-Dehradun Expressway?", "answer": "6 entry/exit points, 113 underpasses, 76 km of service roads, 29 km of elevated highways, 5 Road-Over-Bridges (ROBs), and 62 bus shelters." },
+      { "id": "r04", "question": "As of April 2026, what is the total length of India's completed expressway network, and how much more is under construction?", "answer": "7,332 km completed; 11,127.69 km under construction." },
+      { "id": "r05", "question": "What is the Delhi-Mumbai Expressway, and what will it achieve once fully complete?", "answer": "India's most ambitious road project — 1,350 km, costing ₹1,00,000 crore — which will cut Delhi-Mumbai travel time from ~24 hours to just 12 hours once fully complete (partially opened in phases since 2023)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Delhi-Dehradun Expressway was inaugurated on:", "options": ["14 February 2026", "14 March 2026", "14 April 2026", "14 May 2026"], "correctIndex": 2, "explanation": "14 April 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Delhi-Dehradun Expressway is approximately how long, and reduces travel time to:", "options": ["150 km, 2 hours", "210 km, 2.5 hours", "280 km, 4 hours", "350 km, 5 hours"], "correctIndex": 1, "explanation": "210 km, 2.5 hours.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "As of April 2026, India's total COMPLETED expressway network length is approximately:", "options": ["5,332 km", "6,332 km", "7,332 km", "9,332 km"], "correctIndex": 2, "explanation": "7,332 km.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The Delhi-Mumbai Expressway, India's most ambitious road project, is approximately how long?", "options": ["850 km", "1,050 km", "1,350 km", "1,650 km"], "correctIndex": 2, "explanation": "1,350 km.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Once fully complete, the Delhi-Mumbai Expressway will cut travel time from ~24 hours to:", "options": ["8 hours", "10 hours", "12 hours", "15 hours"], "correctIndex": 2, "explanation": "12 hours.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

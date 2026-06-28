@@ -1,0 +1,28 @@
+{
+  "topicId": "a6-current-affairs-9",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History/Culture/Heritage (9): Smithsonian's Return of 3 Chola/Vijayanagar Bronzes",
+  "sourceRefs": [
+    { "type": "web-research", "label": "opindia.com/si.edu - Smithsonian National Museum of Asian Art's repatriation of 3 South Indian bronze sculptures to India, announced 28 January 2026" }
+  ],
+  "researchNotes": "Eleventh TN-Culture-unit current-affairs topic (9th lap), completing Part A's 9th full rotation. A genuinely significant heritage-repatriation story directly tied to Tamil Nadu temples, with precise provenance research (exact temple names, photograph dates) — strong, concrete content.",
+  "reading": {
+    "intro": "Covers the Smithsonian's January 2026 repatriation of 3 ancient South Indian bronze sculptures, originally from Tamil Nadu temples, back to India.",
+    "qa": [
+      { "id": "r01", "question": "When did the Smithsonian's National Museum of Asian Art announce the return of 3 bronze sculptures to India?", "answer": "28 January 2026." },
+      { "id": "r02", "question": "Name the 3 sculptures, their periods, and original Tamil Nadu temple locations.", "answer": "1. Shiva Nataraja (c. 990 AD, Chola period) — from Shir Bhava Aushadesvara Temple, Tiruttuiraippundi. 2. Somaskanda (12th century, Chola period) — from Visvanatha Temple, Alattur village, Mannarkudi taluk. 3. Saint Sundarar with Paravai (16th century, Vijayanagar period) — from a Shiva Temple, Veerasolapuram village, Kallakurichi taluk." },
+      { "id": "r03", "question": "How was the provenance of these sculptures confirmed?", "answer": "Through temple photographs taken between 1956-1959 (Nataraja: 1957; Somaskanda: 1959; Saint Sundarar: 1956), researched in collaboration with the Photo Archives of the French Institute of Pondicherry." },
+      { "id": "r04", "question": "How did these sculptures originally enter the Smithsonian's collection?", "answer": "The Nataraja entered in 2002 via the Doris Wiener Gallery using FORGED provenance documents. The Somaskanda and Saint Sundarar arrived in 1987 as part of a 1,000-object donation by Arthur M. Sackler, with unclear acquisition histories." },
+      { "id": "r05", "question": "What are the terms of the Nataraja's return specifically?", "answer": "Ownership formally reverts to India, but the Nataraja will remain on LONG-TERM LOAN to the Smithsonian under a shared-stewardship arrangement — displayed alongside information about its origins, removal, and repatriation." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Smithsonian announced the return of 3 South Indian bronze sculptures to India on:", "options": ["28 December 2025", "28 January 2026", "28 February 2026", "28 March 2026"], "correctIndex": 1, "explanation": "28 January 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Shiva Nataraja bronze being returned dates to approximately which period?", "options": ["Pallava period, 7th century", "Chola period, c. 990 AD", "Vijayanagar period, 16th century", "Pandya period, 13th century"], "correctIndex": 1, "explanation": "Chola period, c. 990 AD.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "How was the provenance of these bronzes confirmed as originating from Tamil Nadu temples?", "options": ["DNA testing of the metal", "Temple photographs from 1956-1959", "Sanskrit inscriptions on the statues", "Carbon dating only"], "correctIndex": 1, "explanation": "Temple photographs from 1956-1959.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "How did the Shiva Nataraja bronze enter the Smithsonian's collection in 2002?", "options": ["Direct purchase from the Government of India", "Via the Doris Wiener Gallery using forged provenance documents", "As a diplomatic gift", "Through a public auction"], "correctIndex": 1, "explanation": "Via the Doris Wiener Gallery, using forged provenance documents.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Under the return terms, the Nataraja bronze will:", "options": ["Be destroyed", "Remain on long-term loan to the Smithsonian under shared stewardship, with ownership reverted to India", "Be sold to a private collector", "Never be displayed again"], "correctIndex": 1, "explanation": "Remain on long-term loan with ownership reverted to India.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

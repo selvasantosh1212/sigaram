@@ -1,0 +1,26 @@
+{
+  "topicId": "b2-alphanumeric-reasoning",
+  "unitId": "B-II",
+  "name": "Alphanumeric Reasoning",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 6 real alphanumeric reasoning questions" }
+  ],
+  "researchNotes": "6 sourced questions, but 2 (the underscore/blank-fill alphabet series) couldn't be transcribed unambiguously from the source's blank-notation, so only the 3 cleanly verifiable ones are used directly, each independently re-verified by hand before inclusion: the letter-position-sum coding (ACEG=16 confirmed via A+C+E+G=1+3+5+7=16), the widening-gap letter sequence (B,E,I,N,? confirmed via gaps +3,+4,+5,+6), and the fixed-shift word coding (ROAD→URDG confirmed as a uniform +3 letter shift). All three are presented with their verification shown, not just asserted.",
+  "reading": {
+    "intro": "Alphanumeric Reasoning is 1 of 6 named Reasoning skills, combining letters and numbers in a single pattern. Real exam evidence (independently re-verified) shows three core techniques: letter-to-number position coding, variable-gap letter sequences, and fixed-shift word ciphers.",
+    "qa": [
+      { "id": "r01", "question": "Method — letter-to-number position coding: If ACEG is coded as 16, and DFGH is coded as 25, how would HIKM be coded?", "answer": "Each letter is converted to its position in the alphabet (A=1, B=2, ... Z=26) and summed. ACEG: A=1,C=3,E=5,G=7, sum=16 ✓. DFGH: D=4,F=6,G=7,H=8, sum=25 ✓. Applying the same rule to HIKM: H=8,I=9,K=11,M=13, sum=8+9+11+13=41." },
+      { "id": "r02", "question": "Method — widening-gap letter sequence: Find the next letter: B, E, I, N, ?", "answer": "Check the gaps between consecutive letters' positions: B(2)→E(5) is +3, E(5)→I(9) is +4, I(9)→N(14) is +5. The gap itself increases by 1 each time, so the next gap is +6: N(14)+6=20, which is T." },
+      { "id": "r03", "question": "Method — fixed-shift word coding (Caesar-cipher style): If ROAD is coded as URDG, how would SWAN be coded using the same rule?", "answer": "Check the shift for each letter: R→U is +3, O→R is +3, A→D is +3, D→G is +3 — a uniform +3 shift applied to every letter. Applying the same +3 shift to SWAN: S→V, W→Z, A→D, N→Q, giving VZDQ." },
+      { "id": "r04", "question": "Method — two-interleaved-sequences letter pair: A pattern alternates first-letters increasing by a fixed gap and second-letters decreasing by the same gap (e.g., AZ, GT, MN, ?, YB). How do you solve it?", "answer": "Track the two positions (first letter, second letter) as SEPARATE sequences. First letters: A(1),G(7),M(13) — increasing by 6 each time, so next is 19=S, then 25=Y (matches the given final term Y). Second letters: Z(26),T(20),N(14) — decreasing by 6 each time, so next is 8=H, then 2=B (matches the given final term B). So the missing term is S+H = 'SH'." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "If BDFH is coded as 20 (sum of letter positions), what would CEGI be coded as using the same rule?", "options": ["22", "24", "26", "28"], "correctIndex": 1, "explanation": "C=3,E=5,G=7,I=9, sum=24. (Check rule: B=2,D=4,F=6,H=8, sum=20 ✓ matches given.)", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Find the next letter in the sequence: C, F, J, O, ?", "options": ["S", "T", "U", "V"], "correctIndex": 2, "explanation": "Gaps: C(3)→F(6) is +3, F(6)→J(10) is +4, J(10)→O(15) is +5, so next gap is +6: O(15)+6=21=U.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m03", "prompt": "If PLAN is coded as SODQ using a fixed letter shift, how would TRIM be coded using the same rule?", "options": ["WULP", "WUKP", "VULP", "WULO"], "correctIndex": 0, "explanation": "Shift check: P→S, L→O, A→D, N→Q — a uniform +3 shift. Applying +3 to TRIM: T→W, R→U, I→L, M→P, giving WULP.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m04", "prompt": "In the sequence DY, IT, NO, ?, XE, the first letters increase and second letters decrease by a fixed gap. What is the missing term?", "options": ["SJ", "SI", "TJ", "RJ"], "correctIndex": 0, "explanation": "First letters: D(4),I(9),N(14) — gap +5, so next is 19=S, then 24=X (matches given X). Second letters: Y(25),T(20),O(15) — gap −5, so next is 10=J, then 5=E (matches given E). Missing term: SJ.", "sourceTag": "authored", "difficulty": "hard" }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "topicId": "a2-current-affairs-8",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography of India (8): Noida International Airport (Jewar)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "en.wikipedia.org/jewarairportonline.com - Noida International Airport (Jewar) inauguration (28 March 2026), first commercial flight (15 June 2026), capacity and expansion plans" }
+  ],
+  "researchNotes": "Eighth Geography current-affairs topic (8th lap). A dated, fixed inauguration fact rather than a volatile statistic — and a useful third major-airport addition to the Delhi-NCR region alongside the already well-known Indira Gandhi International Airport.",
+  "reading": {
+    "intro": "Covers India's newest major airport, Noida International Airport at Jewar — its location, capacity, and 2026 launch timeline.",
+    "qa": [
+      { "id": "r01", "question": "Where is Noida International Airport located, and what is its IATA code?", "answer": "At Jewar, in the Gautam Buddha Nagar district of Uttar Pradesh — along the Yamuna Expressway, about 72 km south-east of New Delhi. IATA code: DXN." },
+      { "id": "r02", "question": "When was the airport's first phase inaugurated, and when did commercial operations begin?", "answer": "Inaugurated 28 March 2026; commercial operations began 15 June 2026, with an IndiGo flight (6E 2278) from Lucknow as the first flight to land." },
+      { "id": "r03", "question": "What is the airport's first-phase passenger capacity, and its long-term target?", "answer": "12 million passengers annually in Phase I, rising to 70 million by 2050 (across all phases)." },
+      { "id": "r04", "question": "What expansion is planned for Phase III?", "answer": "A second runway (4,150 metres long), Terminal 2, and a Ground Transportation Centre." },
+      { "id": "r05", "question": "Who is developing and operating Noida International Airport, and what is its role for Delhi-NCR?", "answer": "Zurich Airport International AG — serving as a THIRD airport for the Delhi-NCR region, alongside Indira Gandhi International Airport." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Noida International Airport is located at Jewar, in which state?", "options": ["Haryana", "Uttar Pradesh", "Delhi", "Rajasthan"], "correctIndex": 1, "explanation": "Uttar Pradesh (Gautam Buddha Nagar district).", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Noida International Airport's first phase was inaugurated on:", "options": ["28 January 2026", "28 February 2026", "28 March 2026", "28 April 2026"], "correctIndex": 2, "explanation": "28 March 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Noida International Airport's Phase I passenger capacity is 12 million annually, rising to how much by 2050?", "options": ["30 million", "50 million", "70 million", "100 million"], "correctIndex": 2, "explanation": "70 million.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Who is developing and operating Noida International Airport?", "options": ["Adani Group", "GMR Group", "Zurich Airport International AG", "DIAL"], "correctIndex": 2, "explanation": "Zurich Airport International AG.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Noida International Airport's IATA code is:", "options": ["NIA", "JWR", "DXN", "NDA"], "correctIndex": 2, "explanation": "DXN.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

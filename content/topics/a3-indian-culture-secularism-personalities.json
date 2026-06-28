@@ -1,0 +1,32 @@
+{
+  "topicId": "a3-indian-culture-secularism-personalities",
+  "unitId": "A-III",
+  "name": "Characteristics of Indian Culture & Unity in Diversity; India as a Secular State & Social Harmony; Prominent Personalities",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 98 Q163 (Fundamental Duty on composite culture, with answer key)" },
+    { "type": "web-research", "label": "standard reference facts on Unity in Diversity, secularism, composite culture, and named figures in arts/science/literature/philosophy" }
+  ],
+  "researchNotes": "Final topic of Unit III, combining three short remaining syllabus clauses into one (each alone was too thin for a full day). This completes ALL 11 of Part A Unit III's planned topics. Only one direct real hit found, but it's a useful cross-link: preserving 'rich heritage of composite culture' is explicitly a Fundamental Duty (Article 51-A(f)), tying this cultural topic directly to the Constitution.",
+  "reading": {
+    "intro": "The final Unit III topic, wrapping up three short clauses: India's cultural characteristics/diversity, its secular character, and notable figures across arts/science/literature/philosophy (several already covered as 'leaders' — this section adds non-political figures).",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Which of these IS a genuine Fundamental Duty — preserving the rich heritage of composite culture, or safeguarding private property?", "answer": "Preserving the rich heritage of composite culture (Article 51-A(f)) is a genuine Fundamental Duty. 'Safeguarding private property' is NOT — property was removed as a Fundamental RIGHT (now just a legal right, Article 300-A) and was never a Fundamental Duty either." },
+      { "id": "r02", "question": "What does 'Unity in Diversity' mean, in the Indian context?", "answer": "Maintaining a sense of oneness and solidarity DESPITE wide differences in religion, language, culture, caste, region, and lifestyle — the idea that this diversity enriches the nation rather than dividing it." },
+      { "id": "r03", "question": "In what sense is India a 'secular state'?", "answer": "Multiple faiths — Hindu, Muslim, Christian, Sikh, Buddhist, Jain, and others — coexist, with the state not favoring any one religion, allowing each community to practice its own traditions freely." },
+      { "id": "r04", "question": "What is meant by India's 'composite culture', and which historical movements exemplify it?", "answer": "A culture formed through cultural exchange between different communities over centuries — visible in blended architecture, music, and art. The Bhakti and Sufi movements (medieval Hindu devotional and Islamic mystic traditions respectively) both emphasized love, equality, and devotion in ways that transcended strict religious divisions, exemplifying this blending." },
+      { "id": "r05", "question": "Name a few prominent Indian figures in Science (beyond those already covered as freedom-movement leaders).", "answer": "C.V. Raman (Nobel laureate, Raman Effect — already touched in Unit I), Homi J. Bhabha (father of India's nuclear program), and APJ Abdul Kalam (aerospace scientist, later President of India, the 'Missile Man of India')." },
+      { "id": "r06", "question": "Name a few prominent Indian figures in Arts (classical dance/music).", "answer": "Rukmini Devi Arundale (revived and popularized Bharatanatyam), and Pandit Ravi Shankar (sitar maestro, who helped bring Indian classical music global recognition)." },
+      { "id": "r07", "question": "Name a prominent figure in Philosophy associated with Indian thought.", "answer": "Adi Shankaracharya (8th-century philosopher, systematized Advaita Vedanta) — alongside Swami Vivekananda (already covered under National Renaissance), who brought Vedantic philosophy to a global audience at the 1893 Chicago Parliament of Religions." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of the following IS a genuine Fundamental Duty under the Indian Constitution?", "options": ["To safeguard private property", "To preserve the rich heritage of composite culture", "To pay income tax on time", "To vote in every election"], "correctIndex": 1, "explanation": "Article 51-A(f) — preserving composite culture.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "'Unity in Diversity' in the Indian context primarily refers to:", "options": ["Forcing cultural uniformity", "Maintaining oneness despite religious/linguistic/regional differences", "Eliminating regional languages", "A purely economic policy"], "correctIndex": 1, "explanation": "Maintaining solidarity despite wide differences.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Which medieval movements are commonly cited as exemplifying India's composite culture, emphasizing love and devotion across religious lines?", "options": ["Bhakti and Sufi movements", "Wahabi and Aligarh movements", "Brahmo and Arya Samaj movements", "Justice Party and Self-Respect movements"], "correctIndex": 0, "explanation": "Bhakti (Hindu devotional) and Sufi (Islamic mystic) movements.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Who is known as the 'Missile Man of India', later becoming President?", "options": ["Homi J. Bhabha", "C.V. Raman", "APJ Abdul Kalam", "Vikram Sarabhai"], "correctIndex": 2, "explanation": "APJ Abdul Kalam.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Who is credited with reviving and popularizing Bharatanatyam in the 20th century?", "options": ["Rukmini Devi Arundale", "Pandit Ravi Shankar", "M.S. Subbulakshmi", "Balasaraswati"], "correctIndex": 0, "explanation": "Rukmini Devi Arundale.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Adi Shankaracharya is best known for systematizing which philosophical school?", "options": ["Advaita Vedanta", "Samkhya", "Nyaya", "Mimamsa"], "correctIndex": 0, "explanation": "Advaita Vedanta.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

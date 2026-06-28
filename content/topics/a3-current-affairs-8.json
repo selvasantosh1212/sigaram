@@ -1,0 +1,28 @@
+{
+  "topicId": "a3-current-affairs-8",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (8): Indian Inscriptions Discovered in Egypt's Valley of the Kings",
+  "sourceRefs": [
+    { "type": "web-research", "label": "theartnewspaper.com - Discovery of ~30 ancient Indian inscriptions (mostly Tamil-Brahmi) in 6 tombs, Valley of the Kings, Egypt — announced 25 Feb 2026 at the International Conference on Tamil Epigraphy, Chennai" }
+  ],
+  "researchNotes": "Eighth History current-affairs topic (8th lap). This finding's announcement venue — the International Conference on Tamil Epigraphy, Chennai — was already briefly mentioned (without detail) in the Day-71 TN Culture topic; this topic supplies the substantive discovery itself.",
+  "reading": {
+    "intro": "Covers a major 2026 archaeological discovery: ancient Indian-language inscriptions found in Egypt's Valley of the Kings, revealing a 2,000-year-old Indo-Egyptian connection.",
+    "qa": [
+      { "id": "r01", "question": "What was discovered in Egypt's Valley of the Kings, announced in February 2026?", "answer": "Nearly 30 inscriptions in ancient Indian languages and scripts, found across 6 tombs." },
+      { "id": "r02", "question": "Which script/language do most of these inscriptions use, and which time period do they date to?", "answer": "Most are in Tamil-Brahmi script (with some Sanskrit and other Indian-subcontinent scripts too) — dating to the 1st-3rd centuries AD (the Roman era)." },
+      { "id": "r03", "question": "What do these inscriptions reveal about Indians in ancient Egypt?", "answer": "That Indians from different regions of the subcontinent were present in Egypt during this period, integrated into Roman Egyptian society, while retaining awareness of a shared Indian cultural identity — one individual, 'Cikai Korran', left his name 8 times across 5 different tombs." },
+      { "id": "r04", "question": "Who announced this discovery, and where?", "answer": "Charlotte Schmid (French School of Asian Studies, Paris) and Ingo Strauch (University of Lausanne), presented on 25 February 2026 at the International Conference on Tamil Epigraphy, held in Chennai." },
+      { "id": "r05", "question": "Why is this discovery significant?", "answer": "It is the FIRST solid archaeological evidence of Indian visitors to the Nile Valley during the early Roman period — expanding known Indo-Egyptian connections beyond the previously-known coastal Red Sea settlements." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Nearly 30 ancient Indian-language inscriptions were discovered in Egypt's Valley of the Kings, across how many tombs?", "options": ["3", "6", "9", "12"], "correctIndex": 1, "explanation": "6 tombs.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Most of the inscriptions found in the Valley of the Kings are in which script?", "options": ["Devanagari", "Tamil-Brahmi", "Grantha", "Kharosthi"], "correctIndex": 1, "explanation": "Tamil-Brahmi.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "These inscriptions date to which historical period?", "options": ["1st-3rd centuries BC", "1st-3rd centuries AD", "5th-7th centuries AD", "10th-12th centuries AD"], "correctIndex": 1, "explanation": "1st-3rd centuries AD (Roman era).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "This discovery was announced (25 February 2026) at which conference?", "options": ["World Tamil Conference", "International Conference on Tamil Epigraphy, Chennai", "UNESCO World Heritage Conference", "Indian History Congress"], "correctIndex": 1, "explanation": "International Conference on Tamil Epigraphy, Chennai.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "This discovery is significant because it provides the first solid archaeological evidence of Indian visitors to:", "options": ["The Mediterranean coast", "The Nile Valley during the early Roman period", "Mesopotamia", "The Arabian Peninsula"], "correctIndex": 1, "explanation": "The Nile Valley during the early Roman period.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

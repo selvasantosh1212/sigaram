@@ -1,0 +1,40 @@
+{
+  "topicId": "a3-leaders-gandhi-nehru-bose-ambedkar",
+  "unitId": "A-III",
+  "name": "Emergence of Leaders I: Gandhi, Nehru, Bose, Ambedkar",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 4 Q2 (Ambedkar's 'Problem of the Rupee' thesis, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 85 Q173-174 (Nehru quote; Bose's birth date, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 24 Q133 (Bose founded Forward Bloc, with answer key)" },
+    { "type": "question-bank", "label": "2025_q1 page 118 Q183 (Gandhi on Thirukkural, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 96 Q100 (Objective Resolution authorship — Nehru, not Ambedkar, with answer key)" },
+    { "type": "authored", "label": "standard biographical milestones (movements led, key roles) — well-established, no direct past-paper hit needed for these specific facts" }
+  ],
+  "researchNotes": "The 'Emergence of leaders' syllabus clause names ~12 individuals — split into two topics for manageable daily depth. This first topic covers the 4 most nationally-prominent figures (Gandhi, Nehru, Bose, Ambedkar); a second topic will cover the more Tamil-Nadu-specific and remaining names (Bhagat Singh, Bharathiar, V.O.Chidambaranar, Kamarajar, Periyar, Rajaji, Azad, Tagore). Strong real evidence — 5 confirmed hits across 2022/2024/2025, including a genuine authorship trap (the Objective Resolution is commonly mis-attributed to Ambedkar in distractor options, but it was actually Nehru who moved/authored it in the Constituent Assembly).",
+  "reading": {
+    "intro": "First of two 'Emergence of Leaders' topics. Real exam evidence favors specific, checkable facts (thesis titles, exact dates, party foundings, direct quotes) over general biography — and includes at least one genuine authorship trap to watch for.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What was the title of Dr. B.R. Ambedkar's economics thesis?", "answer": "\"The Problem of the Rupee\" (his doctoral thesis, examining India's currency/monetary system under British rule)." },
+      { "id": "r02", "question": "Real exam (trap): Who actually authored/moved the 'Objective Resolution' in the Constituent Assembly — is it Dr. B.R. Ambedkar?", "answer": "No — it was Jawaharlal Nehru, not Ambedkar, who moved the Objective Resolution (adopted 22 January 1947), which later became the basis for the Constitution's Preamble. Ambedkar's major constitutional role was instead as Chairman of the Drafting Committee." },
+      { "id": "r03", "question": "Real exam: Who said, 'Great Leaders have something in them which inspires a whole people and makes them do great deeds'?", "answer": "Jawaharlal Nehru." },
+      { "id": "r04", "question": "Real exam: When was Subhas Chandra Bose born, and which party did he found?", "answer": "23 January 1897. He founded the Forward Bloc Party (a left-leaning party within/breaking from Congress)." },
+      { "id": "r05", "question": "Real exam: What did Mahatma Gandhi call the Thirukkural?", "answer": "He referred to it as 'Tamil's sacred book' (echoing similar reverence expressed by other figures like Bishop Caldwell about Tamil literature's civilizational depth)." },
+      { "id": "r06", "question": "What were Gandhi's major movements, in order?", "answer": "Champaran Satyagraha (1917, his first major movement in India) → Non-Cooperation Movement (1920-22) → Civil Disobedience Movement / Dandi Salt March (1930) → Quit India Movement (1942)." },
+      { "id": "r07", "question": "What was Nehru's role after independence, and what is his most famous speech called?", "answer": "India's first Prime Minister (1947-1964). His most famous speech, delivered on the eve of independence (14-15 August 1947), is known as 'Tryst with Destiny'." },
+      { "id": "r08", "question": "What was Subhas Chandra Bose's most famous call to action, and what military force did he lead?", "answer": "\"Give me blood, and I will give you freedom\" (Tum Mujhe Khoon Do, Main Tumhe Azadi Doonga). He led the Indian National Army (INA / Azad Hind Fauj)." },
+      { "id": "r09", "question": "What was Ambedkar's principal constitutional role, and what else is he known for?", "answer": "Chairman of the Constitution's Drafting Committee — often called the 'Father/Architect of the Indian Constitution'. He's also known for leading the Dalit rights movement and (later in life) his conversion to Buddhism." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Dr. B.R. Ambedkar's doctoral thesis was titled:", "options": ["Annihilation of Caste", "The Problem of the Rupee", "States and Minorities", "Who Were the Shudras?"], "correctIndex": 1, "explanation": "\"The Problem of the Rupee.\"", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m02", "prompt": "The 'Objective Resolution', later forming the basis of the Constitution's Preamble, was moved in the Constituent Assembly by:", "options": ["Dr. B.R. Ambedkar", "Jawaharlal Nehru", "Rajendra Prasad", "Sardar Patel"], "correctIndex": 1, "explanation": "Jawaharlal Nehru — not Ambedkar, a common trap.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Subhas Chandra Bose was born on:", "options": ["January 23, 1897", "January 23, 1891", "January 26, 1901", "January 23, 1895"], "correctIndex": 0, "explanation": "23 January 1897.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Subhas Chandra Bose founded which political party?", "options": ["Swaraj Party", "Gadar Party", "Forward Bloc", "Swatantra Party"], "correctIndex": 2, "explanation": "Forward Bloc.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Gandhi's first major Satyagraha movement IN India (before later national movements) was the:", "options": ["Champaran Satyagraha", "Dandi Salt March", "Quit India Movement", "Non-Cooperation Movement"], "correctIndex": 0, "explanation": "Champaran Satyagraha (1917).", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Nehru's famous speech on the eve of independence is known as:", "options": ["Quit India", "Tryst with Destiny", "Do or Die", "Inquilab Zindabad"], "correctIndex": 1, "explanation": "\"Tryst with Destiny.\"", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m07", "prompt": "\"Give me blood, and I will give you freedom\" is most associated with:", "options": ["Mahatma Gandhi", "Subhas Chandra Bose", "Bhagat Singh", "Jawaharlal Nehru"], "correctIndex": 1, "explanation": "Subhas Chandra Bose.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m08", "prompt": "Dr. B.R. Ambedkar's principal role in the Constituent Assembly was:", "options": ["President of the Constituent Assembly", "Chairman of the Drafting Committee", "Mover of the Objective Resolution", "First Speaker of the Lok Sabha"], "correctIndex": 1, "explanation": "Chairman of the Drafting Committee.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "c7-prose-zero-to-infinity-ramanujan",
+  "unitId": "C-VII",
+  "name": "Prose: \"From Zero to Infinity\" — Biography of Srinivasa Ramanujan",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" }
+  ],
+  "researchNotes": "OCR index search for 'ramanujan/zero to infinity' returned zero hits — web research only. A biographical prose on Srinivasa Ramanujan's early life and mathematical genius, distinct from the general-knowledge Ramanujan facts that might appear elsewhere in Part A — this is specifically the SSLC-textbook narrative version with its own particular details (the 0/0 classroom anecdote, exact rupee figures, etc.).",
+  "reading": {
+    "intro": "A biographical account of the mathematical genius Srinivasa Ramanujan, opening with a memorable classroom anecdote about dividing zero by zero, and tracing his early education, self-taught brilliance, struggles in formal college, and first job.",
+    "qa": [
+      { "id": "r01", "question": "What classroom anecdote opens the biography, and what question did young Ramanujan ask that amused his classmates?", "answer": "During an ARITHMETIC class, Ramanujan asked: \"Can zero divided by zero give one?\" — a question that amused his classmates but reflected his unusually deep mathematical curiosity even as a child." },
+      { "id": "r02", "question": "What was the teacher's explanation for zero divided by zero, and who is credited with first proving this?", "answer": "The teacher explained that zero divided by zero is INFINITY. The biography credits the ancient mathematician BHASKARA with proving this." },
+      { "id": "r03", "question": "Where was Srinivasa Ramanujan born, and what was his father's profession?", "answer": "He was born in Erode (Tamil Nadu). His father worked as a CLERK in a cloth shop." },
+      { "id": "r04", "question": "At what age did Ramanujan study S.L. Loney's Trigonometry, and which book with thousands of theorems later inspired him?", "answer": "At age 13. He was later deeply inspired by a book called 'Synopsis of Elementary Results' (in Pure and Applied Mathematics), containing 4,865 theorems." },
+      { "id": "r05", "question": "What name became famous for Ramanujan's personal mathematical notebooks, and why did he struggle in formal college despite his genius?", "answer": "They became famous as 'Ramanujan's Frayed Notebooks'. Despite his mathematical brilliance, he FAILED college in History, English, and Physiology — subjects outside his singular passion for mathematics, since he devoted almost all his attention to math and neglected the rest of the curriculum." },
+      { "id": "r06", "question": "Who gave Ramanujan his first job, what was the position, and what was his initial pay?", "answer": "Francis Spring gave him a job as a CLERK at the Madras Port Trust. His initial pay was just ₹25 per month." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "What subject was being taught when young Ramanujan asked his famous question about zero?", "options": ["Algebra", "Arithmetic", "Geometry", "Trigonometry"], "correctIndex": 1, "explanation": "Arithmetic.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What question did Ramanujan ask that amused his classmates?", "options": ["Why is 1 ÷ 1 = 1?", "Can zero divided by zero give one?", "Why is 3 ÷ 3 = 1?", "Can 1000 be divided?"], "correctIndex": 1, "explanation": "Can zero divided by zero give one?", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "According to the teacher's explanation in the biography, what does zero divided by zero equal?", "options": ["Zero", "One", "Undefined", "Infinity"], "correctIndex": 3, "explanation": "Infinity.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Who is credited in the biography with first proving that zero divided by zero is infinity?", "options": ["Ramanujan", "Aryabhatta", "Bhaskara", "G.H. Hardy"], "correctIndex": 2, "explanation": "Bhaskara.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Where was Srinivasa Ramanujan born?", "options": ["Erode", "Kumbakonam", "Chennai", "Madurai"], "correctIndex": 0, "explanation": "Erode.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Ramanujan's father worked as a:", "options": ["Professor", "Priest", "Cloth shop clerk", "Farmer"], "correctIndex": 2, "explanation": "Cloth shop clerk.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "At what age did Ramanujan study S.L. Loney's Trigonometry?", "options": ["10", "12", "13", "15"], "correctIndex": 2, "explanation": "13.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m08", "prompt": "Which book, containing 4,865 theorems, deeply inspired Ramanujan?", "options": ["Number Theory", "Synopsis of Elementary Results", "Trigonometry of India", "Ramanujan's Notebook"], "correctIndex": 1, "explanation": "Synopsis of Elementary Results.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Ramanujan's personal mathematical notebooks later became famous as:", "options": ["Ramanujan's Math Book", "Infinity Pages", "Ramanujan's Frayed Notebooks", "Ramanujan's Scripts"], "correctIndex": 2, "explanation": "Ramanujan's Frayed Notebooks.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Which subjects did Ramanujan fail in college, despite his mathematical genius?", "options": ["History, Geography, Chemistry", "Math, English, History", "History, English, Physiology", "English, Biology, Physics"], "correctIndex": 2, "explanation": "History, English, Physiology.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m11", "prompt": "Francis Spring gave Ramanujan his first job as a:", "options": ["Typist", "Clerk at Madras Port Trust", "Mathematics teacher", "Railway accountant"], "correctIndex": 1, "explanation": "Clerk at Madras Port Trust.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m12", "prompt": "What was Ramanujan's initial monthly pay as a clerk?", "options": ["₹75", "₹50", "₹30", "₹25"], "correctIndex": 3, "explanation": "₹25.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

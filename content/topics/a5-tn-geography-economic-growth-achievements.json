@@ -1,0 +1,31 @@
+{
+  "topicId": "a5-tn-geography-economic-growth-achievements",
+  "unitId": "A-V",
+  "name": "Geography of Tamil Nadu's Economic Growth, and Achievements of Tamil Nadu",
+  "sourceRefs": [
+    { "type": "web-research", "label": "ibef.org/statisticstimes.com - TN's GSDP rank, contribution to national GDP, ports/industrial corridors, FDI ranking" }
+  ],
+  "researchNotes": "No direct OCR hits found for this specific clause despite several keyword attempts (Western Ghats/Coromandel/Palk Strait/achievements-of-TN all returned zero) — authored from web research, with growth-rate and ranking figures explicitly flagged as time-sensitive snapshots (the kind of statistic likely to be updated in each year's edition of this same syllabus clause) rather than permanent facts.",
+  "reading": {
+    "intro": "Covers how Tamil Nadu's geography (ports, industrial corridors, connectivity) supports its economic standing among Indian states, and the state's headline economic achievements. Treat specific growth-rate/ranking figures as snapshots from a particular year, since these are revised annually.",
+    "qa": [
+      { "id": "r01", "question": "How does Tamil Nadu rank among Indian states by the size of its economy (GSDP), and what is notable about its share of national GDP relative to its land/population share?", "answer": "Tamil Nadu has the 2nd largest state economy in India (after Maharashtra). Notably, with only about 4% of India's land area and roughly 5.46% of its population, Tamil Nadu contributes a disproportionately larger ~8.93% to national GDP (a 2023-24 figure) — reflecting unusually high economic productivity relative to its size." },
+      { "id": "r02", "question": "What port and airport infrastructure does Tamil Nadu have?", "answer": "3 major ports (Chennai, V.O. Chidambaranar/Tuticorin, and Kamarajar/Ennore), 15 minor ports, and 8 airports — giving the state strong domestic and international connectivity for trade." },
+      { "id": "r03", "question": "What major industrial corridor is being developed in Tamil Nadu, and what is its purpose?", "answer": "The Chennai-Kanyakumari Industrial Corridor (supported by an Asian Development Bank loan) — designed to integrate Tamil Nadu's various regional industrial clusters into a single, connected supply-chain network spanning the state north to south." },
+      { "id": "r04", "question": "What is Tamil Nadu's industrial character, and which sectors does its manufacturing base span?", "answer": "Tamil Nadu is one of India's most industrialised and export-oriented states, with a large, diversified manufacturing base spanning automobiles, electronics, textiles, engineering, pharmaceuticals, and leather." },
+      { "id": "r05", "question": "How does Tamil Nadu rank nationally in terms of Foreign Direct Investment (FDI) inflows?", "answer": "5th in India in terms of FDI inflows (a specific year's ranking — treat as a snapshot)." },
+      { "id": "r06", "question": "What is Tamil Nadu's longer-term economic growth target?", "answer": "The state aims to become a $1 trillion economy by 2032-33 — part of a broader strategic roadmap toward a much larger ($4+ trillion, longer-term) economy." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Tamil Nadu has the ___ largest state economy (GSDP) in India.", "options": ["1st", "2nd", "3rd", "5th"], "correctIndex": 1, "explanation": "2nd largest.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Tamil Nadu has approximately what share of India's land area, while contributing a much larger share of national GDP?", "options": ["1%", "2%", "4%", "10%"], "correctIndex": 2, "explanation": "About 4% of India's land area.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "How many major ports does Tamil Nadu have?", "options": ["1", "2", "3", "5"], "correctIndex": 2, "explanation": "3 major ports.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Chennai-Kanyakumari Industrial Corridor is supported by a loan from which institution?", "options": ["World Bank", "Asian Development Bank", "International Monetary Fund", "New Development Bank"], "correctIndex": 1, "explanation": "Asian Development Bank.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Which of the following is NOT among Tamil Nadu's major manufacturing sectors?", "options": ["Automobiles", "Textiles", "Leather", "Coal mining"], "correctIndex": 3, "explanation": "Coal mining is not a major TN manufacturing sector.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "Tamil Nadu ranks 5th nationally in terms of which economic indicator?", "options": ["Per-capita income", "FDI inflows", "Literacy rate", "Population"], "correctIndex": 1, "explanation": "FDI inflows.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Tamil Nadu aims to become a $1 trillion economy by:", "options": ["2025-26", "2028-29", "2032-33", "2040-41"], "correctIndex": 2, "explanation": "2032-33.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

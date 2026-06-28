@@ -1,0 +1,29 @@
+{
+  "topicId": "a1-current-affairs-3",
+  "unitId": "A-I",
+  "name": "Current Affairs in Science & Technology (3): Quantum Computing & Semiconductors",
+  "sourceRefs": [
+    { "type": "web-research", "label": "Wikipedia/datacenterdynamics.com - QpiAI-Indus quantum computer; Quantum Valley Tech Park, Amaravati; India Semiconductor Mission 2.0" }
+  ],
+  "researchNotes": "Opens Part A's 3rd current-affairs lap (Unit I Science again). Quantum computing and semiconductors are both high-priority national missions with frequent announcements — picked specific, dated milestones (launch dates, locations) rather than ongoing programme descriptions.",
+  "reading": {
+    "intro": "Covers India's recent quantum computing and semiconductor milestones — a first full-stack quantum computer, the country's first quantum technology park, and progress toward domestic chip production.",
+    "qa": [
+      { "id": "r01", "question": "What is QpiAI-Indus, and when was it launched?", "answer": "India's first full-stack quantum computing system — a 25-qubit quantum computer combining advanced quantum hardware, scalable control, and optimised software. Launched in April 2025 by the Indian startup QpiAI." },
+      { "id": "r02", "question": "What is the Quantum Valley Tech Park, where is it located, and when was it established/set to open?", "answer": "India's FIRST quantum technology park, established in May 2025 in Amaravati, Andhra Pradesh — scheduled to open in January 2026. IBM, TCS, and the Government of Andhra Pradesh have partnered to develop India's largest quantum computer there." },
+      { "id": "r03", "question": "What are the National Quantum Mission's key technical objectives?", "answer": "To develop intermediate-scale quantum computers with 50-1000 physical qubits within 8 years (across platforms like superconducting and photonic technology), plus satellite-based secure quantum communication between ground stations over a range of 2000 km within India, and longer-distance international quantum communication links." },
+      { "id": "r04", "question": "Which two institutions host key quantum infrastructure facilities, and what does each focus on?", "answer": "IIT Bombay hosts a Quantum Sensing & Metrology facility. IISc Bengaluru hosts a Quantum Computing fabrication facility, supporting manufacturing of quantum computing chips (superconducting, photonic, and spin qubit-based)." },
+      { "id": "r05", "question": "What is the India Semiconductor Mission 2.0, and what milestone was anticipated by the end of 2025?", "answer": "A broadened mission supporting the entire semiconductor value chain, expected to receive Cabinet approval by October 2025. The first domestically produced semiconductor chip was anticipated by the end of 2025." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "QpiAI-Indus, India's first full-stack quantum computer, has how many qubits?", "options": ["10", "25", "50", "100"], "correctIndex": 1, "explanation": "25 qubits.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "QpiAI-Indus was launched by the startup QpiAI in which month/year?", "options": ["January 2025", "April 2025", "August 2025", "January 2026"], "correctIndex": 1, "explanation": "April 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "India's first quantum technology park, the Quantum Valley Tech Park, is located in:", "options": ["Bengaluru, Karnataka", "Hyderabad, Telangana", "Amaravati, Andhra Pradesh", "Pune, Maharashtra"], "correctIndex": 2, "explanation": "Amaravati, Andhra Pradesh.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The National Quantum Mission aims to develop quantum computers with how many physical qubits within 8 years?", "options": ["10-50", "50-1000", "1000-5000", "Over 10,000"], "correctIndex": 1, "explanation": "50-1000 qubits.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "The National Quantum Mission's satellite-based secure quantum communication aims to cover ground stations over a range of:", "options": ["500 km", "1000 km", "2000 km", "5000 km"], "correctIndex": 2, "explanation": "2000 km within India.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Which institution hosts a Quantum Computing fabrication facility supporting chip manufacturing?", "options": ["IIT Bombay", "IISc Bengaluru", "IIT Delhi", "IIT Madras"], "correctIndex": 1, "explanation": "IISc Bengaluru.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

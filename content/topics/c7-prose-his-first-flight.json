@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-prose-his-first-flight",
+  "unitId": "C-VII",
+  "name": "Prose: \"His First Flight\" — Liam O'Flaherty",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2022_q page 8 Q26 (confirms the lesson is about a Seagull, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set (6 questions); andedge.com/tnpscgk.in - plot summary" }
+  ],
+  "researchNotes": "First of the 29 Unit VII PROSE pieces to be authored — Unit VII's 30 poems are now complete except 'The River' (see literature-evidence-stash.md). OCR grep for 'his first flight/o.flaherty' found exactly 1 real hit, but it's a strong confirmatory one (confirms the subject is a seagull). Note: the same OCR page (2022_q page 8) also carried 3 unrelated questions from OTHER passages bundled on the same page (The Last Lesson's character-matching; The Tempest's 'what game did Ferdinand play' detail; an unrelated Dutch-boy-style passage not in our syllabus) — the Last Lesson and Tempest ones were stashed in literature-evidence-stash.md for their own future topics rather than mixed in here.",
+  "reading": {
+    "intro": "A short story about a young seagull too afraid to fly from his cliff ledge, alone after his siblings have already flown, who is finally driven to attempt flight by hunger and his mother's coaxing — and discovers joy and confidence once he succeeds.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"His First Flight\", and what is the story about?", "answer": "Liam O'Flaherty (1896-1984), an Irish novelist and short-story writer. The story follows a young seagull, left alone on a high ledge after his two brothers and one sister have already flown off, who is too afraid to attempt his own first flight." },
+      { "id": "r02", "question": "Why was the young seagull afraid to fly?", "answer": "He was terrified at the thought of his wings being unable to support him over the vast, far-below expanse of sea — not simply a generic fear of heights, but specifically the thought of his wings failing him mid-flight." },
+      { "id": "r03", "question": "How did the young seagull's parents try to get him to fly, and what finally triggered his first flight attempt?", "answer": "His parents largely ignored/left him alone for a day rather than coaxing him directly. It was ultimately his MOTHER's attempt to bring him food (tempting him toward the edge) that finally prompted his first flight." },
+      { "id": "r04", "question": "What happened when the young seagull tried to land on the sea after his first flight, and how did his family react?", "answer": "He discovered, to his relief, that he could float on the water's surface rather than sinking — a moment of fear giving way to a new, safe discovery. His family then praised him and offered him food, celebrating his success." },
+      { "id": "r05", "question": "What emotion did the young seagull feel once he successfully completed his first flight?", "answer": "Joy — despite his initial terror, his first successful flight left him fearless, exhilarated, and confident, flapping his wings to soar with a joyous scream." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"His First Flight\" is a lesson about a:", "options": ["Pilot", "Seagull", "Parrot", "Pigeon"], "correctIndex": 1, "explanation": "Seagull.", "sourceTag": "question-bank-2022", "difficulty": "easy" },
+      { "id": "m02", "prompt": "\"His First Flight\" was written by:", "options": ["James Grover Thurber", "Liam O'Flaherty", "Ruskin Bond", "Munshi Premchand"], "correctIndex": 1, "explanation": "Liam O'Flaherty.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Why was the young seagull afraid to fly?", "options": ["He had never seen anyone else fly", "He thought his wings would not support him", "He did not want to leave his ledge", "He was scared of other birds"], "correctIndex": 1, "explanation": "He thought his wings would not support him (fear of unsupported wings).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "How did the young seagull's parents try to encourage him to fly?", "options": ["They ignored him for a day", "They brought him food every hour", "They offered him rewards", "They flew away and left him alone permanently"], "correctIndex": 0, "explanation": "They ignored him for a day.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What finally prompted the young seagull to make his first flight?", "options": ["His mother's attempt to bring food", "The sight of his siblings flying", "His father's scolding", "Fear of being left behind"], "correctIndex": 0, "explanation": "His mother's attempt to bring food.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What emotion did the young seagull feel after his first successful flight?", "options": ["Fear", "Confusion", "Joy", "Anger"], "correctIndex": 2, "explanation": "Joy.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "What happened when the young seagull tried to land on the sea?", "options": ["He immediately drowned", "He found he could float on the water", "He got scared and flew back to the ledge", "He was pulled under by the current"], "correctIndex": 1, "explanation": "He found he could float on the water.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "How did the seagull's family react to his first flight?", "options": ["They ignored him", "They scolded him for being late", "They praised him and offered him food", "They left him alone on the cliff"], "correctIndex": 2, "explanation": "They praised him and offered him food.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

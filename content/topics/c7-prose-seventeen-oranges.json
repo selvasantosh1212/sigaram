@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-prose-seventeen-oranges",
+  "unitId": "C-VII",
+  "name": "Prose: \"Seventeen Oranges\" — Bill Naughton",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 6 Q8 (fill-in-the-blanks: forced to swallow chunks/pips, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set (6 questions); brainkart.com - full plot summary" }
+  ],
+  "researchNotes": "1 real past-paper hit (a fill-in-the-blanks word-order question) plus a clean 6-question web-research MCQ set — together they cover the story well. A comic tale of a narrator who, caught red-handed with stolen oranges, destroys the evidence by eating all 17 of them whole (peels, pips, chunks) on the spot.",
+  "reading": {
+    "intro": "A humorous first-person story about a cart-driver for the Swift Delivery Company who is extremely fond of oranges, gets caught by a dock security officer ('Pongo') with 17 stolen oranges hidden in his apron — and, to avoid being caught with the evidence, eats all of them whole on the spot, peels/pips/chunks included, and pays the price with a week of stomach trouble.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Seventeen Oranges\", and what was the narrator's job?", "answer": "Bill Naughton. The narrator was a cart driver for the Swift Delivery Company, driving a pony-and-cart in and out of the docks to deliver goods." },
+      { "id": "r02", "question": "What was the narrator especially fond of, and how did he usually hide them?", "answer": "Oranges — he was very fond of eating them. He usually hid stolen oranges in his APRON." },
+      { "id": "r03", "question": "Who caught the narrator, how many oranges was he caught with, and why was the officer suspicious?", "answer": "A dock security officer named Pongo caught him, with SEVENTEEN oranges found in his pockets/apron. Pongo was suspicious because too many people were stealing from the docks at the time." },
+      { "id": "r04", "question": "Real exam: Complete the sequence — \"Children like to ___ crispy snacks. But the author... was very fond of ___ oranges. Eventually, he was forced to ___ all the ___ including ___.\"", "answer": "\"Children like to MUNCH crispy snacks. But the author... was very fond of EATING oranges. Eventually, he was forced to SWALLOW all the CHUNKS including PIPS\" — confirmed by a real exam's fill-in-the-blanks question." },
+      { "id": "r05", "question": "Why was the narrator \"forced\" to swallow all the orange chunks and pips whole, and what happened to him afterward?", "answer": "To destroy the evidence and avoid being caught red-handed with the stolen oranges by Pongo, he hurriedly ate/swallowed all 17 oranges whole — peels, pips, and all. As a result, he felt very sick for a week afterward, as the oranges 'worked away' in his stomach." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Seventeen Oranges\" was written by:", "options": ["Ruskin Bond", "Bill Naughton", "James Thurber", "William Blake"], "correctIndex": 1, "explanation": "Bill Naughton.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What was the narrator of \"Seventeen Oranges\" especially fond of?", "options": ["Bananas", "Mangoes", "Apples", "Oranges"], "correctIndex": 3, "explanation": "Oranges.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "How many oranges was the narrator caught with?", "options": ["10", "15", "17", "13"], "correctIndex": 2, "explanation": "17.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What job did the narrator do?", "options": ["Teacher", "Cart driver for the Swift Delivery Company", "Police assistant", "Cook"], "correctIndex": 1, "explanation": "Cart driver for the Swift Delivery Company.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Who was the security officer that caught the narrator with the stolen oranges?", "options": ["Clem Jones", "Officer Brown", "Pongo", "Peters"], "correctIndex": 2, "explanation": "Pongo.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What did the narrator usually wear to hide the stolen oranges?", "options": ["Jacket", "Sweater", "Apron", "Coat"], "correctIndex": 2, "explanation": "Apron.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Why did the narrator swallow all 17 oranges whole, peels and pips included?", "options": ["He was extremely hungry", "To destroy the evidence before being searched", "Pongo ordered him to", "He won a bet"], "correctIndex": 1, "explanation": "To destroy the evidence.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What happened to the narrator after swallowing all the oranges whole?", "options": ["Nothing, he felt fine", "He felt very sick for a week", "He was arrested anyway", "He got a promotion"], "correctIndex": 1, "explanation": "He felt very sick for a week.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

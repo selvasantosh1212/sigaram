@@ -1,0 +1,31 @@
+{
+  "topicId": "c7-poem-advice-from-a-tree",
+  "unitId": "C-VII",
+  "name": "Poem: \"Advice from a Tree\" — Ilan Shamir",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, idiom-meaning focused" },
+    { "type": "web-research", "label": "awakin.org - poet background" }
+  ],
+  "researchNotes": "OCR index search for 'advice from a tree'/'ilan shamir' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept — note this poem's question style leans heavily on idiom/phrase MEANING ('go out on a limb', 'stand tall and proud') rather than figure-of-speech labelling, a different testing emphasis than most other poems covered so far.",
+  "reading": {
+    "intro": "A poem using a tree's life as an extended metaphor for life advice — each tree-related image (roots, limbs, seasons, leaves) maps to a piece of wisdom. Unlike most other poems in this syllabus, real exam evidence here favours idiom/phrase MEANING questions over figure-of-speech labelling — know what each phrase means, not just what device it is.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Advice from a Tree\", and what's notable about him?", "answer": "Ilan Shamir — notable for having planted over 50,000 trees and led more than 800 tree-planting celebrations worldwide, directly living out the nature-connection theme of his own poem. (He also wrote \"The River\", elsewhere in this same syllabus.)" },
+      { "id": "r02", "question": "What is the poem's central theme?", "answer": "Nature as a guide for living — using a tree's life and growth as a metaphor for how to live well." },
+      { "id": "r03", "question": "What does \"Stand tall and proud\" mean in the poem?", "answer": "Have confidence and self-respect — not arrogance or literal height, but quiet inner confidence." },
+      { "id": "r04", "question": "What does \"Sink your roots deeply into the Earth\" mean?", "answer": "Stay grounded and stable — having a firm foundation/values to rely on, just as a tree's roots anchor and stabilize it." },
+      { "id": "r05", "question": "What does \"Go out on a limb\" mean?", "answer": "Take a risk — a common English idiom (literally, climbing onto a tree branch that might not hold your weight) used here for stepping beyond your comfort zone." },
+      { "id": "r06", "question": "What do the poem's seasons represent, and what does \"the wisdom to let go of leaves in the Fall\" symbolize?", "answer": "The seasons represent stages and lessons of life. Letting go of leaves in Fall symbolizes letting go of burdens or attachments — knowing when to release what no longer serves you, just as a tree sheds leaves before winter." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Advice from a Tree\" was written by:", "options": ["Henry Van Dyke", "Ilan Shamir", "William Henry Davies", "Robert Frost"], "correctIndex": 1, "explanation": "Ilan Shamir.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The central theme of the poem is:", "options": ["Urban life", "Nature as a guide for living", "Space exploration", "Mythical creatures"], "correctIndex": 1, "explanation": "Nature as a guide for living.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "In the poem, \"Stand tall and proud\" means:", "options": ["Show off your wealth", "Be arrogant", "Have confidence and self-respect", "Be physically taller than others"], "correctIndex": 2, "explanation": "Confidence and self-respect.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"Sink your roots deeply into the Earth\" means:", "options": ["Dig a hole", "Stay grounded and stable", "Run away", "Become a farmer"], "correctIndex": 1, "explanation": "Stay grounded and stable.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"Go out on a limb\" means:", "options": ["Sit on a tree branch literally", "Take a risk", "Cut a tree", "Be lazy"], "correctIndex": 1, "explanation": "Take a risk — a common idiom.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"The wisdom to let go of leaves in the Fall\" symbolizes:", "options": ["Changing clothes for the season", "Letting go of burdens or attachments", "Cutting down trees", "Buying seasonal gifts"], "correctIndex": 1, "explanation": "Letting go of burdens or attachments.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

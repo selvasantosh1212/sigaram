@@ -1,0 +1,33 @@
+{
+  "topicId": "a6-tamil-literature-sangam-contemporary",
+  "unitId": "A-VI",
+  "name": "Tamil Literature from the Sangam Age till Contemporary Times",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2026_q page 88 Q108 (Mangulam Tamil-Brahmi inscriptions and Jain bed-caves near Madurai, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 56 Q83 (Tamil literary/freedom figures matched to newspapers — a swap trap, with answer key)" },
+    { "type": "web-research", "label": "clearias.com/testbook.com - Sangam corpus structure: Tolkappiyam, Ettuthogai, Pathuppattu, the Twin Epics" }
+  ],
+  "researchNotes": "2 real hits plus durable web-sourced structural facts about the Sangam literary corpus. The newspaper-matching question (Q83) is a clean, classic swap trap: Bharathiyar's real papers were 'India' and 'Vijaya', NOT 'Hindu' — and Kasthuri Ranga Iyengar's real association was 'The Hindu', NOT 'India' — the exam swapped exactly these two pairings as wrong distractors while keeping Thiru.Vi.Ka/Desabakthan and Annie Besant/New India correctly paired.",
+  "reading": {
+    "intro": "Covers the structure of the Sangam literary corpus (Tolkappiyam, the Ettuthogai and Pathuppattu anthologies, and the Twin Epics), plus a cluster of real exam facts about early Tamil-Brahmi inscriptions and 20th-century Tamil literary/political figures' newspaper associations.",
+    "qa": [
+      { "id": "r01", "question": "What is Tolkappiyam, and what are the Ettuthogai and Pathuppattu?", "answer": "Tolkappiyam is the oldest surviving Tamil grammar text, foundational to the Sangam literary corpus. Ettuthogai ('Eight Anthologies') is a collection of 8 Sangam-era poetic works (including Purananooru, Kuruntogai, Akananooru, etc.). Pathuppattu ('Ten Idylls'/Pattuppattu) is a separate collection of 10 longer Sangam-era poems (100-800 lines each), including Nakkirar's well-known Tirumurukarruppadai." },
+      { "id": "r02", "question": "What are the 'Twin Epics' of Tamil literature, who wrote them, and what are they about?", "answer": "Silappadhikaram and Manimekalai. Silappadhikaram, by Ilango Adigal, is the EARLIEST Tamil epic — the story of Kannagi and Kovalan, depicting Tamil culture, town planning, and the arts of dance/music. Manimekalai, by Sittalai Sattanar, is its (incomplete) sequel, following Kovalan and Madhavi's daughter, told from a Buddhist perspective." },
+      { "id": "r03", "question": "Real exam: What significant archaeological literary evidence has been found at Mangulam (Maankulam), near Madurai?", "answer": "Tamil-Brahmi inscriptions (confirmed by a real exam question, which specifically noted 'five' such inscriptions found there) — among the earliest evidence of Tamil script, associated with Jain monks. The same exam question's other tested claims (about Jainism's specific entry route via the Andhra border, and an exact count of 'bed caves' near Madurai) were NOT confirmed correct — worth treating cautiously rather than as settled facts." },
+      { "id": "r04", "question": "Real exam: Which Tamil literary/political figures are correctly matched to their associated newspapers — Thiru.Vi.Ka, Subramania Bharathiyar, Annie Besant, Kasthuri Ranga Iyengar?", "answer": "CORRECT pairings: Thiru.Vi.Ka (Thiru. Vi. Kalyanasundaranar) — 'Desabakthan'; Annie Besant — 'New India'. The exam's other two pairings were a deliberate SWAP trap: Subramania Bharathiyar was NOT associated with 'The Hindu' (his real papers were 'India' and 'Vijaya'); Kasthuri Ranga Iyengar was NOT associated with 'India' (he was actually associated with 'The Hindu') — the two were swapped with each other as wrong distractors." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which is the oldest surviving Tamil grammar text, foundational to the Sangam corpus?", "options": ["Thirukkural", "Tolkappiyam", "Silappadhikaram", "Naladiyar"], "correctIndex": 1, "explanation": "Tolkappiyam.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "'Ettuthogai' refers to a collection of how many Sangam-era anthologies?", "options": ["Five", "Eight", "Ten", "Eighteen"], "correctIndex": 1, "explanation": "Eight ('Eight Anthologies').", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "'Pathuppattu' ('Ten Idylls') is a separate Sangam-era collection of how many longer poems?", "options": ["Five", "Eight", "Ten", "Twelve"], "correctIndex": 2, "explanation": "Ten.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which Tamil epic, by Ilango Adigal, is considered the EARLIEST Tamil epic, telling the story of Kannagi and Kovalan?", "options": ["Manimekalai", "Silappadhikaram", "Thirukkural", "Naladiyar"], "correctIndex": 1, "explanation": "Silappadhikaram.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Manimekalai, the incomplete sequel to Silappadhikaram, was written by whom, and reflects which religious perspective?", "options": ["Ilango Adigal; Jain perspective", "Sittalai Sattanar; Buddhist perspective", "Thiruvalluvar; Hindu perspective", "Avvaiyar; Jain perspective"], "correctIndex": 1, "explanation": "Sittalai Sattanar; Buddhist perspective.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Real exam: Tamil-Brahmi inscriptions have been found at which site near Madurai?", "options": ["Keezhadi", "Mangulam (Maankulam)", "Arikkamedu", "Adichanallur"], "correctIndex": 1, "explanation": "Mangulam (Maankulam).", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Which newspaper was Thiru.Vi.Ka (Thiru. Vi. Kalyanasundaranar) associated with?", "options": ["The Hindu", "India", "Desabakthan", "New India"], "correctIndex": 2, "explanation": "Desabakthan.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m08", "prompt": "Subramania Bharathiyar was associated with which newspapers (NOT 'The Hindu', a common wrong pairing)?", "options": ["India and Vijaya", "New India and Desabakthan", "The Hindu and Swadesamitran", "Young India and Harijan"], "correctIndex": 0, "explanation": "India and Vijaya.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Annie Besant was associated with which newspaper?", "options": ["The Hindu", "Desabakthan", "New India", "India"], "correctIndex": 2, "explanation": "New India.", "sourceTag": "question-bank-2024", "difficulty": "medium" }
+    ]
+  }
+}

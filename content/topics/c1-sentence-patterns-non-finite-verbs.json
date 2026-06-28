@@ -1,0 +1,36 @@
+{
+  "topicId": "c1-sentence-patterns-non-finite-verbs",
+  "unitId": "C-I",
+  "name": "Grammar: Sentence Patterns and Non-Finite Verbs (Verbals)",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 138 Q169-172 (sentence patterns; participle fill-in, stashed earlier, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 75 Q137-139 (non-finite verb matching; sentence patterns, stashed earlier, with answer key)" }
+  ],
+  "researchNotes": "Second Grammar topic, consuming all 8 facts stashed from Day 57's research session. Real exam evidence shows TNPSC tests sentence patterns using exact letter-codes (S/V/O/C/A for Subject/Verb/Object/Complement/Adverbial) applied to specific example sentences — and tests non-finite verbs (gerunds, infinitives, participles) via both matching and fill-in-the-blank formats.",
+  "reading": {
+    "intro": "Covers identifying sentence patterns using S(ubject)/V(erb)/O(bject)/C(omplement)/A(dverbial) codes, and distinguishing the three non-finite verb forms — gerunds, infinitives, and participles — which is exactly how TNPSC tests this material.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What is the sentence pattern of \"In the hall, during prayer song, the students are silent\"?", "answer": "A+S+V+C (Adverbial phrase + Subject + Verb + Complement) — 'in the hall, during prayer song' is the adverbial, 'the students' the subject, 'are' the verb, 'silent' the complement." },
+      { "id": "r02", "question": "Real exam: What is the sentence pattern of \"I placed the camera on the tripod\"?", "answer": "SVOA (Subject + Verb + Object + Adverbial) — 'I'=S, 'placed'=V, 'the camera'=O, 'on the tripod'=A." },
+      { "id": "r03", "question": "Real exam: What is the sentence pattern of \"She made his intention clear\"?", "answer": "S+V+DO+C (Subject + Verb + Direct Object + Complement) — 'clear' is a complement describing the direct object 'his intention', not a second object." },
+      { "id": "r04", "question": "Real exam: What is the sentence pattern of \"I painted the car blue\"?", "answer": "SVOC (Subject + Verb + Object + Complement) — 'blue' complements 'the car', describing the result of the painting." },
+      { "id": "r05", "question": "Real exam: What is the sentence pattern of \"In 1998, Frank moved to London\"?", "answer": "ASVA (Adverbial + Subject + Verb + Adverbial) — 'In 1998' and 'to London' are both adverbials (time and place), bookending the subject and verb." },
+      { "id": "r06", "question": "Real exam: Identify the non-finite verb form in each — \"Walking is a healthy habit\", \"I like to walk early in the morning\", \"Having walked a long distance I felt tired\", \"These are my walking shoes\".", "answer": "\"Walking is a healthy habit\" = GERUND (acting as the subject noun). \"I like TO WALK early\" = INFINITIVE. \"HAVING WALKED a long distance...\" = (perfect) PARTICIPLE, used adverbially to show a completed prior action. \"...my WALKING shoes\" = PARTICIPLE used as an ADJECTIVE (participial adjective), describing 'shoes' — all four confirmed via a real exam's match-the-following question." },
+      { "id": "r07", "question": "Real exam: Fill in the blank with the correct participle — \"___ early, Pami had time to review her notes before the test.\"", "answer": "\"HAVING ARRIVED early...\" — the perfect participle, showing an action completed before the main clause's action." },
+      { "id": "r08", "question": "What is the key difference between a gerund and a present participle, even though both end in '-ing'?", "answer": "A GERUND functions as a NOUN (e.g., 'Walking is a healthy habit' — walking is the subject). A PRESENT PARTICIPLE functions as an ADJECTIVE or as part of a continuous verb tense (e.g., 'my walking shoes' — walking describes 'shoes'; 'she is walking' — part of the verb)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "What is the sentence pattern of \"In the hall, during prayer song, the students are silent\"?", "options": ["S+V+O", "A+S+V+C", "S+V+A", "A+A+S+V"], "correctIndex": 1, "explanation": "A+S+V+C.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m02", "prompt": "What is the sentence pattern of \"I placed the camera on the tripod\"?", "options": ["ASVC", "ASVO", "SVOA", "SVOC"], "correctIndex": 2, "explanation": "SVOA.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m03", "prompt": "What is the sentence pattern of \"She made his intention clear\"?", "options": ["S+V+O+C+A", "S+V+C+A", "A+S+V+O", "S+V+DO+C"], "correctIndex": 3, "explanation": "S+V+DO+C.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m04", "prompt": "What is the sentence pattern of \"I painted the car blue\"?", "options": ["SVOC", "SVC", "SVA", "SVOA"], "correctIndex": 0, "explanation": "SVOC.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What is the sentence pattern of \"In 1998, Frank moved to London\"?", "options": ["ASVA", "ASVO", "ASVC", "SVIODO"], "correctIndex": 0, "explanation": "ASVA.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m06", "prompt": "In \"Walking is a healthy habit,\" the word 'Walking' is a:", "options": ["Gerund", "Infinitive", "Present participle", "Past participle"], "correctIndex": 0, "explanation": "Gerund.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m07", "prompt": "In \"These are my walking shoes,\" the word 'walking' functions as a:", "options": ["Gerund (noun)", "Infinitive", "Participial adjective", "Main verb"], "correctIndex": 2, "explanation": "Participial adjective.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m08", "prompt": "Fill in the blank: \"___ early, Pami had time to review her notes before the test.\"", "options": ["Have arrived", "Having arrived", "Arriving", "Arrived"], "correctIndex": 1, "explanation": "Having arrived.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m09", "prompt": "What is the key functional difference between a gerund and a present participle?", "options": ["There is no difference", "A gerund functions as a noun; a present participle functions as an adjective or part of a verb tense", "A gerund is always plural", "A present participle can only be used at the start of a sentence"], "correctIndex": 1, "explanation": "Gerund=noun; present participle=adjective/verb-tense component.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

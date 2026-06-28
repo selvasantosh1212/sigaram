@@ -1,0 +1,38 @@
+{
+  "topicId": "a2-water-resources-rivers",
+  "unitId": "A-II",
+  "name": "Geography of India: Water Resources & Rivers in India",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 72 Q76 (Tamil Nadu rivers-tributaries mismatch, with answer key)" },
+    { "type": "web-research", "label": "tnpscguru.in - Water Resources/Rivers TNPSC Q&A (11-question real past-paper set, strong TN focus)" }
+  ],
+  "researchNotes": "One direct hit plus an 11-question web-sourced real past-paper set with a strong Tamil Nadu-specific focus (Cauvery/Coleroon split, Sivasamudram dam, Thamirabarani as TN's perennial river) — sensible given this is a Tamil Nadu state service exam, so TN-specific river facts are worth weighting heavily within this all-India topic.",
+  "reading": {
+    "intro": "Third sub-topic of Geography Unit II. Real exam evidence shows a strong Tamil-Nadu-specific lean even within the broader 'Rivers in India' clause — expect TN rivers/dams to come up disproportionately often for a TNPSC exam.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Which river-tributary pairing is INCORRECT — Cauvery-Amaravathi, Thamirabharani-Pampar, Vaigai-Pechiyar, Vellar-Manjalar?", "answer": "Vaigai-Pechiyar AND Vellar-Manjalar are both incorrect pairings (marked '(3) and (4)' wrong in the real exam). Cauvery-Amaravathi and Thamirabharani-Pampar are correctly paired." },
+      { "id": "r02", "question": "Where does the river Kaveri (Cauvery) split into two channels — the Coleroon and the Kaveri?", "answer": "At Mukkombu." },
+      { "id": "r03", "question": "Across which river was the Sivasamudram dam built?", "answer": "The Cauvery." },
+      { "id": "r04", "question": "Which is THE perennial river of Tamil Nadu (flows year-round, unlike the others which are seasonal)?", "answer": "The Thamirabarani River (not Noyyal, Cauvery, or Vaigai — note Cauvery itself is largely seasonal/regulated within TN despite being a major river)." },
+      { "id": "r05", "question": "What water-body type in Tamil Nadu has the most significant salinity problem?", "answer": "Ground water (more so than river, canal, or pond water)." },
+      { "id": "r06", "question": "In which state does the Jhelum river originate?", "answer": "Jammu and Kashmir." },
+      { "id": "r07", "question": "The Chambal river is a tributary of which major river?", "answer": "The Yamuna." },
+      { "id": "r08", "question": "What landform is typically found at the mouth of a FAST-flowing river (as opposed to a slow one)?", "answer": "An Estuary (a slow river instead typically forms a Delta at its mouth, due to sediment deposition that a fast-flowing river's stronger current prevents from settling)." },
+      { "id": "r09", "question": "Arrange these major rivers in North-to-South sequence: Godavari, Mahanadi, Krishna, Kaveri.", "answer": "Mahanadi → Godavari → Krishna → Kaveri (north to south)." },
+      { "id": "r10", "question": "Which of these rivers originate in Karnataka — Bhavani, Palar, Pennaiyar, Cauvery?", "answer": "Pennaiyar, Cauvery, and Bhavani originate in Karnataka (Palar does not — it originates in Karnataka too in some classifications, but the real exam's marked answer excluded Palar from the Karnataka-origin set, including only options II, III, IV per that question's lettering — treat 'Cauvery and its Karnataka-origin tributaries' as the safe takeaway rather than memorizing the exact letter-option mapping)." },
+      { "id": "r11", "question": "When was the Ganga Canal (Uttar Pradesh), one of India's first major irrigation works, opened?", "answer": "1854." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which is the perennial river of Tamil Nadu?", "options": ["Noyyal River", "Cauvery River", "Vaigai River", "Thamirabarani River"], "correctIndex": 3, "explanation": "Thamirabarani.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Across which river was the Sivasamudram dam built?", "options": ["Narmada", "Bhavani", "Cauvery", "Krishna"], "correctIndex": 2, "explanation": "Cauvery.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The river Kaveri splits into the Coleroon and Kaveri channels at:", "options": ["Mukkombu", "Thiruverumbur", "Thiruvanaikkaval", "Thuraiyur"], "correctIndex": 0, "explanation": "Mukkombu.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The Jhelum river originates in which state/UT?", "options": ["Himachal Pradesh", "Jammu and Kashmir", "Punjab", "Uttar Pradesh"], "correctIndex": 1, "explanation": "Jammu and Kashmir.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "The Chambal river is a tributary of which river?", "options": ["Ganga", "Yamuna", "Saraswathi", "Narmada"], "correctIndex": 1, "explanation": "Yamuna.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Fast-flowing river mouths typically form which landform?", "options": ["Delta", "Estuary", "Alluvial fan", "Meander"], "correctIndex": 1, "explanation": "Estuary.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Which of these is the correct North-to-South sequence of rivers?", "options": ["Godavari-Mahanadi-Kaveri-Krishna", "Mahanadi-Godavari-Krishna-Kaveri", "Krishna-Kaveri-Godavari-Mahanadi", "Kaveri-Godavari-Mahanadi-Krishna"], "correctIndex": 1, "explanation": "Mahanadi-Godavari-Krishna-Kaveri.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "In Tamil Nadu, the most significant salinity problem occurs in which water bodies?", "options": ["River water", "Canal water", "Pond water", "Ground water"], "correctIndex": 3, "explanation": "Ground water.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

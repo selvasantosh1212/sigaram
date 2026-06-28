@@ -1,0 +1,27 @@
+{
+  "topicId": "a1-current-affairs-9",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (9): India's nOPV2 Polio Vaccine Gains WHO Prequalification",
+  "sourceRefs": [
+    { "type": "web-research", "label": "who.int/polioeradication.org - Biological E Limited's nOPV2 WHO prequalification (12 February 2026)" }
+  ],
+  "researchNotes": "Ninth Science current-affairs topic, opening Part A's 9th rotation lap. Note: initial research query incorrectly assumed Bharat Biotech was the manufacturer — cross-verified against WHO/GPEI sources and corrected to Biological E Limited before writing, consistent with this project's verify-before-asserting practice.",
+  "reading": {
+    "intro": "Covers a 2026 global-health milestone: an Indian manufacturer's novel oral polio vaccine achieving WHO prequalification.",
+    "qa": [
+      { "id": "r01", "question": "Which Indian company's novel oral polio vaccine type 2 (nOPV2) received WHO prequalification, and when?", "answer": "Biological E Limited (BioE) — prequalified by WHO on 12 February 2026." },
+      { "id": "r02", "question": "What technology partnership enabled Biological E's full-scale manufacturing of nOPV2?", "answer": "A technology transfer from PT Bio Farma (Persero), Indonesia — expanding BioE's role from fill-finish activities (using PT Bio Farma's bulk vaccine) to full in-house bulk manufacturing." },
+      { "id": "r03", "question": "How many doses of nOPV2 has Biological E already contributed to the global stockpile, and what is its projected additional annual capacity after this prequalification?", "answer": "700 million doses contributed since March 2024; an additional 600 million doses per year projected with the new prequalification." },
+      { "id": "r04", "question": "What is nOPV2's significance for global health, and which 2 manufacturers now produce it at full scale?", "answer": "It is a critical tool for stopping outbreaks of the type-2 variant poliovirus. With this prequalification, Biological E (India) becomes the SECOND full manufacturer of nOPV2, joining PT Bio Farma (Indonesia) — together providing diversified, more stable global production capacity." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which Indian company's nOPV2 (novel oral polio vaccine type 2) received WHO prequalification on 12 February 2026?", "options": ["Bharat Biotech", "Serum Institute of India", "Biological E Limited", "Panacea Biotec"], "correctIndex": 2, "explanation": "Biological E Limited.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Biological E's nOPV2 manufacturing capability came via a technology transfer from which country's manufacturer?", "options": ["Indonesia (PT Bio Farma)", "United States (Pfizer)", "United Kingdom (GSK)", "Japan (Takeda)"], "correctIndex": 0, "explanation": "Indonesia (PT Bio Farma).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Since March 2024, Biological E has contributed how many doses of nOPV2 to the global stockpile?", "options": ["300 million", "500 million", "700 million", "900 million"], "correctIndex": 2, "explanation": "700 million doses.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "nOPV2 is specifically a tool for stopping outbreaks of which poliovirus variant?", "options": ["Type 1", "Type 2", "Type 3", "Wild poliovirus only"], "correctIndex": 1, "explanation": "Type 2 variant poliovirus.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "With this WHO prequalification, Biological E becomes the world's ___ full manufacturer of nOPV2.", "options": ["1st", "2nd", "3rd", "4th"], "correctIndex": 1, "explanation": "2nd (after PT Bio Farma, Indonesia).", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "topicId": "a6-current-affairs-10",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History/Culture/Heritage (10): Madurai's Chithirai Thiruvizha 2026",
+  "sourceRefs": [
+    { "type": "web-research", "label": "stayvista.com/maduraicity.co.in - Madurai Chithirai Festival 2026 (19 April-5 May), the Meenakshi-Sundareswarar Tirukalyanam and Kallalagar Vaigai rituals" }
+  ],
+  "researchNotes": "Twelfth and final TN-Culture-unit current-affairs topic of this 10th lap, completing Part A's 10th full rotation. A major recurring TN temple festival with a precise mythological-ritual sequence — strong, traditional culture content distinct from the awards/heritage-institution angles used in prior laps.",
+  "reading": {
+    "intro": "Covers the Madurai Chithirai Thiruvizha 2026 — one of Tamil Nadu's grandest temple festivals, celebrating the divine wedding of Meenakshi and Sundareswarar.",
+    "qa": [
+      { "id": "r01", "question": "When was the Madurai Chithirai Thiruvizha (Festival) 2026 held, and what does it celebrate?", "answer": "19 April to 5 May 2026 — celebrating the divine marriage of Goddess Meenakshi and Lord Sundareswarar, followed by Lord Kallalagar's grand entry into the Vaigai river." },
+      { "id": "r02", "question": "What is the 'Meenakshi Tirukalyanam', and when was it held in 2026?", "answer": "The divine wedding ceremony of Meenakshi and Sundareswarar — held on 28 April 2026." },
+      { "id": "r03", "question": "What is 'Ther Thiruvizha', held the day after the Tirukalyanam?", "answer": "The Chariot Festival (29 April 2026) — massive temple cars (ther) are pulled through Madurai's four Masi streets." },
+      { "id": "r04", "question": "What is 'Kallalagar Vaigai Eluntharulal', and why is it the festival's most crowded event?", "answer": "Held 1 May 2026 — Lord Kallalagar enters the Vaigai river on his golden horse mount, after travelling from Alagar Hills (welcomed via the 'Ethirsevai' ritual on 30 April). It draws the largest crowds of the entire festival." },
+      { "id": "r05", "question": "What ticketing arrangement did the temple administration introduce for the 2026 Divine Wedding ceremony?", "answer": "Paid entry tickets (₹200 and ₹500 categories), bookable online or in person at Birla Guest House, with reservations open from 19-22 April." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Madurai Chithirai Thiruvizha 2026 was held from:", "options": ["1-15 April 2026", "19 April-5 May 2026", "1-20 May 2026", "10-25 May 2026"], "correctIndex": 1, "explanation": "19 April to 5 May 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Meenakshi Tirukalyanam (divine wedding) in the 2026 festival was held on:", "options": ["19 April", "28 April", "1 May", "5 May"], "correctIndex": 1, "explanation": "28 April 2026.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "The 'Ther Thiruvizha' (Chariot Festival) involves temple cars pulled through which streets of Madurai?", "options": ["The four Masi streets", "The Main Bazaar", "The Avani Moola streets", "The Town Hall Road"], "correctIndex": 0, "explanation": "The four Masi streets.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Lord Kallalagar enters the Vaigai river riding on:", "options": ["An elephant", "A golden horse mount", "A silver chariot", "A peacock"], "correctIndex": 1, "explanation": "A golden horse mount.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "For the 2026 Divine Wedding ceremony, the temple offered paid entry tickets in which 2 price categories?", "options": ["₹100 and ₹300", "₹200 and ₹500", "₹250 and ₹750", "₹500 and ₹1000"], "correctIndex": 1, "explanation": "₹200 and ₹500.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

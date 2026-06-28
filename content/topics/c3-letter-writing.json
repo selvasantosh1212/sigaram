@@ -1,0 +1,29 @@
+{
+  "topicId": "c3-letter-writing",
+  "unitId": "C-III",
+  "name": "Writing Skills: Letter Writing (Formal and Informal)",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 24 Q49-50; page 13 Q22 (memo components; formal letter salutation/characteristics, with answer key)" },
+    { "type": "web-research", "label": "vedantu.com/testbook.com - formal/informal letter parts and format differences" }
+  ],
+  "researchNotes": "Opens Part C Unit III (Writing Skills, 10 questions). Real exam evidence favours testing FORMAT/STRUCTURE recognition (what's included/excluded, correct salutation) over full letter-writing exercises (which are hard to test via MCQ anyway, given the syllabus explicitly notes 'Multiple Choice Question' for this topic).",
+  "reading": {
+    "intro": "Covers the structural differences between formal letters, informal letters, and memos — exactly the 'what belongs/doesn't belong' MCQ format TNPSC uses for this topic.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Which of the following is suitable as a salutation for a FORMAL letter?", "answer": "'Dear Sir/Madam' — confirmed correct by a real exam question, as opposed to casual options like 'Hello', 'Cheers', or 'Best regards' (the latter is actually a CLOSING, not an opening salutation)." },
+      { "id": "r02", "question": "Real exam: Which characteristic is NOT typical of a formal letter?", "answer": "Use of slang or unprofessional expressions — a formal letter should use professional language, clear structure, and convey official information; slang is the OPPOSITE of what's expected." },
+      { "id": "r03", "question": "Real exam: Which component is typically NOT included in a memo (as opposed to a letter)?", "answer": "A greeting/salutation — a memo typically has a Subject line, To/From sections, and a signature line, but SKIPS the formal greeting that a letter would include, since memos are brief internal communications." },
+      { "id": "r04", "question": "What are the typical parts of a FORMAL letter?", "answer": "Sender's address (top left), date, recipient's address, a subject line summarising the purpose, a formal salutation ('Dear Sir/Madam' or 'Dear Mr./Ms. [Surname]'), the body in clear paragraphs, a complimentary close ('Yours faithfully' or 'Yours sincerely'), and a signature with name in block letters." },
+      { "id": "r05", "question": "What is typically NOT required in an INFORMAL letter, that IS required in a formal one?", "answer": "A formal Subject line and the recipient's full official address — informal letters use a friendly greeting ('Dear [Name]' or 'Hi [Name]') and a casual closing ('Take care', 'All the best'), and the format is generally more flexible." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of the following is a suitable salutation for a formal letter?", "options": ["Hello", "Dear Sir/Madam", "Cheers", "Best regards"], "correctIndex": 1, "explanation": "Dear Sir/Madam.", "sourceTag": "question-bank-2025", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Which of the following is NOT characteristic of a formal letter?", "options": ["Use of professional language", "Clear and understandable structure", "Use of slang or unprofessional expressions", "Conveying official information"], "correctIndex": 2, "explanation": "Use of slang/unprofessional expressions.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which of the following is NOT typically included in a memo?", "options": ["Subject line", "Greeting/Salutation", "To and from sections", "Signature line"], "correctIndex": 1, "explanation": "Greeting/Salutation.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "A formal letter typically ends with which complimentary close?", "options": ["Take care", "All the best", "Yours faithfully / Yours sincerely", "Bye for now"], "correctIndex": 2, "explanation": "Yours faithfully / Yours sincerely.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "What is typically NOT required in an informal letter, unlike a formal one?", "options": ["A friendly greeting", "A formal Subject line and official recipient address", "A closing remark", "The sender's address"], "correctIndex": 1, "explanation": "A formal Subject line and official recipient address.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

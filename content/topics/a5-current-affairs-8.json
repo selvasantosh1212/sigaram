@@ -1,0 +1,28 @@
+{
+  "topicId": "a5-current-affairs-8",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy & TN Dev. Admin. (8): UPI's 2026 Records & Global Dominance",
+  "sourceRefs": [
+    { "type": "web-research", "label": "edunovations.com/theresearchers.us - UPI's May 2026 record (₹29.90 trillion); 2025 full-year stats (228.5 billion transactions); UPI's global real-time-payments dominance" }
+  ],
+  "researchNotes": "Ninth Economy current-affairs topic (8th lap). UPI/digital-payments statistics are inherently fast-moving (new monthly records appear constantly) — handled by explicitly dating each figure to its specific month/year rather than presenting any single number as a permanently fixed 'current' fact.",
+  "reading": {
+    "intro": "Covers UPI's record-breaking 2026 transaction volumes and its position as the world's largest real-time payments platform.",
+    "qa": [
+      { "id": "r01", "question": "What record did UPI set in May 2026?", "answer": "₹29.90 trillion in transaction value — the highest monthly transaction value since UPI's 2016 launch — alongside 23.2 billion transactions (a 4% increase over the previous month)." },
+      { "id": "r02", "question": "What were UPI's full-year 2025 statistics?", "answer": "228.5 billion transactions (a 33% year-on-year increase) worth a total of ₹299.74 trillion." },
+      { "id": "r03", "question": "What is UPI's standing among the world's real-time payment systems?", "answer": "The world's LARGEST real-time payments platform — accounting for nearly half of all real-time transactions worldwide." },
+      { "id": "r04", "question": "What share of India's total digital payment volume does UPI command, and how many unique users does it have (early 2026)?", "answer": "Nearly 85% of India's total digital payment volume; over 500 million unique users." },
+      { "id": "r05", "question": "What is UPI's projected daily transaction volume by FY2028?", "answer": "1 billion transactions per day." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "UPI's record monthly transaction value, set in May 2026, was approximately:", "options": ["₹19.90 trillion", "₹24.90 trillion", "₹29.90 trillion", "₹34.90 trillion"], "correctIndex": 2, "explanation": "₹29.90 trillion.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "In full-year 2025, UPI processed how many total transactions?", "options": ["128.5 billion", "178.5 billion", "228.5 billion", "278.5 billion"], "correctIndex": 2, "explanation": "228.5 billion (33% YoY growth).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "UPI is recognized as the world's largest real-time payments platform, accounting for approximately what share of global real-time transactions?", "options": ["Nearly 25%", "Nearly 50%", "Nearly 75%", "Nearly 90%"], "correctIndex": 1, "explanation": "Nearly half (50%).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "UPI commands approximately what share of India's total digital payment volume?", "options": ["55%", "65%", "75%", "85%"], "correctIndex": 3, "explanation": "Nearly 85%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "UPI is projected to reach 1 billion transactions per DAY by:", "options": ["FY2026", "FY2027", "FY2028", "FY2030"], "correctIndex": 2, "explanation": "FY2028.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

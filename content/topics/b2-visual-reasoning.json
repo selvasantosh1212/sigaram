@@ -1,0 +1,29 @@
+{
+  "topicId": "b2-visual-reasoning",
+  "unitId": "B-II",
+  "name": "Visual Reasoning",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 105 Q112 (mirror-image figure question — flagged by TNPSC's own answer key as disputed/under expert-committee review)" },
+    { "type": "web-research", "label": "careers360.com / reasoningability.com - mirror image and water image rules" }
+  ],
+  "researchNotes": "The one direct real hit is unusually flagged: the source page itself carries a printed notice that 'THIS QUESTION AND ANSWER ARE TO BE PLACED BEFORE THE EXPERT COMMITTEE FOR FINAL DECISION' — meaning even TNPSC wasn't fully confident in its own answer key for that specific mirror-image question. Included as evidence that mirror-image figure questions ARE a real tested format, but the specific marked answer is treated as unconfirmed rather than authoritative. The core technique (mirror vs water image rules) comes from general reasoning-prep sources since this is a well-established, stable concept not specific to any one year's paper.",
+  "reading": {
+    "intro": "Visual Reasoning is 1 of 6 named Reasoning skills, testing image-based logic rather than text/number puzzles — mirror images, water images, and embedded figures are the standard formats. Note: TNPSC's own answer key has at least one acknowledged disputed mirror-image question, a useful reminder that on visual questions specifically, double-check your own reasoning rather than assuming the 'obvious' answer is automatically right.",
+    "qa": [
+      { "id": "r01", "question": "What is the rule for a MIRROR image, and what stays the same vs. flips?", "answer": "A mirror image flips LEFT and RIGHT (the right side of the object appears on the left, and vice versa), while TOP and BOTTOM stay the same. Imagine holding the figure up to a vertical mirror." },
+      { "id": "r02", "question": "What is the rule for a WATER image, and how is it different from a mirror image?", "answer": "A water image flips TOP and BOTTOM (it appears upside-down, as if reflected in still water below the object), while LEFT and RIGHT stay the same. This is the opposite axis of flipping compared to a mirror image." },
+      { "id": "r03", "question": "What is the best strategy for solving mirror/water image questions quickly?", "answer": "Focus on the most unique or asymmetric part of the figure first (not the symmetric parts, which look the same either way) — mentally flip just that distinctive part along the correct axis (vertical line for mirror, horizontal line for water), and use it to eliminate options before checking the rest." },
+      { "id": "r04", "question": "What is an 'embedded figure' question, and what does it test?", "answer": "A question where a simple shape is hidden within a more complex, cluttered figure, and you must identify which of the answer-choice shapes appears embedded within it. Tests visual scanning and pattern-matching rather than flipping/rotation." },
+      { "id": "r05", "question": "Real exam (flagged as disputed by TNPSC itself): A figure is shown, and you must choose its correct mirror image from 4 options. What's the most reliable way to verify your choice, given that even the official answer key has had disputed cases here?", "answer": "Don't just eyeball it — explicitly trace which side each distinctive feature should land on after a left-right flip, point by point, rather than relying on a quick visual impression. Given that TNPSC's own committee has had to review at least one mirror-image answer, treat your worked-through reasoning as more trustworthy than a snap visual judgment, and double-check rather than rushing." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "In a MIRROR image of a figure, which pair of sides swap?", "options": ["Top and bottom", "Left and right", "Diagonal corners only", "Nothing swaps"], "correctIndex": 1, "explanation": "Left and right swap; top and bottom stay the same.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "In a WATER image of a figure, which pair of sides swap?", "options": ["Top and bottom", "Left and right", "Both pairs swap", "Neither swaps"], "correctIndex": 0, "explanation": "Top and bottom swap; left and right stay the same.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "The letter 'b' would appear as which letter in its mirror image (left-right flip)?", "options": ["b", "d", "p", "q"], "correctIndex": 1, "explanation": "'b' has its stem on the left with the bowl attached at bottom-right. Flipping left-right moves the stem to the right with the bowl at bottom-left — that's the letter 'd'.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The letter 'b' would appear as which letter in its water image (top-bottom flip)?", "options": ["b", "d", "p", "q"], "correctIndex": 2, "explanation": "Flipping 'b' top-to-bottom keeps the stem on the left but moves the bowl from bottom-right to top-right — that's the letter 'p'. (Mirror and water images of the same letter generally differ — here mirror gives 'd', water gives 'p'.)", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m05", "prompt": "An 'embedded figure' question primarily tests:", "options": ["Arithmetic ability", "Visual scanning and pattern-matching within a cluttered figure", "Vocabulary", "Memory of a list"], "correctIndex": 1, "explanation": "Visual scanning/pattern-matching to find a hidden shape within a complex figure.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "c2-homonyms-homophones",
+  "unitId": "C-II",
+  "name": "Vocabulary: Homonyms and Homophones",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 146 Q195-197; 2024_q page 75 Q140 (real homophone fill-in-the-blank questions, stashed earlier, with answer key)" },
+    { "type": "web-research", "label": "byjus.com/successcds.net - stationary/stationery distinction with memory trick; common confused-word pairs" }
+  ],
+  "researchNotes": "Opens Part C Unit II (Vocabulary, 15 questions). Consumes 4 facts stashed during Day-57 Grammar research. Resolves the one ambiguous stash entry (stationery vs stationary, where the original OCR transcription was unclear about which option was checked) using a clean, independently-verified rule rather than guessing.",
+  "reading": {
+    "intro": "Covers homophones (words that sound alike but differ in spelling and meaning) and the specific confused-word pairs TNPSC has tested in real exams.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: \"The ___ for the ride was expensive\" — which homophone fits, 'fare' or 'fair'?", "answer": "FARE (the cost of a ride/journey) — not 'fair' (which means just/equitable, or a carnival event)." },
+      { "id": "r02", "question": "Real exam: What is the correct homophone for 'mail'?", "answer": "MALE (as opposed to 'myle' or 'mile', which are not true homophones of 'mail')." },
+      { "id": "r03", "question": "Real exam: In \"The dog wagged its tail,\" which word is a homophone of 'tail'?", "answer": "TALE (a story) — not 'toile' or 'toil'." },
+      { "id": "r04", "question": "Real exam: \"They rejoined the group as Sarah passed out ___ and coffee\" — 'dessert' or 'desert'?", "answer": "DESSERT (a sweet course after a meal) — not 'desert' (a dry, arid region, or to abandon)." },
+      { "id": "r05", "question": "What is the difference between 'stationery' and 'stationary', and what is a useful memory trick?", "answer": "STATIONERY = writing supplies (paper, pens, envelopes) — memory trick: 'E is for Envelope', and an envelope is something you write on, so stationERY. STATIONARY = not moving, staying in place — memory trick: 'A is for Anchored', and an anchor stops movement, so stationARY." },
+      { "id": "r06", "question": "What is the difference between 'there', 'their', and \"they're\" — the most commonly confused homophone trio in English?", "answer": "THERE = an adverb referring to a place ('put it there'). THEIR = a possessive pronoun ('their house'). THEY'RE = a contraction of 'they are' ('they're coming')." },
+      { "id": "r07", "question": "What is the difference between 'practice' and 'practise', and between 'advice' and 'advise'?", "answer": "PRACTICE (noun) vs PRACTISE (verb) — in British English spelling conventions. Similarly, ADVICE (noun, 'a piece of advice') vs ADVISE (verb, 'to advise someone')." },
+      { "id": "r08", "question": "What is the difference between 'loose'/'lose' and 'affect'/'effect'?", "answer": "LOOSE (adjective, not tight) vs LOSE (verb, to misplace/fail to win). AFFECT (verb, to influence) vs EFFECT (noun, the result of an influence)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The ___ for the ride was expensive.\"", "options": ["fair", "fore", "far", "fare"], "correctIndex": 3, "explanation": "fare.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Select the correct homophone for the word 'mail'.", "options": ["myle", "maile", "male", "mile"], "correctIndex": 2, "explanation": "male.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"The dog wagged its tail.\" Which word is a homophone of the underlined word?", "options": ["taile", "tale", "toile", "toil"], "correctIndex": 1, "explanation": "tale.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"They rejoined the group as Sarah passed out ___ and coffee.\"", "options": ["desert", "dirt", "dessert", "dish"], "correctIndex": 2, "explanation": "dessert.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"She went to the shop to buy pens, paper, and envelopes\" — these items are collectively called:", "options": ["Stationary", "Stationery", "Statuary", "Statutory"], "correctIndex": 1, "explanation": "Stationery (writing supplies).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"The car remained ___ for over an hour due to the traffic jam\" — which word fits?", "options": ["stationery", "stationary", "statutory", "statuary"], "correctIndex": 1, "explanation": "Stationary (not moving).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Fill in correctly: \"___ going to the market to return ___ books.\"", "options": ["They're, there", "There, they're", "They're, their", "Their, they're"], "correctIndex": 2, "explanation": "They're going... to return their books.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Which sentence uses 'advice' and 'advise' correctly?", "options": ["She gave me good advise; I will advice him too", "She gave me good advice; I will advise him too", "She gave me good advice; I will advice him too", "She gave me good advise; I will advise him too"], "correctIndex": 1, "explanation": "advice (noun), advise (verb).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Which sentence uses 'affect' and 'effect' correctly?", "options": ["The new policy will effect many people, with a lasting affect", "The new policy will affect many people, with a lasting effect", "The new policy will affect many people, with a lasting affect", "The new policy will effect many people, with a lasting effect"], "correctIndex": 1, "explanation": "affect (verb), effect (noun).", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "topicId": "c7-prose-old-man-river",
+  "unitId": "C-VII",
+  "name": "Prose (Drama): \"Old Man River\" — Dorothy Deming",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" }
+  ],
+  "researchNotes": "OCR index search for 'old man river/dorothy deming' returned zero hits — web research only. Unlike most other Unit VII pieces, this is explicitly a DRAMA (a play script) rather than a short story or poem — expect questions about scene/setting and character roles rather than figures of speech.",
+  "reading": {
+    "intro": "A short drama about the Marshall family in Alberta, whose home faces a rising flood while the parents are away — testing the courage and calm of the children and young neighbours left to handle the emergency, including a tense rescue of a 9-year-old girl, Sara Field.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Old Man River\", and what type of literary work is it (distinct from most other Unit VII pieces)?", "answer": "Dorothy Deming. It is a DRAMA (a play script), not a short story or poem." },
+      { "id": "r02", "question": "What natural disaster occurs in the drama, and where is the play set?", "answer": "A flood. The play is set in the Marshall household (in Alberta)." },
+      { "id": "r03", "question": "Who is Amy Marshall, and how many children/young people are involved in the rescue situation overall?", "answer": "Amy Marshall is the ELDEST child in the family. Five children/young people are involved in the rescue situation in total." },
+      { "id": "r04", "question": "What is Jim Hall's role in the drama, and what does the radio report about the river?", "answer": "Jim Hall is a Junior Red Cross emergency team member. The radio reports that the river has CROSSED FLOOD STAGE." },
+      { "id": "r05", "question": "What happens to the house's power supply and stove during the emergency, and what does Betty use for lighting instead?", "answer": "The power supply goes OUT. The house has an OIL-OPERATED stove. Betty uses a flashlight and candles for lighting during the outage." },
+      { "id": "r06", "question": "Who is Sara Field, how old is she, and where was she rescued from?", "answer": "Sara Field is a 9-year-old girl who needs to be rescued during the flood — she was on the playhouse porch before being rescued." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Old Man River\" was written by:", "options": ["Dorothy Parker", "Dorothy Deming", "Ruskin Bond", "O. Henry"], "correctIndex": 1, "explanation": "Dorothy Deming.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What natural disaster occurs in \"Old Man River\"?", "options": ["Earthquake", "Cyclone", "Flood", "Fire"], "correctIndex": 2, "explanation": "Flood.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Where does the play \"Old Man River\" take place?", "options": ["A field school", "The Marshall household", "A city hospital", "A railway station"], "correctIndex": 1, "explanation": "The Marshall household.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "How many children/young people are involved in the rescue situation in the drama?", "options": ["3", "4", "5", "6"], "correctIndex": 2, "explanation": "5.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Who is Amy Marshall in the drama?", "options": ["A nurse", "The youngest girl", "A Red Cross member", "The eldest child"], "correctIndex": 3, "explanation": "The eldest child.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What is Jim Hall's role in the drama?", "options": ["Police Officer", "Red Cross Volunteer (adult)", "Junior Red Cross emergency team member", "Soldier"], "correctIndex": 2, "explanation": "Junior Red Cross emergency team member.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "What did the radio report about the river?", "options": ["It was dry", "It had crossed flood stage", "It was clean", "It was freezing"], "correctIndex": 1, "explanation": "It had crossed flood stage.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What happened to the power supply in the Marshall house during the flood?", "options": ["It worked fine", "It brightened", "It fluctuated", "It went out"], "correctIndex": 3, "explanation": "It went out.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "How old is Sara Field, and where was she before being rescued?", "options": ["8 years old; kitchen", "9 years old; playhouse porch", "10 years old; attic", "7 years old; roof"], "correctIndex": 1, "explanation": "9 years old; playhouse porch.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m10", "prompt": "What did Betty use for lighting during the power outage?", "options": ["Lamps", "Torches only", "Flashlight and candles", "A lighter"], "correctIndex": 2, "explanation": "Flashlight and candles.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

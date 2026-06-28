@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-prose-isaac-newton",
+  "unitId": "C-VII",
+  "name": "Prose: \"Sir Isaac Newton — The Ingenious Scientist\" — Nathaniel Hawthorne",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 84 Q170 (who brought up young Newton — his grandmother, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total); brainkart.com - context (from Hawthorne's 'True Stories from History and Biography', 1851)" }
+  ],
+  "researchNotes": "1 real past-paper hit plus a clean 12-question web-research set. Earlier OCR research (while authoring Land Reforms/Agriculture) had already confirmed Nathaniel Hawthorne is an AMERICAN writer — that fact is reused here from the stash rather than re-derived.",
+  "reading": {
+    "intro": "A biographical sketch of the young Isaac Newton's childhood inventiveness, written by the American author Nathaniel Hawthorne (from his 1851 collection 'True Stories from History and Biography'), focusing on Newton's early mechanical talent before his famous scientific discoveries.",
+    "qa": [
+      { "id": "r01", "question": "Where was Isaac Newton born, and who took care of him after his mother remarried?", "answer": "Woolsthorpe (England). His GRANDMOTHER took care of him after his mother remarried — confirmed by a real exam question. (His stepfather was a CLERGYMAN.)" },
+      { "id": "r02", "question": "What was one of Isaac's remarkable childhood talents, and what was one of the first mechanical devices he made?", "answer": "Building mechanical tools and devices. One of his first such devices was a WATER-CLOCK (a clock powered by water)." },
+      { "id": "r03", "question": "What did young Isaac construct after studying a nearby windmill, and what (unusual detail) did he use as the 'miller' inside his model?", "answer": "A model windmill. He used a MOUSE as the miller inside his miniature windmill." },
+      { "id": "r04", "question": "What were the sails of Isaac's model windmill made of, and what would happen if grains of wheat were put into its little hopper?", "answer": "The sails were neatly made of linen, and whirled round swiftly in a draught of air. Grains of wheat put into the hopper would soon be converted into snow-white flour — demonstrating the working model's realism." },
+      { "id": "r05", "question": "What was the purpose of the sun-dial Isaac made, and how did he measure the strength of the wind as a child?", "answer": "The sun-dial was made to tell the time during sunny days. He measured wind strength by JUMPING AGAINST the wind." },
+      { "id": "r06", "question": "Why did Isaac's mother want him to leave school at age 14, and how did Newton describe his own knowledge near the end of his life?", "answer": "To help manage the family farm. Despite his monumental discoveries, Newton famously described his knowledge as LIMITED compared to the vast truth that still lay undiscovered (a famous note of scientific humility)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Isaac Newton was born in:", "options": ["Cambridge", "London", "North Witham", "Woolsthorpe"], "correctIndex": 3, "explanation": "Woolsthorpe.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "After his mother remarried, who took care of young Isaac Newton?", "options": ["His uncle", "His father", "His grandmother", "A neighbor"], "correctIndex": 2, "explanation": "His grandmother.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What was the occupation of Isaac Newton's stepfather?", "options": ["Farmer", "Clockmaker", "Teacher", "Clergyman"], "correctIndex": 3, "explanation": "Clergyman.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What type of clock did young Isaac invent?", "options": ["A wind-powered clock", "A water-clock", "A solar-powered clock", "A pendulum clock"], "correctIndex": 1, "explanation": "A water-clock.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What did Isaac construct after studying a nearby windmill?", "options": ["A clock", "A model windmill", "A mechanical crane", "A solar panel"], "correctIndex": 1, "explanation": "A model windmill.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "What did Isaac use as the 'miller' in his miniature windmill?", "options": ["A small doll", "A mouse", "A wooden block", "A toy soldier"], "correctIndex": 1, "explanation": "A mouse.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "What was the purpose of the sun-dial that Isaac made?", "options": ["To tell the time at night", "To tell time during sunny days", "To measure distance", "To determine wind speed"], "correctIndex": 1, "explanation": "To tell time during sunny days.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "How did Isaac measure the strength of the wind as a child?", "options": ["By jumping against the wind", "By building a wind gauge", "By using a compass", "By observing tree movements"], "correctIndex": 0, "explanation": "By jumping against the wind.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Why did Isaac's mother want him to leave school at age 14?", "options": ["To become a clockmaker", "To help manage the farm", "To join the military", "To pursue mathematics full-time"], "correctIndex": 1, "explanation": "To help manage the farm.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "How did Newton describe his own knowledge near the end of his life?", "options": ["As complete and satisfactory", "As limited compared to the truth that still lies undiscovered", "As vast and limitless", "As sufficient for his time"], "correctIndex": 1, "explanation": "As limited compared to undiscovered truth.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

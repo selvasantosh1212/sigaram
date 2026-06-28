@@ -1,0 +1,33 @@
+{
+  "topicId": "a5-tn-education-health-egovernance",
+  "unitId": "A-V",
+  "name": "Education and Health Systems in Tamil Nadu, and e-Governance in Tamil Nadu",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 29 Q62 (E-Sevai centers' primary function, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 26 Q25 (GeM statements — true facts plus a year trap, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 86 Q90 ('Neengal Nalama' scheme — all statements true, with answer key)" },
+    { "type": "web-research", "label": "edurev.in/tnhsp.org - Samacheer Kalvi (2010-11), TN's 1939 Public Health Act" }
+  ],
+  "researchNotes": "3 real hits on e-Governance specifically (TN's e-Governance evidence is denser than its Education/Health evidence in the local question bank) plus durable web-sourced facts for Education/Health. The GeM (Government e-Marketplace) question is a good example of a 'mostly true statements plus one wrong year' trap — confirmed correct facts paired with a deliberately wrong launch year.",
+  "reading": {
+    "intro": "Covers Tamil Nadu's education reforms (Samacheer Kalvi), its historic public health leadership, and 3 real exam hits on e-Governance initiatives (E-Sevai centers, the Government e-Marketplace, and the 'Neengal Nalama' scheme).",
+    "qa": [
+      { "id": "r01", "question": "What is Samacheer Kalvi, and when was it introduced?", "answer": "Samacheer Kalvi ('Uniform System of School Education') was introduced in Tamil Nadu in 2010-11, establishing a standardised curriculum across all school boards (State Board, Matriculation, Anglo-Indian) for classes 1 to 12, aimed at ensuring educational equity regardless of which board a student's school followed." },
+      { "id": "r02", "question": "What historic distinction does Tamil Nadu hold in public health legislation?", "answer": "Tamil Nadu was the FIRST Indian state to enact a Public Health Act, in 1939 — reflecting a long-standing tradition of strong political commitment to public health infrastructure at the district level." },
+      { "id": "r03", "question": "Real exam: What is the primary function of TN's E-Sevai centers, per a real exam passage?", "answer": "To facilitate the online delivery of essential government services — confirmed as the correct inference from a real exam's reading-comprehension-style passage about E-Sevai centers." },
+      { "id": "r04", "question": "Real exam: Which statements about the Government e-Marketplace (GeM) are TRUE, and what is the trap?", "answer": "TRUE: India's public procurement reaches roughly 20-25% of GDP, and GeM was conceptualised as a Special Purpose Vehicle (SPV) for government procurement. The TRAP: GeM was NOT set up in August 2006 — its actual launch was in August 2016; a real exam tested this wrong year as part of a 'choose the correct statements' question." },
+      { "id": "r05", "question": "Real exam: What is 'Neengal Nalama', and what does it involve?", "answer": "A Tamil Nadu Government scheme that is (per a real exam, confirming ALL of the following as true): intended to reduce the gap between people and the Government, an instrument of e-governance, and focused on ensuring government initiatives actually reach their intended beneficiaries." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Samacheer Kalvi, Tamil Nadu's uniform school education system, was introduced in:", "options": ["2005-06", "2010-11", "2015-16", "2020-21"], "correctIndex": 1, "explanation": "2010-11.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which Indian state was the FIRST to enact a Public Health Act, in 1939?", "options": ["Kerala", "Tamil Nadu", "Maharashtra", "West Bengal"], "correctIndex": 1, "explanation": "Tamil Nadu.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What is the primary function of Tamil Nadu's E-Sevai centers?", "options": ["To train government employees", "To facilitate online delivery of essential government services", "To manage state-level databases only", "To monitor rural population growth"], "correctIndex": 1, "explanation": "Facilitate online delivery of essential government services.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Government e-Marketplace (GeM) was actually launched in which year (not 2006, a common trap)?", "options": ["2010", "2014", "2016", "2019"], "correctIndex": 2, "explanation": "2016 (a real exam tested 2006 as a wrong distractor).", "sourceTag": "question-bank-2026", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Approximately what percentage of India's GDP does public procurement reach, per a real exam fact?", "options": ["5-10%", "20-25%", "40-45%", "60-65%"], "correctIndex": 1, "explanation": "20-25%.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m06", "prompt": "GeM (Government e-Marketplace) was conceptualised as a:", "options": ["Joint venture company", "Special Purpose Vehicle (SPV)", "Private limited startup", "Foreign-funded NGO"], "correctIndex": 1, "explanation": "Special Purpose Vehicle.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m07", "prompt": "'Neengal Nalama', a Tamil Nadu Government scheme, involves which of the following?", "options": ["Reducing the gap between people and Government only", "Being an instrument of e-governance only", "Ensuring government initiatives reach intended beneficiaries only", "All of the above"], "correctIndex": 3, "explanation": "All of the above.", "sourceTag": "question-bank-2025", "difficulty": "medium" }
+    ]
+  }
+}

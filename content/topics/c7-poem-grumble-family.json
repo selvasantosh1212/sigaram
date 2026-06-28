@@ -1,0 +1,30 @@
+{
+  "topicId": "c7-poem-grumble-family",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Grumble Family\" — L.M. Montgomery",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" }
+  ],
+  "researchNotes": "OCR index search for 'grumble family'/'montgomery' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept since each tests a distinct fact/device.",
+  "reading": {
+    "intro": "A humorous, cautionary poem about a family that complains about absolutely everything, living on 'Complaining Street'. Real coaching-site evidence tests the poem's setting, irony, and a couple of figures of speech.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Grumble Family\", and what is its central theme?", "answer": "L.M. Montgomery. Central theme: the danger of constant complaining — the poem warns against habitual negativity and urges readers to adopt a positive attitude instead." },
+      { "id": "r02", "question": "Where does the Grumble family live?", "answer": "On 'Complaining Street', in the city of 'Never-Are-Satisfied', beside the 'River of Discontent' — all symbolically named to match the family's perpetually negative outlook." },
+      { "id": "r03", "question": "What is ironic about the Grumble family's behaviour?", "answer": "They complain even when things are perfect — rain or sun, summer or winter, high or humble status, nothing satisfies them, which is the central irony: their unhappiness isn't caused by genuinely bad circumstances, but by their own habit of complaining regardless of circumstances." },
+      { "id": "r04", "question": "Identify the figure of speech: \"The River of Discontent beside.\"", "answer": "Imagery — a vivid descriptive image (a symbolic river) representing the family's emotional state." },
+      { "id": "r05", "question": "Identify the figure of speech: \"Growl at the rain and growl at the sun.\"", "answer": "Alliteration — repeated initial sounds, here also reflected in similar examples like 'They'd growl that they'd nothing to grumble about'." },
+      { "id": "r06", "question": "What does the poet ultimately want readers to do, per the poem's message?", "answer": "Stop complaining and develop a positive attitude — to 'walk with a smile and a song' rather than grumble regardless of circumstances." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Grumble Family\" was written by:", "options": ["Rudyard Kipling", "L.M. Montgomery", "Jane Taylor", "R.L. Stevenson"], "correctIndex": 1, "explanation": "L.M. Montgomery.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The main theme of the poem is:", "options": ["City life", "The danger of complaining", "Weather conditions", "Family reunion"], "correctIndex": 1, "explanation": "The danger of complaining.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What is the name of the street the Grumble family lives on?", "options": ["Lonely Street", "Happy Lane", "Complaining Street", "River Road"], "correctIndex": 2, "explanation": "Complaining Street.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "What is ironic about the Grumble family's behaviour?", "options": ["They never complain", "They are praised for kindness", "They complain even when things are perfect", "They're always joyful"], "correctIndex": 2, "explanation": "They complain regardless of how good circumstances actually are.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"The River of Discontent beside\" is an example of which device?", "options": ["Simile", "Metaphor", "Alliteration", "Imagery"], "correctIndex": 3, "explanation": "Imagery.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Growl at the rain and growl at the sun\" uses which figure of speech?", "options": ["Metaphor", "Personification", "Hyperbole", "Alliteration"], "correctIndex": 3, "explanation": "Alliteration.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

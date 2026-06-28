@@ -1,0 +1,29 @@
+{
+  "topicId": "a1-current-affairs-7",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (7): National Quantum Mission's 2026 Progress",
+  "sourceRefs": [
+    { "type": "web-research", "label": "insightsonindia.com/dst.gov.in - National Quantum Mission's 1,000-km quantum communication milestone (2026); Quantum Valley Amaravati's 133-qubit computer target" }
+  ],
+  "researchNotes": "Seventh Science current-affairs topic, opening Part A's 7th rotation lap. Directly extends the Day-66 topic's Quantum Valley Tech Park (Amaravati) mention with concrete 2026 progress data and the Mission's full budget/target framework.",
+  "reading": {
+    "intro": "Covers the National Quantum Mission's framework and its concrete 2026 progress milestones.",
+    "qa": [
+      { "id": "r01", "question": "When was the National Quantum Mission (NQM) approved, and what is its total budget/timeline?", "answer": "Approved by the Union Cabinet on 19 April 2023, with a total budget of ₹6,003.65 crore, running from 2023-24 to 2030-31." },
+      { "id": "r02", "question": "What are 2 of the NQM's key technical targets?", "answer": "Developing intermediate-scale quantum computers with 50-1,000 physical qubits within 8 years; and satellite-based secure quantum communication between ground stations over a range of 2,000 km within India." },
+      { "id": "r03", "question": "What quantum communication milestone was announced in 2026?", "answer": "A historic 1,000-km secure quantum communication milestone, achieved in LESS THAN 2 YEARS." },
+      { "id": "r04", "question": "What is the Quantum Valley project (Amaravati), and what is its 2026 target?", "answer": "A dedicated quantum-technology hub in Amaravati, aiming to establish India's first 133-qubit quantum computer by 2026." },
+      { "id": "r05", "question": "How many Thematic Hubs (T-Hubs) has the NQM established, and what do they focus on?", "answer": "4 Thematic Hubs, focusing on: Quantum Computing, Quantum Communication, Quantum Sensing & Metrology, and Quantum Materials & Devices." },
+      { "id": "r06", "question": "What startup and education support has the NQM provided so far?", "answer": "8 startups supported under NQM's guidelines; 23 academic institutions approved to establish quantum teaching laboratories (with 100+ more proposals under evaluation)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The National Quantum Mission was approved by the Union Cabinet on:", "options": ["19 April 2022", "19 April 2023", "19 April 2024", "19 April 2025"], "correctIndex": 1, "explanation": "19 April 2023.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "The National Quantum Mission's total budget is approximately:", "options": ["₹3,000 crore", "₹4,500 crore", "₹6,000 crore", "₹8,000 crore"], "correctIndex": 2, "explanation": "₹6,003.65 crore.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "In 2026, the National Quantum Mission achieved a secure quantum communication milestone of:", "options": ["500 km", "1,000 km", "1,500 km", "2,000 km"], "correctIndex": 1, "explanation": "1,000 km.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Quantum Valley project at Amaravati aims to establish India's first quantum computer with how many qubits, by 2026?", "options": ["50 qubits", "100 qubits", "133 qubits", "250 qubits"], "correctIndex": 2, "explanation": "133 qubits.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "How many Thematic Hubs (T-Hubs) has the National Quantum Mission established?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "4 (Quantum Computing, Communication, Sensing & Metrology, Materials & Devices).", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "topicId": "a1-current-affairs-4",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (4): ISRO's SpaDeX Docking, New TN Spaceport & Gaganyaan Progress",
+  "sourceRefs": [
+    { "type": "web-research", "label": "isro.gov.in/pib.gov.in - SpaDeX docking (Jan 2025); SSLV Launch Complex, Kulasekarapattinam (TN); Gaganyaan-1 uncrewed mission progress (2026)" }
+  ],
+  "researchNotes": "Fourth Science current-affairs topic, opening Part A's 4th rotation lap. The SSLV Launch Complex fact is a useful Science-meets-TN bridge (ISRO's 2nd spaceport is located IN Tamil Nadu, Thoothukudi district) — a natural link to TN-Culture/Geography topics elsewhere in the project.",
+  "reading": {
+    "intro": "Covers three connected, dated ISRO/space-technology developments: the SpaDeX docking demonstration, the new TN-based spaceport, and Gaganyaan's human-spaceflight progress.",
+    "qa": [
+      { "id": "r01", "question": "What did ISRO's SpaDeX mission achieve, and when?", "answer": "On 16 January 2025, ISRO successfully docked two satellites (SDX-01 'Chaser' and SDX-02 'Target', 220 kg each) in space — India's first satellite-docking demonstration, making India the 4th country (after the USA, Russia, and China) to achieve this capability." },
+      { "id": "r02", "question": "Why does the SpaDeX docking matter for India's future space missions?", "answer": "It is a technology demonstrator for future missions requiring docking, including Chandrayaan-4, the Bharatiya Antariksh Station (India's planned space station), and India's planned Human Moon Mission." },
+      { "id": "r03", "question": "Where is ISRO's new second spaceport being built, and what is it called?", "answer": "The SSLV Launch Complex (SLC), at Kulasekarapattinam, a coastal village in Thoothukudi district, Tamil Nadu — spread over about 2,233 acres." },
+      { "id": "r04", "question": "Why is the Kulasekarapattinam location strategically chosen for launches?", "answer": "It allows launches directly south over the Indian Ocean without crossing any landmass for thousands of miles — ideal for efficiently launching satellites into polar orbits." },
+      { "id": "r05", "question": "What is the SSLV Launch Complex's planned timeline and capacity?", "answer": "Construction began 5 March 2025; the launch pad is planned for commissioning by August 2026, with the first launch by December 2026; the facility is estimated to support 20-25 launches per year." },
+      { "id": "r06", "question": "What is 'Gaganyaan-1', and what is it scheduled to carry?", "answer": "Gaganyaan-1 (G1) is ISRO's first UNCREWED test flight under the Gaganyaan human-spaceflight programme, scheduled for March 2026, carrying 'Vyommitra' — a half-humanoid robot — to simulate astronaut conditions and gather life-support/environmental data." },
+      { "id": "r07", "question": "What is Gaganyaan's overall crewed-mission timeline?", "answer": "After uncrewed test flights (G1, G2, G3) through 2026, India's first crewed spaceflight (H1) is planned for 2027, carrying 3 astronauts to low Earth orbit for up to 7 days." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "ISRO's SpaDeX mission successfully docked two satellites on:", "options": ["30 December 2024", "16 January 2025", "12 January 2025", "7 January 2025"], "correctIndex": 1, "explanation": "16 January 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "With the SpaDeX docking, India became the ___ country to demonstrate satellite docking.", "options": ["2nd", "3rd", "4th", "5th"], "correctIndex": 2, "explanation": "4th, after the USA, Russia, and China.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "ISRO's new second spaceport, the SSLV Launch Complex, is located at:", "options": ["Sriharikota, Andhra Pradesh", "Kulasekarapattinam, Tamil Nadu", "Thumba, Kerala", "Bengaluru, Karnataka"], "correctIndex": 1, "explanation": "Kulasekarapattinam, Thoothukudi district, Tamil Nadu.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Launches from Kulasekarapattinam are strategically advantageous because they can launch directly south over the Indian Ocean, making them ideal for:", "options": ["Geostationary orbit launches", "Polar orbit launches", "Lunar transfer launches", "Deep-space launches only"], "correctIndex": 1, "explanation": "Polar orbit launches.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "'Vyommitra', scheduled to fly on Gaganyaan-1 (March 2026), is:", "options": ["A communication satellite", "A half-humanoid robot", "A weather-monitoring probe", "A cargo module"], "correctIndex": 1, "explanation": "A half-humanoid robot.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "India's first crewed Gaganyaan spaceflight (H1) is planned for:", "options": ["2026", "2027", "2028", "2029"], "correctIndex": 1, "explanation": "2027.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "topicId": "a2-forest-wildlife-agriculture",
+  "unitId": "A-II",
+  "name": "Geography of India: Forest & Wildlife; Agricultural Pattern",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2022_q1 page 42 Q160 (forest-type matching, with answer key — found while researching an earlier topic, stashed and used here)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - Forest and Wildlife Q&A (real past-paper set)" },
+    { "type": "authored", "label": "Kharif/Rabi cropping seasons — standard agricultural-geography basics, no direct past-paper hit found" }
+  ],
+  "researchNotes": "Two related but distinct syllabus clauses (Forest & Wildlife; Agricultural pattern) bundled into one topic since neither alone had enough distinct sourced evidence for a full day. Forest/Wildlife landed solid real-ish evidence (stashed matching question plus a 6-question web set); Agricultural pattern had none findable, so it's covered with standard authored cropping-season basics, clearly tagged as lower-confidence.",
+  "reading": {
+    "intro": "Fifth sub-topic of Geography Unit II, combining two adjacent thin clauses. Forest/Wildlife questions favor named facts (Acts, year, counts); Agricultural pattern questions in past papers typically test cropping seasons and regional crop belts.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Match these forest types to their description — Tropical Evergreen, Tropical Deciduous, Semi-desert, Mangrove.", "answer": "Tropical Evergreen → Tropical Rain Forest. Tropical Deciduous → Monsoon forest. Semi-desert → Thorny Bushes (scrub vegetation). Mangrove → Tidal Forests (found in coastal/estuarine tidal zones, like the Sundarbans)." },
+      { "id": "r02", "question": "When was the Asian cheetah declared extinct in India?", "answer": "1952." },
+      { "id": "r03", "question": "When was the Indian Wildlife Protection Act implemented?", "answer": "1972." },
+      { "id": "r04", "question": "What is the Himalayan Yew, and what are 'reserved and protected forests' also called?", "answer": "The Himalayan Yew is a medicinal plant (not an insect, mammal, or bird). Reserved and protected forests together are referred to as the 'permanent forest estate'." },
+      { "id": "r05", "question": "Roughly how many tiger reserves does India have, and what fraction of India's geographical area is 'open forest'?", "answer": "58 tiger reserves. Open forests cover around 9% of India's total geographical area." },
+      { "id": "r06", "question": "What are the Kharif and Rabi cropping seasons in India?", "answer": "Kharif crops are sown with the onset of the monsoon (June-July) and harvested in autumn (September-October) — e.g. rice, maize, cotton, sugarcane. Rabi crops are sown in winter (October-November) and harvested in spring (March-April) — e.g. wheat, barley, mustard, gram." },
+      { "id": "r07", "question": "What is a third, less prominent cropping season in some parts of India, and what does it grow?", "answer": "Zaid (or Zaikh) — a short summer season between Rabi harvest and Kharif sowing, used for water-intensive or quick-growing crops like watermelon, cucumber, and fodder crops, mainly using irrigation rather than relying on monsoon rains." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Mangrove forests are best classified as:", "options": ["Tropical Rain Forest", "Monsoon forest", "Thorny Bushes", "Tidal Forests"], "correctIndex": 3, "explanation": "Tidal Forests — found in coastal/estuarine tidal zones.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Semi-desert vegetation in India is best classified as:", "options": ["Tropical Rain Forest", "Monsoon forest", "Thorny Bushes", "Tidal Forests"], "correctIndex": 2, "explanation": "Thorny Bushes (scrub vegetation).", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Asian cheetah was declared extinct in India in which year?", "options": ["1951", "1952", "1972", "1975"], "correctIndex": 1, "explanation": "1952.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Indian Wildlife Protection Act was implemented in which year?", "options": ["1971", "1972", "1982", "2010"], "correctIndex": 1, "explanation": "1972.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Reserved and protected forests together are also known as:", "options": ["Unclassed forest", "Permanent forest estate", "Open forest", "Mangrove forest"], "correctIndex": 1, "explanation": "Permanent forest estate.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Which of these crops is a Kharif (monsoon-sown) crop?", "options": ["Wheat", "Mustard", "Rice", "Barley"], "correctIndex": 2, "explanation": "Rice is a Kharif crop; the others are Rabi (winter-sown) crops.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m07", "prompt": "Rabi crops are typically harvested in which season?", "options": ["Autumn (Sept-Oct)", "Spring (March-April)", "Monsoon (June-July)", "Mid-summer (May)"], "correctIndex": 1, "explanation": "Spring (March-April), after being sown in winter.", "sourceTag": "authored", "difficulty": "easy" }
+    ]
+  }
+}

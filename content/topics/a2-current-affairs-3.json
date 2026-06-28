@@ -1,0 +1,29 @@
+{
+  "topicId": "a2-current-affairs-3",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography (3): National Parks & Cyclones",
+  "sourceRefs": [
+    { "type": "web-research", "label": "Wikipedia/vajiramandravi.com - Similipal National Park (107th); India's National Park/Wildlife Sanctuary totals; 2025 North Indian Ocean cyclone season, Cyclone Ditwah, new cyclone-naming list" }
+  ],
+  "researchNotes": "Third Geography current-affairs topic (3rd lap). Combines two stable, countable facts (national park/sanctuary totals) with a significant, dated 2025 disaster event (Cyclone Ditwah) — directly relevant to the syllabus's 'Natural calamity - Disaster management' clause.",
+  "reading": {
+    "intro": "Covers India's most recently designated national park, current national park/wildlife sanctuary totals, and the 2025 North Indian Ocean cyclone season — including the system for naming cyclones.",
+    "qa": [
+      { "id": "r01", "question": "What is India's newest (107th) National Park, and when was it designated?", "answer": "Similipal National Park — officially designated India's 107th National Park in April 2025." },
+      { "id": "r02", "question": "As of 2026, how many National Parks and Wildlife Sanctuaries does India have in total?", "answer": "107 National Parks and 573 Wildlife Sanctuaries." },
+      { "id": "r03", "question": "Which is India's largest National Park by area, and where is it located?", "answer": "Hemis National Park — located in eastern Ladakh, spanning approximately 4,400 square kilometres." },
+      { "id": "r04", "question": "What made the 2025 North Indian Ocean cyclone season particularly notable, and which specific cyclone caused major loss of life?", "answer": "It was the COSTLIEST season on record and the DEADLIEST since 2008. Cyclone Ditwah, which meandered near Sri Lanka in November 2025, killed 647 people in that country." },
+      { "id": "r05", "question": "How are North Indian Ocean cyclones named, and how many countries/names are involved in the latest list?", "answer": "The India Meteorological Department (IMD) maintains a rotating list of names contributed by 13 countries (India, Sri Lanka, Maldives, Myanmar, Oman, Thailand, Qatar, UAE, Saudi Arabia, Yemen, Pakistan, Bangladesh, Iran) — the latest list comprises 169 names, with India contributing 13 names including Gati, Tej, Aag, Neer, Vyom, and Jaladhi." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which National Park became India's 107th, designated in April 2025?", "options": ["Hemis National Park", "Similipal National Park", "Kaziranga National Park", "Gir National Park"], "correctIndex": 1, "explanation": "Similipal National Park.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "As of 2026, how many National Parks does India have in total?", "options": ["95", "101", "107", "115"], "correctIndex": 2, "explanation": "107.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "As of 2026, how many Wildlife Sanctuaries does India have?", "options": ["350", "450", "573", "650"], "correctIndex": 2, "explanation": "573.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Which is India's largest National Park by area, located in Ladakh?", "options": ["Hemis National Park", "Similipal National Park", "Corbett National Park", "Sundarbans National Park"], "correctIndex": 0, "explanation": "Hemis National Park.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Cyclone Ditwah (November 2025) caused major loss of life in which country?", "options": ["India", "Sri Lanka", "Bangladesh", "Myanmar"], "correctIndex": 1, "explanation": "Sri Lanka.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "How many countries contribute names to the North Indian Ocean cyclone-naming list maintained by the IMD?", "options": ["8", "10", "13", "20"], "correctIndex": 2, "explanation": "13 countries.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

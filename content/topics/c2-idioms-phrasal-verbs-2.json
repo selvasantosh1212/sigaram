@@ -1,0 +1,35 @@
+{
+  "topicId": "c2-idioms-phrasal-verbs-2",
+  "unitId": "C-II",
+  "name": "Vocabulary: Idioms, Phrases, and Phrasal Verbs (Expansion)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC Phrasal Verbs MCQ set (6 questions)" },
+    { "type": "question-bank", "label": "2025_q page 142 Q183-184; 2022_q page 14 Q41 (real, with answer key marks)" }
+  ],
+  "researchNotes": "Eighth Vocabulary topic — an expansion drawing on 2 small evidence clusters held back since Days 60-64 specifically because Unit II had already closed at 7 topics, plus fresh research to round out the set. Authored as a deliberate small bonus pass rather than letting good real evidence go unused — distinct idioms/phrasal verbs from the already-shipped c2-idioms-phrasal-verbs (Day 60).",
+  "reading": {
+    "intro": "More idioms, fixed phrases, and phrasal verbs beyond the first Idioms/Phrasal-Verbs topic — no overlap with previously shipped vocabulary content.",
+    "qa": [
+      { "id": "r01", "question": "What do the idioms 'Find the pony' and 'Kettle of fish' mean?", "answer": "Find the pony = to find something good in a bad situation. Kettle of fish = a difficult or messy situation." },
+      { "id": "r02", "question": "What do the idioms 'Sleep like a log' and 'Upset the apple cart' mean?", "answer": "Sleep like a log = to sleep very deeply. Upset the apple cart = to cause trouble or disrupt a plan." },
+      { "id": "r03", "question": "What do the phrasal verbs 'look out', 'look into', 'look up to', and 'look up' mean?", "answer": "Look out = be careful. Look into = investigate. Look up to = admire (someone). Look up = search for (information)." },
+      { "id": "r04", "question": "What is a synonym for 'Affluent' (as in 'He was the spoilt child of Affluent parents')?", "answer": "Wealthy (not poor, intelligent, or useless)." },
+      { "id": "r05", "question": "What do the phrasal verbs 'bring up' and 'call off' mean?", "answer": "Bring up = raise a topic. Call off = cancel." },
+      { "id": "r06", "question": "What do the phrasal verbs 'give up' and 'carry out' mean?", "answer": "Give up = quit. Carry out = execute/perform." },
+      { "id": "r07", "question": "What does the phrasal verb 'turn down' mean?", "answer": "Reject (e.g., 'turn down an offer') — not 'reduce volume', which is a different, less common sense of the same phrase." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "'Kettle of fish' means:", "options": ["A tasty meal", "A difficult or messy situation", "A type of seafood dish", "A friendly gathering"], "correctIndex": 1, "explanation": "A difficult or messy situation.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "'Upset the apple cart' means:", "options": ["To cause trouble or disrupt a plan", "To eat too many apples", "To win unexpectedly", "To clean up a mess"], "correctIndex": 0, "explanation": "To cause trouble or disrupt a plan.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Choose the correct meaning of the phrasal verb 'bring up'.", "options": ["Raise a topic", "Throw out", "Cancel", "Shout loudly"], "correctIndex": 0, "explanation": "Raise a topic.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Choose the correct meaning of the phrasal verb 'call off'.", "options": ["Postpone", "Cancel", "Invite", "Attend"], "correctIndex": 1, "explanation": "Cancel.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Choose the correct meaning of the phrasal verb 'give up'.", "options": ["Start", "Quit", "Increase", "Offer again"], "correctIndex": 1, "explanation": "Quit.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "Choose the correct meaning of the phrasal verb 'carry out'.", "options": ["Cancel", "Ignore", "Execute", "Forget"], "correctIndex": 2, "explanation": "Execute.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Choose the correct meaning of the phrasal verb 'turn down'.", "options": ["Reduce volume", "Reject", "Sit down", "Fall"], "correctIndex": 1, "explanation": "Reject.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "'Look up to' someone means:", "options": ["To search for them", "To admire them", "To avoid them", "To investigate them"], "correctIndex": 1, "explanation": "To admire them.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m09", "prompt": "A synonym for 'Affluent' is:", "options": ["Poor", "Intelligent", "Wealthy", "Useless"], "correctIndex": 2, "explanation": "Wealthy.", "sourceTag": "question-bank-2022", "difficulty": "easy" }
+    ]
+  }
+}

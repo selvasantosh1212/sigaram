@@ -1,0 +1,44 @@
+{
+  "topicId": "a1-life-science-basics",
+  "unitId": "A-I",
+  "name": "Life Science: Classification, Evolution, Genetics, Physiology, Nutrition, Health & Hygiene, Human Diseases",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 89 Q153 (genetic-disorder mismatch, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 120 Q142-143 (minisatellite DNA, antibiotics — found while researching an earlier topic, stashed and used here)" },
+    { "type": "web-research", "label": "tnpscguru.in - Nutrition, Health & Hygiene, Human Diseases Q&A (27-question set)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - Classification of Living Organisms basics" }
+  ],
+  "researchNotes": "One genuinely real, directly-relevant hit (the genetic-disorder mismatch question) plus 2 stashed real hits from earlier research. The 27-question web-sourced set covered far more ground than one topic needs — picked ~15 of the clearest, most well-established facts (skipping COVID-19-specific items since those are time-sensitive 2020-2022-era 'current affairs' content likely stale for a 2026+ exam, and skipping one item — a 'Kaya Kalp award' fact — that I couldn't independently verify with confidence).",
+  "reading": {
+    "intro": "This is the broadest clause in Unit I, spanning classification, genetics, physiology, nutrition, and disease. Real exam evidence favors mismatch-style and match-the-following questions over plain definitions, so several items below are framed that way.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Which of these genetic-disorder pairings is a MISMATCH? Down's Syndrome–Autosomal trisomy of 21st chromosome; Haemophilia–Sex Linked; Klinefelter Syndrome–XO Complement; Turner Syndrome–Female with retarded growth.", "answer": "Klinefelter Syndrome–XO Complement is the mismatch. Klinefelter Syndrome is actually XXY (an extra X chromosome in males); XO (a missing X chromosome) is Turner Syndrome, which correctly presents as female with retarded growth — that pairing in the list is actually correct, the error is specifically in mislabeling Klinefelter as XO." },
+      { "id": "r02", "question": "Real exam: What are minisatellites, in DNA terms?", "answer": "Short repeating DNA sequences consisting of 10-60 base pairs (bp) long base pairs — used in DNA profiling/fingerprinting." },
+      { "id": "r03", "question": "Real exam: Which statements about antibiotics are true — (i) active against a large number of microorganisms, (ii) enhance fungal growth, (iii) minimum inhibitory concentration is effective against different microorganisms?", "answer": "(i) and (iii) are true. (ii) is false — antibiotics target bacteria, they don't 'enhance' fungal growth (and many antibiotics are themselves derived FROM fungi, e.g. Penicillin)." },
+      { "id": "r04", "question": "What is Streptomycin active against, and where does Penicillin come from?", "answer": "Streptomycin is active against Gram-negative bacteria. Penicillin is an antibiotic obtained from a blue-green mold (Penicillium, which is itself classified as a Fungus)." },
+      { "id": "r05", "question": "What causes liver cirrhosis, and what category of drug is nicotine?", "answer": "Cirrhosis of the liver is caused by chronic (long-term) alcohol intake. Nicotine belongs to the Stimulants group of drugs." },
+      { "id": "r06", "question": "What bacterium is most associated with stomach ulcers, and what disease does Bacillus anthracis cause?", "answer": "Helicobacter pylori causes most ulcers. Bacillus anthracis causes Anthrax in cattle and humans." },
+      { "id": "r07", "question": "How does Typhoid spread, and what is Dengue's transmission cycle?", "answer": "Typhoid spreads through contamination of drinking water and milk. Dengue follows a Man→Mosquito→Man transmission cycle." },
+      { "id": "r08", "question": "Which plasma protein is used in antibody formation?", "answer": "Globulin (not albumin, fibrinogen, or thrombin — those have other blood-plasma roles)." },
+      { "id": "r09", "question": "What first-aid combination should be given to an electrocuted person with cardiac arrest?", "answer": "All of the above: external cardiac compression massage, mouth-to-mouth resuscitation, AND cardio-pulmonary resuscitation (CPR) together — not just one of these alone." },
+      { "id": "r10", "question": "Name a fresh-water habitat example and the driest habitat type, per basic classification.", "answer": "Fresh water habitat: a pond. Driest habitat: deserts." },
+      { "id": "r11", "question": "What is the main function of stomata in plants, and what are the primary organs of photosynthesis?", "answer": "Stomata's main function is transpiration (water vapour release/gas exchange). The primary organs of photosynthesis are leaves." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of the following genetic-disorder pairings is a MISMATCH?", "options": ["Down's Syndrome – Autosomal trisomy of 21st chromosome", "Haemophilia – Sex Linked", "Klinefelter Syndrome – XO Complement", "Turner Syndrome – Female with retarded growth"], "correctIndex": 2, "explanation": "Klinefelter Syndrome is XXY, not XO — XO is Turner Syndrome.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Minisatellites are DNA sequences consisting of base pairs in which approximate range?", "options": ["1-5 bp", "10-60 bp", "100-200 bp", "500-1000 bp"], "correctIndex": 1, "explanation": "10-60 base pairs long repeating sequences.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which statement about antibiotics is FALSE?", "options": ["They are active against a large number of microorganisms", "Minimum inhibitory concentration is effective against different microorganisms", "They enhance the growth of fungi", "All of the above are true"], "correctIndex": 2, "explanation": "Antibiotics do not enhance fungal growth — many are even derived from fungi.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Streptomycin is mainly active against which type of bacteria?", "options": ["Gram-positive bacteria", "Gram-negative bacteria", "Viruses", "Fungi"], "correctIndex": 1, "explanation": "Gram-negative bacteria.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Chronic intake of which substance most commonly causes cirrhosis of the liver?", "options": ["Tobacco", "Alcohol", "Cocaine", "Opium"], "correctIndex": 1, "explanation": "Alcohol.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "Penicillin, a widely used antibiotic, is obtained from:", "options": ["A bacterium", "A blue-green mold (fungus)", "A virus", "A protozoan"], "correctIndex": 1, "explanation": "Penicillium, a fungus (blue-green mold).", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "Ulcers are mostly caused by infection from which bacterium?", "options": ["Streptococci", "Staphylococci", "Helicobacter pylori", "Mycobacterium tuberculae"], "correctIndex": 2, "explanation": "Helicobacter pylori.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Typhoid is most commonly spread through:", "options": ["Mosquito bites", "Contaminated drinking water and milk", "Airborne droplets", "Direct skin contact"], "correctIndex": 1, "explanation": "Contaminated water/milk.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "Dengue virus follows which transmission cycle?", "options": ["Man-Man", "Man-Birds-Man", "Man-Mosquito-Man", "Man-Pig-Man"], "correctIndex": 2, "explanation": "Man-Mosquito-Man.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m10", "prompt": "Which plasma protein plays the key role in antibody formation?", "options": ["Albumin", "Globulin", "Fibrinogen", "Thrombin"], "correctIndex": 1, "explanation": "Globulin.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m11", "prompt": "Which of the following is the main function of stomata in a plant leaf?", "options": ["Photosynthesis", "Transpiration", "Absorption of minerals", "Storage of starch"], "correctIndex": 1, "explanation": "Transpiration (water vapour/gas exchange).", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m12", "prompt": "A pond is a classic example of which type of habitat?", "options": ["Marine habitat", "Fresh water habitat", "Desert habitat", "Mountain habitat"], "correctIndex": 1, "explanation": "Fresh water habitat.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

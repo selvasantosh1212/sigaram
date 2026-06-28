@@ -1,0 +1,30 @@
+{
+  "topicId": "a1-current-affairs-2",
+  "unitId": "A-I",
+  "name": "Current Affairs in Science & Technology (2): Padma Awards 2026 & Infosys Prize 2025",
+  "sourceRefs": [
+    { "type": "web-research", "label": "vajiramandravi.com/PIB - Padma Awards 2026 breakdown and science recipients" },
+    { "type": "web-research", "label": "infosys.com - Infosys Prize 2025 laureates and prize structure" }
+  ],
+  "researchNotes": "Second lap of the Part A Current-Affairs rotation begins (back to Unit I). Picked award announcements — concrete, dated, and stable once announced — over volatile ongoing-research statistics, continuing the lesson logged on Day 58 about preferring durable current-affairs facts.",
+  "reading": {
+    "intro": "Covers the Padma Awards 2026 (announced on the eve of Republic Day 2026) and the Infosys Prize 2025 — India's major civilian and scientific recognition programmes.",
+    "qa": [
+      { "id": "r01", "question": "How many total Padma Awards were announced for 2026, and what is the breakdown by category?", "answer": "131 total awards: 5 Padma Vibhushan, 13 Padma Bhushan, and 113 Padma Shri — announced on the eve of Republic Day 2026." },
+      { "id": "r02", "question": "What were the demographic highlights of the Padma Awards 2026 list?", "answer": "19 women awardees; 6 in the Foreigners/NRI/PIO/OCI category; and 16 posthumous awards." },
+      { "id": "r03", "question": "Name two Science & Engineering Padma Shri 2026 awardees and their states.", "answer": "A.E. Muthunayagam (Kerala) and Krishnamurty Balasubramanian (Telangana)." },
+      { "id": "r04", "question": "What is the Infosys Prize, and what does each laureate receive?", "answer": "An annual award from the Infosys Science Foundation, given across six categories (Economics, Engineering & Computer Science, Humanities & Social Sciences, Life Sciences, Mathematical Sciences, Physical Sciences). Each winner receives a gold medal, a citation, and USD 100,000." },
+      { "id": "r05", "question": "What notable later achievement is associated with past Infosys Prize laureates, illustrating the prize's track record?", "answer": "Past laureates have gone on to win the Nobel Prize (e.g., Abhijit Banerjee and Esther Duflo) and the Fields Medal (e.g., Manjul Bhargava and Akshay Venkatesh) — underlining the Infosys Prize's reputation as an early indicator of major international scientific recognition." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "How many total Padma Awards were announced for 2026?", "options": ["95", "112", "131", "150"], "correctIndex": 2, "explanation": "131.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "How many Padma Vibhushan awards were given in 2026?", "options": ["3", "5", "8", "13"], "correctIndex": 1, "explanation": "5.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "How many Padma Bhushan awards were given in 2026?", "options": ["5", "13", "20", "30"], "correctIndex": 1, "explanation": "13.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Padma Awards are announced annually on the eve of:", "options": ["Independence Day", "Republic Day", "Gandhi Jayanti", "Constitution Day"], "correctIndex": 1, "explanation": "Republic Day.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "The Infosys Prize is awarded across how many categories?", "options": ["Four", "Five", "Six", "Eight"], "correctIndex": 2, "explanation": "Six.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What does each Infosys Prize laureate receive?", "options": ["A cash prize only", "A gold medal, citation, and USD 100,000", "A government job offer", "Free laboratory space for life"], "correctIndex": 1, "explanation": "Gold medal, citation, and USD 100,000.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

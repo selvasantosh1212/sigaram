@@ -1,0 +1,29 @@
+{
+  "topicId": "b1-lcm",
+  "unitId": "B-I",
+  "name": "Lowest Common Multiple (LCM)",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 126 Q193 (real algebraic LCM problem, with answer key)" },
+    { "type": "web-research", "label": "tnpscguru.in - TNPSC Aptitude LCM & HCF Questions & Answers" }
+  ],
+  "researchNotes": "One direct real-exam hit (an unusually tricky algebraic LCM problem) plus 4 worked 'remainder' style LCM problems from a prep aggregator — remainder-type LCM problems ('least number which when divided by X, Y, Z leaves remainder R') are clearly a recurring TNPSC pattern given how many independent examples exist of this exact shape, so the reading material teaches that pattern explicitly as its own method, separate from plain 'find the LCM of these numbers'.",
+  "reading": {
+    "intro": "LCM is 1 of 10 named Aptitude sub-skills. Real exam evidence shows two distinct shapes: algebraic LCM-from-a-clue problems, and 'remainder' word problems — both are taught below as separate methods.",
+    "qa": [
+      { "id": "r01", "question": "Real exam (2025): If the LCM of 'a' and 'a+2' is 1300, find the LCM of 'a' and 'a+1'.", "answer": "Since a and a+2 differ by 2, their HCF is either 1 or 2. If HCF=2: LCM = a(a+2)/2 = 1300 → a(a+2) = 2600. Solving a²+2a−2600=0 gives a=50 (check: 50×52/2 = 1300 ✓). Now find LCM(50, 51): consecutive integers are always coprime (HCF=1), so LCM = 50×51 = 2550." },
+      { "id": "r02", "question": "Method — 'least number leaving given remainders' (remainders differ from the divisors by a constant): Find the least number which, when divided by 16, 18, and 21, leaves remainders 3, 5, and 8 respectively.", "answer": "Check the gap between each divisor and its remainder: 16−3=13, 18−5=13, 21−8=13 — all the same gap! When that happens, the answer is LCM(16,18,21) − 13. LCM(16,18,21) = 1008. Answer = 1008−13 = 995." },
+      { "id": "r03", "question": "Method — 'least number leaving the SAME remainder in every case': Find the least number which, when divided by 6, 7, 8, 9, and 12, leaves the same remainder 1 in every case.", "answer": "When the remainder is identical across all divisors, the answer is LCM(divisors) + remainder. LCM(6,7,8,9,12) = 504. Answer = 504 + 1 = 505." },
+      { "id": "r04", "question": "Method — 'mixed condition' (a common remainder for some divisors, but exact division for another): Find the least number which, when divided by 5, 6, 7, and 8, leaves remainder 3 in each case, but leaves NO remainder when divided by 9.", "answer": "First find the least number leaving remainder 3 for 5,6,7,8: that's LCM(5,6,7,8)+3 = 840+3 = 843. But we also need it divisible by 9. Keep adding LCM(5,6,7,8)=840 repeatedly to 843 until the result is divisible by 9: 843 (no), 1683 (1683÷9=187, yes!). Answer = 1683." },
+      { "id": "r05", "question": "Method — LCM of numbers given as prime factorizations: Find the LCM of (2×3×5×7) and (3×5×7×11).", "answer": "LCM takes the HIGHEST power of every prime that appears in either number. Primes involved: 2,3,5,7,11 — each appears at most once in either factorization, so LCM = 2×3×5×7×11 (just the union of all prime factors, since none repeat)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "If the LCM of 'b' and 'b+2' is 180, and their HCF is 2, find the LCM of 'b' and 'b+1'.", "options": ["342", "380", "361", "324"], "correctIndex": 0, "explanation": "LCM = b(b+2)/HCF = 180 → b(b+2) = 360 → b²+2b−360=0 → b=18 (check: 18×20/2=180 ✓). Now LCM(18,19): consecutive integers are coprime, so LCM = 18×19 = 342.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Find the least number which, when divided by 12, 15, and 20, leaves remainders 7, 10, and 15 respectively.", "options": ["55", "60", "65", "53"], "correctIndex": 0, "explanation": "Gaps: 12−7=5, 15−10=5, 20−15=5 — all equal, so answer = LCM(12,15,20) − 5 = 60 − 5 = 55.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Find the least number which, when divided by 4, 5, and 6, leaves the same remainder 2 in each case.", "options": ["58", "60", "62", "64"], "correctIndex": 2, "explanation": "LCM(4,5,6) = 60. Answer = 60 + 2 = 62.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Find the LCM of (2×2×3×5) and (2×3×3×7).", "options": ["2×2×3×3×5×7", "2×3×5×7", "2×2×3×5×7", "4×9×5×7"], "correctIndex": 0, "explanation": "Take the highest power of each prime: 2² (from the first), 3² (from the second), 5¹, 7¹. LCM = 2²×3²×5×7, which equals option (A) written out as 2×2×3×3×5×7.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The LCM of two consecutive integers n and n+1 is always:", "options": ["n + 1", "n(n+1)", "n − 1", "Cannot be determined"], "correctIndex": 1, "explanation": "Consecutive integers are always coprime (HCF=1), so their LCM is simply their product, n(n+1).", "sourceTag": "authored", "difficulty": "easy" }
+    ]
+  }
+}

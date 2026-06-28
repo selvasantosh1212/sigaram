@@ -1,0 +1,29 @@
+{
+  "topicId": "a5-current-affairs-2",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy (2): Manufacturing, FTAs & Investment",
+  "sourceRefs": [
+    { "type": "web-research", "label": "IBEF/india-briefing.com - PLI Scheme status (Dec 2025); National Mission on Manufacturing (Budget 2025-26); India-Israel FTA talks; Airtel-Google AI hub investment" }
+  ],
+  "researchNotes": "Second Economy current-affairs topic (2nd lap). Picked dated milestones (scheme launch budget year, FTA negotiation start date, investment announcement date) over monthly GDP/trade figures, continuing the Day-58 lesson about preferring stable facts.",
+  "reading": {
+    "intro": "Covers India's Production-Linked Incentive (PLI) scheme results, the new National Mission on Manufacturing, recent trade negotiations, and a major private AI infrastructure investment.",
+    "qa": [
+      { "id": "r01", "question": "What is the PLI (Production-Linked Incentive) Scheme's total outlay, and what had it achieved as of December 2025?", "answer": "Total outlay: ₹1,97,000 crore (~USD 22.9 billion). As of December 2025, it had generated investments exceeding ₹2.16 lakh crore, driven incremental production of over ₹20.41 lakh crore, and created over 14.39 lakh jobs." },
+      { "id": "r02", "question": "What is the National Mission on Manufacturing (NMM), and what are its targets?", "answer": "Announced in Budget 2025-26, it aims to raise manufacturing's share of GDP to 25% by 2035, create 143 million jobs, and expand merchandise exports to ₹106.05 lakh crore (about USD 1.20 trillion)." },
+      { "id": "r03", "question": "What did the India-US interim trade agreement achieve regarding tariffs?", "answer": "It reduced US tariffs on Indian goods to 18%, with improved access across sectors like textiles, agriculture, technology, and manufacturing." },
+      { "id": "r04", "question": "When did India and Israel begin negotiations for a proposed Free Trade Agreement (FTA), and where?", "answer": "24 February 2026, in New Delhi — the first round of talks, covering sectors like technology, AI, cybersecurity, manufacturing, agriculture, and services." },
+      { "id": "r05", "question": "What major AI infrastructure investment was announced in October 2025, and by whom?", "answer": "Bharti Airtel and Google established India's first Artificial Intelligence hub, in Visakhapatnam, on 14 October 2025 — with a proposed investment of around ₹1,25,000 crore (~USD 15 billion) over 2026-2030, covering data centres, subsea cable connectivity, and clean-energy-supported digital infrastructure." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The PLI (Production-Linked Incentive) Scheme has a total outlay of approximately:", "options": ["₹50,000 crore", "₹1,00,000 crore", "₹1,97,000 crore", "₹3,50,000 crore"], "correctIndex": 2, "explanation": "₹1,97,000 crore.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "As of December 2025, the PLI Scheme had created approximately how many jobs?", "options": ["5 lakh", "10 lakh", "14.39 lakh", "25 lakh"], "correctIndex": 2, "explanation": "14.39 lakh jobs.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "The National Mission on Manufacturing (NMM), announced in Budget 2025-26, targets raising manufacturing's GDP share to 25% by:", "options": ["2028", "2030", "2032", "2035"], "correctIndex": 3, "explanation": "2035.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The India-US interim trade agreement reduced US tariffs on Indian goods to:", "options": ["10%", "15%", "18%", "25%"], "correctIndex": 2, "explanation": "18%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "India and Israel began negotiations for a proposed FTA on 24 February 2026, in which city?", "options": ["Tel Aviv", "Mumbai", "New Delhi", "Jerusalem"], "correctIndex": 2, "explanation": "New Delhi.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Bharti Airtel and Google established India's first AI hub (October 2025) in which city?", "options": ["Bengaluru", "Hyderabad", "Visakhapatnam", "Chennai"], "correctIndex": 2, "explanation": "Visakhapatnam.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

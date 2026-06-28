@@ -1,0 +1,34 @@
+{
+  "topicId": "c7-poem-age-of-chivalry",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Age of Chivalry\" — George Krokos",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2-page question set covering figures of speech, theme, vocabulary" }
+  ],
+  "researchNotes": "OCR index search for 'chivalry'/'krokos' returned zero hits — web research only. Raw pool of 12 sourced MCQs split cleanly into three groups: figures of speech (4), theme/content (4), and in-context vocabulary meaning (4) — kept all 12 as reading since none overlap.",
+  "reading": {
+    "intro": "A poem (from the Samacheer Kalvi Class 7/10 English anthology, depending on edition) celebrating knightly adventure, romance, and idealism. Real coaching-site evidence shows TNPSC tests figures of speech, the poem's theme, AND in-context vocabulary meaning roughly equally — cover all three.",
+    "qa": [
+      { "id": "r01", "question": "What is the poem about, in brief?", "answer": "Knights in the Age of Chivalry were strong, bold, and carried swords/lances, covering themselves in shining armour and seeking romance. They fought for righteous causes, displayed valour, and won their lady-love's affection through adventures aimed at goodness and sacrifice. The poem's main theme is Adventure and Chivalry." },
+      { "id": "r02", "question": "What did knights mainly fight for, according to the poem?", "answer": "Show, love, and glory — not money, revenge, or peace." },
+      { "id": "r03", "question": "What is the poet's view on imagination, per this poem?", "answer": "Imagination leads to adventure — it's portrayed positively, as the spark for adventurous, chivalric ideals, not as something that 'causes problems' or 'blocks reality'." },
+      { "id": "r04", "question": "What does \"shining armour\" represent in the poem?", "answer": "Glory and honour — not literally just metal or wealth." },
+      { "id": "r05", "question": "Identify the figure of speech: \"adventures hide themselves\" and \"abated breath.\"", "answer": "Both are cited as Personification — giving 'adventures' a human-like ability to 'hide', and 'breath' the ability to be 'abated' (held back), as if it were acting with intent." },
+      { "id": "r06", "question": "Identify the figure of speech: \"Maybe life itself is one big adventure.\"", "answer": "Metaphor — life is directly equated with 'one big adventure', without using 'like/as'." },
+      { "id": "r07", "question": "In context, what does \"you bounce a bit\" convey, and what does \"transparent\" mean here?", "answer": "\"You bounce a bit\" conveys excitement (a physical sign of eager energy). \"Transparent\" in this poem means being open to experience, not literally see-through." },
+      { "id": "r08", "question": "In context, what do \"embrace you\" and \"days of yore\" mean?", "answer": "\"Embrace you\" means to welcome closely. \"Days of yore\" refers to ancient times (the historical setting of knights and chivalry)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Age of Chivalry\" is written by:", "options": ["John Keats", "George Krokos", "William Wordsworth", "Robert Frost"], "correctIndex": 1, "explanation": "George Krokos.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The main theme of \"The Age of Chivalry\" is:", "options": ["Friendship", "Nature", "Adventure and Chivalry", "Romance alone"], "correctIndex": 2, "explanation": "Adventure and Chivalry.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "According to the poem, knights fought mainly for:", "options": ["Money", "Revenge", "Show, love and glory", "Peace"], "correctIndex": 2, "explanation": "Show, love, and glory.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "\"Shining armour\" in the poem represents:", "options": ["Cowardice", "Glory and honour", "Metal", "Wealth"], "correctIndex": 1, "explanation": "Glory and honour.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Identify the figure of speech in \"adventures hide themselves.\"", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 2, "explanation": "Personification — adventures are given the human ability to 'hide'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Identify the figure of speech in \"Maybe life itself is one big adventure.\"", "options": ["Metaphor", "Simile", "Irony", "Personification"], "correctIndex": 0, "explanation": "Metaphor — life is directly equated with adventure.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "In the poem, \"transparent\" is used to mean:", "options": ["Invisible", "Open to experience", "Weak", "Lost"], "correctIndex": 1, "explanation": "Open to experience.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "\"Days of yore\" refers to:", "options": ["Modern age", "Ancient times", "The future", "Teenage years"], "correctIndex": 1, "explanation": "Ancient times.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+import { getDb } from "./db";
+import { scoreAttempt, type AnsweredQuestion } from "./scoring";
+import { markMockSubmitted } from "./progress";
+import type { Part } from "./types";
+
+export type QuestionInstance = {
+  part: Part;
+  topicId: string;
+  unitId: string;
+  questionId: string;
+  prompt: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string;
+  difficulty: "easy" | "medium" | "hard";
+  sourceTag: string;
+};
+
+export type AttemptRow = {
+  id: number;
+  day_number: number | null;
+  week_number: number | null;
+  month_number: number | null;
+  attempt_kind: "daily" | "weekly" | "monthly" | "full_mock" | "revision";
+  session_label: string | null;
+  started_at: string;
+  submitted_at: string | null;
+  duration_seconds: number | null;
+  total_questions: number;
+  correct_count: number | null;
+  score_percent: number | null;
+  part_a_correct: number | null;
+  part_a_total: number | null;
+  part_b_correct: number | null;
+  part_b_total: number | null;
+  part_c_correct: number | null;
+  part_c_total: number | null;
+};
+
+export type DraftAttempt = {
+  attemptId: number;
+  questions: Array<QuestionInstance & { answerRowId: number }>;
+};
+
+export function createDraftAttempt(params: {
+  dayNumber?: number;
+  weekNumber?: number;
+  monthNumber?: number;
+  attemptKind: "daily" | "weekly" | "monthly" | "full_mock" | "revision";
+  sessionLabel?: string;
+  questions: QuestionInstance[];
+}): DraftAttempt {
+  const db = getDb();
+  const insertAttempt = db.prepare(
+    `INSERT INTO attempts (day_number, week_number, month_number, attempt_kind, session_label, started_at, total_questions)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`
+  );
+  const insertAnswer = db.prepare(
+    `INSERT INTO attempt_answers (attempt_id, part, topic_id, unit_id, question_id, difficulty, source_tag, correct_index, selected_index)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL)`
+  );
+
+  const run = db.transaction(() => {
+    const info = insertAttempt.run(
+      params.dayNumber ?? null,
+      params.weekNumber ?? null,
+      params.monthNumber ?? null,
+      params.attemptKind,
+      params.sessionLabel ?? null,
+      new Date().toISOString(),
+      params.questions.length
+    );
+    const attemptId = Number(info.lastInsertRowid);
+    const rowIds: number[] = [];
+    for (const q of params.questions) {
+      const ansInfo = insertAnswer.run(
+        attemptId,
+        q.part,
+        q.topicId,
+        q.unitId,
+        q.questionId,
+        q.difficulty,
+        q.sourceTag,
+        q.correctIndex
+      );
+      rowIds.push(Number(ansInfo.lastInsertRowid));
+    }
+    return { attemptId, rowIds };
+  });
+
+  const { attemptId, rowIds } = run();
+  return {
+    attemptId,
+    questions: params.questions.map((q, i) => ({ ...q, answerRowId: rowIds[i] })),
+  };
+}
+
+export function getAttempt(attemptId: number): AttemptRow | undefined {
+  return getDb().prepare("SELECT * FROM attempts WHERE id = ?").get(attemptId) as AttemptRow | undefined;
+}
+
+type AttemptAnswerRow = {
+  id: number;
+  attempt_id: number;
+  part: Part;
+  topic_id: string;
+  unit_id: string;
+  question_id: string;
+  difficulty: "easy" | "medium" | "hard";
+  selected_index: number | null;
+  correct_index: number;
+  is_correct: number | null;
+};
+
+export function getAttemptAnswers(attemptId: number): AttemptAnswerRow[] {
+  return getDb()
+    .prepare("SELECT * FROM attempt_answers WHERE attempt_id = ? ORDER BY id")
+    .all(attemptId) as AttemptAnswerRow[];
+}
+
+export function submitAttempt(
+  attemptId: number,
+  answers: Array<{ answerRowId: number; selectedIndex: number | null }>
+) {
+  const db = getDb();
+  const attempt = getAttempt(attemptId);
+  if (!attempt) throw new Error(`Attempt ${attemptId} not found`);
+
+  const existingRows = getAttemptAnswers(attemptId);
+  const selectedByRowId = new Map(answers.map((a) => [a.answerRowId, a.selectedIndex]));
+
+  const answered: AnsweredQuestion[] = existingRows.map((row) => ({
+    part: row.part,
+    topicId: row.topic_id,
+    unitId: row.unit_id,
+    questionId: row.question_id,
+    difficulty: row.difficulty,
+    correctIndex: row.correct_index,
+    selectedIndex: selectedByRowId.get(row.id) ?? null,
+  }));
+
+  const summary = scoreAttempt(answered);
+  const submittedAt = new Date();
+  const startedAt = new Date(attempt.started_at);
+  const durationSeconds = Math.max(0, Math.round((submittedAt.getTime() - startedAt.getTime()) / 1000));
+
+  const updateAnswer = db.prepare(
+    "UPDATE attempt_answers SET selected_index = ?, is_correct = ? WHERE id = ?"
+  );
+  const updateAttempt = db.prepare(
+    `UPDATE attempts SET submitted_at = ?, duration_seconds = ?, correct_count = ?, score_percent = ?,
+       part_a_correct = ?, part_a_total = ?, part_b_correct = ?, part_b_total = ?, part_c_correct = ?, part_c_total = ?
+     WHERE id = ?`
+  );
+
+  db.transaction(() => {
+    for (const row of existingRows) {
+      const sel = selectedByRowId.get(row.id) ?? null;
+      const isCorrect = sel !== null && sel === row.correct_index ? 1 : 0;
+      updateAnswer.run(sel, isCorrect, row.id);
+    }
+    updateAttempt.run(
+      submittedAt.toISOString(),
+      durationSeconds,
+      summary.correctCount,
+      summary.scorePercent,
+      summary.byPart.A.correct,
+      summary.byPart.A.total,
+      summary.byPart.B.correct,
+      summary.byPart.B.total,
+      summary.byPart.C.correct,
+      summary.byPart.C.total,
+      attemptId
+    );
+    if (attempt.attempt_kind === "daily" && attempt.day_number != null) {
+      markMockSubmitted(attempt.day_number);
+    }
+  })();
+
+  return summary;
+}
+
+export function getAllAttemptsForDay(dayNumber: number): AttemptRow[] {
+  return getDb()
+    .prepare(
+      "SELECT * FROM attempts WHERE day_number = ? AND submitted_at IS NOT NULL ORDER BY submitted_at DESC"
+    )
+    .all(dayNumber) as AttemptRow[];
+}
+
+export function getLatestAttemptForDay(dayNumber: number): AttemptRow | undefined {
+  return getDb()
+    .prepare(
+      "SELECT * FROM attempts WHERE day_number = ? AND submitted_at IS NOT NULL ORDER BY submitted_at DESC LIMIT 1"
+    )
+    .get(dayNumber) as AttemptRow | undefined;
+}
+
+export function getAllAttemptsForWeek(weekNumber: number): AttemptRow[] {
+  return getDb()
+    .prepare(
+      "SELECT * FROM attempts WHERE week_number = ? AND attempt_kind = 'weekly' AND submitted_at IS NOT NULL ORDER BY submitted_at DESC"
+    )
+    .all(weekNumber) as AttemptRow[];
+}
+
+export function getLatestAttemptForWeek(weekNumber: number): AttemptRow | undefined {
+  return getDb()
+    .prepare(
+      "SELECT * FROM attempts WHERE week_number = ? AND attempt_kind = 'weekly' AND submitted_at IS NOT NULL ORDER BY submitted_at DESC LIMIT 1"
+    )
+    .get(weekNumber) as AttemptRow | undefined;
+}
+
+export function getAllAttemptsForMonth(monthNumber: number): AttemptRow[] {
+  return getDb()
+    .prepare(
+      "SELECT * FROM attempts WHERE month_number = ? AND attempt_kind = 'monthly' AND submitted_at IS NOT NULL ORDER BY submitted_at DESC"
+    )
+    .all(monthNumber) as AttemptRow[];
+}
+
+export function getLatestAttemptForMonth(monthNumber: number): AttemptRow | undefined {
+  return getDb()
+    .prepare(
+      "SELECT * FROM attempts WHERE month_number = ? AND attempt_kind = 'monthly' AND submitted_at IS NOT NULL ORDER BY submitted_at DESC LIMIT 1"
+    )
+    .get(monthNumber) as AttemptRow | undefined;
+}
+
+export function getAllAttempts(): AttemptRow[] {
+  return getDb().prepare("SELECT * FROM attempts WHERE submitted_at IS NOT NULL ORDER BY submitted_at ASC").all() as AttemptRow[];
+}
+
+export type WrongAnswerRef = { topicId: string; questionId: string; part: Part };
+
+// One row per (topic, question) where the MOST RECENT scored attempt at it was wrong —
+// a question you've since gotten right (in any attempt kind) naturally drops out.
+export function getWrongAnswerRefs(): WrongAnswerRef[] {
+  const rows = getDb()
+    .prepare(
+      `SELECT topic_id, question_id, part FROM attempt_answers
+       WHERE id IN (
+         SELECT MAX(id) FROM attempt_answers WHERE is_correct IS NOT NULL GROUP BY topic_id, question_id
+       ) AND is_correct = 0`
+    )
+    .all() as Array<{ topic_id: string; question_id: string; part: Part }>;
+  return rows.map((r) => ({ topicId: r.topic_id, questionId: r.question_id, part: r.part }));
+}

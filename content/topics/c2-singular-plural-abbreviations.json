@@ -1,0 +1,36 @@
+{
+  "topicId": "c2-singular-plural-abbreviations",
+  "unitId": "C-II",
+  "name": "Vocabulary: Singular/Plural (including Zero Plural), Derivatives, and Abbreviations",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2022_q page 23 Q84 (Furniture's zero-plural status, stashed earlier, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC Singular/Plural/Zero-Plural MCQ set (6 real-style questions)" },
+    { "type": "web-research", "label": "Common Latin-derived English abbreviations (e.g., i.e., etc., RSVP, ASAP, FYI)" }
+  ],
+  "researchNotes": "Fifth Vocabulary topic, finally consuming the Furniture zero-plural fact stashed since Day-61-era research, plus a dedicated TNPSC-specific source with 6 directly relevant questions on zero-plural and irregular-plural nouns.",
+  "reading": {
+    "intro": "Covers 'zero plural' nouns (same form in singular and plural, or always one form regardless of number), irregular plurals, and common abbreviations.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Is 'Furnitures' a correct plural form? What kind of noun is 'Furniture'?", "answer": "NO — 'Furnitures' is incorrect. Furniture is an UNCOUNTABLE noun with NO plural '-s' form (a 'zero plural' noun) — confirmed by a real exam question, alongside Scissors, Pliers, and News, which are always-plural-FORM nouns that also don't change." },
+      { "id": "r02", "question": "Real exam: Is 'Data' treated as singular or plural in modern usage — \"This data is important\" or \"This data are important\"?", "answer": "SINGULAR in standard modern usage: \"This data IS important\" — even though 'data' is historically the Latin plural of 'datum', it's now conventionally treated as a singular mass noun (similar to 'furniture')." },
+      { "id": "r03", "question": "Real exam: Is 'Aircraft' the same in singular and plural? Give the correct usage.", "answer": "Yes — 'Aircraft' is a ZERO PLURAL noun: \"The AIRCRAFT ARE ready\" (NOT 'aircrafts'), confirmed by a real exam question." },
+      { "id": "r04", "question": "Real exam: How is 'Fish' pluralised when referring to multiple individual fish?", "answer": "'Fish' typically stays the SAME in the plural: \"Five FISH were in the tank\" (not 'fishes', though 'fishes' is occasionally used when referring to multiple different SPECIES of fish) — confirmed by a real exam question." },
+      { "id": "r05", "question": "Real exam: How is 'Sheep' pluralised, and how is 'Goose' pluralised?", "answer": "'Sheep' stays the SAME in the plural: \"one sheep, two sheep\" (zero plural). 'Goose' has an IRREGULAR plural: \"Geese\" (not 'gooses') — both confirmed by real exam questions." },
+      { "id": "r06", "question": "What do the common Latin-derived abbreviations 'e.g.', 'i.e.', and 'etc.' stand for and mean?", "answer": "e.g. (exempli gratia) = 'for example'. i.e. (id est) = 'that is' (used to clarify/restate, not give examples). etc. (et cetera) = 'and so on/and other similar things'." },
+      { "id": "r07", "question": "What do the abbreviations 'RSVP', 'ASAP', and 'FYI' stand for?", "answer": "RSVP (Répondez s'il vous plaît, French) = 'please reply'. ASAP = 'as soon as possible'. FYI = 'for your information'." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of the following is INCORRECT?", "options": ["Furnitures", "Scissors", "Pliers", "News"], "correctIndex": 0, "explanation": "'Furnitures' — Furniture has no plural form.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Select the sentence with the correct (singular) usage of 'data':", "options": ["These data is important", "This data are important", "These datas are important", "This data is important"], "correctIndex": 3, "explanation": "\"This data is important.\"", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Choose the correct plural usage for 'aircraft':", "options": ["The aircrafts are ready", "The aircraft are ready", "The aircrafts is ready", "The aircraft are readys"], "correctIndex": 1, "explanation": "\"The aircraft are ready.\"", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Identify the correct usage of the zero-plural noun 'fish':", "options": ["Five fish were in the tank", "Five fishes were in the tank", "Five fishs were in the tank", "Five fish was in the tank"], "correctIndex": 0, "explanation": "\"Five fish were in the tank.\"", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Which is the correct usage involving 'scissors'?", "options": ["The scissors is on the table", "The scissor are on the table", "The scissors are on the table", "The scissors was on the table"], "correctIndex": 2, "explanation": "\"The scissors are on the table.\"", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Pick the correctly written plural for 'sheep':", "options": ["One sheep, two sheeps", "One sheep, two sheep", "One sheep, two sheepes", "One sheep, two sheepe"], "correctIndex": 1, "explanation": "\"One sheep, two sheep.\"", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "Select the proper plural form of 'goose':", "options": ["Gooses", "Goosies", "Geese", "Geeses"], "correctIndex": 2, "explanation": "Geese.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "What does the abbreviation 'i.e.' stand for?", "options": ["For example", "That is", "And so on", "In other words only in writing"], "correctIndex": 1, "explanation": "'That is' (id est).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "What does 'RSVP' stand for/mean?", "options": ["As soon as possible", "For your information", "Please reply", "For example"], "correctIndex": 2, "explanation": "Please reply.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

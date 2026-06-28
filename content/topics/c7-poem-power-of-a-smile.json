@@ -1,0 +1,29 @@
+{
+  "topicId": "c7-poem-power-of-a-smile",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Power of a Smile\" — Tupac Shakur",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" }
+  ],
+  "researchNotes": "OCR index search for 'power of a smile'/'tupac shakur' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept since each tests a distinct line/device.",
+  "reading": {
+    "intro": "A short poem contrasting destructive emotions (anger, cold/wind) against the healing power of a simple smile. Real coaching-site evidence tests theme and figure-of-speech identification per line.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Power of a Smile\", and what is its central theme?", "answer": "Tupac Shakur. Central theme: the healing power of a smile — contrasted against destructive forces like anger and cold wind." },
+      { "id": "r02", "question": "Which emotion does the poem describe as something that 'tears you apart'?", "answer": "Anger." },
+      { "id": "r03", "question": "Identify the figure of speech: \"The power of wind can chill.\"", "answer": "Personification — wind is given the active, almost intentional power 'to chill', as if performing a deliberate action." },
+      { "id": "r04", "question": "Identify the figure of speech: \"The power of a smile... can heal a frozen heart.\"", "answer": "Metaphor — a 'frozen heart' (emotional coldness/numbness) is described directly, and a smile 'heals' it, without using 'like/as'." },
+      { "id": "r05", "question": "What does \"can heal a frozen heart\" suggest?", "answer": "That a smile can cure sadness/emotional coldness — restoring warmth and feeling, metaphorically 'unfreezing' a hardened or hurt heart." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Power of a Smile\" was written by:", "options": ["Langston Hughes", "Tupac Shakur", "Maya Angelou", "W.H. Auden"], "correctIndex": 1, "explanation": "Tupac Shakur.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The central theme of the poem is:", "options": ["Anger and power", "Natural forces", "The healing power of a smile", "War and peace"], "correctIndex": 2, "explanation": "The healing power of a smile.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Which emotion is described in the poem as something that 'tears you apart'?", "options": ["Joy", "Sadness", "Anger", "Hope"], "correctIndex": 2, "explanation": "Anger.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"The power of wind can chill\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Hyperbole"], "correctIndex": 2, "explanation": "Personification — wind given the active power 'to chill'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"The power of a smile... can heal a frozen heart\" uses which figure of speech?", "options": ["Metaphor", "Irony", "Alliteration", "Onomatopoeia"], "correctIndex": 0, "explanation": "Metaphor — a 'frozen heart' described directly, without 'like/as'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Can heal a frozen heart\" suggests that a smile can:", "options": ["Cause physical damage", "Cure sadness/emotional coldness", "Bring summer weather", "Make the heart literally turn to ice"], "correctIndex": 1, "explanation": "Cure sadness/emotional coldness.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

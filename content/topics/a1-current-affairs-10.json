@@ -1,0 +1,28 @@
+{
+  "topicId": "a1-current-affairs-10",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (10): Gaganyaan's Final-Phase Testing & Astronaut Training",
+  "sourceRefs": [
+    { "type": "web-research", "label": "pib.gov.in - Gaganyaan's final qualification load test (19 Feb 2026); astronaut-designates' training status; vehicle integration progress" }
+  ],
+  "researchNotes": "Eleventh Science current-affairs topic, opening Part A's 10th rotation lap. Distinct from the Day-78 Gaganyaan topic (which covered the G1 uncrewed mission's March 2026 schedule, Vyommitra, and the April 2026 air-drop test) — this topic adds the February 2026 qualification load test and astronaut-training details, avoiding repetition.",
+  "reading": {
+    "intro": "Covers Gaganyaan's final-phase testing milestones and the astronaut-designates' training progress, extending the Day-78 Gaganyaan coverage with new details.",
+    "qa": [
+      { "id": "r01", "question": "What test did ISRO and DRDO conduct on 19 February 2026 for the Gaganyaan programme, and what did it evaluate?", "answer": "The final qualification level load test — evaluating high-speed aerodynamic loads and changes in the ballistic trajectory of the capsule." },
+      { "id": "r02", "question": "Which key vehicle/systems are in final stages of testing and integration for Gaganyaan?", "answer": "The Human-rated LVM3 launch vehicle, the Crew Escape System, and the Crew Module and Service Module." },
+      { "id": "r03", "question": "How many Indian Air Force pilots have been selected as astronaut-designates for Gaganyaan, and what is their training status?", "answer": "4 IAF pilots — they have completed training in RUSSIA and are now undergoing further mission-specific training in India, with continuous assessment of health, psychological fitness, and simulation-based operational readiness." },
+      { "id": "r04", "question": "What recovery trials have been conducted for the uncrewed Gaganyaan mission?", "answer": "Recovery trials with the Indian Navy, with more sea recovery simulations planned — preparing for the capsule's safe recovery after splashdown." },
+      { "id": "r05", "question": "What is Gaganyaan's overall current timeline, per the latest schedule?", "answer": "The uncrewed Gaganyaan-1 (G1) test flight is scheduled for the second half (H2) of 2026; the first CREWED human spaceflight is now scheduled for the first quarter of 2027." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "ISRO and DRDO conducted Gaganyaan's final qualification level load test on:", "options": ["19 January 2026", "19 February 2026", "19 March 2026", "19 April 2026"], "correctIndex": 1, "explanation": "19 February 2026.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "The 19 February 2026 load test primarily evaluated:", "options": ["Solar panel efficiency", "High-speed aerodynamic loads and ballistic trajectory changes", "Communication signal strength", "Fuel consumption rates"], "correctIndex": 1, "explanation": "High-speed aerodynamic loads and ballistic trajectory changes.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "How many IAF pilots have been selected as astronaut-designates for Gaganyaan?", "options": ["2", "3", "4", "6"], "correctIndex": 2, "explanation": "4.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Where did Gaganyaan's astronaut-designates complete their initial training?", "options": ["United States", "Russia", "France", "Japan"], "correctIndex": 1, "explanation": "Russia.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Gaganyaan's first CREWED human spaceflight is now scheduled for:", "options": ["H2 2026", "Q1 2027", "Q4 2027", "2028"], "correctIndex": 1, "explanation": "Q1 (first quarter) 2027.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,716 @@
+[
+  {
+    "dayNumber": 1,
+    "partATopicId": "a1-scientific-temper-reasoning",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c7-poem-i-dream-of-spices"
+  },
+  {
+    "dayNumber": 2,
+    "partATopicId": "a1-universe-scientific-laws",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c7-poem-crocodile-railway-carriage"
+  },
+  {
+    "dayNumber": 3,
+    "partATopicId": "a1-mechanics",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c7-poem-teamwork-courage"
+  },
+  {
+    "dayNumber": 4,
+    "partATopicId": "a1-electricity-magnetism-light-sound",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-poem-tragic-story"
+  },
+  {
+    "dayNumber": 5,
+    "partATopicId": "a1-heat-nuclear-laser-electronics",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-poem-sea-fever"
+  },
+  {
+    "dayNumber": 6,
+    "partATopicId": "a1-elements-compounds-chemistry",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-poem-age-of-chivalry"
+  },
+  {
+    "dayNumber": 7,
+    "partATopicId": "a1-life-science-basics",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-poem-wandering-singers"
+  },
+  {
+    "dayNumber": 8,
+    "partATopicId": "a1-environment-ecology-tech",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c7-poem-the-listeners"
+  },
+  {
+    "dayNumber": 9,
+    "partATopicId": "a2-location-physical-features",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c7-poem-your-space"
+  },
+  {
+    "dayNumber": 10,
+    "partATopicId": "a2-monsoon-rainfall-climate",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c7-poem-special-hero"
+  },
+  {
+    "dayNumber": 11,
+    "partATopicId": "a2-water-resources-rivers",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c7-poem-stopping-by-woods"
+  },
+  {
+    "dayNumber": 12,
+    "partATopicId": "a2-soil-minerals-natural-resources",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c7-poem-leisure"
+  },
+  {
+    "dayNumber": 13,
+    "partATopicId": "a2-forest-wildlife-agriculture",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c7-poem-poison-tree"
+  },
+  {
+    "dayNumber": 14,
+    "partATopicId": "a2-transport-communication-social-geography",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c7-poem-power-of-a-smile"
+  },
+  {
+    "dayNumber": 15,
+    "partATopicId": "a2-natural-calamity-disaster-pollution-climate",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c7-poem-on-killing-a-tree"
+  },
+  {
+    "dayNumber": 16,
+    "partATopicId": "a3-indus-valley-civilization",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c7-poem-advice-from-a-tree"
+  },
+  {
+    "dayNumber": 17,
+    "partATopicId": "a3-guptas-sultans-mughals-marathas",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c7-poem-spider-and-fly"
+  },
+  {
+    "dayNumber": 18,
+    "partATopicId": "a3-vijayanagar-bahmani-south-india",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c7-poem-never-trust-a-mirror"
+  },
+  {
+    "dayNumber": 19,
+    "partATopicId": "a3-national-renaissance-early-uprising",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c7-poem-nature-gentlest-mother"
+  },
+  {
+    "dayNumber": 20,
+    "partATopicId": "a3-indian-national-congress",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-poem-the-comet"
+  },
+  {
+    "dayNumber": 21,
+    "partATopicId": "a3-leaders-gandhi-nehru-bose-ambedkar",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-poem-the-star"
+  },
+  {
+    "dayNumber": 22,
+    "partATopicId": "a3-leaders-bhagat-singh-bharathiar-others",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-poem-stick-together-families"
+  },
+  {
+    "dayNumber": 23,
+    "partATopicId": "a3-satyagraha-militant-movements",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-poem-memories-of-my-dad"
+  },
+  {
+    "dayNumber": 24,
+    "partATopicId": "a3-communalism-partition",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c7-poem-life-henry-van-dyke"
+  },
+  {
+    "dayNumber": 25,
+    "partATopicId": "a3-indian-culture-secularism-personalities",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c7-poem-grumble-family"
+  },
+  {
+    "dayNumber": 26,
+    "partATopicId": "a4-constitution-preamble-overview",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c7-poem-secret-of-machines"
+  },
+  {
+    "dayNumber": 27,
+    "partATopicId": "a4-salient-features-of-constitution",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c7-poem-house-on-elm-street"
+  },
+  {
+    "dayNumber": 28,
+    "partATopicId": "a4-union-state-territory",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c7-prose-his-first-flight"
+  },
+  {
+    "dayNumber": 29,
+    "partATopicId": "a4-citizenship",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c7-prose-night-ghost-got-in"
+  },
+  {
+    "dayNumber": 30,
+    "partATopicId": "a4-fundamental-rights-equality-freedom-exploitation",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c7-prose-empowered-women-navigating-world"
+  },
+  {
+    "dayNumber": 31,
+    "partATopicId": "a4-fundamental-rights-religion-cultural-remedies",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c7-prose-the-attic"
+  },
+  {
+    "dayNumber": 32,
+    "partATopicId": "a4-fundamental-duties-dpsp",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c7-prose-tech-bloomers"
+  },
+  {
+    "dayNumber": 33,
+    "partATopicId": "a4-union-executive-legislature",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c7-prose-last-lesson"
+  },
+  {
+    "dayNumber": 34,
+    "partATopicId": "a4-state-executive-legislature",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c7-prose-dying-detective"
+  },
+  {
+    "dayNumber": 35,
+    "partATopicId": "a4-local-government-panchayat-raj",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c7-prose-learning-the-game"
+  },
+  {
+    "dayNumber": 36,
+    "partATopicId": "a4-federalism-centre-state",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-prose-cant-climb-trees-anymore"
+  },
+  {
+    "dayNumber": 37,
+    "partATopicId": "a4-elections-judiciary-rule-of-law",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-prose-old-man-river"
+  },
+  {
+    "dayNumber": 38,
+    "partATopicId": "a4-anticorruption-rti-human-rights",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-prose-seventeen-oranges"
+  },
+  {
+    "dayNumber": 39,
+    "partATopicId": "a4-political-parties-system",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-prose-water-elixir-of-life"
+  },
+  {
+    "dayNumber": 40,
+    "partATopicId": "a5-economy-nature-five-year-plans",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c7-prose-zero-to-infinity-ramanujan"
+  },
+  {
+    "dayNumber": 41,
+    "partATopicId": "a5-revenue-rbi-fiscal-monetary-policy",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c7-prose-birthday-letter-nehru"
+  },
+  {
+    "dayNumber": 42,
+    "partATopicId": "a5-land-reforms-agriculture",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c7-prose-nose-jewel"
+  },
+  {
+    "dayNumber": 43,
+    "partATopicId": "a5-industrial-growth",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c7-prose-hobby-successful-career"
+  },
+  {
+    "dayNumber": 44,
+    "partATopicId": "a5-social-problems-population-education-health",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c7-prose-isaac-newton"
+  },
+  {
+    "dayNumber": 45,
+    "partATopicId": "a5-tn-economic-trends-welfare-schemes",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c7-prose-my-reminiscence-tagore"
+  },
+  {
+    "dayNumber": 46,
+    "partATopicId": "a5-tn-education-health-egovernance",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c7-prose-sea-turtles"
+  },
+  {
+    "dayNumber": 47,
+    "partATopicId": "a5-tn-geography-economic-growth-achievements",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c7-prose-when-trees-walked"
+  },
+  {
+    "dayNumber": 48,
+    "partATopicId": "a6-tamil-society-archaeological-discoveries",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c7-prose-visitor-distant-lands"
+  },
+  {
+    "dayNumber": 49,
+    "partATopicId": "a6-tamil-literature-sangam-contemporary",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c7-prose-sports-stars-mithali"
+  },
+  {
+    "dayNumber": 50,
+    "partATopicId": "a6-thirukkural-significance-secular-literature",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c7-prose-last-stone-carver"
+  },
+  {
+    "dayNumber": 51,
+    "partATopicId": "a6-tn-role-freedom-struggle",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c7-prose-eidgah-premchand"
+  },
+  {
+    "dayNumber": 52,
+    "partATopicId": "a6-justice-party-self-respect-dravidian-movement",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-prose-wind-haunted-hill"
+  },
+  {
+    "dayNumber": 53,
+    "partATopicId": "a6-contributions-periyar-anna",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-prose-prayer-to-teacher"
+  },
+  {
+    "dayNumber": 54,
+    "partATopicId": "a1-current-affairs-1",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-prose-the-tempest"
+  },
+  {
+    "dayNumber": 55,
+    "partATopicId": "a2-current-affairs-1",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-prose-hunter-turned-naturalist"
+  },
+  {
+    "dayNumber": 56,
+    "partATopicId": "a3-current-affairs-1",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c7-prose-cat-painkiller"
+  },
+  {
+    "dayNumber": 57,
+    "partATopicId": "a4-current-affairs-1",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c1-parts-of-speech-concord-tenses"
+  },
+  {
+    "dayNumber": 58,
+    "partATopicId": "a5-current-affairs-1",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c1-sentence-patterns-non-finite-verbs"
+  },
+  {
+    "dayNumber": 59,
+    "partATopicId": "a6-current-affairs-1",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c2-homonyms-homophones"
+  },
+  {
+    "dayNumber": 60,
+    "partATopicId": "a1-current-affairs-2",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c2-idioms-phrasal-verbs"
+  },
+  {
+    "dayNumber": 61,
+    "partATopicId": "a2-current-affairs-2",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c2-synonyms-antonyms"
+  },
+  {
+    "dayNumber": 62,
+    "partATopicId": "a3-current-affairs-2",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c2-spelling-one-word-substitution"
+  },
+  {
+    "dayNumber": 63,
+    "partATopicId": "a4-current-affairs-2",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c2-singular-plural-abbreviations"
+  },
+  {
+    "dayNumber": 64,
+    "partATopicId": "a5-current-affairs-2",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c2-figures-of-speech"
+  },
+  {
+    "dayNumber": 65,
+    "partATopicId": "a6-current-affairs-2",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c2-collocations-compounds-word-creation"
+  },
+  {
+    "dayNumber": 66,
+    "partATopicId": "a1-current-affairs-3",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c3-letter-writing"
+  },
+  {
+    "dayNumber": 67,
+    "partATopicId": "a2-current-affairs-3",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c3-jumbled-sentences"
+  },
+  {
+    "dayNumber": 68,
+    "partATopicId": "a3-current-affairs-3",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c3-queries-inferences-blanks"
+  },
+  {
+    "dayNumber": 69,
+    "partATopicId": "a4-current-affairs-3",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c4-administrative-departmental-terms"
+  },
+  {
+    "dayNumber": 70,
+    "partATopicId": "a5-current-affairs-3",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c4-official-correspondence-go-passages"
+  },
+  {
+    "dayNumber": 71,
+    "partATopicId": "a6-current-affairs-3",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c5-reading-comprehension-passages-1"
+  },
+  {
+    "dayNumber": 72,
+    "partATopicId": "a1-current-affairs-4",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c5-reading-comprehension-passages-2"
+  },
+  {
+    "dayNumber": 73,
+    "partATopicId": "a2-current-affairs-4",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c6-translation-word-sentence"
+  },
+  {
+    "dayNumber": 74,
+    "partATopicId": "a3-current-affairs-4",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c1-tenses"
+  },
+  {
+    "dayNumber": 75,
+    "partATopicId": "a4-current-affairs-4",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c1-active-passive-voice"
+  },
+  {
+    "dayNumber": 76,
+    "partATopicId": "a5-current-affairs-4",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c1-sentence-transformations"
+  },
+  {
+    "dayNumber": 77,
+    "partATopicId": "a6-current-affairs-4",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c1-degrees-of-comparison"
+  },
+  {
+    "dayNumber": 78,
+    "partATopicId": "a1-current-affairs-5",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c1-phrases-clauses"
+  },
+  {
+    "dayNumber": 79,
+    "partATopicId": "a2-current-affairs-5",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c1-verbs-gerunds-infinitives-participles"
+  },
+  {
+    "dayNumber": 80,
+    "partATopicId": "a3-current-affairs-5",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c1-direct-indirect-speech"
+  },
+  {
+    "dayNumber": 81,
+    "partATopicId": "a4-current-affairs-5",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c1-punctuation"
+  },
+  {
+    "dayNumber": 82,
+    "partATopicId": "a5-current-affairs-5",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c1-articles-subject-verb-agreement"
+  },
+  {
+    "dayNumber": 83,
+    "partATopicId": "a6-current-affairs-5",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c2-idioms-phrasal-verbs-2"
+  },
+  {
+    "dayNumber": 84,
+    "partATopicId": "a1-current-affairs-6",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-poem-i-dream-of-spices"
+  },
+  {
+    "dayNumber": 85,
+    "partATopicId": "a2-current-affairs-6",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-poem-crocodile-railway-carriage"
+  },
+  {
+    "dayNumber": 86,
+    "partATopicId": "a3-current-affairs-6",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-poem-teamwork-courage"
+  },
+  {
+    "dayNumber": 87,
+    "partATopicId": "a4-current-affairs-6",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-poem-tragic-story"
+  },
+  {
+    "dayNumber": 88,
+    "partATopicId": "a5-current-affairs-6",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c7-poem-sea-fever"
+  },
+  {
+    "dayNumber": 89,
+    "partATopicId": "a6-current-affairs-6",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c7-poem-age-of-chivalry"
+  },
+  {
+    "dayNumber": 90,
+    "partATopicId": "a1-current-affairs-7",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c7-poem-wandering-singers"
+  },
+  {
+    "dayNumber": 91,
+    "partATopicId": "a2-current-affairs-7",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c7-poem-the-listeners"
+  },
+  {
+    "dayNumber": 92,
+    "partATopicId": "a3-current-affairs-7",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c7-poem-your-space"
+  },
+  {
+    "dayNumber": 93,
+    "partATopicId": "a4-current-affairs-7",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c7-poem-special-hero"
+  },
+  {
+    "dayNumber": 94,
+    "partATopicId": "a5-current-affairs-7",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c7-poem-stopping-by-woods"
+  },
+  {
+    "dayNumber": 95,
+    "partATopicId": "a6-current-affairs-7",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c7-poem-leisure"
+  },
+  {
+    "dayNumber": 96,
+    "partATopicId": "a1-current-affairs-8",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c7-poem-poison-tree"
+  },
+  {
+    "dayNumber": 97,
+    "partATopicId": "a2-current-affairs-8",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c7-poem-power-of-a-smile"
+  },
+  {
+    "dayNumber": 98,
+    "partATopicId": "a3-current-affairs-8",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c7-poem-on-killing-a-tree"
+  },
+  {
+    "dayNumber": 99,
+    "partATopicId": "a4-current-affairs-8",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c7-poem-advice-from-a-tree"
+  },
+  {
+    "dayNumber": 100,
+    "partATopicId": "a5-current-affairs-8",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-poem-spider-and-fly"
+  },
+  {
+    "dayNumber": 101,
+    "partATopicId": "a6-current-affairs-8",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-poem-the-river"
+  },
+  {
+    "dayNumber": 102,
+    "partATopicId": "a1-current-affairs-9",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-poem-never-trust-a-mirror"
+  },
+  {
+    "dayNumber": 103,
+    "partATopicId": "a2-current-affairs-9",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-poem-nature-gentlest-mother"
+  },
+  {
+    "dayNumber": 104,
+    "partATopicId": "a3-current-affairs-9",
+    "partBTopicId": "b1-area",
+    "partCTopicId": "c7-poem-the-comet"
+  },
+  {
+    "dayNumber": 105,
+    "partATopicId": "a4-current-affairs-9",
+    "partBTopicId": "b1-volume",
+    "partCTopicId": "c7-poem-the-star"
+  },
+  {
+    "dayNumber": 106,
+    "partATopicId": "a5-current-affairs-9",
+    "partBTopicId": "b1-time-and-work",
+    "partCTopicId": "c7-poem-stick-together-families"
+  },
+  {
+    "dayNumber": 107,
+    "partATopicId": "a6-current-affairs-9",
+    "partBTopicId": "b2-logical-reasoning",
+    "partCTopicId": "c7-poem-memories-of-my-dad"
+  },
+  {
+    "dayNumber": 108,
+    "partATopicId": "a1-current-affairs-10",
+    "partBTopicId": "b2-puzzles",
+    "partCTopicId": "c7-poem-life-henry-van-dyke"
+  },
+  {
+    "dayNumber": 109,
+    "partATopicId": "a2-current-affairs-10",
+    "partBTopicId": "b2-dice",
+    "partCTopicId": "c7-poem-grumble-family"
+  },
+  {
+    "dayNumber": 110,
+    "partATopicId": "a3-current-affairs-10",
+    "partBTopicId": "b2-visual-reasoning",
+    "partCTopicId": "c7-poem-secret-of-machines"
+  },
+  {
+    "dayNumber": 111,
+    "partATopicId": "a4-current-affairs-10",
+    "partBTopicId": "b2-alphanumeric-reasoning",
+    "partCTopicId": "c7-poem-house-on-elm-street"
+  },
+  {
+    "dayNumber": 112,
+    "partATopicId": "a5-current-affairs-10",
+    "partBTopicId": "b2-number-series",
+    "partCTopicId": "c7-prose-his-first-flight"
+  },
+  {
+    "dayNumber": 113,
+    "partATopicId": "a6-current-affairs-10",
+    "partBTopicId": "b1-simplification",
+    "partCTopicId": "c7-prose-night-ghost-got-in"
+  },
+  {
+    "dayNumber": 114,
+    "partATopicId": "a1-current-affairs-11",
+    "partBTopicId": "b1-percentage",
+    "partCTopicId": "c7-prose-empowered-women-navigating-world"
+  },
+  {
+    "dayNumber": 115,
+    "partATopicId": "a2-current-affairs-11",
+    "partBTopicId": "b1-hcf",
+    "partCTopicId": "c7-prose-the-attic"
+  },
+  {
+    "dayNumber": 116,
+    "partATopicId": "a3-current-affairs-11",
+    "partBTopicId": "b1-lcm",
+    "partCTopicId": "c7-prose-tech-bloomers"
+  },
+  {
+    "dayNumber": 117,
+    "partATopicId": "a4-current-affairs-11",
+    "partBTopicId": "b1-ratio-proportion",
+    "partCTopicId": "c7-prose-last-lesson"
+  },
+  {
+    "dayNumber": 118,
+    "partATopicId": "a5-current-affairs-11",
+    "partBTopicId": "b1-simple-interest",
+    "partCTopicId": "c7-prose-dying-detective"
+  },
+  {
+    "dayNumber": 119,
+    "partATopicId": "a6-current-affairs-11",
+    "partBTopicId": "b1-compound-interest",
+    "partCTopicId": "c7-prose-learning-the-game"
+  }
+]

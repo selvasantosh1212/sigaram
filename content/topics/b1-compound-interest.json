@@ -1,0 +1,30 @@
+{
+  "topicId": "b1-compound-interest",
+  "unitId": "B-I",
+  "name": "Compound Interest",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2022_q1 page 63 Q193-194 (SI-vs-CI difference shortcut; direct CI calculation, with answer key)" },
+    { "type": "question-bank", "label": "2025_q1 page 79 Q141 (find principal from two CI amounts at different years, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 31 Q45 (successive-percentage-change/depreciation problem, with answer key — found while researching an earlier topic, stashed and used here)" }
+  ],
+  "researchNotes": "Strong real evidence — 4 confirmed hits across 2022/2024/2025 covering 4 distinct shapes: the SI-vs-CI difference shortcut formula, direct CI calculation, working backward from two CI amounts to find the principal, and successive-percentage-change problems (which are CI in disguise — depreciation/appreciation year over year is mathematically identical to compound interest with a negative or mixed rate).",
+  "reading": {
+    "intro": "Compound Interest is 1 of 10 named Aptitude sub-skills. Real exam evidence shows TNPSC tests the standard CI formula, a useful SI-vs-CI shortcut, AND disguises CI as 'successive percentage change' word problems (depreciation, year-over-year growth) — recognize all three shapes.",
+    "qa": [
+      { "id": "r01", "question": "Formula: What is the Compound Interest formula, and the shortcut for the DIFFERENCE between SI and CI over 2 years?", "answer": "Amount = P(1+R/100)^T, so CI = Amount − P. For exactly 2 years, there's a shortcut: CI − SI = P×(R/100)². This avoids computing CI and SI separately when you only need their difference." },
+      { "id": "r02", "question": "Real exam (2022): Find the difference between SI and CI for 2 years on a principal of Rs.5,000 at 8% per annum.", "answer": "Using the shortcut: difference = P×(R/100)² = 5000×(0.08)² = 5000×0.0064 = Rs.32. (Full check: SI = 5000×8×2/100=800. CI = 5000×(1.08²−1) = 5000×0.1664 = 832. Difference = 832−800 = 32 ✓.)" },
+      { "id": "r03", "question": "Real exam (2022): Find the compound interest on Rs.5,000 at 12% per annum for 2 years, compounded annually.", "answer": "CI = P×((1+R/100)^T − 1) = 5000×(1.12² − 1) = 5000×(1.2544−1) = 5000×0.2544 = Rs.1,272." },
+      { "id": "r04", "question": "Real exam (2025): A sum becomes Rs.13,380 after 3 years and Rs.20,070 after 6 years on compound interest. Find the original sum.", "answer": "The amount after 6 years equals the amount after 3 years multiplied by the SAME growth factor again (since compounding is multiplicative): (1+R/100)³ = 20070/13380 = 1.5. The sum itself: P = Amount-after-3-years ÷ (1+R/100)³ = 13380 ÷ 1.5 = Rs.8,920." },
+      { "id": "r05", "question": "Real exam (2024): A motorcycle's value 2 years ago was Rs.80,000. It depreciates 4% in the first year, then increases 4% in the second year. Find the present value.", "answer": "Apply each year's change as its own multiplier, in sequence — this is compound interest with a changing/mixed rate: 80,000 × 0.96 (first year, −4%) × 1.04 (second year, +4%) = 80,000 × 0.9984 = Rs.79,872. Note the result is slightly LESS than the original Rs.80,000 — a decrease followed by an equal-percentage increase never fully cancels out, since the increase applies to a smaller base." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Find the difference between SI and CI for 2 years on a principal of Rs.8,000 at 5% per annum.", "options": ["Rs.18", "Rs.20", "Rs.22", "Rs.25"], "correctIndex": 1, "explanation": "Difference = P×(R/100)² = 8000×(0.05)² = 8000×0.0025 = Rs.20.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Find the compound interest on Rs.10,000 at 10% per annum for 2 years, compounded annually.", "options": ["Rs.2,000", "Rs.2,100", "Rs.2,200", "Rs.1,900"], "correctIndex": 1, "explanation": "CI = 10000×(1.10²−1) = 10000×0.21 = Rs.2,100.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m03", "prompt": "A sum becomes Rs.16,000 after 2 years and Rs.19,360 after 4 years on compound interest. Find the original sum.", "options": ["Rs.12,500", "Rs.13,000", "Rs.13,223", "Rs.14,000"], "correctIndex": 2, "explanation": "(1+R/100)² = 19360/16000 = 1.21. P = 16000/1.21 ≈ Rs.13,223.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m04", "prompt": "A machine valued at Rs.50,000 depreciates by 10% in the first year and a further 10% in the second year. Find its value after 2 years.", "options": ["Rs.40,000", "Rs.40,500", "Rs.41,000", "Rs.39,500"], "correctIndex": 1, "explanation": "50,000 × 0.90 × 0.90 = 50,000 × 0.81 = Rs.40,500.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Find the compound interest on Rs.20,000 at 15% per annum for 2 years, compounded annually.", "options": ["Rs.6,000", "Rs.6,450", "Rs.6,200", "Rs.6,500"], "correctIndex": 1, "explanation": "CI = 20000×(1.15²−1) = 20000×0.3225 = Rs.6,450.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

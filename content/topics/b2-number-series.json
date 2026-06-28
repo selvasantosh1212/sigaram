@@ -1,0 +1,31 @@
+{
+  "topicId": "b2-number-series",
+  "unitId": "B-II",
+  "name": "Number Series",
+  "sourceRefs": [
+    { "type": "web-research", "label": "tnpscguru.in - 8 real past-paper number series questions, independently re-verified" }
+  ],
+  "researchNotes": "This is the LAST of Part B's 6 named Reasoning skills, completing all of Part B (Aptitude & Mental Ability) entirely. 8 sourced questions, every single one independently re-derived and verified by hand before use (one item's source-site number formatting was garbled — likely 'prime² ' exponents flattened into plain digits — caught and corrected to present the actual mathematical pattern rather than propagate the confusing raw text).",
+  "reading": {
+    "intro": "Number Series is the final Reasoning skill. Real exam evidence shows 6 distinct underlying patterns: second-difference (difference-of-differences) sequences, sum-of-consecutive-cubes, geometric progression, arithmetic progression, n² multiples, and prime-number-squared sequences — recognize the pattern TYPE before trying to compute term-by-term.",
+    "qa": [
+      { "id": "r01", "question": "Method — sum of consecutive cubes: Find the next term: 9, 35, 91, ?", "answer": "Each term is n³+(n+1)³: 1³+2³=1+8=9 ✓, 2³+3³=8+27=35 ✓, 3³+4³=27+64=91 ✓. Next: 4³+5³=64+125=189." },
+      { "id": "r02", "question": "Method — second-difference (arithmetic sequence of differences): Fill in the blank: 1, 6, 15, 28, 45, ___, 91.", "answer": "Differences: 6−1=5, 15−6=9, 28−15=13, 45−28=17 — these differences themselves increase by 4 each time. Next difference = 17+4=21, so the blank = 45+21 = 66. (Check: 91−66=25=21+4 ✓ consistent.)" },
+      { "id": "r03", "question": "Method — sequence of squared primes: Find the missing number in the sequence of squared prime numbers: 4 (2²), 9 (3²), 25 (5²), 49 (7²), ?, 169 (13²).", "answer": "The base numbers are consecutive primes: 2, 3, 5, 7, 11, 13. The missing term corresponds to 11² = 121. (Caution: the original source rendered this sequence with garbled formatting that looked like plain 3-digit numbers rather than squared primes — always re-derive the actual pattern rather than trusting a confusing transcription.)" },
+      { "id": "r04", "question": "Method — simple arithmetic progression (AP) with increasing-by-2 differences: Find the next term: 1, 5, 11, 19, 29, ?", "answer": "Differences: 4, 6, 8, 10 — increasing by 2 each time. Next difference = 12, so next term = 29+12 = 41." },
+      { "id": "r05", "question": "Method — geometric progression (GP): Find the 8th term of 2, 6, 18, 54, ...", "answer": "Common ratio = 3 (each term ×3). Terms: 2,6,18,54,162,486,1458,4374. The 8th term is 4,374." },
+      { "id": "r06", "question": "Method — plain arithmetic progression, nth term formula: Find the 20th term of 7, 10, 13, ...", "answer": "First term=7, common difference=3. nth term = a+(n−1)d = 7+(19×3) = 7+57 = 64." },
+      { "id": "r07", "question": "Method — multiples of n²: Find the missing number: 3, 12, 27, 48, 75, 108, ___.", "answer": "Each term = 3×n² for n=1,2,3...: 3×1=3, 3×4=12, 3×9=27, 3×16=48, 3×25=75, 3×36=108. Next (n=7): 3×49=147." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Find the next term: 2, 9, 28, 65, 126, ?", "options": ["215", "217", "219", "221"], "correctIndex": 1, "explanation": "Each term is n³+1: 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, 5³+1=126. Next: 6³+1=216+1=217.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Fill in the blank: 2, 7, 14, 23, 34, ___, 62.", "options": ["45", "47", "49", "51"], "correctIndex": 1, "explanation": "Differences: 5,7,9,11 — increasing by 2. Next difference=13, so blank=34+13=47. (Check: 62−47=15=13+2, consistent.)", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Find the next term: 3, 7, 15, 27, 43, ?", "options": ["61", "63", "65", "67"], "correctIndex": 1, "explanation": "Differences: 4,8,12,16 — increasing by 4. Next difference=20, so next term=43+20=63.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Find the 7th term of the GP: 3, 9, 27, 81, ...", "options": ["1,458", "2,187", "2,287", "1,987"], "correctIndex": 1, "explanation": "Common ratio 3: 3,9,27,81,243,729,2187. 7th term = 2,187.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Find the 15th term of the AP: 5, 9, 13, 17, ...", "options": ["59", "61", "63", "65"], "correctIndex": 1, "explanation": "a=5, d=4. 15th term = 5+(14×4) = 5+56 = 61.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m06", "prompt": "Find the missing number: 2, 8, 18, 32, 50, ___.", "options": ["62", "68", "72", "78"], "correctIndex": 2, "explanation": "Each term = 2×n²: 2×1=2, 2×4=8, 2×9=18, 2×16=32, 2×25=50. Next (n=6): 2×36=72.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "topicId": "a5-current-affairs-3",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy & TN Dev. Admin. (3): Union Budget 2026-27 & TN Industrial Investments",
+  "sourceRefs": [
+    { "type": "web-research", "label": "indiabudget.gov.in/pib.gov.in - Union Budget 2026-27 highlights; investindia.gov.in/ibef.org - Tamil Nadu industrial investment 2025-26" }
+  ],
+  "researchNotes": "Third Economy current-affairs topic (3rd lap). Deliberately picked dated, stable policy events (Budget schemes with fixed outlays; specific MoU/investment dates) over volatile monthly statistics, per the lesson logged at Day 58. Avoided repeating India Semiconductor Mission 2.0, already covered in a1-current-affairs-3 (Science).",
+  "reading": {
+    "intro": "Covers the Union Budget 2026-27's key new schemes and Tamil Nadu's recent industrial investment milestones — the 'TN Dev. Admin.' half of this unit.",
+    "qa": [
+      { "id": "r01", "question": "When was the Union Budget 2026-27 presented, and by whom?", "answer": "1 February 2026, by Finance Minister Nirmala Sitharaman." },
+      { "id": "r02", "question": "What is 'Biopharma SHAKTI', announced in Budget 2026-27?", "answer": "A scheme with an outlay of ₹10,000 crores over 5 years, aiming to develop India as a global Biopharma manufacturing hub. SHAKTI stands for Strategy for Healthcare Advancement through Knowledge, Technology and Innovation." },
+      { "id": "r03", "question": "What is the Coastal Cargo Promotion Scheme's target, announced in Budget 2026-27?", "answer": "To raise the share of inland waterways and coastal shipping in India's cargo movement from 6% to 12% by 2047." },
+      { "id": "r04", "question": "What are 'City Economic Regions (CER)', as announced in Budget 2026-27?", "answer": "An urban-development initiative with ₹5,000 crore allocated over 5 years, implemented through a 'challenge mode' with reform-cum-results-based financing for city economic regions." },
+      { "id": "r05", "question": "How much industrial investment commitment did Tamil Nadu secure in 2025, and through how many MoUs?", "answer": "₹2.07 lakh crore, through over 270 Memoranda of Understanding (MoUs) with domestic and global companies, spanning manufacturing, electronics, aerospace, defence, logistics, and IT." },
+      { "id": "r06", "question": "What major aerospace investment did Tamil Nadu secure in September 2025, and where?", "answer": "A Maintenance, Repair, and Overhaul (MRO) facility and research centre from Rolls-Royce, in Hosur, boosting TN's aerospace sector." },
+      { "id": "r07", "question": "What major port-infrastructure allocation did the Government of India announce for Tamil Nadu on 6 September 2025?", "answer": "Over ₹93,000 crore (~US$11.2 billion) for major port-infrastructure projects in Tamil Nadu." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Union Budget 2026-27 was presented on:", "options": ["1 January 2026", "1 February 2026", "1 March 2026", "1 April 2026"], "correctIndex": 1, "explanation": "1 February 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "'Biopharma SHAKTI', announced in Budget 2026-27, has an outlay of:", "options": ["₹5,000 crores over 5 years", "₹10,000 crores over 5 years", "₹15,000 crores over 5 years", "₹20,000 crores over 5 years"], "correctIndex": 1, "explanation": "₹10,000 crores over 5 years.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "The Coastal Cargo Promotion Scheme aims to raise inland waterways/coastal shipping's cargo share to ___ by 2047.", "options": ["8%", "10%", "12%", "15%"], "correctIndex": 2, "explanation": "12% (from the current 6%).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Tamil Nadu secured industrial investment commitments of how much in 2025?", "options": ["₹1.07 lakh crore", "₹1.50 lakh crore", "₹2.07 lakh crore", "₹3.07 lakh crore"], "correctIndex": 2, "explanation": "₹2.07 lakh crore.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Rolls-Royce's MRO facility and research centre announced in September 2025 is located in:", "options": ["Chennai", "Coimbatore", "Hosur", "Tiruchirappalli"], "correctIndex": 2, "explanation": "Hosur.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "On 6 September 2025, the Government of India announced a port-infrastructure allocation for Tamil Nadu of over:", "options": ["₹50,000 crore", "₹70,000 crore", "₹93,000 crore", "₹1,00,000 crore"], "correctIndex": 2, "explanation": "Over ₹93,000 crore.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

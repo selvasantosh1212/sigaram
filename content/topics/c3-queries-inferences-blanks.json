@@ -1,0 +1,34 @@
+{
+  "topicId": "c3-queries-inferences-blanks",
+  "unitId": "C-III",
+  "name": "Writing Skills: Making Queries, Inferences, Blanks, and Substitutions",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC MCQ sets for Inferences (6 questions) and Blanks/Substitutions (6 questions)" }
+  ],
+  "researchNotes": "Third and final Writing Skills topic, closing out Part C Unit III at 3 topics (matching the original ~3 estimate exactly). Inferences testing in real TNPSC questions sometimes relies on REAL-WORLD knowledge overriding a stated premise (see the penguin example below) rather than strict formal logic — worth flagging so it isn't mistaken for a logic error.",
+  "reading": {
+    "intro": "Covers drawing reasonable inferences from short scenarios, filling blanks with the correct word/preposition/article, and substituting repeated nouns with appropriate pronouns.",
+    "qa": [
+      { "id": "r01", "question": "What can be reasonably inferred from: \"A person wears a raincoat and carries an umbrella\"?", "answer": "It might rain soon — the person's preparation (raincoat, umbrella) reasonably implies they expect rain, even though this isn't explicitly stated." },
+      { "id": "r02", "question": "What can be inferred from: \"A person enters a restaurant, looks at the menu, but leaves without ordering\"?", "answer": "The person does not want to eat there — the act of leaving without ordering, after reviewing the menu, suggests a decision not to dine there (rather than assuming a specific reason like cost or hunger, which isn't directly supported)." },
+      { "id": "r03", "question": "Important nuance: \"All birds can fly. Penguins are birds.\" What can be inferred, and why is this trickier than it looks?", "answer": "The TNPSC-marked answer is 'Penguins CANNOT fly' — which is real-world general knowledge (penguins are flightless), NOT a strict logical deduction from the stated premises (strict logic would actually conclude 'penguins CAN fly', since the premises as stated say ALL birds fly). This question tests recognising that the premise 'All birds can fly' is itself factually false, rather than testing pure formal syllogistic logic — a useful distinction to keep in mind for inference questions." },
+      { "id": "r04", "question": "Fill in the blank correctly: \"The train arrived late ___ heavy rain.\"", "answer": "DUE TO (not 'because' alone, which would need 'because OF'; 'for' and 'although' don't fit the cause-effect relationship here)." },
+      { "id": "r05", "question": "Fill in the blank correctly: \"I have never seen ___ elephant before\" and \"She is ___ intelligent girl.\"", "answer": "AN elephant (vowel sound), AN intelligent girl (vowel sound) — both use 'an' because the following word starts with a vowel SOUND, not because of the letter itself." },
+      { "id": "r06", "question": "Fill in the blank correctly: \"Let's go for a walk, ___?\" (question tag) and \"My brother is interested ___ photography.\"", "answer": "\"Let's go for a walk, SHALL WE?\" (the standard question tag for 'Let's' statements). \"Interested IN photography\" (the fixed preposition that follows 'interested')." },
+      { "id": "r07", "question": "Substitution example: \"I have two pens. ___ pen is blue and the other is red.\" What word correctly substitutes for the repeated noun?", "answer": "ONE — \"One pen is blue and the other is red\" (using 'one... the other' to refer back to the two pens without repeating 'pen' awkwardly)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"A person wears a raincoat and carries an umbrella.\" What can be inferred?", "options": ["It is sunny", "It might rain soon", "The person hates rain", "The person loves rain"], "correctIndex": 1, "explanation": "It might rain soon.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "\"The ground is wet and there are puddles outside.\" What can you infer?", "options": ["It rained recently", "Someone washed the ground", "It will rain tomorrow", "The ground is always wet"], "correctIndex": 0, "explanation": "It rained recently.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"A person enters a restaurant, looks at the menu, but leaves without ordering.\" What can you infer?", "options": ["The food is expensive", "The person is allergic to food", "The person does not want to eat there", "The person was not hungry"], "correctIndex": 2, "explanation": "The person does not want to eat there.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"All birds can fly. Penguins are birds.\" What is the TNPSC-marked inference?", "options": ["Penguins can fly", "Penguins cannot fly", "Penguins are not birds", "Penguins swim instead of being birds"], "correctIndex": 1, "explanation": "Penguins cannot fly (based on real-world knowledge overriding the false premise).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Fill in the blank: \"The train arrived late ___ heavy rain.\"", "options": ["because", "due to", "for", "although"], "correctIndex": 1, "explanation": "due to.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Fill in the blank: \"I have never seen ___ elephant before.\"", "options": ["a", "an", "the", "some"], "correctIndex": 1, "explanation": "an.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "Fill in the blank: \"Let's go for a walk, ___?\"", "options": ["isn't it", "won't we", "shall we", "don't we"], "correctIndex": 2, "explanation": "shall we.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Fill in the blank: \"My brother is interested ___ photography.\"", "options": ["on", "at", "in", "for"], "correctIndex": 2, "explanation": "in.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "\"I have two pens. ___ pen is blue and the other is red.\" Choose the correct substitution.", "options": ["It", "One", "Them", "Those"], "correctIndex": 1, "explanation": "One.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "c2-synonyms-antonyms",
+  "unitId": "C-II",
+  "name": "Vocabulary: Synonyms and Antonyms",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 142 Q182; 2025_q1 page 36 Q78-80; 2022_q page 12 Q41; page 24 Q89 (real synonym/antonym questions, with answer key)" },
+    { "type": "question-bank", "label": "2022_q page 14 Q50 (stashed earlier — garb/plaintive/ministrations/languid match, with answer key)" }
+  ],
+  "researchNotes": "Third Vocabulary topic — an unusually dense single research session (7+ real hits) confirms Synonyms/Antonyms are heavily tested, exactly as the syllabus's 15-question Vocabulary unit would suggest. Format is consistently 'choose the correct synonym/antonym for the underlined word', occasionally testing TWO underlined words in one sentence.",
+  "reading": {
+    "intro": "Covers synonym and antonym identification for specific vocabulary words TNPSC has tested in real exams — the most heavily-evidenced Vocabulary sub-topic found so far.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: \"He was the spoilt child of Affluent parents.\" What is the synonym of 'Affluent' tested here?", "answer": "Wealthy — confirmed by a real exam question." },
+      { "id": "r02", "question": "Real exam: \"The bride was garrulous during the occasion.\" What is the synonym of 'garrulous'?", "answer": "Talkative." },
+      { "id": "r03", "question": "Real exam: \"Chuck is mendacious about his vegetarianism.\" What is the synonym of 'mendacious'?", "answer": "Untruthful." },
+      { "id": "r04", "question": "Real exam: \"The driver known for his cautiousness was surprised by the road traffic. As his talent was innate, he had to drive slowly.\" What are the antonyms of 'cautiousness' and 'innate' tested here?", "answer": "Antonym of 'cautiousness' = RECKLESSNESS. Antonym of 'innate' (inborn) = ACQUIRED (learned) — both confirmed together via a single real exam question testing two underlined words." },
+      { "id": "r05", "question": "Real exam: \"She shouted intuitively.\" What is the antonym of 'intuitively' tested here?", "answer": "Artificial (i.e., the OPPOSITE of acting instinctively/naturally would be acting in an artificial/contrived/deliberate way)." },
+      { "id": "r06", "question": "Real exam: Match these words to their meanings — garb, plaintive, ministrations, languid.", "answer": "Garb = clothes. Plaintive = sounding sad. Ministrations = act of helping. Languid = moving slowly — all four confirmed via a real exam's match-the-following question." },
+      { "id": "r07", "question": "Real exam: A celebrity visiting a bookstore without wanting to be recognized is best described by which word?", "answer": "Incognito (meaning: having one's identity concealed) — confirmed by a real exam question, distinguishing it from 'ubiquitous' (present everywhere), 'ostentatious' (showy), and 'gregarious' (sociable)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Choose the correct synonym: \"He was the spoilt child of Affluent parents.\"", "options": ["Poor", "Useless", "Intelligent", "Wealthy"], "correctIndex": 3, "explanation": "Wealthy.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Choose the correct synonym: \"The bride was garrulous during the occasion.\"", "options": ["Anxious", "Wise", "Talkative", "Quiet"], "correctIndex": 2, "explanation": "Talkative.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Choose the correct synonym: \"Chuck is mendacious about his vegetarianism.\"", "options": ["Untruthful", "Proud", "Unhappy", "Clear"], "correctIndex": 0, "explanation": "Untruthful.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Choose the correct antonym for 'cautiousness' in: \"The driver known for his cautiousness was surprised by the road traffic.\"", "options": ["Gloomy", "Dim", "Recklessness", "Subtle"], "correctIndex": 2, "explanation": "Recklessness.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Choose the correct antonym for 'innate' in: \"As his talent was innate, he had to drive slowly.\"", "options": ["Active", "Retain", "Acquired", "Intolerant"], "correctIndex": 2, "explanation": "Acquired.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Choose the correct antonym: \"She shouted intuitively.\"", "options": ["Apparent", "Natural", "Artificial", "Spontaneous"], "correctIndex": 2, "explanation": "Artificial.", "sourceTag": "question-bank-2022", "difficulty": "hard" },
+      { "id": "m07", "prompt": "A famous celebrity visiting a bookstore without wanting to be recognized is best described as:", "options": ["Ubiquitous", "Ostentatious", "Incognito", "Gregarious"], "correctIndex": 2, "explanation": "Incognito.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Match the word to its meaning: 'Plaintive'.", "options": ["Clothes", "Sounding sad", "Act of helping", "Moving slowly"], "correctIndex": 1, "explanation": "Sounding sad.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Match the word to its meaning: 'Ministrations'.", "options": ["Clothes", "Sounding sad", "Act of helping", "Moving slowly"], "correctIndex": 2, "explanation": "Act of helping.", "sourceTag": "question-bank-2022", "difficulty": "hard" }
+    ]
+  }
+}

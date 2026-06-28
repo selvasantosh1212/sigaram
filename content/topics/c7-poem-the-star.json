@@ -1,0 +1,30 @@
+{
+  "topicId": "c7-poem-the-star",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Star\" — Jane Taylor",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" }
+  ],
+  "researchNotes": "OCR index search for 'the star'/'jane taylor' returned only false positives (matched on unrelated 'star' substrings in math/grammar questions, checked and excluded). Web research only. This poem is the famous nursery rhyme commonly known as \"Twinkle, Twinkle, Little Star\" — confirmed via independent web search before relying on the coaching-site MCQs.",
+  "reading": {
+    "intro": "The classic nursery rhyme \"Twinkle, Twinkle, Little Star\", attributed in this syllabus to its original author, Jane Taylor. Real coaching-site evidence tests the well-known simile and structural facts.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Star\" (better known as \"Twinkle, Twinkle, Little Star\")?", "answer": "Jane Taylor." },
+      { "id": "r02", "question": "What is the poem's rhyme scheme?", "answer": "AABB." },
+      { "id": "r03", "question": "Identify the figure of speech: \"Like a diamond in the sky.\"", "answer": "Simile — directly compares the star's twinkle to a diamond using 'like'." },
+      { "id": "r04", "question": "What does \"twinkle\" mean?", "answer": "To shine with a flickering light." },
+      { "id": "r05", "question": "Identify the figure of speech: \"You never shut your eye.\"", "answer": "Personification — the star is given the human attribute of having an 'eye' that it keeps open (i.e., it doesn't 'sleep', continuing to shine)." },
+      { "id": "r06", "question": "What happens, per the poem, when \"the blazing sun is gone\"?", "answer": "The star begins to shine (i.e., the star becomes visible once daylight fades)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Star\" was written by:", "options": ["Emily Dickinson", "Robert Louis Stevenson", "Jane Taylor", "William Wordsworth"], "correctIndex": 2, "explanation": "Jane Taylor.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What is the rhyme scheme of \"The Star\"?", "options": ["ABAB", "AABB", "ABCD", "ABCA"], "correctIndex": 1, "explanation": "AABB.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"Like a diamond in the sky\" is an example of:", "options": ["Metaphor", "Hyperbole", "Simile", "Irony"], "correctIndex": 2, "explanation": "Simile — uses 'like'.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "In the poem, \"twinkle\" means:", "options": ["Float slowly", "Shine with a flickering light", "Jump or fly", "Melt and disappear"], "correctIndex": 1, "explanation": "Shine with a flickering light.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "\"You never shut your eye\" uses which figure of speech?", "options": ["Hyperbole", "Simile", "Personification", "Metaphor"], "correctIndex": 2, "explanation": "Personification — the star given a human 'eye'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What happens when \"the blazing sun is gone\", per the poem?", "options": ["The star stops twinkling", "The sky becomes red", "The star begins to shine", "The moon rises"], "correctIndex": 2, "explanation": "The star begins to shine.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

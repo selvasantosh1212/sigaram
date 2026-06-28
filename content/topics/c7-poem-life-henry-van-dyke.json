@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-poem-life-henry-van-dyke",
+  "unitId": "C-VII",
+  "name": "Poem: \"Life\" — Henry Van Dyke",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 68 Q113 (real quoted line, with answer key — found while researching Day 3's Teamwork/Courage topic, stashed and used here)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" }
+  ],
+  "researchNotes": "One real confirmed line (stashed from Day-3 research, when this poem's authorship was tested but not yet authored) plus a 6-question web-sourced set. This poem's figure-of-speech labelling leans on some less-common devices already seen rarely in this syllabus (Litotes, Symbolism) — worth extra attention.",
+  "reading": {
+    "intro": "A reflective poem about living life with courage, purpose, and without regret or fear of the future. Real exam evidence confirms a specific quoted line's authorship; web research fills in the figure-of-speech detail, including two devices (Litotes, Symbolism) not seen elsewhere in this syllabus.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: \"Still seeking what I sought when but a boy, new friendship, high adventure and a crown.\" Who wrote this?", "answer": "Henry Van Dyke, in \"Life\" — confirmed via a real TNPSC question testing this exact line's authorship against three other poet options." },
+      { "id": "r02", "question": "What is the poem's central theme?", "answer": "Living life forward-facing, with courage and clear purpose — neither rushing nor dragging, not mourning losses, and not holding back out of fear of an unknown future." },
+      { "id": "r03", "question": "Who was Henry Van Dyke?", "answer": "An American author (1852-1933) — earned degrees from Princeton, served over 20 years as a Presbyterian minister, then returned to Princeton as a professor of English for nearly 20 years." },
+      { "id": "r04", "question": "Identify the figure of speech: \"Let me but live my life from year to year.\"", "answer": "Repetition (the phrase structure repeats a forward-moving, cyclical idea) — cited as Repetition rather than the other options in a real-style question." },
+      { "id": "r05", "question": "Identify the figure of speech: \"Not mourning for the things that disappear.\"", "answer": "Litotes — an understatement that affirms something by negating its opposite (saying 'not mourning' to actually emphasize calm acceptance, rather than stating the acceptance directly)." },
+      { "id": "r06", "question": "Identify the figure of speech: \"So let the way wind up the hill or down.\"", "answer": "Personification — 'the way' (the path of life) is treated as something that can actively 'wind', given an active, almost willful quality." },
+      { "id": "r07", "question": "Which phrase in the poem is the clearest example of Symbolism?", "answer": "\"The road's last turn\" — symbolizing the end of life/journey, rather than a literal physical road." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Still seeking what I sought when but a boy, new friendship, high adventure and a crown\" was written by:", "options": ["Khalil Gibran", "H.W. Longfellow", "Henry Van Dyke", "John Masefield"], "correctIndex": 2, "explanation": "Henry Van Dyke — confirmed via a real TNPSC question.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m02", "prompt": "\"Let me but live my life from year to year\" is cited as an example of:", "options": ["Repetition", "Simile", "Metaphor", "Oxymoron"], "correctIndex": 0, "explanation": "Repetition.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"Not mourning for the things that disappear\" is an example of:", "options": ["Litotes", "Apostrophe", "Irony", "Hyperbole"], "correctIndex": 0, "explanation": "Litotes — understatement via negation.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "\"So let the way wind up the hill or down\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 2, "explanation": "Personification — the 'way' given the active quality of winding.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Which phrase is the clearest example of Symbolism in the poem?", "options": ["High adventure", "Year to year", "Dim past", "The road's last turn"], "correctIndex": 3, "explanation": "\"The road's last turn\" symbolizes life's end.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Henry Van Dyke, in addition to being a poet, spent over 20 years working as a:", "options": ["Lawyer", "Presbyterian minister", "Physician", "Politician"], "correctIndex": 1, "explanation": "A Presbyterian minister, before returning to Princeton as an English professor.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

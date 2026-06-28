@@ -1,0 +1,27 @@
+{
+  "topicId": "a6-current-affairs-6",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History/Culture/Heritage (6): Tamil Nadu's New 'Semmozhi National Literary Award'",
+  "sourceRefs": [
+    { "type": "web-research", "label": "swarajyamag.com/aninews.in - Tamil Nadu's new Semmozhi National Literary Award, announced January 2026 at Chennai International Book Fair" }
+  ],
+  "researchNotes": "Sixth and final TN Culture current-affairs topic of this 6th lap, completing Part A's 6th full rotation cycle. Presented factually/neutrally — the announcement was made amid a political dispute over Sahitya Akademi awards, but this topic focuses only on the new award's concrete, testable facts (name, languages, prize amount, venue) rather than the political context.",
+  "reading": {
+    "intro": "Covers Tamil Nadu's newly launched state literary honour — the Semmozhi National Literary Award.",
+    "qa": [
+      { "id": "r01", "question": "What is the 'Semmozhi National Literary Award', and when/where was it announced?", "answer": "A new annual national-level literary award launched by the Tamil Nadu government, announced by Chief Minister M.K. Stalin in January 2026, at the closing ceremony of the Chennai International Book Fair 2026." },
+      { "id": "r02", "question": "Which 7 languages does the award cover in its first phase?", "answer": "Tamil, Telugu, Kannada, Malayalam, Odia, Bengali, and Marathi." },
+      { "id": "r03", "question": "What is the cash prize for each Semmozhi National Literary Award?", "answer": "₹5 lakh per award." },
+      { "id": "r04", "question": "How will winners be selected, per the announcement?", "answer": "Independent juries comprising eminent writers and award-winning authors will be constituted separately for EACH language, to ensure transparency and literary merit in the selection process." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Semmozhi National Literary Award was announced by Tamil Nadu's Chief Minister at:", "options": ["The World Tamil Conference", "The Chennai International Book Fair 2026", "Republic Day celebrations", "The Tamil Nadu Legislative Assembly"], "correctIndex": 1, "explanation": "The Chennai International Book Fair 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "In its first phase, the Semmozhi National Literary Award covers how many Indian languages?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "7 (Tamil, Telugu, Kannada, Malayalam, Odia, Bengali, Marathi).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which of these languages is NOT covered in the first phase of the Semmozhi National Literary Award?", "options": ["Telugu", "Marathi", "Hindi", "Odia"], "correctIndex": 2, "explanation": "Hindi is not among the 7 first-phase languages.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The cash prize for each Semmozhi National Literary Award is:", "options": ["₹1 lakh", "₹3 lakh", "₹5 lakh", "₹10 lakh"], "correctIndex": 2, "explanation": "₹5 lakh.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "How are winners selected for the Semmozhi National Literary Award?", "options": ["A single national committee for all languages", "Independent juries constituted separately for each language", "Public online voting", "Direct selection by the Chief Minister"], "correctIndex": 1, "explanation": "Independent juries for each language.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

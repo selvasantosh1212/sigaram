@@ -1,0 +1,41 @@
+{
+  "topicId": "c1-phrases-clauses",
+  "unitId": "C-I",
+  "name": "Grammar: Phrases and Clauses",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC MCQ sets (Phrases and Clauses, 12 questions total)" },
+    { "type": "question-bank", "label": "2024_q page 91 Q197-198; 2025_q1 page 42 Q97-98 (real, with answer key marks)" }
+  ],
+  "researchNotes": "Seventh Grammar topic, combining fresh research with the complex-sentence/clause-identification evidence stashed since Day 76. The core distinguishing test throughout: a CLAUSE has its own subject+verb; a PHRASE does not.",
+  "reading": {
+    "intro": "The key test for this whole topic: a CLAUSE has its own subject and verb; a PHRASE does not. Everything else (noun/adjective/adverb/prepositional phrase or clause; simple/complex sentence) builds on that one distinction.",
+    "qa": [
+      { "id": "r01", "question": "What is the core difference between a phrase and a clause?", "answer": "A clause contains a subject AND a verb (e.g., 'that he is coming' has subject 'he' + verb 'is coming'). A phrase does NOT contain its own subject (e.g., 'in spite of the rain' has no subject doing an action)." },
+      { "id": "r02", "question": "Real exam: identify the phrase in \"In spite of the rain, we went out.\"", "answer": "In spite of the rain — a prepositional phrase (no subject+verb of its own); 'we went out' is the main clause." },
+      { "id": "r03", "question": "Real exam: identify the clause in \"I know that he is coming.\"", "answer": "That he is coming — has its own subject ('he') and verb ('is coming'), making it a (noun) clause, functioning as the object of 'know'." },
+      { "id": "r04", "question": "Real exam: identify the phrase in \"On the table lay the keys.\"", "answer": "On the table — a prepositional phrase telling us WHERE, with no subject+verb of its own." },
+      { "id": "r05", "question": "Real exam: identify the clause in \"Because she was tired, she slept early.\"", "answer": "Because she was tired — has its own subject ('she') and verb ('was'), making it a (adverbial) clause giving the REASON." },
+      { "id": "r06", "question": "Real exam: which of these is a noun phrase — 'with great effort' / 'the tall girl' / 'because he ran' / 'if he comes'?", "answer": "The tall girl — a noun phrase (built around the noun 'girl', no subject+verb of its own); the others are a prepositional phrase and 2 clauses." },
+      { "id": "r07", "question": "Real exam: a dependent clause is also called a ____.", "answer": "Subordinate clause (it depends on/is attached to a main/independent clause and cannot stand alone as a complete sentence)." },
+      { "id": "r08", "question": "Real exam: which of these is an adjective clause — 'who was absent' / 'with much anger' / 'jumping quickly' / 'if you go'?", "answer": "Who was absent — an adjective clause (has subject 'who'/verb 'was', and describes/modifies a noun, e.g., 'The student who was absent...')." },
+      { "id": "r09", "question": "Real exam: is 'One who does not love one's country is a wretched person' a simple, compound, or complex sentence?", "answer": "Complex — it contains a relative/noun clause ('who does not love one's country') embedded within the main clause." },
+      { "id": "r10", "question": "Real exam: is the phrase 'A crown made of gold' a phrase or a clause, and what type?", "answer": "It is an ADJECTIVE PHRASE (describes the noun 'crown') — not a clause, since 'made of gold' has no subject+verb of its own (it's a reduced/participle phrase, not 'which is made of gold')." },
+      { "id": "r11", "question": "Real exam: combine \"I saw a Tiger. It was wounded\" into one sentence using a phrase/clause-combining technique.", "answer": "I saw a wounded Tiger — the second sentence's information is compressed into a single adjective ('wounded') modifying 'Tiger', avoiding a separate clause." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "A clause contains a subject and a ____.", "options": ["Verb", "Phrase", "Object", "Conjunction"], "correctIndex": 0, "explanation": "Verb.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "A phrase does not contain a ____.", "options": ["Subject", "Modifier", "Object", "Preposition"], "correctIndex": 0, "explanation": "Subject.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Identify the phrase: \"In spite of the rain, we went out.\"", "options": ["In spite of", "In spite of the rain", "We went out", "The rain"], "correctIndex": 1, "explanation": "In spite of the rain.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Identify the clause: \"I know that he is coming.\"", "options": ["I know", "That he is", "That he is coming", "He is coming"], "correctIndex": 2, "explanation": "That he is coming.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Identify the phrase: \"On the table lay the keys.\"", "options": ["Lay the keys", "The keys", "On the table", "Table lay"], "correctIndex": 2, "explanation": "On the table.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "Identify the clause: \"Because she was tired, she slept early.\"", "options": ["She slept", "Was tired", "She slept early", "Because she was tired"], "correctIndex": 3, "explanation": "Because she was tired.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Which is a noun phrase?", "options": ["With great effort", "The tall girl", "Because he ran", "If he comes"], "correctIndex": 1, "explanation": "The tall girl.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "A dependent clause is also called a ____.", "options": ["Complete sentence", "Subordinate clause", "Phrase", "Independent clause"], "correctIndex": 1, "explanation": "Subordinate clause.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "Which is an adjective clause?", "options": ["Who was absent", "With much anger", "Jumping quickly", "If you go"], "correctIndex": 0, "explanation": "Who was absent.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "\"One who does not love one's country is a wretched person.\" This is what type of sentence?", "options": ["Simple", "Compound", "Complex", "Imperative"], "correctIndex": 2, "explanation": "Complex (contains a relative/noun clause).", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m11", "prompt": "The phrase \"A crown made of gold\" is:", "options": ["An adjective phrase", "An adjective clause", "An adverbial phrase", "An adverbial clause"], "correctIndex": 0, "explanation": "An adjective phrase.", "sourceTag": "question-bank-2025", "difficulty": "hard" }
+    ]
+  }
+}

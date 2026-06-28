@@ -1,0 +1,24 @@
+{
+  "topicId": "a6-current-affairs-2",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN Culture & Heritage (2): New GI Tags",
+  "sourceRefs": [
+    { "type": "web-research", "label": "sanskritiias.com/shankariasparliament.com - Tamil Nadu's 5 new GI-tagged products (2025-26), national GI tag rankings" }
+  ],
+  "researchNotes": "This completes Part A's 2nd full current-affairs lap through all 6 units. GI (Geographical Indication) tags are a recurring TNPSC favourite topic since they combine TN-specific culture/craft heritage with a clean, countable, comparative fact (national rankings).",
+  "reading": {
+    "intro": "Covers Tamil Nadu's 5 newest Geographical Indication (GI) tag registrations and how the state ranks nationally — directly relevant to the 'Achievements of Tamil Nadu' and TN heritage clauses.",
+    "qa": [
+      { "id": "r01", "question": "What are the 5 new products that recently received GI tags in Tamil Nadu, and what is each?", "answer": "(1) Woraiyur cotton sari (native to Tiruchi district); (2) Kavindapadi nattu sakkarai (a traditional jaggery powder); (3) Namakkal makkal pathirangal (soapstone cookware); (4) Thooyamalli rice (a special traditional rice variety); (5) Ambasamudram choppu saman (handcrafted wooden toys/items)." },
+      { "id": "r02", "question": "With these 5 new additions, how many total GI-tagged products does Tamil Nadu now have, and how does this rank nationally?", "answer": "74 total GI-tagged products — ranking 2nd nationally, behind Uttar Pradesh (77) and ahead of Karnataka (around 45)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of these is one of Tamil Nadu's 5 newest GI-tagged products?", "options": ["Woraiyur cotton sari", "Kanchipuram silk sari", "Madurai Sungudi sari", "Coimbatore wet grinder"], "correctIndex": 0, "explanation": "Woraiyur cotton sari.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "\"Namakkal makkal pathirangal\", one of TN's new GI-tagged products, refers to:", "options": ["A jaggery powder", "Soapstone cookware", "A traditional rice variety", "Handcrafted wooden toys"], "correctIndex": 1, "explanation": "Soapstone cookware.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "With its 5 newest additions, how many total GI-tagged products does Tamil Nadu now have?", "options": ["45", "65", "74", "90"], "correctIndex": 2, "explanation": "74.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which state currently has the highest number of GI-tagged products in India, ahead of Tamil Nadu?", "options": ["Karnataka", "Kerala", "Uttar Pradesh", "West Bengal"], "correctIndex": 2, "explanation": "Uttar Pradesh (77).", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "topicId": "a4-current-affairs-11",
+  "unitId": "A-IV",
+  "name": "Current Affairs in Indian Polity (11): JPC on 'One Nation, One Election' Gets Extension to Monsoon 2026",
+  "sourceRefs": [
+    { "type": "web-research", "label": "newsonair.gov.in/manoramayearbook.in - Lok Sabha's mid-March 2026 extension of the JPC examining 'One Nation, One Election' bills, to Monsoon Session 2026" }
+  ],
+  "researchNotes": "Fourteenth Polity current-affairs topic (11th lap). 'One Nation, One Election' is core, frequently-tested Polity content — this topic anchors on the dated 2026 JPC extension while covering the underlying bills and committee composition.",
+  "reading": {
+    "intro": "Covers the 'One Nation, One Election' bills' Joint Parliamentary Committee (JPC) and its 2026 tenure extension.",
+    "qa": [
+      { "id": "r01", "question": "Which 2 bills is the JPC on 'One Nation, One Election' examining?", "answer": "The Constitution (129th Amendment) Bill, and the Union Territories Laws (Amendment) Bill — both aiming to synchronise national and state elections." },
+      { "id": "r02", "question": "When was the JPC constituted, and who chairs it?", "answer": "Constituted in December 2024 by Lok Sabha Speaker Om Birla; chaired by P.P. Chaudhary (BJP), a former Union Minister of State for Law and Justice." },
+      { "id": "r03", "question": "What is the JPC's total membership, and its composition across the 2 Houses?", "answer": "39 members total — 27 from the Lok Sabha and 12 from the Rajya Sabha." },
+      { "id": "r04", "question": "What extension did the Lok Sabha grant the JPC in March 2026, and by when must it now report?", "answer": "The JPC's tenure was extended (approved mid-March 2026) — it must now submit its report by the first day of the last week of the Monsoon Session 2026." },
+      { "id": "r05", "question": "What was the Lok Sabha's vote count when the 'One Nation, One Election' Bill was first introduced (17 December 2024)?", "answer": "269 members in favour, 198 opposed (a division vote)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The JPC on 'One Nation, One Election' examines the Constitution (129th Amendment) Bill and which other Bill?", "options": ["The Representation of People (Amendment) Bill", "The Union Territories Laws (Amendment) Bill", "The Election Commission (Reform) Bill", "The Delimitation Bill"], "correctIndex": 1, "explanation": "The Union Territories Laws (Amendment) Bill.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The JPC on 'One Nation, One Election' is chaired by:", "options": ["Om Birla", "P.P. Chaudhary", "Arjun Ram Meghwal", "Kiren Rijiju"], "correctIndex": 1, "explanation": "P.P. Chaudhary.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The JPC on 'One Nation, One Election' has a total membership of:", "options": ["31", "35", "39", "45"], "correctIndex": 2, "explanation": "39 members (27 Lok Sabha + 12 Rajya Sabha).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The JPC's report deadline was extended (mid-March 2026) to:", "options": ["Budget Session 2026", "Monsoon Session 2026", "Winter Session 2026", "Budget Session 2027"], "correctIndex": 1, "explanation": "Monsoon Session 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "When the 'One Nation, One Election' Bill was introduced in the Lok Sabha (17 December 2024), the division vote result was:", "options": ["269 in favour, 198 opposed", "300 in favour, 150 opposed", "220 in favour, 240 opposed", "350 in favour, 100 opposed"], "correctIndex": 0, "explanation": "269 in favour, 198 opposed.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

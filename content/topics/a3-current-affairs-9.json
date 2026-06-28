@@ -1,0 +1,28 @@
+{
+  "topicId": "a3-current-affairs-9",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (9): Lothal's First Major Excavation in 65 Years",
+  "sourceRefs": [
+    { "type": "web-research", "label": "lothal.org - Lothal excavation resumed March 2025 (first major dig since 1955-1962); gold particles, unicorn seal, and other 2025-26 discoveries" }
+  ],
+  "researchNotes": "Tenth History current-affairs topic (9th lap). Lothal — a core Harappan/Indus Valley site already well-known from the standard syllabus — gets a genuine current-affairs update via this renewed excavation, reinforcing core content rather than sitting apart from it.",
+  "reading": {
+    "intro": "Covers the renewed excavation at Lothal — the ancient Harappan port city famous for the world's oldest known dockyard — its first major dig in 65 years.",
+    "qa": [
+      { "id": "r01", "question": "When did active excavation resume at Lothal, and why is this notable?", "answer": "Active excavation began in March 2025 (orders issued January 2025) — the first MAJOR dig at the site in 65 years; the previous large-scale excavation was conducted between 1955-1962." },
+      { "id": "r02", "question": "What factors drove this renewed excavation effort?", "answer": "Modern technological advances enabling more precise analysis; previously unexplored areas from the original dig; the development of the National Maritime Heritage Complex project at the site; and a goal of creating 'live excavation alongside museum exhibitions' for visitors." },
+      { "id": "r03", "question": "What are some key discoveries from this 2025-26 excavation?", "answer": "Tiny gold particles (suggesting metalworking/trade activity); 3 seals, including one depicting a UNICORN; bone fragments and fish remains (otoliths); drill bits used for bead-making; brick structures including ramp flooring; and terracotta artifacts." },
+      { "id": "r04", "question": "What modern methods are being used in this excavation?", "answer": "Drone surveys, digital mapping, and carbon dating of approximately 30 samples — the site has been divided into 3 research zones (A, B, C), with over 50 local workers employed." },
+      { "id": "r05", "question": "What is Lothal famous for, in standard Indus Valley Civilization history?", "answer": "It is home to the world's oldest known dockyard — evidence of the Harappan civilization's advanced maritime trade infrastructure." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Active excavation resumed at Lothal in which month/year, marking the first major dig in 65 years?", "options": ["January 2024", "March 2025", "June 2025", "January 2026"], "correctIndex": 1, "explanation": "March 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The previous large-scale excavation at Lothal was conducted between:", "options": ["1945-1950", "1955-1962", "1965-1970", "1975-1980"], "correctIndex": 1, "explanation": "1955-1962.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Among the 2025-26 Lothal discoveries, one of the 3 seals found depicts which animal?", "options": ["A bull", "A unicorn", "An elephant", "A tiger"], "correctIndex": 1, "explanation": "A unicorn.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Lothal is historically famous for being home to:", "options": ["India's oldest temple", "The world's oldest known dockyard", "The first Harappan city discovered", "The largest Harappan granary"], "correctIndex": 1, "explanation": "The world's oldest known dockyard.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "What major heritage project is connected to Lothal's renewed excavation?", "options": ["The National Maritime Heritage Complex", "The Statue of Unity project", "The Char Dham Pariyojana", "UNESCO World Heritage nomination"], "correctIndex": 0, "explanation": "The National Maritime Heritage Complex.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

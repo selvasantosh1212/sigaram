@@ -1,0 +1,37 @@
+{
+  "topicId": "b1-percentage",
+  "unitId": "B-I",
+  "name": "Percentage",
+  "sourceRefs": [
+    { "type": "web-research", "label": "tnpscguru.in - TNPSC Aptitude Percentage Questions & Answers" },
+    { "type": "authored", "label": "standard percentage-of-percentage / successive-change / reverse-percentage drill patterns" }
+  ],
+  "researchNotes": "Grepped the OCR index for 'percent' — got 10 hits, but all were General Studies economy-statistics questions (Tamil Nadu GSDP/fiscal-deficit percentages), not the Aptitude math skill — expected, since arithmetic topics don't keyword-search well (the skill is in the numbers, not in topic-naming text). 8 real worked examples sourced from a TNPSC prep aggregator gave solid coverage of the common patterns (successive discounts, percentage of a mixture, reverse-percentage 'find x', percentage of a fraction, percentage of a time period). All 8 kept for reading since each tests a genuinely different pattern; mock test applies the same 8 patterns to fresh numbers plus 2 additional standard patterns (successive % increase, % change) common enough on real papers to include even without a direct sourced hit — tagged 'authored' rather than disguised as sourced.",
+  "reading": {
+    "intro": "Percentage is 1 of 10 named Aptitude sub-skills. TNPSC's percentage questions are built from a handful of recurring shapes — successive discounts, reverse percentage ('20% of x = 50, find x'), percentage of a mixture, and percentage of a time period — recognize the shape first, then compute.",
+    "qa": [
+      { "id": "r01", "question": "Method — successive percentage discounts: A TV was sold for ₹14,400 after successive discounts of 10% and 20%. What was its original (market) price?", "answer": "Successive discounts don't add (it's NOT a flat 30% off) — apply them one after another. If the market price is P: P × 0.90 × 0.80 = 14,400 → P × 0.72 = 14,400 → P = 14,400 / 0.72 = ₹20,000." },
+      { "id": "r02", "question": "Method — percentage of a mixture (the parts must add to 100%): An alloy is 30% copper and 40% zinc, rest nickel. Find the nickel in 20 kg of the alloy.", "answer": "Nickel % = 100 − 30 − 40 = 30%. Nickel amount = 30% of 20 kg = 6 kg. The key step is realizing the percentages must total 100% — nickel is whatever's left over, not a number given directly." },
+      { "id": "r03", "question": "Method — reverse percentage ('find the whole, given a percentage of it'): If 20% of x = 50, find x.", "answer": "20% of x = 50 → 0.20 × x = 50 → x = 50 / 0.20 = 250. Reverse-percentage questions give you the part and the percentage, and ask for the whole — divide, don't multiply." },
+      { "id": "r04", "question": "Method — percentage of a decimal/small number: Find 0.75% of 40 kg.", "answer": "0.75% = 0.0075. 0.0075 × 40 = 0.3 kg. Common mistake: treating '0.75%' as '0.75' (i.e. 75%) instead of converting the decimal percentage properly — always convert to a decimal fraction first (divide by 100) before multiplying." },
+      { "id": "r05", "question": "Method — percentage of a time period: What percentage of a day is 10 hours?", "answer": "A day = 24 hours. 10/24 × 100 = 41.67%." },
+      { "id": "r06", "question": "Method — percentage of a fraction: What percent of 2/7 is 1/35?", "answer": "Set up: x% of (2/7) = 1/35 → x/100 × 2/7 = 1/35 → x = (1/35) × (7/2) × 100 = (7/70) × 100 = 10%." },
+      { "id": "r07", "question": "Method — sum of two independent percentage-of-number terms: Find the value of 28% of 450 + 45% of 280.", "answer": "28% of 450 = 126. 45% of 280 = 126. Sum = 126 + 126 = 252. (A nice coincidence both terms equal 126 here — don't expect that in general, just add the two percentage values separately.)" },
+      { "id": "r08", "question": "Method — percentage greater than 100% (the result is bigger than the original number): Find 280% of 3,940.", "answer": "280% = 2.80. 2.80 × 3,940 = 11,032. Percentages over 100% just mean the result is larger than the base number — the calculation method doesn't change." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "A mobile phone was sold for ₹10,200 after successive discounts of 15% and 20%. What was its original price?", "options": ["₹14,500", "₹15,000", "₹15,500", "₹16,000"], "correctIndex": 1, "explanation": "P × 0.85 × 0.80 = 10,200 → P × 0.68 = 10,200 → P = 15,000.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m02", "prompt": "An alloy is 25% tin and 35% lead, the rest is copper. Find the copper in 40 kg of the alloy.", "options": ["10 kg", "14 kg", "16 kg", "20 kg"], "correctIndex": 2, "explanation": "Copper % = 100−25−35 = 40%. 40% of 40 kg = 16 kg.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m03", "prompt": "If 35% of y = 91, find y.", "options": ["230", "250", "260", "240"], "correctIndex": 2, "explanation": "y = 91 / 0.35 = 260.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Find 1.25% of 80 kg.", "options": ["1 kg", "10 kg", "0.1 kg", "12.5 kg"], "correctIndex": 0, "explanation": "1.25% = 0.0125. 0.0125 × 80 = 1 kg.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m05", "prompt": "What percentage of a day is 6 hours?", "options": ["20%", "25%", "30%", "16.67%"], "correctIndex": 1, "explanation": "6/24 × 100 = 25%.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m06", "prompt": "What percent of 3/8 is 3/40?", "options": ["10%", "15%", "20%", "12%"], "correctIndex": 2, "explanation": "x% of (3/8) = 3/40, so x/100 = (3/40) ÷ (3/8) = (3/40) × (8/3) = 1/5, giving x = 20%.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Find the value of 32% of 350 + 18% of 200.", "options": ["148", "138", "150", "146"], "correctIndex": 0, "explanation": "32% of 350 = 112. 18% of 200 = 36. Sum = 148.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Find 320% of 2,500.", "options": ["7,500", "8,000", "8,500", "9,000"], "correctIndex": 1, "explanation": "320% = 3.2. 3.2 × 2,500 = 8,000.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m09", "prompt": "A quantity is first increased by 20%, then decreased by 20%. What is the net percentage change?", "options": ["No change", "4% decrease", "4% increase", "20% decrease"], "correctIndex": 1, "explanation": "Net change after +20% then −20% is always a decrease of (20×20)/100 = 4% — increasing and then decreasing by the same percentage never cancels out, because the second change applies to a different (larger) base.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m10", "prompt": "The price of an item increases from ₹250 to ₹300. What is the percentage increase?", "options": ["15%", "20%", "25%", "30%"], "correctIndex": 1, "explanation": "Increase = 50. Percentage increase = (50/250) × 100 = 20%.", "sourceTag": "authored", "difficulty": "easy" }
+    ]
+  }
+}

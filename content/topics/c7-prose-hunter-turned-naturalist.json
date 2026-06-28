@@ -1,0 +1,33 @@
+{
+  "topicId": "c7-prose-hunter-turned-naturalist",
+  "unitId": "C-VII",
+  "name": "Prose: \"A Hunter Turned Naturalist\" — Jim Corbett",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set (6 questions); brainkart.com - Champawat Tiger details and National Park legacy" }
+  ],
+  "researchNotes": "OCR index search for 'hunter turned naturalist/jim corbett' returned zero hits — web research only. A biographical piece about Edward James (Jim) Corbett, who hunted man-eating tigers/leopards only at government request while genuinely admiring wildlife — distinct from sport hunting — and who later became a key figure in establishing India's first national park.",
+  "reading": {
+    "intro": "A biography of Jim Corbett — hunter, tracker, wildlife photographer, naturalist, and writer — who hunted man-eating tigers and leopards only at the Government's request to protect people, while genuinely admiring wildlife and refusing to hunt for sport.",
+    "qa": [
+      { "id": "r01", "question": "What was Jim Corbett famous for, and what was his dog's name?", "answer": "Wildlife photography and hunting. His dog's name was Robin." },
+      { "id": "r02", "question": "What kind of animals did Jim Corbett hunt, and under what circumstances?", "answer": "Man-eating tigers and leopards — and ONLY at the request of the Government, to help protect people, not for sport or pleasure." },
+      { "id": "r03", "question": "What was Corbett's attitude toward wildlife in general, despite being an expert hunter?", "answer": "He admired wildlife and did not like to kill wild animals for pleasure or sport — but he did not hesitate to kill specifically man-eating tigers or leopards when needed to protect human lives." },
+      { "id": "r04", "question": "According to Corbett, when does a tiger typically become a man-eater, and what happens once a tiger has eaten human flesh?", "answer": "A tiger typically becomes a man-eater when it gets OLD OR INJURED (and can no longer hunt its usual prey effectively). Once a tiger has eaten human flesh, it will NOT go back to eating other prey — it continues preying on humans." },
+      { "id": "r05", "question": "What was the Champawat Tiger, and what did Corbett's post-mortem reveal about it?", "answer": "A Bengal tigress responsible for nearly 436 deaths across Nepal and the Kumaon area of India, shot by Corbett in 1907. The post-mortem revealed her upper and lower canine teeth on the right side were broken — an old injury from a previous gunshot by another hunter who had failed to track and kill her, which likely impaired her ability to hunt normal prey and turned her toward man-eating." },
+      { "id": "r06", "question": "What is Jim Corbett's lasting legacy regarding India's national parks?", "answer": "He played a key role in establishing India's FIRST national park in the Kumaon Hills (originally named Hailey National Park, in the 1930s, in present-day Uttarakhand). It was renamed in 1957 as Jim Corbett National Park, in his honour. He died on 19 April 1955." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Jim Corbett was famous for:", "options": ["Architecture", "Politics", "Wildlife photography and hunting", "Sculpting"], "correctIndex": 2, "explanation": "Wildlife photography and hunting.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What kind of animals did Jim Corbett primarily hunt?", "options": ["All wild animals indiscriminately", "Only lions", "Man-eating tigers and leopards", "Elephants"], "correctIndex": 2, "explanation": "Man-eating tigers and leopards.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What was the name of Jim Corbett's dog?", "options": ["Tiger", "Robin", "Bullet", "Hunter"], "correctIndex": 1, "explanation": "Robin.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Jim Corbett hunted man-eating animals:", "options": ["For sport", "For fame", "At the Government's request", "For survival"], "correctIndex": 2, "explanation": "At the Government's request.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "According to Corbett, when does a tiger typically become a man-eater?", "options": ["When it gets angry", "When it's young", "When it gets old or injured", "When it lives alone"], "correctIndex": 2, "explanation": "When it gets old or injured.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What happens once a tiger has eaten human flesh, according to Corbett?", "options": ["It runs away permanently", "It dies soon after", "It will not go back to eating other prey", "It gets scared of humans"], "correctIndex": 2, "explanation": "It will not go back to eating other prey.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "The Champawat Tiger, shot by Corbett in 1907, was responsible for approximately how many deaths?", "options": ["100", "250", "436", "600"], "correctIndex": 2, "explanation": "436 deaths.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m08", "prompt": "What did the post-mortem reveal about the Champawat Tiger's old injury?", "options": ["A broken leg from a trap", "Broken canine teeth from a previous gunshot", "Blindness in one eye", "A poisoned wound"], "correctIndex": 1, "explanation": "Broken canine teeth from a previous gunshot.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Which national park, established with Jim Corbett's involvement, was later renamed in his honour (1957)?", "options": ["Hailey National Park (now Jim Corbett National Park)", "Gir National Park", "Kaziranga National Park", "Bandipur National Park"], "correctIndex": 0, "explanation": "Hailey National Park, renamed Jim Corbett National Park.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

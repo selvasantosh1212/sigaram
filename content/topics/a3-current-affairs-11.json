@@ -1,0 +1,28 @@
+{
+  "topicId": "a3-current-affairs-11",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (11): Vijayanagara-Era Inscriptions Found at Tirupati",
+  "sourceRefs": [
+    { "type": "web-research", "label": "organiser.org - 2 16th-century Vijayanagara inscriptions discovered in Tirupati's Seshachalam forest (announced 27 June 2026)" }
+  ],
+  "researchNotes": "Thirteenth History current-affairs topic (11th lap). The freshest finding used in this entire project — announced the same day as this topic's authoring (27 June 2026). Names Emperor Sadasiva Deva Raya, a real Vijayanagara ruler, giving this current-affairs item direct syllabus-relevant content (Vijayanagara Empire administration).",
+  "reading": {
+    "intro": "Covers the discovery of 2 Vijayanagara-era inscriptions in Tirupati, revealing 16th-century temple administration practices.",
+    "qa": [
+      { "id": "r01", "question": "Where were the 2 Vijayanagara-era inscriptions discovered, and when was this announced?", "answer": "In the Seshachalam forest region of Tirupati district — announced 27 June 2026, found during a heritage exploration and documentation exercise by researchers and epigraphists." },
+      { "id": "r02", "question": "Which Vijayanagara Emperor is named in the inscriptions, and what do they document about his reign?", "answer": "Emperor Sadasiva Deva Raya (mid-16th century) — the inscriptions document land grants issued during his reign for the maintenance of religious activities at the Parashurameswara Mandir in Gudimallam village." },
+      { "id": "r03", "question": "What is significant about the Parashurameswara Temple at Gudimallam itself?", "answer": "It is renowned for housing one of the OLDEST known Shiva lingas in India — the new inscriptions show the temple continued receiving state patronage centuries after its original foundation, well into the Vijayanagara period." },
+      { "id": "r04", "question": "What do the inscriptions reveal about Vijayanagara governance structures?", "answer": "That land grants required careful documentation, surveying, and administrative oversight — illustrating how imperial authority extended into local communities through networks of officials, village institutions, and temple (Mandir) administrations." },
+      { "id": "r05", "question": "What was the practical purpose of the land grants described in the inscriptions?", "answer": "They provided income through agricultural production to support the temple's daily rituals, offerings, and maintenance." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The 2 newly discovered Vijayanagara-era inscriptions were found in which forest region?", "options": ["Seshachalam forest, Tirupati", "Mudumalai forest", "Anamalai forest", "Kalakad forest"], "correctIndex": 0, "explanation": "Seshachalam forest, Tirupati district.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which Vijayanagara Emperor is named in these inscriptions?", "options": ["Krishnadeva Raya", "Achyuta Deva Raya", "Sadasiva Deva Raya", "Venkata II"], "correctIndex": 2, "explanation": "Sadasiva Deva Raya.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The inscriptions document land grants for which temple?", "options": ["Tirumala Venkateswara Temple", "Parashurameswara Mandir, Gudimallam", "Brihadeeswarar Temple", "Meenakshi Amman Temple"], "correctIndex": 1, "explanation": "Parashurameswara Mandir, Gudimallam.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Parashurameswara Temple at Gudimallam is renowned for housing:", "options": ["India's largest Nandi statue", "One of the oldest known Shiva lingas in India", "The first Vijayanagara-built gopuram", "A unique solar calendar inscription"], "correctIndex": 1, "explanation": "One of the oldest known Shiva lingas in India.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What practical purpose did the land grants described in the inscriptions serve?", "options": ["Funding military campaigns", "Providing agricultural income to support temple rituals, offerings, and maintenance", "Paying off war debts", "Building new forts"], "correctIndex": 1, "explanation": "Providing agricultural income for temple rituals, offerings, and maintenance.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

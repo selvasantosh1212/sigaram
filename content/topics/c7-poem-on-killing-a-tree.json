@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-poem-on-killing-a-tree",
+  "unitId": "C-VII",
+  "name": "Poem: \"On Killing a Tree\" — Gieve Patel",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - MCQ set (figures of speech per line; one item discarded as mismatched site content)" },
+    { "type": "web-research", "label": "educsector.com - summary and deeper-meaning analysis" }
+  ],
+  "researchNotes": "OCR index search for 'killing a tree'/'gieve patel' returned zero hits — web research only. One sourced 'question' was discarded outright: the source page's Q1 quoted Robert Frost's 'Stopping by Woods' stanza under this poem's heading, a clear site content-mixing error — caught by recognizing the quoted lines didn't match this poem at all, not used. The remaining 5 questions are genuinely about this poem and were kept.",
+  "reading": {
+    "intro": "A poem arguing that truly killing a tree takes far more than a single cut — it requires destroying its root, the hidden source of its life. Real coaching-site evidence (after discarding one mismatched/wrong-poem question found on the source page) tests figure-of-speech identification on specific lines.",
+    "qa": [
+      { "id": "r01", "question": "What is the poem's central argument?", "answer": "It takes much more effort to truly kill a tree than a single jab or cut. The tree has grown slowly, absorbing years of sunlight, air, and water — cutting and bruising it isn't enough, since it will heal and grow again. The root, hidden underground, must be exposed and fully destroyed for the tree to actually die." },
+      { "id": "r02", "question": "What is the deeper/metaphorical meaning some readings draw from the poem?", "answer": "The poem can be read as being about confronting deep-seated feelings or habits — superficial treatment (a quick cut) doesn't resolve something with deep roots; only fully exposing and addressing the root cause truly 'kills' it." },
+      { "id": "r03", "question": "Identify the figure of speech: \"It has grown / Slowly consuming the earth.\"", "answer": "Personification — the tree is given the active, almost intentional action of 'consuming' the earth, as though it were a living agent in pursuit of nourishment." },
+      { "id": "r04", "question": "Identify the figure of speech: \"leperous hide\" (describing the tree's bark).", "answer": "Metaphor — the bark is directly described as 'leperous hide' (skin), without 'like/as', comparing its rough, scarred texture to a disease-marked skin." },
+      { "id": "r05", "question": "Identify the figure of speech: \"The bleeding bark will heal.\"", "answer": "Personification — the bark is described as capable of 'bleeding' and 'healing', human/animal-like properties applied to plant tissue." },
+      { "id": "r06", "question": "Identify the figure of speech: \"It is to be roped, tied, / And pulled out — snapped out / Or pulled out entirely.\"", "answer": "Repetition — 'pulled out' is repeated, emphasizing the forceful, thorough effort needed to fully remove the root." },
+      { "id": "r07", "question": "Identify the figure of speech: \"Out of the anchoring earth.\"", "answer": "Metaphor — the earth is described as 'anchoring', directly likening it to an anchor holding the root in place, without 'like/as'." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "According to the poem, what is required to TRULY kill a tree (not just cut it)?", "options": ["Burning its leaves", "A single deep cut", "Exposing and destroying its root", "Removing its fruit"], "correctIndex": 2, "explanation": "The root, hidden underground, must be exposed and destroyed — a cut alone allows the tree to heal and regrow.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "\"It has grown / Slowly consuming the earth\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Hyperbole"], "correctIndex": 2, "explanation": "Personification — the tree given the active action of 'consuming'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"Leperous hide\" describing the tree's bark is an example of:", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 1, "explanation": "Metaphor — bark directly described as diseased skin.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"The bleeding bark will heal\" uses which figure of speech?", "options": ["Metaphor", "Hyperbole", "Personification", "Simile"], "correctIndex": 2, "explanation": "Personification — bark given the ability to 'bleed' and 'heal'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The repeated phrase \"pulled out\" in the lines about the root is an example of:", "options": ["Anaphora", "Epistrophe", "Repetition", "Alliteration"], "correctIndex": 2, "explanation": "Repetition — emphasizing the forceful effort needed.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Out of the anchoring earth\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 1, "explanation": "Metaphor — earth described directly as 'anchoring'.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

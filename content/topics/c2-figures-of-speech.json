@@ -1,0 +1,34 @@
+{
+  "topicId": "c2-figures-of-speech",
+  "unitId": "C-II",
+  "name": "Vocabulary: Figures of Speech",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 18, 25 (simile/imagery identification, with answer key)" },
+    { "type": "question-bank", "label": "2022_q page 10, 17 (repetition vs anaphora; imagery, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 78 (alliteration, simile, metaphor identification, with answer key)" },
+    { "type": "question-bank", "label": "2017_q page 8 (metaphor; geographical allusion, with answer key)" }
+  ],
+  "researchNotes": "Sixth Vocabulary topic — an exceptionally dense research session (10+ source pages found) confirms Figures of Speech is heavily tested, consistent with how often this skill was ALSO tested throughout Part C Unit VII's poems (already authored). This topic deliberately focuses on STANDALONE vocabulary-style figure-of-speech questions (not tied to a specific syllabus poem), complementing rather than repeating the poem-specific figure-of-speech facts already shipped in Unit VII topics.",
+  "reading": {
+    "intro": "Covers the most commonly tested figures of speech via real exam example sentences — simile, metaphor, imagery, alliteration, repetition vs. anaphora, and allusion.",
+    "qa": [
+      { "id": "r01", "question": "What is the key difference between a SIMILE and a METAPHOR, and what are some real exam examples of each?", "answer": "A SIMILE compares two things explicitly using 'like', 'as', or 'than' (e.g., \"Life is like a pathless wood\"; \"run as fast as the wind\"; \"faster than a cheetah... bigger than a mountain\"; \"the bus is slow as a snail\"). A METAPHOR compares two things DIRECTLY, without 'like/as' (e.g., \"His words are pearls of wisdom\" — his words ARE described as pearls, not 'like' pearls)." },
+      { "id": "r02", "question": "Real exam: \"That hears the sweetest music and finds the finest mirth\" — which figure of speech is this?", "answer": "IMAGERY — vivid, sensory descriptive language that creates a mental picture/sensation for the reader, without necessarily being a direct comparison (simile/metaphor)." },
+      { "id": "r03", "question": "What is the difference between REPETITION and ANAPHORA, with real exam examples?", "answer": "REPETITION is simply repeating a word or phrase anywhere in a passage for emphasis (e.g., \"'Oh, no, no,' said the little fly\" — repeating 'no'). ANAPHORA is the more SPECIFIC repetition of a word/phrase at the START of successive clauses or lines (a particular, structured type of repetition)." },
+      { "id": "r04", "question": "Real exam: \"And I Sunned it with smiles\" — identify the alliteration in this line.", "answer": "\"Sunned — smile\" — both words begin with the same 's' consonant SOUND (alliteration is about repeated initial SOUNDS, not just letters)." },
+      { "id": "r05", "question": "What is an ALLUSION, and what type is used in \"On the day of Sicilian July, with Etna Smoking\"?", "answer": "An allusion is a brief reference to a real person, place, event, or work, without explicitly explaining it — assuming the reader will recognise it. \"Etna Smoking\" refers to Mount Etna, a real active volcano in Sicily — confirmed as a GEOGRAPHICAL allusion by a real exam question (as opposed to cultural, biblical, or political allusions)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Life is compared to a pathless wood with the word 'like'.\" What figure of speech is this?", "options": ["Metaphor", "Simile", "Personification", "Hyperbole"], "correctIndex": 1, "explanation": "Simile.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which of the following is a METAPHOR (not a simile)?", "options": ["Life is like a chocolate box", "Raj is like his twin brother", "His words are pearls of wisdom", "The bus is slow as a snail"], "correctIndex": 2, "explanation": "\"His words are pearls of wisdom\" — direct comparison, no like/as.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"To win, run as fast as the wind.\" Identify the figure of speech.", "options": ["Personification", "Metaphor", "Simile", "Anaphora"], "correctIndex": 2, "explanation": "Simile (\"as fast as\").", "sourceTag": "question-bank-2024", "difficulty": "easy" },
+      { "id": "m04", "prompt": "\"That hears the sweetest music and finds the finest mirth.\" Identify the figure of speech.", "options": ["Metaphor", "Personification", "Imagery", "Onomatopoeia"], "correctIndex": 2, "explanation": "Imagery.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"'Oh, no, no,' said the little fly.\" What figure of speech is here?", "options": ["Assonance", "Alliteration", "Anaphora", "Repetition"], "correctIndex": 3, "explanation": "Repetition.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"And I Sunned it with smiles.\" Identify the alliteration in the line.", "options": ["I — it", "Sunned — smiles", "And — with", "Sunned — with"], "correctIndex": 1, "explanation": "Sunned — smiles.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m07", "prompt": "\"On the day of Sicilian July, with Etna Smoking.\" What type of allusion is used here?", "options": ["Cultural allusion", "Biblical allusion", "Geographical allusion", "Political allusion"], "correctIndex": 2, "explanation": "Geographical allusion (Mount Etna, Sicily).", "sourceTag": "question-bank-2017", "difficulty": "hard" },
+      { "id": "m08", "prompt": "\"Faster than a cheetah, with a tail that's miles long, bigger than a mountain, so powerful and strong.\" Identify the figure of speech.", "options": ["Imagery", "Anaphora", "Consonance", "Simile"], "correctIndex": 3, "explanation": "Simile (comparative 'than').", "sourceTag": "question-bank-2025", "difficulty": "medium" }
+    ]
+  }
+}

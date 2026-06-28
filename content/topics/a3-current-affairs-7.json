@@ -1,0 +1,28 @@
+{
+  "topicId": "a3-current-affairs-7",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (7): Somnath Temple's 1,000-Year Amrut Mahotsav",
+  "sourceRefs": [
+    { "type": "web-research", "label": "pmindia.gov.in/indiatvnews.com - Somnath Amrut Mahotsav (marking 1,000 years since the temple's first invasion); ₹75 commemorative coin (gazette notification, 8 May 2026)" }
+  ],
+  "researchNotes": "Seventh History current-affairs topic (7th lap). A rich combination of medieval Indian history (multiple invasions), the post-Independence reconstruction effort (Sardar Patel, Dr. Rajendra Prasad), and a genuinely dated 2026 commemorative event/coin — exactly the kind of current-affairs item that reinforces core syllabus content rather than sitting disconnected from it.",
+  "reading": {
+    "intro": "Covers the Somnath Amrut Mahotsav (2026), marking 1,000 years since the temple's first recorded invasion, and the historical figures behind its modern reconstruction.",
+    "qa": [
+      { "id": "r01", "question": "What milestone did the 'Somnath Amrut Mahotsav' (2026) commemorate?", "answer": "1,000 years since the Somnath Temple's first invasion, by Mahmud of Ghazni in 1026 CE." },
+      { "id": "r02", "question": "What is Somnath Temple's religious significance?", "answer": "It is considered the FIRST among the 12 Jyotirlingas of Lord Shiva." },
+      { "id": "r03", "question": "Name some historical figures/invasions associated with Somnath Temple's repeated destruction and reconstruction.", "answer": "Invasions: 1026 CE (Mahmud of Ghazni), 1311, 1326, 1395, 1451 CE, and a destruction order by Aurangzeb in the 17th century. Reconstruction figures: King Kumarapala, Ahilyabai Holkar, and (in modern India) Sardar Vallabhbhai Patel." },
+      { "id": "r04", "question": "When was the temple reconsecrated in independent India, and by whom?", "answer": "1951, by Dr. Rajendra Prasad, India's first President — Somnath was the very first temple reconstructed in free India." },
+      { "id": "r05", "question": "What commemorative coin was released in 2026 to mark this 1,000-year milestone, and what are its specifications?", "answer": "A ₹75 commemorative coin (gazette notification dated 8 May 2026) — composition: pure silver (99.9%), weight 40 grams, diameter 44 mm, with 200 serrations along the edge. Released by PM Narendra Modi at Veraval, Gujarat, along with a commemorative postal stamp." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Somnath Amrut Mahotsav (2026) marked 1,000 years since the temple's first invasion by:", "options": ["Muhammad bin Qasim", "Mahmud of Ghazni", "Muhammad of Ghor", "Timur"], "correctIndex": 1, "explanation": "Mahmud of Ghazni (1026 CE).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Somnath Temple is considered which Jyotirlinga among the 12 Jyotirlingas of Lord Shiva?", "options": ["The first", "The fifth", "The seventh", "The twelfth"], "correctIndex": 0, "explanation": "The first.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Somnath Temple was reconsecrated in independent India in 1951 by:", "options": ["Jawaharlal Nehru", "Dr. Rajendra Prasad", "Sardar Vallabhbhai Patel", "C. Rajagopalachari"], "correctIndex": 1, "explanation": "Dr. Rajendra Prasad, India's first President.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which freedom-movement leader played a key role in Somnath Temple's modern reconstruction effort?", "options": ["Subhas Chandra Bose", "Bal Gangadhar Tilak", "Sardar Vallabhbhai Patel", "Lala Lajpat Rai"], "correctIndex": 2, "explanation": "Sardar Vallabhbhai Patel.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The ₹75 commemorative coin marking Somnath's 1,000-year milestone (gazette notification 8 May 2026) is made of:", "options": ["Pure gold (99.9%)", "Pure silver (99.9%)", "Bronze", "Copper-nickel alloy"], "correctIndex": 1, "explanation": "Pure silver (99.9%), 40 grams, 44mm diameter.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

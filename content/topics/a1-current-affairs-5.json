@@ -1,0 +1,28 @@
+{
+  "topicId": "a1-current-affairs-5",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (5): Kalpakkam's Fast Breeder Reactor & Chandrayaan-2's Lunar Ice Evidence",
+  "sourceRefs": [
+    { "type": "web-research", "label": "dae.gov.in/pib.gov.in - PFBR at Kalpakkam, TN, attains first criticality (6 April 2026); npj Space Exploration study (6 May 2026) - Chandrayaan-2 lunar water-ice evidence" }
+  ],
+  "researchNotes": "Fifth Science current-affairs topic, opening Part A's 5th rotation lap. The PFBR fact is an excellent Science-meets-TN bridge (India's first indigenous fast breeder reactor is located at Kalpakkam, TN) and ties into India's 3-stage nuclear programme (Homi Bhabha's vision) — solid textbook-adjacent context for a current-affairs item.",
+  "reading": {
+    "intro": "Covers 2 major 2026 science milestones: India's nuclear energy programme advancing at Kalpakkam, Tamil Nadu, and new lunar water-ice evidence from Chandrayaan-2 data.",
+    "qa": [
+      { "id": "r01", "question": "What nuclear milestone did India achieve on 6 April 2026, and where?", "answer": "The 500 MWe Prototype Fast Breeder Reactor (PFBR) attained FIRST CRITICALITY (start of its controlled fission chain reaction) at Kalpakkam, Tamil Nadu — India's first indigenous sodium-cooled fast breeder reactor." },
+      { "id": "r02", "question": "Which organisations designed and built the PFBR?", "answer": "Design: Indira Gandhi Centre for Atomic Research (IGCAR). Built & commissioned by: Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)." },
+      { "id": "r03", "question": "What fuel does the PFBR use, and what is its core breeding principle?", "answer": "Uranium-Plutonium Mixed Oxide (MOX) fuel, with the core surrounded by a blanket of Uranium-238. Fast neutrons convert the fertile U-238 into fissile Plutonium-239 — meaning the reactor produces MORE fuel than it consumes (hence 'breeder')." },
+      { "id": "r04", "question": "What strategic significance does the PFBR's criticality have for India's nuclear programme?", "answer": "It marks India's official entry into the SECOND stage of its three-stage nuclear power programme — a vision first conceived by Dr. Homi Jehangir Bhabha." },
+      { "id": "r05", "question": "What new lunar discovery was reported on 6 May 2026, based on Chandrayaan-2 data?", "answer": "A study (in npj Space Exploration) using radar data from India's Chandrayaan-2 orbiter reported strong evidence for SUBSURFACE WATER ICE in 4 doubly-shadowed craters near the Moon's south pole." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "India's Prototype Fast Breeder Reactor (PFBR) attained first criticality on 6 April 2026 at:", "options": ["Tarapur, Maharashtra", "Kalpakkam, Tamil Nadu", "Kudankulam, Tamil Nadu", "Kakrapar, Gujarat"], "correctIndex": 1, "explanation": "Kalpakkam, Tamil Nadu.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The PFBR was designed by which organisation?", "options": ["BARC (Bhabha Atomic Research Centre)", "IGCAR (Indira Gandhi Centre for Atomic Research)", "NPCIL", "ISRO"], "correctIndex": 1, "explanation": "Indira Gandhi Centre for Atomic Research (IGCAR).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "The PFBR is called a 'breeder' reactor because:", "options": ["It runs on solar power as backup", "It produces more fuel than it consumes (converting U-238 to Pu-239)", "It breeds new reactor designs", "It only uses natural uranium"], "correctIndex": 1, "explanation": "It produces more fuel than it consumes.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The PFBR's criticality marks India's entry into which stage of its 3-stage nuclear power programme?", "options": ["First stage", "Second stage", "Third stage", "Final stage"], "correctIndex": 1, "explanation": "Second stage.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "A May 2026 study using radar data from which Indian spacecraft reported strong evidence for subsurface water ice near the Moon's south pole?", "options": ["Chandrayaan-1", "Chandrayaan-2", "Chandrayaan-3", "Mangalyaan"], "correctIndex": 1, "explanation": "Chandrayaan-2.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "topicId": "a3-communalism-partition",
+  "unitId": "A-III",
+  "name": "Communalism and Partition",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 35 Q53 (Muslim League founder, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 27 Q36 (Lahore/Pakistan Resolution date, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 56 Q179-180 (Partition of Bengal 1905 facts; Second Round Table Conference, with answer key)" },
+    { "type": "web-research", "label": "Direct Action Day, Mountbatten Plan, Radcliffe Line, Partition casualties/displacement — standard well-established history" }
+  ],
+  "researchNotes": "9th topic of Unit III. 3 real hits across 2022/2024 spanning both the 1905 Bengal Partition and the 1940s lead-up to 1947 Partition. Rounded out with standard Partition-of-India facts (Direct Action Day, Mountbatten Plan, Radcliffe Line) since no direct past-paper hit was found for those specific 1947-era events.",
+  "reading": {
+    "intro": "This topic spans TWO partitions — the 1905 Partition of Bengal (later reversed) and the 1947 Partition of India (permanent) — plus the communal organizations/events that bridge them. Real exam evidence favors specific founding dates and named resolutions.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Who founded the All-India Muslim League, in 1906?", "answer": "Khwaja Salimullah (along with other founders) — not Muhammad Ali Jinnah, who became its most prominent leader LATER, not at its founding." },
+      { "id": "r02", "question": "Real exam: Evaluate — (i) the 1905 Partition of Bengal was the most striking example of British divide-and-rule policy (ii) at a 1905 Calcutta meeting, Surendranath Banerjee called for a boycott of British goods and institutions (iii) the Swadeshi movement was formally proclaimed at a Calcutta Town Hall meeting on 7 August 1905.", "answer": "All three statements are correct." },
+      { "id": "r03", "question": "Real exam: When was the Pakistan Resolution (Lahore Resolution) passed by the All India Muslim League, and where?", "answer": "23 March 1940, at its Lahore session." },
+      { "id": "r04", "question": "What was 'Direct Action Day', and what did it lead to?", "answer": "16 August 1946 — a Muslim League call for mass demonstrations, which spiralled into large-scale communal riots in Bengal and elsewhere, remembered as the 'Great Calcutta Killing'." },
+      { "id": "r05", "question": "What was the Mountbatten Plan, and when was it announced?", "answer": "Announced 3 June 1947 (the '3rd June Plan') by Lord Mountbatten, the last Viceroy — the proposal to partition British India into the two independent dominions of India and Pakistan." },
+      { "id": "r06", "question": "Who drew the boundary line between India and Pakistan, and what is it called?", "answer": "Sir Cyril Radcliffe — hence the 'Radcliffe Line', criticized for its rushed, arbitrary demarcation that left millions on the 'wrong' side of the new border." },
+      { "id": "r07", "question": "What was the human scale of Partition's impact?", "answer": "Death toll estimates range from 200,000 to 2,000,000; roughly 15 million Hindus, Sikhs, and Muslims were displaced crossing the hastily drawn borders — one of history's largest mass migrations." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The All-India Muslim League was founded in 1906 by:", "options": ["Muhammad Ali Jinnah", "Khwaja Salimullah", "Sir Aga Khan", "A.K. Faizul Haq"], "correctIndex": 1, "explanation": "Khwaja Salimullah — Jinnah became prominent later, not at founding.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m02", "prompt": "The Swadeshi movement was formally proclaimed at a Calcutta Town Hall meeting on:", "options": ["7 August 1905", "16 August 1946", "3 June 1947", "23 March 1940"], "correctIndex": 0, "explanation": "7 August 1905.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Pakistan (Lahore) Resolution was passed by the Muslim League on:", "options": ["March 5, 1933", "August 5, 1933", "March 23, 1940", "March 22, 1941"], "correctIndex": 2, "explanation": "23 March 1940.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m04", "prompt": "'Direct Action Day' (16 August 1946) led to communal violence remembered as the:", "options": ["Jallianwala Bagh Massacre", "Great Calcutta Killing", "Chauri Chaura Incident", "Amritsar Riots"], "correctIndex": 1, "explanation": "The Great Calcutta Killing.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The Mountbatten Plan, proposing the partition of British India, was announced on:", "options": ["15 August 1947", "3 June 1947", "26 January 1947", "14 August 1946"], "correctIndex": 1, "explanation": "3 June 1947.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The boundary line between India and Pakistan, drawn by Sir Cyril Radcliffe, is known as the:", "options": ["McMahon Line", "Radcliffe Line", "Durand Line", "Curzon Line"], "correctIndex": 1, "explanation": "The Radcliffe Line.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

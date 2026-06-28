@@ -1,0 +1,28 @@
+{
+  "topicId": "a1-current-affairs-8",
+  "unitId": "A-I",
+  "name": "Current Affairs in General Science (8): India's Renewable Energy Capacity Milestones (2026)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "pib.gov.in/pv-magazine.com - India's 288 GW renewable capacity (3rd globally, 31 March 2026); 150+ GW solar milestone; domestic solar manufacturing growth" }
+  ],
+  "researchNotes": "Eighth Science current-affairs topic, opening Part A's 8th rotation lap. Used 'as of [specific date]' framing throughout to handle the inherently fast-moving nature of capacity-addition figures, rather than presenting a single number as a permanently fixed fact.",
+  "reading": {
+    "intro": "Covers India's renewable energy capacity milestones as of early-to-mid 2026.",
+    "qa": [
+      { "id": "r01", "question": "What is India's total renewable energy capacity as of 31 March 2026, and what is its global ranking?", "answer": "288 GW — making India the world's THIRD-LARGEST renewable energy nation." },
+      { "id": "r02", "question": "How is India's renewable energy capacity split by source (as of 31 March 2026)?", "answer": "Solar ~55%, Wind ~20%, Large Hydro ~19%, Biomass ~4%, Small Hydro ~2%." },
+      { "id": "r03", "question": "What solar capacity milestone did India cross by 31 March 2026, and how did it grow by end-May 2026?", "answer": "150.26 GW by 31 March 2026; grew further to approximately 157.05 GW by end of May 2026." },
+      { "id": "r04", "question": "How much solar capacity did India add in FY2026, and what was the year-on-year growth rate?", "answer": "About 44.6 GW added in FY2026 — an 87.2% year-on-year increase in solar installations." },
+      { "id": "r05", "question": "How has India's domestic solar MODULE manufacturing capacity grown, as of 31 March 2026?", "answer": "From 2.3 GW to 172 GW — a dramatic increase in domestic manufacturing capability, not just installed capacity." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "As of 31 March 2026, India's total renewable energy capacity (288 GW) ranks it as the world's:", "options": ["Largest", "2nd largest", "3rd largest", "5th largest"], "correctIndex": 2, "explanation": "3rd largest renewable energy nation.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which source contributes the largest share of India's renewable energy capacity (as of 31 March 2026)?", "options": ["Wind", "Solar", "Large Hydro", "Biomass"], "correctIndex": 1, "explanation": "Solar (~55%).", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "India's cumulative installed solar capacity crossed 150 GW by:", "options": ["31 December 2025", "31 January 2026", "31 March 2026", "31 May 2026"], "correctIndex": 2, "explanation": "31 March 2026 (150.26 GW).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "India added approximately how much solar capacity in FY2026?", "options": ["24.6 GW", "34.6 GW", "44.6 GW", "54.6 GW"], "correctIndex": 2, "explanation": "44.6 GW (87.2% YoY growth).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "India's domestic solar module manufacturing capacity grew from 2.3 GW to approximately how much (as of 31 March 2026)?", "options": ["72 GW", "122 GW", "172 GW", "222 GW"], "correctIndex": 2, "explanation": "172 GW.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

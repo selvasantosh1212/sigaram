@@ -1,0 +1,28 @@
+{
+  "topicId": "a2-current-affairs-6",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography of India (6): Forest Cover Data & the State of India's Environment 2026 Report",
+  "sourceRefs": [
+    { "type": "web-research", "label": "downtoearth.org.in - Parliament reply (9 Feb 2026) on mega-city forest cover; CSE's State of India's Environment 2026 report; India State of Forest Report (ISFR) 2023 figures" }
+  ],
+  "researchNotes": "Sixth Geography current-affairs topic, opening Part A's 6th rotation lap. Combines a dated Parliament reply with stable ISFR 2023 baseline figures (forest cover statistics revise only every 2 years via the official Forest Survey of India report, making them far more stable than monthly economic statistics).",
+  "reading": {
+    "intro": "Covers India's official forest-cover statistics (ISFR 2023) and a dated 2026 Parliament reply on mega-city forest cover trends.",
+    "qa": [
+      { "id": "r01", "question": "What is India's total forest and tree cover (% of geographical area), per the India State of Forest Report (ISFR) 2023, and how does this compare to 2021?", "answer": "25.17% of India's geographical area — up from 24.62% in the 2021 assessment." },
+      { "id": "r02", "question": "Which state has the largest forest cover by area, and which Union Territory has the highest forest-cover PERCENTAGE relative to its own area?", "answer": "Madhya Pradesh has the largest forest cover by area (77,073 sq km). Lakshadweep has the highest forest-cover percentage (91.33%) relative to its own geographical area." },
+      { "id": "r03", "question": "What did a Parliament reply on 9 February 2026 report about forest cover in India's mega cities?", "answer": "Forest cover in India's mega cities increased by 2.09 sq km since 2021." },
+      { "id": "r04", "question": "What is India's total mangrove cover, and total forest carbon stock, per recent data?", "answer": "Mangrove cover: 4,992 sq km. Forest carbon stock: 30.43 billion tonnes of CO2 equivalent." },
+      { "id": "r05", "question": "What is the 'State of India's Environment' report, and who publishes it?", "answer": "An annual environmental report covering climate change, extreme weather events, and biodiversity — published by the Centre for Science and Environment (CSE) and Down To Earth; the 2026 edition was released this year." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Per ISFR 2023, India's total forest and tree cover is what percentage of its geographical area?", "options": ["21.17%", "23.17%", "25.17%", "27.17%"], "correctIndex": 2, "explanation": "25.17%.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Which state has India's largest forest cover by area?", "options": ["Arunachal Pradesh", "Madhya Pradesh", "Chhattisgarh", "Odisha"], "correctIndex": 1, "explanation": "Madhya Pradesh (77,073 sq km).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which Union Territory has the highest forest-cover percentage relative to its own area?", "options": ["Andaman & Nicobar Islands", "Lakshadweep", "Puducherry", "Daman & Diu"], "correctIndex": 1, "explanation": "Lakshadweep (91.33%).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Per a Parliament reply (9 Feb 2026), forest cover in India's mega cities increased by how much since 2021?", "options": ["1.09 sq km", "2.09 sq km", "5.09 sq km", "10.09 sq km"], "correctIndex": 1, "explanation": "2.09 sq km.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "India's total mangrove cover is approximately:", "options": ["2,992 sq km", "3,992 sq km", "4,992 sq km", "5,992 sq km"], "correctIndex": 2, "explanation": "4,992 sq km.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

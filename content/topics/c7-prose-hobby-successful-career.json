@@ -1,0 +1,36 @@
+{
+  "topicId": "c7-prose-hobby-successful-career",
+  "unitId": "C-VII",
+  "name": "Prose: \"Hobby — Turns A Successful Career\"",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total) on Mani's story, Group 2/2A specific" },
+    { "type": "web-research", "label": "brainkart.com - Ajay Kumar Garg's story (the second profile in this multi-part lesson)" }
+  ],
+  "researchNotes": "OCR index search for 'hobby/successful career' returned zero hits — web research only. Like 'Tech Bloomers', this is a MULTI-PART lesson profiling more than one person's hobby-to-career journey: Mani (a village-school boy whose hobby is writing/storytelling) is the most heavily tested in available real-style MCQs (12 questions), while Ajay Kumar Garg (a deaf painter honoured by President Abdul Kalam) is a second profile confirmed via independent summary sources but without a located dedicated MCQ set — flagged with lower confidence accordingly.",
+  "reading": {
+    "intro": "A multi-part lesson illustrating how a childhood hobby can grow into a fulfilling career, told through (at least) two real-style profiles: Mani, a village-school boy whose love of storytelling becomes a writing hobby, and Ajay Kumar Garg, who turned to painting after becoming deaf in childhood and was later honoured by the President of India.",
+    "qa": [
+      { "id": "r01", "question": "Who is Mani, where did he study, and who first told him bedtime stories?", "answer": "Mani is the central boy in this story, who studied at a VILLAGE SCHOOL. His GRANDFATHER told him bedtime stories, which is where his love of stories began." },
+      { "id": "r02", "question": "What did Mani gradually begin to enjoy, and what hobby did he go on to develop from it?", "answer": "He gradually began to enjoy READING. From there, he developed WRITING as his hobby." },
+      { "id": "r03", "question": "What does Mani compare writing to, and what kind of world does he imagine through it?", "answer": "He compares writing to 'painting voice' (a poetic description of expressing oneself through words rather than images). Through writing, he imagines a world with magic and talking birds." },
+      { "id": "r04", "question": "How does Mani entertain children, and what does writing help him do?", "answer": "He entertains children with HIS STORIES. Writing helps him to IMAGINE AND CREATE." },
+      { "id": "r05", "question": "According to the text, when are hobbies typically pursued, and what do they help do for a person?", "answer": "Hobbies are pursued in one's FREE TIME, and they help ENERGISE the body and mind." },
+      { "id": "r06", "question": "Who is Ajay Kumar Garg, and how did his artistic talent come to be discovered?", "answer": "Ajay became permanently deaf after an injury at age three. After his parents' attempts at medical treatment failed, his father bought him a paint set as a toy — which revealed Ajay's natural talent for painting, since he began painting happily on walls and floors." },
+      { "id": "r07", "question": "Who formally trained Ajay, what artistic style did he master, and what recognition did he receive?", "answer": "A court artist, Shri Sua Lal, began training him formally from age five; he later learned the old, dying technique of Traditional Indian Miniature Painting from artist Asha Devi. He displayed 150 paintings, gained popularity across India, the USA, and the UK, and was honoured by Indian President Dr. A.P.J. Abdul Kalam with a national award of accomplishment." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "What is the name of the village-school boy in the story whose hobby is writing?", "options": ["Raju", "Siva", "Mani", "Ram"], "correctIndex": 2, "explanation": "Mani.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Who helped Mani develop his love for stories through bedtime storytelling?", "options": ["His father", "His teacher", "His grandfather", "His uncle"], "correctIndex": 2, "explanation": "His grandfather.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What did Mani gradually begin to enjoy, which led him toward his hobby?", "options": ["Drawing", "Reading", "Singing", "Cooking"], "correctIndex": 1, "explanation": "Reading.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What hobby did Mani ultimately develop?", "options": ["Swimming", "Writing", "Painting", "Gardening"], "correctIndex": 1, "explanation": "Writing.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Mani compares the act of writing to:", "options": ["Drawing pictures", "Painting voice", "Cooking food", "Building houses"], "correctIndex": 1, "explanation": "Painting voice.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "What kind of world does Mani imagine through his writing?", "options": ["A realistic world", "A world with magic and talking birds", "A silent world", "A scientific world"], "correctIndex": 1, "explanation": "A world with magic and talking birds.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "According to the text, hobbies are typically pursued during:", "options": ["Exams", "Free time", "School time", "Festivals"], "correctIndex": 1, "explanation": "Free time.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "Ajay Kumar Garg, the second profile in this lesson, became permanently deaf after an injury at what age?", "options": ["One", "Three", "Five", "Seven"], "correctIndex": 1, "explanation": "Three.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "How was Ajay's artistic talent first discovered?", "options": ["A teacher noticed his sketches", "His father bought him a paint set as a toy", "He won a school competition", "A neighbour taught him"], "correctIndex": 1, "explanation": "His father bought him a paint set as a toy.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Which Indian President honoured Ajay Kumar Garg with a national award of accomplishment?", "options": ["Dr. A.P.J. Abdul Kalam", "Pratibha Patil", "R. Venkataraman", "K.R. Narayanan"], "correctIndex": 0, "explanation": "Dr. A.P.J. Abdul Kalam.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

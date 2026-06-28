@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-prose-my-reminiscence-tagore",
+  "unitId": "C-VII",
+  "name": "Prose: \"My Reminiscence\" — Rabindranath Tagore",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 84 Q172 (author confirmation, stashed earlier, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total); brainkart.com - full plot summary" }
+  ],
+  "researchNotes": "1 real past-paper hit (consuming the stash from Day 44's research) plus a rich 12-question web-research set across 2 source pages. A nostalgic, descriptive memoir extract — Tagore reflecting on riverside life at Chandernagore after returning from his second voyage to England, contrasting the area's earlier natural beauty with its later industrialisation.",
+  "reading": {
+    "intro": "A nostalgic extract from Tagore's memoir, describing his stay with his brother Jyotirindra at a riverside villa in Chandernagore after returning from his second trip to England — rich in descriptive imagery of the Ganges and the villa's stained-glass windows, but tinged with regret at the area's later industrial transformation.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"My Reminiscence\", and where was the narrator's brother (Jyotirindra) living when the narrator returned home?", "answer": "Rabindranath Tagore. His brother was living at Chandernagore (West Bengal), after the narrator's return from his second voyage to England." },
+      { "id": "r02", "question": "How does the narrator originally describe the Ganges, and what emotions does he experience by the riverside?", "answer": "He describes the Ganges as cool and shaded along its wooded banks. By the riverside, he experiences a mix of JOY AND LONGING." },
+      { "id": "r03", "question": "What change had come over the riverside nests/area by the time of writing, and how does the narrator feel about this change?", "answer": "The little riverside nests had been replaced by MILLS, which he describes as 'dragon-like' (belching smoke, making hissing noises, disturbing the earlier peaceful atmosphere). He feels PARTLY REGRETFUL about this modern industrial change, not entirely happy nor entirely indifferent." },
+      { "id": "r04", "question": "How were the rooms in the riverside villa arranged, and what was distinctive about the big sitting room's windows?", "answer": "The rooms were arranged IRREGULARLY, on different levels (not on the same level, not in a straight line). The big sitting room had STAINED GLASS windows with colored pictures." },
+      { "id": "r05", "question": "What did the two stained-glass pictures in the sitting room depict, and what did they add to the room's atmosphere?", "answer": "One depicted a swing in dense foliage; the other showed steps leading to a castle-like palace. Together, they added a sense of 'HOLIDAY MUSIC' to the room's atmosphere — a vivid, almost musical visual cheerfulness." },
+      { "id": "r06", "question": "Where was the narrator's own room for writing poetry located in the villa?", "answer": "In a round tower." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"My Reminiscence\" was written by:", "options": ["Kamala Markandaya", "Ernest Hemingway", "Toru Dutt", "Rabindranath Tagore"], "correctIndex": 3, "explanation": "Rabindranath Tagore.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Where was the narrator's brother living when the narrator returned home from his second trip to England?", "options": ["Kolkata", "London", "Chandernagore", "Darjeeling"], "correctIndex": 2, "explanation": "Chandernagore.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "How does the narrator originally describe the Ganges in this memoir?", "options": ["Full of noise and activity", "Cool and shaded along wooded banks", "Dry and barren", "Flowing with industrial waste"], "correctIndex": 1, "explanation": "Cool and shaded along wooded banks.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What emotions does the narrator experience by the riverside?", "options": ["Hunger and thirst", "Fear and anxiety", "Joy and longing", "Anger and frustration"], "correctIndex": 2, "explanation": "Joy and longing.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What has replaced the riverside nests described by the narrator?", "options": ["Schools", "Hospitals", "Parks", "Mills"], "correctIndex": 3, "explanation": "Mills.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "What does the narrator refer to as 'dragon-like'?", "options": ["The mills", "The river", "The trees", "The sky"], "correctIndex": 0, "explanation": "The mills.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "How does the narrator feel about the changes brought by modern industrial life?", "options": ["Entirely happy", "Indifferent", "Partly regretful", "Unaware of them"], "correctIndex": 2, "explanation": "Partly regretful.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "How were the rooms in the riverside villa arranged?", "options": ["Regularly and on the same level", "In a straight line", "Irregularly and on different levels", "Circularly around a courtyard"], "correctIndex": 2, "explanation": "Irregularly and on different levels.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "What kind of windows did the big sitting room have?", "options": ["Wooden shutters", "Frosted glass", "Clear glass without designs", "Stained glass with colored pictures"], "correctIndex": 3, "explanation": "Stained glass with colored pictures.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Where was the narrator's own room for writing poetry located in the villa?", "options": ["In a basement", "On the ground floor", "In the garden", "In a round tower"], "correctIndex": 3, "explanation": "In a round tower.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

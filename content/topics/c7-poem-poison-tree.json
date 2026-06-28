@@ -1,0 +1,33 @@
+{
+  "topicId": "c7-poem-poison-tree",
+  "unitId": "C-VII",
+  "name": "Poem: \"A Poison Tree\" — William Blake",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" },
+    { "type": "web-research", "label": "enotes.com / bartleby.com - theme and central metaphor analysis" }
+  ],
+  "researchNotes": "OCR index search for 'poison tree'/'william blake' returned zero hits — web research only. Raw pool of 6 sourced MCQs plus theme analysis, all kept since each tests a distinct line/device.",
+  "reading": {
+    "intro": "A dark, allegorical poem about the danger of suppressed anger, where unexpressed wrath grows like a tree bearing poisoned fruit. Real coaching-site evidence tests figure-of-speech identification per line, heavily.",
+    "qa": [
+      { "id": "r01", "question": "What is the poem's plot and central theme?", "answer": "The poet tells his friend about his anger, and the anger ends. But he hides his anger from his enemy instead — and that suppressed wrath grows, like a tended tree, eventually bearing a 'poisonous apple.' His enemy steals into the garden at night, eats the apple, and is found dead under the tree the next morning. Central theme: suppressed anger/enmity is far more dangerous than openly expressed anger — 'enmity dies hard' when concealed rather than resolved." },
+      { "id": "r02", "question": "What is the central, extended metaphor of the poem?", "answer": "Anger is compared to a tree that the poet 'grows' — nurtured with 'fears' (as water) and 'tears' (day and night), eventually bearing a deadly fruit. The poet's relationship to his suppressed wrath is like a gardener's relationship to a plant he deliberately cultivates." },
+      { "id": "r03", "question": "Identify the figure of speech: \"I was angry with my friend; I told my wrath, my wrath did end.\"", "answer": "Anaphora — repetition of 'my wrath' across the line for emphasis." },
+      { "id": "r04", "question": "Identify the figure of speech: \"And I sunned it with smiles, / And with soft deceitful wiles.\"", "answer": "Alliteration — repeated 's' and 'w' sounds ('sunned'/'smiles'; 'soft'/'deceitful'/'wiles')." },
+      { "id": "r05", "question": "Identify the figure of speech: \"Till it bore an apple bright\" and \"And I watered it in fears, / Night & morning with my tears.\"", "answer": "Both are Metaphor — the suppressed anger is directly described as a tree bearing fruit and being watered, without using 'like/as'." },
+      { "id": "r06", "question": "Identify the figure of speech: \"When the night had veiled the pole.\"", "answer": "Personification — night is given the human-like action of 'veiling' (covering, as with a veil)." },
+      { "id": "r07", "question": "What is the rhyme scheme of the poem?", "answer": "AABB — rhyming couplets." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "What happened when the poet told his FRIEND about his anger?", "options": ["The anger grew worse", "The anger ended", "The friend got angry too", "Nothing changed"], "correctIndex": 1, "explanation": "Telling his friend, the wrath ended — contrasted with hiding it from his enemy.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What does the 'poison tree' in the poem represent?", "options": ["A real tree in the poet's garden", "Suppressed/concealed anger", "Friendship", "Forgiveness"], "correctIndex": 1, "explanation": "Suppressed anger, nurtured in secret until it becomes deadly.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What happens to the enemy at the end of the poem?", "options": ["He apologizes to the poet", "He is found dead under the tree, having eaten the poisoned apple", "He destroys the tree", "He becomes the poet's friend"], "correctIndex": 1, "explanation": "He sneaks in at night, eats the apple, and is found dead under the tree.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"I was angry with my friend; I told my wrath, my wrath did end\" is an example of:", "options": ["Alliteration", "Anaphora", "Metaphor", "Personification"], "correctIndex": 1, "explanation": "Anaphora — repetition of 'my wrath'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"Till it bore an apple bright\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Hyperbole", "Personification"], "correctIndex": 1, "explanation": "Metaphor — anger directly described as a fruit-bearing tree.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"When the night had veiled the pole\" uses which figure of speech?", "options": ["Hyperbole", "Alliteration", "Personification", "Metaphor"], "correctIndex": 2, "explanation": "Personification — night given the human action of 'veiling'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "\"A Poison Tree\" follows which rhyme scheme?", "options": ["ABAB", "AABB", "ABBA", "No rhyme"], "correctIndex": 1, "explanation": "AABB, rhyming couplets.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

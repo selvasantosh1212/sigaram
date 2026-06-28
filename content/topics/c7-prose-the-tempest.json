@@ -1,0 +1,40 @@
+{
+  "topicId": "c7-prose-the-tempest",
+  "unitId": "C-VII",
+  "name": "Prose: \"The Tempest\" — Tales From Shakespeare",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 7 Q11 (true statements about the play — NOT written 1500, IS a late play, IS based on a real shipwreck, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 69 Q117; 2022_q page 8 Q25 (Prospero's daughter=Miranda; Ferdinand/Miranda play Chess, stashed earlier, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total); brainkart.com - full plot summary (Prospero/Ariel/Caliban)" }
+  ],
+  "researchNotes": "Consumes 2 facts stashed since early in the project (from researching 'His First Flight' and 'Learning the Game', which shared OCR pages with stray Tempest questions) plus 1 fresh real hit and a rich 12-question web set. This is Charles & Mary Lamb's prose RETELLING ('Tales from Shakespeare'), not Shakespeare's original play script — explaining why it's a 'prose' entry in Unit VII rather than verse.",
+  "reading": {
+    "intro": "Charles and Mary Lamb's prose retelling of Shakespeare's play: Prospero, the overthrown Duke of Milan, and his daughter Miranda live marooned on an island with the spirit Ariel and the enslaved Caliban — until Prospero conjures a storm to bring his old enemies to the island, setting up reconciliation rather than revenge.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Is it true that 'The Tempest' was written in 1500? What IS true about when it was written, relative to Shakespeare's career?", "answer": "NO — 'written in 1500' is FALSE (Shakespeare actually wrote it around 1610-1611). What IS true, confirmed by a real exam: it is considered one of the LAST plays William Shakespeare wrote." },
+      { "id": "r02", "question": "Real exam: Is 'The Tempest' believed to be based on a real event?", "answer": "Yes — confirmed true by a real exam question: it is believed to be based on an ACTUAL shipwreck (commonly identified as the 1609 wreck of the Sea Venture off Bermuda)." },
+      { "id": "r03", "question": "Where do Prospero and Miranda live, and why did they end up there?", "answer": "In a cave on an isolated island. They ended up there because Prospero, the rightful Duke of Milan, was EXILED by his brother Antonio, who usurped his dukedom." },
+      { "id": "r04", "question": "Who is Ariel, who is Caliban, and what does Prospero use to control the spirits and elements?", "answer": "Ariel is a spirit FREED by Prospero (from imprisonment by the witch Sycorax) and made obedient to him. Caliban is enslaved by Prospero. Prospero controls the spirits and elements using a magic WAND." },
+      { "id": "r05", "question": "Why did Prospero raise the storm (the 'tempest') at sea?", "answer": "To bring his enemies — the King of Naples and his own brother Antonio — to the island, setting up the story's resolution." },
+      { "id": "r06", "question": "Real exam: Who is Prospero's daughter, and what game did she play with Ferdinand on the island?", "answer": "Miranda is Prospero's daughter — confirmed by a real exam question. She and Ferdinand played CHESS together on the island — also confirmed by a real exam question." },
+      { "id": "r07", "question": "What task did Prospero assign to Ferdinand, why, and what was the relationship between Ferdinand and Miranda?", "answer": "Prospero assigned Ferdinand the hard labour of PILING LOGS OF WOOD — a deliberate test of Ferdinand's love and devotion to Miranda. Miranda and Ferdinand admired each other (the seeds of a romantic relationship)." },
+      { "id": "r08", "question": "How did Ariel torment the King of Naples and Antonio, and how did they feel afterward?", "answer": "By creating illusions and strange sounds. Afterward, they felt sorry and repentant — setting up Prospero's eventual forgiveness rather than revenge." },
+      { "id": "r09", "question": "What did Prospero do before finally leaving the island?", "answer": "He forgave everyone (his former enemies) and set Ariel free." },
+      { "id": "r10", "question": "Who helped Prospero survive when he was first cast out to sea with infant Miranda?", "answer": "A kind lord named Gonzalo." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of the following is TRUE about the play 'The Tempest'?", "options": ["It was written in 1500", "It is considered one of Shakespeare's last plays", "It was Shakespeare's very first play", "It has no connection to any real historical event"], "correctIndex": 1, "explanation": "One of Shakespeare's last plays.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "'The Tempest' is believed to be based on:", "options": ["A real royal wedding", "An actual shipwreck", "A real war between Naples and Milan", "A real volcanic eruption"], "correctIndex": 1, "explanation": "An actual shipwreck.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Where did Prospero and Miranda live?", "options": ["In a palace", "In a cottage in the woods", "In a cave on an island", "In a ship"], "correctIndex": 2, "explanation": "In a cave on an island.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Who was Ariel in the story?", "options": ["A monster enslaved by Prospero", "The King of Naples", "A spirit freed by Prospero", "Prospero's brother"], "correctIndex": 2, "explanation": "A spirit freed by Prospero.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Why did Prospero and Miranda end up on the island?", "options": ["They were shipwrecked by accident", "They were exiled by Antonio", "They fled from a war", "They were exploring the sea"], "correctIndex": 1, "explanation": "They were exiled by Antonio.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What did Prospero use to control the spirits and the elements?", "options": ["A magic ring", "A spell book", "A magic wand", "A special potion"], "correctIndex": 2, "explanation": "A magic wand.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "What task did Prospero assign to Ferdinand as a test of his love for Miranda?", "options": ["Guarding the cave", "Piling logs of wood", "Finding food for Miranda", "Building a ship"], "correctIndex": 1, "explanation": "Piling logs of wood.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What game did Ferdinand and Miranda play together on the island?", "options": ["Carrom", "Hide and Seek", "Chess", "Cards"], "correctIndex": 2, "explanation": "Chess.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m09", "prompt": "How did Ariel torment the King of Naples and Antonio?", "options": ["By sending them back to sea", "By pretending to be a monster", "By imprisoning them in a cave", "By creating illusions and strange sounds"], "correctIndex": 3, "explanation": "By creating illusions and strange sounds.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "What did Prospero do before finally leaving the island?", "options": ["Destroyed the island", "Punished his enemies", "Forgave everyone and set Ariel free", "Took over the island as king"], "correctIndex": 2, "explanation": "Forgave everyone and set Ariel free.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

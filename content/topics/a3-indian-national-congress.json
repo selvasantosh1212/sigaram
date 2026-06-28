@@ -1,0 +1,37 @@
+{
+  "topicId": "a3-indian-national-congress",
+  "unitId": "A-III",
+  "name": "Indian National Congress",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 50 Q109 (INC founder/first-president trap, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 10 Q9 (Tilak's Swaraj-to-Home-Rule Assertion-Reason, with answer key)" },
+    { "type": "question-bank", "label": "2025_q1 page 117 Q182 (Justice Party's Anti-Non-Cooperation League, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 77 Q81 (INC/Justice Party meeting languages; Muthulakshmi Reddy, with answer key)" },
+    { "type": "authored", "label": "INC founding basics (1885, Bombay, Surat Split, Lucknow Pact) — standard well-established history, no direct past-paper hit needed" }
+  ],
+  "researchNotes": "Strong real evidence — 4 confirmed hits across 2025/2026, including a classic name-confusion trap (S.N. Banerjee vs. the actual first INC president, W.C. Bonnerjee — easy to mix up given the similar surnames).",
+  "reading": {
+    "intro": "Fifth topic of Unit III. Real exam evidence favors founder/president-name traps (similar-sounding names swapped) and TN-specific angles on the national movement (language of political meetings, women legislators) over generic INC session-by-session history.",
+    "qa": [
+      { "id": "r01", "question": "Real exam (trap): Who is considered the 'Father of the Indian National Congress', and who was its FIRST president — was it S.N. Banerjee?", "answer": "A.O. Hume (a retired British civil servant) is considered the Father of the INC. The first president was W.C. Bonnerjee (Womesh Chunder Bonnerjee) — NOT S.N. Banerjee (Surendranath Banerjee), a different, similarly-named contemporary leader. This name mix-up is a real, confirmed exam trap." },
+      { "id": "r02", "question": "When and where was the INC founded?", "answer": "1885, in Bombay." },
+      { "id": "r03", "question": "Real exam: Why did Lokmanya Tilak replace the term 'Swaraj' with 'Home Rule'?", "answer": "Because the British government found the term 'Swaraj' highly objectionable and considered it seditious, so Tilak rebranded the same demand using the less provocative term 'Home Rule' instead." },
+      { "id": "r04", "question": "What was the 'Surat Split' (1907), and what was the 'Lucknow Pact' (1916)?", "answer": "Surat Split (1907): the INC split into Moderate and Extremist factions at its Surat session. Lucknow Pact (1916): the Moderates and Extremists reunited, AND the INC and the Muslim League agreed to jointly demand self-government from the British." },
+      { "id": "r05", "question": "Real exam: Which party started the 'Anti-Non-Cooperation League' in the Madras Presidency?", "answer": "The Justice Party (opposing Congress's Non-Cooperation Movement in the Madras Presidency, reflecting the Justice Party's distinct, often Congress-opposed, political stance in the Tamil region)." },
+      { "id": "r06", "question": "Real exam: True or false — INC held its meetings in Tamil as well (to attract common people), while the Justice Party held meetings only in English.", "answer": "TRUE on both counts — INC used Tamil too, to reach ordinary people, while the Justice Party's meetings were conducted in English only." },
+      { "id": "r07", "question": "Real exam: In what year was Dr. Muthulakshmi Reddy elected Deputy Speaker of the (Madras) Legislature?", "answer": "1927." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Who is considered the 'Father of the Indian National Congress'?", "options": ["W.C. Bonnerjee", "A.O. Hume", "S.N. Banerjee", "Dadabhai Naoroji"], "correctIndex": 1, "explanation": "A.O. Hume.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Who was the FIRST president of the Indian National Congress?", "options": ["S.N. Banerjee", "W.C. Bonnerjee", "Dadabhai Naoroji", "Gopal Krishna Gokhale"], "correctIndex": 1, "explanation": "W.C. Bonnerjee — not S.N. Banerjee, a common name-confusion trap.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Why did Lokmanya Tilak rebrand 'Swaraj' as 'Home Rule'?", "options": ["Swaraj had no popular support", "The British considered 'Swaraj' seditious", "Home Rule was a Congress tradition", "Tilak wanted an English-only slogan"], "correctIndex": 1, "explanation": "The British government found 'Swaraj' objectionable/seditious.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which party started the 'Anti-Non-Cooperation League' in the Madras Presidency?", "options": ["Indian National Congress", "Communist Party", "Swatantra Party", "Justice Party"], "correctIndex": 3, "explanation": "The Justice Party.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Which statement is correct about political meetings in the Madras Presidency era?", "options": ["INC held meetings only in English", "Justice Party held meetings in Tamil to reach common people", "INC held meetings in Tamil too, to attract common people", "Neither party used Tamil"], "correctIndex": 2, "explanation": "INC used Tamil as well as English to reach ordinary people; the Justice Party's meetings were English-only.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Dr. Muthulakshmi Reddy was elected Deputy Speaker of the Madras Legislature in which year?", "options": ["1921", "1927", "1937", "1947"], "correctIndex": 1, "explanation": "1927.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m07", "prompt": "The INC split into Moderate and Extremist factions at which 1907 session, known as the:", "options": ["Lucknow Pact", "Surat Split", "Lahore Resolution", "Calcutta Session"], "correctIndex": 1, "explanation": "The Surat Split.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m08", "prompt": "The Indian National Congress was founded in which year and city?", "options": ["1885, Bombay", "1905, Calcutta", "1857, Delhi", "1920, Madras"], "correctIndex": 0, "explanation": "1885, Bombay.", "sourceTag": "authored", "difficulty": "easy" }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topicId": "a3-guptas-sultans-mughals-marathas",
+  "unitId": "A-III",
+  "name": "Guptas, Delhi Sultans, Mughals, and Marathas",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 13 Q14-15 (Gupta gold coins; Delhi Sultanate irrigation tax, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 21 Q20 (Mughal-era 'Tahsildar' terminology, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 43 Q62 (Gulbadan Begum, only woman Mughal-era historian, with answer key)" },
+    { "type": "web-research", "label": "Maratha administration — Shivaji's coronation, Ashta Pradhan council, Chauth/Sardeshmukhi taxes, Ganimi Kava warfare" }
+  ],
+  "researchNotes": "Strong real evidence across all but the Maratha portion of this four-dynasty clause (4 confirmed hits spanning Gupta, Delhi Sultanate, and Mughal eras across 2024/2026 papers) — Maratha-specific facts came from web research only, clearly tagged.",
+  "reading": {
+    "intro": "Second topic of Unit III, spanning four major medieval/early-modern dynasties in one syllabus clause. Real exam evidence favors specific administrative/terminology facts (coin metals, tax names, official titles) over broad narrative history.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What metal did the Gupta emperors issue coins in, before Chandragupta-II?", "answer": "Gold only — the Gupta emperors before Chandragupta-II issued only gold coins (Chandragupta-II later expanded to silver coinage too)." },
+      { "id": "r02", "question": "Real exam: What does 'Haque-i-Sharb' (or 'Hasil-i-Sharb') mean, in the Delhi Sultanate's revenue system?", "answer": "Irrigation Tax (not land tax, commercial tax, or toll tax)." },
+      { "id": "r03", "question": "Real exam: How is the modern term 'Tahsildar' connected to Mughal-era terminology?", "answer": "The word 'Tahsildar' derives from the Mughal word 'tahsil', meaning a 'revenue-generating area'. (A related real-exam fact: since the Tahsil was renamed 'Taluk', the Tahsildars are now correspondingly called 'Taluk Officers' — both statements were marked true, but the question noted the second does NOT serve as the explanation for the first.)" },
+      { "id": "r04", "question": "Real exam: Who is the only woman historian known to have written a historical account of the Mughal period?", "answer": "Gulbadan Begum (Humayun's half-sister), author of the Humayun-nama — not Zeenat-un-Nisa Begum, Jahanara Begum, or Zeb-un-Nissa Begum (the other options in that real question)." },
+      { "id": "r05", "question": "When and where was Shivaji crowned, and what concept did his coronation assert?", "answer": "6 June 1674, at Raigad Fort. His coronation (Rajyabhishek) asserted 'Hindavi Swarajya' (self-rule) — an independent state not owing allegiance to the Mughal empire." },
+      { "id": "r06", "question": "What was the 'Ashta Pradhan', and what were its key positions?", "answer": "Shivaji's council of eight ministers. Key positions: Peshwa (Prime Minister, who also supervised civil and military affairs), Amatya (Finance Minister), Senapati (Commander-in-Chief), and Nyayadhish (Chief Justice)." },
+      { "id": "r07", "question": "What were Chauth and Sardeshmukhi, the Maratha revenue systems?", "answer": "Chauth: one-fourth of land revenue paid BY OTHER territories to the Marathas to avoid being raided. Sardeshmukhi: an additional 10% levy on lands where the Marathas claimed hereditary rights." },
+      { "id": "r08", "question": "What was 'Ganimi Kava', and why was it militarily significant?", "answer": "Shivaji's guerrilla warfare tactics — using the Sahyadri mountain terrain to let smaller Maratha forces defeat much larger conventional Mughal armies." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Gupta emperors before Chandragupta-II issued coins in which metal only?", "options": ["Silver", "Gold", "Copper", "Tin"], "correctIndex": 1, "explanation": "Gold only.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m02", "prompt": "In the Delhi Sultanate's revenue system, 'Haque-i-Sharb' means:", "options": ["Land Tax", "Commercial Tax", "Irrigation Tax", "Toll Tax"], "correctIndex": 2, "explanation": "Irrigation Tax.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m03", "prompt": "The modern term 'Tahsildar' derives from the Mughal word 'tahsil', meaning:", "options": ["A military rank", "A revenue-generating area", "A royal title", "A religious office"], "correctIndex": 1, "explanation": "A revenue-generating area.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Who is the only woman historian known to have written a historical account of the Mughal period?", "options": ["Jahanara Begum", "Zeb-un-Nissa Begum", "Gulbadan Begum", "Zeenat-un-Nisa Begum"], "correctIndex": 2, "explanation": "Gulbadan Begum, author of the Humayun-nama.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Shivaji's coronation in 1674 took place at:", "options": ["Pune Fort", "Raigad Fort", "Shaniwarwada", "Sinhagad Fort"], "correctIndex": 1, "explanation": "Raigad Fort.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "In Shivaji's Ashta Pradhan, who held the position of Finance Minister?", "options": ["Peshwa", "Senapati", "Amatya", "Nyayadhish"], "correctIndex": 2, "explanation": "Amatya.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "'Chauth', the Maratha tax, was equal to what fraction of a territory's land revenue?", "options": ["One-tenth", "One-fifth", "One-fourth", "One-third"], "correctIndex": 2, "explanation": "One-fourth.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Shivaji's guerrilla warfare tactics, exploiting the Sahyadri terrain, were known as:", "options": ["Ganimi Kava", "Chauth", "Rajyabhishek", "Ashta Pradhan"], "correctIndex": 0, "explanation": "Ganimi Kava.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

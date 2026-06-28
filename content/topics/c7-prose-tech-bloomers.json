@@ -1,0 +1,34 @@
+{
+  "topicId": "c7-prose-tech-bloomers",
+  "unitId": "C-VII",
+  "name": "Prose: \"Tech Bloomers\"",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" }
+  ],
+  "researchNotes": "OCR index search for 'tech bloomers' returned zero hits — web research only. A non-fiction informational prose (like 'Empowered Women Navigating the World') about assistive technology empowering people with disabilities, told through TWO real individuals — Alisha and David — each using a different technology. Expect fact-recall questions on names/tools/conditions rather than figures of speech.",
+  "reading": {
+    "intro": "A non-fiction piece about how assistive technology empowers people with disabilities, illustrated through two individuals: Alisha, who uses voice-dictation software to study independently, and David, who has Athetoid Cerebral Palsy and uses eye-movement-controlled devices to communicate, study, and even play adaptive sports.",
+    "qa": [
+      { "id": "r01", "question": "What is the central theme of \"Tech Bloomers\"?", "answer": "The use of technology for empowerment — specifically, how assistive technology enables people with disabilities to study, communicate, and participate fully in life." },
+      { "id": "r02", "question": "What has technology helped Alisha do, and what software does she use?", "answer": "Technology has helped Alisha study independently. She uses 'Dragon Dictate', a voice-dictation software." },
+      { "id": "r03", "question": "Who introduced Dragon Dictate to Alisha, what is that person's role, and how long did Alisha take to train it?", "answer": "Kim, an Assistive Technologist, introduced Dragon Dictate to Alisha. Alisha took just a few hours to train the software to her voice." },
+      { "id": "r04", "question": "What condition was David born with, and how does he control his 'Liberator' device?", "answer": "David was born with Athetoid Cerebral Palsy. He controls his Liberator device using eye movements." },
+      { "id": "r05", "question": "What additional controller is found in David's chair, and what system helps him select icons with his eyes?", "answer": "A Headrest ACTIV controller is found in his chair. The 'ECO2' system, using an 'ECO point', helps him select icons with his eyes." },
+      { "id": "r06", "question": "What does David use ECO2 for in daily life, and which sport does he NOT play (among the adaptive sports mentioned)?", "answer": "He uses ECO2 to access his curriculum (study materials) and to order food. Among the sports mentioned (Boccia, Hockey, Tennis), he does NOT play Tennis — he plays Boccia and Hockey." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The central theme of \"Tech Bloomers\" is:", "options": ["History of technology", "Role of AI in warfare", "Use of technology for empowerment", "Business automation"], "correctIndex": 2, "explanation": "Use of technology for empowerment.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Technology has helped Alisha to:", "options": ["Cook food", "Type with her hands", "Speak multiple languages", "Study independently"], "correctIndex": 3, "explanation": "Study independently.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The voice-dictation software Alisha uses is called:", "options": ["SpeakEasy", "Dragon Dictate", "VoiceWrite", "Dictation Pro"], "correctIndex": 1, "explanation": "Dragon Dictate.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Who introduced Dragon Dictate to Alisha, and what was that person's role?", "options": ["Her doctor", "Her classmate", "Kim, an Assistive Technologist", "David, an author"], "correctIndex": 2, "explanation": "Kim, an Assistive Technologist.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "How long did it take Alisha to train Dragon Dictate to her voice?", "options": ["A week", "A few hours", "A month", "A day"], "correctIndex": 1, "explanation": "A few hours.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "David, in \"Tech Bloomers\", was born with which condition?", "options": ["ADHD", "Spina bifida", "Athetoid Cerebral Palsy", "Dyslexia"], "correctIndex": 2, "explanation": "Athetoid Cerebral Palsy.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "David controls his 'Liberator' device using:", "options": ["Voice", "Hand movements", "Eye movements", "Foot taps"], "correctIndex": 2, "explanation": "Eye movements.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What additional controller is found in David's chair?", "options": ["Wrist band", "Headrest ACTIV controller", "Palm switch", "Shoulder joystick"], "correctIndex": 1, "explanation": "Headrest ACTIV controller.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Which system helps David select icons using his eyes, and what does he use it for?", "options": ["Dragon Eye — for gaming", "SmartSight — for navigation", "ECO2 with ECO point — to access curriculum and order food", "BlinkAssist — for typing only"], "correctIndex": 2, "explanation": "ECO2 with ECO point, used to access his curriculum and order food.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m10", "prompt": "Which sport does David NOT play, among those mentioned in the passage?", "options": ["Boccia", "Hockey", "Tennis", "All of the above are played"], "correctIndex": 2, "explanation": "Tennis — he plays Boccia and Hockey.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

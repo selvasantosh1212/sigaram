@@ -1,0 +1,27 @@
+{
+  "topicId": "a4-current-affairs-5",
+  "unitId": "A-IV",
+  "name": "Current Affairs in Indian Polity (5): May 2026 Supreme Court Rulings on Bail and Electoral Integrity",
+  "sourceRefs": [
+    { "type": "web-research", "label": "scconline.com - Syed Iftikhar Andrabi v. NIA (bail/Article 21, May 2026); Association for Democratic Reforms v. ECI (electoral rolls/Article 324, 28 May 2026)" }
+  ],
+  "researchNotes": "Fifth Polity current-affairs topic (5th lap). Both rulings connect directly to judges already covered at Day 69 (Justice B.V. Nagarathna and CJI Surya Kant) — a satisfying continuity payoff.",
+  "reading": {
+    "intro": "Covers 2 major May 2026 Supreme Court rulings — one on bail jurisprudence and Article 21, one on electoral roll revision and Article 324.",
+    "qa": [
+      { "id": "r01", "question": "In Syed Iftikhar Andrabi v. NIA (May 2026), what did the Supreme Court hold about 'bail is the rule, jail is the exception'?", "answer": "This principle derives from the constitutional primacy of personal liberty under ARTICLE 21 — and therefore CANNOT be displaced or diluted by ordinary legislation (such as UAPA's statutory bail restrictions)." },
+      { "id": "r02", "question": "Which judges formed the bench in the Andrabi case, and which earlier landmark ruling did they reaffirm as binding?", "answer": "Justices B.V. Nagarathna and Ujjal Bhuyan. They reaffirmed Union of India v. K.A. Najeeb (2021) — a 3-judge bench decision — as binding law that cannot be diluted by smaller benches without express disagreement." },
+      { "id": "r03", "question": "In Association for Democratic Reforms v. Election Commission of India (28 May 2026), what did the Supreme Court uphold?", "answer": "The constitutionality of the Election Commission's Special Intensive Revision (SIR) process for Bihar's electoral rolls — holding it does not conflict with the Representation of the People Act, 1950 or the Registration of Electors Rules, 1960." },
+      { "id": "r04", "question": "Which constitutional Article does the SIR process serve, per the Court's ruling, and who led the bench?", "answer": "Article 324 (the Election Commission's constitutional mandate to ensure free and fair elections). The bench was led by Chief Justice of India Surya Kant, with Justice Joymalya Bagchi." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "In Syed Iftikhar Andrabi v. NIA (May 2026), the principle 'bail is the rule, jail is the exception' was held to derive from:", "options": ["Article 14", "Article 19", "Article 21", "Article 32"], "correctIndex": 2, "explanation": "Article 21 (personal liberty).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Andrabi ruling held that the 'bail is the rule' principle cannot be displaced by:", "options": ["Judicial precedent", "Ordinary legislation (e.g., UAPA's statutory bail restrictions)", "Presidential ordinance only", "International treaties"], "correctIndex": 1, "explanation": "Ordinary legislation.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "In Association for Democratic Reforms v. ECI (28 May 2026), the Supreme Court upheld the constitutionality of:", "options": ["EVM use in all elections", "The Special Intensive Revision (SIR) of Bihar's electoral rolls", "State funding of elections", "Online voting trials"], "correctIndex": 1, "explanation": "The Special Intensive Revision (SIR) of Bihar's electoral rolls.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The SIR electoral-roll process was held to serve which constitutional Article's mandate?", "options": ["Article 300A", "Article 324", "Article 326", "Article 329"], "correctIndex": 1, "explanation": "Article 324.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Who led the Supreme Court bench in the ADR v. ECI (May 2026) electoral-integrity ruling?", "options": ["Justice B.V. Nagarathna", "CJI Surya Kant", "Justice Vikram Nath", "Justice B.R. Gavai"], "correctIndex": 1, "explanation": "CJI Surya Kant.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

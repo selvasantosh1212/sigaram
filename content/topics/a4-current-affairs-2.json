@@ -1,0 +1,28 @@
+{
+  "topicId": "a4-current-affairs-2",
+  "unitId": "A-IV",
+  "name": "Current Affairs in Indian Polity (2): Recent Constitutional Amendment Bills",
+  "sourceRefs": [
+    { "type": "web-research", "label": "PRS India/Wikipedia - 130th Amendment Bill 2025 (removal of detained ministers); 131st Amendment Bill 2026 (Lok Sabha delimitation); PIB - Bills passed in 2025" }
+  ],
+  "researchNotes": "Second Polity current-affairs topic (2nd lap). Both bills are recent, specifically dated, and structurally significant — directly extending this project's existing Union Executive (Day 33) and Union Legislature content with proposed (not-yet-finalised) changes, clearly flagged as BILLS under consideration/scrutiny rather than enacted law.",
+  "reading": {
+    "intro": "Covers two major recent Constitutional Amendment Bills — one on removing detained ministers, another on Lok Sabha delimitation and expansion — both still in the legislative process, plus overall Parliament activity statistics for 2025.",
+    "qa": [
+      { "id": "r01", "question": "What does the Constitution (130th Amendment) Bill, 2025 propose, and when was it introduced?", "answer": "Introduced in the Lok Sabha on 20 August 2025. It proposes the REMOVAL of the Prime Minister, Chief Ministers, and other Ministers if they are arrested and remain in detention for 30 CONSECUTIVE DAYS on charges punishable by imprisonment of 5 years or more. It has been referred to a Joint Committee of both Houses for detailed scrutiny (i.e., not yet enacted)." },
+      { "id": "r02", "question": "What does the Constitution (131st Amendment) Bill, 2026 propose, and what other bills were introduced alongside it?", "answer": "Introduced on 16 April 2026, alongside the Union Territories Laws (Amendment) Bill, 2026 and the Delimitation Bill, 2026. Together, they seek to enable Lok Sabha delimitation based on the 2011 Census, increase the maximum Lok Sabha membership to 850 (up to 815 from states, up to 35 from Union Territories), and enable women's reservation in the Lok Sabha to be based on this new delimitation." },
+      { "id": "r03", "question": "As of March 2026, how many times has the Constitution of India been amended in total?", "answer": "106 amendments since the Constitution was first enacted in 1950." },
+      { "id": "r04", "question": "How many Bills did Parliament pass during the calendar year 2025, and what is one notable example?", "answer": "39 Bills were passed by both Houses during January-December 2025. A notable example: the Waqf (Amendment) Bill, 2025, aimed at improving management, stakeholder empowerment, and survey/registration/case-disposal efficiency for waqf properties." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Constitution (130th Amendment) Bill, 2025 proposes removal of a Minister if they remain in detention for how many consecutive days?", "options": ["15 days", "30 days", "60 days", "90 days"], "correctIndex": 1, "explanation": "30 consecutive days.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Under the 130th Amendment Bill, removal applies to Ministers detained on charges punishable by imprisonment of at least:", "options": ["2 years", "5 years", "7 years", "10 years"], "correctIndex": 1, "explanation": "5 years.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Constitution (131st Amendment) Bill, 2026 seeks to enable Lok Sabha delimitation based on which census?", "options": ["1991 Census", "2001 Census", "2011 Census", "2021 Census"], "correctIndex": 2, "explanation": "2011 Census.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Under the 131st Amendment Bill, the maximum number of Lok Sabha members would increase to:", "options": ["650", "750", "800", "850"], "correctIndex": 3, "explanation": "850.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "As of March 2026, how many times has the Indian Constitution been amended since 1950?", "options": ["86", "94", "106", "120"], "correctIndex": 2, "explanation": "106.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "How many Bills did the Indian Parliament pass during the calendar year 2025?", "options": ["21", "39", "55", "70"], "correctIndex": 1, "explanation": "39.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

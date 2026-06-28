@@ -1,0 +1,32 @@
+{
+  "topicId": "a2-soil-minerals-natural-resources",
+  "unitId": "A-II",
+  "name": "Geography of India: Soil, Minerals & Natural Resources",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2026_q page 145 Q171-172 (lignite/Neyveli mismatch; Salem iron ore reserves, with answer key)" },
+    { "type": "web-research", "label": "Tamil Nadu PSC notes / weshineacademy.com - soil types and mineral distribution" }
+  ],
+  "researchNotes": "Two real hits plus solid web-sourced TN-specific mineral/soil facts. Following the established pattern from the Rivers topic, TN-specific facts are weighted heavily within this all-India clause, since that's what the real evidence actually favors for a TNPSC exam.",
+  "reading": {
+    "intro": "Fourth sub-topic of Geography Unit II. As with Rivers, real exam evidence shows a strong Tamil-Nadu-specific lean even within this all-India clause — TN's own soil types, mineral belts, and named deposits come up disproportionately.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Evaluate — (i) TN excels other states in lignite coal reserves and production (ii) TN has 90% of the country's lignite reserves (iii) the Neyveli lignite field is located in Villupuram district. Which is incorrect?", "answer": "Only (iii) is incorrect — the Neyveli lignite field is actually in Cuddalore district (historically part of South Arcot), not Villupuram. (i) and (ii) are correct: Tamil Nadu does lead in lignite, holding roughly 90% of India's reserves." },
+      { "id": "r02", "question": "Real exam: Which Tamil Nadu district has 482 million tonnes of low-grade Iron ore reserves?", "answer": "Salem (not Trichy, Madurai, or Coimbatore)." },
+      { "id": "r03", "question": "What are the five main soil types found in Tamil Nadu?", "answer": "Alluvial, Black, Red, Laterite, and Saline soils." },
+      { "id": "r04", "question": "What are the characteristics of Alluvial soil, and which TN districts have it?", "answer": "Fertile, rich in lime/potassium/magnesium/phosphoric acid, porous and loamy, but deficient in nitrogen and humus. Found in Thanjavur, Tiruvarur, Nagapattinam, Villupuram, Cuddalore, Tirunelveli, and Kanyakumari." },
+      { "id": "r05", "question": "What minerals are the coastal districts of Tamil Nadu known for, and what are they used for?", "answer": "Beach sand minerals — ilmenite, rutile, garnet, and zircon. Tamil Nadu also has bauxite, magnesite, and vermiculite deposits, used in aluminium production, fertilizers, and insulation materials respectively." },
+      { "id": "r06", "question": "Where is limestone abundant in Tamil Nadu, and what is it mainly used for?", "answer": "Tirunelveli and Salem districts — a key raw material for cement production, also used in chemical and construction industries." },
+      { "id": "r07", "question": "What is Tamil Nadu particularly renowned for in terms of stone/rock resources?", "answer": "Granite reserves, known for their quality and variety." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Neyveli lignite field is actually located in which district (not Villupuram, despite what some sources claim)?", "options": ["Cuddalore", "Salem", "Tirunelveli", "Thanjavur"], "correctIndex": 0, "explanation": "Cuddalore district.", "sourceTag": "question-bank-2026", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Which Tamil Nadu district has 482 million tonnes of low-grade Iron ore reserves?", "options": ["Trichy", "Madurai", "Salem", "Coimbatore"], "correctIndex": 2, "explanation": "Salem.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which soil type is fertile, rich in lime/potassium/phosphoric acid, but deficient in nitrogen and humus?", "options": ["Black soil", "Red soil", "Alluvial soil", "Laterite soil"], "correctIndex": 2, "explanation": "Alluvial soil.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Beach sand minerals like ilmenite, rutile, garnet, and zircon are characteristic of which part of Tamil Nadu?", "options": ["Western hill districts", "Coastal districts", "Central plateau", "Northern border districts"], "correctIndex": 1, "explanation": "Coastal districts.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Limestone, a key raw material for cement, is abundant in which two Tamil Nadu districts?", "options": ["Salem and Tirunelveli", "Chennai and Coimbatore", "Madurai and Trichy", "Vellore and Erode"], "correctIndex": 0, "explanation": "Salem and Tirunelveli.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Tamil Nadu is particularly well known for which high-quality rock resource?", "options": ["Marble", "Granite", "Sandstone", "Slate"], "correctIndex": 1, "explanation": "Granite.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

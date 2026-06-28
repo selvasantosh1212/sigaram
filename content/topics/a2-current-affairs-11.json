@@ -1,0 +1,27 @@
+{
+  "topicId": "a2-current-affairs-11",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography of India (11): Himalayan Disaster-Preparedness Infrastructure Expansion",
+  "sourceRefs": [
+    { "type": "web-research", "label": "World Summit on Disaster Management, Dehradun (Nov 2025) — expanded Himalayan monitoring infrastructure; GLOF risk context" }
+  ],
+  "researchNotes": "Thirteenth Geography current-affairs topic (11th lap). Combines a dated policy announcement (World Summit on Disaster Management) with core Himalayan-geography hazard concepts (GLOFs, glacier recession) — reinforcing physical-geography fundamentals through current affairs.",
+  "reading": {
+    "intro": "Covers expanded Himalayan disaster-monitoring infrastructure, announced at the World Summit on Disaster Management (Dehradun, November 2025), and the glacial-lake hazard it responds to.",
+    "qa": [
+      { "id": "r01", "question": "What is a Glacial Lake Outburst Flood (GLOF), and why is its risk increasing?", "answer": "A sudden, often catastrophic release of water from a glacial lake, threatening downstream communities. Risk is increasing because climate-change-driven glacier recession is forming new glacial lakes (meltwater pooling between the retreating glacier and its frontal moraine) and causing existing lakes to expand/merge." },
+      { "id": "r02", "question": "Where and when was the World Summit on Disaster Management held, where expanded Himalayan monitoring infrastructure was announced?", "answer": "Dehradun, November 2025." },
+      { "id": "r03", "question": "What expanded monitoring infrastructure did the Union Minister of State for Earth Sciences announce at this summit?", "answer": "33 meteorological observatories, 142 automatic weather stations, 107 rain gauges, and 3 weather radars (with 3 more planned)." },
+      { "id": "r04", "question": "What specialised programme and alert system were also announced/expanded?", "answer": "A specialised Himalayan climate study programme was launched; and the 'Nowcast' alert system (providing a 3-hour forecast, already used in major metros) is being expanded across Uttarakhand." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "A Glacial Lake Outburst Flood (GLOF) refers to:", "options": ["A monsoon-season river flood", "A sudden, catastrophic release of water from a glacial lake", "Annual snowmelt in spring", "A man-made dam failure only"], "correctIndex": 1, "explanation": "A sudden, catastrophic release of water from a glacial lake.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The World Summit on Disaster Management, where expanded Himalayan monitoring infrastructure was announced, was held in:", "options": ["Shimla", "Dehradun", "Gangtok", "Srinagar"], "correctIndex": 1, "explanation": "Dehradun (November 2025).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "How many automatic weather stations were announced as part of expanded Himalayan monitoring infrastructure?", "options": ["42", "82", "142", "182"], "correctIndex": 2, "explanation": "142.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The 'Nowcast' alert system, being expanded across Uttarakhand, provides a forecast for how many hours ahead?", "options": ["1 hour", "3 hours", "6 hours", "24 hours"], "correctIndex": 1, "explanation": "3 hours.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "GLOF risk is increasing primarily due to:", "options": ["Increased rainfall only", "Climate-change-driven glacier recession forming/expanding glacial lakes", "Deforestation", "Increased tourism"], "correctIndex": 1, "explanation": "Climate-change-driven glacier recession.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

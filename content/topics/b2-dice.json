@@ -1,0 +1,29 @@
+{
+  "topicId": "b2-dice",
+  "unitId": "B-II",
+  "name": "Dice",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 6 real past-paper dice/cube questions, sourced with exam-year tags (Group 1/VAO/Group 4, 2013-2025)" },
+    { "type": "web-research", "label": "tnpscguru.in - dice probability questions, stashed earlier and used here" }
+  ],
+  "researchNotes": "Strong evidence — the source page tagged each question with its actual originating exam and year (Group 1 2014/2024/2025, VAO 2014, Group 4 2013), giving real confidence these are genuine past papers even though they're hosted on a coaching aggregator rather than found directly in the local question bank. Two distinct shapes: cube-net 'opposite face' puzzles (three views → deduce a hidden pairing) and dice-probability questions (treated as a Dice sub-topic since they involve the same physical object, even though probability itself is a different mathematical skill).",
+  "reading": {
+    "intro": "Dice is 1 of 6 named Reasoning skills. Real exam evidence (explicitly tagged by source year, 2013-2025) shows two distinct shapes: opposite-face deduction from multiple cube views, and dice-throw probability.",
+    "qa": [
+      { "id": "r01", "question": "Foundational rule: On a standard die, what do opposite faces always sum to, and why does this matter for solving these puzzles?", "answer": "Opposite faces always sum to 7 (1-6, 2-5, 3-4) on a STANDARD die — but TNPSC dice puzzles often use lettered or non-standard-numbered faces specifically to stop you from relying on this shortcut, forcing you to actually deduce relationships from the given views instead." },
+      { "id": "r02", "question": "Method — deducing an opposite face from adjacency information: If face 2 is adjacent to faces 3, 5, and 6, what must be true about face 1's relationship to face 4?", "answer": "Since 2 is adjacent to 3, 5, and 6, those three faces can't be opposite 2 — leaving only 1 or 4 as 2's possible opposite. With four faces (3,5,6, and whichever of 1/4 is also adjacent) surrounding face 2, the remaining face must be its opposite, and separately, on a standard 6-face die, this kind of constraint typically forces 1 and 4 to be adjacent to each other (since they're not the 2-pair) — real exam answer: '1 is necessarily adjacent to 4.'" },
+      { "id": "r03", "question": "Method — three views of a cube → find the opposite face: Three pictures of the same cube show different combinations of visible letters/numbers. How do you find what's opposite a given face?", "answer": "A face that appears on multiple different views, each time paired with DIFFERENT other visible faces, helps you eliminate possibilities — any face that has been seen adjacent to your target face (in ANY view) cannot be its opposite. Whatever face is never seen adjacent to it across all views is the opposite face." },
+      { "id": "r04", "question": "Method — probability of a sum from two dice: What is the probability of getting a prime-number sum when throwing two dice?", "answer": "Possible sums range 2-12 (36 total equally likely outcomes from 6×6). Prime sums possible: 2,3,5,7,11. Count outcomes for each: sum=2(1 way),3(2),5(4),7(6),11(2) = 15 outcomes. Probability = 15/36." },
+      { "id": "r05", "question": "Method — basic single-die probability: What is the probability of throwing a number greater than 4 on a single die?", "answer": "Numbers greater than 4 on a standard die: 5 and 6 — that's 2 out of 6 outcomes. Probability = 2/6 = 1/3." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "On a standard die, the numbers on opposite faces always sum to:", "options": ["6", "7", "8", "9"], "correctIndex": 1, "explanation": "7 (1-6, 2-5, 3-4).", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What is the probability of getting a sum of 7 when two dice are thrown?", "options": ["1/12", "1/9", "1/6", "1/4"], "correctIndex": 2, "explanation": "6 ways to make 7 out of 36 total outcomes: 6/36=1/6.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What is the probability of throwing an odd number on a single die?", "options": ["1/6", "1/3", "1/2", "2/3"], "correctIndex": 2, "explanation": "Odd numbers (1,3,5) = 3 of 6 outcomes = 1/2.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m04", "prompt": "If face 1 is adjacent to faces 2, 3, 4, and 5 on a die, which face must be opposite face 1?", "options": ["2", "3", "4", "6"], "correctIndex": 3, "explanation": "Since 2,3,4,5 are all adjacent to 1, the only remaining face (6) must be opposite it.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What is the probability of getting a sum greater than 10 when two dice are thrown?", "options": ["1/36", "1/12", "1/9", "1/6"], "correctIndex": 1, "explanation": "Sums >10 means 11 (2 ways) or 12 (1 way) = 3 outcomes out of 36 = 1/12.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

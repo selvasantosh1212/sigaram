@@ -1,0 +1,30 @@
+{
+  "topicId": "a3-current-affairs-4",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (4): 150 Years of Vande Mataram",
+  "sourceRefs": [
+    { "type": "web-research", "label": "pmindia.gov.in/britannica.com/vandemataram150.in - 150th anniversary commemoration of Vande Mataram (2025-26); Republic Day 2026 theme; song's National Movement history" }
+  ],
+  "researchNotes": "Fourth History/National-Movement current-affairs topic (4th lap). A strong fit for this unit specifically — the dated 2025-26 commemoration anchors a deep dive into the song's actual National Movement history (Swadeshi movement, 1905 anti-partition protests), tying current affairs directly back to core syllabus content rather than being a standalone disconnected fact.",
+  "reading": {
+    "intro": "Covers the year-long 150th-anniversary commemoration of 'Vande Mataram' (2025-26) and the song's real history within the Indian National Movement.",
+    "qa": [
+      { "id": "r01", "question": "What nationwide commemoration began on 7 November 2025, and how long does it run?", "answer": "A year-long commemoration of 150 years of 'Vande Mataram', running from 7 November 2025 to 7 November 2026 — approved by the Union Cabinet to connect citizens, especially youth and students, with the song's revolutionary spirit." },
+      { "id": "r02", "question": "What was the theme of Republic Day 2026, and which anniversary did it mark?", "answer": "Republic Day 2026's theme was '150 Years of Vande Mataram' — marking the 77th anniversary of India's Constitution." },
+      { "id": "r03", "question": "Who composed 'Vande Mataram', when, and in which work did it first appear in print?", "answer": "Bankim Chandra Chatterjee composed it in 1876 (in Bengali and Sanskrit); it was featured in his 1882 novel 'Anandamath', which is how it became widely known." },
+      { "id": "r04", "question": "When and by whom was 'Vande Mataram' first sung at an Indian National Congress session?", "answer": "28 September 1896, at the INC session in Calcutta, sung by Rabindranath Tagore." },
+      { "id": "r05", "question": "When did 'Vande Mataram' first become a political slogan, and in connection with which movement?", "answer": "7 August 1905, during student processions at Calcutta Town Hall — becoming the rallying cry of the Swadeshi movement and the protest against the Partition of Bengal." },
+      { "id": "r06", "question": "What is 'Vande Mataram's official constitutional status in India today?", "answer": "It is India's National SONG (not the National Anthem — that is 'Jana Gana Mana') — given equal status with the National Anthem when India became a Republic in 1950." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The 150th-anniversary commemoration of 'Vande Mataram' runs from 7 November 2025 to:", "options": ["7 November 2026", "26 January 2026", "15 August 2026", "7 August 2026"], "correctIndex": 0, "explanation": "7 November 2026 (a year-long commemoration).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Republic Day 2026's theme was:", "options": ["75 Years of the Constitution", "150 Years of Vande Mataram", "Amrit Kaal", "Digital India @10"], "correctIndex": 1, "explanation": "150 Years of Vande Mataram.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "'Vande Mataram' was composed by Bankim Chandra Chatterjee in 1876, and later featured in his novel:", "options": ["Durgeshnandini", "Anandamath", "Devi Chaudhurani", "Kapalkundala"], "correctIndex": 1, "explanation": "Anandamath (1882).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "'Vande Mataram' was first sung at an Indian National Congress session (Calcutta, 28 September 1896) by:", "options": ["Bankim Chandra Chatterjee", "Rabindranath Tagore", "Subhas Chandra Bose", "Aurobindo Ghosh"], "correctIndex": 1, "explanation": "Rabindranath Tagore.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "'Vande Mataram' became a political slogan/rallying cry of which movement, starting 7 August 1905?", "options": ["Non-Cooperation Movement", "Quit India Movement", "Swadeshi Movement (anti-Partition of Bengal)", "Civil Disobedience Movement"], "correctIndex": 2, "explanation": "Swadeshi Movement, protesting the Partition of Bengal.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "'Vande Mataram' holds what official status in India, distinct from the National Anthem?", "options": ["It is the National Anthem itself", "It is the National Song", "It has no official status", "It is only a state song of West Bengal"], "correctIndex": 1, "explanation": "The National Song (Jana Gana Mana is the National Anthem).", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

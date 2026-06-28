@@ -1,0 +1,27 @@
+{
+  "topicId": "a3-current-affairs-3",
+  "unitId": "A-III",
+  "name": "Current Affairs in History (3): India's 2nd Astronaut & the Mughal 500th Anniversary",
+  "sourceRefs": [
+    { "type": "web-research", "label": "Wikipedia/oneindia.com - Shubhanshu Shukla's June 2025 spaceflight (Axiom Mission-4); Mughal Empire's 500th anniversary (1526-2026)" }
+  ],
+  "researchNotes": "Third History current-affairs topic (3rd lap). The Shubhanshu Shukla fact is unusually valuable: it's a genuine historic FIRST/SECOND (India's 2nd-ever astronaut, 41 years after the first), cleanly dated, and naturally bridges History and Science — exactly the kind of durable 'current affairs become permanent history' fact this rotation track is meant to capture.",
+  "reading": {
+    "intro": "Covers a genuine historic milestone — India's second-ever astronaut — and a major historical commemoration: the Mughal Empire's 500th founding anniversary.",
+    "qa": [
+      { "id": "r01", "question": "Who became the SECOND Indian to travel to space, when, and how?", "answer": "Wing Commander Shubhanshu Shukla, on 25 June 2025 — flying to the International Space Station (ISS) aboard SpaceX's Axiom Mission-4." },
+      { "id": "r02", "question": "Who was the FIRST Indian to travel to space, and when, for context?", "answer": "Rakesh Sharma, in 1984, aboard the Soviet Soyuz T-11 — meaning Shubhanshu Shukla's 2025 flight came 41 years after India's first astronaut." },
+      { "id": "r03", "question": "What major historical anniversary falls in 2026, and what does it mark?", "answer": "The 500th anniversary of the founding of the Mughal Empire — founded on 21 April 1526 (following Babur's victory at the First Battle of Panipat). The empire's architectural legacy includes the Taj Mahal, Agra Fort, and Red Fort." },
+      { "id": "r04", "question": "What was 'Sewa Parv 2025', organised by the Ministry of Culture?", "answer": "A cultural initiative held 17 September - 2 October 2025, featuring art workshops at 75 locations across India." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Who became the second Indian to travel to space, on 25 June 2025?", "options": ["Rakesh Sharma", "Shubhanshu Shukla", "Kalpana Chawla", "Sunita Williams"], "correctIndex": 1, "explanation": "Shubhanshu Shukla.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Shubhanshu Shukla travelled to the ISS aboard which mission?", "options": ["Gaganyaan-1", "Axiom Mission-4", "Chandrayaan-4", "Soyuz MS-25"], "correctIndex": 1, "explanation": "Axiom Mission-4 (SpaceX).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Who was the FIRST Indian to travel to space, in 1984?", "options": ["Rakesh Sharma", "Shubhanshu Shukla", "Vikram Sarabhai", "Homi Bhabha"], "correctIndex": 0, "explanation": "Rakesh Sharma.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "The year 2026 marks the 500th anniversary of the founding of which empire?", "options": ["Maratha Empire", "Mughal Empire", "Vijayanagara Empire", "Chola Empire"], "correctIndex": 1, "explanation": "Mughal Empire (founded 1526).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The Mughal Empire was founded in 1526, following Babur's victory at:", "options": ["The Battle of Plassey", "The First Battle of Panipat", "The Battle of Haldighati", "The Battle of Talikota"], "correctIndex": 1, "explanation": "The First Battle of Panipat.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

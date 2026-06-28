@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/.tools/
+/tools/page-images/
+/tools/ocr-output/
+
+# study-tracker runtime state (personal progress data, not source content)
+/data/*.db
+/data/*.db-*
+
+# duplicate backup of public/day-pdfs, not needed in source control
+/backup-pdfs/
+
+# tesseract OCR model, only used by local content-generation scripts
+/eng.traineddata

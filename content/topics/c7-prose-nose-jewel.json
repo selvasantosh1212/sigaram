@@ -1,0 +1,33 @@
+{
+  "topicId": "c7-prose-nose-jewel",
+  "unitId": "C-VII",
+  "name": "Prose: \"The Nose Jewel\" — C. Rajagopalachari",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2022_q page 19 Q69 (Ramayya's wife notices the jewel while sweeping the floor, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set (6 more questions); rishiupsc.com - plot summary" }
+  ],
+  "researchNotes": "1 real past-paper hit plus a clean 6-question web-research set, fully consistent with each other. A fable-style moral story told partly through a pair of sparrows observing a poor but honest household — distinct in style from most other Unit VII pieces (talking-animal narrator device, like a Panchatantra-style tale).",
+  "reading": {
+    "intro": "A moral fable about Ramayya, a poor but honest man, told partly through the eyes of two sparrows nesting in his roof — one compassionate, one indifferent — who find a lost diamond nose-stud, setting up a test of Ramayya's honesty when his wife discovers it.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Nose Jewel\", and who is Ramayya?", "answer": "C. Rajagopalachari. Ramayya is a simple, poor-but-respectable man living in a modest tiled-roof house with his wife." },
+      { "id": "r02", "question": "What do the two sparrows nesting in Ramayya's roof represent, and how do their attitudes toward helping him differ?", "answer": "The male sparrow is compassionate, asking 'Should we not help this poor Ramayya?' The female sparrow is dismissive/indifferent, telling him not to concern himself with matters that don't involve them, and to focus only on protecting their nest from the cat." },
+      { "id": "r03", "question": "What did the male sparrow find, where, and what did he do with it?", "answer": "A diamond nose-stud, found in a muck-heap. He picked it up in his beak, brought it to Ramayya's house, and dropped it on the floor." },
+      { "id": "r04", "question": "Real exam: When/how did Ramayya's wife notice the jewel, and how did she feel?", "answer": "While sweeping the floor — confirmed by a real exam question. She felt DELIGHTED upon finding it." },
+      { "id": "r05", "question": "What did Ramayya suggest doing with the nose-stud, and whose was it?", "answer": "He suggested RETURNING it to its rightful owner rather than keeping it — reflecting his honesty despite his poverty. The stud belonged to Meenakshi Ammal's daughter, who had lost it." },
+      { "id": "r06", "question": "How did the female sparrow react to the jewel once it was brought to the nest/house?", "answer": "With indifference — she remained unimpressed/uninterested, consistent with her earlier dismissive attitude toward helping Ramayya at all." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Nose Jewel\" was written by:", "options": ["Munshi Premchand", "C. Rajagopalachari", "R.K. Narayan", "Ruskin Bond"], "correctIndex": 1, "explanation": "C. Rajagopalachari.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "How did the female sparrow react to the diamond nose-stud?", "options": ["She was excited", "She was indifferent", "She was angry", "She was curious"], "correctIndex": 1, "explanation": "She was indifferent.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Where did the male sparrow drop the diamond stud?", "options": ["In the nest", "In a bowl", "On the floor", "On a shelf"], "correctIndex": 2, "explanation": "On the floor.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Who found the diamond stud in Ramayya's house?", "options": ["Ramayya himself", "Ramayya's wife", "The maid-servant", "The village magistrate"], "correctIndex": 1, "explanation": "Ramayya's wife.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Real exam: When did Ramayya's wife notice the jewel?", "options": ["While sweeping the floor", "While washing the floor", "While dusting the floor", "While mopping the floor"], "correctIndex": 0, "explanation": "While sweeping the floor.", "sourceTag": "question-bank-2022", "difficulty": "hard" },
+      { "id": "m06", "prompt": "How did Ramayya's wife feel when she found the diamond stud?", "options": ["Delighted", "Disappointed", "Anxious", "Indifferent"], "correctIndex": 0, "explanation": "Delighted.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "What did Ramayya suggest doing with the nose-stud?", "options": ["Keeping it", "Returning it to the owner", "Hiding it", "Selling it"], "correctIndex": 1, "explanation": "Returning it to the owner.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Who had originally lost the nose-stud?", "options": ["Meenakshi Ammal's daughter", "The village headman's wife", "The maid-servant", "The shopkeeper"], "correctIndex": 0, "explanation": "Meenakshi Ammal's daughter.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "topicId": "a3-current-affairs-6",
+  "unitId": "A-III",
+  "name": "Current Affairs in History & National Movement (6): India's 44th UNESCO World Heritage Site & Tentative List Expansion",
+  "sourceRefs": [
+    { "type": "web-research", "label": "usthadian.com/vajiramandravi.com - Maratha Military Landscapes (UNESCO 2025); India's 44-site UNESCO total (2026); 7 new sites added to UNESCO Tentative List" }
+  ],
+  "researchNotes": "Sixth History current-affairs topic (6th lap). The Maratha Military Landscapes inscription directly extends Maratha Empire history (a core Part A History topic elsewhere in the project) with a genuinely recent (2025) international recognition.",
+  "reading": {
+    "intro": "Covers India's most recent UNESCO World Heritage Site inscription and the expansion of India's UNESCO Tentative List.",
+    "qa": [
+      { "id": "r01", "question": "How many UNESCO World Heritage Sites does India have as of 2026, and how are they categorised?", "answer": "44 sites total — 36 cultural, 7 natural, and 1 mixed site — making India the 6th highest-ranked country globally for UNESCO sites." },
+      { "id": "r02", "question": "What was India's most recent UNESCO World Heritage Site inscription (2025), and what does it comprise?", "answer": "The Maratha Military Landscapes — a network of 12 historic forts linked to the Maratha Empire, inscribed in 2025." },
+      { "id": "r03", "question": "Which site was inscribed in 2024, just before the Maratha Military Landscapes?", "answer": "Assam's Moidams (the mound-burial system of the Ahom dynasty)." },
+      { "id": "r04", "question": "What recent addition was made to India's UNESCO Tentative List, and what did it bring the total to?", "answer": "7 new natural heritage sites were added, raising India's Tentative List tally from 62 to 69. The 7 sites: Deccan Traps at Panchgani and Mahabaleshwar (Maharashtra), St. Mary's Island Cluster (Karnataka), Meghalayan Age Caves (Meghalaya), Naga Hill Ophiolite (Nagaland), Erra Matti Dibbalu (Andhra Pradesh), Natural Heritage of Tirumala Hills (Andhra Pradesh), and Varkala Cliffs (Kerala)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "As of 2026, India has how many UNESCO World Heritage Sites in total?", "options": ["40", "42", "44", "46"], "correctIndex": 2, "explanation": "44 (36 cultural, 7 natural, 1 mixed).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "India's most recent (2025) UNESCO World Heritage Site inscription, the 'Maratha Military Landscapes', comprises how many historic forts?", "options": ["8", "10", "12", "15"], "correctIndex": 2, "explanation": "12 forts.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Which UNESCO site, inscribed in 2024, relates to the Ahom dynasty's mound-burial system?", "options": ["Moidams, Assam", "Khangchendzonga National Park", "Rani-ki-Vav", "Kaziranga National Park"], "correctIndex": 0, "explanation": "Moidams, Assam.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The recent addition of 7 new natural heritage sites raised India's UNESCO Tentative List total from 62 to:", "options": ["65", "67", "69", "71"], "correctIndex": 2, "explanation": "69.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "India ranks where globally in total number of UNESCO World Heritage Sites?", "options": ["3rd", "4th", "5th", "6th"], "correctIndex": 3, "explanation": "6th highest-ranked.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

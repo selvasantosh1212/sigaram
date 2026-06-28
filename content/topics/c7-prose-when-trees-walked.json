@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-prose-when-trees-walked",
+  "unitId": "C-VII",
+  "name": "Prose: \"When the Trees Walked\" — Ruskin Bond",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" },
+    { "type": "general", "label": "Ruskin Bond honoured with the Sahitya Akademi Award (cross-referenced from Day 36's stash)" }
+  ],
+  "researchNotes": "OCR index search for 'trees walked' returned zero hits — web research only, but a clean, internally consistent 12-question set across 2 source pages. Reuses the already-confirmed 'Ruskin Bond — Sahitya Akademi Award' fact from Day 36 rather than re-deriving it.",
+  "reading": {
+    "intro": "A nostalgic story about the narrator's Grandfather, a retired Indian Forest Service officer settled in the fertile Doon Valley, whose deep love for trees and planting is illustrated through a curious vine tendril, several fruit trees, and his decision to spare a peepul tree growing through an old outhouse wall.",
+    "qa": [
+      { "id": "r01", "question": "Who is sitting with the narrator on the veranda steps, and what is his professional background?", "answer": "The narrator's Grandfather, a retired officer of the Indian Forest Service, who built his bungalow on the outskirts of Dehradun (Doon Valley) after retirement." },
+      { "id": "r02", "question": "What curious thing does the narrator notice near the steps, and how long does it take to reach Grandfather's feet?", "answer": "A tendril of a vine, slowly growing toward Grandfather — it takes about 20 minutes to reach his feet." },
+      { "id": "r03", "question": "What explanation does the narrator suggest for the tendril's movement toward Grandfather, and what reason does the narrator prefer to believe instead?", "answer": "The suggested scientific explanation is that the vine is moving toward light and warmth. But the narrator prefers to believe (more fancifully) that the tendril simply wanted to be near Grandfather." },
+      { "id": "r04", "question": "What kind of climate does the Doon Valley have, and which fruit trees did Grandfather plant there?", "answer": "A fertile climate. Grandfather planted Lime, Mango, Orange, and Guava trees." },
+      { "id": "r05", "question": "What tree grew through the wall of an abandoned outhouse, and why was it not cut down?", "answer": "A Peepul tree grew through the wall. It was not cut down because Grandfather liked it." },
+      { "id": "r06", "question": "What did Grandfather say instead of ordering the peepul tree to be cut down?", "answer": "\"Let it grow, we'll build another outhouse\" — choosing to accommodate the tree rather than remove it, reflecting his deep respect for trees and nature." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"When the Trees Walked\" was written by:", "options": ["Ruskin Bond", "R.K. Narayan", "Munshi Premchand", "James Thurber"], "correctIndex": 0, "explanation": "Ruskin Bond.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Who is sitting with the narrator on the veranda steps?", "options": ["Grandmother", "Friend", "Grandfather", "Teacher"], "correctIndex": 2, "explanation": "Grandfather.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What did the narrator notice slowly moving near the steps?", "options": ["A dog", "A butterfly", "A tendril of a vine", "A flower pot"], "correctIndex": 2, "explanation": "A tendril of a vine.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "How long did it take the tendril to reach Grandfather's feet?", "options": ["10 minutes", "1 hour", "20 minutes", "5 minutes"], "correctIndex": 2, "explanation": "20 minutes.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What reason does the narrator prefer to believe for the tendril's movement?", "options": ["It wanted sunlight", "It wanted water", "It was escaping insects", "It wanted to be near Grandfather"], "correctIndex": 3, "explanation": "It wanted to be near Grandfather.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Where did Grandfather build his bungalow after retirement?", "options": ["Delhi", "Mumbai", "Ooty", "Doon Valley"], "correctIndex": 3, "explanation": "Doon Valley.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Grandfather had served in which profession before retirement?", "options": ["Postal service", "Indian Forest Service", "Medicine", "Teaching"], "correctIndex": 1, "explanation": "Indian Forest Service.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Which fruit trees did Grandfather plant?", "options": ["Neem and Banyan", "Lime, Mango, Orange, Guava", "Rose and Lily", "Palm and Cedar"], "correctIndex": 1, "explanation": "Lime, Mango, Orange, Guava.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "What tree grew through the wall of an abandoned outhouse?", "options": ["Banyan", "Mango", "Peepul", "Neem"], "correctIndex": 2, "explanation": "Peepul.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "What did Grandfather say instead of cutting down the peepul tree?", "options": ["\"Let's burn it\"", "\"Let it grow, we'll build another outhouse\"", "\"Let's decorate it\"", "\"We can shift it\""], "correctIndex": 1, "explanation": "\"Let it grow, we'll build another outhouse.\"", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

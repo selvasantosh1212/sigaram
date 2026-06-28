@@ -1,0 +1,28 @@
+{
+  "topicId": "a2-current-affairs-4",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography of India (4): India's Ramsar Wetland Sites & Tamil Nadu's Lead",
+  "sourceRefs": [
+    { "type": "web-research", "label": "pib.gov.in/insightsonindia.com - 2 new Ramsar sites announced (Feb 2026); testbook.com/lotusarise.com - India's 100 Ramsar sites and Tamil Nadu's leading count (June 2026)" }
+  ],
+  "researchNotes": "Fourth Geography current-affairs topic (4th lap). Two genuinely consistent dated data points (98 sites in Feb 2026, 100 in June 2026 after 2 more additions) rather than the conflicting-statistics problem flagged at Day 58 — confirmed this progression makes sense before using both numbers together.",
+  "reading": {
+    "intro": "Covers India's expanding Ramsar Wetland network and Tamil Nadu's leading position in it — a natural Geography-meets-TN current-affairs topic.",
+    "qa": [
+      { "id": "r01", "question": "What 2 new Ramsar wetland sites did India add ahead of World Wetlands Day 2026 (2 February), and where are they?", "answer": "Patna Bird Sanctuary (Etah district, Uttar Pradesh — established 1991, 108 hectares, 300+ bird species) and Chhari Dhand Wetland Reserve (Kutch district, Gujarat — a seasonal desert wetland between the Banni grasslands and the Rann of Kutch, home to migratory birds including the Dalmatian Pelican)." },
+      { "id": "r02", "question": "How many Ramsar sites did India have immediately after this February 2026 addition, and what expansion does this represent since 2014?", "answer": "98 Ramsar sites — a 276% expansion since 2014 (when India had only 26)." },
+      { "id": "r03", "question": "As of June 2026, what is India's total Ramsar site count, and which state has the most?", "answer": "100 Ramsar sites nationally (covering ~13,876 sq. km); Tamil Nadu has the most of any state, with 20 sites covering 1,008.81 sq. km." },
+      { "id": "r04", "question": "Name 3 of Tamil Nadu's well-known Ramsar sites.", "answer": "Gulf of Mannar Marine Biosphere Reserve, Vedanthangal Bird Sanctuary, and Pichavaram Mangrove (among TN's 20 total)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which 2 wetlands were added to India's Ramsar list ahead of World Wetlands Day 2026?", "options": ["Vedanthangal & Pichavaram", "Patna Bird Sanctuary & Chhari Dhand Wetland Reserve", "Sundarbans & Chilika Lake", "Gulf of Mannar & Loktak Lake"], "correctIndex": 1, "explanation": "Patna Bird Sanctuary (UP) & Chhari Dhand Wetland Reserve (Gujarat).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Chhari Dhand Wetland Reserve is located in which state?", "options": ["Rajasthan", "Gujarat", "Madhya Pradesh", "Maharashtra"], "correctIndex": 1, "explanation": "Gujarat (Kutch district).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "After the February 2026 addition, India's Ramsar site count reached 98 — representing what expansion since 2014?", "options": ["100%", "150%", "276%", "320%"], "correctIndex": 2, "explanation": "276% expansion since 2014.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "As of June 2026, which state has the highest number of Ramsar sites in India?", "options": ["Uttar Pradesh", "Odisha", "Tamil Nadu", "Gujarat"], "correctIndex": 2, "explanation": "Tamil Nadu (20 sites).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "As of June 2026, Tamil Nadu has how many Ramsar sites?", "options": ["12", "16", "20", "24"], "correctIndex": 2, "explanation": "20.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Which of these is NOT one of Tamil Nadu's Ramsar sites?", "options": ["Gulf of Mannar Marine Biosphere Reserve", "Vedanthangal Bird Sanctuary", "Pichavaram Mangrove", "Chhari Dhand Wetland Reserve"], "correctIndex": 3, "explanation": "Chhari Dhand is in Gujarat, not Tamil Nadu.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "topicId": "c7-prose-visitor-distant-lands",
+  "unitId": "C-VII",
+  "name": "Prose: \"A Visitor from Distant Lands\"",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set (6 questions); samacheerkalvi.guru - full plot summary including the chilli/Columbus backstory" }
+  ],
+  "researchNotes": "OCR index search for 'visitor from distant lands' returned zero hits — web research only. A two-part educational story: a frame narrative about a boy, Mani, refusing to eat potato curry because he believes potatoes are 'foreign', nested around the real historical story of how chillies travelled from South America to India via Christopher Columbus and the Portuguese.",
+  "reading": {
+    "intro": "A story about Mani, a village boy near Senji (Villupuram district), who refuses to eat his favourite potato curry after his teacher tells him potatoes are a 'foreign' vegetable — used as a frame to teach the real history of how New World foods like chillies and potatoes reached India via European exploration and trade.",
+    "qa": [
+      { "id": "r01", "question": "Where is the story set, and who are the two children in it?", "answer": "In a village near Senji, in Villupuram district. The two children are Mani and his sister Selvi." },
+      { "id": "r02", "question": "What food did Mani refuse to eat, and why?", "answer": "Potato curry (his usual favourite dish) — he refused because his TEACHER had told him potatoes are a foreign vegetable, and he wanted to eat only locally-grown food." },
+      { "id": "r03", "question": "Where did Mani's mother get the potatoes from?", "answer": "From the market." },
+      { "id": "r04", "question": "What is the real historical story of the chilli, told within this lesson?", "answer": "Chillies originally grew only in South America, unknown to the rest of the world. Christopher Columbus — while actually searching for a sea route to India to buy black pepper — instead reached South America and discovered the chilli there. Chillies were later brought to India by the Portuguese, first arriving in Goa, where local cooks began incorporating this new spice into their cuisine." },
+      { "id": "r05", "question": "What spice did Indian cooking commonly rely on BEFORE chillies arrived?", "answer": "Black pepper." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Where is the story \"A Visitor from Distant Lands\" set?", "options": ["Chennai", "A village near Senji, Villupuram", "Madurai", "Salem"], "correctIndex": 1, "explanation": "A village near Senji, Villupuram district.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Who are the two children in the story?", "options": ["Ravi and Radha", "Mani and Selvi", "Karthik and Meena", "Vasu and Vani"], "correctIndex": 1, "explanation": "Mani and Selvi.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What food did Mani refuse to eat?", "options": ["Rice", "Dosa", "Potato curry", "Tomato soup"], "correctIndex": 2, "explanation": "Potato curry.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Why did Mani say he wouldn't eat potatoes?", "options": ["They were overcooked", "He was not hungry", "They were foreign vegetables", "He didn't like the taste"], "correctIndex": 2, "explanation": "They were foreign vegetables.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Who told Mani that potatoes are foreign vegetables?", "options": ["His mother", "His friend", "His teacher", "His grandfather"], "correctIndex": 2, "explanation": "His teacher.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Where did Mani's mother get the potatoes from?", "options": ["Her garden", "The market", "A farm", "The forest"], "correctIndex": 1, "explanation": "The market.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Christopher Columbus, while searching for a sea route to India to buy which spice, instead discovered South America and the chilli?", "options": ["Cinnamon", "Black pepper", "Cloves", "Cardamom"], "correctIndex": 1, "explanation": "Black pepper.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Who brought chillies to India, and where did they first arrive?", "options": ["The British, in Madras", "The Portuguese, in Goa", "The French, in Pondicherry", "The Dutch, in Kerala"], "correctIndex": 1, "explanation": "The Portuguese, in Goa.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

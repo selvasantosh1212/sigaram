@@ -1,0 +1,39 @@
+{
+  "topicId": "c1-articles-subject-verb-agreement",
+  "unitId": "C-I",
+  "name": "Grammar: Articles, Subject-Verb Agreement (Concord), and Question Tags",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC Concord MCQ sets (12 questions total)" },
+    { "type": "question-bank", "label": "2025_q page 146 Q194; 2022_q page 23 Q86, page 25 Q94-95; 2025_q page 137 Q166 (real, with answer key marks)" }
+  ],
+  "researchNotes": "Eleventh and truly final Grammar topic — a round-up combining several small evidence clusters stashed across Days 74-77 that didn't fit neatly into earlier topics. Subject-verb agreement evidence clusters around 'notional singular' subjects that LOOK plural/compound but take a singular verb (collective nouns, amounts of money/time treated as a single unit, 'mathematics'-type subjects, 'each/neither/one of' constructions) — this is the single most-tested pattern in the real evidence. With this, Part C Unit I (Grammar) is genuinely exhausted at 11 topics.",
+  "reading": {
+    "intro": "The dominant real-exam pattern here: many subjects LOOK plural or compound but are grammatically treated as singular ('Mathematics is...', 'Ten dollars is...', 'Each of the boys was...', 'Neither of the books is...') — don't just count nouns, check the actual grammatical rule.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: \"The list of items ___ on the desk.\" Which verb form is correct, and why?", "answer": "Is — the subject is 'The list' (singular), not 'items' (the noun closest to the verb); 'of items' is just a modifying phrase." },
+      { "id": "r02", "question": "Real exam: \"Either Ram or his brothers ___ coming today.\" Which verb form is correct, and why?", "answer": "Are — with 'either...or'/'neither...nor', the verb agrees with the subject CLOSEST to it ('his brothers', plural), not the first-named subject." },
+      { "id": "r03", "question": "Real exam: \"Everyone ___ ready for the exam\" and \"One of my friends ___ a pilot.\" Which verb forms are correct?", "answer": "Everyone IS ready (indefinite pronouns like everyone/everybody/everything are always singular). One of my friends IS a pilot ('one' is the true subject, not 'friends')." },
+      { "id": "r04", "question": "Real exam: \"Mathematics ___ a difficult subject\" and \"Ten dollars ___ not enough.\" Which verb forms are correct, and why?", "answer": "Mathematics IS a difficult subject (subjects ending in '-ics' naming a single field of study are singular, despite looking plural). Ten dollars IS not enough (a sum of money/time/distance treated as ONE single amount takes a singular verb)." },
+      { "id": "r05", "question": "Real exam: \"Neither the teacher nor the students ___ present.\" Which verb form is correct?", "answer": "Were — again, the verb agrees with the NEARER subject ('the students', plural), not 'the teacher' (singular)." },
+      { "id": "r06", "question": "Real exam: \"The quality of the apples ___ not good\" and \"Neither of the books ___ interesting.\" Which verb forms are correct?", "answer": "The quality IS not good (subject is 'quality', singular — 'of the apples' is just a modifying phrase). Neither of the books IS interesting ('neither'/'either' are always singular, regardless of what follows 'of')." },
+      { "id": "r07", "question": "Real exam: \"Each of the boys ___ given a gift.\" Which verb form is correct?", "answer": "Was — 'each' (like 'every') is always singular, regardless of the plural noun that follows ('of the boys')." },
+      { "id": "r08", "question": "Real exam: which sentence has an error in subject-verb agreement — 'The team has been working hard' / 'Time and tide waits for no man' / 'She don't have a pen' / 'He doesn't come outside nowadays'?", "answer": "'She don't have a pen' is wrong — it should be 'She DOESN'T have a pen' (third-person singular subject 'she' requires 'doesn't', not 'don't')." },
+      { "id": "r09", "question": "Real exam: fill the blank with the correct article: \"I saw ___ one rupee coin lying on the ground.\"", "answer": "A (not 'an') — because 'one' starts with a consonant SOUND (/w/), the same sound-based rule as 'a university'/'an hour'. Articles follow the SOUND of the next word, not its spelling." },
+      { "id": "r10", "question": "Real exam: why should \"He is a MLA\" be corrected to \"He is an MLA\"?", "answer": "Because 'M' is pronounced 'em' — a vowel SOUND — even though 'M' is a consonant letter. Same sound-based rule as the previous question, applied in the opposite direction." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The list of items ___ on the desk.\"", "options": ["are", "is", "were", "being"], "correctIndex": 1, "explanation": "is.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "\"Either Ram or his brothers ___ coming today.\"", "options": ["is", "was", "are", "has"], "correctIndex": 2, "explanation": "are (agrees with the nearer subject 'his brothers').", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"Everyone ___ ready for the exam.\"", "options": ["are", "is", "were", "be"], "correctIndex": 1, "explanation": "is.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "\"Mathematics ___ a difficult subject.\"", "options": ["are", "is", "were", "have"], "correctIndex": 1, "explanation": "is.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"Ten dollars ___ not enough.\"", "options": ["are", "is", "were", "have"], "correctIndex": 1, "explanation": "is.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Neither the teacher nor the students ___ present.\"", "options": ["is", "was", "were", "has"], "correctIndex": 2, "explanation": "were (agrees with the nearer subject 'the students').", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "\"Each of the boys ___ given a gift.\"", "options": ["were", "have", "was", "are"], "correctIndex": 2, "explanation": "was.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Which sentence has an error in subject-verb agreement?", "options": ["The team has been working hard.", "Time and tide waits for no man.", "She don't have a pen.", "He doesn't come outside nowadays."], "correctIndex": 2, "explanation": "She don't have a pen (should be 'doesn't').", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m09", "prompt": "\"I saw ___ one rupee coin lying on the ground.\"", "options": ["a", "an", "the", "no article needed"], "correctIndex": 0, "explanation": "a (one starts with consonant sound /w/).", "sourceTag": "question-bank-2022", "difficulty": "hard" },
+      { "id": "m10", "prompt": "Which is correct: \"He is a MLA\" or \"He is an MLA\"? Why?", "options": ["'a MLA' — M is a consonant letter", "'an MLA' — M is pronounced 'em', a vowel sound", "Either is acceptable", "'the MLA' is required instead"], "correctIndex": 1, "explanation": "'an MLA' — M is pronounced 'em', a vowel sound.", "sourceTag": "question-bank-2025", "difficulty": "medium" }
+    ]
+  }
+}

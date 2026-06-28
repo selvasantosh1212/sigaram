@@ -1,0 +1,29 @@
+{
+  "topicId": "c7-poem-memories-of-my-dad",
+  "unitId": "C-VII",
+  "name": "Poem: \"Memories of My Dad\" — Rebecca D. Cook",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" }
+  ],
+  "researchNotes": "OCR index search for 'memories of my dad'/'rebecca cook' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept since each tests a distinct fact/device.",
+  "reading": {
+    "intro": "A daughter's loving tribute to her father, recalling small everyday acts of paternal affection. Real coaching-site evidence tests theme, specific-line meaning, and one key figure-of-speech distinction (metaphor vs. simile).",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Memories of My Dad\", and what is its central subject?", "answer": "Rebecca D. Cook. Central subject: paternal affection and respect — a daughter's loving memories of her father's everyday acts of care." },
+      { "id": "r02", "question": "What does \"He wasn't a hero known by the world\" suggest?", "answer": "He held heroic status only for his child — he wasn't famous or publicly celebrated, but was a hero specifically within his own family's eyes." },
+      { "id": "r03", "question": "Identify the figure of speech: \"My daddy was God.\"", "answer": "Metaphor — a direct comparison WITHOUT using 'like' or 'as' (which would make it a simile instead). Calling him 'God' outright, rather than 'like God', is the key distinguishing feature." },
+      { "id": "r04", "question": "What does \"Better than Santa\" convey?", "answer": "Happiness through genuine, heartfelt gestures — not about giving more expensive material gifts, but about the sincerity and warmth behind her father's care, which meant more than any Santa-style material giving." },
+      { "id": "r05", "question": "What does \"I knew his voice before I could speak\" communicate?", "answer": "A strong emotional bond established in infancy — the connection with her father existed even before she had language, showing how foundational and early that bond was." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Memories of My Dad\" was written by:", "options": ["Emily Dickinson", "Maya Angelou", "Rebecca D. Cook", "Sarojini Naidu"], "correctIndex": 2, "explanation": "Rebecca D. Cook.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The poem's primary subject matter is:", "options": ["Natural imagery and seasonal change", "Youthful pastimes", "Paternal affection and respect", "Disagreement and resolution"], "correctIndex": 2, "explanation": "Paternal affection and respect.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "\"He wasn't a hero known by the world\" suggests that the father:", "options": ["Lacked any admirable qualities", "Achieved nothing significant in life", "Held heroic status only for his child", "Actively rejected public recognition"], "correctIndex": 2, "explanation": "He was a hero specifically to his child, not publicly famous.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"My daddy was God\" is an example of which figure of speech (as opposed to a simile)?", "options": ["Comparison using 'like' or 'as'", "Direct comparison without those words", "Giving human qualities to non-human things", "Repeated consonant sounds"], "correctIndex": 1, "explanation": "Metaphor — a direct comparison without 'like/as'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The reference to being \"Better than Santa\" conveys:", "options": ["Superior material gifts", "Supernatural present-giving ability", "Happiness through genuine, heartfelt gestures", "A description of his clothing"], "correctIndex": 2, "explanation": "Happiness through genuine, heartfelt gestures, not material wealth.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"I knew his voice before I could speak\" communicates:", "options": ["A purely mental/intellectual connection", "A strong emotional bond established in infancy", "His unusually loud voice", "Her reluctance to communicate verbally"], "correctIndex": 1, "explanation": "A strong emotional bond formed from infancy.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

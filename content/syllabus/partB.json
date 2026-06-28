@@ -1,0 +1,10 @@
+{
+  "id": "B",
+  "name": "Aptitude and Mental Ability",
+  "standard": "SSLC Standard",
+  "questionCount": 25,
+  "units": [
+    { "id": "B-I", "number": "I", "name": "Aptitude", "questionCount": 15 },
+    { "id": "B-II", "number": "II", "name": "Reasoning", "questionCount": 10 }
+  ]
+}

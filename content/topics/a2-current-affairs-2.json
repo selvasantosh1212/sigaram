@@ -1,0 +1,31 @@
+{
+  "topicId": "a2-current-affairs-2",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography (2): River Interlinking & Water Infrastructure",
+  "sourceRefs": [
+    { "type": "web-research", "label": "PIB/vajiramandravi.com - Ken-Betwa Link Project; National River Interlinking Programme status (as of July 2025); Jal Jeevan Mission coverage" }
+  ],
+  "researchNotes": "Second Geography current-affairs topic (2nd lap). The Ken-Betwa Link Project is a good current-affairs anchor since it has a fixed, citable milestone (first interlinking project to enter implementation) with stable supporting numbers, unlike monthly-revised statistics.",
+  "reading": {
+    "intro": "Covers India's river-interlinking programme — led by the Ken-Betwa Link Project, the first such project to reach implementation — and the Jal Jeevan Mission's rural water-supply progress.",
+    "qa": [
+      { "id": "r01", "question": "What is the Ken-Betwa Link Project (KBLP), and what milestone does it hold?", "answer": "It transfers water from the Ken River (Madhya Pradesh) to the Betwa River (Uttar Pradesh) — both tributaries of the Yamuna. It is the FIRST river-interlinking project under the National Perspective Plan (NPP) to enter the implementation stage, with the Prime Minister laying the foundation stone for its key structure, the Daudhan Dam." },
+      { "id": "r02", "question": "What are the key infrastructure components of the Ken-Betwa Link Project?", "answer": "A 221-km canal, a 2-km tunnel, and the Daudhan Dam." },
+      { "id": "r03", "question": "What benefits is the Ken-Betwa Link Project expected to deliver?", "answer": "Irrigation to 10.62 lakh hectares (8.11 lakh hectares in Madhya Pradesh, 2.51 lakh hectares in Uttar Pradesh); drinking water supply to about 62 lakh people; and generation of 103 MW of hydropower plus 27 MW of solar power." },
+      { "id": "r04", "question": "What is the scale and structure of India's broader National River Interlinking Programme?", "answer": "30 river links identified in total, with a projected cost of ₹5.5 lakh crore — split into the Himalayan Component (14 link projects) and the Peninsular Component (16 link projects). As of July 2025: Pre-Feasibility Reports completed for all 30, Feasibility Reports for 26, and Detailed Project Reports for 11." },
+      { "id": "r05", "question": "What is the Jal Jeevan Mission, and what is its current coverage/timeline status?", "answer": "Launched in 2019 to provide rural households with tap water connections; by June 2026 it had reached about 15.86 crore households (81.94% of rural homes) — the mission has been EXTENDED till 2028 to achieve universal rural tap water coverage." },
+      { "id": "r06", "question": "What recent urban-mobility infrastructure milestone did Kochi achieve?", "answer": "Kochi became the first Indian city to launch a Water Metro Project, integrating inland water transport with urban mobility." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Ken-Betwa Link Project transfers water between which two rivers (both tributaries of the Yamuna)?", "options": ["Ken and Betwa", "Ganga and Yamuna", "Cauvery and Krishna", "Narmada and Tapi"], "correctIndex": 0, "explanation": "Ken and Betwa.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Ken-Betwa Link Project holds which distinction among India's river-interlinking projects?", "options": ["It is the most expensive", "It is the first to enter the implementation stage", "It is the oldest, dating to 1950", "It links the most number of states"], "correctIndex": 1, "explanation": "First to enter implementation.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What is the key dam structure associated with the Ken-Betwa Link Project?", "options": ["Daudhan Dam", "Tehri Dam", "Hirakud Dam", "Bhakra Dam"], "correctIndex": 0, "explanation": "Daudhan Dam.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "India's National River Interlinking Programme identifies a total of how many river links?", "options": ["16", "20", "30", "44"], "correctIndex": 2, "explanation": "30.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The National River Interlinking Programme's 30 links are split into the Himalayan Component and the:", "options": ["Coastal Component", "Peninsular Component", "Desert Component", "Northeastern Component"], "correctIndex": 1, "explanation": "Peninsular Component.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The Jal Jeevan Mission, aiming for universal rural tap water coverage, was launched in 2019 and has been extended till:", "options": ["2026", "2027", "2028", "2030"], "correctIndex": 2, "explanation": "2028.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Which Indian city became the first to launch a Water Metro Project integrating inland water transport with urban mobility?", "options": ["Mumbai", "Chennai", "Kochi", "Goa"], "correctIndex": 2, "explanation": "Kochi.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "topicId": "c2-collocations-compounds-word-creation",
+  "unitId": "C-II",
+  "name": "Vocabulary: Collocations, Compound Words, Word Creation, and British/American English",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 18 Q31-32 (British/American English swap trap; compound word types, stashed earlier, with answer key)" },
+    { "type": "question-bank", "label": "2022_q page 10 Q32 (Vita+amin=Vitamin, stashed earlier, with answer key)" },
+    { "type": "web-research", "label": "myenglishpages.com - common English collocations (heavy rain, strong tea, make/do/take/have patterns)" }
+  ],
+  "researchNotes": "Seventh and likely final Vocabulary topic, combining 4 related but individually-thin syllabus sub-bullets (Collocations, Word Creation, British/American English, Compound Words) — consuming all remaining stashed Vocabulary facts. This closes out Part C Unit II at 7 topics, slightly under the original ~8-12 estimate but consistent with the same evidence-driven adjustment seen elsewhere in this project.",
+  "reading": {
+    "intro": "Covers four related vocabulary skills: word pairs that naturally 'go together' (collocations), British vs. American English equivalents, how compound words are classified, and how new words form from word-parts.",
+    "qa": [
+      { "id": "r01", "question": "What is a 'collocation', and what are the natural pairings for 'rain' and 'tea' (vs. common incorrect pairings)?", "answer": "A collocation is a pair/group of words that habitually go together in natural English, even if other word choices would seem logically similar. 'HEAVY rain' (not 'strong rain') and 'STRONG tea' (not 'heavy tea') — collocations aren't about logic, they're about convention." },
+      { "id": "r02", "question": "What are some common Verb+Noun collocations using 'make', 'do', 'take', and 'have'?", "answer": "MAKE a decision/a mistake. DO homework/a favour. TAKE a break/a decision (note: 'take a decision' is more British usage; 'make a decision' is more universal). HAVE a break/a cold ('catch a cold' is also common). Mixing these up (e.g., 'do a decision' instead of 'make a decision') is a common error." },
+      { "id": "r03", "question": "Real exam: Which British English words were INCORRECTLY paired with their American English equivalents in a real exam question, and what are the correct pairings?", "answer": "'Courgette' and 'Aubergine' were swapped with their American equivalents. CORRECT pairings: Courgette (BrE) = Zucchini (AmE); Aubergine (BrE) = Eggplant (AmE). (Rocket=Arugula and Fringe=Bangs were correctly paired in that same question.)" },
+      { "id": "r04", "question": "What are the four types of compound words tested in a real exam, with examples?", "answer": "OPEN compound words: written as 2 separate words (e.g., 'ice cream'). CLOSED compound words: written as 1 single word (e.g., 'snowman'). CO-ORDINATIVE/reduplicative compounds: often rhyming or repeated-sound pairs (e.g., 'walkie-talkie'). ADJECTIVE compounds: hyphenated descriptive compounds (e.g., 'blue-eyed')." },
+      { "id": "r05", "question": "Real exam: What word is formed by combining 'Vita' + 'amin'?", "answer": "VITAMIN — confirmed by a real exam question testing word-formation/etymology (Vita = life, related to the Latin 'vita'; 'amin' relates to 'amine', a nitrogen-containing compound — together describing essential life-sustaining nitrogen compounds)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which is the correct collocation for describing rain that falls intensely?", "options": ["Strong rain", "Heavy rain", "Big rain", "Hard rain only"], "correctIndex": 1, "explanation": "Heavy rain.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Which is the correct collocation for tea with a bold, intense taste?", "options": ["Heavy tea", "Strong tea", "Thick tea", "Hard tea"], "correctIndex": 1, "explanation": "Strong tea.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Which verb correctly collocates with 'a decision'?", "options": ["Do a decision", "Make a decision", "Have a decision", "Get a decision done"], "correctIndex": 1, "explanation": "Make a decision.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What is the American English equivalent of the British English word 'Courgette'?", "options": ["Eggplant", "Arugula", "Zucchini", "Bangs"], "correctIndex": 2, "explanation": "Zucchini.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m05", "prompt": "What is the American English equivalent of the British English word 'Aubergine'?", "options": ["Eggplant", "Zucchini", "Arugula", "Bangs"], "correctIndex": 0, "explanation": "Eggplant.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m06", "prompt": "'Ice cream' is an example of which type of compound word?", "options": ["Closed compound", "Open compound", "Co-ordinative compound", "Adjective compound"], "correctIndex": 1, "explanation": "Open compound (written as 2 words).", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m07", "prompt": "'Snowman' is an example of which type of compound word?", "options": ["Closed compound", "Open compound", "Co-ordinative compound", "Adjective compound"], "correctIndex": 0, "explanation": "Closed compound (written as 1 word).", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Combining 'Vita' and 'amin' forms which word?", "options": ["Vaccine", "Vitamin", "Vitality", "Vitalize"], "correctIndex": 1, "explanation": "Vitamin.", "sourceTag": "question-bank-2022", "difficulty": "medium" }
+    ]
+  }
+}

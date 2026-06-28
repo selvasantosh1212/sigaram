@@ -1,0 +1,34 @@
+{
+  "topicId": "c1-punctuation",
+  "unitId": "C-I",
+  "name": "Grammar: Punctuation",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC MCQ sets (Punctuation, 12 questions total)" }
+  ],
+  "researchNotes": "Tenth and final planned Grammar topic — closing out Part C Unit I at 10 topics (slightly above the original ~9 estimate, justified by real evidence density across Day 76-80's unusually rich finds). With this, Part C Units I-VI are now FULLY exhausted, requiring the same kind of post-exhaustion decision already made for Part A's current-affairs rotation.",
+  "reading": {
+    "intro": "Tests correct use of commas (lists, pauses), semicolons (joining related independent clauses), quotation marks (direct speech), apostrophes (possession), periods/question marks (sentence-ending), and colons.",
+    "qa": [
+      { "id": "r01", "question": "Which punctuation mark indicates a pause or break within a sentence, and which ends an imperative sentence?", "answer": "Comma (pause/break within a sentence); Period (ends an imperative/command sentence, e.g., 'Close the door.')." },
+      { "id": "r02", "question": "Which sentence correctly uses a semicolon: 'I have a meeting tomorrow; I'll be late.' / 'I will go to the store, and I will leave.' / 'He went to the store; but she stayed home.'?", "answer": "'I have a meeting tomorrow; I'll be late.' — a semicolon joins 2 related, complete independent clauses WITHOUT a conjunction. ('He went to the store; but she stayed home' is wrong because a semicolon should NOT be followed by a conjunction like 'but' — that's what a comma+conjunction is for.)" },
+      { "id": "r03", "question": "What is the purpose of quotation marks, and how should this sentence be correctly punctuated: She said, I am coming home late.?", "answer": "Quotation marks enclose direct speech/dialogue. Correctly punctuated: She said, \"I am coming home late.\" (comma after 'said', then the exact quoted words inside quotation marks)." },
+      { "id": "r04", "question": "How should a list of 3+ items be correctly punctuated — \"I will bring cake ice cream and drinks\"?", "answer": "I will bring cake, ice cream, and drinks. (Commas separate each item in the list, including before 'and' — the 'Oxford/serial comma' — and 'ice cream' stays as 2 separate words, not hyphenated 'ice-cream'.)" },
+      { "id": "r05", "question": "How should a quoted WH-question within a sentence be punctuated — Where are you going she asked?", "answer": "\"Where are you going?\" she asked. (The question mark goes INSIDE the closing quotation mark, since the question belongs to the quoted speech itself; the sentence as a whole then ends with a period, not a second question mark.)" },
+      { "id": "r06", "question": "Which punctuation mark indicates possession, and which is used to complete: \"I am not sure ___ I will go\"?", "answer": "Apostrophe (possession, e.g., \"Ravi's book\"). For the blank: Semicolon — joining 'I am not sure' and 'I will go' as 2 related clauses without a conjunction." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which of the following is used to indicate a pause or break within a sentence?", "options": ["Colon", "Period", "Comma", "Semicolon"], "correctIndex": 2, "explanation": "Comma.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Which punctuation mark is used at the end of an imperative sentence?", "options": ["Exclamation mark", "Period", "Question mark", "Colon"], "correctIndex": 1, "explanation": "Period.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Which of the following sentences uses a semicolon correctly?", "options": ["I have a meeting tomorrow; I'll be late.", "I will go to the store, and I will leave.", "I will see you tomorrow, and we will talk.", "He went to the store; but she stayed home."], "correctIndex": 0, "explanation": "I have a meeting tomorrow; I'll be late.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What is the purpose of quotation marks?", "options": ["To show surprise", "To highlight a person's name", "To enclose direct speech or dialogue", "To indicate the end of a sentence"], "correctIndex": 2, "explanation": "To enclose direct speech or dialogue.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Which sentence is punctuated correctly?", "options": ["She said, \"I am coming home late.\"", "She said \"I am coming home late.\"", "She said I am coming home, late.", "She said, I am coming home late."], "correctIndex": 0, "explanation": "She said, \"I am coming home late.\"", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Choose the correctly punctuated sentence.", "options": ["I will bring cake, ice cream, and drinks.", "I will bring, cake ice cream, and drinks.", "I will bring cake ice cream, and drinks.", "I will bring cake, ice-cream and drinks."], "correctIndex": 0, "explanation": "I will bring cake, ice cream, and drinks.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Identify the correctly punctuated sentence.", "options": ["\"Where are you going?\" she asked.", "Where are you going, she asked?", "Where are you going she asked?", "She asked, where are you going?"], "correctIndex": 0, "explanation": "\"Where are you going?\" she asked.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Which punctuation mark is used to indicate possession?", "options": ["Apostrophe", "Hyphen", "Quotation mark", "Colon"], "correctIndex": 0, "explanation": "Apostrophe.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "Choose the correct punctuation mark to complete: \"I am not sure ___ I will go.\"", "options": ["Semicolon", "Colon", "Period", "Comma"], "correctIndex": 0, "explanation": "Semicolon.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m10", "prompt": "Which punctuation mark is used to separate items in a list?", "options": ["Hyphen", "Comma", "Period", "Colon"], "correctIndex": 1, "explanation": "Comma.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

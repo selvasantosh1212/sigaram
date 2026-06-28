@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-prose-eidgah-premchand",
+  "unitId": "C-VII",
+  "name": "Prose: \"Eidgah\" — Munshi Premchand",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total); Wikipedia/yaclass.in - the famous tongs/grandmother ending" }
+  ],
+  "researchNotes": "OCR index search for 'eidgah/premchand' returned zero hits — web research only, but a clean, internally consistent 12-question set across 2 source pages plus a well-corroborated famous ending (the tongs/chimta gift) not explicitly covered in the available MCQ sets but essential to the story's meaning — included since any reading-comprehension-style question on the story's THEME would require it.",
+  "reading": {
+    "intro": "One of Premchand's most famous stories: a 4-year-old orphan, Hamid, attends the Eid fair with his wealthier friends but, instead of buying toys or sweets for himself, spends his modest Eidi money on a pair of iron tongs for his grandmother — a touching act of selfless love.",
+    "qa": [
+      { "id": "r01", "question": "How old is Hamid, who does he live with, and what happened to his parents?", "answer": "Hamid is 4 years old. He lives with his grandmother, Ameena. His parents have passed away — his father died of CHOLERA." },
+      { "id": "r02", "question": "What did Ameena tell Hamid about his father, instead of telling him directly that he had died?", "answer": "She told him his father had gone away to earn money — a gentle deception to shield the young child from the painful truth." },
+      { "id": "r03", "question": "Why was Hamid still happy despite his poverty?", "answer": "He trusted that his parents would eventually return — his innocent faith kept him cheerful despite his circumstances." },
+      { "id": "r04", "question": "What festival is being celebrated, and who were most excited about it?", "answer": "Eid. The BOYS (among the village children) were the most excited." },
+      { "id": "r05", "question": "How much Eidi money did Hamid's friends Mahmood and Mohsin have, and what did the boys generally want to buy with their money?", "answer": "Mahmood had 12 coins, and Mohsin had 15 coins (Hamid himself had far less — only a few paisas). The boys generally wanted to buy toys and sweets at the fair." },
+      { "id": "r06", "question": "What did Hamid buy instead of toys or sweets, and for whom?", "answer": "A pair of iron tongs (a 'chimta') — for his grandmother, Ameena." },
+      { "id": "r07", "question": "How did Ameena initially react to receiving the tongs, and what changed her reaction?", "answer": "She initially scolded him for not buying something to eat or enjoy at the fair instead. She burst into tears and blessed him once he reminded her that her fingers get burnt every day while cooking — revealing the depth of thoughtfulness behind his seemingly odd gift." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "How old was Hamid in \"Eidgah\"?", "options": ["5", "4", "6", "3"], "correctIndex": 1, "explanation": "4.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Who did Hamid live with?", "options": ["Uncle", "Aunt", "Father", "Granny Ameena"], "correctIndex": 3, "explanation": "Granny Ameena.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What disease took Hamid's father's life?", "options": ["Malaria", "Flu", "Cholera", "Typhoid"], "correctIndex": 2, "explanation": "Cholera.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Why was Hamid still happy despite his poverty?", "options": ["He had many toys", "He trusted his parents would return", "He was secretly rich", "He had new clothes"], "correctIndex": 1, "explanation": "He trusted his parents would return.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What did Ameena tell Hamid about his (deceased) father?", "options": ["He was ill", "He left him", "He went to earn money", "He went to the city"], "correctIndex": 2, "explanation": "He went to earn money.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "How many coins did Mohsin have at the Eid fair?", "options": ["12", "15", "9", "14"], "correctIndex": 1, "explanation": "15.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "What did most of the boys at the fair want to buy?", "options": ["Clothes and gold", "Toys and sweets", "Books and pencils", "Watches and mobiles"], "correctIndex": 1, "explanation": "Toys and sweets.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "What did Hamid buy instead, with his Eid money?", "options": ["A clay toy", "Sweets", "A pair of iron tongs (chimta)", "A new cap"], "correctIndex": 2, "explanation": "A pair of iron tongs.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Who did Hamid buy the tongs for, and why?", "options": ["For himself, to sell later", "For his grandmother, because her fingers get burnt while cooking", "For his teacher, as a gift", "For a friend who needed one"], "correctIndex": 1, "explanation": "For his grandmother, because her fingers get burnt while cooking.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "How did Ameena react after Hamid explained why he bought the tongs?", "options": ["She remained angry", "She laughed it off", "She burst into tears and blessed him", "She returned the tongs"], "correctIndex": 2, "explanation": "She burst into tears and blessed him.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "topicId": "a6-current-affairs-11",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History/Culture/Heritage (11): National Handicrafts Award for TN's Stone Carving Tradition",
+  "sourceRefs": [
+    { "type": "web-research", "label": "newsonair.gov.in - National Handicrafts Awards 2023 & 2024 ceremony (9 December 2025) — T Baskaran of Tamil Nadu honoured for stone carving" }
+  ],
+  "researchNotes": "Thirteenth and final TN-Culture-unit current-affairs topic of this 11th lap, completing Part A's 11th full rotation. Connects to Tamil Nadu's long stone-sculpture tradition (Mahabalipuram/Pallava-era stone carving heritage) via a concrete, named, dated 2025-26 award.",
+  "reading": {
+    "intro": "Covers the National Handicrafts Awards ceremony (December 2025) and Tamil Nadu's recognition in the stone carving category.",
+    "qa": [
+      { "id": "r01", "question": "When was the National Handicrafts Awards ceremony held, and which years' awards did it cover?", "answer": "9 December 2025, in New Delhi — conferring National Handicrafts Awards for BOTH 2023 and 2024 (a combined ceremony covering 2 years)." },
+      { "id": "r02", "question": "Who presented the awards, and who from Tamil Nadu was honoured, in which category?", "answer": "President Droupadi Murmu presented the awards. T. Baskaran of Tamil Nadu received the National Award for 2024 in the STONE CARVING category." },
+      { "id": "r03", "question": "Why is a stone carving award particularly significant for Tamil Nadu?", "answer": "Tamil Nadu has a long, renowned stone-sculpture tradition, most famously associated with the Pallava-era monuments at Mahabalipuram (Mamallapuram) — this award recognises a living artisan continuing that ancient craft tradition." },
+      { "id": "r04", "question": "Name 2 other artisans (from other states) honoured at the same ceremony.", "answer": "Rupban Chitrakar (West Bengal, painting category) and Baldev Baghmare (Madhya Pradesh, tribal artisans category)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The National Handicrafts Awards (for 2023 and 2024) ceremony was held on:", "options": ["9 October 2025", "9 November 2025", "9 December 2025", "9 January 2026"], "correctIndex": 2, "explanation": "9 December 2025.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "T. Baskaran of Tamil Nadu received the National Handicrafts Award 2024 in which category?", "options": ["Painting", "Stone carving", "Handloom weaving", "Pottery"], "correctIndex": 1, "explanation": "Stone carving.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Who presented the National Handicrafts Awards at this ceremony?", "options": ["The Prime Minister", "The Union Culture Minister", "President Droupadi Murmu", "The Vice President"], "correctIndex": 2, "explanation": "President Droupadi Murmu.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Tamil Nadu's stone carving tradition (honoured by this award) is most famously associated with which historical monuments?", "options": ["Brihadeeswarar Temple, Thanjavur", "Pallava-era monuments at Mahabalipuram", "Meenakshi Temple, Madurai", "Ramanathaswamy Temple, Rameswaram"], "correctIndex": 1, "explanation": "Pallava-era monuments at Mahabalipuram.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

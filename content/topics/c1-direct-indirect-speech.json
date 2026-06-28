@@ -1,0 +1,36 @@
+{
+  "topicId": "c1-direct-indirect-speech",
+  "unitId": "C-I",
+  "name": "Grammar: Direct and Indirect (Reported) Speech",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC MCQ sets (Direct into Indirect Speech, 12 questions total)" }
+  ],
+  "researchNotes": "Ninth Grammar topic. Real evidence covers all 3 sentence types being reported (statements, yes/no questions, WH-questions, imperatives, and 'Let us' suggestions), each with its own conversion rule — selected a representative spread across all 5 rather than padding with near-duplicate statement conversions.",
+  "reading": {
+    "intro": "Converting direct speech to indirect (reported) speech requires 3 simultaneous changes: (1) backshift the tense (present→past, etc.), (2) change pronouns to match the reporter's perspective, (3) restructure based on sentence type (statement/question/command).",
+    "qa": [
+      { "id": "r01", "question": "Convert to indirect speech: He said, \"I am reading a book.\"", "answer": "He said he was reading a book. (Present continuous 'am reading' backshifts to past continuous 'was reading'; 'I' → 'he'.)" },
+      { "id": "r02", "question": "Convert to indirect speech: She said, \"I have finished my work.\"", "answer": "She said she had finished her work. (Present perfect 'have finished' backshifts to past perfect 'had finished'.)" },
+      { "id": "r03", "question": "Convert to indirect speech: He said, \"I will go to Chennai tomorrow.\"", "answer": "He said he would go to Chennai the next day. ('will' → 'would'; the time reference 'tomorrow' must also shift to 'the next day', since it's no longer being said on that same day.)" },
+      { "id": "r04", "question": "Convert to indirect speech: 'Where are you going?' she asked.", "answer": "She asked where I was going. (WH-questions drop the question mark and word order inversion, becoming a statement clause introduced directly by the WH-word — NOT 'where was I going', which wrongly keeps the inverted question word order.)" },
+      { "id": "r05", "question": "Convert to indirect speech: \"Do you speak English?\" he asked.", "answer": "He asked if I spoke English. (Yes/no questions — with no WH-word — are introduced with 'if' or 'whether', not reported directly as a question.)" },
+      { "id": "r06", "question": "Convert to indirect speech: The teacher said, \"Be quiet.\"", "answer": "The teacher told us to be quiet. (Imperatives/commands use 'told [someone] to' + base verb — not 'asked to' alone, which is missing the object, and not 'advised us be quiet', which is missing the infinitive 'to'.)" },
+      { "id": "r07", "question": "Convert to indirect speech: He said, \"Let us go for a walk.\"", "answer": "He said that they should go for a walk. (Note: a more natural alternative — 'He suggested they go for a walk' — sounds equally correct in everyday English, but the source exam's marked answer specifically used 'said that...should', so match the exact pattern asked for.)" },
+      { "id": "r08", "question": "Convert to indirect speech: They said, \"We are watching a movie.\"", "answer": "They said they were watching a movie. (Present continuous → past continuous; 'we' → 'they', matching the subject already established by 'They said'.)" }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "He said, \"I am reading a book.\" (Convert to indirect speech.)", "options": ["He said he is reading a book.", "He said he was reading a book.", "He said I was reading a book.", "He said I read a book."], "correctIndex": 1, "explanation": "He said he was reading a book.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "She said, \"I have finished my work.\" (Convert to indirect speech.)", "options": ["She said she finished her work.", "She said she had finished her work.", "She said I have finished work.", "She says she has finished her work."], "correctIndex": 1, "explanation": "She said she had finished her work.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "He said, \"I will go to Chennai tomorrow.\" (Convert to indirect speech.)", "options": ["He said he would go to Chennai the next day.", "He said he will go to Chennai the next day.", "He said he goes to Chennai tomorrow.", "He said he would go Chennai tomorrow."], "correctIndex": 0, "explanation": "He said he would go to Chennai the next day.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "'Where are you going?' she asked. (Convert to indirect speech.)", "options": ["She asked where I was going.", "She asked where was I going.", "She asked where am I going.", "She asked where I going."], "correctIndex": 0, "explanation": "She asked where I was going.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"Do you speak English?\" he asked. (Convert to indirect speech.)", "options": ["He asked if I spoke English.", "He asked if I had spoken English.", "He asked do I speak English.", "He said if I spoke English."], "correctIndex": 0, "explanation": "He asked if I spoke English.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The teacher said, \"Be quiet.\" (Convert to indirect speech.)", "options": ["The teacher asked to be quiet.", "The teacher told us to be quiet.", "The teacher advised us be quiet.", "The teacher told to be quiet."], "correctIndex": 1, "explanation": "The teacher told us to be quiet.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "He said, \"Let us go for a walk.\" (Convert to indirect speech.)", "options": ["He said that they should go for a walk.", "He said let's go for a walk.", "He suggested we go for a walk.", "He said that we go for a walk."], "correctIndex": 0, "explanation": "He said that they should go for a walk.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m08", "prompt": "They said, \"We are watching a movie.\" (Convert to indirect speech.)", "options": ["They said they are watching a movie.", "They said they had watched a movie.", "They said they were watching a movie.", "They said we are watching a movie."], "correctIndex": 2, "explanation": "They said they were watching a movie.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "\"Why are you crying?\" asked the mother. (Convert to indirect speech.)", "options": ["The mother asked why I cried.", "The mother asked why was I crying.", "The mother asked why I was crying.", "The mother asked why are you crying."], "correctIndex": 2, "explanation": "The mother asked why I was crying.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "He said, \"I met him yesterday.\" (Convert to indirect speech.)", "options": ["He said he had met him the previous day.", "He said he met him yesterday.", "He said I met him the day before.", "He said he meets him that day."], "correctIndex": 0, "explanation": "He said he had met him the previous day.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

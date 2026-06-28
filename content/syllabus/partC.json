@@ -1,0 +1,15 @@
+{
+  "id": "C",
+  "name": "General English",
+  "standard": "SSLC Standard",
+  "questionCount": 100,
+  "units": [
+    { "id": "C-I", "number": "I", "name": "Grammar", "questionCount": 25 },
+    { "id": "C-II", "number": "II", "name": "Vocabulary", "questionCount": 15 },
+    { "id": "C-III", "number": "III", "name": "Writing Skills", "questionCount": 10 },
+    { "id": "C-IV", "number": "IV", "name": "Technical Terms", "questionCount": 10 },
+    { "id": "C-V", "number": "V", "name": "Reading Comprehension", "questionCount": 20 },
+    { "id": "C-VI", "number": "VI", "name": "Translation", "questionCount": 5 },
+    { "id": "C-VII", "number": "VII", "name": "Literary Works", "questionCount": 15 }
+  ]
+}

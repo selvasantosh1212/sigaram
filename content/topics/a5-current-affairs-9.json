@@ -1,0 +1,28 @@
+{
+  "topicId": "a5-current-affairs-9",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy & TN Dev. Admin. (9): PLFS Annual Report 2025",
+  "sourceRefs": [
+    { "type": "web-research", "label": "pib.gov.in/insightsonindia.com - Periodic Labour Force Survey (PLFS) Annual Report 2025 — India's first calendar-year-based comprehensive labour report" }
+  ],
+  "researchNotes": "Eleventh Economy current-affairs topic (9th lap). Anchored on the REPORT RELEASE itself (a stable, dateable event) and used clean annual year-over-year comparisons (2025 vs. 2024) rather than monthly figures, after noticing the initial monthly unemployment-rate figures found in research were internally inconsistent across sources (Nov 2025 4.7% described as 'lowest since 2018' immediately followed by a claim that Dec 2025's 4.8% 'continued a downward trajectory' — a contradiction, since 4.8% is HIGHER than 4.7%). Skipped the murkier monthly figures per the Day-58 lesson on volatile statistics.",
+  "reading": {
+    "intro": "Covers the Periodic Labour Force Survey (PLFS) Annual Report 2025 — India's first comprehensive labour report based on a full calendar year.",
+    "qa": [
+      { "id": "r01", "question": "What is the PLFS Annual Report 2025, and what makes it distinctive?", "answer": "The Periodic Labour Force Survey's Annual Report for 2025 — brought out by the National Statistical Office (NSO) as the FIRST comprehensive PLFS report based on a calendar year (January-December 2025), rather than the survey's earlier July-June reporting cycle." },
+      { "id": "r02", "question": "When was PLFS launched, and by which body?", "answer": "Launched in 2017 by the National Statistical Office (NSO), to estimate key employment and unemployment indicators." },
+      { "id": "r03", "question": "What was India's total employment figure, per this report (persons aged 15+)?", "answer": "56.2 crore persons." },
+      { "id": "r04", "question": "What was the Labour Force Participation Rate (LFPR) for persons aged 15+, and the female LFPR specifically?", "answer": "Overall LFPR: 56.1%. Female LFPR: 35.3% — both reflecting rising participation and improving inclusion." },
+      { "id": "r05", "question": "How did youth (15-29 years) unemployment change from 2024 to 2025?", "answer": "Declined from 10.3% (2024) to 9.9% (2025) — a clean year-over-year improvement." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The PLFS Annual Report 2025 is distinctive because it is the first comprehensive PLFS report based on:", "options": ["A quarterly cycle", "A calendar year (Jan-Dec)", "A 5-year cycle", "Only urban areas"], "correctIndex": 1, "explanation": "A calendar year (January-December 2025).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "PLFS was launched in 2017 by which body?", "options": ["RBI", "NITI Aayog", "National Statistical Office (NSO)", "Ministry of Finance"], "correctIndex": 2, "explanation": "National Statistical Office (NSO).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Per the PLFS Annual Report 2025, India's total employment (persons aged 15+) was approximately:", "options": ["46.2 crore", "51.2 crore", "56.2 crore", "61.2 crore"], "correctIndex": 2, "explanation": "56.2 crore.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Per the PLFS Annual Report 2025, the female Labour Force Participation Rate (LFPR) was approximately:", "options": ["25.3%", "30.3%", "35.3%", "40.3%"], "correctIndex": 2, "explanation": "35.3%.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Youth (15-29 years) unemployment declined from 10.3% (2024) to what in 2025?", "options": ["8.9%", "9.4%", "9.9%", "10.1%"], "correctIndex": 2, "explanation": "9.9%.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

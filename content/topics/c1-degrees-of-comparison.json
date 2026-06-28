@@ -1,0 +1,38 @@
+{
+  "topicId": "c1-degrees-of-comparison",
+  "unitId": "C-I",
+  "name": "Grammar: Degrees of Comparison (Positive, Comparative, Superlative)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC MCQ sets (12 questions total)" },
+    { "type": "question-bank", "label": "2017_q page 16 Q60; 2025_q page 135 Q160-162; page 137 Q166; 2024_q page 91 Q200; 2025_q1 page 42 Q99-100 (real, with answer key marks)" }
+  ],
+  "researchNotes": "Sixth Grammar topic, drawing on both fresh research and 2 fact-clusters already stashed since Day 76. A genuinely useful nuance surfaced from real exam evidence: converting 'one of the greatest' to comparative degree correctly uses 'greater than MANY other' (not 'than ANY other') — because 'one of the greatest' itself implies several others share that top tier, unlike a true unique superlative. Also connects 2 previously-separate stashed facts (the 'junior TO me' preposition trap, and 'inferior' being inherently comparative) into one coherent rule about Latin-derived comparative adjectives.",
+  "reading": {
+    "intro": "Tests identifying and correctly forming the 3 degrees (positive/comparative/superlative), including irregular forms and 2 traps: 'one of the greatest' converting to 'than many other' (not 'than any other'), and Latin-derived comparatives (inferior, superior, junior, senior) that use 'to' instead of 'than'.",
+    "qa": [
+      { "id": "r01", "question": "What are the 3 structures used to express the Positive Degree?", "answer": "'As...as' (e.g., 'Very few people in this town are as generous as Mr. Mohan'), 'So...as', and 'No other...as...as'." },
+      { "id": "r02", "question": "Real exam: transform 'Wordsworth is one of the greatest English poets' into the comparative degree.", "answer": "Wordsworth is greater than many other English poets. (NOT 'than any other' — 'one of the greatest' implies SEVERAL poets share that top tier, so the comparative must say 'many other', not imply Wordsworth is uniquely superior to every other poet.)" },
+      { "id": "r03", "question": "Real exam: which is the correct superlative form among these: 'He is the more fastest runner', 'This is the best cake I have ever tasted', 'That movie was the less interesting of all', 'She is the more talented musician in the band'?", "answer": "'This is the best cake I have ever tasted' — the others double-mark the superlative ('more fastest') or wrongly use comparative forms ('less', 'more talented') where a true superlative is needed." },
+      { "id": "r04", "question": "Real exam: what degree is the word 'inferior'?", "answer": "Comparative — 'inferior' (like superior, junior, senior — all Latin-derived) is inherently comparative even without the word 'than', and pairs with 'TO' instead of 'than' (e.g., 'inferior to', 'junior to', NOT 'inferior than'/'junior than')." },
+      { "id": "r05", "question": "Real exam: \"The Amazon is ___ river in the world.\"", "answer": "The longest (superlative — 'in the world' signals comparison among ALL rivers, requiring the superlative, not comparative 'longer')." },
+      { "id": "r06", "question": "Fill in the blank: \"He is ___ than his brother.\"", "answer": "Better (comparative of 'good'; 'best' is the superlative and doesn't fit with 'than')." },
+      { "id": "r07", "question": "What is the superlative form of 'happy', and the comparative form of 'bad'?", "answer": "Happiest (superlative of happy); Worse (comparative of bad — irregular, not 'badder')." },
+      { "id": "r08", "question": "Identify the degree: \"She is tall.\"", "answer": "Positive degree (no comparison being made, just a plain quality statement)." },
+      { "id": "r09", "question": "Real exam: which sentence correctly uses the comparative degree: 'He is smarter than any one in the class', 'This sum is less complicated than the previous one', 'This bus is less crowded than that crowded one', 'The game is more eager than expected'?", "answer": "'This sum is less complicated than the previous one' — the others have logical/grammatical errors: 'than any one in the class' is illogical since he IS one in the class (needs 'anyone else'); 'that crowded one' is redundant with 'less crowded'; 'more eager' is the wrong adjective pairing." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"He is ___ than his brother.\"", "options": ["good", "best", "better", "more good"], "correctIndex": 2, "explanation": "better.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Which is the superlative form of 'happy'?", "options": ["Happier", "Most happy", "Happiest", "More happy"], "correctIndex": 2, "explanation": "Happiest.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Identify the positive degree:", "options": ["She is taller", "She is tall", "She is the tallest", "She is more tall"], "correctIndex": 1, "explanation": "She is tall.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Choose the comparative degree of 'bad'.", "options": ["Worse", "Badder", "Baddest", "More bad"], "correctIndex": 0, "explanation": "Worse.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Transform into comparative degree: \"Wordsworth is one of the greatest English poets.\"", "options": ["Wordsworth is greater than many other English poets.", "Very few English poets are as great as Wordsworth.", "No other English poet is as great as Wordsworth.", "Wordsworth is greater than any other English poet."], "correctIndex": 0, "explanation": "Wordsworth is greater than many other English poets.", "sourceTag": "question-bank-2017", "difficulty": "hard" },
+      { "id": "m06", "prompt": "\"The Amazon is ___ river in the world.\"", "options": ["the most longest", "the longer", "the longest", "longest"], "correctIndex": 2, "explanation": "the longest.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Identify the sentence with the correct superlative form.", "options": ["He is the more fastest runner in the team.", "This is the best cake I have ever tasted.", "That movie was the less interesting of all.", "She is the more talented musician in the band."], "correctIndex": 1, "explanation": "This is the best cake I have ever tasted.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What is the degree of the word 'inferior'?", "options": ["Positive", "Superlative", "Comparative", "All the above"], "correctIndex": 2, "explanation": "Comparative.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Choose the sentence with the correct use of the comparative degree:", "options": ["He is smarter than any one in the class.", "This bus is less crowded than that crowded one.", "This sum is less complicated than the previous one.", "The game is more eager than expected."], "correctIndex": 2, "explanation": "This sum is less complicated than the previous one.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m10", "prompt": "Which sentence correctly uses 'junior'/'inferior'-type comparatives?", "options": ["He is junior than me.", "He is junior to me.", "He is more junior than me.", "He is the most junior than me."], "correctIndex": 1, "explanation": "He is junior to me — Latin-derived comparatives (junior, senior, inferior, superior) pair with 'to', not 'than'.", "sourceTag": "question-bank-2025", "difficulty": "medium" }
+    ]
+  }
+}

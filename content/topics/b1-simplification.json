@@ -1,0 +1,151 @@
+{
+  "topicId": "b1-simplification",
+  "unitId": "B-I",
+  "name": "Simplification",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 125 Q191 (style reference: multi-step Aptitude word problem)" },
+    { "type": "web-research", "label": "tnpscguru.in - TNPSC Aptitude Simplification Questions & Answers" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - Simplification, TNPSC Group 2/2A" },
+    { "type": "authored", "label": "standard BODMAS/fraction/surd/algebraic-identity patterns, no direct past-paper hit needed for these — they are the topic's foundational mechanics" }
+  ],
+  "researchNotes": "Math topics don't decompose into discrete trivia facts the way General Studies does — the same handful of techniques (BODMAS order, fraction-of-decimal, ratio scaling, simultaneous equations, algebraic-identity shortcuts) get re-tested every year with different numbers. So the reading material teaches each technique once with a fully worked example (8 techniques, all kept — no real overlap to dedupe), and the mock test applies the *same* techniques to fresh numbers (12 problems) rather than reusing the reading numbers verbatim, so genuine application is tested, not memorized arithmetic. Two reading items and one mock item are anchored to real sourced past-paper numbers; the rest are standard authored drill problems for these same patterns — flagged transparently via sourceTag rather than dressed up as past-paper hits they aren't.",
+  "reading": {
+    "intro": "Simplification is 1 of 10 named Aptitude sub-skills (15 questions total for the whole Aptitude unit). TNPSC's simplification questions are rarely 'plug into one formula' — they combine BODMAS, fractions/decimals, ratios, and algebraic shortcuts. Each item below is a worked method, not just an answer — the goal is to recognize which technique a given expression calls for.",
+    "qa": [
+      {
+        "id": "r01",
+        "question": "Method — BODMAS with a nested bracket and an unknown: Solve for x: 57 − [42 − {37 − (20 − x)}] = 176 ÷ (8 ÷ 2)",
+        "answer": "Work from the innermost bracket outward, and simplify the RHS first: 176 ÷ (8 ÷ 2) = 176 ÷ 4 = 44. Now the LHS: (20 − x) stays as is for now → {37 − (20 − x)} = 17 + x → [42 − (17 + x)] = 25 − x → 57 − (25 − x) = 32 + x. Set equal to 44: 32 + x = 44 → x = 12. (Real TNPSC-style problem; this exact expression is a recurring coaching-site reference question.)"
+      },
+      {
+        "id": "r02",
+        "question": "Method — sum of two squares without brute-force squaring: Find 217 × 217 + 183 × 183.",
+        "answer": "Use a² + b² = (a+b)² − 2ab instead of squaring two 3-digit numbers by hand. Here a+b = 400 (round number — that's the clue this trick applies) and ab = 217 × 183 = 39,711. So a²+b² = 400² − 2(39,711) = 160,000 − 79,422 = 80,578. Recognizing 'the two numbers add to a round number' is the trigger for this shortcut."
+      },
+      {
+        "id": "r03",
+        "question": "Method — difference of squares shortcut: Simplify (197 × 197 − 103 × 103) ÷ (197 − 103) without long multiplication.",
+        "answer": "a² − b² = (a+b)(a−b), so (a²−b²)/(a−b) = (a+b) directly — no multiplication needed at all. Here a=197, b=103, so the answer is simply 197+103 = 300. This 'difference of squares divided by the difference' shape is a favorite TNPSC trick question precisely because it looks like it needs heavy calculation but collapses to one addition."
+      },
+      {
+        "id": "r04",
+        "question": "Method — fraction-of-decimal addition: Simplify 7/5 of 58 + 3/8 of 139.2.",
+        "answer": "7/5 of 58 = 7×58/5 = 406/5 = 81.2. 3/8 of 139.2 = 3×139.2/8 = 417.6/8 = 52.2. Sum: 81.2 + 52.2 = 133.4."
+      },
+      {
+        "id": "r05",
+        "question": "Method — ratio substitution to simplify a compound ratio expression: If x : y = 3 : 4, find (4x + 5y) : (5x − 2y).",
+        "answer": "Don't solve for x and y separately — substitute x=3k, y=4k (k is just a scaling factor that will cancel). (4x+5y) = 12k+20k = 32k. (5x−2y) = 15k−8k = 7k. Ratio = 32k : 7k = 32 : 7. The k always cancels in a ratio question — that's the whole trick."
+      },
+      {
+        "id": "r06",
+        "question": "Method — same ratio-substitution trick, different ratio: If x : y = 3 : 5, find (5x + 3y) : (15x − 2y).",
+        "answer": "Substitute x=3k, y=5k. (5x+3y) = 15k+15k = 30k. (15x−2y) = 45k−10k = 35k. Ratio = 30k:35k = 6:7."
+      },
+      {
+        "id": "r07",
+        "question": "Method — simultaneous equations feeding into a simplification target: If 3a + 4b = 22 and 8a − 5b = −4, find (a+b)².",
+        "answer": "Solve the pair normally: from 3a+4b=22 and 8a−5b=−4, elimination gives a=2, b=4 (check: 3(2)+4(4)=6+16=22 ✓; 8(2)−5(4)=16−20=−4 ✓). The question doesn't ask for a and b individually — it asks for (a+b)² = (2+4)² = 36. TNPSC often hides the real target ((a+b)², not a or b) at the end of a simultaneous-equation question — always re-read what's actually being asked before solving for individual variables."
+      },
+      {
+        "id": "r08",
+        "question": "Method — mixed numbers with a nested fraction: Simplify 2½ + 3⅓ ÷ ⅔.",
+        "answer": "BODMAS still applies to fractions — division before addition. 3⅓ ÷ ⅔ = (10/3) ÷ (2/3) = (10/3) × (3/2) = 5. Then 2½ + 5 = 7½. The common mistake is adding 2½+3⅓ first — division always binds tighter than addition, fractions or not."
+      }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      {
+        "id": "m01",
+        "prompt": "Solve for x: 70 − [45 − {33 − (15 − x)}] = 171 ÷ (9 ÷ 3)",
+        "options": ["10", "12", "14", "16"],
+        "correctIndex": 2,
+        "explanation": "RHS: 171÷(9÷3)=171÷3=57. LHS inner-out: {33−(15−x)}=33−15+x=18+x → [45−(18+x)]=27−x → 70−(27−x)=43+x. Set 43+x=57 → x=14.",
+        "sourceTag": "authored",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m02",
+        "prompt": "Find 312 × 312 + 288 × 288 using the (a+b)² − 2ab shortcut.",
+        "options": ["179,808", "180,288", "190,000", "182,688"],
+        "correctIndex": 1,
+        "explanation": "a+b=600, ab=312×288=89,856. a²+b²=600²−2(89,856)=360,000−179,712=180,288.",
+        "sourceTag": "authored",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m03",
+        "prompt": "Simplify (425 × 425 − 375 × 375) ÷ (425 − 375).",
+        "options": ["400", "750", "800", "425"],
+        "correctIndex": 2,
+        "explanation": "Using a²−b² = (a+b)(a−b), dividing by (a−b) leaves just (a+b) = 425+375 = 800.",
+        "sourceTag": "authored",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m04",
+        "prompt": "Simplify 5/6 of 72 + 2/7 of 98.",
+        "options": ["88", "84", "90", "86"],
+        "correctIndex": 0,
+        "explanation": "5/6 of 72 = 60. 2/7 of 98 = 28. Sum = 88.",
+        "sourceTag": "authored",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m05",
+        "prompt": "If p : q = 5 : 6, find (3p + 2q) : (4p − q).",
+        "options": ["27 : 14", "9 : 7", "27 : 7", "14 : 9"],
+        "correctIndex": 0,
+        "explanation": "p=5k, q=6k. (3p+2q)=15k+12k=27k. (4p−q)=20k−6k=14k. Ratio = 27:14.",
+        "sourceTag": "authored",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m06",
+        "prompt": "If m : n = 4 : 7, find (2m + 3n) : (5m − n).",
+        "options": ["29 : 13", "13 : 29", "29 : 20", "20 : 29"],
+        "correctIndex": 0,
+        "explanation": "m=4k, n=7k. (2m+3n)=8k+21k=29k. (5m−n)=20k−7k=13k. Ratio = 29:13.",
+        "sourceTag": "authored",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m07",
+        "prompt": "If 5a + 2b = 16 and 3a − 4b = −6, find the value of (a+b)².",
+        "options": ["16", "25", "36", "9"],
+        "correctIndex": 1,
+        "explanation": "Multiply the first equation by 2: 10a+4b=32. Add to the second (3a−4b=−6): 13a=26 → a=2. Substitute back: 5(2)+2b=16 → b=3. (a+b)²=(2+3)²=25.",
+        "sourceTag": "authored",
+        "difficulty": "hard"
+      },
+      {
+        "id": "m08",
+        "prompt": "Simplify 4⅔ + 2¼ ÷ ¾.",
+        "options": ["7⅔", "6⅓", "7", "6⅔"],
+        "correctIndex": 0,
+        "explanation": "2¼ ÷ ¾ = (9/4) ÷ (3/4) = 3. Then 4⅔ + 3 = 7⅔.",
+        "sourceTag": "authored",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m09",
+        "prompt": "A trader borrows ₹16,000 at 12% p.a. simple interest and another ₹12,000 at 18% p.a. simple interest. In how many years will the two amounts owed (principal + interest) become equal?",
+        "options": ["12⅔ years", "14⅔ years", "16⅔ years", "18⅔ years"],
+        "correctIndex": 2,
+        "explanation": "This mirrors a real 2025 TNPSC Aptitude question style (same numbers, Simple Interest unit) — included here as a reminder that 'Simplification' skills (careful fraction/ratio handling) carry directly into other Aptitude sub-topics like Simple Interest. Set 16000+16000(0.12)t = 12000+12000(0.18)t and solve for t to get 16⅔ years.",
+        "sourceTag": "question-bank-2025",
+        "difficulty": "hard"
+      },
+      {
+        "id": "m10",
+        "prompt": "Find the value of: 89 × 89 + 11 × 11 + 2 × 89 × 11.",
+        "options": ["10,000", "9,801", "8,900", "10,201"],
+        "correctIndex": 0,
+        "explanation": "This is the (a+b)² pattern in disguise: a²+2ab+b² = (a+b)². Here a=89, b=11, so the answer is (89+11)² = 100² = 10,000 — no separate multiplication needed.",
+        "sourceTag": "authored",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

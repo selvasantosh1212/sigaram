@@ -1,0 +1,34 @@
+{
+  "topicId": "b1-hcf",
+  "unitId": "B-I",
+  "name": "Highest Common Factor (HCF)",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 127 Q194-195 (ratio+HCF; square-tile application, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 32 Q47 (algebraic HCF, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 33 Q148 (container/measuring application, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 66 Q199 (HCF-LCM relationship, with answer key)" }
+  ],
+  "researchNotes": "Unusually rich real evidence for a math topic — grepping the OCR index for 'HCF' (the term itself, unlike 'simplification' or generic operators, is a distinctive enough keyword to search well) returned 4 genuine hits across 3 different years (2022, 2024, 2025), each testing a DIFFERENT classic HCF problem shape: ratio+HCF, square-tile/area application, algebraic factoring, container-measuring application, and the HCF×LCM=product relationship. Because the real evidence already covers 5 distinct shapes cleanly, this topic leans much more heavily on question-bank sourcing than Simplification or Percentage did — only 2 authored items added to round out the set, both clearly tagged.",
+  "reading": {
+    "intro": "HCF is 1 of 10 named Aptitude sub-skills. Real exam evidence (4 confirmed hits across 2022/2024/2025) shows TNPSC favors HCF *application* problems — measuring/tiling/container word problems and the HCF-LCM relationship — over plain 'find the HCF of these two numbers' questions, so the reading below leads with those application shapes.",
+    "qa": [
+      { "id": "r01", "question": "Real exam (2025): Two numbers are in the ratio 15:11. If their HCF is 13, find the numbers.", "answer": "When two numbers are in a given ratio, write them as 15k and 11k. Since HCF(15,11)=1 (the ratio is already in lowest terms), k IS the HCF — so k=13. The numbers are 15×13=195 and 11×13=143." },
+      { "id": "r02", "question": "Real exam (2025): What is the least number of square tiles needed to pave the ceiling of a room 15m 17cm long and 9m 2cm broad?", "answer": "Convert to one unit: 1517 cm × 902 cm. The LARGEST square tile that exactly fits (no cutting) has a side equal to the HCF of the two dimensions. HCF(1517, 902) = 41 cm (via the Euclidean algorithm: 1517=1×902+615; 902=1×615+287; 615=2×287+41; 287=7×41+0). Tile area = 41×41 = 1,681 cm². Room area = 1517×902 = 1,368,334 cm². Number of tiles = 1,368,334 ÷ 1,681 = 814." },
+      { "id": "r03", "question": "Real exam (2024): If the HCF of x³−8y³ and x²−k²y² is x+ky, find k.", "answer": "Factor x³−8y³ using a³−b³=(a−b)(a²+ab+b²) with a=x, b=2y: x³−8y³ = (x−2y)(x²+2xy+4y²). Factor x²−k²y² using a²−b²=(a−b)(a+b): x²−k²y² = (x−ky)(x+ky). For 'x+ky' to be the common factor (HCF) of both, it must match one of the first expression's factors. (x−2y) is the only linear factor available there, so x+ky must equal x−2y, giving k=−2." },
+      { "id": "r04", "question": "Real exam (2022): What is the greatest possible volume of a vessel that can exactly measure the milk in cans of 80, 100, and 120 litres (each can measured to full capacity only)?", "answer": "This is asking for the HCF of 80, 100, and 120. HCF(80,100)=20, then HCF(20,120)=20. So the answer is 20 litres — the largest vessel that can measure each can's full volume an exact whole number of times." },
+      { "id": "r05", "question": "Real exam (2022): The HCF and LCM of two numbers are 16 and 240 respectively. If one number is 48, find the other.", "answer": "Use the relationship: HCF × LCM = product of the two numbers. 16 × 240 = 3,840. Other number = 3,840 ÷ 48 = 80." },
+      { "id": "r06", "question": "Method — finding HCF via the Euclidean algorithm (the fast way for large numbers): What is the HCF of 1517 and 902?", "answer": "Repeatedly divide the larger by the smaller and replace the larger with the remainder, until the remainder is 0 — the last nonzero remainder is the HCF. 1517=1×902+615 → 902=1×615+287 → 615=2×287+41 → 287=7×41+0. HCF=41. This is the same calculation used in r02 above — recognize it as the standard fast method rather than listing all factors of both numbers."}
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Two numbers are in the ratio 21:14. If their HCF is 12, find the larger number.", "options": ["36", "24", "252", "168"], "correctIndex": 0, "explanation": "Watch out: 21 and 14 are NOT coprime (gcd=7), so you can't directly multiply them by the HCF. Reduce the ratio first: 21:14 = 3:2 (coprime). Now apply the HCF: larger = 3×12=36, smaller = 2×12=24.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Find the largest square tile that can exactly pave a floor measuring 3m 8cm by 4m 20cm (no cutting).", "options": ["28 cm", "14 cm", "56 cm", "84 cm"], "correctIndex": 0, "explanation": "Convert to cm: 308 and 420. HCF(308,420): 420=1×308+112; 308=2×112+84; 112=1×84+28; 84=3×28+0. HCF=28 cm.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m03", "prompt": "If the HCF of a²−4b² and a²+ab−6b² is a−2b, this is consistent with which factorization of the second expression?", "options": ["(a+3b)(a−2b)", "(a−3b)(a+2b)", "(a+3b)(a+2b)", "(a−3b)(a−2b)"], "correctIndex": 0, "explanation": "a²−4b²=(a−2b)(a+2b). The second expression factors as (a+3b)(a−2b) = a²+ab−6b² — sharing the common factor (a−2b), so that's the HCF.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m04", "prompt": "What is the greatest volume that can exactly measure the contents of drums holding 72, 96, and 120 litres?", "options": ["12 litres", "24 litres", "8 litres", "6 litres"], "correctIndex": 1, "explanation": "HCF(72,96)=24, then HCF(24,120)=24. Answer: 24 litres.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The HCF and LCM of two numbers are 12 and 180 respectively. If one number is 36, find the other.", "options": ["48", "54", "60", "72"], "correctIndex": 2, "explanation": "HCF×LCM = 12×180 = 2,160. Other number = 2,160 ÷ 36 = 60.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Using the Euclidean algorithm, find the HCF of 1,073 and 925.", "options": ["37", "29", "31", "43"], "correctIndex": 0, "explanation": "1073=1×925+148; 925=6×148+37; 148=4×37+0. HCF=37.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Two numbers are in the ratio 8:9 and their HCF is 7. Find their sum.", "options": ["105", "119", "126", "112"], "correctIndex": 1, "explanation": "Numbers: 8×7=56 and 9×7=63. Sum = 56+63 = 119.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "topicId": "b1-simple-interest",
+  "unitId": "B-I",
+  "name": "Simple Interest",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 33 Q48 (doubling-time problem, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 31 Q144 (basic SI calculation, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 63 Q97 (SI with a mixed-fraction rate and month-based time, with answer key)" },
+    { "type": "question-bank", "label": "2025_q1 page 125 Q191 (two-loan comparison word problem, with answer key — already used in the Simplification topic, re-noted here as it's equally a Simple Interest problem)" }
+  ],
+  "researchNotes": "4 genuine real past-paper hits across 3 years (2022, 2024, 2025), covering 4 distinct shapes: doubling-time, plain calculation, fractional-rate-with-months, and two-loan comparison. Strong evidence base — only 2 authored items added to round out coverage, both clearly tagged.",
+  "reading": {
+    "intro": "Simple Interest is 1 of 10 named Aptitude sub-skills. Real exam evidence shows TNPSC favors word-problem variants (doubling time, comparing two loans, fractional rates with month-based time) over the bare 'calculate SI' formula alone.",
+    "qa": [
+      { "id": "r01", "question": "Formula: What is the Simple Interest formula, and how do you get the doubling time from it?", "answer": "SI = (Principal × Rate × Time) / 100. A sum DOUBLES when SI equals the Principal itself: P = (P×R×T)/100 → T = 100/R years. So at 8% per annum, doubling time = 100/8 = 12.5 years = 150 months." },
+      { "id": "r02", "question": "Real exam (2024): In how many months will Rs.2,000 double itself at 8% per annum simple interest?", "answer": "T = 100/R = 100/8 = 12.5 years = 12.5 × 12 = 150 months." },
+      { "id": "r03", "question": "Real exam (2022): What is the simple interest on Rs.1,000 for one year at 10% per annum?", "answer": "SI = (1000 × 10 × 1)/100 = Rs.100." },
+      { "id": "r04", "question": "Real exam (2024): Find the simple interest on Rs.68,000 at 16⅔% per annum for 9 months.", "answer": "Convert the mixed-fraction rate: 16⅔% = 50/3 %. Convert months to years: 9 months = 9/12 = 3/4 year. SI = 68,000 × (50/3) × (3/4) / 100 = 68,000 × 12.5/100 = Rs.8,500. (The 3s cancel neatly between the rate's denominator and the time's numerator — recognizing that shortcut avoids messy fraction arithmetic.)" },
+      { "id": "r05", "question": "Real exam (2025): A borrows Rs.16,000 at 12% p.a. simple interest, B borrows Rs.12,000 at 18% p.a. simple interest. In how many years will their total amounts owed (principal+interest) become equal?", "answer": "Set up the equality: 16000 + 16000(0.12)t = 12000 + 12000(0.18)t → 16000+1920t = 12000+2160t → 4000 = 240t → t = 16⅔ years." },
+      { "id": "r06", "question": "Method — finding the rate when given principal, time, and final amount: A sum of Rs.5,000 becomes Rs.6,200 in 3 years at simple interest. Find the rate.", "answer": "SI = Amount − Principal = 6200−5000 = 1200. Rearranged formula: R = (SI×100)/(P×T) = (1200×100)/(5000×3) = 120000/15000 = 8% per annum." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "In how many years will a sum double itself at 5% per annum simple interest?", "options": ["10 years", "15 years", "20 years", "25 years"], "correctIndex": 2, "explanation": "T = 100/R = 100/5 = 20 years.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Find the simple interest on Rs.2,500 for 1 year at 12% per annum.", "options": ["Rs.250", "Rs.275", "Rs.300", "Rs.320"], "correctIndex": 2, "explanation": "SI = (2500×12×1)/100 = Rs.300.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Find the simple interest on Rs.54,000 at 13⅓% per annum for 6 months.", "options": ["Rs.3,600", "Rs.3,000", "Rs.3,300", "Rs.4,000"], "correctIndex": 0, "explanation": "13⅓% = 40/3%. 6 months = 1/2 year. SI = 54000×(40/3)×(1/2)/100 = 54000×40/600 = 54000×(1/15) = 3,600.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m04", "prompt": "C borrows Rs.20,000 at 10% p.a. simple interest, D borrows Rs.15,000 at 15% p.a. simple interest. In how many years will their total amounts owed become equal?", "options": ["8 years", "10 years", "20 years", "25 years"], "correctIndex": 2, "explanation": "20000+2000t = 15000+2250t → 5000 = 250t → t = 20 years.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m05", "prompt": "A sum of Rs.8,000 becomes Rs.9,440 in 3 years at simple interest. Find the rate per annum.", "options": ["5%", "6%", "6.5%", "7%"], "correctIndex": 1, "explanation": "SI = 9440−8000 = 1440. R = (1440×100)/(8000×3) = 144000/24000 = 6%.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What sum will yield Rs.900 as simple interest in 3 years at 6% per annum?", "options": ["Rs.4,000", "Rs.5,000", "Rs.5,500", "Rs.6,000"], "correctIndex": 1, "explanation": "P = (SI×100)/(R×T) = (900×100)/(6×3) = 90000/18 = Rs.5,000.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

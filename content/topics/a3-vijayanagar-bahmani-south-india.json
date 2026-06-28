@@ -1,0 +1,39 @@
+{
+  "topicId": "a3-vijayanagar-bahmani-south-india",
+  "unitId": "A-III",
+  "name": "Age of Vijayanagaram and Bahmani Kingdoms; South Indian History",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 93 Q158 (Chola queen sati, Anbil Plate, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 6 Q5 (Chera/Chola/Pandya capital-pair swap trap, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 55 Q178 (Irayili tax-free land, Later Chola period, with answer key)" },
+    { "type": "question-bank", "label": "2017_q1 page 38 Q174-175 (Sangam-age Chera king chronology; Chola revenue department, with answer key)" },
+    { "type": "web-research", "label": "Vijayanagar Empire and Bahmani Kingdom — dynasties, Krishnadevaraya, Raichur Doab conflict" }
+  ],
+  "researchNotes": "Unusually rich real evidence for the South Indian History half of this clause — 5 confirmed hits across 2017/2022/2025/2026, including a classic 'swapped pairs' trap (Chola and Pandya capitals deliberately exchanged in the wrong options). The Vijayanagar/Bahmani half had no findable direct past-paper hit, so it rests on standard, well-established history reference facts.",
+  "reading": {
+    "intro": "Third topic of Unit III, combining medieval Deccan kingdoms with ancient/medieval South Indian (Sangam-age and Chola) history. Real exam evidence shows a strong South-Indian-history lean with a classic trap format: swapping two kingdoms' correct facts between each other as wrong-answer bait.",
+    "qa": [
+      { "id": "r01", "question": "Real exam (trap format): Match each king/dynasty to its correct capital pair — Chera King, Chola King, Pandiya King, King Ashoka. Which pairings are correct: Chera-Vanji/Thondi, Chola-Madurai/Korkai, Pandiya-Uraiyur/Poombugar, Ashoka-Samba Inscription?", "answer": "Only Chera-Vanji/Thondi and Ashoka-Samba Inscription are correct. The Chola and Pandya pairings are SWAPPED in the trap: actually, Chola's capitals were Uraiyur and Poompuhar (not Madurai-Korkai), and the Pandya capitals were Madurai and Korkai (not Uraiyur-Poombugar). Always double check which Tamil dynasty owned which historic capital pair — this exact swap is a recurring trap." },
+      { "id": "r02", "question": "Real exam: Which inscription/plate exposed that the Chola Queen Vanamadevi committed Sati?", "answer": "The Anbil Plate." },
+      { "id": "r03", "question": "Real exam: During the Later Chola period, what was 'Irayili'?", "answer": "Tax-free land (not taxed land, temple-leviable tax, or leasing-land tax)." },
+      { "id": "r04", "question": "Real exam: What was the Chola kingdom's revenue department called?", "answer": "Puravuvari (not Perumtharam, Utan Kuttam, or Olai Nayagam)." },
+      { "id": "r05", "question": "Real exam: Arrange these Sangam-age Chera kings chronologically — Senkuttuvan, Emayavaramban, Kanaikal Irumporai, Kuttuvan Cheral.", "answer": "Emayavaramban → Senkuttuvan → Kuttuvan Cheral → Kanaikal Irumporai." },
+      { "id": "r06", "question": "When was the Vijayanagar Empire founded, by whom, and what dynasties ruled it?", "answer": "Founded in 1336 by brothers Harihara I and Bukka Raya I, of the Sangama dynasty. Four dynasties ruled it over time: Sangama, Saluva, Tuluva, and Aravidu." },
+      { "id": "r07", "question": "Who was Krishnadevaraya, and what were his key achievements?", "answer": "The greatest Vijayanagar king, of the Tuluva dynasty, ruled 1509-1529. He extended the empire across most of South India, defeated the Bahmani Sultans and Portuguese, captured Bahmani forts (Bidar, Gulbarga, Raichur, Bijapur), made major temple donations (adding towering gopuras), and authored the Telugu poem Amuktamalyada (the story of Andal)." },
+      { "id": "r08", "question": "Who founded the Bahmani Kingdom?", "answer": "Alauddin Hasan, an Afghan officer under Muhammad bin Tughlaq, who took the title Alauddin Hasan Bahman Shah." },
+      { "id": "r09", "question": "What was the long-running cause of conflict between Vijayanagar and the Bahmani Kingdom?", "answer": "A dispute over the Raichur Doab — the fertile region between the Krishna and Tungabhadra rivers (also extending to disputes over the Krishna-Godavari delta)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which inscription/plate exposed that the Chola Queen Vanamadevi committed Sati?", "options": ["Tiruvalangadu Plate", "Anbil Plate", "Velvikudi Plate", "Bahur Plate"], "correctIndex": 1, "explanation": "Anbil Plate.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Which dynasty's historic capitals were Madurai and Korkai?", "options": ["Chera", "Chola", "Pandya", "None of these"], "correctIndex": 2, "explanation": "Pandya — a common trap swaps this with Chola.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which dynasty's historic capitals were Uraiyur and Poompuhar?", "options": ["Chera", "Chola", "Pandya", "Pallava"], "correctIndex": 1, "explanation": "Chola — a common trap swaps this with Pandya.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m04", "prompt": "During the Later Chola period, 'Irayili' referred to:", "options": ["Taxed land", "Tax-free land", "Temple-leviable tax", "Leasing-land tax"], "correctIndex": 1, "explanation": "Tax-free land.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The Chola kingdom's revenue department was called:", "options": ["Perumtharam", "Utan Kuttam", "Puravuvari", "Olai Nayagam"], "correctIndex": 2, "explanation": "Puravuvari.", "sourceTag": "question-bank-2017", "difficulty": "hard" },
+      { "id": "m06", "prompt": "The Vijayanagar Empire was founded in 1336 by which brothers?", "options": ["Harihara I and Bukka Raya I", "Krishnadevaraya and Achyuta Raya", "Saluva Narasimha and Tuluva Narasa", "Rama Raya and Tirumala"], "correctIndex": 0, "explanation": "Harihara I and Bukka Raya I, of the Sangama dynasty.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Krishnadevaraya, the greatest Vijayanagar king, belonged to which dynasty?", "options": ["Sangama", "Saluva", "Tuluva", "Aravidu"], "correctIndex": 2, "explanation": "Tuluva dynasty.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "The long-running Vijayanagar-Bahmani conflict was mainly over control of:", "options": ["The Raichur Doab", "The Deccan plateau entirely", "Goa's ports", "The Coromandel coast"], "correctIndex": 0, "explanation": "The Raichur Doab, between the Krishna and Tungabhadra rivers.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

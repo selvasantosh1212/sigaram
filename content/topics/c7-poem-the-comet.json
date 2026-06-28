@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-poem-the-comet",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Comet\" — Norman Littleford",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" },
+    { "type": "web-research", "label": "careericons.com - structure, summary, biography" }
+  ],
+  "researchNotes": "OCR index search for 'the comet'/'norman littleford' returned no genuine hits (one earlier false-positive match during Day-3 research turned out to be an unrelated distractor option, not real content about this poem — correctly excluded then). Web research only. Note: a line very similar to 'no better spectacle than a comet in full flight' was tentatively-but-uncertainly flagged near a different poem's cluster during Day-3 research and deliberately NOT used there due to attribution uncertainty — this independent research now confirms that line family genuinely belongs to THIS poem, validating the earlier caution.",
+  "reading": {
+    "intro": "A science-flavoured poem describing a comet's speed, size, and the science of its glowing tail. Real coaching-site evidence tests figure-of-speech identification heavily, plus the underlying science content (ice melting into vapour forming the tail).",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Comet\", and what is the poem broadly about?", "answer": "Norman Littleford. The poem describes a comet's speed and size, the science of how its tail forms (ice melting into vapour as it nears the sun), the potential danger if a comet came too close to Earth (atmospheric shockwaves, earthquakes), and even touches the scientific idea that cometary dust chemicals may have contributed to the origins of life." },
+      { "id": "r02", "question": "What is the poem's structure (stanzas, lines, rhyme scheme)?", "answer": "Six stanzas of four lines each, rhyme scheme ABCB." },
+      { "id": "r03", "question": "Identify the figure of speech: \"Rampaging through the heavens.\"", "answer": "Cited as BOTH Personification (the comet given the active, almost violent human/animal action of 'rampaging') and Imagery (a vivid visual impression) in different sourced questions — both labels are defensible for the same line, so be ready for either framing." },
+      { "id": "r04", "question": "Identify the figure of speech: \"Faster than a cheetah.\"", "answer": "Simile — direct comparison using 'than' (the comparative form of 'like/as')." },
+      { "id": "r05", "question": "Identify the figure of speech: \"A comet in full flight.\"", "answer": "Metaphor — describes the comet's motion directly as 'flight' without 'like/as'." },
+      { "id": "r06", "question": "Identify the figure of speech: \"With a tail that's miles long.\"", "answer": "Hyperbole — an exaggerated claim about the tail's length, for dramatic emphasis." },
+      { "id": "r07", "question": "Which line is the clearest example of hyperbole, among 'Bigger than a mountain', 'So powerful and strong', 'Causing vapor from the force', and 'The outer ice is melting'?", "answer": "\"Bigger than a mountain\" — an exaggerated size comparison, the others are more literal/descriptive statements." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Comet\" is structured as how many stanzas, and what rhyme scheme?", "options": ["4 stanzas, AABB", "6 stanzas, ABCB", "8 stanzas, ABAB", "6 stanzas, AABB"], "correctIndex": 1, "explanation": "Six stanzas of four lines, ABCB rhyme scheme.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "\"Faster than a cheetah\" uses which figure of speech?", "options": ["Metaphor", "Simile", "Personification", "Hyperbole"], "correctIndex": 1, "explanation": "Simile — comparison using 'than'.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "\"A comet in full flight\" is an example of:", "options": ["Simile", "Metaphor", "Hyperbole", "Personification"], "correctIndex": 1, "explanation": "Metaphor — motion described directly as 'flight'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"With a tail that's miles long\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Hyperbole", "Personification"], "correctIndex": 2, "explanation": "Hyperbole — exaggerated for emphasis.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "According to the poem, what causes the comet's glowing tail to form?", "options": ["Reflected starlight", "Ice melting into vapour", "Magnetic radiation", "Friction with the solar wind"], "correctIndex": 1, "explanation": "The outer ice melts into vapour, trailing behind as the tail.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Which of these lines is the clearest example of hyperbole?", "options": ["Bigger than a mountain", "So powerful and strong", "Causing vapor from the force", "The outer ice is melting"], "correctIndex": 0, "explanation": "\"Bigger than a mountain\" — an exaggerated size claim.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "topicId": "a6-current-affairs-1",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History, Culture & Heritage (1)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "usthadian.com - Tamil Nadu State Awards 2025-2026 (Bharathiyar, Bharathidasan, Thiruvalluvar, Kamarajar Awards)" }
+  ],
+  "researchNotes": "Sixth and final topic in this first lap of the Part A Current-Affairs rotation (Unit VI's turn — completes one full cycle through all 6 units). These TN State Awards are named after figures ALREADY covered in depth elsewhere in this project (Bharathiyar — Day 22's leaders topic; Thiruvalluvar — Day 50's Thirukkural topic; Kamarajar — stashed/Unit III), so this topic deliberately connects the award NAMES to those existing facts rather than re-explaining who each honoree namesake was.",
+  "reading": {
+    "intro": "Covers Tamil Nadu's recent (2025-2026) State Award recipients — each award named after a major Tamil literary/political figure already covered elsewhere in this syllabus — directly relevant to the 'Achievements of Tamil Nadu' and 'Current affairs' clauses.",
+    "qa": [
+      { "id": "r01", "question": "Who received the Mahakavi Bharathiyar Award 2025, and what is it recognised for?", "answer": "Nellai Jayantha — honouring contributions to Tamil poetry and nationalist literary thought (the award is named after Subramania Bharathiyar, already covered in this project's Unit III leaders content)." },
+      { "id": "r02", "question": "Who received the Pavendhar Bharathidasan Award 2025, and what does it recognise?", "answer": "The poet Yugabharathi — recognising modern Tamil literary expression and cultural revival (named after the poet Bharathidasan)." },
+      { "id": "r03", "question": "Who is set to receive the Thiruvalluvar Award 2026, and what does it recognise?", "answer": "Dr. Sathiyavel Muruganar — recognising contributions toward the promotion of ethical values, Tamil philosophy, and classical Tamil thought (named after Thiruvalluvar, author of the Thirukkural — already covered in depth in this project's dedicated Thirukkural topic)." },
+      { "id": "r04", "question": "Who received the Kamarajar Award 2025, and what does it recognise?", "answer": "Idhayathulla — recognising contributions to public life and social development (named after K. Kamaraj, the former Tamil Nadu Chief Minister)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Mahakavi Bharathiyar Award 2025 was given to:", "options": ["Nellai Jayantha", "Yugabharathi", "Dr. Sathiyavel Muruganar", "Idhayathulla"], "correctIndex": 0, "explanation": "Nellai Jayantha.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "The Pavendhar Bharathidasan Award 2025 was given to:", "options": ["Nellai Jayantha", "Yugabharathi", "Dr. Sathiyavel Muruganar", "Idhayathulla"], "correctIndex": 1, "explanation": "Yugabharathi.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Thiruvalluvar Award 2026 is set to be given to:", "options": ["Nellai Jayantha", "Yugabharathi", "Dr. Sathiyavel Muruganar", "Idhayathulla"], "correctIndex": 2, "explanation": "Dr. Sathiyavel Muruganar.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Kamarajar Award 2025 was given to:", "options": ["Nellai Jayantha", "Yugabharathi", "Dr. Sathiyavel Muruganar", "Idhayathulla"], "correctIndex": 3, "explanation": "Idhayathulla.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The Thiruvalluvar Award recognises contributions toward:", "options": ["Sporting excellence", "Ethical values, Tamil philosophy, and classical Tamil thought", "Industrial development", "Film and cinema"], "correctIndex": 1, "explanation": "Ethical values, Tamil philosophy, classical Tamil thought.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

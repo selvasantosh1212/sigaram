@@ -1,0 +1,26 @@
+{
+  "topicId": "a6-current-affairs-7",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History/Culture/Heritage (7): Tamil Nadu's 2026 National Para Athletics Performance",
+  "sourceRefs": [
+    { "type": "web-research", "label": "outlookindia.com - National Para Athletics Championships 2026 medal tally (Tamil Nadu finished 2nd)" }
+  ],
+  "researchNotes": "Seventh and final TN-Culture-unit current-affairs topic of this 7th lap, completing Part A's 7th full rotation. A sports-achievement angle, providing welcome variety after several consecutive awards/heritage-institution topics in this unit.",
+  "reading": {
+    "intro": "Covers Tamil Nadu's performance at the National Para Athletics Championships 2026.",
+    "qa": [
+      { "id": "r01", "question": "Where did Tamil Nadu finish in the National Para Athletics Championships 2026 medal tally, and with how many total medals?", "answer": "2nd place, with 51 total medals (14 gold, 20 silver, 17 bronze)." },
+      { "id": "r02", "question": "Which state topped the National Para Athletics Championships 2026 medal tally?", "answer": "Haryana, with 39 gold medals." },
+      { "id": "r03", "question": "Which state finished 3rd in the National Para Athletics Championships 2026?", "answer": "Gujarat." },
+      { "id": "r04", "question": "What financial incentive has the Tamil Nadu government separately announced for athletes?", "answer": "Chief Minister M.K. Stalin announced a purse of ₹3 crore for Tamil Nadu sportspersons who win GOLD at the Olympics." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Tamil Nadu finished at which position in the National Para Athletics Championships 2026?", "options": ["1st", "2nd", "3rd", "4th"], "correctIndex": 1, "explanation": "2nd place.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Tamil Nadu won how many total medals at the National Para Athletics Championships 2026?", "options": ["41", "46", "51", "56"], "correctIndex": 2, "explanation": "51 (14 gold, 20 silver, 17 bronze).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Which state topped the National Para Athletics Championships 2026 medal tally?", "options": ["Tamil Nadu", "Haryana", "Gujarat", "Punjab"], "correctIndex": 1, "explanation": "Haryana (39 golds).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The Tamil Nadu government has announced a ₹3 crore purse for athletes who win:", "options": ["Any national medal", "Gold at the Olympics", "Gold at the Asian Games", "Any Para Athletics medal"], "correctIndex": 1, "explanation": "Gold at the Olympics.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

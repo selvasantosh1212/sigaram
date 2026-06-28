@@ -1,0 +1,31 @@
+{
+  "topicId": "c7-poem-nature-gentlest-mother",
+  "unitId": "C-VII",
+  "name": "Poem: \"Nature, the Gentlest Mother\" — Emily Dickinson",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" },
+    { "type": "web-research", "label": "scribd.com analyses - theme and imagery" }
+  ],
+  "researchNotes": "Authored OUT OF the syllabus's listed order — 'The River' (Ilan Shamir) was next in sequence, but research turned up three conflicting, mutually-inconsistent sources for that poem's actual text/author (none matching Shamir's confirmed real published style), so it was deliberately skipped rather than risk shipping wrong content. See tools/literature-evidence-stash.md for the full unresolved 3-way conflict — 'The River' needs dedicated verification (ideally against an actual SSLC textbook, which isn't available locally) before it can be authored safely. This poem was pulled forward instead since its sourcing is clean. OCR index search for 'nature the gentlest mother'/'emily dickinson' returned zero hits in the question bank — web research only for this one.",
+  "reading": {
+    "intro": "A poem personifying Nature as a patient, caring mother who gently disciplines her 'children' (plants, animals, the natural world). Real coaching-site evidence tests personification examples and the poem's caring/patient tone heavily.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Nature, the Gentlest Mother\", and what is its central theme?", "answer": "Emily Dickinson. Central theme: Nature personified as an infinitely patient, caring mother — looking after all her 'children' (plants, animals, the natural world) with gentle, unbiased compassion, regardless of their shortcomings." },
+      { "id": "r02", "question": "How is Nature's temperament described in the poem?", "answer": "Gentle and patient — not harsh, angry, cold, or distant." },
+      { "id": "r03", "question": "Identify the figure of speech: \"Nature, the gentlest mother.\"", "answer": "Personification — Nature (an abstract/non-human concept) is directly given the human role and qualities of a 'mother'. This is the poem's primary, sustained device throughout." },
+      { "id": "r04", "question": "What does \"Her admonition mild\" suggest about how Nature corrects wrongdoing?", "answer": "Nature gently corrects — not through scolding, anger, or punishment, but mild, patient guidance." },
+      { "id": "r05", "question": "How does Nature 'discipline' her creatures, per the poem's examples?", "answer": "By 'restraining' an overly active ('Rampant') squirrel, or muffling a 'too impetuous' bird — Nature's discipline is gentle moderation, not harsh punishment, shown through small natural behaviours rather than dramatic intervention." },
+      { "id": "r06", "question": "Who is said to hear Nature's 'conversation' on a summer afternoon, and what figure of speech appears in \"Her golden finger on her lip\"?", "answer": "Travellers hear it. \"Her golden finger on her lip\" is Personification — Nature given the human gesture of placing a finger to the lips (a 'hush' gesture), continuing the maternal personification." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Nature, the Gentlest Mother\" was written by:", "options": ["Maya Angelou", "Robert Frost", "Emily Dickinson", "Sarojini Naidu"], "correctIndex": 2, "explanation": "Emily Dickinson.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "How is Nature described in the poem?", "options": ["Harsh and angry", "Gentle and patient", "Cold and distant", "Loud and wild"], "correctIndex": 1, "explanation": "Gentle and patient.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "\"Nature, the gentlest mother\" is an example of which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 2, "explanation": "Personification — Nature given the role of a mother.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "\"Her admonition mild\" suggests that Nature:", "options": ["Scolds angrily", "Ignores wrongdoing entirely", "Gently corrects", "Punishes severely"], "correctIndex": 2, "explanation": "Gently corrects.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "According to the poem, who hears Nature's 'conversation' on a summer afternoon?", "options": ["Teachers", "Scientists", "Travellers", "Soldiers"], "correctIndex": 2, "explanation": "Travellers.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Her golden finger on her lip\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 2, "explanation": "Personification — a human 'hush' gesture given to Nature.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

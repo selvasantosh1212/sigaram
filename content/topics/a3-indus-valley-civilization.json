@@ -1,0 +1,33 @@
+{
+  "topicId": "a3-indus-valley-civilization",
+  "unitId": "A-III",
+  "name": "Indus Valley Civilization",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 12 Q13 (Harappan-culture true/false statement, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 45 Q65 (which Harappan sites are NOT in India, with answer key)" },
+    { "type": "web-research", "label": "general Indus Valley reference facts (sites, sanitation, weights, Dancing Girl bronze) — well-established history, not specific to any single past paper" }
+  ],
+  "researchNotes": "First topic of Part A Unit III (History, Culture of India, and Indian National Movement — 10 questions total for the unit, denser than Units I/II's 5 questions each). Two real hits plus standard, well-established Indus Valley facts. A useful real-exam pattern emerged: TNPSC likes to test the geography/political-boundary angle (which sites are in Pakistan vs. India) and 'NOT all X is Y' generalization traps, not just bare dates/names.",
+  "reading": {
+    "intro": "Opening topic of Unit III. Real exam evidence shows two recurring traps: assuming ALL Harappan sites were large urban centres (false — many were small villages), and assuming all major Harappan sites are in India (false — Mohenjodaro and Harappa itself are in present-day Pakistan).",
+    "qa": [
+      { "id": "r01", "question": "Real exam: True or false — 'All Harappan sites are urban in character.'", "answer": "FALSE. While the major cities (Mohenjodaro, Harappa, Dholavira) were large urban centres, Harappan-culture remains have been found even at small village sites — the civilization depended on villages for food and labour, not just cities." },
+      { "id": "r02", "question": "Real exam: Which major Harappan sites are NOT located in India?", "answer": "Mohenjodaro and Harappa — both are in present-day Pakistan (Sindh and Punjab provinces respectively). Lothal, Kalibangan, Bhanwali, Ropar, Surkotada, and Dholavira are all in India." },
+      { "id": "r03", "question": "What is the most distinctive feature of Lothal?", "answer": "Its dockyard — Lothal (in Gujarat) had a sophisticated dockyard, evidence of the Harappans' maritime/trading capability." },
+      { "id": "r04", "question": "Who discovered the connection between Harappa and Mohenjodaro, establishing them as one civilization, and when?", "answer": "Sir John Marshall, Director General of the Archaeological Survey of India, in 1924 — he found common features between the two sites and concluded they were part of one large civilization." },
+      { "id": "r05", "question": "What were the Indus Valley Civilization's most advanced urban planning features?", "answer": "Baked brick houses, elaborate drainage and sewage systems (among the world's earliest known urban sanitation systems — more advanced than contemporary Middle Eastern cities), and planned water supply." },
+      { "id": "r06", "question": "What famous bronze artifact was found at Mohenjodaro, and what were the Harappan standard weights' ratio?", "answer": "The 'Dancing Girl' bronze figurine. Standard cubical weights were found in the ratio 1:2:4:8:16:32." },
+      { "id": "r07", "question": "Name the five major Harappan urban centres and their general regions.", "answer": "Mohenjodaro (lower Indus, Sindh), Harappa (western Punjab), Ganeriwala (Cholistan desert), Dholavira (Gujarat), and Rakhigarhi (Haryana)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which statement about Harappan culture is INCORRECT?", "options": ["All Harappan sites are urban in character", "Harappan cities depended on villages for food and labourers", "Harappan remains have been found even at small village sites", "Lothal's most distinctive feature is its dockyard"], "correctIndex": 0, "explanation": "Not all Harappan sites were urban — many were small villages.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which of the following major Harappan sites are located in present-day Pakistan, not India?", "options": ["Lothal and Kalibangan", "Mohenjodaro and Harappa", "Surkotada and Dholavira", "Bhanwali and Ropar"], "correctIndex": 1, "explanation": "Mohenjodaro and Harappa are both in Pakistan.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which Harappan site is best known for its dockyard?", "options": ["Mohenjodaro", "Harappa", "Lothal", "Dholavira"], "correctIndex": 2, "explanation": "Lothal.", "sourceTag": "question-bank-2024", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Who established that Harappa and Mohenjodaro belonged to the same civilization, in 1924?", "options": ["Alexander Cunningham", "Sir John Marshall", "Mortimer Wheeler", "R.D. Banerji"], "correctIndex": 1, "explanation": "Sir John Marshall.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Harappan standard cubical weights were found in which ratio?", "options": ["1:2:3:4:5:6", "1:2:4:8:16:32", "1:3:9:27:81:243", "2:4:6:8:10:12"], "correctIndex": 1, "explanation": "1:2:4:8:16:32.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "The famous 'Dancing Girl' bronze figurine was found at:", "options": ["Harappa", "Lothal", "Mohenjodaro", "Dholavira"], "correctIndex": 2, "explanation": "Mohenjodaro.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

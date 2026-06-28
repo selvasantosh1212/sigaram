@@ -1,0 +1,36 @@
+{
+  "topicId": "c7-prose-dying-detective",
+  "unitId": "C-VII",
+  "name": "Prose: \"The Dying Detective\" — Arthur Conan Doyle",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 26 Q56 (Joseph Bell inspired the Sherlock Holmes character, with answer key)" },
+    { "type": "question-bank", "label": "2022_q page 20 Q74; 2022_q page 16 Q55 (plot twist reveal + author identity, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 83 Q167-168 (setting and Doyle's nationality, with answer key)" },
+    { "type": "web-research", "label": "smartenglishnotes.com/tnpscgk.in - full plot summary (Culverton Smith, Victor Savage, Inspector Morton)" }
+  ],
+  "researchNotes": "4 real past-paper hits across 3 different years' papers — strong, recurring evidence for this prose. A real exam question (2024_q Q167) calls it 'the play', suggesting the SSLC textbook version may be a dramatized/abridged adaptation of Conan Doyle's original Sherlock Holmes short story rather than the full original text — content below sticks to facts confirmed by real exam questions plus the widely-corroborated plot summary.",
+  "reading": {
+    "intro": "A Sherlock Holmes mystery in which Holmes fakes a deadly illness to trick a murderer, Culverton Smith, into confessing — revealing that the 'dying detective' was never really dying at all.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Dying Detective\", and what is his full name and nationality?", "answer": "Sir Arthur Ignatius Conan Doyle — confirmed as a BRITISH writer by a real exam question." },
+      { "id": "r02", "question": "Real exam: Who inspired Arthur Conan Doyle to create the character of Sherlock Holmes?", "answer": "Joseph Bell — confirmed by a real exam question (Bell was a professor known for his exceptional observation and deduction skills, which influenced Holmes's detective method)." },
+      { "id": "r03", "question": "What is the basic plot set-up — why is Holmes apparently dying, and who does he insist on calling instead of a real doctor?", "answer": "Holmes has been seriously ill for 3 days. His housekeeper, Mrs. Hudson, is worried and wants to bring in a doctor, but Holmes refuses any doctor except Dr. Watson, whom he eventually asks her to call." },
+      { "id": "r04", "question": "Who is Culverton Smith, and what is his connection to the murder victim, Victor Savage?", "answer": "Culverton Smith is a planter who lived in Sumatra and has specialized knowledge of the rare disease Holmes appears to be suffering from. He is the man who murdered Victor Savage (his own nephew) using this disease, and is eventually arrested by Inspector Morton on that charge." },
+      { "id": "r05", "question": "Real exam: What does Watson see when he returns to Holmes's room with Mrs. Hudson at the story's resolution?", "answer": "Holmes was sitting up in bed — revealing that Holmes had never really been dying at all; the entire illness was a calculated ruse to trick Culverton Smith into revealing/confessing his guilt." },
+      { "id": "r06", "question": "Real exam: Where is the story/play's setting?", "answer": "Sherlock Holmes's own bedroom (in his lodgings) — confirmed by a real exam question, ruling out Victor Savage's house, a New York apartment, or Dr. Watson's house as the setting." },
+      { "id": "r07", "question": "What object does Watson notice near the mantlepiece, relevant to the disease/murder weapon?", "answer": "A small black-and-white ivory box — connected to how the deadly disease/infection was actually transmitted to victims." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Dying Detective\" was written by:", "options": ["Mark Twain", "Arthur Conan Doyle", "Ruskin Bond", "Munshi Premchand"], "correctIndex": 1, "explanation": "Arthur Conan Doyle.", "sourceTag": "question-bank-2022", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Sir Arthur Ignatius Conan Doyle was a ___ writer.", "options": ["Irish", "American", "British", "French"], "correctIndex": 2, "explanation": "British.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Who inspired Arthur Conan Doyle to create the character of Sherlock Holmes?", "options": ["Dr. Watson", "Dr. Ainstree", "Inspector Smith", "Joseph Bell"], "correctIndex": 3, "explanation": "Joseph Bell.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Whom does Holmes insist on calling, refusing all other doctors, while apparently dying?", "options": ["Mrs. Hudson", "Inspector Morton", "Dr. Watson", "Culverton Smith"], "correctIndex": 2, "explanation": "Dr. Watson.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Culverton Smith, in the story, is revealed to be:", "options": ["Holmes's old friend", "A doctor treating Holmes", "The murderer of Victor Savage", "A police inspector"], "correctIndex": 2, "explanation": "The murderer of Victor Savage.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "When Watson returns to Holmes's room with Mrs. Hudson near the story's end, what does he see?", "options": ["Holmes had died", "Culverton Smith had escaped", "Holmes was sitting up in bed", "Inspector Morton was already there"], "correctIndex": 2, "explanation": "Holmes was sitting up in bed — the illness was a ruse.", "sourceTag": "question-bank-2022", "difficulty": "hard" },
+      { "id": "m07", "prompt": "The setting of \"The Dying Detective\" is in:", "options": ["Victor Savage's house", "A New York city apartment", "Dr. Watson's house", "Sherlock Holmes's bedroom"], "correctIndex": 3, "explanation": "Sherlock Holmes's bedroom.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Who eventually arrests Culverton Smith for the murder of Victor Savage?", "options": ["Dr. Watson", "Mrs. Hudson", "Inspector Morton", "Holmes himself"], "correctIndex": 2, "explanation": "Inspector Morton.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

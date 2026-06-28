@@ -1,0 +1,33 @@
+{
+  "topicId": "c7-prose-cant-climb-trees-anymore",
+  "unitId": "C-VII",
+  "name": "Prose: \"I Can't Climb Trees Anymore\" — Ruskin Bond",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2022_q page 7 Q19 (Ruskin Bond honoured with the Sahitya Akademi Award, with answer key — applies to any of his 3 syllabus pieces)" },
+    { "type": "web-research", "label": "brainkart.com/englishsummary.com/learncram.com - plot summary corroborated across multiple independent sources" }
+  ],
+  "researchNotes": "OCR grep for 'climb trees/ruskin bond' surfaced a general Ruskin Bond bio fact (Sahitya Akademi Award) but no plot-specific past-paper hit for THIS particular story — a dedicated TNPSC MCQ page for this exact title wasn't found despite searching (unlike his other 2 syllabus pieces, which do have dedicated pages — to revisit if a future search turns one up). Plot content below is corroborated consistently across multiple independent summary sources, so confidence is reasonably high despite lacking a direct past-paper hit.",
+  "reading": {
+    "intro": "A nostalgic short story about a middle-aged narrator who revisits his old childhood home — now owned by a Colonel — and reconnects with memories of his youth through the Colonel's daughter and a jackfruit tree he used to climb.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"I Can't Climb Trees Anymore\", and what major literary honour has he received for his contribution to Indian literature?", "answer": "Ruskin Bond — honoured with the Sahitya Akademi Award (confirmed by a real TNPSC exam question, which applies to Bond generally across his works)." },
+      { "id": "r02", "question": "What is the central premise of the story — why does the narrator revisit his old house, and who does he meet there?", "answer": "The narrator (an older man) revisits his childhood home, which is no longer owned by his family — it now belongs to a Colonel. There, he meets the Colonel's young daughter, and shares his childhood memories with her." },
+      { "id": "r03", "question": "Why was the jackfruit tree special to the narrator as a boy?", "answer": "It was his favourite childhood spot — a thick branch stretched out over the roof, and there was a small hollow in it where he used to hide his treasures." },
+      { "id": "r04", "question": "What treasure does the narrator remember hiding in the tree, and what is its significance?", "answer": "His grandfather's Iron Cross — a German military decoration awarded for bravery, which his grandfather obtained from a German soldier while fighting in France during World War I." },
+      { "id": "r05", "question": "Why can't the narrator retrieve the Iron Cross himself, and who does it instead?", "answer": "He is now too old to climb the tree himself (hence the story's title) — the Colonel's daughter climbs the tree for him and retrieves the dusty Iron Cross." },
+      { "id": "r06", "question": "What does the narrator do with the Iron Cross once it's retrieved, and what does this reveal about the story's real theme?", "answer": "He gives the Iron Cross to the girl as a gift, out of gratitude — revealing that what he truly came searching for wasn't the physical object, but a reconnection with his own lost youth. The story's central theme is nostalgia and the fleeting, irretrievable nature of childhood/youth." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"I Can't Climb Trees Anymore\" was written by:", "options": ["Liam O'Flaherty", "Ruskin Bond", "James Thurber", "Satyajit Ray"], "correctIndex": 1, "explanation": "Ruskin Bond.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Ruskin Bond was honoured with which award for his contribution to Indian literature?", "options": ["Bharat Ratna", "Sahitya Ratna", "Sahitya Bharat", "Sahitya Akademi Award"], "correctIndex": 3, "explanation": "Sahitya Akademi Award.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m03", "prompt": "When the narrator revisits his old childhood home in the story, who now owns it?", "options": ["His own family still", "A Colonel", "A school", "It is abandoned"], "correctIndex": 1, "explanation": "A Colonel.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which tree was the narrator's favourite childhood spot, with a hollow where he hid his treasures?", "options": ["A mango tree", "A jackfruit tree", "A banyan tree", "An oak tree"], "correctIndex": 1, "explanation": "A jackfruit tree.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What treasure had the narrator hidden in the tree's hollow as a boy?", "options": ["A gold coin", "His grandfather's Iron Cross", "A pocket watch", "A diary"], "correctIndex": 1, "explanation": "His grandfather's Iron Cross.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "How did the narrator's grandfather obtain the Iron Cross?", "options": ["He bought it at an auction", "He obtained it from a German soldier while fighting in France in WWI", "It was a family heirloom from his own father", "He won it in a card game"], "correctIndex": 1, "explanation": "From a German soldier, fighting in France during WWI.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "Why couldn't the narrator retrieve the Iron Cross himself?", "options": ["The tree had been cut down", "He was now too old to climb the tree", "The Colonel forbade it", "He had forgotten where it was"], "correctIndex": 1, "explanation": "He was too old to climb the tree.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "What did the narrator do with the Iron Cross after the girl retrieved it for him?", "options": ["Kept it for himself", "Sold it", "Gave it to the girl as a gift", "Donated it to a museum"], "correctIndex": 2, "explanation": "Gave it to the girl as a gift.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

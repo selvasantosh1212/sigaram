@@ -1,0 +1,31 @@
+{
+  "topicId": "c7-poem-wandering-singers",
+  "unitId": "C-VII",
+  "name": "Poem: \"Wandering Singers\" — Sarojini Naidu",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" },
+    { "type": "web-research", "label": "beamingnotes.com / boloji.com - summary and theme analysis" }
+  ],
+  "researchNotes": "OCR index search for 'wandering singer'/'sarojini' returned 2 hits, both unrelated (Sarojini Naidu's name appeared as a wrong-answer option in an unrelated history question) — web research only for this topic. Raw pool of 6 sourced MCQs plus summary-site theme material, all kept since each tests a distinct fact.",
+  "reading": {
+    "intro": "A Sarojini Naidu poem about folk musicians who travel from place to place, detached from worldly ties, singing of history, beauty, and fate. Real coaching-site evidence tests theme, in-context meaning, and figure-of-speech together.",
+    "qa": [
+      { "id": "r01", "question": "What is the central theme of \"Wandering Singers\"?", "answer": "A wandering life and detachment — the singers move freely from place to place (compared to birds, butterflies, and clouds), unattached to any single home, spreading songs of love, beauty, history, and fate." },
+      { "id": "r02", "question": "What do the singers' songs cover, thematically?", "answer": "Glorious cities whose past has been forgotten; the past lives of noble, happy, and beautiful women; and mighty battles fought by brave kings — in short, beauty, history, glory, bravery, happiness, and sorrow." },
+      { "id": "r03", "question": "What does \"The voice of the wind is the voice of our fate\" mean, and what figure of speech is it?", "answer": "It means they follow their destiny wherever it leads — like the wind, their path isn't fixed or self-chosen. It's a Metaphor (fate is directly equated with the wind's voice, not compared using 'like/as')." },
+      { "id": "r04", "question": "What does \"All men are our kindred, the world is our home\" imply about the singers?", "answer": "They feel at home anywhere — they treat all people as family and don't see themselves as tied to one fixed home." },
+      { "id": "r05", "question": "What instrument do the wandering singers carry?", "answer": "A lute." },
+      { "id": "r06", "question": "Who wrote \"Wandering Singers\"?", "answer": "Sarojini Naidu." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Wandering Singers\" was written by:", "options": ["Rabindranath Tagore", "Sarojini Naidu", "Sarala Devi", "Subramania Bharati"], "correctIndex": 1, "explanation": "Sarojini Naidu.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The central theme of the poem is:", "options": ["Modern music", "Freedom of travel", "Sacrifice and patriotism", "Wandering life and detachment"], "correctIndex": 3, "explanation": "Wandering life and detachment.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"The voice of the wind is the voice of our fate\" means:", "options": ["Wind can be controlled", "They control their destiny", "They follow destiny wherever it leads", "They fear the wind"], "correctIndex": 2, "explanation": "They follow destiny wherever it leads, just as the wind's direction isn't chosen.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"The voice of the wind is the voice of our fate\" uses which figure of speech?", "options": ["Simile", "Personification", "Metaphor", "Alliteration"], "correctIndex": 2, "explanation": "Metaphor — fate is directly equated with the wind's voice.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"All men are our kindred, the world is our home\" implies that the singers:", "options": ["Live in houses", "Feel at home anywhere", "Dislike strangers", "Stay only in forests"], "correctIndex": 1, "explanation": "They feel at home anywhere, treating all people as family.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What instrument do the wandering singers carry?", "options": ["Harp", "Lute", "Drum", "Flute"], "correctIndex": 1, "explanation": "A lute.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

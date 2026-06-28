@@ -1,0 +1,34 @@
+{
+  "topicId": "c1-verbs-gerunds-infinitives-participles",
+  "unitId": "C-I",
+  "name": "Grammar: Verbs — Gerunds, Infinitives, and Participles",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2017_q page 5 Q15, page 17 Q65; 2022_q page 12 Q40, page 22 Q83, page 24 Q92; 2025_q1 page 21 Q39-41; 2024_q page 89 Q191 (real, with answer key marks)" }
+  ],
+  "researchNotes": "Eighth Grammar topic — exceptionally dense real evidence across 3 different exam years (2017, 2022, 2025), drawing partly on facts stashed since Day 74. Distinct from the already-shipped c1-sentence-patterns-non-finite-verbs (Day 58), which covered basic gerund/infinitive/participle CLASSIFICATION — this topic instead covers gerund-after-verb/preposition usage, compound-gerund forms, and gerund+noun compound words, avoiding overlap.",
+  "reading": {
+    "intro": "Covers when to use a gerund (verb+ing as a noun) vs. an infinitive (to+verb) vs. a participle (verb+ing/ed as an adjective) — especially after specific verbs and prepositions, where only ONE form is grammatically correct.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: which sentence correctly uses a gerund — 'He agreed to buy a computer' / 'To walk is a good exercise' / 'She is a singer and dancer' / 'I enjoy writing stories for children'?", "answer": "'I enjoy writing stories for children' — 'writing' is a gerund (verb+ing used as a noun, here the object of 'enjoy'). The others use an infinitive ('to buy', 'To walk') or no verbal at all." },
+      { "id": "r02", "question": "Real exam: 'I heard of his having gained a prize.' What type of verbal is 'having gained'?", "answer": "Compound Gerund (a perfect/compound gerund form — 'having' + past participle — used to show the gerund's action happened BEFORE another point in time)." },
+      { "id": "r03", "question": "Real exam: identify the participle in 'The barking dog kept the neighbours awake all night.'", "answer": "Barking — a present participle used as an adjective, describing 'dog' (not a gerund here, since it modifies a noun rather than acting as one)." },
+      { "id": "r04", "question": "Real exam: which has the correct infinitive — 'She is bold enough to take decisions' / 'She is bold enough in accepting challenges' / 'She is bold but afraid of snakes' / 'She is bold enough to taking decisions'?", "answer": "'She is bold enough to take decisions' — the infinitive must stay in its base form ('to take'), never 'to taking' (mixing infinitive 'to' with a gerund '-ing' ending is always wrong)." },
+      { "id": "r05", "question": "Real exam: fill in the blank with the suitable Gerund form: '___ seemed foolish when decisive action was required.'", "answer": "Waiting — a gerund used as the SUBJECT of the sentence (not 'to wait'/'to be wait', which would be infinitives/ungrammatical here)." },
+      { "id": "r06", "question": "Real exam: 'Dancing bird' is a compound word formed by combining which 2 word types?", "answer": "Gerund + Noun ('dancing' = gerund, 'bird' = noun) — the same pattern as 'Bleaching powder' (bleaching = gerund, powder = noun), confirmed in a separate real exam's compound-word matching question." },
+      { "id": "r07", "question": "Real exam: 'I stopped ___ to him.' Which form is correct — 'talking', 'to talk', or 'being talked'?", "answer": "Talking (gerund) — 'stop + gerund' means to cease an ongoing action ('I stopped talking' = I was talking, then ceased). Note: 'stop + infinitive' ('I stopped to talk') would mean something different — pausing another activity IN ORDER TO talk." },
+      { "id": "r08", "question": "Real exam: 'He asked me in ___ this form.' Which form is correct — 'filling' or 'to fill'?", "answer": "Filling (gerund) — required after the preposition 'in'. A general rule: a verb immediately after a preposition must take the gerund (-ing) form, never the infinitive." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Find the sentence where a gerund is used.", "options": ["He agreed to buy a computer.", "To walk is a good exercise.", "She is a singer and dancer.", "I enjoy writing stories for children."], "correctIndex": 3, "explanation": "I enjoy writing stories for children.", "sourceTag": "question-bank-2017", "difficulty": "medium" },
+      { "id": "m02", "prompt": "\"I heard of his having gained a prize.\" The underlined words form a:", "options": ["Gerund", "Compound Gerund", "Infinitive", "Participle"], "correctIndex": 1, "explanation": "Compound Gerund.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Identify the participle: \"The barking dog kept the neighbours awake all night.\"", "options": ["barking", "the", "kept", "awake"], "correctIndex": 0, "explanation": "barking.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Which one of the following has a correct infinitive?", "options": ["She is bold enough to take decisions.", "She is bold enough in accepting challenges.", "She is bold but afraid of snakes.", "She is bold enough to taking decisions."], "correctIndex": 0, "explanation": "She is bold enough to take decisions.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Fill in the blank with the suitable Gerund form: \"___ seemed foolish when decisive action was required.\"", "options": ["Wait", "Waiting", "To wait", "To be wait"], "correctIndex": 1, "explanation": "Waiting.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Dancing bird\" is a compound word formed by combining:", "options": ["Noun + Adjective", "Adjective + Gerund", "Gerund + Noun", "Preposition + Noun"], "correctIndex": 2, "explanation": "Gerund + Noun.", "sourceTag": "question-bank-2017", "difficulty": "medium" },
+      { "id": "m07", "prompt": "\"I stopped ___ to him.\"", "options": ["talking", "to talk", "being talked", "talk"], "correctIndex": 0, "explanation": "talking (gerund after 'stopped').", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m08", "prompt": "\"He asked me in ___ this form.\"", "options": ["fill", "to fill", "filling", "filled"], "correctIndex": 2, "explanation": "filling (gerund after preposition 'in').", "sourceTag": "question-bank-2022", "difficulty": "medium" }
+    ]
+  }
+}

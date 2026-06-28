@@ -1,0 +1,33 @@
+{
+  "topicId": "a5-social-problems-population-education-health",
+  "unitId": "A-V",
+  "name": "Social Problems: Population, Education, Health, Employment, Poverty (with TN Human Development Indicators)",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2026_q page 54 Q55 (unemployment as a social problem — Assertion-Reason, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 16 Q14-15 (Kerala's highest unemployment 2022-23; TN's 47% higher-education GER 2021-22, with answer key — time-sensitive)" },
+    { "type": "question-bank", "label": "2026_q page 134 Q160 (TN district literacy-rate ranking, 2011 census: Kanyakumari/Chennai/Thoothukudi/Nilgiris, with answer key)" },
+    { "type": "web-research", "label": "tnpscportal.in/spc.tn.gov.in - TN's Human Development Index ranking, health/literacy indicators" }
+  ],
+  "researchNotes": "4 real hits, 2 explicitly time-sensitive (2022-23 unemployment rate, 2021-22 GER figure) and flagged as such rather than presented as permanent facts. The literacy-ranking fact (2011 census) is more durable since it's tied to a specific historical census, not a recurring annual figure.",
+  "reading": {
+    "intro": "Covers unemployment and poverty as social problems, and Tamil Nadu's standing on Human Development Indicators (literacy, health, employment) compared to the rest of India. Several facts here are explicitly time-bound (tied to a specific year's data) — flagged so they aren't mistaken for permanent facts.",
+    "qa": [
+      { "id": "r01", "question": "Real exam (Assertion-Reason): Is unemployment a major social problem, and does financial-aid provision directly EXPLAIN why it causes sickness/disorganization?", "answer": "Both statements are TRUE — unemployment IS a major social problem causing sickness and personal/family/community disorganization, AND social provisions for financial aid do alleviate the suffering unemployment entails — but a real exam confirmed the second statement is NOT the correct EXPLANATION of the first; they're both true facts that don't have that specific cause-effect relationship to each other." },
+      { "id": "r02", "question": "Real exam: Which state had the highest unemployment percentage during 2022-23 (among Kerala, Haryana, Punjab, Tamil Nadu)?", "answer": "Kerala — confirmed by a real exam question. (Note: this is a specific year's snapshot, not a permanent ranking — unemployment rates fluctuate yearly.)" },
+      { "id": "r03", "question": "Real exam: What was Tamil Nadu's Gross Enrollment Ratio (GER) in higher education during 2021-2022?", "answer": "47 percent — confirmed by a real exam question. (Also a specific year's figure, useful as a benchmark but expected to change in later editions of the same statistic.)" },
+      { "id": "r04", "question": "Real exam: As per the 2011 census, how do The Nilgiris, Chennai, Thoothukudi, and Kanyakumari rank by literacy rate (highest to lowest)?", "answer": "Kanyakumari (highest), then Chennai, then Thoothukudi, then The Nilgiris (lowest among these four) — confirmed by a real exam question. Kanyakumari is generally known to have the highest literacy rate among all Tamil Nadu districts." },
+      { "id": "r05", "question": "How does Tamil Nadu generally compare to other Indian states on the Human Development Index (HDI) and related indicators?", "answer": "Tamil Nadu typically ranks among India's top 5 states on HDI (rankings vary by year/source, roughly 3rd-5th), behind Kerala (which consistently ranks 1st nationally on HDI). TN performs particularly well on health indicators (lower infant/child mortality than the national average) and is among the top 3 states by per-capita income and GDP contribution." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Assertion [A]: Unemployment is a major social problem causing sickness and family/community disorganization. Reason [R]: Social financial-aid provisions alleviate the suffering unemployment causes. Choose the correct option.", "options": ["[A] is true; [R] is false", "Both [A] and [R] are true, and [R] is the correct explanation of [A]", "Both [A] and [R] are true, but [R] is NOT the correct explanation of [A]", "[A] is false; [R] is true"], "correctIndex": 2, "explanation": "Both true, but [R] does not explain [A].", "sourceTag": "question-bank-2026", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Which state had the highest unemployment percentage during 2022-23, among Kerala, Haryana, Punjab, and Tamil Nadu?", "options": ["Kerala", "Haryana", "Punjab", "Tamil Nadu"], "correctIndex": 0, "explanation": "Kerala.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Tamil Nadu's Gross Enrollment Ratio (GER) in higher education during 2021-2022 was:", "options": ["45 percent", "46 percent", "47 percent", "48 percent"], "correctIndex": 2, "explanation": "47 percent.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "As per the 2011 census, which Tamil Nadu district among the following had the HIGHEST literacy rate?", "options": ["The Nilgiris", "Chennai", "Thoothukudi", "Kanyakumari"], "correctIndex": 3, "explanation": "Kanyakumari.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m05", "prompt": "As per the 2011 census, arrange these districts by literacy rate from highest to lowest: The Nilgiris, Chennai, Thoothukudi, Kanyakumari.", "options": ["Kanyakumari, Chennai, Thoothukudi, The Nilgiris", "Chennai, Kanyakumari, The Nilgiris, Thoothukudi", "The Nilgiris, Thoothukudi, Chennai, Kanyakumari", "Thoothukudi, Kanyakumari, Chennai, The Nilgiris"], "correctIndex": 0, "explanation": "Kanyakumari, Chennai, Thoothukudi, The Nilgiris.", "sourceTag": "question-bank-2026", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Which state consistently ranks 1st nationally on the Human Development Index (HDI)?", "options": ["Tamil Nadu", "Kerala", "Punjab", "Haryana"], "correctIndex": 1, "explanation": "Kerala.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "On health indicators (e.g., infant/child mortality), how does Tamil Nadu generally compare to the national average?", "options": ["Worse than the national average", "Better than the national average", "Exactly at the national average", "No comparable data exists"], "correctIndex": 1, "explanation": "Better than the national average.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

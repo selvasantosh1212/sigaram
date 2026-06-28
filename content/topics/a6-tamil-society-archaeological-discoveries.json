@@ -1,0 +1,34 @@
+{
+  "topicId": "a6-tamil-society-archaeological-discoveries",
+  "unitId": "A-VI",
+  "name": "History of Tamil Society and Related Archaeological Discoveries",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 75 Q79 (Arikkamedu/Chera-Chola/Sangam-Age statements, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 23 Q131-132 (Velaan Vedham; Wheeler's stratigraphy method at Arikkamedu, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 8 Q7 (Keezhadi pottery/Tamizhi script literacy evidence, with answer key)" }
+  ],
+  "researchNotes": "Opens Part A Unit VI (History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu, 20 questions — tied with Unit V as the largest GS unit). 4 real hits, all clustering on the two most actively-discussed TN excavation sites — Arikkamedu and Keezhadi — both of which carry real archaeological/political significance for dating Tamil civilization's antiquity. Cross-references Day 1's fact about Wheeler's stratigraphy method (already used there for the General Science 'science as a tool to understand the past' angle) from the History angle here.",
+  "reading": {
+    "intro": "Covers two of Tamil Nadu's most significant excavation sites — Arikkamedu (a Roman-era trade port) and Keezhadi (early literacy evidence) — plus a few core Sangam-era political facts. Real exam evidence favours testing exact site-to-finding pairings and common Chera/Chola mix-ups.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What evidence has been found at Arikkamedu, and which excavation method was used there?", "answer": "Evidence of a planned town, warehouses, and ring wells has been found at Arikkamedu (near Puducherry) — confirmed by a real exam question. Sir Mortimer Wheeler excavated Arikkamedu using the scientific stratigraphy (soil-layer) method — also confirmed by a separate real exam question." },
+      { "id": "r02", "question": "Real exam: Who actually ruled the Kaveri delta from Uraiyur — and what's the common mix-up?", "answer": "The CHOLAS ruled the Kaveri delta, with their capital at Uraiyur — a real exam flagged 'The Cheras ruled over the Kaveri delta with capital Uraiyur' as FALSE; the Cheras actually ruled the Kerala region (capital at Vanji/Karur), a different dynasty entirely from the Cholas." },
+      { "id": "r03", "question": "Real exam: What was the Chola royal emblem, and what did their coins feature?", "answer": "The Chola emblem was the TIGER. They issued square copper coins bearing images of the tiger — confirmed by a real exam question." },
+      { "id": "r04", "question": "Real exam: Does the Sangam Age have its roots in the Bronze Age?", "answer": "NO — a real exam flagged this claim as FALSE. The Sangam Age is generally associated with the Iron Age / early historic period (roughly 300 BCE-300 CE), not the earlier Bronze Age." },
+      { "id": "r05", "question": "Real exam: What evidence from the Keezhadi (Keeladi) excavation suggests people in 6th century BC were literate?", "answer": "Pots found at Keezhadi bear Tamizhi script engraved on them, AND most of these pots were inscribed with letters AFTER the pot had already dried (not before firing) — both confirmed true by a real exam question, together forming the literacy evidence." },
+      { "id": "r06", "question": "Real exam: Which Tamil moral/wisdom text is also referred to as 'Velaan Vedham'?", "answer": "Proverbs (the collected Tamil proverbs) — confirmed by a real exam question, distinguishing it from Thirukkural, Aarakkovai, and Naladiyaar offered as distractors." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Evidence of a planned town, warehouses, and ring wells has been found at which excavation site?", "options": ["Keezhadi", "Arikkamedu", "Adichanallur", "Poompuhar"], "correctIndex": 1, "explanation": "Arikkamedu.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Sir Mortimer Wheeler used which excavation method/technique at Arikkamedu?", "options": ["Carbon dating", "Stratigraphy (soil-layer analysis)", "Aerial photography", "Ground-penetrating radar"], "correctIndex": 1, "explanation": "Stratigraphy (soil-layer analysis).", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Which dynasty actually ruled the Kaveri delta, with their capital at Uraiyur?", "options": ["Cheras", "Cholas", "Pandyas", "Pallavas"], "correctIndex": 1, "explanation": "Cholas.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What was the Chola royal emblem, featured on their square copper coins?", "options": ["The fish", "The bow", "The tiger", "The lion"], "correctIndex": 2, "explanation": "The tiger.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The Sangam Age is generally dated to which broad period?", "options": ["Bronze Age", "Iron Age / early historic period", "Stone Age", "Medieval period"], "correctIndex": 1, "explanation": "Iron Age / early historic period.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m06", "prompt": "What script is engraved on pots found at the Keezhadi excavation site?", "options": ["Brahmi", "Tamizhi", "Devanagari", "Grantha"], "correctIndex": 1, "explanation": "Tamizhi.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m07", "prompt": "At Keezhadi, most pots were inscribed with letters:", "options": ["Before the pot was fired", "After the pot had dried", "While the clay was still wet on the wheel", "By the buyer after purchase"], "correctIndex": 1, "explanation": "After the pot had dried.", "sourceTag": "question-bank-2026", "difficulty": "hard" },
+      { "id": "m08", "prompt": "Which Tamil moral text is also known as 'Velaan Vedham'?", "options": ["Thirukkural", "Aarakkovai", "Proverbs", "Naladiyaar"], "correctIndex": 2, "explanation": "Proverbs.", "sourceTag": "question-bank-2022", "difficulty": "hard" }
+    ]
+  }
+}

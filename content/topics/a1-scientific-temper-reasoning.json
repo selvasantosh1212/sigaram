@@ -1,0 +1,212 @@
+{
+  "topicId": "a1-scientific-temper-reasoning",
+  "unitId": "A-I",
+  "name": "Scientific Knowledge & Temper, Power of Reasoning, Rote vs Conceptual Learning",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 19 Q23 (scientific-method mentor chain)" },
+    { "type": "question-bank", "label": "2022_q1 page 4 Q103 (Fundamental Duties incl. scientific temper)" },
+    { "type": "question-bank", "label": "2022_q1 page 13 Q114 (Assertion-Reason on nature of science)" },
+    { "type": "question-bank", "label": "2022_q1 page 59 Q187 (principles of scientific thinking)" },
+    { "type": "web-research", "label": "tnpscguru.in - Scientific Knowledge & Temper, Power of Reasoning Q&A" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - Power of Reasoning, Rote vs Conceptual Learning" },
+    { "type": "general", "label": "Constitution of India, Article 51-A(h)" }
+  ],
+  "researchNotes": "Raw candidate pool: 16 distinct facts gathered (4 confirmed directly against real TNPSC past papers across 2022/2024, rest from coaching-site aggregations of past questions). No meaningful duplication found within this sub-topic (each fact is distinct), so all 16 kept for reading; 12 recast as mock MCQs in authentic TNPSC formats (Assertion-Reason, multi-statement 'which of the following', chronological ordering) since that is the format the real papers actually use for this topic, not plain recall questions. One fact (inductive reasoning's attribution) is flagged below as disputed evidence rather than silently presented as settled.",
+  "reading": {
+    "intro": "This topic covers Unit I General Science's opening theme: what makes thinking 'scientific', the difference between rote and conceptual learning, and the three classical types of reasoning. TNPSC tests this almost entirely through Assertion-Reason and multi-statement MCQs rather than plain definitions, so the Q&A below is written to surface the same facts those formats probe.",
+    "qa": [
+      {
+        "id": "r01",
+        "question": "What is scientific temper, and why does the Constitution care about it?",
+        "answer": "Scientific temper is an outlook that relies on questioning, evidence, and logical analysis rather than blind belief. It is explicitly named in Article 51-A(h) of the Constitution: 'to develop the scientific temper, humanism and the spirit of inquiry and reform' is one of the original Fundamental Duties added by the 42nd Amendment (1976) — not the 11th duty (that one, added by the 86th Amendment 2002, is about parents/guardians providing education opportunities to children aged 6-14)."
+      },
+      {
+        "id": "r02",
+        "question": "What is considered the best antidote to superstitious beliefs?",
+        "answer": "Scientific temper — not merely 'scientific knowledge' (knowing facts isn't the same as having a questioning, evidence-based outlook), and certainly not untested/unproven knowledge or blind faith in long-held ideas."
+      },
+      {
+        "id": "r03",
+        "question": "What are the three classical principles of scientific thinking?",
+        "answer": "Empiricism (knowledge from observation/experience), Rationalism (knowledge from logical reasoning), and Skepticism (withholding belief until evidence supports it). A real TNPSC paper (2022) tested this as a 'select all that apply' question — all three were correct."
+      },
+      {
+        "id": "r04",
+        "question": "What are the defining characteristics of scientific temper as a way of thinking?",
+        "answer": "Questioning others' ideas regardless of their social position or authority, analyzing opinions rather than accepting them outright, and applying logic — the opposite of accepting ideas just because of who said them."
+      },
+      {
+        "id": "r05",
+        "question": "What are the defining characteristics of rote learning?",
+        "answer": "It does not allow the learner to associate new information with their surroundings, and it infuses rigidity in thinking (convergent thinking, poor deeper understanding). It is still useful for mastering foundational facts, building automaticity (e.g. multiplication tables), and recalling something without needing to re-derive it each time."
+      },
+      {
+        "id": "r06",
+        "question": "What are the defining characteristics of conceptual learning?",
+        "answer": "It allows dynamic adaptation to new situations and improves questioning ability. It takes a 'top-down' approach — relating new information to concepts already understood, building mental categories for facts and ideas, and encouraging more critical thinking about new subjects, rather than memorizing in isolation."
+      },
+      {
+        "id": "r07",
+        "question": "What is deductive reasoning, and who is it classically credited to?",
+        "answer": "Reasoning from a general premise to a specific, logically certain conclusion (syllogism) — classically credited to Aristotle. Example: 'Everyone from Ireland has blond hair; Mother is Irish; therefore Mother has blond hair.' Note this is deductively *valid in form* even though the general premise is factually false — deductive validity is about the logical structure, not whether the premises happen to be true."
+      },
+      {
+        "id": "r08",
+        "question": "What is inductive reasoning, and what is the example pattern?",
+        "answer": "Reasoning from specific observations to a general conclusion — the conclusion is probable, not certain. Example pattern: 'Girls clean better than boys; Vaishu is a girl; therefore Vaishu should clean the room' (a generalization being applied, not a logically airtight deduction). Caution: several TNPSC coaching sites attribute the 'proposal' of inductive reasoning to Ray Solomonoff — this looks like a mix-up with Solomonoff induction, a 20th-century algorithmic-probability concept; the classical attribution for inductive reasoning as a method is Francis Bacon. Flagged here because if this exact MCQ appears, the coaching-site convention seems to expect 'Ray Solomonoff' as the answer — worth a second look closer to the exam."
+      },
+      {
+        "id": "r09",
+        "question": "What is abductive reasoning, and who coined the term?",
+        "answer": "Inference to the best/simplest explanation for an observation, even though that explanation isn't guaranteed true. The term is credited to the philosopher Charles Sanders Peirce."
+      },
+      {
+        "id": "r10",
+        "question": "Which of the three reasoning types is most closely tied to mathematical and philosophical logic, and why?",
+        "answer": "Deductive reasoning — because it follows strict logical form (syllogisms) where the conclusion follows necessarily from true premises, which is exactly the structure formal mathematical proofs and philosophical logic use."
+      },
+      {
+        "id": "r11",
+        "question": "A real TNPSC paper asked for the chronological mentor → student chain in the 'establishment of scientific methods' — what is that chain?",
+        "answer": "Socrates taught Plato, Plato taught Aristotle, and Aristotle taught Alexander (the Great). So the order is: Socrates – Plato – Aristotle – Alexander."
+      },
+      {
+        "id": "r12",
+        "question": "Real exam style: 'Assertion [A]: Science is a complex, abstract and multi-faceted discipline. Reason [R]: Scientific knowledge is concrete, theoretical and synthetic.' What did TNPSC mark as correct?",
+        "answer": "[A] is true, but [R] is false — i.e., the exam's answer key treats describing scientific knowledge as merely 'concrete, theoretical and synthetic' as an incomplete/incorrect characterization, while affirming that science itself is genuinely complex, abstract and multi-faceted."
+      },
+      {
+        "id": "r13",
+        "question": "When is National Science Day observed in India, and what does it commemorate?",
+        "answer": "28 February — it commemorates Sir C.V. Raman's announcement of the discovery of the Raman Effect on 28 February 1928."
+      },
+      {
+        "id": "r14",
+        "question": "When is World Science Day for Peace and Development observed?",
+        "answer": "10 November (a UNESCO-designated international observance)."
+      },
+      {
+        "id": "r15",
+        "question": "Where did Jawaharlal Nehru articulate the concept of 'scientific temper', and when?",
+        "answer": "In his book The Discovery of India (written/published around 1946)."
+      },
+      {
+        "id": "r16",
+        "question": "How does science act as a tool to understand the past, present and future — what's a concrete TNPSC-relevant example?",
+        "answer": "Archaeology applies scientific method (e.g., stratigraphy — analysing soil layers) to reconstruct the past. Sir Mortimer Wheeler used this scientific soil-layer excavation method at the Arikkamedu site in Tamil Nadu — a real past-paper fact that bridges this topic with the History unit's excavation-sites content."
+      }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      {
+        "id": "m01",
+        "prompt": "Which one of the following is the best antidote to superstitious beliefs?",
+        "options": ["Scientific knowledge", "Scientific temper", "Untested and unproven knowledge", "Strong faith in long-held ideas"],
+        "correctIndex": 1,
+        "explanation": "Scientific temper — an outlook of questioning and evidence-based reasoning — is the antidote, not mere factual knowledge.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m02",
+        "prompt": "Consider the following statements about Fundamental Duties under the Constitution of India: (i) Fundamental Duties are laid down in Article 51-A. (ii) The 86th Amendment Act, 2002 added an 11th fundamental duty to the list. (iii) To develop scientific temper is not a Fundamental Duty. Which of the statements given above is/are correct?",
+        "options": ["(i) only", "(i) and (ii) only", "(ii) and (iii) only", "(i), (ii) and (iii)"],
+        "correctIndex": 1,
+        "explanation": "(i) and (ii) are correct. (iii) is false — developing scientific temper IS a Fundamental Duty under Article 51-A(h). This exact statement set appeared in a real TNPSC paper (2022).",
+        "sourceTag": "question-bank-2022",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m03",
+        "prompt": "Principles of scientific thinking include which of the following? (i) Empiricism (ii) Rationalism (iii) Skepticism",
+        "options": ["(i) only", "(ii) only", "(i) and (ii) only", "(i), (ii) and (iii)"],
+        "correctIndex": 3,
+        "explanation": "All three — empiricism, rationalism, and skepticism — are core principles of scientific thinking. This appeared as a real TNPSC question (2022).",
+        "sourceTag": "question-bank-2022",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m04",
+        "prompt": "Select the correct chronological order of the mentor-student chain in the establishment of scientific methods (Ancient Greece):",
+        "options": ["Aristotle – Alexander – Socrates – Plato", "Plato – Socrates – Aristotle – Alexander", "Socrates – Plato – Aristotle – Alexander", "Alexander – Aristotle – Socrates – Plato"],
+        "correctIndex": 2,
+        "explanation": "Socrates taught Plato, Plato taught Aristotle, and Aristotle taught Alexander. This exact question appeared in the 2024 TNPSC paper.",
+        "sourceTag": "question-bank-2024",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m05",
+        "prompt": "Assertion [A]: Science is a complex, abstract and multi-faceted discipline. Reason [R]: Scientific knowledge is concrete, theoretical and synthetic. Which is correct?",
+        "options": ["Both [A] and [R] are true, and [R] is the correct explanation of [A]", "Both [A] and [R] are true, but [R] is not the correct explanation of [A]", "[A] is true, but [R] is false", "[A] is false, but [R] is true"],
+        "correctIndex": 2,
+        "explanation": "This is the actual answer marked in a real 2022 TNPSC paper: [A] is true, [R] is false.",
+        "sourceTag": "question-bank-2022",
+        "difficulty": "hard"
+      },
+      {
+        "id": "m06",
+        "prompt": "Which of the following are characteristics of rote learning? (i) Does not allow the learner to associate with surroundings (ii) Infuses rigidity in thinking (iii) Allows dynamic adaptation to changes (iv) Improves questioning ability",
+        "options": ["(i) and (ii) only", "(iii) and (iv) only", "(i), (ii) and (iii) only", "All four"],
+        "correctIndex": 0,
+        "explanation": "(iii) and (iv) describe conceptual learning, not rote learning.",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m07",
+        "prompt": "'Convergent thinking' is most closely associated with which style of learning?",
+        "options": ["Rote learning", "Conceptual learning", "Both equally", "Neither"],
+        "correctIndex": 0,
+        "explanation": "Convergent thinking (narrowing to one correct, memorized answer) characterizes rote learning; conceptual learning instead encourages critical, exploratory thinking.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m08",
+        "prompt": "Identify the type of reasoning: 'Mother is Irish. Everyone from Ireland has blond hair. Therefore, Mother has blond hair.'",
+        "options": ["Deductive reasoning", "Inductive reasoning", "Abductive reasoning", "None of these"],
+        "correctIndex": 0,
+        "explanation": "This is deductive reasoning — a general premise applied to reach a specific, logically certain conclusion (regardless of whether the premise is actually true).",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m09",
+        "prompt": "Which type of reasoning is described as 'inference to the best explanation', and is credited to Charles Sanders Peirce?",
+        "options": ["Deductive reasoning", "Inductive reasoning", "Abductive reasoning", "Analogical reasoning"],
+        "correctIndex": 2,
+        "explanation": "Abductive reasoning — inferring the most plausible explanation for an observation.",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m10",
+        "prompt": "Deductive reasoning, which relies on mathematical and philosophical logic, is classically credited to:",
+        "options": ["Francis Bacon", "Aristotle", "Charles Sanders Peirce", "Ray Solomonoff"],
+        "correctIndex": 1,
+        "explanation": "Aristotle is classically credited with systematizing deductive logic via the syllogism.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m11",
+        "prompt": "National Science Day in India is observed on 28 February to commemorate:",
+        "options": ["Birth of Jawaharlal Nehru", "Discovery of the Raman Effect by C.V. Raman", "India's first satellite launch", "Founding of the Indian Science Congress"],
+        "correctIndex": 1,
+        "explanation": "C.V. Raman announced his discovery of the Raman Effect on 28 February 1928.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m12",
+        "prompt": "Jawaharlal Nehru articulated the concept of 'scientific temper' in which of his books?",
+        "options": ["Glimpses of World History", "An Autobiography", "The Discovery of India", "A Bunch of Old Letters"],
+        "correctIndex": 2,
+        "explanation": "Nehru articulated 'scientific temper' in The Discovery of India (c. 1946).",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

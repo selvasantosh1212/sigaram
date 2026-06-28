@@ -1,0 +1,36 @@
+{
+  "topicId": "c7-prose-sports-stars-mithali",
+  "unitId": "C-VII",
+  "name": "Prose: \"Sports Stars\" — Mithali Dorai Raj",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 27 Q58 (true/false statement set on Mithali's achievements/award/family support, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total); Wikipedia - Padma Shri 2015, father Dorai Raj's background" }
+  ],
+  "researchNotes": "1 real past-paper hit plus a rich 12-question web-research set that together RESOLVE the real exam's statement set precisely: the OCR'd real question tested 'first to score seven consecutive CENTURIES' as false — and the web set confirms why: her actual record is seven consecutive FIFTIES (half-centuries), not centuries. Also resolves the award (Padma Shri, not Padma Bhushan, as the real exam's false option claimed) and the family-support claim (her father actively introduced her to cricket — the real exam's 'not encouraged by family' statement is false).",
+  "reading": {
+    "intro": "A profile of Mithali Raj, India's most celebrated women's cricketer, who captained the national team in Tests and ODIs, known as the 'Tendulkar of Indian Women's Cricket' for her record-breaking consistency.",
+    "qa": [
+      { "id": "r01", "question": "Who is the central figure of this lesson, what sport does she play, and what formats did she captain India in?", "answer": "Mithali Raj. She plays cricket, and captained the Indian women's team in both Test and ODI formats." },
+      { "id": "r02", "question": "What is Mithali Raj's mother tongue, where does she live, and at what age did she start playing cricket?", "answer": "Her mother tongue is TAMIL. She lives in Hyderabad. She started playing cricket at age 10, and was selected for the Indian team at age 17." },
+      { "id": "r03", "question": "What is Mithali's nickname, and real exam: which award was she ACTUALLY honoured with (not Padma Bhushan, a false claim tested in a real exam)?", "answer": "Nicknamed the 'Tendulkar of Indian Women's Cricket'. She was actually honoured with the PADMA SHRI (2015) — a real exam tested 'Padma Bhushan' as a deliberately false claim about her award." },
+      { "id": "r04", "question": "Real exam: Was Mithali discouraged from playing cricket by her family? What is the real story?", "answer": "NO — a real exam flagged 'Mithali was not encouraged to play cricket by her family' as FALSE. In reality, her father, Dorai Raj (a retired Indian Air Force officer), actively introduced her to the sport by taking her along to her brother's cricket coaching sessions at a young age." },
+      { "id": "r05", "question": "Real exam: What specific consecutive-innings record is Mithali the first woman to achieve — and what's the common trap?", "answer": "She is the first woman to score SEVEN CONSECUTIVE FIFTIES (half-centuries) — NOT seven consecutive centuries, which a real exam tested as a false claim. Mixing up 'fifties' with 'centuries' is the trap to watch for." },
+      { "id": "r06", "question": "What notable innings did Mithali play against South Africa in February 2018, and who else scored well in that match?", "answer": "She scored 76 not out. Smriti Mandhana also hit a stylish half-century in the same match." },
+      { "id": "r07", "question": "Approximately how many runs has Mithali scored in Women's ODIs?", "answer": "Over 6,000 runs." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Who is the central sports figure discussed in this lesson?", "options": ["Smriti Mandhana", "Jhulan Goswami", "Mithali Raj", "Harmanpreet Kaur"], "correctIndex": 2, "explanation": "Mithali Raj.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Mithali Raj's mother tongue is:", "options": ["Hindi", "Tamil", "Telugu", "Kannada"], "correctIndex": 1, "explanation": "Tamil.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Mithali Raj's nickname is:", "options": ["Lady Dhoni", "Tendulkar of Indian Women's Cricket", "Queen of Bat", "Cricket Star"], "correctIndex": 1, "explanation": "Tendulkar of Indian Women's Cricket.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Real exam: Mithali Raj was honoured with which award (NOT Padma Bhushan, a false claim tested in a real exam)?", "options": ["Bharat Ratna", "Padma Shri", "Padma Bhushan", "Padma Vibhushan"], "correctIndex": 1, "explanation": "Padma Shri (2015).", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Real exam: Was Mithali discouraged from playing cricket by her family?", "options": ["Yes, her family opposed it initially", "No — her father actively introduced her to the sport", "Her mother alone supported her", "She started without any family involvement"], "correctIndex": 1, "explanation": "No, her father actively introduced her to cricket.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Real exam: Mithali is the first woman to score seven consecutive:", "options": ["Centuries", "Fifties (half-centuries)", "Sixes in an over", "Man-of-the-match awards"], "correctIndex": 1, "explanation": "Fifties (half-centuries), not centuries.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m07", "prompt": "At what age did Mithali start playing cricket, and at what age was she selected for the Indian team?", "options": ["Started at 7, selected at 15", "Started at 10, selected at 17", "Started at 12, selected at 19", "Started at 14, selected at 20"], "correctIndex": 1, "explanation": "Started at 10, selected at 17.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What was Mithali's score in the February 2018 match against South Africa?", "options": ["56*", "66", "76*", "86"], "correctIndex": 2, "explanation": "76 not out.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Who else scored a stylish half-century alongside Mithali in that same match against South Africa?", "options": ["Jhulan Goswami", "Harmanpreet Kaur", "Smriti Mandhana", "Shafali Verma"], "correctIndex": 2, "explanation": "Smriti Mandhana.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Approximately how many runs has Mithali Raj scored in Women's ODIs?", "options": ["Over 3,000", "Over 4,000", "Over 5,000", "Over 6,000"], "correctIndex": 3, "explanation": "Over 6,000.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

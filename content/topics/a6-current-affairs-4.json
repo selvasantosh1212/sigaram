@@ -1,0 +1,28 @@
+{
+  "topicId": "a6-current-affairs-4",
+  "unitId": "A-VI",
+  "name": "Current Affairs in TN History/Culture/Heritage (4): TN Diaspora Awards 2026 & TN's Padma Award Recipients",
+  "sourceRefs": [
+    { "type": "web-research", "label": "usthadian.com - Tamil Nadu Diaspora Awards 2026; organiser.org - Tamil Nadu's Padma Award 2026 recipients" }
+  ],
+  "researchNotes": "Fourth TN Culture current-affairs topic, completing Part A's 4th full rotation lap. Deliberately picked a DIFFERENT TN honours programme (the Diaspora Awards) from the State Awards already covered at Day 59, to avoid redundancy — and zoomed into TN's specific slice of the national Padma Awards 2026 (already covered nationally at Day 60) rather than repeating the national totals.",
+  "reading": {
+    "intro": "Covers the Tamil Nadu Diaspora Awards 2026 (a global Tamil-community honours programme) and Tamil Nadu's individual recipients within the national Padma Awards 2026.",
+    "qa": [
+      { "id": "r01", "question": "What are the Tamil Nadu Diaspora Awards 2026, and when/where were they held?", "answer": "A Tamil Nadu government honours programme recognising overseas Tamil community members across sectors (education, community development, women empowerment, trade, science & technology, medicine) — held in Chennai in February 2026, with delegates from over 70 countries." },
+      { "id": "r02", "question": "What is the purpose of the TN Diaspora Awards, per the Chief Minister's framing?", "answer": "To urge the global Tamil community to preserve their Tamil identity, language, and cultural roots — institutionalising recognition that strengthens emotional bonds between Tamil Nadu and overseas Tamil communities." },
+      { "id": "r03", "question": "What is the 'Tamil Mamani Award' (2026), and who received it?", "answer": "A TN Diaspora Award category recognising social justice promotion — awarded to Dr. Annamalai." },
+      { "id": "r04", "question": "Who is Tamil Nadu's sole Padma Vibhushan recipient in the 2026 Padma Awards, and in which field?", "answer": "N. Rajam — a renowned Indian classical violinist, celebrated for popularising the 'singing violin' technique." },
+      { "id": "r05", "question": "Which Tamil Nadu Padma Shri 2026 recipient was honoured for Silambam (traditional martial art)?", "answer": "K. Pajanivel — a Silambam master from Puducherry who has trained thousands of students over 3+ decades, helping preserve India's martial heritage." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Tamil Nadu Diaspora Awards 2026 were held in which city?", "options": ["Madurai", "Coimbatore", "Chennai", "Tiruchirappalli"], "correctIndex": 2, "explanation": "Chennai (February 2026).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Delegates from how many countries attended the Tamil Nadu Diaspora Awards 2026?", "options": ["Over 30", "Over 50", "Over 70", "Over 100"], "correctIndex": 2, "explanation": "Over 70 countries.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "The 'Tamil Mamani Award' 2026, recognising social justice promotion, was given to:", "options": ["Dr. Annamalai", "Sathiyavel Muruganar", "Nellai Jayantha", "Yugabharathi"], "correctIndex": 0, "explanation": "Dr. Annamalai.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Tamil Nadu's sole Padma Vibhushan recipient in 2026, violinist N. Rajam, is known for popularising:", "options": ["The 'singing violin' technique", "Carnatic fusion jazz", "The veena-violin duet format", "Western classical violin in India"], "correctIndex": 0, "explanation": "The 'singing violin' technique.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "K. Pajanivel received the Padma Shri 2026 for his work in:", "options": ["Bharatanatyam", "Silambam (martial arts)", "Carnatic vocal music", "Tamil cinema"], "correctIndex": 1, "explanation": "Silambam (martial arts).", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

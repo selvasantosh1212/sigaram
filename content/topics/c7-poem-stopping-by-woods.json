@@ -1,0 +1,29 @@
+{
+  "topicId": "c7-poem-stopping-by-woods",
+  "unitId": "C-VII",
+  "name": "Poem: \"Stopping by Woods on a Snowy Evening\" — Robert Frost",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 69 Q114 (real quoted line with author attribution, with answer key — found while researching an earlier topic, stashed and used here)" },
+    { "type": "web-research", "label": "litcharts.com / poemanalysis.com / literarydevices.net - structure, rhyme scheme, personification analysis" }
+  ],
+  "researchNotes": "One direct real hit (already stashed from Day-3 research) plus solid literary-analysis sourcing for the poem's distinctive interlocking rhyme scheme and repeated final line — both are exactly the kind of 'lines of significance' detail the syllabus explicitly tests for this unit.",
+  "reading": {
+    "intro": "One of Robert Frost's most famous poems — a traveller pauses by snowy woods, tempted to linger, before reminding himself of obligations still ahead. Real exam evidence already confirms the poem's most quoted line is tested directly; literary analysis sources fill in the structural details (rhyme scheme, personification, repetition) that 'appreciation' questions typically probe.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: \"The woods are lovely, dark and deep, / But I have promises to keep.\" Who wrote this, and what's the poem?", "answer": "Robert Frost, from \"Stopping by Woods on a Snowy Evening\" — confirmed via a real TNPSC question (2024) asking exactly this attribution." },
+      { "id": "r02", "question": "What is the poem's distinctive rhyme scheme, and how does it change in the final stanza?", "answer": "The first three stanzas follow an AABA pattern where each stanza's unrhymed third line seeds the NEXT stanza's dominant rhyme (e.g., 'here' in stanza 1 becomes the rhyme sound driving stanza 2). The final stanza breaks this chain: instead of introducing a new sound to drive a further stanza, all four lines rhyme together (DDDD: deep/keep/sleep/sleep) — formally mirroring the poem's sense of finally coming to rest." },
+      { "id": "r03", "question": "How is the horse personified in the poem?", "answer": "The horse is described as thinking the stop is 'queer' and giving its harness bells a shake, as if asking 'is there some mistake?' — giving the animal human-like reasoning/curiosity, set against the speaker's own quiet, almost trance-like pause." },
+      { "id": "r04", "question": "What does the famous repeated final line, \"And miles to go before I sleep,\" suggest?", "answer": "On its surface, the literal road/journey still ahead — but the doubled repetition invites a deeper reading about ongoing duties/responsibilities (and some readers extend 'sleep' toward mortality, though Frost himself resisted that specific equation)." },
+      { "id": "r05", "question": "How are the trees described, and what figure of speech is that?", "answer": "\"Lovely, dark and deep\" — personification-adjacent imagery that makes the woods feel alluring almost like a living invitation to linger, heightening the pull between staying and the duty to move on." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The woods are lovely, dark and deep, but I have promises to keep\" was written by:", "options": ["Sarojini Naidu", "John Masefield", "Robert Frost", "William Henry Davies"], "correctIndex": 2, "explanation": "Robert Frost — confirmed via a real 2024 TNPSC question.", "sourceTag": "question-bank-2024", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The final stanza of \"Stopping by Woods on a Snowy Evening\" breaks from the earlier AABA pattern by using which rhyme scheme?", "options": ["ABAB", "AABB", "DDDD (all four lines rhyme)", "No rhyme at all"], "correctIndex": 2, "explanation": "DDDD — deep/keep/sleep/sleep, all four lines share the same end-rhyme.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "How is the horse personified in the poem?", "options": ["It speaks aloud to the traveller", "It thinks the stop is 'queer' and shakes its bells as if questioning it", "It refuses to move at all", "It gallops away in fear"], "correctIndex": 1, "explanation": "The horse is given human-like curiosity/reasoning about the unusual stop.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The poem's final line, \"And miles to go before I sleep,\" is repeated. What does this repetition emphasize?", "options": ["The traveller is lost", "Ongoing duties/responsibilities still ahead", "The journey has ended", "A change of destination"], "correctIndex": 1, "explanation": "Emphasizes the obligations still pulling the speaker onward, despite the temptation to linger.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "In the first three stanzas, how does Frost's rhyme scheme connect one stanza to the next?", "options": ["Each stanza's unrhymed third line becomes the next stanza's dominant rhyme sound", "Every stanza repeats the exact same four rhymes", "There is no connection between stanzas", "Each stanza rhymes with the title only"], "correctIndex": 0, "explanation": "The AABA pattern's unrhymed third line seeds the following stanza's rhyme sound.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

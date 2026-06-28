@@ -1,0 +1,27 @@
+{
+  "topicId": "a5-current-affairs-7",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy & TN Dev. Admin. (7): India's 2026 Semiconductor Plant Inaugurations",
+  "sourceRefs": [
+    { "type": "web-research", "label": "investors.micron.com/swarajyamag.com/republicworld.com - Micron Sanand ATMP (28 Feb 2026); Kaynes Semicon Sanand (31 Mar 2026); Rajasthan's first semiconductor facility, Bhiwadi (15 May 2026); Tata Electronics-ASML agreement (16 May 2026)" }
+  ],
+  "researchNotes": "Eighth Economy current-affairs topic (7th lap). Directly extends the Day-66 'India Semiconductor Mission 2.0' mention with 4 concrete, dated 2026 plant inaugurations/agreements — showing the Mission moving from policy announcement to physical execution.",
+  "reading": {
+    "intro": "Covers 4 major 2026 milestones in India's semiconductor manufacturing buildout, all under the India Semiconductor Mission framework.",
+    "qa": [
+      { "id": "r01", "question": "What did Micron Technology inaugurate on 28 February 2026, and where?", "answer": "India's first semiconductor Assembly, Test, and Packaging (ATMP) facility, at Sanand, Gujarat — a ~$2.75 billion investment converting DRAM/NAND wafers from Micron's global network into finished memory/storage products." },
+      { "id": "r02", "question": "What did Kaynes Semicon inaugurate on 31 March 2026, also at Sanand, and what is its capacity?", "answer": "An OSAT (Outsourced Semiconductor Assembly and Test) facility, focused on chip testing and packaging — investment of ₹33 billion (~$347.9 million), with a production capacity of around 6 million chips per day." },
+      { "id": "r03", "question": "Which state entered India's semiconductor manufacturing ecosystem for the first time on 15 May 2026, and under which scheme?", "answer": "Rajasthan — with its first semiconductor ATMP/OSAT facility at Bhiwadi, developed under the central government's SPECS (Scheme for Promotion of Manufacturing of Electronic Components and Semiconductors) scheme." },
+      { "id": "r04", "question": "What major front-end fabrication agreement was signed on 16 May 2026, and what does it involve?", "answer": "Tata Electronics signed a strategic agreement with Netherlands-based ASML to support India's first front-end semiconductor fabrication facility — a 300mm wafer fab being developed at Dholera, Gujarat, backed by an estimated $11 billion investment; ASML will supply advanced manufacturing technology and equipment." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Micron Technology's ATMP facility — India's first such facility — is located at:", "options": ["Dholera, Gujarat", "Sanand, Gujarat", "Bhiwadi, Rajasthan", "Bengaluru, Karnataka"], "correctIndex": 1, "explanation": "Sanand, Gujarat (inaugurated 28 Feb 2026).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Kaynes Semicon's OSAT facility (inaugurated 31 March 2026) has a production capacity of approximately:", "options": ["1 million chips/day", "3 million chips/day", "6 million chips/day", "10 million chips/day"], "correctIndex": 2, "explanation": "6 million chips per day.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Rajasthan's first semiconductor facility (Bhiwadi, inaugurated 15 May 2026) was developed under which scheme?", "options": ["PLI Scheme", "SPECS Scheme", "Make in India 2.0", "Startup India"], "correctIndex": 1, "explanation": "SPECS Scheme.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "Tata Electronics signed a strategic agreement with which company (16 May 2026) for India's first front-end semiconductor fab?", "options": ["TSMC", "ASML", "Samsung", "Intel"], "correctIndex": 1, "explanation": "ASML (Netherlands).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Tata Electronics' front-end semiconductor fab (with ASML) is being developed at Dholera, Gujarat, with an estimated investment of:", "options": ["$5 billion", "$8 billion", "$11 billion", "$15 billion"], "correctIndex": 2, "explanation": "$11 billion.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

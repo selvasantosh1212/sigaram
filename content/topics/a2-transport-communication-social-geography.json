@@ -1,0 +1,38 @@
+{
+  "topicId": "a2-transport-communication-social-geography",
+  "unitId": "A-II",
+  "name": "Geography of India: Transport & Communication; Social Geography",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 55 Q81 (TN population density per 2011 census, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 134 Q160 (TN district literacy ranking, with answer key)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - Social Geography + Transport & Communication Q&A (real past-paper sets, with some cross-labeling between the two pages)" }
+  ],
+  "researchNotes": "Two adjoining syllabus clauses (Transport & Communication; Social Geography — population density/distribution, racial/linguistic groups, tribes) bundled into one topic. Two direct real hits plus two web-sourced question sets that turned out to cross-label content (the 'Transport' source page actually had census/literacy facts, and the 'Social Geography' page had agriculture/ports/hydro-power facts) — used everything regardless of which page it came from, since the underlying facts are accurate and exam-relevant either way.",
+  "reading": {
+    "intro": "Sixth sub-topic of Geography Unit II. Real evidence shows census/literacy statistics dominate Social Geography questions, while Transport questions favor named firsts/establishment-years and true/false statement-checking.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What was Tamil Nadu's population density per the 2011 census?", "answer": "555 persons per sq km." },
+      { "id": "r02", "question": "Real exam: Rank these Tamil Nadu districts by literacy rate (highest to lowest) per the 2011 census — Nilgiris, Chennai, Thoothukudi, Kanyakumari.", "answer": "Kanyakumari (highest) → Chennai → Thoothukudi → Nilgiris (lowest)." },
+      { "id": "r03", "question": "What is India's overall population density (2011 census), and which state/UT has the highest?", "answer": "India's overall density (2011) was about 382 per sq km. Among Union Territories, NCT of Delhi is the most densely populated (~11,297 per sq km); among states, Bihar ranks highest (~1,102 per sq km)." },
+      { "id": "r04", "question": "Which delta is known as the 'Granary of South India'?", "answer": "The Cauvery delta." },
+      { "id": "r05", "question": "What is the second staple food of the people of Tamil Nadu (after rice)?", "answer": "Millets." },
+      { "id": "r06", "question": "Name a major hydro-electric power project in Tamil Nadu, and how many major/minor ports does TN have?", "answer": "Mettur Dam is a major hydro-electric project. Tamil Nadu has 3 major ports and 15 minor ports." },
+      { "id": "r07", "question": "In which year was India's first census carried out?", "answer": "1872." },
+      { "id": "r08", "question": "Which Indian state ranks first in literacy rate (93.91% per the cited figure)?", "answer": "Kerala." },
+      { "id": "r09", "question": "What forms the most important system of road transportation in India, and when was the National Highways Authority of India established?", "answer": "National highways are the most important road transport system. NHAI was established in 1988." },
+      { "id": "r10", "question": "True or False: 'The state of Meghalaya has no railway network.'", "answer": "FALSE — Meghalaya does have limited rail connectivity (e.g., the line to Mendipathar), even though it's one of the least rail-connected states in India." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Tamil Nadu's population density per the 2011 census was approximately:", "options": ["450 per sq km", "555 per sq km", "650 per sq km", "750 per sq km"], "correctIndex": 1, "explanation": "555 per sq km.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Per the 2011 census, which Tamil Nadu district had the HIGHEST literacy rate among Nilgiris, Chennai, Thoothukudi, and Kanyakumari?", "options": ["The Nilgiris", "Chennai", "Thoothukudi", "Kanyakumari"], "correctIndex": 3, "explanation": "Kanyakumari ranked highest.", "sourceTag": "question-bank-2026", "difficulty": "hard" },
+      { "id": "m03", "prompt": "Which delta is known as the 'Granary of South India'?", "options": ["Godavari delta", "Krishna delta", "Cauvery delta", "Mahanadi delta"], "correctIndex": 2, "explanation": "Cauvery delta.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "How many major and minor ports does Tamil Nadu have respectively?", "options": ["3 and 15", "4 and 15", "3 and 16", "4 and 16"], "correctIndex": 0, "explanation": "3 major and 15 minor ports.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "India's first census was carried out in which year?", "options": ["1872", "1875", "1878", "1952"], "correctIndex": 0, "explanation": "1872.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Which Indian state has the highest literacy rate?", "options": ["Assam", "Gujarat", "Kerala", "Jammu & Kashmir"], "correctIndex": 2, "explanation": "Kerala.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "The National Highways Authority of India (NHAI) was established in:", "options": ["1988", "1990", "1991", "1994"], "correctIndex": 0, "explanation": "1988.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "True or False: Meghalaya has absolutely no railway network at all.", "options": ["True", "False — it has limited rail connectivity", "True, but only historically", "False — it has an extensive network"], "correctIndex": 1, "explanation": "False — Meghalaya has limited but real rail connectivity (e.g., the Mendipathar line).", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

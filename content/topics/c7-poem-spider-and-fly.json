@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-poem-spider-and-fly",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Spider and The Fly\" — Mary Howitt",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 68 Q110 (Match the Poets with their Poems, confirming Mary Howitt wrote this poem, with answer key — found while researching an earlier topic, stashed and used here)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" }
+  ],
+  "researchNotes": "One real confirmed hit (author attribution, already stashed from Day-3 research) plus a 6-question web-sourced set. Unlike most other poems covered, this set leans on a wider variety of named devices (Apostrophe, Imagery, Hyperbole) beyond the usual Metaphor/Simile/Personification/Alliteration rotation — worth extra attention since 'Apostrophe' as a literary device (direct address to someone/something) hasn't come up in earlier poems.",
+  "reading": {
+    "intro": "A classic cautionary fable-poem: a cunning spider flatters a fly into its web. Real exam evidence (confirmed author attribution via a real 2024 question) tests a wider range of figure-of-speech labels than most other poems in this syllabus — including Apostrophe, a device not seen in earlier topics.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Who wrote \"The Spider and The Fly\"?", "answer": "Mary Howitt (confirmed via a real 2024 'match the poets with their poems' question)." },
+      { "id": "r02", "question": "What is the poem's plot and moral?", "answer": "A spider repeatedly flatters and invites a fly into its 'parlour' (web), praising her appearance. The fly initially refuses, recognizing the danger ('who goes up your winding stair can ne'er come down again'), but is eventually won over by enough flattery and is caught. Moral: beware of flattery from those with bad intentions — once lured in, there's no escape." },
+      { "id": "r03", "question": "What is 'Apostrophe' as a figure of speech, and where does it appear in this poem?", "answer": "Apostrophe is direct address — speaking TO someone (or something personified) as if they were present and listening. \"Will you walk into my parlour?\" (the spider speaking directly to the fly) and \"Oh no, no,\" said the little Fly... \"to ask me is in vain\" (the fly's direct reply) are both cited examples — basically, the poem's dialogue-driven structure itself is built on this device." },
+      { "id": "r04", "question": "Identify the figure of speech: \"How handsome are your gauzy wings, how brilliant are your eyes!\"", "answer": "Personification — the fly's physical features are praised in human terms of 'handsome' beauty, and more broadly the insects throughout the poem speak and reason like humans." },
+      { "id": "r05", "question": "Identify the figure of speech: \"Your eyes are like the diamond bright.\"", "answer": "Simile — directly compares the fly's eyes to a diamond using 'like'." },
+      { "id": "r06", "question": "Identify the figure of speech: \"thinking only of her brilliant eyes, and green and purple hue.\"", "answer": "Imagery — vivid sensory (visual) description of the fly's colours, appealing directly to the reader's visual imagination." },
+      { "id": "r07", "question": "Identify the figure of speech: \"For who goes up your winding stair can ne'er come down again.\"", "answer": "Hyperbole — an absolute, exaggerated claim ('ne'er' = never) used for dramatic warning effect." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Spider and The Fly\" was written by:", "options": ["Sarojini Naidu", "Mary Howitt", "Emily Dickinson", "Jane Taylor"], "correctIndex": 1, "explanation": "Mary Howitt — confirmed via a real 2024 TNPSC question.", "sourceTag": "question-bank-2024", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What is the moral of the poem?", "options": ["Hard work always pays off", "Beware of flattery from those with bad intentions", "Friendship conquers all", "Beauty is only skin deep"], "correctIndex": 1, "explanation": "Beware of flattery — the spider lures the fly through repeated compliments.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"Will you walk into my parlour?\" — spoken directly to the fly — is an example of which figure of speech?", "options": ["Simile", "Personification", "Apostrophe", "Metaphor"], "correctIndex": 2, "explanation": "Apostrophe — direct address.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "\"Your eyes are like the diamond bright\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Oxymoron"], "correctIndex": 0, "explanation": "Simile — uses 'like'.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m05", "prompt": "\"For who goes up your winding stair can ne'er come down again\" is an example of:", "options": ["Irony", "Alliteration", "Anaphora", "Hyperbole"], "correctIndex": 3, "explanation": "Hyperbole — an absolute, exaggerated warning.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Thinking only of her brilliant eyes, and green and purple hue\" is best described as:", "options": ["Imagery", "Metaphor", "Consonance", "Assonance"], "correctIndex": 0, "explanation": "Imagery — vivid visual/sensory description.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

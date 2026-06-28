@@ -1,0 +1,29 @@
+{
+  "topicId": "a4-current-affairs-9",
+  "unitId": "A-IV",
+  "name": "Current Affairs in Indian Polity (9): The Corporate Laws (Amendment) Bill, 2026",
+  "sourceRefs": [
+    { "type": "web-research", "label": "prsindia.org/scconline.com - Corporate Laws (Amendment) Bill, 2026 (introduced 23 March 2026, referred to a Joint Parliamentary Committee)" }
+  ],
+  "researchNotes": "Tenth Polity current-affairs topic (9th lap). A useful companion to the Day-87 Jan Vishwas Bill topic — another major 2026 decriminalisation-focused bill, this time targeting corporate/company law specifically, and currently under JPC scrutiny rather than already passed.",
+  "reading": {
+    "intro": "Covers the Corporate Laws (Amendment) Bill, 2026 — amending the Companies Act, 2013 and the LLP Act, 2008.",
+    "qa": [
+      { "id": "r01", "question": "When was the Corporate Laws (Amendment) Bill, 2026 introduced, and what is its current status?", "answer": "Introduced in the Lok Sabha on 23 March 2026; referred to a Joint Parliamentary Committee (JPC) for comprehensive clause-by-clause scrutiny and stakeholder consultation." },
+      { "id": "r02", "question": "Which 2 Acts does this Bill amend?", "answer": "The Companies Act, 2013 and the Limited Liability Partnership (LLP) Act, 2008." },
+      { "id": "r03", "question": "What is the Bill's core decriminalisation approach?", "answer": "It replaces imprisonment/fine for several offences (e.g., failure to furnish information to the Registrar, violations of book-of-accounts requirements) with CIVIL PENALTIES instead." },
+      { "id": "r04", "question": "What change does the Bill make to Corporate Social Responsibility (CSR) compliance?", "answer": "It raises/adjusts the net profit threshold for CSR applicability to ₹10 crore (or another prescribed sum) — companies meeting prescribed conditions below this threshold won't need to comply with CSR provisions." },
+      { "id": "r05", "question": "What new flexibility does the Bill provide for Annual General Meetings (AGMs)?", "answer": "Companies may hold AGMs physically, via video conferencing, or other audio-visual means — but must still hold a PHYSICAL meeting at least once every 3 years." },
+      { "id": "r06", "question": "Which regulatory body does the Bill designate as the new 'Valuation Authority'?", "answer": "The Insolvency and Bankruptcy Board of India (IBBI) — responsible for registering/recognising valuers and recommending valuation standards to the government." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Corporate Laws (Amendment) Bill, 2026 was introduced in the Lok Sabha on:", "options": ["23 January 2026", "23 February 2026", "23 March 2026", "23 April 2026"], "correctIndex": 2, "explanation": "23 March 2026.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m02", "prompt": "The Corporate Laws (Amendment) Bill, 2026 amends the Companies Act, 2013 and which other Act?", "options": ["The SEBI Act, 1992", "The LLP Act, 2008", "The Competition Act, 2002", "The Insolvency and Bankruptcy Code, 2016"], "correctIndex": 1, "explanation": "The LLP Act, 2008.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Bill's decriminalisation approach replaces imprisonment/fine for several offences with:", "options": ["Civil penalties", "Community service", "Automatic company dissolution", "No penalty at all"], "correctIndex": 0, "explanation": "Civil penalties.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Under the Bill, companies must hold a physical AGM at least once every:", "options": ["1 year", "2 years", "3 years", "5 years"], "correctIndex": 2, "explanation": "3 years.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The Bill designates which body as the new 'Valuation Authority'?", "options": ["SEBI", "RBI", "IBBI", "NCLT"], "correctIndex": 2, "explanation": "IBBI (Insolvency and Bankruptcy Board of India).", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

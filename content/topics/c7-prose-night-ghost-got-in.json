@@ -1,0 +1,33 @@
+{
+  "topicId": "c7-prose-night-ghost-got-in",
+  "unitId": "C-VII",
+  "name": "Prose: \"The Night the Ghost Got In\" — James Thurber",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" }
+  ],
+  "researchNotes": "OCR index search for 'ghost got in/thurber' returned zero hits — no past-paper evidence, web research only. Raw pool of 12 sourced MCQs across 2 pages, deduplicated/combined down to the most distinct, exam-relevant facts (e.g. merged the 3 separate 'who was doing what' questions about the narrator/grandfather/mother into fewer combined items) rather than using all 12 as-is.",
+  "reading": {
+    "intro": "A humorous true-life anecdote by James Thurber about a chaotic night in his childhood home in Columbus, Ohio, when his family mistook mysterious footstep sounds for a ghost — leading to a comically exaggerated police response, ending in an anticlimactic, unexplained resolution.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The Night the Ghost Got In\", and on what date does the story say the incident happened?", "answer": "James (Grover) Thurber. The story specifies the date as 17 November 1915." },
+      { "id": "r02", "question": "Who first heard the mysterious footsteps, what was he doing at the time, and what was the ghost apparently doing downstairs?", "answer": "The narrator (young Thurber) first heard the footsteps while he was in the bathtub. The sound seemed to be someone/something walking in a circle around the dining-room table downstairs." },
+      { "id": "r03", "question": "Who was sleeping in the attic during the incident, and how did the mother react to get help?", "answer": "The grandfather was asleep in the attic throughout most of the commotion (and later caused his own comic confusion when woken). The mother, unable to phone calmly, threw a shoe through a neighbor's (Mr. Bodwell's) window to wake him and get help." },
+      { "id": "r04", "question": "How did the police respond to the call, and in what state was the narrator when they arrived?", "answer": "The police arrived in dramatically excessive force — a Ford car, motorcycles, AND a patrol wagon — for what turned out to be a false alarm. The narrator was seen by the police wearing only a towel." },
+      { "id": "r05", "question": "What did the police find suspicious about the house, and what unusual objects did they discover?", "answer": "They found all the doors and windows locked from the inside (suspicious, since it suggested no intruder could have entered or left) — and they discovered a zither in the house, which a pet guinea pig used to sleep on." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Night the Ghost Got In\" was written by:", "options": ["Liam O'Flaherty", "James Thurber", "Ruskin Bond", "Mark Twain"], "correctIndex": 1, "explanation": "James (Grover) Thurber.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "According to the story, the ghost allegedly entered the house on:", "options": ["25 December 1914", "17 November 1915", "1 January 1920", "13 October 1900"], "correctIndex": 1, "explanation": "17 November 1915.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Who first heard the ghost's footsteps, and what was he doing at the time?", "options": ["The narrator, while in the bathtub", "Grandfather, while sleeping", "Mother, while cooking", "Roy, while reading"], "correctIndex": 0, "explanation": "The narrator, while in the bathtub.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The mysterious sound downstairs seemed to be something:", "options": ["Banging on the door", "Walking around the dining table", "Crying in the basement", "Climbing the stairs"], "correctIndex": 1, "explanation": "Walking around the table.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Who was sleeping in the attic during the commotion?", "options": ["Herman", "Grandfather", "The narrator", "Roy"], "correctIndex": 1, "explanation": "Grandfather.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "How did the mother get help during the incident?", "options": ["She called the police directly", "She ran out into the street", "She threw a shoe through the neighbor's window", "She wrote a note and left it outside"], "correctIndex": 2, "explanation": "She threw a shoe through Mr. Bodwell's window.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "How did the police arrive at the house, reflecting the story's comic exaggeration?", "options": ["Quietly, in one car", "With a Ford, motorcycles, and a patrol wagon", "On foot", "With fire engines"], "correctIndex": 1, "explanation": "A Ford, motorcycles, and a patrol wagon.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What was the narrator wearing when the police saw him?", "options": ["A suit", "A nightgown", "Just a towel", "Shirt and trousers"], "correctIndex": 2, "explanation": "Just a towel.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "What did the police find suspicious about the house?", "options": ["Open doors", "Unlocked windows", "All doors and windows locked from inside", "Strange footprints outside"], "correctIndex": 2, "explanation": "All doors and windows were locked from the inside.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "What musical instrument did the police find in the house, and what pet used to sleep on it?", "options": ["A violin; a cat", "A zither; a guinea pig", "A piano; a dog", "A harp; a hamster"], "correctIndex": 1, "explanation": "A zither, which the family's guinea pig used to sleep on.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

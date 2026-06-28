@@ -1,0 +1,34 @@
+{
+  "topicId": "a4-constitution-preamble-overview",
+  "unitId": "A-IV",
+  "name": "Constitution of India & the Preamble",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2017_q1 page 44-45 Q186, Q188 (Secularism added 1976/recognized 1973; French Revolution inspiration, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 49 Q51 (LIC of India case on Preamble's integral status, with answer key)" },
+    { "type": "authored", "label": "standard Preamble facts (dates, exact wording, 42nd Amendment changes) — well-established, no direct past-paper hit needed" }
+  ],
+  "researchNotes": "Opening topic of Part A Unit IV (Indian Polity) — the largest General Studies unit (15 questions), decomposed into ~12 fine-grained topics per the original content plan. 3 real hits, all clustering on the Preamble's amendment history specifically — a useful signal that TNPSC tests the Preamble's CHANGES (what was added, when, by which case/amendment) more than its plain wording.",
+  "reading": {
+    "intro": "First of ~12 Unit IV topics. Real exam evidence shows TNPSC favors the Preamble's AMENDMENT history — which words were added when, and which Supreme Court cases established key doctrines — over simply reciting the Preamble's text.",
+    "qa": [
+      { "id": "r01", "question": "When was the Constitution of India adopted, and when did it come into force?", "answer": "Adopted 26 November 1949 (celebrated as Constitution Day / Samvidhan Divas); came into force 26 January 1950 (celebrated as Republic Day)." },
+      { "id": "r02", "question": "What are the exact descriptive words in the Preamble describing India, and what is the source of the ideals of Liberty, Equality, and Fraternity?", "answer": "India is described as a SOVEREIGN, SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC. The ideals of Liberty, Equality, and Fraternity embodied in the Preamble were adopted under the inspiration of the French Revolution (confirmed via a real TNPSC question)." },
+      { "id": "r03", "question": "Real exam: When did the Supreme Court first hold 'Secularism' to be a basic feature of the Constitution, and when was the word actually inserted into the Preamble's text?", "answer": "The Supreme Court held secularism to be a basic feature in 1973 (via the Kesavananda Bharati case, which established the wider 'Basic Structure' doctrine). The word 'SECULAR' was then formally inserted into the Preamble's text later, by the 42nd Constitutional Amendment Act, 1976." },
+      { "id": "r04", "question": "What other words did the 42nd Amendment (1976) add to the Preamble, besides 'Secular'?", "answer": "'SOCIALIST' and 'INTEGRITY' (making 'Unity and Integrity of the Nation') were also added by the same 42nd Amendment — none of these three words were in the ORIGINAL 1949 Preamble." },
+      { "id": "r05", "question": "Real exam: In which case did the Supreme Court hold that 'the Preamble is an integral part of the Indian Constitution'?", "answer": "The LIC of India case (1995) — per a real TNPSC exam question (note: the Kesavananda Bharati case, 1973, is the more famous/foundational ruling establishing that the Preamble is part of the Constitution and can itself be amended, overruling the earlier Berubari Union case of 1960 which had said otherwise; the LIC case appears to reaffirm this in a real exam's specific framing)." },
+      { "id": "r06", "question": "What are the THREE dimensions of 'Justice' named in the Preamble?", "answer": "Social, Economic, and Political justice." },
+      { "id": "r07", "question": "What does \"WE, THE PEOPLE OF INDIA\" at the start of the Preamble signify?", "answer": "That the Constitution derives its authority directly from the people of India, not from any external authority (like the British Crown) or from the states — it establishes the people as the ultimate source of sovereignty." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Constitution of India was adopted on 26 November 1949 and came into force on:", "options": ["15 August 1947", "26 January 1950", "2 October 1950", "1 January 1950"], "correctIndex": 1, "explanation": "26 January 1950 (Republic Day).", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The ideals of Liberty, Equality, and Fraternity in the Preamble were adopted under the inspiration of:", "options": ["The American Declaration of Independence", "The French Revolution", "The Russian Revolution", "The UN Charter"], "correctIndex": 1, "explanation": "The French Revolution.", "sourceTag": "question-bank-2017", "difficulty": "medium" },
+      { "id": "m03", "prompt": "The Supreme Court first held 'Secularism' to be a basic feature of the Constitution in which year?", "options": ["1950", "1973", "1976", "1995"], "correctIndex": 1, "explanation": "1973 (Kesavananda Bharati case).", "sourceTag": "question-bank-2017", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The words 'Socialist', 'Secular', and 'Integrity' were added to the Preamble by which amendment?", "options": ["1st Amendment", "26th Amendment", "42nd Amendment", "44th Amendment"], "correctIndex": 2, "explanation": "42nd Constitutional Amendment Act, 1976.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "In which case did the Supreme Court hold that 'the Preamble is an integral part of the Indian Constitution'?", "options": ["Shankari Prasad case (1951)", "LIC of India case (1995)", "Indira Nehru Gandhi case (1975)", "Maneka Gandhi case (1978)"], "correctIndex": 1, "explanation": "LIC of India case (1995).", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m06", "prompt": "The Preamble names three dimensions of 'Justice'. Which of the following is NOT one of them?", "options": ["Social", "Economic", "Political", "Religious"], "correctIndex": 3, "explanation": "The three are Social, Economic, and Political — not Religious.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m07", "prompt": "Was the word 'Socialist' present in the Preamble's ORIGINAL 1949 text?", "options": ["Yes, from the start", "No, added only in 1976", "No, added only in 1950", "Yes, but removed in 1976"], "correctIndex": 1, "explanation": "No — added by the 42nd Amendment in 1976.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

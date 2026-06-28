@@ -1,0 +1,38 @@
+{
+  "topicId": "a3-leaders-bhagat-singh-bharathiar-others",
+  "unitId": "A-III",
+  "name": "Emergence of Leaders II: Bhagat Singh, Bharathiar, V.O.Chidambaranar, Kamarajar, Periyar, Rajaji, Azad, Tagore",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 95 Q160 (Bharathiar's work 'Kannan Pattu', with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 54 Q80 (Periyar-Kudiyarasu journal; Rajaji-Swatantra Party, with answer key)" },
+    { "type": "question-bank", "label": "2025_q1 page 106 Q171 (Periyar fought patriarchal chauvinism, with answer key)" },
+    { "type": "web-research", "label": "standard biographical facts for V.O.Chidambaranar, Kamarajar, Azad, Tagore, Bhagat Singh" }
+  ],
+  "researchNotes": "Second of two 'Emergence of Leaders' topics, completing the syllabus's named-leader list. 3 real hits cluster heavily around Periyar and Rajaji (both confirmed via genuine match-the-following questions); the remaining leaders rest on standard, well-established biographical facts.",
+  "reading": {
+    "intro": "Second 'Emergence of Leaders' topic, covering more Tamil-Nadu-rooted figures plus Bhagat Singh, Azad, and Tagore. Real exam evidence clusters around Periyar and Rajaji specifically via match-the-following formats — a useful signal that TNPSC tests these two especially closely.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Which work is associated with Bharathiar (matched correctly in a real exam against several other Tamil literary figures)?", "answer": "Kannan Pattu — one of Bharathiar's most famous poem collections, portraying Lord Krishna in many human relationships (as friend, lover, child, master) as a vehicle for his nationalist and devotional themes." },
+      { "id": "r02", "question": "Real exam: Which journal is associated with Thanthai Periyar, and what social struggle is he specifically noted for in another real exam question?", "answer": "Kudiyarasu (a journal he edited, used to spread his rationalist and Self-Respect Movement ideas). He is separately confirmed in a real exam as the leader who 'fought against patriarchal chauvinism'." },
+      { "id": "r03", "question": "Real exam: Which political party did C. Rajagopalachari (Rajaji) found?", "answer": "The Swatantra Party (a free-market, anti-socialist party he founded after leaving Congress)." },
+      { "id": "r04", "question": "What company did V.O. Chidambaranar (V.O.C.) found, and why was it significant?", "answer": "The Swadeshi Steam Navigation Company — founded to challenge British shipping dominance along the Indian coast, a direct economic act of resistance (earning him the title 'Kappalottiya Tamizhan', 'the Tamil helmsman')." },
+      { "id": "r05", "question": "What is Kamarajar best known for, both politically and in terms of policy?", "answer": "Known as the 'Kingmaker' in Indian politics (instrumental in selecting Prime Ministers after Nehru). As Tamil Nadu Chief Minister, he strongly promoted education and launched the Midday Meal Scheme to improve school enrollment and child nutrition." },
+      { "id": "r06", "question": "What was Maulana Abul Kalam Azad's key post-independence role, and his role in the freedom struggle?", "answer": "He was independent India's first Education Minister. During the freedom struggle, he was a senior Congress leader and played a key role in the Quit India Movement (1942)." },
+      { "id": "r07", "question": "What is Rabindranath Tagore best known for internationally and in India?", "answer": "The first non-European to win the Nobel Prize in Literature (1913, for Gitanjali). He also composed 'Jana Gana Mana', India's national anthem." },
+      { "id": "r08", "question": "What is Bhagat Singh best known for, and how did his execution come about?", "answer": "A member of the Hindustan Socialist Republican Association (HSRA, formed 1928 with Chandrashekhar Azad, Sukhdev, and Rajguru). He and Rajguru assassinated British police officer J.P. Saunders (December 1928) in revenge for the death of Lala Lajpat Rai. Tried in the Lahore Conspiracy Case, Bhagat Singh, Rajguru, and Sukhdev were executed on 23 March 1931." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which famous work is associated with Bharathiar?", "options": ["Pandian Parisu", "Kannan Pattu", "Asia Jothi", "Tamilan Ithayam"], "correctIndex": 1, "explanation": "Kannan Pattu.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m02", "prompt": "Thanthai Periyar is associated with which journal?", "options": ["Kudiyarasu", "Young India", "Harijan", "Swadesamitran"], "correctIndex": 0, "explanation": "Kudiyarasu.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Periyar is specifically noted, per a real exam question, for fighting against:", "options": ["Colonial taxation", "Patriarchal chauvinism", "Foreign trade restrictions", "Industrial monopolies"], "correctIndex": 1, "explanation": "Patriarchal chauvinism.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "C. Rajagopalachari (Rajaji) founded which political party?", "options": ["Forward Bloc", "Justice Party", "Swatantra Party", "Swaraj Party"], "correctIndex": 2, "explanation": "Swatantra Party.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m05", "prompt": "V.O. Chidambaranar founded which shipping company to challenge British shipping dominance?", "options": ["Swadeshi Steam Navigation Company", "Tata Shipping Lines", "Indian Ocean Trading Company", "Madras Maritime Corporation"], "correctIndex": 0, "explanation": "Swadeshi Steam Navigation Company.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Kamarajar is best known in Indian politics as the:", "options": ["Father of the Nation", "Kingmaker", "Iron Man of India", "Architect of the Constitution"], "correctIndex": 1, "explanation": "Kingmaker.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Maulana Abul Kalam Azad served as independent India's first:", "options": ["Prime Minister", "Education Minister", "Defence Minister", "Home Minister"], "correctIndex": 1, "explanation": "Education Minister.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Rabindranath Tagore won the Nobel Prize in Literature in 1913 for which work?", "options": ["Gora", "Gitanjali", "The Home and the World", "Kabuliwala"], "correctIndex": 1, "explanation": "Gitanjali.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Bhagat Singh and Rajguru assassinated which British officer in December 1928?", "options": ["James Scott", "J.P. Saunders", "Michael O'Dwyer", "Reginald Dyer"], "correctIndex": 1, "explanation": "J.P. Saunders (mistakenly targeted instead of the intended James Scott).", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

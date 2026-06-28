@@ -1,0 +1,32 @@
+{
+  "topicId": "a2-natural-calamity-disaster-pollution-climate",
+  "unitId": "A-II",
+  "name": "Geography of India: Natural Calamity, Disaster Management, Environmental Pollution, Climate Change & Green Energy",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2026_q page 141 Q167 (hazard-type matching, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 90 Q94 (Tamil Nadu SDMA statements, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 66 Q70 (disaster-management acronyms — flagged by TNPSC itself as disputed/under expert-committee review)" }
+  ],
+  "researchNotes": "This is the LAST of Unit II Geography's 8 planned sub-topics, completing all of Part A Unit II. 3 real hits, one of which (Q70) carries TNPSC's own 'disputed, pending expert committee' notice — included for the genuine acronym-matching format but flagged as unconfirmed rather than authoritative, same treatment as the disputed mirror-image question in Visual Reasoning.",
+  "reading": {
+    "intro": "Final sub-topic of Geography Unit II. Real exam evidence favors hazard-classification matching and statement-evaluation about disaster-management institutions (especially Tamil Nadu's own SDMA) over generic climate-change theory.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Match each hazard type to its example — Natural Hazard, Social Hazard, Biological Hazard, Technological Hazard.", "answer": "Natural Hazard → Tsunami. Social Hazard → War. Biological Hazard → Bird Flu. Technological Hazard → Oil spill." },
+      { "id": "r02", "question": "Real exam: Evaluate these statements about Tamil Nadu's State Disaster Management Authority (SDMA) — (i) it coordinates disaster response and risk reduction (ii) the Chief Secretary chairs it (iii) the state cabinet follows NDMA guidelines when approving the state disaster management plan.", "answer": "Only (i) is correct. (ii) is false — TN's SDMA is chaired by the Chief Minister, not the Chief Secretary. (iii) is also false as stated in that exact form." },
+      { "id": "r03", "question": "What do the acronyms SFDRR and NEOC stand for (the two CONFIRMED-correct pairings from a real, though TNPSC-flagged-as-disputed, exam question)?", "answer": "SFDRR = Sendai Framework for Disaster Risk Reduction. NEOC = National Emergency Operation Committee. (The same question's other two pairings — SDMA as 'State Disaster Management Action' and SDMP as 'State Disaster Management Project' — were marked incorrect by the exam, but the question itself was flagged by TNPSC for expert-committee review, so treat the 'correct' full forms — likely 'Authority' for SDMA and 'Plan' for SDMP — as needing independent verification rather than settled fact.)" },
+      { "id": "r04", "question": "What are the main types of environmental pollution (recap from the Unit I Environment/Ecology topic, now applied at the India-specific geography level)?", "answer": "Air, water, soil, noise, and thermal pollution — each tied to specific Indian geographic contexts (e.g., industrial belts, river pollution from urban/industrial discharge, e-waste hotspots)." },
+      { "id": "r05", "question": "Which renewable energy source has the largest installed grid-interactive capacity in India?", "answer": "Wind power." },
+      { "id": "r06", "question": "What is ocean thermal energy, and how does it generate electricity?", "answer": "It generates electricity by exploiting the temperature DIFFERENCE between warmer surface ocean water and colder deep water — the temperature gradient drives the power generation process, rather than direct solar or wind capture." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Which type of hazard is a Tsunami classified as?", "options": ["Social Hazard", "Biological Hazard", "Technological Hazard", "Natural Hazard"], "correctIndex": 3, "explanation": "Natural Hazard.", "sourceTag": "question-bank-2026", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Which type of hazard is an Oil Spill classified as?", "options": ["Natural Hazard", "Social Hazard", "Biological Hazard", "Technological Hazard"], "correctIndex": 3, "explanation": "Technological Hazard.", "sourceTag": "question-bank-2026", "difficulty": "easy" },
+      { "id": "m03", "prompt": "In Tamil Nadu's State Disaster Management Authority (SDMA), who acts as the chairperson?", "options": ["The Chief Secretary", "The Chief Minister", "The Governor", "The District Collector"], "correctIndex": 1, "explanation": "The Chief Minister chairs it — a real exam marked the 'Chief Secretary' claim as false.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m04", "prompt": "SFDRR stands for:", "options": ["State Framework for Disaster Risk Reduction", "Sendai Framework for Disaster Risk Reduction", "State Fund for Disaster Relief and Rehabilitation", "Sendai Fund for Disaster Risk Reduction"], "correctIndex": 1, "explanation": "Sendai Framework for Disaster Risk Reduction.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Which renewable energy source has the largest installed grid-interactive capacity in India?", "options": ["Solar power", "Wind power", "Small hydro", "Biomass"], "correctIndex": 1, "explanation": "Wind power.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Ocean thermal energy generates electricity using:", "options": ["Wave height differences", "Tidal cycles", "Temperature differences at different ocean depths", "Underwater wind currents"], "correctIndex": 2, "explanation": "Temperature gradient between surface and deep water.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

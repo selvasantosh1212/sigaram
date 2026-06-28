@@ -1,0 +1,35 @@
+{
+  "topicId": "c7-prose-birthday-letter-nehru",
+  "unitId": "C-VII",
+  "name": "Prose: \"A Birthday Letter\" — Jawaharlal Nehru",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" },
+    { "type": "web-research", "label": "brainkart.com/yaclass.in - full context (date, prison, source book)" }
+  ],
+  "researchNotes": "OCR index search for 'birthday letter' returned zero hits — web research only, but corroborated very consistently across multiple sources. A real letter (not fiction) written by Nehru to his daughter Indira from prison — part of a larger 1942-published collection ('Letters from a Father to His Daughter' / related to 'Glimpses of World History'). Distinct from the already-shipped Day 21 topic on Nehru's political role — this is purely about the letter's personal/moral content.",
+  "reading": {
+    "intro": "A real letter written by Jawaharlal Nehru to his young daughter Indira on her birthday, from the Naini Central Prison (26 October 1930), reflecting on truth, heroism, ordinary people becoming heroes through devotion to a great cause, and Mahatma Gandhi's inspiring influence on the freedom struggle.",
+    "qa": [
+      { "id": "r01", "question": "Where and when did Nehru write this letter, and why a letter instead of a gift?", "answer": "From the Naini Central Prison, on 26 October 1930. Unable to send Indira a physical birthday gift while imprisoned, he wrote her a letter instead — suggesting that letters can be cherished just as much as material gifts." },
+      { "id": "r02", "question": "Why did Nehru dislike giving sermons or direct moral advice, and what did he believe was the better way to discover truth?", "answer": "He disliked sermonizing because he believed truth is better discovered through DISCUSSING AND TALKING openly, rather than through one-sided lecturing — sometimes, only through genuine discussion does a bit of truth come out." },
+      { "id": "r03", "question": "What childhood story had fascinated Indira, and what ambition did it inspire in her?", "answer": "The story of Joan of Arc fascinated her as a child, inspiring her ambition to be LIKE Joan of Arc." },
+      { "id": "r04", "question": "How does Nehru describe ordinary men and women, and under what condition do they become heroes?", "answer": "He describes ordinary men and women as fundamentally SIMPLE AND ORDINARY — but says they become heroes when they are INSPIRED BY A GREAT CAUSE (full faith in that cause, combined with love and respect for the nation)." },
+      { "id": "r05", "question": "Which great Indian leader does Nehru highlight in the letter, how does he describe him, and where was that leader at the time of writing?", "answer": "Mahatma Gandhi. Nehru describes him as 'a man full of love for those who suffer'. At the time of writing, Gandhi himself was IN PRISON." },
+      { "id": "r06", "question": "What effect did Gandhi's message have on the people of India, and who does Nehru say are becoming India's 'soldiers of freedom'?", "answer": "Gandhi's message 'stole the hearts of millions', inspiring people to perform great deeds and noble sacrifices. Nehru says both MEN AND WOMEN (not just one group) are becoming India's soldiers of freedom." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"A Birthday Letter\" was written by Jawaharlal Nehru to his daughter Indira from:", "options": ["His home in Allahabad", "The Naini Central Prison", "A train journey", "London"], "correctIndex": 1, "explanation": "The Naini Central Prison.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "According to Nehru, what is the best way to find out what is right or wrong?", "options": ["Through reading alone", "By discussing and talking", "By strictly following rules", "Through meditation"], "correctIndex": 1, "explanation": "By discussing and talking.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "According to Nehru, what sometimes comes out of open discussion?", "options": ["Confusion", "Arguments", "Truth", "Misunderstandings"], "correctIndex": 2, "explanation": "Truth.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m04", "prompt": "What story had fascinated Indira as a child, per the letter?", "options": ["The story of Joan of Arc", "The story of Akbar", "The story of Ramayana", "The story of Gandhi"], "correctIndex": 0, "explanation": "The story of Joan of Arc.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "How does Nehru describe ordinary men and women, before they are transformed by a great cause?", "options": ["Heroic", "Selfish", "Simple and ordinary", "Brave"], "correctIndex": 2, "explanation": "Simple and ordinary.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "According to Nehru, when do ordinary men and women become heroes?", "options": ["When they study hard", "When they are inspired by a great cause", "When they face difficulties alone", "When they achieve personal success"], "correctIndex": 1, "explanation": "When inspired by a great cause.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Which great Indian leader does Nehru highlight in the letter?", "options": ["Subhash Chandra Bose", "Rabindranath Tagore", "Mahatma Gandhi", "Sardar Patel"], "correctIndex": 2, "explanation": "Mahatma Gandhi.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "How does Nehru describe Mahatma Gandhi in the letter?", "options": ["As a strict leader", "As a man full of love for those who suffer", "As a powerful speaker", "As a wealthy leader"], "correctIndex": 1, "explanation": "As a man full of love for those who suffer.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Where was Gandhi at the time Nehru wrote this letter?", "options": ["Leading a protest", "In a meeting", "In prison", "In a foreign country"], "correctIndex": 2, "explanation": "In prison.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Who does Nehru say are becoming India's 'soldiers of freedom'?", "options": ["Only adults", "Men and women", "Only government officials", "Only educated people"], "correctIndex": 1, "explanation": "Men and women.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

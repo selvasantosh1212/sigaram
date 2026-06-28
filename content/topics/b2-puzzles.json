@@ -1,0 +1,29 @@
+{
+  "topicId": "b2-puzzles",
+  "unitId": "B-II",
+  "name": "Puzzles",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - height-comparison chain puzzle (real past-paper style)" },
+    { "type": "authored", "label": "classic age puzzle, family-relation puzzle, linear seating arrangement — standard puzzle-genre patterns, no direct past-paper hit needed since these are well-established puzzle archetypes" }
+  ],
+  "researchNotes": "TNPSC's own coaching-site material bundles 'Logical Reasoning - Puzzles - Dice' together heavily (same source pages cover all three), so there's real overlap with the Logical Reasoning topic already authored — this topic deliberately covers DIFFERENT puzzle archetypes (chain-of-comparison, age, family-relation, linear seating) rather than repeating the ranking/sequencing/direction-sense patterns already taught there.",
+  "reading": {
+    "intro": "Puzzles is 1 of 6 named Reasoning skills. The genre overlaps with Logical Reasoning, so this topic focuses on archetypes NOT already covered there: comparison chains, age puzzles, family-relation puzzles, and linear seating arrangements — all extremely common TNPSC puzzle shapes.",
+    "qa": [
+      { "id": "r01", "question": "Method — comparison chain (not all four compared directly, must chain through clues): D is taller than C but not as tall as B. C is taller than A. Who is the tallest?", "answer": "Chain it: B > D > C > A. So B is the tallest. The key technique: write each clue as an inequality, then merge them into one ordered chain rather than trying to compare all pairs mentally." },
+      { "id": "r02", "question": "Method — classic age puzzle: A father is 4 times as old as his son. In 20 years, he will be twice as old as his son. Find their current ages.", "answer": "Let son's current age = x, father = 4x. In 20 years: father = 4x+20, son = x+20. Condition: 4x+20 = 2(x+20) → 4x+20 = 2x+40 → 2x=20 → x=10. Son is 10, father is 40." },
+      { "id": "r03", "question": "Method — family-relation puzzle: Pointing to a photograph, a man says, 'She is the daughter of my mother's only son.' How is the woman in the photo related to the man?", "answer": "His daughter. 'My mother's only son' = the man himself (since he's referring to his own mother, and he's an only son). So 'her father' = the man, making the woman his daughter." },
+      { "id": "r04", "question": "Method — linear seating arrangement: Five friends P, Q, R, S, T sit in a row. Q is immediately to the right of P. R is at one end. S is between Q and T. T is not adjacent to P. Find the order.", "answer": "Work from the most fixed clue first: R is at an end — try R at the left end. P-Q must be adjacent with Q right of P, and S is between Q and T, with T not adjacent to P. Testing R,P,Q,S,T: P-Q adjacent ✓, S between Q&T ✓, T not adjacent to P (T is at position 5, P at position 2, not adjacent) ✓, R at an end ✓. Order: R, P, Q, S, T." },
+      { "id": "r05", "question": "Method — distribution/sharing puzzle: A sum of money is divided among A, B, and C so that A gets twice as much as B, and B gets thrice as much as C. If C gets ₹600, find the total sum.", "answer": "C=600. B=3×600=1800. A=2×1800=3600. Total = 3600+1800+600 = 6000." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "P is shorter than Q but taller than R. Q is shorter than S. Who is the tallest?", "options": ["P", "Q", "R", "S"], "correctIndex": 3, "explanation": "Chain: S > Q > P > R. S is tallest.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m02", "prompt": "A mother is 3 times as old as her daughter. In 15 years, she will be twice as old as her daughter. Find the daughter's current age.", "options": ["10", "12", "15", "18"], "correctIndex": 2, "explanation": "Daughter=x, mother=3x. 3x+15=2(x+15) → 3x+15=2x+30 → x=15.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Pointing to a man, a woman says, 'He is the son of my father's only daughter.' If the woman has no siblings, how is the man related to her?", "options": ["Her son", "Her brother", "Her nephew", "Her father"], "correctIndex": 0, "explanation": "'My father's only daughter' = the woman herself (she has no siblings). So the man is her son.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m04", "prompt": "₹7,000 is divided among A, B, C so that A gets twice as much as B, and B gets twice as much as C. Find C's share.", "options": ["₹1,000", "₹1,200", "₹1,500", "₹2,000"], "correctIndex": 0, "explanation": "Let C=x, B=2x, A=4x. Total=7x=7000 → x=1,000.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Four friends sit in a row. B is immediately right of A. C is at the left end. D is not adjacent to A. Find the correct order.", "options": ["C, A, B, D", "A, B, C, D", "C, D, A, B", "D, A, B, C"], "correctIndex": 0, "explanation": "C at left end; A-B adjacent with B right of A; D not adjacent to A. Order C,A,B,D satisfies all three conditions.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "A",
+  "name": "General Studies",
+  "standard": "Degree Standard",
+  "questionCount": 75,
+  "units": [
+    { "id": "A-I", "number": "I", "name": "General Science", "questionCount": 5 },
+    { "id": "A-II", "number": "II", "name": "Geography of India", "questionCount": 5 },
+    { "id": "A-III", "number": "III", "name": "History, Culture of India, and Indian National Movement", "questionCount": 10 },
+    { "id": "A-IV", "number": "IV", "name": "Indian Polity", "questionCount": 15 },
+    { "id": "A-V", "number": "V", "name": "Indian Economy and Development Administration in Tamil Nadu", "questionCount": 20 },
+    { "id": "A-VI", "number": "VI", "name": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu", "questionCount": 20 }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "topicId": "c7-prose-wind-haunted-hill",
+  "unitId": "C-VII",
+  "name": "Prose: \"The Wind on Haunted Hill\" — Ruskin Bond",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - two dedicated MCQ sets (12 questions total), Group 2/2A specific" },
+    { "type": "general", "label": "Ruskin Bond honoured with the Sahitya Akademi Award (cross-referenced from the already-shipped 'I Can't Climb Trees Anymore' topic)" }
+  ],
+  "researchNotes": "OCR index search for 'haunted hill' returned zero hits — web research only, but a clean, internally consistent 12-question set across 2 source pages. A third Ruskin Bond piece in this syllabus (alongside 'I Can't Climb Trees Anymore' and 'When the Trees Walked') — this one a gentle ghost-adjacent story set in the Himalayan hills, where the supposed 'haunting' is treated matter-of-factly rather than as genuine horror.",
+  "reading": {
+    "intro": "Set in the Himalayan hills, this story follows Usha, a brave and practical girl unafraid of the local 'haunted' ruins, on a day that begins with household chores and a shopping trip across the hill to the bazaar.",
+    "qa": [
+      { "id": "r01", "question": "Where is the story set, and what is the name of the central girl character?", "answer": "In the Himalayan hills. The girl's name is Usha." },
+      { "id": "r02", "question": "What were the children doing at the beginning of the story, and what was used to hold the clothes down?", "answer": "Spreading clothes out to dry. Stones were used to hold the clothes down (presumably against the hill wind)." },
+      { "id": "r03", "question": "Who was always eager to visit the bazaar, and why did he NOT go this time?", "answer": "Suresh was always ready to visit the bazaar — but this time he couldn't go because he had to chop wood." },
+      { "id": "r04", "question": "Why was Usha not afraid of ghosts, despite the hill's reputation for being haunted?", "answer": "Because she believed ghosts don't come out during the daytime — a simple, practical reasoning rather than any special charm or protection." },
+      { "id": "r05", "question": "Where did Usha go shopping, what did she buy for herself, and what colour was it?", "answer": "She went to the bazaar across the hill. She bought herself a necklace, coloured AMBER." },
+      { "id": "r06", "question": "What did Usha get repaired at the cobbler's, and what bird sang in the ruins?", "answer": "She got her MOTHER's slippers repaired at the cobbler's (not her own). A Whistling Thrush sang in the ruins." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The Wind on Haunted Hill\" is set in:", "options": ["A desert", "A coastal town", "The Himalayan hills", "An island village"], "correctIndex": 2, "explanation": "The Himalayan hills.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "What is the name of the central girl character in the story?", "options": ["Radha", "Usha", "Meena", "Lakshmi"], "correctIndex": 1, "explanation": "Usha.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What were the children doing at the start of the story?", "options": ["Flying kites", "Collecting wood", "Spreading clothes to dry", "Playing cricket"], "correctIndex": 2, "explanation": "Spreading clothes to dry.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "What was used to hold the drying clothes down?", "options": ["Nails", "Bricks", "Leaves", "Stones"], "correctIndex": 3, "explanation": "Stones.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Why didn't Suresh go to the bazaar this time, even though he usually loved to?", "options": ["He was ill", "He had school", "He had to chop wood", "He was afraid"], "correctIndex": 2, "explanation": "He had to chop wood.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Why was Usha not afraid of ghosts?", "options": ["She had a protective charm", "She had a dog with her", "Ghosts don't come out in the daytime", "She believed she could fly away"], "correctIndex": 2, "explanation": "Ghosts don't come out in the daytime.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "What did Usha buy for herself at the bazaar, and what colour was it?", "options": ["Red bangles", "An amber necklace", "Silver earrings", "A green anklet"], "correctIndex": 1, "explanation": "An amber necklace.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What did Usha get repaired at the cobbler's?", "options": ["Her own bag", "Her own shoes", "Her own slippers", "Her mother's slippers"], "correctIndex": 3, "explanation": "Her mother's slippers.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m09", "prompt": "What bird sang in the ruins on the hill?", "options": ["Nightingale", "Sparrow", "Whistling Thrush", "Crow"], "correctIndex": 2, "explanation": "Whistling Thrush.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "topicId": "a2-current-affairs-1",
+  "unitId": "A-II",
+  "name": "Current Affairs in Geography, Climate & Disasters (1)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "downtoearth.org.in/visionias.in - India's 2025 extreme weather statistics; Climate Risk Index 2025/2026 rankings" }
+  ],
+  "researchNotes": "Second topic in the new Part A Current-Affairs rotation (Unit II's turn, per the Science→Geography→History→Polity→Economy→TN-Culture cycle). All facts are recent (2025-2026 reports) and explicitly time-stamped — these statistics will be superseded by next year's reports, so the figures should be understood as 'as reported in 2025/2026', not permanent facts.",
+  "reading": {
+    "intro": "Covers India's recent extreme-weather and climate-disaster statistics, drawn from 2025-2026 climate reports — directly relevant to the syllabus's 'Natural calamity - Disaster management' and 'Climate change' clauses, updated with the latest available figures.",
+    "qa": [
+      { "id": "r01", "question": "How frequently did India face extreme weather events in 2025, per recent reporting?", "answer": "India faced extreme weather on 331 of 334 days in 2025 — extreme weather events occurred on 99% of days between 1 January and 30 November 2025." },
+      { "id": "r02", "question": "What was the human and economic toll of these 2025 extreme weather events?", "answer": "At least 4,419 deaths; around 17.4 million hectares of cropped land affected; at least 181,459 houses destroyed; and approximately 77,189 animals killed." },
+      { "id": "r03", "question": "Where does India rank on the Climate Risk Index 2026, and what are the associated losses?", "answer": "9th among the most climate-affected countries, with approximately 80,000 deaths and USD 170 billion in losses attributed to climate impacts." },
+      { "id": "r04", "question": "Where did India rank on the Climate Risk Index 2025 (covering the longer period 1993-2022)?", "answer": "6th most affected country globally over that period, with losses exceeding USD 180 billion." },
+      { "id": "r05", "question": "How has India's average temperature changed in recent decades, and what specific record was set in February 2025?", "answer": "The Indian landmass was warmer by nearly 0.9°C during 2015-2024 compared to the 1901-1930 baseline. The India Meteorological Department (IMD) confirmed February 2025 as the hottest February on record." },
+      { "id": "r06", "question": "What change has been observed in Himalayan glacial lakes, and what risk does this raise?", "answer": "Glacial lakes and other water bodies in the Himalayan region saw a 10.81% increase in area from 2011 to 2024 due to climate change — raising the risk of catastrophic Glacial Lake Outburst Floods (GLOFs)." },
+      { "id": "r07", "question": "Approximately how many people in India have been internally displaced due to climate change, per the IDMC?", "answer": "About 14 million people, per estimates from the Internal Displacement Monitoring Centre (IDMC)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "In 2025, India faced extreme weather events on approximately what percentage of days (Jan-Nov)?", "options": ["50%", "75%", "90%", "99%"], "correctIndex": 3, "explanation": "99% of days.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Approximately how many deaths were attributed to extreme weather events in India in 2025?", "options": ["1,200", "2,800", "4,419", "10,000"], "correctIndex": 2, "explanation": "4,419 deaths.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m03", "prompt": "On the Climate Risk Index 2026, India ranks among the most climate-affected countries at position:", "options": ["3rd", "6th", "9th", "15th"], "correctIndex": 2, "explanation": "9th.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "How much warmer was the Indian landmass during 2015-2024, compared to the 1901-1930 baseline?", "options": ["0.3°C", "0.5°C", "0.9°C", "1.5°C"], "correctIndex": 2, "explanation": "Nearly 0.9°C.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Which month did the IMD confirm as the hottest on record, in early 2025?", "options": ["January 2025", "February 2025", "March 2025", "April 2025"], "correctIndex": 1, "explanation": "February 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What was the increase in the area of Himalayan glacial lakes between 2011 and 2024?", "options": ["2.5%", "5.4%", "10.81%", "20%"], "correctIndex": 2, "explanation": "10.81%.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "An increase in Himalayan glacial lake area raises the risk of which specific disaster?", "options": ["Landslides only", "Earthquakes", "Glacial Lake Outburst Floods (GLOFs)", "Avalanches only"], "correctIndex": 2, "explanation": "Glacial Lake Outburst Floods (GLOFs).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "Approximately how many people in India have been internally displaced due to climate change, per the IDMC?", "options": ["2 million", "6 million", "14 million", "25 million"], "correctIndex": 2, "explanation": "About 14 million.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

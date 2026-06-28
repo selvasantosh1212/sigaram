@@ -1,0 +1,30 @@
+{
+  "topicId": "a5-current-affairs-1",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy (1): GST 2.0 Reform",
+  "sourceRefs": [
+    { "type": "web-research", "label": "PIB/razorpay.com/visionias.in - GST Council's September 2025 rate rationalisation ('GST 2.0')" }
+  ],
+  "researchNotes": "Fifth topic in the Part A Current-Affairs rotation (Unit V's turn). Deliberately chose GST 2.0 — a specific, dated POLICY EVENT with stable structural facts (new slab percentages, effective date) — over monthly-volatile figures like the repo rate or quarterly GDP growth, which had inconsistent figures across different-dated sources during research (a real risk with 'current affairs' content: pick events with durable facts, not numbers that get revised every few weeks).",
+  "reading": {
+    "intro": "Covers GST 2.0 — the September 2025 overhaul of India's Goods and Services Tax slab structure, directly extending the syllabus's 'Goods and Services Tax' clause with the most significant GST reform since its 2017 introduction.",
+    "qa": [
+      { "id": "r01", "question": "When did the GST Council approve the GST 2.0 rate rationalisation, and when did it take effect?", "answer": "Approved on 3 September 2025, by the GST Council; implemented from 22 September 2025." },
+      { "id": "r02", "question": "What is the new GST slab structure under GST 2.0, and which old slabs were abolished?", "answer": "A simplified structure with two main slabs: 5% (the 'merit rate', for essential goods) and 18% (the 'standard rate', for most goods/services) — plus a 40% rate specifically for demerit/luxury/'sin' goods. The earlier 12% and 28% slabs were ABOLISHED." },
+      { "id": "r03", "question": "How many items saw rate cuts under this reform, and what was the broader goal?", "answer": "Rate cuts on over 375 items — aimed at simplifying compliance, making taxation more transparent, and boosting consumption and investment." },
+      { "id": "r04", "question": "Which consumer electronics items moved from the 28% slab to 18% under GST 2.0?", "answer": "Air conditioners, large televisions, washing machines, and refrigerators — a direct tax reduction for households." },
+      { "id": "r05", "question": "Which category of goods moved from 12% to 5% under this reform?", "answer": "Many medicines, diagnostic devices, and other healthcare products — reducing costs for end users as well as hospitals, clinics, and distributors." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "GST 2.0's rate rationalisation was approved by the GST Council on:", "options": ["15 August 2025", "3 September 2025", "2 October 2025", "1 January 2026"], "correctIndex": 1, "explanation": "3 September 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "GST 2.0 took effect from:", "options": ["3 September 2025", "22 September 2025", "1 October 2025", "1 April 2026"], "correctIndex": 1, "explanation": "22 September 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Under GST 2.0, which two GST slabs were abolished?", "options": ["5% and 18%", "12% and 28%", "18% and 40%", "5% and 40%"], "correctIndex": 1, "explanation": "12% and 28%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Under GST 2.0, the 'merit rate' for essential goods is set at:", "options": ["0%", "5%", "12%", "18%"], "correctIndex": 1, "explanation": "5%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Under GST 2.0, which rate applies specifically to demerit/luxury ('sin') goods?", "options": ["18%", "28%", "35%", "40%"], "correctIndex": 3, "explanation": "40%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Under GST 2.0, large consumer electronics like ACs and refrigerators moved from 28% to:", "options": ["5%", "12%", "18%", "22%"], "correctIndex": 2, "explanation": "18%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Under GST 2.0, many medicines and healthcare products moved from 12% to:", "options": ["0%", "5%", "8%", "10%"], "correctIndex": 1, "explanation": "5%.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

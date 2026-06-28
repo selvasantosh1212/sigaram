@@ -1,0 +1,27 @@
+{
+  "topicId": "a5-current-affairs-5",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy & TN Dev. Admin. (5): India's FY26 Growth & Global Ranking",
+  "sourceRefs": [
+    { "type": "web-research", "label": "tradingeconomics.com/newsonair.gov.in - India's FY26 GDP growth (7.7%, fastest since FY22) and OECD's 'fastest-growing major economy' confirmation; statisticsoftheworld.com - India's 6th nominal-GDP/3rd PPP global ranking (April 2026)" }
+  ],
+  "researchNotes": "Fifth Economy current-affairs topic (5th lap). GDP figures are inherently somewhat volatile/revision-prone (the lesson from Day 58) — handled here by leading with the STABLE qualitative fact (fastest-growing major economy, confirmed by OECD) and transparently noting that the exact growth-rate figure varies slightly by source (7.7% vs. World Bank's 7.6% estimate) rather than presenting one number as the single certain truth.",
+  "reading": {
+    "intro": "Covers India's FY26 (2025-26) GDP growth performance and its current position among the world's largest economies.",
+    "qa": [
+      { "id": "r01", "question": "What was India's GDP growth rate for the full FY26 (2025-26) financial year, and how does this compare historically?", "answer": "About 7.7% — the highest since the post-COVID rebound in FY2022. (Note: the World Bank's South Asia Economic Update estimated a close but slightly different 7.6% for the same period — a reminder that GDP estimates vary slightly by source/methodology.)" },
+      { "id": "r02", "question": "What did an OECD report confirm about India's economic growth status?", "answer": "India remains the world's FASTEST-GROWING MAJOR ECONOMY, and the fastest-growing economy among G20 countries — holding this position despite US tariff pressures and higher energy costs." },
+      { "id": "r03", "question": "What is India's current global ranking by nominal GDP, and by purchasing power parity (PPP), as of April 2026?", "answer": "6th largest by nominal GDP (around $4.15 trillion); 3rd largest by purchasing power parity (PPP)." },
+      { "id": "r04", "question": "What was a key driver of India's strong FY26 growth, per the World Bank?", "answer": "Strong private consumption, GST rationalization (i.e., GST 2.0, covered in an earlier topic), and export resilience." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "India's GDP growth for the full FY26 (2025-26) financial year was approximately:", "options": ["5.7%", "6.7%", "7.7%", "8.7%"], "correctIndex": 2, "explanation": "About 7.7% — the highest since FY2022.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "An OECD report confirmed India as:", "options": ["The world's largest economy by nominal GDP", "The world's fastest-growing major economy", "The world's most populous economy", "The world's most industrialized economy"], "correctIndex": 1, "explanation": "The world's fastest-growing major economy.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "As of April 2026, India ranks ___ in the world by nominal GDP.", "options": ["3rd", "4th", "5th", "6th"], "correctIndex": 3, "explanation": "6th (around $4.15 trillion).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "As of April 2026, India ranks ___ in the world by purchasing power parity (PPP).", "options": ["1st", "2nd", "3rd", "4th"], "correctIndex": 2, "explanation": "3rd.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Per the World Bank, which of these was NOT cited as a key driver of India's FY26 growth?", "options": ["Strong private consumption", "GST rationalization", "Export resilience", "A sharp rise in crude oil prices"], "correctIndex": 3, "explanation": "A sharp rise in crude oil prices (higher energy costs were a headwind, not a growth driver).", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

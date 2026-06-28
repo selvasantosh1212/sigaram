@@ -1,0 +1,28 @@
+{
+  "topicId": "a5-current-affairs-10",
+  "unitId": "A-V",
+  "name": "Current Affairs in Indian Economy & TN Dev. Admin. (10): MSP 2026-27 & PM-KISAN Allocation",
+  "sourceRefs": [
+    { "type": "web-research", "label": "ddnews.gov.in/zeebiz.com - CCEA's MSP approval for 14 Kharif crops (2026-27); estimated ₹2.60 lakh crore farmer payout; PM-KISAN's ₹63,500cr Budget 2026-27 allocation" }
+  ],
+  "researchNotes": "Thirteenth Economy current-affairs topic (10th lap). MSP figures are dated to a specific marketing season (2026-27) and approved by a specific Cabinet body (CCEA) — a stable, citable policy decision rather than a constantly-revising statistic.",
+  "reading": {
+    "intro": "Covers the Cabinet's MSP approval for Kharif crops (2026-27) and the PM-KISAN scheme's Budget 2026-27 allocation.",
+    "qa": [
+      { "id": "r01", "question": "Which Cabinet body approved the Minimum Support Price (MSP) increase for 14 Kharif crops for the 2026-27 marketing season, and who chairs it?", "answer": "The Cabinet Committee on Economic Affairs (CCEA), chaired by Prime Minister Narendra Modi." },
+      { "id": "r02", "question": "Which crop received the highest absolute MSP increase for 2026-27, and by how much?", "answer": "Sunflower seed — a hike of ₹622 per quintal." },
+      { "id": "r03", "question": "Name the next 3 crops (after sunflower seed) with the largest MSP increases, and their amounts.", "answer": "Cotton (+₹557/quintal), Nigerseed (+₹515/quintal), and Sesamum (+₹500/quintal)." },
+      { "id": "r04", "question": "What is the estimated total farmer payout from MSP operations for the 2026-27 Kharif season?", "answer": "Approximately ₹2.60 lakh crore — one of the largest agricultural procurement support mechanisms." },
+      { "id": "r05", "question": "What was PM-KISAN's allocation in the Union Budget 2026-27?", "answer": "₹63,500 crore." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The MSP increase for 14 Kharif crops (2026-27 season) was approved by:", "options": ["NITI Aayog", "The Cabinet Committee on Economic Affairs (CCEA)", "The Reserve Bank of India", "The Agricultural Costs and Prices Commission alone"], "correctIndex": 1, "explanation": "The Cabinet Committee on Economic Affairs (CCEA).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which crop received the highest absolute MSP increase for 2026-27 (₹622/quintal)?", "options": ["Cotton", "Sunflower seed", "Nigerseed", "Sesamum"], "correctIndex": 1, "explanation": "Sunflower seed.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Cotton's MSP increase for 2026-27 was approximately:", "options": ["₹357/quintal", "₹457/quintal", "₹557/quintal", "₹657/quintal"], "correctIndex": 2, "explanation": "₹557/quintal.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "The estimated total farmer payout from MSP operations for 2026-27 Kharif crops is approximately:", "options": ["₹1.60 lakh crore", "₹2.10 lakh crore", "₹2.60 lakh crore", "₹3.10 lakh crore"], "correctIndex": 2, "explanation": "₹2.60 lakh crore.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "PM-KISAN's allocation in the Union Budget 2026-27 was:", "options": ["₹43,500 crore", "₹53,500 crore", "₹63,500 crore", "₹73,500 crore"], "correctIndex": 2, "explanation": "₹63,500 crore.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "topicId": "c7-poem-tragic-story",
+  "unitId": "C-VII",
+  "name": "Poem: \"A Tragic Story\" — William Makepeace Thackeray",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 2-page question set, figure-of-speech per line" },
+    { "type": "web-research", "label": "careericons.com - book-back answers, glossary, line summary" }
+  ],
+  "researchNotes": "OCR index search for 'thackeray' / 'tragic story' returned zero hits across all 730 question-bank pages. Raw pool was 12 sourced MCQs, almost all figure-of-speech identification on specific lines — kept all 12 as reading since each names a distinct line, but noticed a clear pattern: the source labels nearly every repeated-sound observation as either 'Alliteration' or 'Repetition' depending on whether it's word-initial sounds vs. whole-phrase repetition, and 'Irony' for anything about the pigtail's stubborn position — so the reading material teaches that pattern explicitly rather than listing 12 near-identical Q&A pairs.",
+  "reading": {
+    "intro": "A short comic poem about a sage obsessed with moving his pigtail from behind him to in front, who never succeeds. Real coaching-site evidence shows this poem is tested almost entirely as 'identify the figure of speech in this line' — and the pattern is consistent enough to learn as a rule rather than memorizing 12 separate answers.",
+    "qa": [
+      { "id": "r01", "question": "What is the plot of \"A Tragic Story\"?", "answer": "A sage ('in days of yore') is bothered that his pigtail (braid) hangs behind him. He spins around — round and round, all day — trying to bring it to the front. No matter how he turns, the pigtail stays faithfully behind him, since it's physically attached to his back and turns with him. He never succeeds." },
+      { "id": "r02", "question": "What is the poem's central theme/lesson?", "answer": "The futility of attempting an impossible task, told humorously — the sage's persistent, theoretical effort is undercut by his lack of practical understanding (the pigtail can never NOT be behind him while attached to his back, no matter which way he spins)." },
+      { "id": "r03", "question": "What is the recurring figure of speech used whenever the poem mentions the pigtail still hanging behind him, despite all his efforts?", "answer": "Irony — there's a gap between his persistent, hopeful effort and the physically inevitable outcome (it was always going to stay behind him). Lines like 'But still it hung behind him' and 'Because it hung behind him' are both cited examples." },
+      { "id": "r04", "question": "What figure of speech describes the poem's repeated phrases like 'round and round' and 'right and left and round about'?", "answer": "Repetition — the same words/phrase repeated for emphasis, here mimicking the sage's repetitive, futile spinning motion." },
+      { "id": "r05", "question": "What figure of speech is used in lines like 'There lived a sage in days of yore', 'All day the puzzled sage did spin', and 'He mused upon this curious case'?", "answer": "Alliteration — repeated initial consonant sounds within the line (sage/spin/days; mused/this — note: alliteration specifically repeats STARTING sounds of nearby words, distinguishing it from the whole-phrase Repetition examples above)." },
+      { "id": "r06", "question": "Who wrote \"A Tragic Story\", and is it meant to be read seriously?", "answer": "William Makepeace Thackeray. Despite the title, it's a humorous/comic poem, not an actual tragedy — the 'tragic' framing is itself part of the joke, given how trivial the sage's problem really is." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "What was the sage in \"A Tragic Story\" trying to do?", "options": ["Grow a longer pigtail", "Move his pigtail to the front", "Cut off his pigtail", "Dye his pigtail"], "correctIndex": 1, "explanation": "He spent all day spinning, trying to bring his pigtail around to the front.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Was the sage ever successful in moving his pigtail?", "options": ["Yes, after many tries", "Yes, immediately", "No, it always stayed behind him", "The poem doesn't say"], "correctIndex": 2, "explanation": "No matter how he spun, the pigtail — attached to his back — always remained behind him.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "Identify the figure of speech: \"But still it hung behind him.\"", "options": ["Simile", "Personification", "Irony", "Hyperbole"], "correctIndex": 2, "explanation": "Irony — his effort can never change a physically inevitable outcome.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Identify the figure of speech: the repeated use of \"round and round\" in the poem.", "options": ["Hyperbole", "Onomatopoeia", "Anaphora", "Repetition"], "correctIndex": 3, "explanation": "Repetition — the same phrase repeated to emphasize his repetitive spinning.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Identify the figure of speech: \"All day the puzzled sage did spin.\"", "options": ["Hyperbole", "Alliteration", "Assonance", "Personification"], "correctIndex": 1, "explanation": "Alliteration — repeated initial sounds (e.g. 'sage'/'spin').", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What is the overall dominant figure of speech across \"A Tragic Story\"?", "options": ["Hyperbole", "Irony", "Alliteration", "Personification"], "correctIndex": 1, "explanation": "Irony — the entire poem's comic premise rests on the gap between effort and an unchangeable outcome.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "\"A Tragic Story\" was written by:", "options": ["Lewis Carroll", "Robert Louis Stevenson", "William Makepeace Thackeray", "Edgar Albert Guest"], "correctIndex": 2, "explanation": "William Makepeace Thackeray.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "Despite its title, \"A Tragic Story\" is best described as:", "options": ["A genuine tragedy", "A humorous poem", "A horror poem", "A romantic poem"], "correctIndex": 1, "explanation": "It's comic, not tragic — the title itself is part of the joke given how trivial the sage's 'problem' is.", "sourceTag": "web-research", "difficulty": "easy" }
+    ]
+  }
+}

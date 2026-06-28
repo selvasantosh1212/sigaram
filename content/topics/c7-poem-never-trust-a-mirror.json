@@ -1,0 +1,29 @@
+{
+  "topicId": "c7-poem-never-trust-a-mirror",
+  "unitId": "C-VII",
+  "name": "Poem: \"Never Trust a Mirror\" — Erin Hanson",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" }
+  ],
+  "researchNotes": "OCR index search for 'never trust a mirror'/'erin hanson' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept since each tests a distinct fact/device.",
+  "reading": {
+    "intro": "A poem arguing that mirrors only show surface appearance, not true self-worth. Real coaching-site evidence tests theme, symbolism, and a couple of figures of speech.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Never Trust a Mirror\", and what is its central theme?", "answer": "Erin Hanson. Central theme: self-worth comes from within, not from outer appearance." },
+      { "id": "r02", "question": "What does the mirror symbolize in the poem?", "answer": "Outer appearance and illusion — the mirror shows only surface reflection, not a person's true worth or character." },
+      { "id": "r03", "question": "What does \"skin deep\" mean, as used in the poem?", "answer": "Superficial, or only outward — describing something that has no depth beyond physical appearance." },
+      { "id": "r04", "question": "Identify the figure of speech: \"The mirror always lies.\"", "answer": "Personification — a mirror (an inanimate object) is given the human capacity to 'lie'." },
+      { "id": "r05", "question": "Identify the figure of speech: \"When your eyelids flutter.\"", "answer": "Imagery — a vivid, visual sensory description." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Never Trust a Mirror\" was written by:", "options": ["Maya Angelou", "Robert Frost", "Erin Hanson", "W.H. Davies"], "correctIndex": 2, "explanation": "Erin Hanson.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The main theme of the poem is:", "options": ["Physical beauty", "The truth in reflections", "Self-worth comes from within", "Dreams and goals"], "correctIndex": 2, "explanation": "Self-worth comes from within.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What does the mirror symbolize in the poem?", "options": ["Confidence", "Truth", "Outer appearance and illusion", "Technology"], "correctIndex": 2, "explanation": "Outer appearance and illusion.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"The mirror always lies\" uses which figure of speech?", "options": ["Simile", "Hyperbole", "Personification", "Irony"], "correctIndex": 2, "explanation": "Personification — the mirror given the human ability to 'lie'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "In the poem, \"skin deep\" means:", "options": ["Very deep", "Superficial or only outward", "Emotionally strong", "Spiritually rich"], "correctIndex": 1, "explanation": "Superficial/only outward.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"When your eyelids flutter\" is an example of which poetic device?", "options": ["Metaphor", "Alliteration", "Imagery", "Irony"], "correctIndex": 2, "explanation": "Imagery — vivid visual description.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

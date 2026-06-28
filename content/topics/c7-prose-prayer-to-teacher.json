@@ -1,0 +1,30 @@
+{
+  "topicId": "c7-prose-prayer-to-teacher",
+  "unitId": "C-VII",
+  "name": "Prose: \"A Prayer to the Teacher\" — Subroto Bagchi",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set (6 questions); brainkart.com - full speech summary and themes" }
+  ],
+  "researchNotes": "OCR index search for 'prayer to the teacher/subroto bagchi' returned zero hits — web research only. Unlike most Unit VII pieces, this is a real CONVOCATION SPEECH (by Subroto Bagchi, founder of Mindtree), not a story or poem — a values-based address asking teachers to instil inclusion, communication, and appreciation for nature in students, beyond the formal syllabus.",
+  "reading": {
+    "intro": "A convocation speech by Subroto Bagchi (founder of Mindtree), delivered to graduating teachers at the International Academy for Creative Teaching, Bangalore (6 January 2005), urging them to teach students values like inclusion, genuine communication, and gratitude for nature — going beyond the formal syllabus.",
+    "qa": [
+      { "id": "r01", "question": "Who delivered \"A Prayer to the Teacher\", and where was it delivered?", "answer": "Subroto Bagchi, founder and CEO of Mindtree. It was delivered as a convocation address at the International Academy for Creative Teaching, Bangalore, on 6 January 2005, to graduating teachers." },
+      { "id": "r02", "question": "What is the FIRST value the speaker prays teachers will instil in students?", "answer": "Inclusion — valuing all people regardless of boundaries like financial/educational status, caste, creed, physical strength, designation, or place of origin." },
+      { "id": "r03", "question": "What everyday example does the speaker use to illustrate a LACK of inclusion?", "answer": "Not calling a neighbour's child along when taking one's own child to the movies — a small, everyday act that reflects exclusion rather than inclusion." },
+      { "id": "r04", "question": "According to the speaker, what makes learning genuinely joyful?", "answer": "The PROCESS of learning itself — not marks, not memorization, and not merely studying in groups." },
+      { "id": "r05", "question": "What does the speaker ask teachers to teach about communication, and what does he mean by communicating with 'animate and inanimate' things?", "answer": "He asks teachers to teach genuine communication — noting that amid cutthroat competition, the more people try to impress, the less they truly communicate. 'Animate and inanimate' means living and NON-LIVING things alike — he wants students to learn to communicate even with nature and non-living things around them, not just people." },
+      { "id": "r06", "question": "What does the speaker say about nature and gratitude, in an increasingly commercial world?", "answer": "He observes that the things that truly support life come freely from nature — the cow is not paid for the milk it gives, nor does the earth charge money for the crops it produces — urging gratitude for what nature freely provides, rather than treating everything as commercial transactions." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Who delivered the speech \"A Prayer to the Teacher\"?", "options": ["Dr. Abdul Kalam", "Subroto Bagchi", "Rabindranath Tagore", "Dr. Radhakrishnan"], "correctIndex": 1, "explanation": "Subroto Bagchi.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Where was the speech delivered?", "options": ["IIT Delhi", "Bangalore University", "International Academy for Creative Teaching", "Indian Institute of Science"], "correctIndex": 2, "explanation": "International Academy for Creative Teaching.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "What value does the speaker pray for FIRST in the speech?", "options": ["Power to rule", "A sense of silence", "The value of inclusion", "Fame"], "correctIndex": 2, "explanation": "The value of inclusion.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The speaker compares NOT calling a neighbour's child to the movies with:", "options": ["Generosity", "Lack of inclusion", "Kindness", "Patriotism"], "correctIndex": 1, "explanation": "Lack of inclusion.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "According to the speaker, what makes learning joyful?", "options": ["Marks", "Memorization", "The process of learning", "Studying in groups"], "correctIndex": 2, "explanation": "The process of learning.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m06", "prompt": "In \"Teach me to communicate with animate and inanimate\", what does 'inanimate' mean?", "options": ["Moving", "Non-living", "Noisy", "Intelligent"], "correctIndex": 1, "explanation": "Non-living.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

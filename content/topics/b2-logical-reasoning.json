@@ -1,0 +1,30 @@
+{
+  "topicId": "b2-logical-reasoning",
+  "unitId": "B-II",
+  "name": "Logical Reasoning",
+  "sourceRefs": [
+    { "type": "web-research", "label": "tnpscguru.in - syllogism example (statements/conclusions)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - sequencing, ranking, direction-sense, word-order puzzles" }
+  ],
+  "researchNotes": "First topic of Part B Unit II (Reasoning) — Part B has now moved past its Aptitude unit entirely. Real evidence spans 6 distinct puzzle shapes (syllogism, position-in-a-line sequencing, algebraic word problems framed as 'logical' puzzles, ranking-from-clues, comparison-chains, meaningful-word-ordering, direction sense) — each taught as its own method since they require completely different approaches.",
+  "reading": {
+    "intro": "Logical Reasoning is 1 of 6 named Reasoning skills (Part B Unit II, 10 questions total for the whole unit). Real exam evidence shows TNPSC's 'logical reasoning' label covers a wide variety of puzzle types, not just classic syllogisms — expect position-counting, ranking-from-clues, and direction-sense questions under this same heading too.",
+    "qa": [
+      { "id": "r01", "question": "Method — syllogism (statements → which conclusions necessarily follow): Statements: 'Some pens are books. All books are rods.' Conclusions: I. All pens are rods. II. Some pens are rods. III. Some books are pens. IV. All rods are pens. Which conclusions follow?", "answer": "Only II and III follow. 'Some pens are books' + 'All books are rods' guarantees that AT LEAST SOME pens are rods (II) and that some books are indeed pens (III, since 'some pens are books' can be reversed to 'some books are pens'). It does NOT guarantee ALL pens are rods (I — only the 'some' pens that are books are guaranteed to be rods) or that ALL rods are pens (IV — nothing says rods can't include non-pen things)." },
+      { "id": "r02", "question": "Method — position-in-a-line counting: Richard is 15th from the front in a column of boys. There are three times as many boys behind him as in front. How many boys are between Richard and the 7th boy from the end?", "answer": "In front of Richard: 14 boys. Behind him: 3×14=42 boys. Total boys = 14+1+42 = 57. The 7th from the end is at position 57−7+1=51 from the front. Richard is at position 15. Boys between them = 51−15−1 = 35." },
+      { "id": "r03", "question": "Method — algebraic word problem framed as a 'logical' puzzle: 106 trees were planted; non-fruit-bearing trees were 2 more than thrice the fruit-bearing trees. How many fruit-bearing trees were planted?", "answer": "Let fruit-bearing = x. Non-fruit-bearing = 3x+2. Total: x + 3x+2 = 106 → 4x=104 → x=26." },
+      { "id": "r04", "question": "Method — ranking from multiple comparative clues: Given several statements comparing four people's scores (e.g., 'Rama scored more than Rani but less than Rathna...'), determine who scored highest.", "answer": "Work through each comparative clue methodically, building a single ordered chain (e.g., Rathna > Rama > Ramya > Rani), rather than trying to hold all comparisons in your head at once — write the partial order down step by step as each clue is read." },
+      { "id": "r05", "question": "Method — meaningful word sequencing: Arrange in a logical sequence: Honey, Flower, Bee, Wax.", "answer": "Flower → Bee → Honey → Wax. The logic: a bee visits a Flower, produces Honey, and the Honey-making process also yields Wax (beeswax) — order reflects the natural/causal sequence of the process, not alphabetical or arbitrary order." },
+      { "id": "r06", "question": "Method — direction sense: A person starts walking, turns left, then turns left again, and is now heading East. Which direction did they originally start in?", "answer": "West. Two consecutive left turns reverse the original direction (left+left = 180° turn), so if they end up heading East, they must have started heading West." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "Statements: 'Some doctors are teachers. All teachers are readers.' Conclusions: I. Some doctors are readers. II. All doctors are readers. III. Some readers are teachers. Which follow?", "options": ["Only I and III", "Only II", "All three", "None"], "correctIndex": 0, "explanation": "I and III follow the same logic as the worked example (some doctors are guaranteed readers via the teacher link; some readers are guaranteed teachers by reversing 'some'). II overreaches — not ALL doctors are teachers, so not all are guaranteed readers.", "sourceTag": "authored", "difficulty": "hard" },
+      { "id": "m02", "prompt": "In a column of boys, Meena is 10th from the front, and there are twice as many boys behind her as in front. How many boys are in the column in total?", "options": ["27", "28", "29", "30"], "correctIndex": 1, "explanation": "In front: 9. Behind: 2×9=18. Total = 9+1+18 = 28.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m03", "prompt": "A farmer planted 84 saplings in total. The number of flowering saplings was 3 more than twice the number of non-flowering saplings. How many non-flowering saplings were planted?", "options": ["25", "27", "29", "31"], "correctIndex": 1, "explanation": "Let non-flowering=x. Flowering=2x+3. Total: x+2x+3=84 → 3x=81 → x=27.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m04", "prompt": "Arrange in a logical sequence: Seed, Tree, Fruit, Sapling.", "options": ["Seed-Sapling-Tree-Fruit", "Seed-Tree-Sapling-Fruit", "Sapling-Seed-Tree-Fruit", "Seed-Fruit-Sapling-Tree"], "correctIndex": 0, "explanation": "A Seed grows into a Sapling, which matures into a Tree, which eventually bears Fruit.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m05", "prompt": "A person walks north, turns right, walks on, then turns right again. Which direction are they now facing?", "options": ["North", "South", "East", "West"], "correctIndex": 1, "explanation": "Two consecutive right turns reverse the original direction: North → (right) East → (right) South.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

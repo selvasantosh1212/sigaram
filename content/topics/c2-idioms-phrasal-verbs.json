@@ -1,0 +1,36 @@
+{
+  "topicId": "c2-idioms-phrasal-verbs",
+  "unitId": "C-II",
+  "name": "Vocabulary: Idioms, Phrases, and Phrasal Verbs",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 17 Q29 (4 phrasal verbs fill-in-the-blank, with answer key)" },
+    { "type": "question-bank", "label": "2022_q page 23 Q85; 2024_q page 87 Q181-182 (idiom/phrase meanings, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 84 Q171 (stashed earlier); 2025_q1 page 37 Q82 (stashed earlier, idiom-pair swap trap)" }
+  ],
+  "researchNotes": "Second Vocabulary topic, consuming both idiom-related facts stashed since early in the project plus 3 fresh hits. Real exam evidence favours testing idiomatic MEANING (multiple-choice 'what does this phrase mean') over recall, and phrasal verbs via fill-in-the-blank with a shared word bank.",
+  "reading": {
+    "intro": "Covers common idioms/phrases tested by their MEANING (not just recognition) and phrasal verbs via fill-in-the-blank — exactly the formats real exams use.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Fill in these phrasal verbs — \"ring her ___\" (call), \"drop ___\" (visit informally), \"do ___ it\" (manage without), \"trying it ___\" (testing) — using out/in/up/without.", "answer": "Ring her UP (call her). Drop IN (visit casually). Do WITHOUT it (manage without having it). Trying it OUT (testing it) — all four confirmed via a real exam's fill-in-the-blank question using a shared word bank." },
+      { "id": "r02", "question": "Real exam: What does the phrase \"given to\" mean?", "answer": "Accustomed to (e.g., 'he is given to exaggeration' = he is accustomed to/has a habit of exaggerating) — confirmed by a real exam question." },
+      { "id": "r03", "question": "Real exam: What does the phrase \"cast down\" mean?", "answer": "Dejected (sad, downcast) — confirmed by a real exam question." },
+      { "id": "r04", "question": "Real exam: What does the idiom/saying \"failures are stepping stones to success\" mean, and what does the phrase \"reconcile to\" mean?", "answer": "\"Failures are stepping stones to success\" means setbacks/failures are necessary steps that lead toward eventual success, not permanent obstacles — confirmed by a real exam question. \"Reconcile to\" means to ACCEPT (something unwelcome) half-heartedly/reluctantly, not to fully embrace it — also confirmed by a real exam question." },
+      { "id": "r05", "question": "Real exam: What does the idiom \"beauty lies in the eyes of the beholder\" mean?", "answer": "What is considered beautiful depends on the individual perceiving it — beauty is subjective, not an objective, universal standard." },
+      { "id": "r06", "question": "Real exam: What is the REAL meaning of \"to be at large\", and of \"to pass the buck\" — and what is the common trap?", "answer": "\"To be at large\" really means FREE / AT LIBERTY (e.g., a criminal still 'at large' has not been captured). \"To pass the buck\" really means TO BLAME (someone else) / SHIFT RESPONSIBILITY onto another person. A real exam tested these two idioms with their meanings deliberately SWAPPED with each other as a trap — don't assume the more 'obvious-sounding' pairing is correct." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"You'd better ring her ___ and tell her you'll be late.\"", "options": ["out", "in", "up", "without"], "correctIndex": 2, "explanation": "ring her up.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "\"I invited her to drop ___ any time she was passing for a cup of tea.\"", "options": ["out", "in", "up", "without"], "correctIndex": 1, "explanation": "drop in.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "\"If you can't afford it, you'll have to do ___ it.\"", "options": ["out", "in", "up", "without"], "correctIndex": 3, "explanation": "do without it.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"He won't buy the car without trying it ___ on the road first.\"", "options": ["out", "in", "up", "without"], "correctIndex": 0, "explanation": "trying it out.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What does the phrase \"given to\" mean?", "options": ["Withdraw", "Accustomed to", "Progress", "Escape"], "correctIndex": 1, "explanation": "Accustomed to.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m06", "prompt": "What does the phrase \"cast down\" mean?", "options": ["Release", "Dejected", "Continue", "Appeal"], "correctIndex": 1, "explanation": "Dejected.", "sourceTag": "question-bank-2022", "difficulty": "medium" },
+      { "id": "m07", "prompt": "What does the phrase \"reconcile to\" mean?", "options": ["Maintain", "Accept half-heartedly", "Arrive suddenly", "Continue"], "correctIndex": 1, "explanation": "Accept half-heartedly.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m08", "prompt": "What does the idiom \"to be at large\" really mean?", "options": ["To blame someone else", "Free / at liberty", "To grow bigger", "To shift responsibility"], "correctIndex": 1, "explanation": "Free / at liberty.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m09", "prompt": "What does the idiom \"to pass the buck\" really mean?", "options": ["Free / at liberty", "To shift blame/responsibility onto someone else", "To spend money quickly", "To win easily"], "correctIndex": 1, "explanation": "To shift blame/responsibility.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m10", "prompt": "\"Beauty lies in the eyes of the beholder\" means:", "options": ["Beauty is always objective and universal", "Beauty is subjective — it depends on who is looking", "Only beautiful people can judge beauty", "Beauty cannot be perceived by the eyes"], "correctIndex": 1, "explanation": "Beauty is subjective.", "sourceTag": "question-bank-2024", "difficulty": "medium" }
+    ]
+  }
+}

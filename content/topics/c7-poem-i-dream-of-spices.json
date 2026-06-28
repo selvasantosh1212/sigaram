@@ -1,0 +1,189 @@
+{
+  "topicId": "c7-poem-i-dream-of-spices",
+  "unitId": "C-VII",
+  "name": "Poem: \"I Dream of Spices\" — Raj Arumugam",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - 3-page TNPSC Group 2/2A question set on this exact poem" },
+    { "type": "web-research", "label": "samacheerkalvi.guru - 6th English Term 1 book-back answers (glossary, theme)" },
+    { "type": "web-research", "label": "best-poems.net / englishsummary.com - poet biography and full poem text" },
+    { "type": "general", "label": "Samacheer Kalvi Class 6 English Term 1, Unit 3 (the textbook source for this SSLC-level poem)" }
+  ],
+  "researchNotes": "Checked the OCR'd text of all 729 question-bank pages (2017-2026) for 'spices', 'Arumugam', 'cinnamon', 'Muthu', 'betel' — zero genuine hits (a few false-positive substring matches on unrelated names, checked and ruled out by viewing the actual pages). This poem is a recent addition to the Class 6 Samacheer Kalvi anthology, so it has likely never been directly tested in the years covered by this question bank — confidence here rests entirely on web-sourced coaching material and the textbook's own content, not on a verified past-paper hit. Flagged transparently rather than implied otherwise. Raw candidate pool was ~25 items across 3 source pages plus bio/theme pages; deduped to 12 reading items (several questions like 'what is the poem about' / 'what was the boy dreaming about' / 'what's the theme' were testing the same underlying idea from different angles and got merged).",
+  "reading": {
+    "intro": "One of 30 poems (alongside 29 prose pieces) in Part C Unit VII Literary Works — a 15-question unit covering all 59 works, so any single poem is low-probability to get more than 1 question, but the exam draws from author facts, plot details, glossary words, and figures of speech in roughly equal measure, so cover all four angles rather than just the story.",
+    "qa": [
+      {
+        "id": "r01",
+        "question": "Who wrote \"I Dream of Spices\", and what's known about him?",
+        "answer": "Raj Arumugam. Born in India (1955), he moved to Singapore before age 6, lived there until 1997, spent a year in the UK, and has lived in Australia since 1998. He is a teacher, poet and writer."
+      },
+      {
+        "id": "r02",
+        "question": "Does this poem have an alternate/fuller title?",
+        "answer": "Yes — its full original title is \"absent-mindedness; or I Dream of Spices\", which directly names the poem's theme (the boy's absent-mindedness) before the shortened textbook title does."
+      },
+      {
+        "id": "r03",
+        "question": "What kind of poem is this, structurally and tonally?",
+        "answer": "A short, humorous, free-verse poem (no fixed rhyme/meter pattern) written in a simple, child-friendly narrative style."
+      },
+      {
+        "id": "r04",
+        "question": "How does the poem's story begin?",
+        "answer": "The narrator, a young boy named Raj, is sent by his mother to Muthu's shop to buy some items, and he sets off happily singing songs along the way."
+      },
+      {
+        "id": "r05",
+        "question": "What were the items on the mother's original shopping list?",
+        "answer": "Cinnamon, betel leaves, ginger, and garlic."
+      },
+      {
+        "id": "r06",
+        "question": "What happened when Muthu asked the boy what he wanted?",
+        "answer": "The boy had completely forgotten the original list and instead rattled off ('rattled off' = recited quickly) a brand-new list: sesame seeds, onions, tomatoes, and pickles — none of which were on his mother's actual list."
+      },
+      {
+        "id": "r07",
+        "question": "What happened when the boy got home with the wrong items, and how did he react?",
+        "answer": "His mother twisted his ears in mild punishment, and he cried out \"Ouch!\" in pain."
+      },
+      {
+        "id": "r08",
+        "question": "What is the central theme/message of the poem?",
+        "answer": "Childhood innocence and forgetfulness, told humorously — the boy is so happily lost in daydreaming (dreaming of spices, hence the title) that he forgets his actual task entirely and improvises a whole new (wrong) list. The humor comes from the totality of the mistake — he doesn't forget one item, he replaces the entire list."
+      },
+      {
+        "id": "r09",
+        "question": "What do these words from the poem mean? — cinnamon, rattle off, sesame seeds",
+        "answer": "Cinnamon: the bark of a tree, used as a flavouring spice. Rattle off: to recite/say something quickly without much thought. Sesame seeds: also called gingelly seeds, used in cooking."
+      },
+      {
+        "id": "r10",
+        "question": "What figure of speech (sound device) is most evident in the poem, with examples?",
+        "answer": "Alliteration — repetition of the same starting consonant sound in nearby words. Examples: \"sesame seeds\" (s-sound), \"ginger and garlic\" (g-sound), \"mother... my\" (m-sound in 'Mother twists my ears')."
+      },
+      {
+        "id": "r11",
+        "question": "Beyond alliteration, what literary device describes the poem's overall comic premise?",
+        "answer": "Situational irony — the boy spends the walk happily 'dreaming of spices' (the very thing he was sent to buy), yet ends up forgetting every single one of them. The gap between what we'd expect (he's thinking about spices, so he should remember them) and what actually happens (he forgets them completely) is the ironic comic core of the poem. If an exam question asks for 'the poetic device used' without further context, be ready for either alliteration (sound-level) or irony (structural/thematic level) as the intended answer — both are defensible depending on which line or aspect the question points to."
+      },
+      {
+        "id": "r12",
+        "question": "Trap-style question to watch for: which of the shopping items was NOT on the original list?",
+        "answer": "Be careful — TNPSC-style questions mix items from both lists as distractors. The original list was cinnamon/betel leaves/ginger/garlic; the substituted (wrong) list was sesame seeds/onions/tomatoes/pickles. Any item from the second list (e.g. tomatoes) is correctly 'NOT on the original list' — but a hastily-read question could trick you into picking ginger or garlic, which WERE on the original list."
+      }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      {
+        "id": "m01",
+        "prompt": "Who is the author of the poem \"I Dream of Spices\"?",
+        "options": ["Sarojini Naidu", "Ruskin Bond", "Raj Arumugam", "Rabindranath Tagore"],
+        "correctIndex": 2,
+        "explanation": "Raj Arumugam, born in India in 1955.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m02",
+        "prompt": "Where was the poet Raj Arumugam born, before later living in Singapore, the UK, and Australia?",
+        "options": ["Malaysia", "India", "Singapore", "Sri Lanka"],
+        "correctIndex": 1,
+        "explanation": "He was born in India in 1955 and moved to Singapore before he turned six.",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m03",
+        "prompt": "\"I Dream of Spices\" is mainly about:",
+        "options": ["A recipe for making spice powder", "A boy forgetting his mother's shopping list", "A trader selling spices at a market", "A festival celebrating spices"],
+        "correctIndex": 1,
+        "explanation": "It's a humorous narrative of a boy who forgets his shopping list entirely and buys the wrong items.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m04",
+        "prompt": "Who sent the boy to the shop in the poem?",
+        "options": ["His father", "His grandmother", "His mother", "His teacher"],
+        "correctIndex": 2,
+        "explanation": "His mother sent him to Muthu's shop.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m05",
+        "prompt": "What was the name of the shopkeeper in the poem?",
+        "options": ["Mani", "Muthu", "Magesh", "Murugan"],
+        "correctIndex": 1,
+        "explanation": "The shopkeeper's name was Muthu.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m06",
+        "prompt": "Which of the following was on the mother's ORIGINAL shopping list?",
+        "options": ["Sesame seeds", "Tomatoes", "Betel leaves", "Pickles"],
+        "correctIndex": 2,
+        "explanation": "The original list was cinnamon, betel leaves, ginger, and garlic. Sesame seeds, tomatoes, and pickles were all part of the wrong list the boy invented instead.",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m07",
+        "prompt": "What did the boy actually ask Muthu for, having forgotten the real list?",
+        "options": ["Rice and dhal", "Tea and coffee", "Sesame seeds, onions, tomatoes and pickles", "Turmeric and salt"],
+        "correctIndex": 2,
+        "explanation": "He rattled off a completely new list: sesame seeds, onions, tomatoes, and pickles.",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m08",
+        "prompt": "What did the boy do on his way to the shop, before forgetting the list?",
+        "options": ["He ran the whole way", "He sang songs happily", "He stopped to play", "He fell asleep on a bench"],
+        "correctIndex": 1,
+        "explanation": "He went along singing songs, happily lost in his own world — which sets up why he forgot the list.",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m09",
+        "prompt": "How did the boy's mother react when he returned with the wrong items?",
+        "options": ["She laughed it off", "She twisted his ears", "She sent him back immediately", "She scolded Muthu instead"],
+        "correctIndex": 1,
+        "explanation": "She twisted his ears, and he cried \"Ouch!\"",
+        "sourceTag": "web-research",
+        "difficulty": "easy"
+      },
+      {
+        "id": "m10",
+        "prompt": "\"Rattle off\" as used in the poem means:",
+        "options": ["To forget completely", "To recite quickly", "To write something down carefully", "To shake violently"],
+        "correctIndex": 1,
+        "explanation": "It means to say/recite something quickly, often without much thought — exactly what the boy did with his invented list.",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m11",
+        "prompt": "Which figure of speech is illustrated by \"ginger and garlic\" and \"sesame seeds\" in the poem?",
+        "options": ["Simile", "Alliteration", "Metaphor", "Hyperbole"],
+        "correctIndex": 1,
+        "explanation": "Alliteration — repeated initial consonant sounds (g-sound, s-sound).",
+        "sourceTag": "web-research",
+        "difficulty": "medium"
+      },
+      {
+        "id": "m12",
+        "prompt": "The poem's full/original title, beyond the shortened textbook title, is:",
+        "options": ["\"A Boy's Mistake\"", "\"absent-mindedness; or I Dream of Spices\"", "\"The Spice Market\"", "\"Muthu's Shop\""],
+        "correctIndex": 1,
+        "explanation": "The poet's original published title is \"absent-mindedness; or I Dream of Spices\".",
+        "sourceTag": "web-research",
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

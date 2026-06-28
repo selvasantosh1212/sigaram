@@ -1,0 +1,30 @@
+{
+  "topicId": "c7-poem-the-river",
+  "unitId": "C-VII",
+  "name": "Poem: \"The River\" (Advice from a River) — Ilan Shamir",
+  "sourceRefs": [
+    { "type": "authored", "label": "carnegiehillvillage.org/Amazon/Barnes & Noble/Internet Archive — multiple independent sources consistently confirming the full poem text and author" }
+  ],
+  "researchNotes": "RESOLVED, after being deliberately left unauthored since Day 19 due to a 3-way source conflict. Investigation found: (1) a Caroline Anne Bowles poem under the same title — confirmed wrong, different syllabus era; (2) a rhyming Victorian-style poem quoted on a coaching site and mislabeled 'Ilan Shamir' — almost certainly a mislabeling error (the same site previously mislabeled a Robert Frost poem under Gieve Patel's name elsewhere in this project), since it doesn't match Shamir's actual free-verse style at all; (3) Shamir's real, published poem 'Advice from a River' — confirmed correct via 5+ independent sources (a published book, Amazon/Barnes & Noble listings, Internet Archive, a community poetry page) all quoting the IDENTICAL text. Went with (3). No real TNPSC question-bank or web exam evidence exists for this specific poem (the OCR question bank has zero hits, and no dedicated coaching-site MCQ set for the correct poem was found) — so unlike most other Unit VII topics, this one is entirely 'authored' from the verified real text, modeled on the same idiom/phrase-meaning testing style already established for its companion poem c7-poem-advice-from-a-tree (same author, same nature-advice structure, shipped Day 16). Flagged as lower-confidence (authored, not question-bank/web-research) — if real exam evidence for this poem surfaces later, prioritize revising this topic.",
+  "reading": {
+    "intro": "Ilan Shamir's companion piece to \"Advice from a Tree\" — using a river's natural behavior as an extended metaphor for life advice. Like its companion poem, expect phrase-MEANING questions rather than figure-of-speech labelling.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"The River\" (also known as \"Advice from a River\"), and how does it relate to another poem in this syllabus?", "answer": "Ilan Shamir — the same poet who wrote \"Advice from a Tree\" (also in this syllabus). Both poems use a natural element (tree, river) as an extended metaphor for life wisdom." },
+      { "id": "r02", "question": "What does \"Go with the flow\" mean in the poem?", "answer": "Accept circumstances as they come rather than resisting them — adapt gracefully to life's natural direction, instead of forcing control." },
+      { "id": "r03", "question": "What does \"Be thoughtful of those downstream\" mean?", "answer": "Consider how your actions affect others who come after you or are affected by you later — a call for consideration and responsibility toward others." },
+      { "id": "r04", "question": "What does \"Follow the path of least resistance\" mean, and how does it lead to 'rapid success'?", "answer": "Don't force difficult, conflict-heavy approaches — find the natural, easier way forward, similar to how a river finds the easiest route downhill rather than fighting obstacles head-on." },
+      { "id": "r05", "question": "What does \"It takes time to carve the beauty of the canyon\" mean?", "answer": "Meaningful, beautiful achievements require patience and gradual effort — just as a river slowly carves a canyon over a long time, not instantly." },
+      { "id": "r06", "question": "What does \"Go around the obstacles\" mean, and what is the poem's concluding message?", "answer": "Find ways around difficulties rather than confronting them head-on (adapt rather than force). The poem concludes: \"The beauty is in the journey\" — emphasizing that the process/experience of living matters more than reaching a final destination." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"The River\" (\"Advice from a River\") was written by:", "options": ["Henry Van Dyke", "Ilan Shamir", "Robert Frost", "William Wordsworth"], "correctIndex": 1, "explanation": "Ilan Shamir.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m02", "prompt": "\"Go with the flow\" means:", "options": ["Swim in a river", "Accept circumstances rather than resisting them", "Move quickly", "Follow a crowd blindly"], "correctIndex": 1, "explanation": "Accept circumstances rather than resisting them.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m03", "prompt": "\"Be thoughtful of those downstream\" means:", "options": ["Be careful near water", "Consider how your actions affect others", "Travel south", "Avoid rivers"], "correctIndex": 1, "explanation": "Consider how your actions affect others.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"It takes time to carve the beauty of the canyon\" means:", "options": ["Canyons are man-made", "Meaningful achievements require patience and gradual effort", "Rivers are dangerous", "Beauty doesn't last"], "correctIndex": 1, "explanation": "Meaningful achievements require patience and gradual effort.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m05", "prompt": "What is the poem's concluding message?", "options": ["The destination matters more than the journey", "The beauty is in the journey", "Rivers always flow to the sea", "Obstacles should always be confronted directly"], "correctIndex": 1, "explanation": "The beauty is in the journey.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"The River\" and \"Advice from a Tree\" (both in this syllabus) share which feature?", "options": ["Same poet (Ilan Shamir)", "Same rhyme scheme", "Same number of stanzas", "Both were written in the same year as a single combined poem"], "correctIndex": 0, "explanation": "Same poet, Ilan Shamir.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

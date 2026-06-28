@@ -1,0 +1,32 @@
+{
+  "topicId": "a4-current-affairs-1",
+  "unitId": "A-IV",
+  "name": "Current Affairs in Indian Polity (1)",
+  "sourceRefs": [
+    { "type": "web-research", "label": "Wikipedia/scobserver.in/iconnectblog.com - State of Tamil Nadu v. Governor of Tamil Nadu (2025 INSC 481), 8 April 2025" },
+    { "type": "web-research", "label": "visionias.in - Supreme Court (Number of Judges) Amendment Bill, 2026" }
+  ],
+  "researchNotes": "Fourth topic in the Part A Current-Affairs rotation (Unit IV's turn). The lead case is unusually valuable: it's both genuinely recent (April 2025) AND directly extends the already-shipped a4-state-executive-legislature topic (Day 34) on Governor's powers — same Article 200/201 territory, but with a real, landmark 2025 ruling that the original topic (authored before this judgment was as widely known) didn't cover.",
+  "reading": {
+    "intro": "Covers the landmark April 2025 Supreme Court ruling on Tamil Nadu's Governor withholding assent to state bills — directly extending the Governor's-powers content from the already-shipped State Executive topic with a real, current case — plus a 2026 bill affecting the Supreme Court's own composition.",
+    "qa": [
+      { "id": "r01", "question": "What is 'State of Tamil Nadu v. Governor of Tamil Nadu' (2025 INSC 481), and when was it decided?", "answer": "A landmark Supreme Court judgment delivered on 8 April 2025, by a Division Bench of Justices J.B. Pardiwala and R. Mahadevan, ruling on the Tamil Nadu Governor's withholding of assent to multiple State Legislature bills (many concerning Vice-Chancellor appointment powers at state universities) between 2020 and 2023." },
+      { "id": "r02", "question": "What did the Supreme Court rule about the Governor's power to withhold assent to bills?", "answer": "That the Governor's power to withhold assent is NOT absolute — a Governor CANNOT exercise an absolute veto or a 'pocket veto' (indefinitely sitting on a bill without deciding) over legislation duly passed by a State Legislature. The power must be exercised in a time-bound, reasoned manner, in conformity with constitutional obligations under Article 200." },
+      { "id": "r03", "question": "What specific timelines did the Supreme Court prescribe for a Governor acting on a state bill?", "answer": "Generally: grant or withhold assent within ONE MONTH, or return the bill (with reasons) within THREE MONTHS." },
+      { "id": "r04", "question": "What did the Supreme Court rule about a Governor reserving a RE-PASSED bill for the President?", "answer": "Once the Governor returns a bill for reconsideration and the Assembly RE-PASSES it (with or without amendments), the Governor can no longer choose to reserve it for the President at that stage — the Governor's only remaining option is to grant assent, since allowing re-reservation would defeat the Assembly's power of reconsideration under Article 200." },
+      { "id": "r05", "question": "What unusual remedy did the Supreme Court use regarding the specific bills pending in this case, and what does 'deemed assent' mean here?", "answer": "The Court used its discretionary powers under Article 142 to declare that the pending Tamil Nadu bills were 'DEEMED TO BE ASSENTED' — effectively treating them as if the Governor had granted assent, given how the withholding was found to be illegal and erroneous." },
+      { "id": "r06", "question": "What does the Supreme Court (Number of Judges) Amendment Bill, 2026 propose?", "answer": "It proposes increasing the Supreme Court's judge strength from the current 33 to 37 judges (excluding the Chief Justice of India), by amending the Supreme Court (Number of Judges) Act, 1956." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "'State of Tamil Nadu v. Governor of Tamil Nadu' was decided by the Supreme Court on:", "options": ["8 April 2025", "15 August 2024", "26 January 2025", "1 January 2026"], "correctIndex": 0, "explanation": "8 April 2025.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m02", "prompt": "According to this 2025 ruling, can a Governor exercise an absolute or 'pocket' veto over a State Legislature's bill?", "options": ["Yes, without limitation", "No — the power must be exercised in a time-bound, reasoned manner", "Only during a State Emergency", "Only for financial bills"], "correctIndex": 1, "explanation": "No — must be time-bound and reasoned.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Per the Supreme Court's prescribed timeline, within how long should a Governor generally grant or withhold assent to a bill?", "options": ["1 week", "1 month", "6 months", "1 year"], "correctIndex": 1, "explanation": "1 month.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "If a Governor returns a bill and the State Assembly RE-PASSES it, what can the Governor do next?", "options": ["Reserve it for the President", "Withhold assent again indefinitely", "Only grant assent — re-reservation for the President is not allowed", "Send it back to the Assembly a second time"], "correctIndex": 2, "explanation": "Only grant assent.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m05", "prompt": "Which Article of the Constitution primarily governs a Governor's power to assent to, withhold, or reserve bills?", "options": ["Article 161", "Article 200", "Article 213", "Article 356"], "correctIndex": 1, "explanation": "Article 200.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "Under which constitutional provision did the Supreme Court declare the pending Tamil Nadu bills 'deemed assented'?", "options": ["Article 32", "Article 142", "Article 226", "Article 368"], "correctIndex": 1, "explanation": "Article 142.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "The Supreme Court (Number of Judges) Amendment Bill, 2026 proposes increasing the Supreme Court's judge strength (excluding the CJI) from 33 to:", "options": ["35", "37", "40", "45"], "correctIndex": 1, "explanation": "37.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

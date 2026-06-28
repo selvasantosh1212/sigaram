@@ -1,0 +1,32 @@
+{
+  "topicId": "c7-poem-leisure",
+  "unitId": "C-VII",
+  "name": "Poem: \"Leisure\" — William Henry Davies",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" },
+    { "type": "web-research", "label": "litcharts.com / poemanalysis.com - structure, theme, biography" }
+  ],
+  "researchNotes": "OCR index search for 'leisure'/'henry davies' returned zero hits — web research only. Raw pool of 6 sourced MCQs plus structural/biographical material (sonnet form, rhyme scheme, the poet's own unconventional life) — all kept since each adds a distinct fact.",
+  "reading": {
+    "intro": "A short sonnet protesting how modern busyness leaves no time to appreciate nature and life. Real coaching-site evidence tests theme, the poem's central complaint, and a couple of specific figures of speech.",
+    "qa": [
+      { "id": "r01", "question": "Who wrote \"Leisure\", and where/when was it first published?", "answer": "William Henry Davies, in his 1911 collection Songs of Joy and Others." },
+      { "id": "r02", "question": "What is the central theme and complaint of the poem?", "answer": "Nature and awareness — the poet protests modern life's busyness, arguing that people have lost the time (and the habit) to simply 'stand and stare' at the natural world around them." },
+      { "id": "r03", "question": "What does the repeated line \"No time to stand and stare\" emphasize?", "answer": "A lack of awareness — people are too busy to notice or appreciate the world around them." },
+      { "id": "r04", "question": "What is the poem's structure and rhyme scheme?", "answer": "A 14-line sonnet, with rhyme scheme AABBCCDDEEFFGG (rhyming couplets throughout, rather than a traditional Shakespearean or Petrarchan sonnet rhyme pattern)." },
+      { "id": "r05", "question": "Identify the figure of speech: \"Streams full of stars, like skies at night.\"", "answer": "Simile — directly compares the streams (reflecting stars) to night skies, using 'like'." },
+      { "id": "r06", "question": "Identify the figure of speech: \"What is this life if, full of care, / We have no time to stand and stare?\"", "answer": "Rhetorical question — posed for emphasis, not expecting a literal answer; it's the poem's opening and central provocation." },
+      { "id": "r07", "question": "What was distinctive about William Henry Davies' own life, relevant to this poem's theme?", "answer": "He lived as a self-described 'super-tramp', deliberately rejecting conventional steady employment in favour of a wandering, leisure-prioritizing lifestyle — directly embodying the poem's own argument." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Leisure\" was written by:", "options": ["William Blake", "W. H. Davies", "Robert Frost", "John Keats"], "correctIndex": 1, "explanation": "William Henry Davies.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "The central theme of \"Leisure\" is:", "options": ["Technology and speed", "Nature and awareness", "Anger and injustice", "Loneliness"], "correctIndex": 1, "explanation": "Nature and awareness.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m03", "prompt": "What does the poet criticize about modern lifestyle in this poem?", "options": ["Over-eating", "Excessive noise", "Busyness and lack of leisure", "Travel and tourism"], "correctIndex": 2, "explanation": "Busyness and lack of leisure.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"Streams full of stars\" uses which figure of speech?", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 0, "explanation": "Simile (compared to night skies using 'like').", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"What is this life if, full of care, we have no time to stand and stare?\" is an example of:", "options": ["Alliteration", "Irony", "Hyperbole", "Rhetorical question"], "correctIndex": 3, "explanation": "Rhetorical question.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"Leisure\" is structured as:", "options": ["A 14-line sonnet with rhyming couplets", "A 4-stanza ballad", "Free verse with no rhyme", "A limerick"], "correctIndex": 0, "explanation": "A 14-line sonnet, rhyme scheme AABBCCDDEEFFGG.", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}

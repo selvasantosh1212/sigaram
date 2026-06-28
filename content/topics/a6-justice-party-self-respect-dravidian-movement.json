@@ -1,0 +1,35 @@
+{
+  "topicId": "a6-justice-party-self-respect-dravidian-movement",
+  "unitId": "A-VI",
+  "name": "Justice Party, Growth of Rationalism, Self-Respect Movement, and the Dravidian Movement",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q page 28 Q30 (founding years of Justice Party/DMK/Dravida Kazhagam/Self-Respect Movement, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 77 Q81 (Justice Party's English-only meetings; INC's Tamil outreach; Dr. Muthulakshmi Reddy's 1927 Deputy Speakership, with answer key)" },
+    { "type": "question-bank", "label": "2025_q page 29 Q31 (Self-Respect Movement's first state-level meet at Chengalpet, with answer key)" },
+    { "type": "question-bank", "label": "2017_q1 page 40 Q179-180 (Vaikom Satyagraha 1924; Periyar formed Dravida Kazhagam from Justice Party's ideas, with answer key)" }
+  ],
+  "researchNotes": "4 real hits giving a clean, connected organisational lineage: Justice Party (1916) → Self-Respect Movement (1925) → Dravida Kazhagam (1944, Periyar incorporating Justice Party's ideas) → DMK (1949, after Anna's later split, already covered in Unit III). This topic adds the founding-year matching and Justice-Party-specific facts not covered elsewhere; deliberately doesn't repeat Periyar/Anna's personal biographies (Unit III) or the Vaikom Satyagraha's organisational origin (Day 51's Freedom Struggle topic).",
+  "reading": {
+    "intro": "Covers the organisational lineage of Tamil Nadu's major 20th-century socio-political movements — Justice Party, the Self-Respect Movement, and the Dravidian movement (Dravida Kazhagam onward) — and the principles distinguishing them, including the growth of rationalism.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What are the founding years of the Justice Party, the Self-Respect Movement, Dravida Kazhagam (DK), and the DMK?", "answer": "Justice Party: 1916. Self-Respect Movement: 1925. Dravida Kazhagam (DK): 1944. DMK: 1949 — all four confirmed via a real exam's match-the-following question." },
+      { "id": "r02", "question": "Real exam: How did the Justice Party's meetings differ in language from the Indian National Congress's meetings in this period?", "answer": "Justice Party meetings were held in ENGLISH ONLY. The Indian National Congress, by contrast, ALSO held meetings in Tamil specifically to attract and reach common people — both confirmed true by a real exam question, highlighting a key class/elitism distinction between the two organisations at the time." },
+      { "id": "r03", "question": "Real exam: What significant role did Dr. Muthulakshmi Reddy hold by 1927?", "answer": "She was elected Deputy Speaker of the (Madras) Legislature in 1927 — confirmed by a real exam question. (She was also independently notable as one of India's pioneering women in public life — the first woman legislator in British India and the first woman in Asia to hold several such distinctions, though those broader facts weren't the specific point tested here.)" },
+      { "id": "r04", "question": "Real exam: Where was the first state-level meet of the Self-Respect Movement conducted?", "answer": "Chengalpet — confirmed by a real exam question." },
+      { "id": "r05", "question": "Real exam: How did Periyar form the Dravida Kazhagam (DK), and in what year did the Vaikom Satyagraha arise?", "answer": "Periyar incorporated the ideas of the Justice Party to form Dravida Kazhagam (1944) — confirmed by a real exam question, showing DK's direct ideological lineage from the Justice Party. Separately, the Vaikom Satyagraha arose in Kerala in 1924 — also confirmed by a real exam question (re-affirming the year already used in the Unit III Satyagraha topic)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "In which year was the Justice Party founded?", "options": ["1916", "1925", "1944", "1949"], "correctIndex": 0, "explanation": "1916.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "In which year was the Self-Respect Movement founded?", "options": ["1916", "1925", "1944", "1949"], "correctIndex": 1, "explanation": "1925.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "In which year was Dravida Kazhagam (DK) founded?", "options": ["1916", "1925", "1944", "1949"], "correctIndex": 2, "explanation": "1944.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "In which year was the DMK founded?", "options": ["1916", "1925", "1944", "1949"], "correctIndex": 3, "explanation": "1949.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m05", "prompt": "Real exam: In what language were Justice Party meetings generally held?", "options": ["Tamil only", "English only", "Both Tamil and English equally", "Sanskrit"], "correctIndex": 1, "explanation": "English only.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Why did the Indian National Congress also hold meetings in Tamil during this period?", "options": ["To compete with the British administration", "To attract and reach common people", "Because English was banned", "To follow Gandhi's personal instruction"], "correctIndex": 1, "explanation": "To attract and reach common people.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Dr. Muthulakshmi Reddy was elected Deputy Speaker of the Madras Legislature in:", "options": ["1916", "1924", "1927", "1944"], "correctIndex": 2, "explanation": "1927.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m08", "prompt": "The first state-level meet of the Self-Respect Movement was conducted at:", "options": ["Chengalpet", "Madurai", "Chennai", "Kovai"], "correctIndex": 0, "explanation": "Chengalpet.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m09", "prompt": "Periyar formed Dravida Kazhagam by incorporating the ideas of which earlier organisation?", "options": ["Indian National Congress", "Justice Party", "Self-Respect Movement alone, with no other influence", "Swatantra Party"], "correctIndex": 1, "explanation": "Justice Party.", "sourceTag": "question-bank-2017", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "topicId": "a1-environment-ecology-tech",
+  "unitId": "A-I",
+  "name": "Environment, Ecology & Latest Inventions in Science and Technology",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 111 Q176 (TN's major renewable energy source, with answer key)" },
+    { "type": "question-bank", "label": "2026_q page 61 Q63 (three aspects of sustainable development, with answer key)" },
+    { "type": "authored", "label": "standard ecology/pollution/greenhouse-effect basics — no direct past-paper hit found for these specific facts" }
+  ],
+  "researchNotes": "This is the last of Unit I's 8 planned sub-topics, completing all of Part A Unit I (General Science). Only 2 direct real hits found despite a broad OCR search (most 'technology' keyword hits were false positives belonging to other units — government digital schemes, English reading-comprehension passages — correctly excluded rather than force-fit here). Rounded out with standard authored ecology fundamentals, clearly tagged as lower-confidence.",
+  "reading": {
+    "intro": "The final General Science clause, covering environment/ecology plus 'latest inventions' (which in practice means established science-current-affairs facts, not literally cutting-edge news — those go stale fast and should be refreshed close to the actual exam date rather than memorized far in advance).",
+    "qa": [
+      { "id": "r01", "question": "Real exam: What is Tamil Nadu's major renewable energy source?", "answer": "Windmill (wind energy) — not coal, oil and gas, or nuclear power. Tamil Nadu has historically been a leader in wind power generation in India." },
+      { "id": "r02", "question": "Real exam: What are the three main aspects of sustainable development?", "answer": "Social, Environment, and Economy (the 'triple bottom line') — not Natural Resources Management, Pollution Control, or Technology specifically; those are tools/concerns within the three main pillars, not the pillars themselves." },
+      { "id": "r03", "question": "What is an ecosystem, and what are its two main components?", "answer": "An ecosystem is a community of living organisms interacting with their physical environment. Its two main components are biotic (living: plants, animals, microbes) and abiotic (non-living: soil, water, air, sunlight)." },
+      { "id": "r04", "question": "What is biodiversity, and why does it matter?", "answer": "The variety of life (species, genetic variation, ecosystems) in a given area. High biodiversity makes ecosystems more resilient/stable and supports more ecological services (pollination, soil fertility, climate regulation)." },
+      { "id": "r05", "question": "What are the main types of environmental pollution?", "answer": "Air pollution, water pollution, soil pollution, noise pollution, and thermal pollution — each with its own sources (vehicle/industrial emissions, sewage/industrial discharge, pesticides/plastics, loud machinery/traffic, heated industrial discharge into water bodies) and control approaches." },
+      { "id": "r06", "question": "What causes the greenhouse effect, and which gases are the main contributors?", "answer": "Certain atmospheric gases trap heat radiated from the Earth's surface, warming the planet. Main greenhouse gases: carbon dioxide (CO₂), methane (CH₄), nitrous oxide, and water vapour. Excess greenhouse gases from human activity (burning fossil fuels, deforestation) drive climate change." },
+      { "id": "r07", "question": "What is the difference between in-situ and ex-situ biodiversity conservation?", "answer": "In-situ conservation protects species within their natural habitat (e.g., national parks, wildlife sanctuaries, biosphere reserves). Ex-situ conservation protects species outside their natural habitat (e.g., zoos, seed banks, botanical gardens)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The major renewable energy source in Tamil Nadu is:", "options": ["Windmill", "Coal", "Oil and Gas", "Nuclear power"], "correctIndex": 0, "explanation": "Windmill (wind energy).", "sourceTag": "question-bank-2025", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Sustainable development is said to have three main aspects, namely:", "options": ["Social, Environment, Natural Resources Management", "Social, Environment, Economy", "Social, Environment, Pollution Control", "Social, Environment, Technology"], "correctIndex": 1, "explanation": "Social, Environment, Economy — the 'triple bottom line'.", "sourceTag": "question-bank-2026", "difficulty": "medium" },
+      { "id": "m03", "prompt": "An ecosystem's living components (plants, animals, microbes) are called:", "options": ["Abiotic components", "Biotic components", "Trophic components", "Climatic components"], "correctIndex": 1, "explanation": "Biotic components (as opposed to abiotic, non-living components).", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m04", "prompt": "Which of the following is NOT typically classified as a major type of environmental pollution?", "options": ["Air pollution", "Noise pollution", "Thermal pollution", "Gravitational pollution"], "correctIndex": 3, "explanation": "'Gravitational pollution' isn't a recognized category — air, water, soil, noise, and thermal pollution are the standard types.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m05", "prompt": "Which of the following is the MAIN greenhouse gas contributing to global warming from human activity?", "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"], "correctIndex": 2, "explanation": "Carbon dioxide (CO₂), mainly from burning fossil fuels.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m06", "prompt": "Protecting an endangered species within a wildlife sanctuary (its natural habitat) is an example of:", "options": ["Ex-situ conservation", "In-situ conservation", "Captive breeding only", "Genetic engineering"], "correctIndex": 1, "explanation": "In-situ conservation — protection within the natural habitat.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Storing seeds in a seed bank, away from their natural growing environment, is an example of:", "options": ["In-situ conservation", "Ex-situ conservation", "Bioremediation", "Afforestation"], "correctIndex": 1, "explanation": "Ex-situ conservation — protection outside the natural habitat.", "sourceTag": "authored", "difficulty": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "topicId": "c7-poem-stick-together-families",
+  "unitId": "C-VII",
+  "name": "Poem: \"The Stick-Together Families\" — Edgar Albert Guest",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2024_q page 68-69 Q112, Q115 (real quoted lines, with answer key — found while researching Day 3's Teamwork/Courage topic, stashed and used here)" },
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" }
+  ],
+  "researchNotes": "2 real confirmed lines (stashed from Day-3 research, when this poem's title first surfaced as a real match-the-poet answer but wasn't yet being authored) plus a 6-question web-sourced set. This is Edgar Albert Guest's THIRD poem in this syllabus (alongside 'Teamwork' and 'Courage', already covered Day 3) — same poet, same moralizing short-verse style.",
+  "reading": {
+    "intro": "Another Edgar Albert Guest poem (his third in this syllabus), arguing that joint/close-knit families are happier than those who scatter in search of external pleasures. Real exam evidence confirms specific quoted lines directly.",
+    "qa": [
+      { "id": "r01", "question": "What is the poem's central theme?", "answer": "Joint/close-knit ('stick-together') families are happier than those who scatter — there is nothing greater than a happy family gathered together, as opposed to people who wander seeking happiness through 'strange friends' and external pleasures, only to find emptiness." },
+      { "id": "r02", "question": "Real exam: \"Come you back unto the fireside and be comrade with your kin.\" Which poem is this line from?", "answer": "\"The Stick-Together Families\" — confirmed via a real TNPSC question (2024) that tested this exact quoted line against three other poem-title options." },
+      { "id": "r03", "question": "Real exam: \"But the gladdest sort of people, when the busy day is done, are the brothers and the sisters who together share their fun.\" Who wrote this?", "answer": "Edgar Albert Guest, in \"The Stick-Together Families\" — confirmed via a real TNPSC question testing this exact line's authorship." },
+      { "id": "r04", "question": "What is the poem's structure (stanzas, lines, rhyme scheme)?", "answer": "Four stanzas of six lines each, rhyme scheme AABBCC (rhyming couplets)." },
+      { "id": "r05", "question": "Identify the figure of speech: \"The stick-together families are happier by far.\"", "answer": "Alliteration — repeated initial sounds across the phrase." },
+      { "id": "r06", "question": "Identify the figure of speech: \"A circle at the fireside that no power but death can break.\"", "answer": "Metaphor — the family bond is directly described as an unbreakable 'circle', without 'like/as'." },
+      { "id": "r07", "question": "Identify the figure of speech: \"The finest of conventions ever held beneath the sun.\"", "answer": "Hyperbole — an exaggerated, absolute claim ('ever', 'beneath the sun') praising the family gathering." },
+      { "id": "r08", "question": "Identify the figure of speech: \"Each goes searching after pleasure in his own selected way.\"", "answer": "Personification — 'pleasure' is treated as something actively pursued/sought, with people personified as hunters chasing it down individually." },
+      { "id": "r09", "question": "Identify the figure of speech: \"That the strange friend is the true friend.\"", "answer": "Irony — directly contradicts the poem's own argument (that close family, not strangers, brings true happiness), used ironically to describe the mistaken belief some people hold." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Come you back unto the fireside and be comrade with your kin\" is a line from:", "options": ["Life", "The Stick-Together Families", "The Poison Tree", "The River"], "correctIndex": 1, "explanation": "Confirmed via a real 2024 TNPSC question.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m02", "prompt": "\"But the gladdest sort of people... are the brothers and the sisters who together share their fun\" was written by:", "options": ["D.H. Lawrence", "William Wordsworth", "Edgar Albert Guest", "Mary Botham Howitt"], "correctIndex": 2, "explanation": "Edgar Albert Guest, confirmed via a real 2024 TNPSC question.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
+      { "id": "m03", "prompt": "What is the rhyme scheme of \"The Stick-Together Families\"?", "options": ["ABAB", "AABBCC", "ABCB", "No fixed rhyme"], "correctIndex": 1, "explanation": "AABBCC, rhyming couplets across 6-line stanzas.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m04", "prompt": "\"A circle at the fireside that no power but death can break\" uses which figure of speech?", "options": ["Simile", "Personification", "Metaphor", "Hyperbole"], "correctIndex": 2, "explanation": "Metaphor — the family bond described directly as an unbreakable circle.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "\"The finest of conventions ever held beneath the sun\" is an example of:", "options": ["Simile", "Metaphor", "Hyperbole", "Alliteration"], "correctIndex": 2, "explanation": "Hyperbole — an exaggerated, absolute claim.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "\"That the strange friend is the true friend\" is an example of:", "options": ["Irony", "Simile", "Metaphor", "Hyperbole"], "correctIndex": 0, "explanation": "Irony — contradicts the poem's own central argument.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

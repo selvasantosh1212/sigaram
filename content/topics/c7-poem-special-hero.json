@@ -1,0 +1,30 @@
+{
+  "topicId": "c7-poem-special-hero",
+  "unitId": "C-VII",
+  "name": "Poem: \"Special Hero\" — Christine M. Kerschan",
+  "sourceRefs": [
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set, figures of speech per line" }
+  ],
+  "researchNotes": "OCR index search for 'special hero'/'kerschan' returned 1 hit, but it was a false positive (the title appeared only as a wrong-answer distractor option for a different, unrelated poem about a computer). Web research only for this topic. Raw pool of 6 sourced MCQs, all kept since each tests a distinct line/device.",
+  "reading": {
+    "intro": "A poem dedicated to the poet's father, calling him her 'special hero' for his love and protection. Real coaching-site evidence tests figure-of-speech identification per line — and uniquely among the poems covered so far, several DIFFERENT devices appear across just 6 short lines, so precision matters more than pattern-guessing here.",
+    "qa": [
+      { "id": "r01", "question": "What is \"Special Hero\" about?", "answer": "The poet's tribute to her father — recalling how he held her as a baby, gave her love and protection, and reflecting on how lucky she feels that he was 'chosen' to be her father." },
+      { "id": "r02", "question": "Identify the figure of speech: \"There is something special about a father's love.\"", "answer": "Metaphor." },
+      { "id": "r03", "question": "Identify the figure of speech: \"Seems it was sent to me from someplace up above.\"", "answer": "Hyperbole — an exaggerated, larger-than-literal claim (the love being literally 'sent from above') used for emotional emphasis, not meant literally." },
+      { "id": "r04", "question": "Identify the figure of speech: \"How did I get so lucky, you were the dad chosen for me?\"", "answer": "Rhetorical question — asked for emotional effect, not expecting a literal answer." },
+      { "id": "r05", "question": "What figure of speech is the repetition of \"I just wanted you to know\"?", "answer": "Anaphora — repetition of the same phrase at the start of successive lines." },
+      { "id": "r06", "question": "Identify the figure of speech: \"Our love is everlasting.\"", "answer": "Hyperbole — an absolute, exaggerated claim ('everlasting') used to emphasize depth of feeling." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "\"Special Hero\" is dedicated to whom, and written by whom?", "options": ["Dedicated to a friend, by Sarojini Naidu", "Dedicated to her father, by Christine M. Kerschan", "Dedicated to a teacher, by David Bates", "Dedicated to a soldier, by Edgar Albert Guest"], "correctIndex": 1, "explanation": "Dedicated to the poet's father, written by Christine M. Kerschan.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m02", "prompt": "Identify the figure of speech: \"There is something special about a father's love.\"", "options": ["Simile", "Metaphor", "Personification", "Hyperbole"], "correctIndex": 1, "explanation": "Metaphor.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Identify the figure of speech: \"Seems it was sent to me from someplace up above.\"", "options": ["Anaphora", "Alliteration", "Hyperbole", "Personification"], "correctIndex": 2, "explanation": "Hyperbole — an exaggerated, emotionally emphatic claim.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m04", "prompt": "\"How did I get so lucky, you were the dad chosen for me?\" is an example of:", "options": ["Metaphor", "Simile", "Personification", "Rhetorical question"], "correctIndex": 3, "explanation": "A rhetorical question, asked for effect rather than a literal answer.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The repeated phrase \"I just wanted you to know\" is an example of:", "options": ["Anaphora", "Epizeuxis", "Anadiplosis", "Chiasmus"], "correctIndex": 0, "explanation": "Anaphora — repetition at the start of successive lines.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "\"Our love is everlasting\" is an example of:", "options": ["Hyperbole", "Metaphor", "Simile", "Alliteration"], "correctIndex": 0, "explanation": "Hyperbole — an absolute, exaggerated claim.", "sourceTag": "web-research", "difficulty": "medium" }
+    ]
+  }
+}

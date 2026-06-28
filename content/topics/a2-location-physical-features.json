@@ -1,0 +1,42 @@
+{
+  "topicId": "a2-location-physical-features",
+  "unitId": "A-II",
+  "name": "Geography of India: Location & Physical Features",
+  "sourceRefs": [
+    { "type": "question-bank", "label": "2025_q1 page 47 Q105 (Malwa Plateau statements, with answer key)" },
+    { "type": "question-bank", "label": "2025_q1 page 92 Q156 (soil-formation statements, with answer key)" },
+    { "type": "question-bank", "label": "2024_q page 47 Q68 (Karnataka Plateau's Malnad upland, with answer key)" },
+    { "type": "question-bank", "label": "2022_q1 page 10 Q110 (Narmada — largest west-flowing river, with answer key)" },
+    { "type": "web-research", "label": "tnpscguru.in - Location-Physical Features TNPSC Q&A (real past-paper set)" }
+  ],
+  "researchNotes": "Strong real evidence — 4 confirmed hits across 2022/2024/2025, plus a further 10-question real past-paper set from web research. First topic in Part A Unit II (Geography of India), opening this unit the same way Scientific Temper & Reasoning opened Unit I.",
+  "reading": {
+    "intro": "This is the first of Unit II's sub-topics, covering India's location, landforms, plateaus, rivers, and borders. Real exam evidence favors statement-evaluation ('which of these is/are correct') and superlative facts (longest, oldest, biggest) over plain description.",
+    "qa": [
+      { "id": "r01", "question": "Real exam: Evaluate these statements about the Malwa Plateau — (1) average altitude 600m, slopes east (2) mostly drained by the Chambal and its tributaries (3) located in Rajasthan, Gujarat, and Madhya Pradesh.", "answer": "(2) and (3) are correct; (1) is false (the altitude/slope-direction claim doesn't hold). Malwa Plateau is genuinely drained by the Chambal river system and spans Rajasthan, Gujarat, and Madhya Pradesh." },
+      { "id": "r02", "question": "Real exam: Evaluate these statements about Indian soils — (1) northern plains' soils are largely deposited by Himalayan rivers (2) iron oxide presence is more characteristic of black soil (3) Deccan-trap-derived soil is fertile with high moisture-holding capacity.", "answer": "(1) and (3) are correct; (2) is false — high iron oxide content is actually characteristic of RED soil (which gets its colour from iron oxide), not black soil. Black soil (regur) is derived from basalt/Deccan trap, is clay-rich, and is well suited to cotton cultivation." },
+      { "id": "r03", "question": "Real exam: What is the northern upland of the Karnataka Plateau called?", "answer": "Malnad." },
+      { "id": "r04", "question": "Real exam: What is the largest west-flowing river of peninsular India?", "answer": "The Narmada (not Mahi, Sabarmati, or Luni)." },
+      { "id": "r05", "question": "What is the height of Anaimudi (the highest peak of the Peninsular Plateau / Western Ghats) above mean sea level?", "answer": "2,695 m." },
+      { "id": "r06", "question": "What is the approximate length of the Himalayan range, and which mountain system in India is the OLDEST?", "answer": "Himalayan range length ≈ 2,560 km. The Aravalli Range is the oldest Indian mountain system (older than the Himalayas, Siwaliks, or Western Ghats)." },
+      { "id": "r07", "question": "With which neighbouring country does India share its LONGEST international border?", "answer": "Bangladesh." },
+      { "id": "r08", "question": "Which country in the world shares a border with the maximum number of other countries?", "answer": "Russia." },
+      { "id": "r09", "question": "Which is India's first Island district?", "answer": "Majuli (a river island in the Brahmaputra, Assam — notable as a district that is also a river island, distinct from the Andaman & Nicobar or Lakshadweep island UTs)." },
+      { "id": "r10", "question": "Arrange these Himalayan mountain ranges from north to south: Karakoram, Ladakh, Pir-Panjal, Zaskar.", "answer": "Karakoram → Ladakh → Zaskar → Pir-Panjal (north to south)." }
+    ]
+  },
+  "mockTest": {
+    "questions": [
+      { "id": "m01", "prompt": "The Malwa Plateau is mostly drained by which river and its tributaries?", "options": ["Narmada", "Chambal", "Tapi", "Mahi"], "correctIndex": 1, "explanation": "The Chambal river system.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m02", "prompt": "Which colour of soil is most associated with high iron oxide content?", "options": ["Black soil", "Red soil", "Alluvial soil", "Laterite soil only in patches"], "correctIndex": 1, "explanation": "Red soil gets its colour from iron oxide content.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m03", "prompt": "Soil derived from the Deccan trap is known for:", "options": ["Poor fertility and low moisture retention", "High fertility and high moisture-holding capacity", "Being entirely sandy", "Being unsuitable for any cultivation"], "correctIndex": 1, "explanation": "Deccan trap-derived (black/regur) soil is fertile with high moisture retention.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
+      { "id": "m04", "prompt": "The northern upland of the Karnataka Plateau is known as:", "options": ["Malnad", "Maidan", "Betwa", "Dhasan"], "correctIndex": 0, "explanation": "Malnad.", "sourceTag": "question-bank-2024", "difficulty": "medium" },
+      { "id": "m05", "prompt": "The largest west-flowing river of peninsular India is the:", "options": ["Mahi", "Sabarmati", "Narmada", "Luni"], "correctIndex": 2, "explanation": "The Narmada.", "sourceTag": "question-bank-2022", "difficulty": "easy" },
+      { "id": "m06", "prompt": "The height of Anaimudi above mean sea level is approximately:", "options": ["2,540 m", "2,455 m", "2,695 m", "2,715 m"], "correctIndex": 2, "explanation": "2,695 m — the highest peak of the Peninsular Plateau.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Which is the oldest mountain system in India?", "options": ["Siwalik Range", "Aravalli Range", "Western Ghats", "Vindhya Range"], "correctIndex": 1, "explanation": "The Aravalli Range.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "India shares its longest international border with:", "options": ["Pakistan", "Nepal", "Bangladesh", "Myanmar"], "correctIndex": 2, "explanation": "Bangladesh.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Which country shares a border with the maximum number of other countries?", "options": ["China", "Russia", "India", "Brazil"], "correctIndex": 1, "explanation": "Russia.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Which is India's first Island district?", "options": ["Majuli", "Andaman", "Diu", "Lakshadweep"], "correctIndex": 0, "explanation": "Majuli, a river island district in the Brahmaputra (Assam).", "sourceTag": "web-research", "difficulty": "hard" }
+    ]
+  }
+}
