@@ -4,8 +4,8 @@ import { startWrongAnswerPracticeAction } from "@/app/actions";
 import { USER_NAME } from "@/lib/motivation";
 import type { Part } from "@/lib/types";
 
-export default function MistakesPage() {
-  const refs = getWrongAnswerRefs();
+export default async function MistakesPage() {
+  const refs = await getWrongAnswerRefs();
   const byPart: Record<Part, number> = { A: 0, B: 0, C: 0 };
   for (const r of refs) byPart[r.part]++;
 

@@ -17,13 +17,14 @@ export default async function DayMockPage({
   const attemptId = Number(attemptIdStr);
 
   if (!attemptId) notFound();
-  const attempt = getAttempt(attemptId);
+  const attempt = await getAttempt(attemptId);
   if (!attempt || attempt.day_number !== dayNumber || attempt.attempt_kind !== "daily") notFound();
   if (attempt.submitted_at) {
     redirect(`/day/${dayNumber}/results/${attemptId}`);
   }
 
-  const refs = getAttemptAnswers(attemptId).map((r) => ({
+  const attemptAnswers = await getAttemptAnswers(attemptId);
+  const refs = attemptAnswers.map((r) => ({
     answerRowId: r.id,
     part: r.part,
     topicId: r.topic_id,

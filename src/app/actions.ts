@@ -11,30 +11,30 @@ import { toggleBookmark } from "@/lib/bookmarks";
 import type { Part } from "@/lib/types";
 
 export async function markPartReadAction(dayNumber: number, part: Part) {
-  markPartRead(dayNumber, part);
+  await markPartRead(dayNumber, part);
   revalidatePath(`/day/${dayNumber}`);
 }
 
 export async function toggleBookmarkAction(dayNumber: number, topicId: string, qaId: string) {
-  toggleBookmark(topicId, qaId);
+  await toggleBookmark(topicId, qaId);
   revalidatePath(`/day/${dayNumber}`);
 }
 
 export async function startDailyMockAction(dayNumber: number) {
   const questions = getDayQuestions(dayNumber);
-  const draft = createDraftAttempt({
+  const draft = await createDraftAttempt({
     dayNumber,
     attemptKind: "daily",
     questions,
   });
-  markMockStarted(dayNumber);
+  await markMockStarted(dayNumber);
   redirect(`/day/${dayNumber}/mock?attemptId=${draft.attemptId}`);
 }
 
 export async function startTopicPracticeAction(topicId: string) {
   const topic = getTopic(topicId);
   const questions = getTopicQuestions(topicId, "A");
-  const draft = createDraftAttempt({
+  const draft = await createDraftAttempt({
     attemptKind: "revision",
     sessionLabel: `Revision: ${topic.name}`,
     questions,
@@ -43,10 +43,10 @@ export async function startTopicPracticeAction(topicId: string) {
 }
 
 export async function startWrongAnswerPracticeAction() {
-  const refs = getWrongAnswerRefs();
+  const refs = await getWrongAnswerRefs();
   if (refs.length === 0) redirect("/mistakes");
   const questions = hydrateWrongAnswerRefs(refs);
-  const draft = createDraftAttempt({
+  const draft = await createDraftAttempt({
     attemptKind: "revision",
     sessionLabel: `Mistake Review (${questions.length}Q)`,
     questions,
@@ -56,7 +56,7 @@ export async function startWrongAnswerPracticeAction() {
 
 export async function startWeeklyCycleTestAction(weekNumber: number) {
   const questions = generateWeeklySession(weekNumber);
-  const draft = createDraftAttempt({
+  const draft = await createDraftAttempt({
     attemptKind: "weekly",
     weekNumber,
     sessionLabel: `Week ${weekNumber} Cycle Test`,
@@ -67,7 +67,7 @@ export async function startWeeklyCycleTestAction(weekNumber: number) {
 
 export async function startMonthlyCycleTestAction(monthNumber: number) {
   const questions = generateMonthlySession(monthNumber);
-  const draft = createDraftAttempt({
+  const draft = await createDraftAttempt({
     attemptKind: "monthly",
     monthNumber,
     sessionLabel: `Month ${monthNumber} Cycle Test`,
@@ -78,7 +78,7 @@ export async function startMonthlyCycleTestAction(monthNumber: number) {
 
 export async function startFullMockAction(sessionLabel: string) {
   const questions = generateFullMockSession();
-  const draft = createDraftAttempt({
+  const draft = await createDraftAttempt({
     attemptKind: "full_mock",
     sessionLabel,
     questions,
@@ -91,8 +91,8 @@ export async function submitAttemptAction(
   answers: Array<{ answerRowId: number; selectedIndex: number | null }>,
   dayNumber?: number
 ) {
-  const attempt = getAttempt(attemptId);
-  submitAttempt(attemptId, answers);
+  const attempt = await getAttempt(attemptId);
+  await submitAttempt(attemptId, answers);
   if (dayNumber != null) {
     revalidatePath("/days");
     redirect(`/day/${dayNumber}/results/${attemptId}`);

@@ -23,16 +23,16 @@ export default async function DayResultsPage({
   const dayNumber = Number(dayNumberStr);
   const attemptId = Number(attemptIdStr);
 
-  const attempt = getAttempt(attemptId);
+  const attempt = await getAttempt(attemptId);
   if (!attempt || attempt.day_number !== dayNumber || !attempt.submitted_at) notFound();
 
-  const rows = getAttemptAnswers(attemptId);
+  const rows = await getAttemptAnswers(attemptId);
   const questions = hydrateAnswerRowsForReview(rows);
 
   const totalDays = getTotalDays();
-  const allProgress = getAllProgress();
-  const nextDayUnlocked = isDayUnlocked(dayNumber + 1, allProgress);
-  const attemptHistory = getAllAttemptsForDay(dayNumber);
+  const allProgress = await getAllProgress();
+  const nextDayUnlocked = await isDayUnlocked(dayNumber + 1, allProgress);
+  const attemptHistory = await getAllAttemptsForDay(dayNumber);
   const message = getResultMessage(attempt.score_percent ?? 0, {
     gated: true,
     passThreshold: PASS_THRESHOLD_PERCENT,
@@ -40,10 +40,10 @@ export default async function DayResultsPage({
 
   const weekClearedNow = isWeekEndDay(dayNumber);
   const weekNumber = getWeekNumberForDay(dayNumber);
-  const weekAttempted = weekClearedNow && hasWeekBeenAttempted(weekNumber);
+  const weekAttempted = weekClearedNow && (await hasWeekBeenAttempted(weekNumber));
   const monthClearedNow = isMonthEndDay(dayNumber);
   const monthNumber = getMonthNumberForWeek(weekNumber);
-  const monthAttempted = monthClearedNow && hasMonthBeenAttempted(monthNumber);
+  const monthAttempted = monthClearedNow && (await hasMonthBeenAttempted(monthNumber));
 
   return (
     <div className="space-y-6">

@@ -12,25 +12,26 @@ import { startMonthlyCycleTestAction } from "@/app/actions";
 
 type MonthStatus = "locked" | "ready" | "needs-retake" | "completed";
 
-export default function MonthlyCycleTestsPage() {
+export default async function MonthlyCycleTestsPage() {
   const totalMonths = getTotalMonths();
-  const bestWeekScores = getAllBestWeekScores();
-  const bestMonthScores = getAllBestMonthScores();
+  const [bestWeekScores, bestMonthScores] = await Promise.all([getAllBestWeekScores(), getAllBestMonthScores()]);
 
-  const rows = Array.from({ length: totalMonths }, (_, i) => i + 1).map((monthNumber) => {
-    const { start, end } = getMonthDayRange(monthNumber);
-    const weeks = getMonthWeekNumbers(monthNumber);
-    const unlocked = isMonthTestUnlocked(monthNumber, bestWeekScores);
-    let status: MonthStatus = "locked";
-    if (unlocked) {
-      if (hasMonthPassed(monthNumber, bestMonthScores)) status = "completed";
-      else if (bestMonthScores.has(monthNumber)) status = "needs-retake";
-      else status = "ready";
-    }
-    const latestAttempt =
-      status === "completed" || status === "needs-retake" ? getLatestAttemptForMonth(monthNumber) : undefined;
-    return { monthNumber, start, end, weeks, status, latestAttempt };
-  });
+  const rows = await Promise.all(
+    Array.from({ length: totalMonths }, (_, i) => i + 1).map(async (monthNumber) => {
+      const { start, end } = getMonthDayRange(monthNumber);
+      const weeks = getMonthWeekNumbers(monthNumber);
+      const unlocked = await isMonthTestUnlocked(monthNumber, bestWeekScores);
+      let status: MonthStatus = "locked";
+      if (unlocked) {
+        if (await hasMonthPassed(monthNumber, bestMonthScores)) status = "completed";
+        else if (bestMonthScores.has(monthNumber)) status = "needs-retake";
+        else status = "ready";
+      }
+      const latestAttempt =
+        status === "completed" || status === "needs-retake" ? await getLatestAttemptForMonth(monthNumber) : undefined;
+      return { monthNumber, start, end, weeks, status, latestAttempt };
+    })
+  );
 
   return (
     <div className="space-y-4">

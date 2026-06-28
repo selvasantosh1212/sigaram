@@ -1,4 +1,4 @@
-import { getDb } from "./db";
+import { getDb, rowsToObjects } from "./db";
 import { getAllDays } from "./content";
 
 export const DAYS_PER_WEEK = 7;
@@ -61,44 +61,46 @@ export function isMonthEndDay(dayNumber: number): boolean {
   return dayNumber === getMonthDayRange(monthNumber).end;
 }
 
-export function getBestScoreForWeek(weekNumber: number): number | null {
-  const row = getDb()
-    .prepare(
-      `SELECT MAX(score_percent) as best FROM attempts
-       WHERE week_number = ? AND attempt_kind = 'weekly' AND submitted_at IS NOT NULL`
-    )
-    .get(weekNumber) as { best: number | null } | undefined;
+export async function getBestScoreForWeek(weekNumber: number): Promise<number | null> {
+  const db = await getDb();
+  const rs = await db.execute({
+    sql: `SELECT MAX(score_percent) as best FROM attempts
+       WHERE week_number = ? AND attempt_kind = 'weekly' AND submitted_at IS NOT NULL`,
+    args: [weekNumber],
+  });
+  const row = rowsToObjects(rs)[0] as { best: number | null } | undefined;
   return row?.best ?? null;
 }
 
-export function getAllBestWeekScores(): Map<number, number> {
-  const rows = getDb()
-    .prepare(
-      `SELECT week_number, MAX(score_percent) as best FROM attempts
+export async function getAllBestWeekScores(): Promise<Map<number, number>> {
+  const db = await getDb();
+  const rs = await db.execute(
+    `SELECT week_number, MAX(score_percent) as best FROM attempts
        WHERE attempt_kind = 'weekly' AND submitted_at IS NOT NULL AND week_number IS NOT NULL
        GROUP BY week_number`
-    )
-    .all() as Array<{ week_number: number; best: number }>;
+  );
+  const rows = rowsToObjects(rs) as Array<{ week_number: number; best: number }>;
   return new Map(rows.map((r) => [r.week_number, r.best]));
 }
 
-export function getBestScoreForMonth(monthNumber: number): number | null {
-  const row = getDb()
-    .prepare(
-      `SELECT MAX(score_percent) as best FROM attempts
-       WHERE month_number = ? AND attempt_kind = 'monthly' AND submitted_at IS NOT NULL`
-    )
-    .get(monthNumber) as { best: number | null } | undefined;
+export async function getBestScoreForMonth(monthNumber: number): Promise<number | null> {
+  const db = await getDb();
+  const rs = await db.execute({
+    sql: `SELECT MAX(score_percent) as best FROM attempts
+       WHERE month_number = ? AND attempt_kind = 'monthly' AND submitted_at IS NOT NULL`,
+    args: [monthNumber],
+  });
+  const row = rowsToObjects(rs)[0] as { best: number | null } | undefined;
   return row?.best ?? null;
 }
 
-export function getAllBestMonthScores(): Map<number, number> {
-  const rows = getDb()
-    .prepare(
-      `SELECT month_number, MAX(score_percent) as best FROM attempts
+export async function getAllBestMonthScores(): Promise<Map<number, number>> {
+  const db = await getDb();
+  const rs = await db.execute(
+    `SELECT month_number, MAX(score_percent) as best FROM attempts
        WHERE attempt_kind = 'monthly' AND submitted_at IS NOT NULL AND month_number IS NOT NULL
        GROUP BY month_number`
-    )
-    .all() as Array<{ month_number: number; best: number }>;
+  );
+  const rows = rowsToObjects(rs) as Array<{ month_number: number; best: number }>;
   return new Map(rows.map((r) => [r.month_number, r.best]));
 }

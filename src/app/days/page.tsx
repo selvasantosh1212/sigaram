@@ -7,12 +7,12 @@ import { getStreakNudge, getTimeGreeting } from "@/lib/motivation";
 
 type DayStatus = "locked" | "not-started" | "reading" | "ready-for-mock" | "needs-retake" | "completed";
 
-function getStatus(
+async function getStatus(
   dayNumber: number,
-  allProgress: ReturnType<typeof getAllProgress>,
+  allProgress: Awaited<ReturnType<typeof getAllProgress>>,
   bestScores: Map<number, number>
-): DayStatus {
-  if (!isDayUnlocked(dayNumber, allProgress, bestScores)) return "locked";
+): Promise<DayStatus> {
+  if (!(await isDayUnlocked(dayNumber, allProgress, bestScores))) return "locked";
   const row = allProgress.get(dayNumber);
   if (row?.mock_submitted_at) {
     return (bestScores.get(dayNumber) ?? 0) >= PASS_THRESHOLD_PERCENT ? "completed" : "needs-retake";
@@ -40,15 +40,19 @@ const STATUS_LABEL: Record<DayStatus, string> = {
   completed: "Done",
 };
 
-export default function DaysPage() {
+export default async function DaysPage() {
   const days = getAllDays();
-  const allProgress = getAllProgress();
-  const bestScores = getAllBestScores();
-  const statuses = days.map((d) => ({ day: d, status: getStatus(d.dayNumber, allProgress, bestScores) }));
+  const [allProgress, bestScores, streaks, daysSinceLastActivity] = await Promise.all([
+    getAllProgress(),
+    getAllBestScores(),
+    getStreaks(),
+    getDaysSinceLastActivity(),
+  ]);
+  const statuses = await Promise.all(
+    days.map(async (d) => ({ day: d, status: await getStatus(d.dayNumber, allProgress, bestScores) }))
+  );
   const completedCount = statuses.filter((s) => s.status === "completed").length;
   const continueDay = statuses.find((s) => s.status !== "completed" && s.status !== "locked")?.day.dayNumber;
-  const streaks = getStreaks();
-  const daysSinceLastActivity = getDaysSinceLastActivity();
 
   return (
     <div>

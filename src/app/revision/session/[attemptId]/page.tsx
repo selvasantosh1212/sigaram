@@ -12,13 +12,14 @@ export default async function RevisionSessionPage({
   const { attemptId: attemptIdStr } = await params;
   const attemptId = Number(attemptIdStr);
 
-  const attempt = getAttempt(attemptId);
+  const attempt = await getAttempt(attemptId);
   if (!attempt || attempt.attempt_kind !== "revision") notFound();
   if (attempt.submitted_at) {
     redirect(`/revision/results/${attemptId}`);
   }
 
-  const refs = getAttemptAnswers(attemptId).map((r) => ({
+  const attemptAnswers = await getAttemptAnswers(attemptId);
+  const refs = attemptAnswers.map((r) => ({
     answerRowId: r.id,
     part: r.part,
     topicId: r.topic_id,

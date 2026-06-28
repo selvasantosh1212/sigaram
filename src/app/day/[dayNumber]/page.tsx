@@ -27,15 +27,15 @@ export default async function DayReadingPage({
   const day = getDay(dayNumber);
   if (!day) notFound();
 
-  const allProgress = getAllProgress();
-  if (!isDayUnlocked(dayNumber, allProgress)) {
+  const allProgress = await getAllProgress();
+  if (!(await isDayUnlocked(dayNumber, allProgress))) {
     redirect("/days");
   }
 
-  const progress = getDayProgress(dayNumber);
+  const progress = await getDayProgress(dayNumber);
   const allRead = isAllPartsRead(progress);
   const mockDone = !!progress?.mock_submitted_at;
-  const latestAttempt = mockDone ? getLatestAttemptForDay(dayNumber) : undefined;
+  const latestAttempt = mockDone ? await getLatestAttemptForDay(dayNumber) : undefined;
   const passed = (latestAttempt?.score_percent ?? 0) >= PASS_THRESHOLD_PERCENT;
 
   const parts: Array<{ part: Part; topicId: string; readAt: string | null }> = [
@@ -44,7 +44,7 @@ export default async function DayReadingPage({
     { part: "C", topicId: day.partCTopicId, readAt: progress?.part_c_read_at ?? null },
   ];
 
-  const revisionPick = getOrCreateRevisionTopicForDay(dayNumber);
+  const revisionPick = await getOrCreateRevisionTopicForDay(dayNumber);
   const revisionTopic = revisionPick ? getTopic(revisionPick.topicId) : null;
 
   const questionCountByPart: Record<Part, number> = {
@@ -55,8 +55,8 @@ export default async function DayReadingPage({
   const totalQuestionsToday = questionCountByPart.A + questionCountByPart.B + questionCountByPart.C;
 
   const allTopicIds = parts.map((p) => p.topicId).concat(revisionTopic ? [revisionTopic.topicId] : []);
-  const unitAccuracyMap = new Map(getUnitAccuracy().map((u) => [u.unitId, u]));
-  const bookmarks = getBookmarksForTopics(allTopicIds);
+  const [unitAccuracy, bookmarks] = await Promise.all([getUnitAccuracy(), getBookmarksForTopics(allTopicIds)]);
+  const unitAccuracyMap = new Map(unitAccuracy.map((u) => [u.unitId, u]));
   const bookmarkedItems: Array<{ topicId: string; qaId: string; question: string }> = [];
   for (const { topicId } of parts) {
     const topic = getTopic(topicId);

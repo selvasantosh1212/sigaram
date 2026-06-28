@@ -16,21 +16,21 @@ export default async function MonthlyResultsPage({
   const { attemptId: attemptIdStr } = await params;
   const attemptId = Number(attemptIdStr);
 
-  const attempt = getAttempt(attemptId);
+  const attempt = await getAttempt(attemptId);
   if (!attempt || attempt.attempt_kind !== "monthly" || !attempt.submitted_at || attempt.month_number == null) {
     notFound();
   }
   const monthNumber = attempt.month_number;
 
-  const rows = getAttemptAnswers(attemptId);
+  const rows = await getAttemptAnswers(attemptId);
   const questions = hydrateAnswerRowsForReview(rows);
 
   const { end } = getMonthDayRange(monthNumber);
   const totalDays = getTotalDays();
   const isLastMonth = monthNumber === getTotalMonths();
-  const allProgress = getAllProgress();
-  const nextDayUnlocked = end < totalDays && isDayUnlocked(end + 1, allProgress);
-  const attemptHistory = getAllAttemptsForMonth(monthNumber);
+  const allProgress = await getAllProgress();
+  const nextDayUnlocked = end < totalDays && (await isDayUnlocked(end + 1, allProgress));
+  const attemptHistory = await getAllAttemptsForMonth(monthNumber);
   const message = getCycleTestResultMessage(attempt.score_percent ?? 0, PASS_THRESHOLD_PERCENT);
 
   return (

@@ -20,19 +20,33 @@ import {
   TimeOfDayChart,
 } from "@/components/DashboardCharts";
 
-export default function DashboardPage() {
+export default async function DashboardPage() {
   const totalDays = getAllDays().length;
-  const completedDays = getCompletedDaysCount();
-  const dailyTrend = getDailyScoreTrend();
-  const fullMockTrend = getFullMockScoreTrend();
-  const partAccuracy = getPartAccuracy();
-  const unitAccuracy = getUnitAccuracy();
-  const difficultyAccuracy = getDifficultyAccuracy();
-  const sourceTagAccuracy = getSourceTagAccuracy();
-  const timeOfDay = getTimeOfDayDistribution();
-  const avgDuration = getAverageDuration();
-  const streaks = getStreaks();
-  const topicStats = getTopicLevelStats();
+  const [
+    completedDays,
+    dailyTrend,
+    fullMockTrend,
+    partAccuracy,
+    unitAccuracy,
+    difficultyAccuracy,
+    sourceTagAccuracy,
+    timeOfDay,
+    avgDuration,
+    streaks,
+    topicStats,
+  ] = await Promise.all([
+    getCompletedDaysCount(),
+    getDailyScoreTrend(),
+    getFullMockScoreTrend(),
+    getPartAccuracy(),
+    getUnitAccuracy(),
+    getDifficultyAccuracy(),
+    getSourceTagAccuracy(),
+    getTimeOfDayDistribution(),
+    getAverageDuration(),
+    getStreaks(),
+    getTopicLevelStats(),
+  ]);
   const topicMeta = new Map(getAllTopics().map((t) => [t.topicId, t]));
   const totalTopics = topicMeta.size;
 

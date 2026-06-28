@@ -11,23 +11,25 @@ import { startWeeklyCycleTestAction } from "@/app/actions";
 
 type WeekStatus = "locked" | "ready" | "needs-retake" | "completed";
 
-export default function WeeklyCycleTestsPage() {
+export default async function WeeklyCycleTestsPage() {
   const totalWeeks = getTotalWeeks();
-  const bestDayScores = getAllBestScores();
-  const bestWeekScores = getAllBestWeekScores();
+  const [bestDayScores, bestWeekScores] = await Promise.all([getAllBestScores(), getAllBestWeekScores()]);
 
-  const rows = Array.from({ length: totalWeeks }, (_, i) => i + 1).map((weekNumber) => {
-    const { start, end } = getWeekDayRange(weekNumber);
-    const unlocked = isWeekTestUnlocked(weekNumber, bestDayScores);
-    let status: WeekStatus = "locked";
-    if (unlocked) {
-      if (hasWeekPassed(weekNumber, bestWeekScores)) status = "completed";
-      else if (bestWeekScores.has(weekNumber)) status = "needs-retake";
-      else status = "ready";
-    }
-    const latestAttempt = status === "completed" || status === "needs-retake" ? getLatestAttemptForWeek(weekNumber) : undefined;
-    return { weekNumber, start, end, status, latestAttempt };
-  });
+  const rows = await Promise.all(
+    Array.from({ length: totalWeeks }, (_, i) => i + 1).map(async (weekNumber) => {
+      const { start, end } = getWeekDayRange(weekNumber);
+      const unlocked = await isWeekTestUnlocked(weekNumber, bestDayScores);
+      let status: WeekStatus = "locked";
+      if (unlocked) {
+        if (await hasWeekPassed(weekNumber, bestWeekScores)) status = "completed";
+        else if (bestWeekScores.has(weekNumber)) status = "needs-retake";
+        else status = "ready";
+      }
+      const latestAttempt =
+        status === "completed" || status === "needs-retake" ? await getLatestAttemptForWeek(weekNumber) : undefined;
+      return { weekNumber, start, end, status, latestAttempt };
+    })
+  );
 
   return (
     <div className="space-y-4">

@@ -6,25 +6,26 @@ import { startDailyMockAction } from "@/app/actions";
 
 type MockStatus = "locked" | "read-first" | "ready" | "needs-retake" | "completed";
 
-export default function MockTestModePage() {
+export default async function MockTestModePage() {
   const days = getAllDays();
-  const allProgress = getAllProgress();
-  const bestScores = getAllBestScores();
+  const [allProgress, bestScores] = await Promise.all([getAllProgress(), getAllBestScores()]);
 
-  const rows = days.map((day) => {
-    const unlocked = isDayUnlocked(day.dayNumber, allProgress, bestScores);
-    const progress = allProgress.get(day.dayNumber);
-    let status: MockStatus = "locked";
-    if (unlocked) {
-      if (progress?.mock_submitted_at) {
-        status = (bestScores.get(day.dayNumber) ?? 0) >= PASS_THRESHOLD_PERCENT ? "completed" : "needs-retake";
-      } else if (isAllPartsRead(progress)) status = "ready";
-      else status = "read-first";
-    }
-    const latestAttempt =
-      status === "completed" || status === "needs-retake" ? getLatestAttemptForDay(day.dayNumber) : undefined;
-    return { day, status, latestAttempt };
-  });
+  const rows = await Promise.all(
+    days.map(async (day) => {
+      const unlocked = await isDayUnlocked(day.dayNumber, allProgress, bestScores);
+      const progress = allProgress.get(day.dayNumber);
+      let status: MockStatus = "locked";
+      if (unlocked) {
+        if (progress?.mock_submitted_at) {
+          status = (bestScores.get(day.dayNumber) ?? 0) >= PASS_THRESHOLD_PERCENT ? "completed" : "needs-retake";
+        } else if (isAllPartsRead(progress)) status = "ready";
+        else status = "read-first";
+      }
+      const latestAttempt =
+        status === "completed" || status === "needs-retake" ? await getLatestAttemptForDay(day.dayNumber) : undefined;
+      return { day, status, latestAttempt };
+    })
+  );
 
   return (
     <div className="space-y-4">

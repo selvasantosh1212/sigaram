@@ -16,21 +16,21 @@ export default async function WeeklyResultsPage({
   const { attemptId: attemptIdStr } = await params;
   const attemptId = Number(attemptIdStr);
 
-  const attempt = getAttempt(attemptId);
+  const attempt = await getAttempt(attemptId);
   if (!attempt || attempt.attempt_kind !== "weekly" || !attempt.submitted_at || attempt.week_number == null) {
     notFound();
   }
   const weekNumber = attempt.week_number;
 
-  const rows = getAttemptAnswers(attemptId);
+  const rows = await getAttemptAnswers(attemptId);
   const questions = hydrateAnswerRowsForReview(rows);
 
   const { end } = getWeekDayRange(weekNumber);
   const totalDays = getTotalDays();
   const isLastWeek = weekNumber === getTotalWeeks();
-  const allProgress = getAllProgress();
-  const nextDayUnlocked = end < totalDays && isDayUnlocked(end + 1, allProgress);
-  const attemptHistory = getAllAttemptsForWeek(weekNumber);
+  const allProgress = await getAllProgress();
+  const nextDayUnlocked = end < totalDays && (await isDayUnlocked(end + 1, allProgress));
+  const attemptHistory = await getAllAttemptsForWeek(weekNumber);
   const message = getCycleTestResultMessage(attempt.score_percent ?? 0, PASS_THRESHOLD_PERCENT);
 
   return (

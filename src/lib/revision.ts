@@ -1,4 +1,4 @@
-import { getDb } from "./db";
+import { getDb, rowsToObjects } from "./db";
 import { getAllDays } from "./content";
 import { getTopicAccuracy } from "./analytics";
 
@@ -35,10 +35,13 @@ export function isRevisionDay(dayNumber: number): boolean {
   return dayNumber >= startDay && (dayNumber - startDay) % REVISION_INTERVAL === 0;
 }
 
-function getRecentRevisionTopicIds(limit: number): string[] {
-  const rows = getDb()
-    .prepare("SELECT topic_id FROM day_revision_picks ORDER BY day_number DESC LIMIT ?")
-    .all(limit) as Array<{ topic_id: string }>;
+async function getRecentRevisionTopicIds(limit: number): Promise<string[]> {
+  const db = await getDb();
+  const rs = await db.execute({
+    sql: "SELECT topic_id FROM day_revision_picks ORDER BY day_number DESC LIMIT ?",
+    args: [limit],
+  });
+  const rows = rowsToObjects(rs) as Array<{ topic_id: string }>;
   return rows.map((r) => r.topic_id);
 }
 
@@ -52,13 +55,13 @@ function weightedRandomPick(items: string[], weights: number[]): string {
   return items[items.length - 1];
 }
 
-function pickRevisionTopic(): string {
+async function pickRevisionTopic(): Promise<string> {
   const pool = getRevisionTopicPool();
-  const recent = new Set(getRecentRevisionTopicIds(RECENT_EXCLUSION_WINDOW));
+  const recent = new Set(await getRecentRevisionTopicIds(RECENT_EXCLUSION_WINDOW));
   const candidates = pool.filter((id) => !recent.has(id));
   const usable = candidates.length > 0 ? candidates : pool;
 
-  const accuracy = getTopicAccuracy();
+  const accuracy = await getTopicAccuracy();
   const weights = usable.map((id) => {
     const acc = accuracy.get(id);
     const accuracyPercent = acc && acc.total > 0 ? acc.accuracyPercent : 50;
@@ -71,23 +74,24 @@ export type RevisionTopicPick = { topicId: string; accuracy: { correct: number; 
 
 // Stable per-day pick: computed once on first visit, then persisted so revisiting the
 // same day's page (or restarting its mock) always shows the same revision topic.
-export function getOrCreateRevisionTopicForDay(dayNumber: number): RevisionTopicPick | null {
+export async function getOrCreateRevisionTopicForDay(dayNumber: number): Promise<RevisionTopicPick | null> {
   if (!isRevisionDay(dayNumber)) return null;
 
-  const db = getDb();
-  const existing = db
-    .prepare("SELECT topic_id FROM day_revision_picks WHERE day_number = ?")
-    .get(dayNumber) as { topic_id: string } | undefined;
+  const db = await getDb();
+  const existingRs = await db.execute({
+    sql: "SELECT topic_id FROM day_revision_picks WHERE day_number = ?",
+    args: [dayNumber],
+  });
+  const existing = rowsToObjects(existingRs)[0] as { topic_id: string } | undefined;
 
-  const topicId = existing?.topic_id ?? pickRevisionTopic();
+  const topicId = existing?.topic_id ?? (await pickRevisionTopic());
   if (!existing) {
-    db.prepare("INSERT INTO day_revision_picks (day_number, topic_id, created_at) VALUES (?, ?, ?)").run(
-      dayNumber,
-      topicId,
-      new Date().toISOString()
-    );
+    await db.execute({
+      sql: "INSERT INTO day_revision_picks (day_number, topic_id, created_at) VALUES (?, ?, ?)",
+      args: [dayNumber, topicId, new Date().toISOString()],
+    });
   }
 
-  const accuracy = getTopicAccuracy().get(topicId) ?? null;
+  const accuracy = (await getTopicAccuracy()).get(topicId) ?? null;
   return { topicId, accuracy };
 }

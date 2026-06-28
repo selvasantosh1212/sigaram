@@ -13,10 +13,10 @@ export default async function FullMockResultsPage({
   const { attemptId: attemptIdStr } = await params;
   const attemptId = Number(attemptIdStr);
 
-  const attempt = getAttempt(attemptId);
+  const attempt = await getAttempt(attemptId);
   if (!attempt || attempt.attempt_kind !== "full_mock" || !attempt.submitted_at) notFound();
 
-  const rows = getAttemptAnswers(attemptId);
+  const rows = await getAttemptAnswers(attemptId);
   const questions = hydrateAnswerRowsForReview(rows);
   const message = getResultMessage(attempt.score_percent ?? 0, { gated: false });
 

@@ -4,10 +4,10 @@ import { getAllProgress, isFullMockUnlocked } from "@/lib/progress";
 import { getAllAttempts } from "@/lib/attempts";
 import { startFullMockAction } from "@/app/actions";
 
-export default function FullMockPage() {
+export default async function FullMockPage() {
   const totalDays = getAllDays().length;
-  const allProgress = getAllProgress();
-  const unlocked = isFullMockUnlocked(allProgress, totalDays);
+  const allProgress = await getAllProgress();
+  const unlocked = await isFullMockUnlocked(allProgress, totalDays);
 
   if (!unlocked) {
     return (
@@ -32,7 +32,7 @@ export default function FullMockPage() {
     );
   }
 
-  const sessions = getAllAttempts().filter((a) => a.attempt_kind === "full_mock");
+  const sessions = (await getAllAttempts()).filter((a) => a.attempt_kind === "full_mock");
   const nextSessionNumber = sessions.length + 1;
 
   return (
