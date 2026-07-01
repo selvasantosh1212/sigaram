@@ -95,6 +95,8 @@ export async function submitAttemptAction(
   await submitAttempt(attemptId, answers);
   if (dayNumber != null) {
     revalidatePath("/days");
+    revalidatePath("/weekly");
+    revalidatePath("/monthly");
     redirect(`/day/${dayNumber}/results/${attemptId}`);
   }
   if (attempt?.attempt_kind === "weekly") {
