@@ -51,39 +51,40 @@ export async function createDraftAttempt(params: {
   questions: QuestionInstance[];
 }): Promise<DraftAttempt> {
   const db = await getDb();
-  const tx = await db.transaction("write");
-  try {
-    const info = await tx.execute({
-      sql: `INSERT INTO attempts (day_number, week_number, month_number, attempt_kind, session_label, started_at, total_questions)
-     VALUES (?, ?, ?, ?, ?, ?, ?)`,
-      args: [
-        params.dayNumber ?? null,
-        params.weekNumber ?? null,
-        params.monthNumber ?? null,
-        params.attemptKind,
-        params.sessionLabel ?? null,
-        new Date().toISOString(),
-        params.questions.length,
-      ],
-    });
-    const attemptId = Number(info.lastInsertRowid);
-    const rowIds: number[] = [];
-    for (const q of params.questions) {
-      const ansInfo = await tx.execute({
-        sql: `INSERT INTO attempt_answers (attempt_id, part, topic_id, unit_id, question_id, difficulty, source_tag, correct_index, selected_index)
+  const info = await db.execute({
+    sql: `INSERT INTO attempts (day_number, week_number, month_number, attempt_kind, session_label, started_at, total_questions)
+   VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    args: [
+      params.dayNumber ?? null,
+      params.weekNumber ?? null,
+      params.monthNumber ?? null,
+      params.attemptKind,
+      params.sessionLabel ?? null,
+      new Date().toISOString(),
+      params.questions.length,
+    ],
+  });
+  const attemptId = Number(info.lastInsertRowid);
+
+  // Batched into a single round-trip (rather than one await per question) — with up to
+  // 50 questions for a weekly cycle test, sequential round-trips to a remote Turso DB
+  // routinely approached serverless function time limits.
+  const answerResults = params.questions.length
+    ? await db.batch(
+        params.questions.map((q) => ({
+          sql: `INSERT INTO attempt_answers (attempt_id, part, topic_id, unit_id, question_id, difficulty, source_tag, correct_index, selected_index)
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL)`,
-        args: [attemptId, q.part, q.topicId, q.unitId, q.questionId, q.difficulty, q.sourceTag, q.correctIndex],
-      });
-      rowIds.push(Number(ansInfo.lastInsertRowid));
-    }
-    await tx.commit();
-    return {
-      attemptId,
-      questions: params.questions.map((q, i) => ({ ...q, answerRowId: rowIds[i] })),
-    };
-  } finally {
-    tx.close();
-  }
+          args: [attemptId, q.part, q.topicId, q.unitId, q.questionId, q.difficulty, q.sourceTag, q.correctIndex],
+        })),
+        "write"
+      )
+    : [];
+  const rowIds = answerResults.map((r) => Number(r.lastInsertRowid));
+
+  return {
+    attemptId,
+    questions: params.questions.map((q, i) => ({ ...q, answerRowId: rowIds[i] })),
+  };
 }
 
 export async function getAttempt(attemptId: number): Promise<AttemptRow | undefined> {
@@ -140,38 +141,39 @@ export async function submitAttempt(
   const durationSeconds = Math.max(0, Math.round((submittedAt.getTime() - startedAt.getTime()) / 1000));
 
   const db = await getDb();
-  const tx = await db.transaction("write");
-  try {
-    for (const row of existingRows) {
-      const sel = selectedByRowId.get(row.id) ?? null;
-      const isCorrect = sel !== null && sel === row.correct_index ? 1 : 0;
-      await tx.execute({
-        sql: "UPDATE attempt_answers SET selected_index = ?, is_correct = ? WHERE id = ?",
-        args: [sel, isCorrect, row.id],
-      });
-    }
-    await tx.execute({
-      sql: `UPDATE attempts SET submitted_at = ?, duration_seconds = ?, correct_count = ?, score_percent = ?,
+  // Batched into a single round-trip — see createDraftAttempt for why per-row awaits
+  // don't scale to a 50-question weekly cycle test on a remote DB.
+  await db.batch(
+    [
+      ...existingRows.map((row) => {
+        const sel = selectedByRowId.get(row.id) ?? null;
+        const isCorrect = sel !== null && sel === row.correct_index ? 1 : 0;
+        return {
+          sql: "UPDATE attempt_answers SET selected_index = ?, is_correct = ? WHERE id = ?",
+          args: [sel, isCorrect, row.id],
+        };
+      }),
+      {
+        sql: `UPDATE attempts SET submitted_at = ?, duration_seconds = ?, correct_count = ?, score_percent = ?,
        part_a_correct = ?, part_a_total = ?, part_b_correct = ?, part_b_total = ?, part_c_correct = ?, part_c_total = ?
      WHERE id = ?`,
-      args: [
-        submittedAt.toISOString(),
-        durationSeconds,
-        summary.correctCount,
-        summary.scorePercent,
-        summary.byPart.A.correct,
-        summary.byPart.A.total,
-        summary.byPart.B.correct,
-        summary.byPart.B.total,
-        summary.byPart.C.correct,
-        summary.byPart.C.total,
-        attemptId,
-      ],
-    });
-    await tx.commit();
-  } finally {
-    tx.close();
-  }
+        args: [
+          submittedAt.toISOString(),
+          durationSeconds,
+          summary.correctCount,
+          summary.scorePercent,
+          summary.byPart.A.correct,
+          summary.byPart.A.total,
+          summary.byPart.B.correct,
+          summary.byPart.B.total,
+          summary.byPart.C.correct,
+          summary.byPart.C.total,
+          attemptId,
+        ],
+      },
+    ],
+    "write"
+  );
 
   if (attempt.attempt_kind === "daily" && attempt.day_number != null) {
     await markMockSubmitted(attempt.day_number);
