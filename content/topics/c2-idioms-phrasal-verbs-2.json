@@ -6,7 +6,7 @@
     { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC Phrasal Verbs MCQ set (6 questions)" },
     { "type": "question-bank", "label": "2025_q page 142 Q183-184; 2022_q page 14 Q41 (real, with answer key marks)" }
   ],
-  "researchNotes": "Eighth Vocabulary topic — an expansion drawing on 2 small evidence clusters held back since Days 60-64 specifically because Unit II had already closed at 7 topics, plus fresh research to round out the set. Authored as a deliberate small bonus pass rather than letting good real evidence go unused — distinct idioms/phrasal verbs from the already-shipped c2-idioms-phrasal-verbs (Day 60).",
+  "researchNotes": "Eighth Vocabulary topic — an expansion drawing on 2 small evidence clusters held back since Days 60-64 specifically because Unit II had already closed at 7 topics, plus fresh research to round out the set. Authored as a deliberate small bonus pass rather than letting good real evidence go unused — distinct idioms/phrasal verbs from the already-shipped c2-idioms-phrasal-verbs (Day 60). Expansion pass (Batch 18): added break the ice, hit the sack, come across, and run out of.",
   "reading": {
     "intro": "More idioms, fixed phrases, and phrasal verbs beyond the first Idioms/Phrasal-Verbs topic — no overlap with previously shipped vocabulary content.",
     "qa": [
@@ -16,7 +16,9 @@
       { "id": "r04", "question": "What is a synonym for 'Affluent' (as in 'He was the spoilt child of Affluent parents')?", "answer": "Wealthy (not poor, intelligent, or useless)." },
       { "id": "r05", "question": "What do the phrasal verbs 'bring up' and 'call off' mean?", "answer": "Bring up = raise a topic. Call off = cancel." },
       { "id": "r06", "question": "What do the phrasal verbs 'give up' and 'carry out' mean?", "answer": "Give up = quit. Carry out = execute/perform." },
-      { "id": "r07", "question": "What does the phrasal verb 'turn down' mean?", "answer": "Reject (e.g., 'turn down an offer') — not 'reduce volume', which is a different, less common sense of the same phrase." }
+      { "id": "r07", "question": "What does the phrasal verb 'turn down' mean?", "answer": "Reject (e.g., 'turn down an offer') — not 'reduce volume', which is a different, less common sense of the same phrase." },
+      { "id": "r08", "question": "What do the idioms 'break the ice' and 'hit the sack' mean?", "answer": "Break the ice = to initiate conversation in an awkward/tense social setting. Hit the sack = to go to bed/sleep." },
+      { "id": "r09", "question": "What do the phrasal verbs 'come across' and 'run out of' mean?", "answer": "Come across = to find/encounter unexpectedly. Run out of = to have no more of something (e.g., 'run out of time')." }
     ]
   },
   "mockTest": {
@@ -29,7 +31,9 @@
       { "id": "m06", "prompt": "Choose the correct meaning of the phrasal verb 'carry out'.", "options": ["Cancel", "Ignore", "Execute", "Forget"], "correctIndex": 2, "explanation": "Execute.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "Choose the correct meaning of the phrasal verb 'turn down'.", "options": ["Reduce volume", "Reject", "Sit down", "Fall"], "correctIndex": 1, "explanation": "Reject.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "'Look up to' someone means:", "options": ["To search for them", "To admire them", "To avoid them", "To investigate them"], "correctIndex": 1, "explanation": "To admire them.", "sourceTag": "question-bank-2025", "difficulty": "medium" },
-      { "id": "m09", "prompt": "A synonym for 'Affluent' is:", "options": ["Poor", "Intelligent", "Wealthy", "Useless"], "correctIndex": 2, "explanation": "Wealthy.", "sourceTag": "question-bank-2022", "difficulty": "easy" }
+      { "id": "m09", "prompt": "A synonym for 'Affluent' is:", "options": ["Poor", "Intelligent", "Wealthy", "Useless"], "correctIndex": 2, "explanation": "Wealthy.", "sourceTag": "question-bank-2022", "difficulty": "easy" },
+      { "id": "m10", "prompt": "'Break the ice' means:", "options": ["To cause a conflict", "To initiate conversation in an awkward setting", "To cool down a room", "To end a friendship"], "correctIndex": 1, "explanation": "To initiate conversation in an awkward setting.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m11", "prompt": "Choose the correct meaning of the phrasal verb 'run out of'.", "options": ["To exercise outdoors", "To have no more of something", "To escape quickly", "To finish a race"], "correctIndex": 1, "explanation": "To have no more of something.", "sourceTag": "authored", "difficulty": "easy" }
     ]
   }
 }

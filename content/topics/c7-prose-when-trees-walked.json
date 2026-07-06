@@ -15,7 +15,9 @@
       { "id": "r03", "question": "What explanation does the narrator suggest for the tendril's movement toward Grandfather, and what reason does the narrator prefer to believe instead?", "answer": "The suggested scientific explanation is that the vine is moving toward light and warmth. But the narrator prefers to believe (more fancifully) that the tendril simply wanted to be near Grandfather." },
       { "id": "r04", "question": "What kind of climate does the Doon Valley have, and which fruit trees did Grandfather plant there?", "answer": "A fertile climate. Grandfather planted Lime, Mango, Orange, and Guava trees." },
       { "id": "r05", "question": "What tree grew through the wall of an abandoned outhouse, and why was it not cut down?", "answer": "A Peepul tree grew through the wall. It was not cut down because Grandfather liked it." },
-      { "id": "r06", "question": "What did Grandfather say instead of ordering the peepul tree to be cut down?", "answer": "\"Let it grow, we'll build another outhouse\" — choosing to accommodate the tree rather than remove it, reflecting his deep respect for trees and nature." }
+      { "id": "r06", "question": "What did Grandfather say instead of ordering the peepul tree to be cut down?", "answer": "\"Let it grow, we'll build another outhouse\" — choosing to accommodate the tree rather than remove it, reflecting his deep respect for trees and nature." },
+      { "id": "r07", "question": "What does the title \"When the Trees Walked\" metaphorically suggest, given the vine tendril anecdote?", "answer": "That in Grandfather's imaginative, loving perception of nature, plants seem almost animate — appearing to 'walk' toward him — reflecting the deep emotional bond between humans and nature that the story celebrates." },
+      { "id": "r08", "question": "What broader environmental theme does Grandfather's decision to spare the peepul tree convey?", "answer": "Prioritizing nature's growth over human convenience — a quiet, personal act of conservation and respect for living things, rather than treating trees as mere obstacles to be removed for practical purposes." }
     ]
   },
   "mockTest": {
@@ -29,7 +31,8 @@
       { "id": "m07", "prompt": "Grandfather had served in which profession before retirement?", "options": ["Postal service", "Indian Forest Service", "Medicine", "Teaching"], "correctIndex": 1, "explanation": "Indian Forest Service.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "Which fruit trees did Grandfather plant?", "options": ["Neem and Banyan", "Lime, Mango, Orange, Guava", "Rose and Lily", "Palm and Cedar"], "correctIndex": 1, "explanation": "Lime, Mango, Orange, Guava.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m09", "prompt": "What tree grew through the wall of an abandoned outhouse?", "options": ["Banyan", "Mango", "Peepul", "Neem"], "correctIndex": 2, "explanation": "Peepul.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m10", "prompt": "What did Grandfather say instead of cutting down the peepul tree?", "options": ["\"Let's burn it\"", "\"Let it grow, we'll build another outhouse\"", "\"Let's decorate it\"", "\"We can shift it\""], "correctIndex": 1, "explanation": "\"Let it grow, we'll build another outhouse.\"", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m10", "prompt": "What did Grandfather say instead of cutting down the peepul tree?", "options": ["\"Let's burn it\"", "\"Let it grow, we'll build another outhouse\"", "\"Let's decorate it\"", "\"We can shift it\""], "correctIndex": 1, "explanation": "\"Let it grow, we'll build another outhouse.\"", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m11", "prompt": "Grandfather's decision to spare the peepul tree conveys a broader theme of:", "options": ["Wastefulness", "Prioritizing nature's growth over human convenience", "Fear of the supernatural", "Financial prudence"], "correctIndex": 1, "explanation": "Prioritizing nature's growth over human convenience.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

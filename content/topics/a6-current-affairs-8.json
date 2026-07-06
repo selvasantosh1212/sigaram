@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "filmibeat.com/hollywoodreporterindia.com - Tamil Nadu State Film Awards 2016-2022 winners announced 30 Jan 2026, ceremony 13 Feb 2026 at Kalaivanar Arangam, Chennai" }
   ],
-  "researchNotes": "Ninth TN-Culture-unit current-affairs topic (8th lap). A distinct cultural-honours angle (cinema) not yet covered among this unit's prior topics (State Awards, Diaspora Awards, Music Academy, museums, sports).",
+  "researchNotes": "Ninth TN-Culture-unit current-affairs topic (8th lap). A distinct cultural-honours angle (cinema) not yet covered among this unit's prior topics (State Awards, Diaspora Awards, Music Academy, museums, sports). Expansion pass (Batch 21): added why the awards covered 7 consolidated years rather than annual cycles.",
   "reading": {
     "intro": "Covers the Tamil Nadu State Film Awards for 2016-2022, announced and held in early 2026 — a long-delayed batch covering 7 years' worth of Tamil cinema.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "Who presented the awards at the ceremony?", "answer": "Deputy Chief Minister Udhayanidhi Stalin." },
       { "id": "r03", "question": "Which film won the Best Film (First Prize) for 2016?", "answer": "'Managaram' — with 'Puriyatha Puthir' and 'Maaveran Kittu' as the 2nd and 3rd prize winners respectively." },
       { "id": "r04", "question": "What does each Tamil Nadu State Film Award consist of, and what is the cash prize for Best Film (1st/2nd/3rd)?", "answer": "Each award includes a one-sovereign gold medal, a memento, and a certificate. Best Film cash prizes: ₹2 lakh (1st), ₹1 lakh (2nd), ₹75,000 (3rd)." },
-      { "id": "r05", "question": "Which major Tamil film stars were among the winners across this 2016-2022 awards batch?", "answer": "Suriya, Dhanush, Vikram, Vijay Sethupathi, Arya, Karthi, Nayanthara, Sai Pallavi, Keerthi Suresh, Jyothika, and director Lokesh Kanagaraj, among others." }
+      { "id": "r05", "question": "Which major Tamil film stars were among the winners across this 2016-2022 awards batch?", "answer": "Suriya, Dhanush, Vikram, Vijay Sethupathi, Arya, Karthi, Nayanthara, Sai Pallavi, Keerthi Suresh, Jyothika, and director Lokesh Kanagaraj, among others." },
+      { "id": "r06", "question": "Why were the Tamil Nadu State Film Awards for 2016-2022 announced together as a single delayed batch, rather than annually?", "answer": "The awards had been in administrative/procedural limbo for several years (a common issue with state film award committees facing jury-constitution or selection-criteria delays) — the 2026 announcement cleared a multi-year backlog covering 7 years of Tamil cinema in one consolidated ceremony." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "The Tamil Nadu State Film Awards (2016-2022) winners were announced on:", "options": ["1 January 2026", "30 January 2026", "13 February 2026", "1 March 2026"], "correctIndex": 1, "explanation": "30 January 2026 (ceremony followed on 13 February).", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m03", "prompt": "Who presented the Tamil Nadu State Film Awards (2016-2022) at the ceremony?", "options": ["Chief Minister M.K. Stalin", "Deputy Chief Minister Udhayanidhi Stalin", "Governor of Tamil Nadu", "The Union Culture Minister"], "correctIndex": 1, "explanation": "Deputy Chief Minister Udhayanidhi Stalin.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "Which film won the Best Film (First Prize) for 2016 in this awards batch?", "options": ["Managaram", "Puriyatha Puthir", "Maaveran Kittu", "Visaranai"], "correctIndex": 0, "explanation": "Managaram.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "The cash prize for the Best Film First Prize in the Tamil Nadu State Film Awards is:", "options": ["₹1 lakh", "₹1.5 lakh", "₹2 lakh", "₹5 lakh"], "correctIndex": 2, "explanation": "₹2 lakh.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "The cash prize for the Best Film First Prize in the Tamil Nadu State Film Awards is:", "options": ["₹1 lakh", "₹1.5 lakh", "₹2 lakh", "₹5 lakh"], "correctIndex": 2, "explanation": "₹2 lakh.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The 2026 Tamil Nadu State Film Awards ceremony covered how many years of Tamil cinema in one consolidated batch?", "options": ["3 years", "5 years", "7 years", "10 years"], "correctIndex": 2, "explanation": "7 years (2016-2022).", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

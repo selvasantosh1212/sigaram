@@ -42,6 +42,7 @@ export type DayQuestion = {
   explanation: string;
   difficulty: "easy" | "medium" | "hard";
   sourceTag: string;
+  trick?: string;
 };
 
 export type RenderableQuestion = {
@@ -89,6 +90,7 @@ export type ReviewQuestion = {
   selectedIndex: number | null;
   isCorrect: boolean;
   sourceTag: string;
+  trick?: string;
 };
 
 // Like hydrateQuestionRefs, but includes the answer key + explanation — only safe to
@@ -120,6 +122,7 @@ export function hydrateAnswerRowsForReview(
       selectedIndex: row.selected_index,
       isCorrect: !!row.is_correct,
       sourceTag: q.sourceTag,
+      trick: q.trick,
     };
   });
 }
@@ -159,6 +162,7 @@ export function hydrateWrongAnswerRefs(
       explanation: q.explanation,
       difficulty: q.difficulty,
       sourceTag: q.sourceTag,
+      trick: q.trick,
     };
   });
 }
@@ -176,5 +180,6 @@ export function getTopicQuestions(topicId: string, part: "A" | "B" | "C"): DayQu
     explanation: q.explanation,
     difficulty: q.difficulty,
     sourceTag: q.sourceTag,
+    trick: q.trick,
   }));
 }

@@ -14,7 +14,9 @@
       { "id": "r03", "question": "Why do sea turtles lay so many eggs, given such low survival odds?", "answer": "To increase their overall chances of survival — laying a large number of eggs compensates for the very high mortality rate among hatchlings." },
       { "id": "r04", "question": "Where do female sea turtles return to lay their eggs, and what makes this behaviour especially fascinating?", "answer": "They return to the SAME BEACH where they themselves were born, often after years away at sea — their mysterious ability to navigate back to their exact nesting beach is what makes them especially fascinating." },
       { "id": "r05", "question": "How long have sea turtles survived as a species, and what is the CURRENT main threat to them?", "answer": "Millions of years. The current main threat is HUMAN ACTIVITIES." },
-      { "id": "r06", "question": "What do humans hunt sea turtles for, and what are two other human-caused dangers mentioned?", "answer": "Humans hunt them for their MEAT AND EGGS. Other dangers include getting accidentally caught in motorboat nets, and ocean pollution caused by plastic dumping." }
+      { "id": "r06", "question": "What do humans hunt sea turtles for, and what are two other human-caused dangers mentioned?", "answer": "Humans hunt them for their MEAT AND EGGS. Other dangers include getting accidentally caught in motorboat nets, and ocean pollution caused by plastic dumping." },
+      { "id": "r07", "question": "What conservation message does the passage ultimately convey?", "answer": "That despite surviving millions of years through natural challenges, sea turtles are now critically threatened primarily by human activity — implying that human-caused problems require human-led conservation solutions to reverse the damage." },
+      { "id": "r08", "question": "Why might a species with such low individual survival odds (1 in 1000) still remain viable over evolutionary time?", "answer": "Because each female lays a very large number of eggs across her lifetime, and this population-level reproductive strategy compensates for extremely high individual-level early mortality — a common survival strategy among species facing heavy predation in their vulnerable early life stages." }
     ]
   },
   "mockTest": {
@@ -28,7 +30,8 @@
       { "id": "m07", "prompt": "How long have sea turtles survived as a species?", "options": ["Thousands of years", "Decades", "Hundreds of years", "Millions of years"], "correctIndex": 3, "explanation": "Millions of years.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "What is the current main threat to sea turtles?", "options": ["Cold weather", "Earthquakes", "Human activities", "Birds"], "correctIndex": 2, "explanation": "Human activities.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m09", "prompt": "What do humans primarily hunt sea turtles for?", "options": ["Scales", "Toys", "Meat and eggs", "Feathers"], "correctIndex": 2, "explanation": "Meat and eggs.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m10", "prompt": "What is one major cause of sea pollution affecting turtles, per the passage?", "options": ["Rain", "Soil", "Plastic dumping", "Trees"], "correctIndex": 2, "explanation": "Plastic dumping.", "sourceTag": "web-research", "difficulty": "easy" }
+      { "id": "m10", "prompt": "What is one major cause of sea pollution affecting turtles, per the passage?", "options": ["Rain", "Soil", "Plastic dumping", "Trees"], "correctIndex": 2, "explanation": "Plastic dumping.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m11", "prompt": "The passage's overall conservation message is that sea turtles are now primarily threatened by:", "options": ["Natural predators alone", "Human activities", "Climate cooling", "Other sea turtles"], "correctIndex": 1, "explanation": "Human activities, despite surviving millions of years of natural challenges.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

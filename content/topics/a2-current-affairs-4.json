@@ -5,14 +5,16 @@
   "sourceRefs": [
     { "type": "web-research", "label": "pib.gov.in/insightsonindia.com - 2 new Ramsar sites announced (Feb 2026); testbook.com/lotusarise.com - India's 100 Ramsar sites and Tamil Nadu's leading count (June 2026)" }
   ],
-  "researchNotes": "Fourth Geography current-affairs topic (4th lap). Two genuinely consistent dated data points (98 sites in Feb 2026, 100 in June 2026 after 2 more additions) rather than the conflicting-statistics problem flagged at Day 58 — confirmed this progression makes sense before using both numbers together.",
+  "researchNotes": "Fourth Geography current-affairs topic (4th lap). Two genuinely consistent dated data points (98 sites in Feb 2026, 100 in June 2026 after 2 more additions) rather than the conflicting-statistics problem flagged at Day 58 — confirmed this progression makes sense before using both numbers together. Expansion pass (Batch 16): added the Ramsar Convention's basic origin/criteria and what designation actually confers, for readers unfamiliar with the underlying treaty.",
   "reading": {
     "intro": "Covers India's expanding Ramsar Wetland network and Tamil Nadu's leading position in it — a natural Geography-meets-TN current-affairs topic.",
     "qa": [
       { "id": "r01", "question": "What 2 new Ramsar wetland sites did India add ahead of World Wetlands Day 2026 (2 February), and where are they?", "answer": "Patna Bird Sanctuary (Etah district, Uttar Pradesh — established 1991, 108 hectares, 300+ bird species) and Chhari Dhand Wetland Reserve (Kutch district, Gujarat — a seasonal desert wetland between the Banni grasslands and the Rann of Kutch, home to migratory birds including the Dalmatian Pelican)." },
       { "id": "r02", "question": "How many Ramsar sites did India have immediately after this February 2026 addition, and what expansion does this represent since 2014?", "answer": "98 Ramsar sites — a 276% expansion since 2014 (when India had only 26)." },
       { "id": "r03", "question": "As of June 2026, what is India's total Ramsar site count, and which state has the most?", "answer": "100 Ramsar sites nationally (covering ~13,876 sq. km); Tamil Nadu has the most of any state, with 20 sites covering 1,008.81 sq. km." },
-      { "id": "r04", "question": "Name 3 of Tamil Nadu's well-known Ramsar sites.", "answer": "Gulf of Mannar Marine Biosphere Reserve, Vedanthangal Bird Sanctuary, and Pichavaram Mangrove (among TN's 20 total)." }
+      { "id": "r04", "question": "Name 3 of Tamil Nadu's well-known Ramsar sites.", "answer": "Gulf of Mannar Marine Biosphere Reserve, Vedanthangal Bird Sanctuary, and Pichavaram Mangrove (among TN's 20 total)." },
+      { "id": "r05", "question": "What is the Ramsar Convention, and what basic criterion must a wetland meet for designation?", "answer": "An international treaty (signed at Ramsar, Iran, in 1971) for the conservation and wise use of wetlands. A site typically must be internationally significant in terms of ecology, botany, zoology, limnology, or hydrology — most commonly assessed by supporting significant numbers of waterbirds or threatened species." },
+      { "id": "r06", "question": "What benefits does Ramsar designation bring to a wetland site?", "answer": "International recognition and visibility, access to global conservation funding/expertise, and a formal commitment from the government to maintain the site's ecological character — though it does NOT transfer international ownership or override national sovereignty over the site." }
     ]
   },
   "mockTest": {
@@ -22,7 +24,9 @@
       { "id": "m03", "prompt": "After the February 2026 addition, India's Ramsar site count reached 98 — representing what expansion since 2014?", "options": ["100%", "150%", "276%", "320%"], "correctIndex": 2, "explanation": "276% expansion since 2014.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "As of June 2026, which state has the highest number of Ramsar sites in India?", "options": ["Uttar Pradesh", "Odisha", "Tamil Nadu", "Gujarat"], "correctIndex": 2, "explanation": "Tamil Nadu (20 sites).", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m05", "prompt": "As of June 2026, Tamil Nadu has how many Ramsar sites?", "options": ["12", "16", "20", "24"], "correctIndex": 2, "explanation": "20.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m06", "prompt": "Which of these is NOT one of Tamil Nadu's Ramsar sites?", "options": ["Gulf of Mannar Marine Biosphere Reserve", "Vedanthangal Bird Sanctuary", "Pichavaram Mangrove", "Chhari Dhand Wetland Reserve"], "correctIndex": 3, "explanation": "Chhari Dhand is in Gujarat, not Tamil Nadu.", "sourceTag": "web-research", "difficulty": "easy" }
+      { "id": "m06", "prompt": "Which of these is NOT one of Tamil Nadu's Ramsar sites?", "options": ["Gulf of Mannar Marine Biosphere Reserve", "Vedanthangal Bird Sanctuary", "Pichavaram Mangrove", "Chhari Dhand Wetland Reserve"], "correctIndex": 3, "explanation": "Chhari Dhand is in Gujarat, not Tamil Nadu.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m07", "prompt": "The Ramsar Convention (1971) is an international treaty for the conservation of:", "options": ["Forests", "Wetlands", "Coral reefs only", "Deserts"], "correctIndex": 1, "explanation": "Wetlands.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m08", "prompt": "A wetland is most commonly assessed for Ramsar designation based on its support for:", "options": ["Tourism revenue", "Significant numbers of waterbirds or threatened species", "Agricultural output", "Mining potential"], "correctIndex": 1, "explanation": "Significant numbers of waterbirds/threatened species.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

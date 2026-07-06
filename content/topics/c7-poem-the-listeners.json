@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "civilserviceaspirants.in - 2-page question set covering plot, devices, tone" }
   ],
-  "researchNotes": "OCR index search for 'listeners'/'de la mare' returned zero hits — web research only. Raw pool of 12 sourced MCQs, all kept since each tests a distinct fact (plot, atmosphere, specific figures of speech on specific lines, tone).",
+  "researchNotes": "OCR index search for 'listeners'/'de la mare' returned zero hits — web research only. Raw pool of 12 sourced MCQs, all kept since each tests a distinct fact (plot, atmosphere, specific figures of speech on specific lines, tone). Expansion pass (Batch 20): added the Traveller's final message and the poem's deliberate ambiguity as a craft choice.",
   "reading": {
     "intro": "A famously eerie, mysterious poem about a Traveller who knocks at a lone house's moonlit door, calls out, and gets no answer — except from unseen 'phantom listeners'. Real coaching-site evidence tests plot, atmosphere/tone, and figure-of-speech on specific lines.",
     "qa": [
@@ -16,7 +16,9 @@
       { "id": "r05", "question": "Identify the figure of speech in \"leaf-fringed sill.\"", "answer": "Alliteration — repeated 'f' sound in 'leaf-fringed'." },
       { "id": "r06", "question": "Why is the Traveller described as \"perplexed\"?", "answer": "Because no one answers his call, despite the house seeming to be 'full' of listeners (the phantom listeners hear him, but don't respond)." },
       { "id": "r07", "question": "What does \"Is there anybody there?\" symbolize/express?", "answer": "A desire for connection/contact — the Traveller's call represents a basic human wish to be heard and answered." },
-      { "id": "r08", "question": "What does the 'moonlit door' contribute to the poem?", "answer": "Mystery and atmosphere — the moonlight visually sets the eerie, dreamlike, uncertain mood of the whole scene." }
+      { "id": "r08", "question": "What does the 'moonlit door' contribute to the poem?", "answer": "Mystery and atmosphere — the moonlight visually sets the eerie, dreamlike, uncertain mood of the whole scene." },
+      { "id": "r09", "question": "What message does the Traveller ask the phantom listeners to relay before he leaves?", "answer": "He asks them to tell 'them' (an unspecified group, never explained) that he kept his word/promise by coming, even though no one answered — leaving the poem's central mystery (who lives there, why they don't answer, who 'them' refers to) deliberately unresolved." },
+      { "id": "r10", "question": "Why is the poem's ending considered deliberately ambiguous, and what effect does this have on the reader?", "answer": "The poem never explains who the phantom listeners are, why the house is empty of visible occupants, or who the Traveller was meant to meet — this open-endedness is a deliberate craft choice that sustains the poem's eerie, unresolved mood rather than offering a tidy explanation, encouraging the reader to imagine their own answer." }
     ]
   },
   "mockTest": {
@@ -28,7 +30,9 @@
       { "id": "m05", "prompt": "\"His horse in the silence champed the grasses\" suggests:", "options": ["The horse is wild", "Nature is loud", "The silence is so deep that small sounds are noticeable", "The horse is tired"], "correctIndex": 2, "explanation": "Emphasizes the depth of the surrounding silence.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m06", "prompt": "\"Leaf-fringed sill\" is an example of:", "options": ["Simile", "Alliteration", "Irony", "Metaphor"], "correctIndex": 1, "explanation": "Alliteration — repeated 'f' sound.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "The overall tone of \"The Listeners\" is best described as:", "options": ["Joyful", "Mysterious and eerie", "Romantic", "Humorous"], "correctIndex": 1, "explanation": "Mysterious and eerie.", "sourceTag": "web-research", "difficulty": "easy" },
-      { "id": "m08", "prompt": "Why is the Traveller \"perplexed\" in the poem?", "options": ["He sees a ghost directly", "No one answers his call", "His horse runs away", "He's lost his way"], "correctIndex": 1, "explanation": "No one answers, despite the house seemingly being occupied.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m08", "prompt": "Why is the Traveller \"perplexed\" in the poem?", "options": ["He sees a ghost directly", "No one answers his call", "His horse runs away", "He's lost his way"], "correctIndex": 1, "explanation": "No one answers, despite the house seemingly being occupied.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "Before leaving, what does the Traveller ask the phantom listeners to do?", "options": ["Open the door for him", "Tell 'them' that he kept his word by coming", "Follow him home", "Light a candle"], "correctIndex": 1, "explanation": "Tell 'them' that he kept his word by coming.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "The poem's ending is deliberately ambiguous mainly to:", "options": ["Save space", "Sustain the eerie, unresolved mood", "Confuse the reader unnecessarily", "Set up a sequel"], "correctIndex": 1, "explanation": "Sustain the eerie, unresolved mood.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

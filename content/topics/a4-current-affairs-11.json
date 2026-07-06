@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "newsonair.gov.in/manoramayearbook.in - Lok Sabha's mid-March 2026 extension of the JPC examining 'One Nation, One Election' bills, to Monsoon Session 2026" }
   ],
-  "researchNotes": "Fourteenth Polity current-affairs topic (11th lap). 'One Nation, One Election' is core, frequently-tested Polity content — this topic anchors on the dated 2026 JPC extension while covering the underlying bills and committee composition.",
+  "researchNotes": "Fourteenth Polity current-affairs topic (11th lap). 'One Nation, One Election' is core, frequently-tested Polity content — this topic anchors on the dated 2026 JPC extension while covering the underlying bills and committee composition. Expansion pass (Batch 23): added the basic concept and stated rationale behind One Nation, One Election, for readers unfamiliar with the proposal's fundamentals.",
   "reading": {
     "intro": "Covers the 'One Nation, One Election' bills' Joint Parliamentary Committee (JPC) and its 2026 tenure extension.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "When was the JPC constituted, and who chairs it?", "answer": "Constituted in December 2024 by Lok Sabha Speaker Om Birla; chaired by P.P. Chaudhary (BJP), a former Union Minister of State for Law and Justice." },
       { "id": "r03", "question": "What is the JPC's total membership, and its composition across the 2 Houses?", "answer": "39 members total — 27 from the Lok Sabha and 12 from the Rajya Sabha." },
       { "id": "r04", "question": "What extension did the Lok Sabha grant the JPC in March 2026, and by when must it now report?", "answer": "The JPC's tenure was extended (approved mid-March 2026) — it must now submit its report by the first day of the last week of the Monsoon Session 2026." },
-      { "id": "r05", "question": "What was the Lok Sabha's vote count when the 'One Nation, One Election' Bill was first introduced (17 December 2024)?", "answer": "269 members in favour, 198 opposed (a division vote)." }
+      { "id": "r05", "question": "What was the Lok Sabha's vote count when the 'One Nation, One Election' Bill was first introduced (17 December 2024)?", "answer": "269 members in favour, 198 opposed (a division vote)." },
+      { "id": "r06", "question": "What is the basic concept behind 'One Nation, One Election', and what is its stated main argument in favour?", "answer": "Synchronising Lok Sabha and all State Legislative Assembly elections to be held simultaneously (or in closely-linked phases), rather than at staggered times throughout a 5-year cycle. Its main argument in favour: reducing the frequency of elections would cut government/political spending, reduce disruption from the Model Code of Conduct repeatedly halting policy work, and free up security/administrative resources tied up in frequent election duty." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "The JPC on 'One Nation, One Election' is chaired by:", "options": ["Om Birla", "P.P. Chaudhary", "Arjun Ram Meghwal", "Kiren Rijiju"], "correctIndex": 1, "explanation": "P.P. Chaudhary.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "The JPC on 'One Nation, One Election' has a total membership of:", "options": ["31", "35", "39", "45"], "correctIndex": 2, "explanation": "39 members (27 Lok Sabha + 12 Rajya Sabha).", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "The JPC's report deadline was extended (mid-March 2026) to:", "options": ["Budget Session 2026", "Monsoon Session 2026", "Winter Session 2026", "Budget Session 2027"], "correctIndex": 1, "explanation": "Monsoon Session 2026.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "When the 'One Nation, One Election' Bill was introduced in the Lok Sabha (17 December 2024), the division vote result was:", "options": ["269 in favour, 198 opposed", "300 in favour, 150 opposed", "220 in favour, 240 opposed", "350 in favour, 100 opposed"], "correctIndex": 0, "explanation": "269 in favour, 198 opposed.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "When the 'One Nation, One Election' Bill was introduced in the Lok Sabha (17 December 2024), the division vote result was:", "options": ["269 in favour, 198 opposed", "300 in favour, 150 opposed", "220 in favour, 240 opposed", "350 in favour, 100 opposed"], "correctIndex": 0, "explanation": "269 in favour, 198 opposed.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "The core idea behind 'One Nation, One Election' is to:", "options": ["Abolish state elections entirely", "Synchronise Lok Sabha and State Assembly elections to be held simultaneously", "Extend all terms to 6 years", "Replace elections with a nomination system"], "correctIndex": 1, "explanation": "Synchronise Lok Sabha and State Assembly elections.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

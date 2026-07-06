@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "tarangya.com/visionias.in - India's port capacity (2,762 MTPA, 2026); Mundra Port's 200 MT milestone; Vizhinjam Port's automated terminal; port turnaround-time improvement" }
   ],
-  "researchNotes": "Tenth Geography current-affairs topic (9th lap). Deliberately distinct from the Day-70 Economy topic's Coastal Cargo Promotion Scheme mention — this topic focuses on Geography-specific port/coastline facts (capacity, turnaround time, specific port milestones) rather than repeating the already-covered policy scheme.",
+  "researchNotes": "Tenth Geography current-affairs topic (9th lap). Deliberately distinct from the Day-70 Economy topic's Coastal Cargo Promotion Scheme mention — this topic focuses on Geography-specific port/coastline facts (capacity, turnaround time, specific port milestones) rather than repeating the already-covered policy scheme. Expansion pass (Batch 21): added the Sagarmala Programme as the broader policy umbrella behind these capacity milestones.",
   "reading": {
     "intro": "Covers India's maritime geography fundamentals and 2026 port-infrastructure milestones.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "What is India's total port cargo-handling capacity as of 2026, and which port is India's largest commercial port?", "answer": "2,762 million tonnes per annum (MTPA) total capacity. Mundra Port is India's largest commercial port — the first Indian port to handle 200 million tonnes (MT) of cargo in a single year." },
       { "id": "r03", "question": "What is distinctive about Vizhinjam Port, Kerala?", "answer": "It is India's first fully automated deep-water container terminal, designed to handle ultra-large 'megamax' ships, with automated quay cranes and rail-mounted gantries." },
       { "id": "r04", "question": "How has average port turnaround time changed from 2010-11 to FY26?", "answer": "Fallen from 127 hours (2010-11) to 49.32 hours (FY26) — a major efficiency improvement." },
-      { "id": "r05", "question": "What technology milestone did an Indian major port achieve in March 2026?", "answer": "Became the first port in India to implement Digital Twin technology, enabling real-time monitoring and predictive analysis of port operations." }
+      { "id": "r05", "question": "What technology milestone did an Indian major port achieve in March 2026?", "answer": "Became the first port in India to implement Digital Twin technology, enabling real-time monitoring and predictive analysis of port operations." },
+      { "id": "r06", "question": "What is the Sagarmala Programme, and how does it relate to India's port-capacity growth covered in this topic?", "answer": "A flagship national initiative for port-led development, launched in 2015, aiming to modernise ports, improve port connectivity (road/rail/waterways), and promote port-linked industrialisation — the broader policy framework under which capacity expansions like Mundra's and Vizhinjam's growth are being driven." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "Which port became the first in India to handle 200 million tonnes of cargo in a single year?", "options": ["Jawaharlal Nehru Port", "Mundra Port", "Vizhinjam Port", "Kandla Port"], "correctIndex": 1, "explanation": "Mundra Port.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "Vizhinjam Port (Kerala) is notable as India's first:", "options": ["Inland river port", "Fully automated deep-water container terminal", "Floating port", "Naval-only port"], "correctIndex": 1, "explanation": "Fully automated deep-water container terminal.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "India's total port cargo-handling capacity as of 2026 is approximately:", "options": ["1,762 MTPA", "2,262 MTPA", "2,762 MTPA", "3,262 MTPA"], "correctIndex": 2, "explanation": "2,762 MTPA.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "Average port turnaround time in India has fallen from 127 hours (2010-11) to approximately how much in FY26?", "options": ["29.32 hours", "39.32 hours", "49.32 hours", "69.32 hours"], "correctIndex": 2, "explanation": "49.32 hours.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "Average port turnaround time in India has fallen from 127 hours (2010-11) to approximately how much in FY26?", "options": ["29.32 hours", "39.32 hours", "49.32 hours", "69.32 hours"], "correctIndex": 2, "explanation": "49.32 hours.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "The Sagarmala Programme (launched 2015) is a flagship initiative for:", "options": ["Renewable energy expansion", "Port-led development and modernisation", "Highway construction only", "Space technology"], "correctIndex": 1, "explanation": "Port-led development and modernisation.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

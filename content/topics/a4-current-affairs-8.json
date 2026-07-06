@@ -5,14 +5,15 @@
   "sourceRefs": [
     { "type": "web-research", "label": "webnewswire.com - CIC's ruling that BCCI is not covered by the RTI Act, 2005 (18 May 2026)" }
   ],
-  "researchNotes": "Ninth Polity current-affairs topic (8th lap). A dated CIC ruling anchoring a review of the Central Information Commission's structure and powers under the RTI Act — core, recurring syllabus content.",
+  "researchNotes": "Ninth Polity current-affairs topic (8th lap). A dated CIC ruling anchoring a review of the Central Information Commission's structure and powers under the RTI Act — core, recurring syllabus content. Expansion pass (Batch 21): added the criticism angle around BCCI's quasi-public functions despite its private-society status.",
   "reading": {
     "intro": "Covers a notable 2026 Central Information Commission (CIC) ruling and reinforces the CIC's structure under the RTI Act, 2005.",
     "qa": [
       { "id": "r01", "question": "What did the Central Information Commission (CIC) rule on 18 May 2026, regarding the BCCI?", "answer": "That the Board of Control for Cricket in India (BCCI) is NOT covered by the Right to Information Act, 2005 — meaning BCCI cannot be compelled to disclose information under RTI requests." },
       { "id": "r02", "question": "What reasoning did the CIC give for this ruling?", "answer": "It warned that imposing government-style RTI control over BCCI could risk disrupting what it called a 'finely balanced economic structure'." },
       { "id": "r03", "question": "What is the Central Information Commission (CIC), and under which Act was it established?", "answer": "An independent body established under the Right to Information Act, 2005, to promote transparency and accountability in public authorities — comprising a Chief Information Commissioner and up to 10 Information Commissioners." },
-      { "id": "r04", "question": "What change did the 2019 RTI Amendment make to the CIC's structure?", "answer": "It reduced Information Commissioners' tenure to 3 years and made their salary/terms of service determined by the government (previously fixed by statute), rather than being independently set." }
+      { "id": "r04", "question": "What change did the 2019 RTI Amendment make to the CIC's structure?", "answer": "It reduced Information Commissioners' tenure to 3 years and made their salary/terms of service determined by the government (previously fixed by statute), rather than being independently set." },
+      { "id": "r05", "question": "What criticism has been raised about the BCCI-RTI ruling, given BCCI's public functions?", "answer": "Critics argue BCCI performs quasi-governmental/public functions (selecting the national cricket team, using public stadiums, enjoying tax exemptions historically) and receives significant public trust and de facto monopoly status over Indian cricket — making its RTI exemption controversial despite being a technically private society." }
     ]
   },
   "mockTest": {
@@ -21,7 +22,8 @@
       { "id": "m02", "prompt": "The CIC was established under which Act?", "options": ["The Lokpal Act, 2013", "The Right to Information Act, 2005", "The Whistleblowers Protection Act, 2014", "The Companies Act, 2013"], "correctIndex": 1, "explanation": "The Right to Information Act, 2005.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m03", "prompt": "The CIC comprises a Chief Information Commissioner and up to how many Information Commissioners?", "options": ["5", "8", "10", "12"], "correctIndex": 2, "explanation": "10.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "The 2019 RTI Amendment changed Information Commissioners' tenure to:", "options": ["2 years", "3 years", "5 years", "6 years"], "correctIndex": 1, "explanation": "3 years.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "Per the 2019 RTI Amendment, who determines Information Commissioners' salary and terms of service?", "options": ["The Supreme Court", "The Election Commission", "The Government", "The Parliament's Standing Committee"], "correctIndex": 2, "explanation": "The Government.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "Per the 2019 RTI Amendment, who determines Information Commissioners' salary and terms of service?", "options": ["The Supreme Court", "The Election Commission", "The Government", "The Parliament's Standing Committee"], "correctIndex": 2, "explanation": "The Government.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Critics of the BCCI-RTI exemption ruling point to BCCI's:", "options": ["Purely private, hobby-club nature", "Quasi-governmental public functions and de facto cricket monopoly", "Foreign ownership", "Lack of any economic significance"], "correctIndex": 1, "explanation": "Quasi-governmental public functions and monopoly status.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

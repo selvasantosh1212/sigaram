@@ -5,14 +5,15 @@
   "sourceRefs": [
     { "type": "web-research", "label": "downtoearth.org.in/theweek.in - NIMHANS-2 announcement (Budget 2026-27, 1 Feb 2026); 3 new All India Institutes of Ayurveda; WHO Global Traditional Medicine Centre, Jamnagar" }
   ],
-  "researchNotes": "Sixth Science current-affairs topic, opening Part A's 6th rotation lap (note: from here, Part A's topic numbering continues incrementing as a 6th lap, while Part C switches to its newly-decided rotation strategy — repeating its existing 83 topics in original order, starting today). Deliberately distinct from the already-covered Biopharma SHAKTI (Day 70) and India Semiconductor Mission (Day 66) Budget 2026-27 items.",
+  "researchNotes": "Sixth Science current-affairs topic, opening Part A's 6th rotation lap (note: from here, Part A's topic numbering continues incrementing as a 6th lap, while Part C switches to its newly-decided rotation strategy — repeating its existing 83 topics in original order, starting today). Deliberately distinct from the already-covered Biopharma SHAKTI (Day 70) and India Semiconductor Mission (Day 66) Budget 2026-27 items. Expansion pass (Batch 18): added the AYUSH acronym breakdown for readers unfamiliar with the umbrella ministry.",
   "reading": {
     "intro": "Covers 2 Budget 2026-27 healthcare announcements: a second national mental-health institute (NIMHANS-2) and new Ayurveda/traditional-medicine infrastructure.",
     "qa": [
       { "id": "r01", "question": "What is NIMHANS-2, and when/where was it announced?", "answer": "A second National Institute of Mental Health and Neuro Sciences, announced in the Union Budget 2026-27 (1 February 2026) by Finance Minister Nirmala Sitharaman — proposed to be set up in NORTH India (the original NIMHANS is in Bengaluru)." },
       { "id": "r02", "question": "Why was North India specifically chosen for NIMHANS-2?", "answer": "Because there are currently NO national institutes for mental healthcare in North India — NIMHANS-2 aims to bridge this geographical gap in advanced mental-health infrastructure." },
       { "id": "r03", "question": "What related mental-health infrastructure upgrade was also announced in Budget 2026-27?", "answer": "Upgrading the premier mental-health institutions at Ranchi and Tezpur into Regional Apex Institutions, alongside proposed Emergency and Trauma Care Centres in every district hospital nationwide." },
-      { "id": "r04", "question": "What new Ayurveda/traditional-medicine infrastructure did Budget 2026-27 propose?", "answer": "3 new All India Institutes of Ayurveda, upgrades to AYUSH pharmacies and Drug Testing Labs, and an upgrade to the WHO Global Traditional Medicine Centre at Jamnagar (Gujarat)." }
+      { "id": "r04", "question": "What new Ayurveda/traditional-medicine infrastructure did Budget 2026-27 propose?", "answer": "3 new All India Institutes of Ayurveda, upgrades to AYUSH pharmacies and Drug Testing Labs, and an upgrade to the WHO Global Traditional Medicine Centre at Jamnagar (Gujarat)." },
+      { "id": "r05", "question": "What does AYUSH stand for, as the umbrella ministry covering India's traditional medicine systems?", "answer": "Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homoeopathy — the Ministry of AYUSH oversees research, education, and infrastructure across all five of these traditional/alternative medicine systems." }
     ]
   },
   "mockTest": {
@@ -21,7 +22,8 @@
       { "id": "m02", "prompt": "The original NIMHANS (after which NIMHANS-2 is modelled) is located in:", "options": ["Chennai", "Bengaluru", "Hyderabad", "Delhi"], "correctIndex": 1, "explanation": "Bengaluru.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m03", "prompt": "Which 2 mental-health institutions were proposed for upgrade to Regional Apex Institutions in Budget 2026-27?", "options": ["Ranchi and Tezpur", "Pune and Nagpur", "Lucknow and Patna", "Bhopal and Jaipur"], "correctIndex": 0, "explanation": "Ranchi and Tezpur.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "Budget 2026-27 proposed setting up how many new All India Institutes of Ayurveda?", "options": ["1", "2", "3", "5"], "correctIndex": 2, "explanation": "3.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "The WHO Global Traditional Medicine Centre, slated for an upgrade in Budget 2026-27, is located at:", "options": ["Jamnagar", "Rishikesh", "Varanasi", "Pune"], "correctIndex": 0, "explanation": "Jamnagar, Gujarat.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "The WHO Global Traditional Medicine Centre, slated for an upgrade in Budget 2026-27, is located at:", "options": ["Jamnagar", "Rishikesh", "Varanasi", "Pune"], "correctIndex": 0, "explanation": "Jamnagar, Gujarat.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "AYUSH, the ministry overseeing India's traditional medicine systems, stands for Ayurveda, Yoga & Naturopathy, Unani, Siddha, and:", "options": ["Sports Medicine", "Homoeopathy", "Physiotherapy", "Nutrition Science"], "correctIndex": 1, "explanation": "Homoeopathy.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

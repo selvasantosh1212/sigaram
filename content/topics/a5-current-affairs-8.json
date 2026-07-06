@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "edunovations.com/theresearchers.us - UPI's May 2026 record (₹29.90 trillion); 2025 full-year stats (228.5 billion transactions); UPI's global real-time-payments dominance" }
   ],
-  "researchNotes": "Ninth Economy current-affairs topic (8th lap). UPI/digital-payments statistics are inherently fast-moving (new monthly records appear constantly) — handled by explicitly dating each figure to its specific month/year rather than presenting any single number as a permanently fixed 'current' fact.",
+  "researchNotes": "Ninth Economy current-affairs topic (8th lap). UPI/digital-payments statistics are inherently fast-moving (new monthly records appear constantly) — handled by explicitly dating each figure to its specific month/year rather than presenting any single number as a permanently fixed 'current' fact. Expansion pass (Batch 21): added NPCI/RBI's institutional role and UPI's cross-border expansion (e.g., UPI-PayNow with Singapore).",
   "reading": {
     "intro": "Covers UPI's record-breaking 2026 transaction volumes and its position as the world's largest real-time payments platform.",
     "qa": [
@@ -13,7 +13,9 @@
       { "id": "r02", "question": "What were UPI's full-year 2025 statistics?", "answer": "228.5 billion transactions (a 33% year-on-year increase) worth a total of ₹299.74 trillion." },
       { "id": "r03", "question": "What is UPI's standing among the world's real-time payment systems?", "answer": "The world's LARGEST real-time payments platform — accounting for nearly half of all real-time transactions worldwide." },
       { "id": "r04", "question": "What share of India's total digital payment volume does UPI command, and how many unique users does it have (early 2026)?", "answer": "Nearly 85% of India's total digital payment volume; over 500 million unique users." },
-      { "id": "r05", "question": "What is UPI's projected daily transaction volume by FY2028?", "answer": "1 billion transactions per day." }
+      { "id": "r05", "question": "What is UPI's projected daily transaction volume by FY2028?", "answer": "1 billion transactions per day." },
+      { "id": "r06", "question": "Which organisation operates UPI, and under whose regulatory oversight does it function?", "answer": "The National Payments Corporation of India (NPCI) operates UPI, functioning under the regulatory oversight of the Reserve Bank of India (RBI)." },
+      { "id": "r07", "question": "Beyond India, in which countries has UPI or UPI-like interoperability been extended?", "answer": "UPI has been extended for cross-border use in countries including Singapore (UPI-PayNow linkage), UAE, Sri Lanka, Mauritius, France, Bhutan, and Nepal — part of India's push to internationalise its digital payments infrastructure." }
     ]
   },
   "mockTest": {
@@ -22,7 +24,9 @@
       { "id": "m02", "prompt": "In full-year 2025, UPI processed how many total transactions?", "options": ["128.5 billion", "178.5 billion", "228.5 billion", "278.5 billion"], "correctIndex": 2, "explanation": "228.5 billion (33% YoY growth).", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m03", "prompt": "UPI is recognized as the world's largest real-time payments platform, accounting for approximately what share of global real-time transactions?", "options": ["Nearly 25%", "Nearly 50%", "Nearly 75%", "Nearly 90%"], "correctIndex": 1, "explanation": "Nearly half (50%).", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "UPI commands approximately what share of India's total digital payment volume?", "options": ["55%", "65%", "75%", "85%"], "correctIndex": 3, "explanation": "Nearly 85%.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "UPI is projected to reach 1 billion transactions per DAY by:", "options": ["FY2026", "FY2027", "FY2028", "FY2030"], "correctIndex": 2, "explanation": "FY2028.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "UPI is projected to reach 1 billion transactions per DAY by:", "options": ["FY2026", "FY2027", "FY2028", "FY2030"], "correctIndex": 2, "explanation": "FY2028.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "UPI is operated by which organisation, under RBI's regulatory oversight?", "options": ["SBI", "National Payments Corporation of India (NPCI)", "SEBI", "IRDAI"], "correctIndex": 1, "explanation": "National Payments Corporation of India (NPCI).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "UPI's cross-border linkage with Singapore's real-time payment system is called:", "options": ["UPI-PayNow", "UPI-Alipay", "UPI-Swift", "UPI-Venmo"], "correctIndex": 0, "explanation": "UPI-PayNow.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

@@ -8,7 +8,7 @@
   ],
   "researchNotes": "OCR index search for 'your space'/'david bates' returned zero hits — web research only. Raw pool of 6 sourced MCQs plus summary material on the poem's three addressed groups (children, the elderly, the poor) — all kept since each tests a distinct fact.",
   "reading": {
-    "intro": "A didactic poem urging gentle, kind speech toward everyone — especially children, the elderly, and the poor. Real coaching-site evidence tests theme, in-context word meaning, and figure-of-speech together, similar to the other Guest/Van-Dyke-style moral poems already covered.",
+    "intro": "A didactic poem urging gentle, kind speech toward everyone — especially children, the elderly, and the poor. Real coaching-site evidence tests theme, in-context word meaning, and figure-of-speech together, similar to the other Guest/Van-Dyke-style moral poems already covered. Expansion pass (Batch 20): added the poem's repeated refrain-like structure across its three addressed groups.",
     "qa": [
       { "id": "r01", "question": "What is the central theme/message of \"Your Space\"?", "answer": "Speak gently and kindly — to everyone, but especially to children, the elderly, and the poor. Harsh words can ruin the good we might otherwise do; kindness builds trust and love far better than fear or force does." },
       { "id": "r02", "question": "Why does the poet say we should speak gently to children specifically?", "answer": "To earn their trust and love — childhood is brief, and gentle, caring words said to children in that short period are the ones they'll remember always." },
@@ -16,7 +16,8 @@
       { "id": "r04", "question": "Why does the poet urge gentle speech toward the poor?", "answer": "The poor are already suffering in an unkind world — there's no need to add to that suffering with harsh tones or unkind words." },
       { "id": "r05", "question": "What does \"Sands of life are nearly run\" refer to?", "answer": "Time running out for the aged — an image of an hourglass nearly empty, used to describe someone near the end of their life." },
       { "id": "r06", "question": "What does \"mar\" mean in \"let not harsh words mar the good we might do here\"?", "answer": "Ruin/spoil — harsh words can ruin good deeds, even when the deeds themselves were well-intentioned." },
-      { "id": "r07", "question": "Identify the figure of speech in \"Speak gently! – 'tis a little thing / Dropped in the heart's deep well.\"", "answer": "Metaphor — a spoken word is described AS something physically 'dropped' into the heart, pictured as a 'deep well', without using 'like/as'." }
+      { "id": "r07", "question": "Identify the figure of speech in \"Speak gently! – 'tis a little thing / Dropped in the heart's deep well.\"", "answer": "Metaphor — a spoken word is described AS something physically 'dropped' into the heart, pictured as a 'deep well', without using 'like/as'." },
+      { "id": "r08", "question": "What repeated structural device does the poem use across its stanzas, given it addresses three different groups (children, elderly, poor)?", "answer": "A repeated refrain-like structure — each stanza opens with 'Speak gently to...' before naming the specific group and giving a reason, creating a parallel, sermon-like rhythm that reinforces the poem's single unifying message (gentleness) across its different audiences." }
     ]
   },
   "mockTest": {
@@ -26,7 +27,8 @@
       { "id": "m03", "prompt": "In the poem, why should we speak gently to a child?", "options": ["To avoid punishment", "To earn their trust and love", "To teach discipline", "To save time"], "correctIndex": 1, "explanation": "To earn their trust and love.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "\"Sands of life are nearly run\" refers to:", "options": ["A desert trip", "Time running out for the aged", "A sand-clock game", "A beach adventure"], "correctIndex": 1, "explanation": "Time running out for the aged.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m05", "prompt": "In \"let not harsh words mar the good we might do here,\" the word \"mar\" means:", "options": ["Help", "Fix", "Ruin", "Repair"], "correctIndex": 2, "explanation": "Ruin/spoil.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m06", "prompt": "\"Speak gently! – 'tis a little thing / Dropped in the heart's deep well\" uses which figure of speech?", "options": ["Simile", "Personification", "Metaphor", "Alliteration"], "correctIndex": 2, "explanation": "Metaphor — a spoken word equated with something dropped into a 'deep well'.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m06", "prompt": "\"Speak gently! – 'tis a little thing / Dropped in the heart's deep well\" uses which figure of speech?", "options": ["Simile", "Personification", "Metaphor", "Alliteration"], "correctIndex": 2, "explanation": "Metaphor — a spoken word equated with something dropped into a 'deep well'.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "The poem's repeated 'Speak gently to...' opening across stanzas is best described as a:", "options": ["Refrain-like parallel structure reinforcing one message across audiences", "Random stylistic choice with no purpose", "A rhyme scheme device only", "A device unique to only one stanza"], "correctIndex": 0, "explanation": "A refrain-like parallel structure.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

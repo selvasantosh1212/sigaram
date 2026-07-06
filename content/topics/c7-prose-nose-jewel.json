@@ -15,7 +15,9 @@
       { "id": "r03", "question": "What did the male sparrow find, where, and what did he do with it?", "answer": "A diamond nose-stud, found in a muck-heap. He picked it up in his beak, brought it to Ramayya's house, and dropped it on the floor." },
       { "id": "r04", "question": "Real exam: When/how did Ramayya's wife notice the jewel, and how did she feel?", "answer": "While sweeping the floor — confirmed by a real exam question. She felt DELIGHTED upon finding it." },
       { "id": "r05", "question": "What did Ramayya suggest doing with the nose-stud, and whose was it?", "answer": "He suggested RETURNING it to its rightful owner rather than keeping it — reflecting his honesty despite his poverty. The stud belonged to Meenakshi Ammal's daughter, who had lost it." },
-      { "id": "r06", "question": "How did the female sparrow react to the jewel once it was brought to the nest/house?", "answer": "With indifference — she remained unimpressed/uninterested, consistent with her earlier dismissive attitude toward helping Ramayya at all." }
+      { "id": "r06", "question": "How did the female sparrow react to the jewel once it was brought to the nest/house?", "answer": "With indifference — she remained unimpressed/uninterested, consistent with her earlier dismissive attitude toward helping Ramayya at all." },
+      { "id": "r07", "question": "What moral does the fable convey through its contrasting characters?", "answer": "Honesty and compassion (represented by Ramayya and the male sparrow) are values worth upholding even amid poverty, contrasted with the female sparrow's self-interested indifference — the story rewards moral integrity over self-preservation or personal gain." },
+      { "id": "r08", "question": "What narrative device does Rajagopalachari use by having sparrows partly observe/frame the story?", "answer": "A Panchatantra-style animal-fable device, using non-human observers to comment on and frame human moral behaviour — a storytelling tradition rooted in classical Indian literature." }
     ]
   },
   "mockTest": {
@@ -27,7 +29,8 @@
       { "id": "m05", "prompt": "Real exam: When did Ramayya's wife notice the jewel?", "options": ["While sweeping the floor", "While washing the floor", "While dusting the floor", "While mopping the floor"], "correctIndex": 0, "explanation": "While sweeping the floor.", "sourceTag": "question-bank-2022", "difficulty": "hard" },
       { "id": "m06", "prompt": "How did Ramayya's wife feel when she found the diamond stud?", "options": ["Delighted", "Disappointed", "Anxious", "Indifferent"], "correctIndex": 0, "explanation": "Delighted.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m07", "prompt": "What did Ramayya suggest doing with the nose-stud?", "options": ["Keeping it", "Returning it to the owner", "Hiding it", "Selling it"], "correctIndex": 1, "explanation": "Returning it to the owner.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m08", "prompt": "Who had originally lost the nose-stud?", "options": ["Meenakshi Ammal's daughter", "The village headman's wife", "The maid-servant", "The shopkeeper"], "correctIndex": 0, "explanation": "Meenakshi Ammal's daughter.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m08", "prompt": "Who had originally lost the nose-stud?", "options": ["Meenakshi Ammal's daughter", "The village headman's wife", "The maid-servant", "The shopkeeper"], "correctIndex": 0, "explanation": "Meenakshi Ammal's daughter.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m09", "prompt": "The moral of \"The Nose Jewel\" is best summarized as:", "options": ["Wealth brings happiness", "Honesty and compassion matter even amid poverty", "Animals should not interfere in human affairs", "Sparrows are cleverer than humans"], "correctIndex": 1, "explanation": "Honesty and compassion matter even amid poverty.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

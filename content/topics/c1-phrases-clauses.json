@@ -6,7 +6,7 @@
     { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC MCQ sets (Phrases and Clauses, 12 questions total)" },
     { "type": "question-bank", "label": "2024_q page 91 Q197-198; 2025_q1 page 42 Q97-98 (real, with answer key marks)" }
   ],
-  "researchNotes": "Seventh Grammar topic, combining fresh research with the complex-sentence/clause-identification evidence stashed since Day 76. The core distinguishing test throughout: a CLAUSE has its own subject+verb; a PHRASE does not.",
+  "researchNotes": "Seventh Grammar topic, combining fresh research with the complex-sentence/clause-identification evidence stashed since Day 76. The core distinguishing test throughout: a CLAUSE has its own subject+verb; a PHRASE does not. Expansion pass (Batch 17): added noun clauses (vs. adjective clauses) and the 4 common adverbial-clause types (time/reason/condition/contrast).",
   "reading": {
     "intro": "The key test for this whole topic: a CLAUSE has its own subject and verb; a PHRASE does not. Everything else (noun/adjective/adverb/prepositional phrase or clause; simple/complex sentence) builds on that one distinction.",
     "qa": [
@@ -20,7 +20,9 @@
       { "id": "r08", "question": "Real exam: which of these is an adjective clause — 'who was absent' / 'with much anger' / 'jumping quickly' / 'if you go'?", "answer": "Who was absent — an adjective clause (has subject 'who'/verb 'was', and describes/modifies a noun, e.g., 'The student who was absent...')." },
       { "id": "r09", "question": "Real exam: is 'One who does not love one's country is a wretched person' a simple, compound, or complex sentence?", "answer": "Complex — it contains a relative/noun clause ('who does not love one's country') embedded within the main clause." },
       { "id": "r10", "question": "Real exam: is the phrase 'A crown made of gold' a phrase or a clause, and what type?", "answer": "It is an ADJECTIVE PHRASE (describes the noun 'crown') — not a clause, since 'made of gold' has no subject+verb of its own (it's a reduced/participle phrase, not 'which is made of gold')." },
-      { "id": "r11", "question": "Real exam: combine \"I saw a Tiger. It was wounded\" into one sentence using a phrase/clause-combining technique.", "answer": "I saw a wounded Tiger — the second sentence's information is compressed into a single adjective ('wounded') modifying 'Tiger', avoiding a separate clause." }
+      { "id": "r11", "question": "Real exam: combine \"I saw a Tiger. It was wounded\" into one sentence using a phrase/clause-combining technique.", "answer": "I saw a wounded Tiger — the second sentence's information is compressed into a single adjective ('wounded') modifying 'Tiger', avoiding a separate clause." },
+      { "id": "r12", "question": "What is a NOUN CLAUSE, and how does it differ from an adjective clause?", "answer": "A NOUN CLAUSE functions as a noun (subject, object, or complement) in the sentence — e.g., 'What she said surprised everyone' (the clause 'What she said' is the subject). An ADJECTIVE CLAUSE instead modifies a noun/pronoun — e.g., 'The book that I read was interesting' ('that I read' describes 'book')." },
+      { "id": "r13", "question": "What is an ADVERBIAL CLAUSE, and what are its common types?", "answer": "A clause that functions like an adverb, modifying the verb by expressing time, reason, condition, purpose, or contrast — e.g., TIME: 'When she arrived, we left'; REASON: 'Because it rained, we stayed home'; CONDITION: 'If you study, you will pass'; CONTRAST: 'Although he was tired, he finished the race'." }
     ]
   },
   "mockTest": {
@@ -35,7 +37,9 @@
       { "id": "m08", "prompt": "A dependent clause is also called a ____.", "options": ["Complete sentence", "Subordinate clause", "Phrase", "Independent clause"], "correctIndex": 1, "explanation": "Subordinate clause.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m09", "prompt": "Which is an adjective clause?", "options": ["Who was absent", "With much anger", "Jumping quickly", "If you go"], "correctIndex": 0, "explanation": "Who was absent.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m10", "prompt": "\"One who does not love one's country is a wretched person.\" This is what type of sentence?", "options": ["Simple", "Compound", "Complex", "Imperative"], "correctIndex": 2, "explanation": "Complex (contains a relative/noun clause).", "sourceTag": "question-bank-2024", "difficulty": "medium" },
-      { "id": "m11", "prompt": "The phrase \"A crown made of gold\" is:", "options": ["An adjective phrase", "An adjective clause", "An adverbial phrase", "An adverbial clause"], "correctIndex": 0, "explanation": "An adjective phrase.", "sourceTag": "question-bank-2025", "difficulty": "hard" }
+      { "id": "m11", "prompt": "The phrase \"A crown made of gold\" is:", "options": ["An adjective phrase", "An adjective clause", "An adverbial phrase", "An adverbial clause"], "correctIndex": 0, "explanation": "An adjective phrase.", "sourceTag": "question-bank-2025", "difficulty": "hard" },
+      { "id": "m12", "prompt": "\"What she said surprised everyone.\" The underlined clause 'What she said' is a:", "options": ["Adjective clause", "Adverbial clause", "Noun clause", "Prepositional phrase"], "correctIndex": 2, "explanation": "Noun clause (acts as the subject).", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m13", "prompt": "\"Although he was tired, he finished the race.\" The underlined clause expresses:", "options": ["Time", "Reason", "Contrast", "Condition"], "correctIndex": 2, "explanation": "Contrast.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

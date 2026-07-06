@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "prsindia.org/scconline.com - Corporate Laws (Amendment) Bill, 2026 (introduced 23 March 2026, referred to a Joint Parliamentary Committee)" }
   ],
-  "researchNotes": "Tenth Polity current-affairs topic (9th lap). A useful companion to the Day-87 Jan Vishwas Bill topic — another major 2026 decriminalisation-focused bill, this time targeting corporate/company law specifically, and currently under JPC scrutiny rather than already passed.",
+  "researchNotes": "Tenth Polity current-affairs topic (9th lap). A useful companion to the Day-87 Jan Vishwas Bill topic — another major 2026 decriminalisation-focused bill, this time targeting corporate/company law specifically, and currently under JPC scrutiny rather than already passed. Expansion pass (Batch 22): added what a Joint Parliamentary Committee is and why complex bills get referred to one.",
   "reading": {
     "intro": "Covers the Corporate Laws (Amendment) Bill, 2026 — amending the Companies Act, 2013 and the LLP Act, 2008.",
     "qa": [
@@ -14,7 +14,8 @@
       { "id": "r03", "question": "What is the Bill's core decriminalisation approach?", "answer": "It replaces imprisonment/fine for several offences (e.g., failure to furnish information to the Registrar, violations of book-of-accounts requirements) with CIVIL PENALTIES instead." },
       { "id": "r04", "question": "What change does the Bill make to Corporate Social Responsibility (CSR) compliance?", "answer": "It raises/adjusts the net profit threshold for CSR applicability to ₹10 crore (or another prescribed sum) — companies meeting prescribed conditions below this threshold won't need to comply with CSR provisions." },
       { "id": "r05", "question": "What new flexibility does the Bill provide for Annual General Meetings (AGMs)?", "answer": "Companies may hold AGMs physically, via video conferencing, or other audio-visual means — but must still hold a PHYSICAL meeting at least once every 3 years." },
-      { "id": "r06", "question": "Which regulatory body does the Bill designate as the new 'Valuation Authority'?", "answer": "The Insolvency and Bankruptcy Board of India (IBBI) — responsible for registering/recognising valuers and recommending valuation standards to the government." }
+      { "id": "r06", "question": "Which regulatory body does the Bill designate as the new 'Valuation Authority'?", "answer": "The Insolvency and Bankruptcy Board of India (IBBI) — responsible for registering/recognising valuers and recommending valuation standards to the government." },
+      { "id": "r07", "question": "What is a Joint Parliamentary Committee (JPC), and why might a Bill be referred to one instead of being voted on directly?", "answer": "A JPC is a temporary committee with members from BOTH Houses of Parliament, formed to examine a specific Bill in detail — taking stakeholder input, expert testimony, and clause-by-clause review before the Bill returns to Parliament for a final vote. Complex, high-impact legislation (like major corporate-law changes affecting millions of companies) is often referred to a JPC to ensure thorough scrutiny before passage." }
     ]
   },
   "mockTest": {
@@ -23,7 +24,8 @@
       { "id": "m02", "prompt": "The Corporate Laws (Amendment) Bill, 2026 amends the Companies Act, 2013 and which other Act?", "options": ["The SEBI Act, 1992", "The LLP Act, 2008", "The Competition Act, 2002", "The Insolvency and Bankruptcy Code, 2016"], "correctIndex": 1, "explanation": "The LLP Act, 2008.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "The Bill's decriminalisation approach replaces imprisonment/fine for several offences with:", "options": ["Civil penalties", "Community service", "Automatic company dissolution", "No penalty at all"], "correctIndex": 0, "explanation": "Civil penalties.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "Under the Bill, companies must hold a physical AGM at least once every:", "options": ["1 year", "2 years", "3 years", "5 years"], "correctIndex": 2, "explanation": "3 years.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "The Bill designates which body as the new 'Valuation Authority'?", "options": ["SEBI", "RBI", "IBBI", "NCLT"], "correctIndex": 2, "explanation": "IBBI (Insolvency and Bankruptcy Board of India).", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "The Bill designates which body as the new 'Valuation Authority'?", "options": ["SEBI", "RBI", "IBBI", "NCLT"], "correctIndex": 2, "explanation": "IBBI (Insolvency and Bankruptcy Board of India).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "A Joint Parliamentary Committee (JPC) is formed to:", "options": ["Replace the need for a Parliament vote entirely", "Examine a Bill in detail with members from both Houses before it returns for a final vote", "Only include Lok Sabha members", "Approve the Bill without further debate"], "correctIndex": 1, "explanation": "Detailed examination with members from both Houses before the final vote.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

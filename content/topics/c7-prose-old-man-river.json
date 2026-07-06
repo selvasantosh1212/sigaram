@@ -14,7 +14,9 @@
       { "id": "r03", "question": "Who is Amy Marshall, and how many children/young people are involved in the rescue situation overall?", "answer": "Amy Marshall is the ELDEST child in the family. Five children/young people are involved in the rescue situation in total." },
       { "id": "r04", "question": "What is Jim Hall's role in the drama, and what does the radio report about the river?", "answer": "Jim Hall is a Junior Red Cross emergency team member. The radio reports that the river has CROSSED FLOOD STAGE." },
       { "id": "r05", "question": "What happens to the house's power supply and stove during the emergency, and what does Betty use for lighting instead?", "answer": "The power supply goes OUT. The house has an OIL-OPERATED stove. Betty uses a flashlight and candles for lighting during the outage." },
-      { "id": "r06", "question": "Who is Sara Field, how old is she, and where was she rescued from?", "answer": "Sara Field is a 9-year-old girl who needs to be rescued during the flood — she was on the playhouse porch before being rescued." }
+      { "id": "r06", "question": "Who is Sara Field, how old is she, and where was she rescued from?", "answer": "Sara Field is a 9-year-old girl who needs to be rescued during the flood — she was on the playhouse porch before being rescued." },
+      { "id": "r07", "question": "What overall theme does the drama convey through the children's response to the flood?", "answer": "Courage, teamwork, and responsibility under pressure — showing that young people, even without adult supervision, can rise to handle a genuine emergency competently and calmly." },
+      { "id": "r08", "question": "Why is the fact that this piece is a DRAMA (not a story or poem) significant for how it's likely to be tested?", "answer": "Since it's a script, exam questions tend to focus on stage-direction-level facts — settings, props, character roles, and sequence of events — rather than the figure-of-speech questions common for poems." }
     ]
   },
   "mockTest": {
@@ -28,7 +30,8 @@
       { "id": "m07", "prompt": "What did the radio report about the river?", "options": ["It was dry", "It had crossed flood stage", "It was clean", "It was freezing"], "correctIndex": 1, "explanation": "It had crossed flood stage.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "What happened to the power supply in the Marshall house during the flood?", "options": ["It worked fine", "It brightened", "It fluctuated", "It went out"], "correctIndex": 3, "explanation": "It went out.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m09", "prompt": "How old is Sara Field, and where was she before being rescued?", "options": ["8 years old; kitchen", "9 years old; playhouse porch", "10 years old; attic", "7 years old; roof"], "correctIndex": 1, "explanation": "9 years old; playhouse porch.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m10", "prompt": "What did Betty use for lighting during the power outage?", "options": ["Lamps", "Torches only", "Flashlight and candles", "A lighter"], "correctIndex": 2, "explanation": "Flashlight and candles.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m10", "prompt": "What did Betty use for lighting during the power outage?", "options": ["Lamps", "Torches only", "Flashlight and candles", "A lighter"], "correctIndex": 2, "explanation": "Flashlight and candles.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m11", "prompt": "The overall theme conveyed through the children's response to the flood is:", "options": ["Fear and panic", "Courage, teamwork, and responsibility under pressure", "Reliance entirely on adults", "Indifference to danger"], "correctIndex": 1, "explanation": "Courage, teamwork, and responsibility under pressure.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

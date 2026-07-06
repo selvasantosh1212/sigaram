@@ -16,7 +16,9 @@
       { "id": "r04", "question": "Real exam: Was Mithali discouraged from playing cricket by her family? What is the real story?", "answer": "NO — a real exam flagged 'Mithali was not encouraged to play cricket by her family' as FALSE. In reality, her father, Dorai Raj (a retired Indian Air Force officer), actively introduced her to the sport by taking her along to her brother's cricket coaching sessions at a young age." },
       { "id": "r05", "question": "Real exam: What specific consecutive-innings record is Mithali the first woman to achieve — and what's the common trap?", "answer": "She is the first woman to score SEVEN CONSECUTIVE FIFTIES (half-centuries) — NOT seven consecutive centuries, which a real exam tested as a false claim. Mixing up 'fifties' with 'centuries' is the trap to watch for." },
       { "id": "r06", "question": "What notable innings did Mithali play against South Africa in February 2018, and who else scored well in that match?", "answer": "She scored 76 not out. Smriti Mandhana also hit a stylish half-century in the same match." },
-      { "id": "r07", "question": "Approximately how many runs has Mithali scored in Women's ODIs?", "answer": "Over 6,000 runs." }
+      { "id": "r07", "question": "Approximately how many runs has Mithali scored in Women's ODIs?", "answer": "Over 6,000 runs." },
+      { "id": "r08", "question": "What broader message does this profile of Mithali Raj convey about women in Indian sports?", "answer": "That sustained excellence, family support, and breaking traditional expectations (a young girl pursuing competitive cricket) can lead to record-breaking success and national recognition, inspiring future generations of women athletes." },
+      { "id": "r09", "question": "What leadership role did Mithali Raj hold for the Indian team, beyond being a player?", "answer": "She captained the Indian women's team, leading them to the finals of both the 2005 and 2017 ICC Women's World Cup — one of the longest-serving and most successful captains in Indian women's cricket history." }
     ]
   },
   "mockTest": {
@@ -30,7 +32,8 @@
       { "id": "m07", "prompt": "At what age did Mithali start playing cricket, and at what age was she selected for the Indian team?", "options": ["Started at 7, selected at 15", "Started at 10, selected at 17", "Started at 12, selected at 19", "Started at 14, selected at 20"], "correctIndex": 1, "explanation": "Started at 10, selected at 17.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "What was Mithali's score in the February 2018 match against South Africa?", "options": ["56*", "66", "76*", "86"], "correctIndex": 2, "explanation": "76 not out.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m09", "prompt": "Who else scored a stylish half-century alongside Mithali in that same match against South Africa?", "options": ["Jhulan Goswami", "Harmanpreet Kaur", "Smriti Mandhana", "Shafali Verma"], "correctIndex": 2, "explanation": "Smriti Mandhana.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m10", "prompt": "Approximately how many runs has Mithali Raj scored in Women's ODIs?", "options": ["Over 3,000", "Over 4,000", "Over 5,000", "Over 6,000"], "correctIndex": 3, "explanation": "Over 6,000.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m10", "prompt": "Approximately how many runs has Mithali Raj scored in Women's ODIs?", "options": ["Over 3,000", "Over 4,000", "Over 5,000", "Over 6,000"], "correctIndex": 3, "explanation": "Over 6,000.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m11", "prompt": "Mithali Raj captained India to the finals of the ICC Women's World Cup in which two years?", "options": ["2005 and 2017", "2000 and 2010", "2011 and 2015", "2007 and 2019"], "correctIndex": 0, "explanation": "2005 and 2017.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

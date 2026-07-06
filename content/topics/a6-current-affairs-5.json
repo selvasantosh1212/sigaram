@@ -5,13 +5,15 @@
   "sourceRefs": [
     { "type": "web-research", "label": "drishtiias.com - Sangita Kalanidhi 2026 (Jayanthi Kumaresh) and Nritya Kalanidhi 2026 (Malavika Sarukkai), Music Academy Madras centenary" }
   ],
-  "researchNotes": "Fifth TN Culture current-affairs topic, completing Part A's 5th full rotation lap. Deliberately distinct from the State Awards (Day 59) and Diaspora Awards (Day 77) already covered — this is a 3rd, separate honours institution (The Music Academy, Madras), chosen specifically because its 2026 awards coincide with its own centenary, giving the topic extra substance.",
+  "researchNotes": "Fifth TN Culture current-affairs topic, completing Part A's 5th full rotation lap. Deliberately distinct from the State Awards (Day 59) and Diaspora Awards (Day 77) already covered — this is a 3rd, separate honours institution (The Music Academy, Madras), chosen specifically because its 2026 awards coincide with its own centenary, giving the topic extra substance. Expansion pass (Batch 18): added the December Music Season's connection to the award and Jayanthi Kumaresh's six-generation family lineage.",
   "reading": {
     "intro": "Covers The Music Academy, Madras's prestigious annual Carnatic music and dance titles — awarded in 2026 to mark the Academy's centenary.",
     "qa": [
       { "id": "r01", "question": "What is the Sangita Kalanidhi award, and who bestows it?", "answer": "The highest honour in Carnatic music (often called the 'Nobel Prize' of the field), awarded annually for lifetime contributions to music — bestowed by The Music Academy, Madras (founded 1928), which is celebrating its centenary in 2026-27." },
       { "id": "r02", "question": "Who received the Sangita Kalanidhi award in 2026, and for what is she known?", "answer": "Jayanthi Kumaresh — a veena exponent and sixth-generation musician, known for 'globalising the Saraswati Veena', founding the Indian National Orchestra, and performing at the United Nations and the Théâtre de la Ville in Paris." },
-      { "id": "r03", "question": "Who received the Nritya Kalanidhi (dance) title in 2026, and what milestone did it mark?", "answer": "Malavika Sarukkai, a veteran Bharatanatyam dancer — the title specifically marked the Music Academy's 100th (centenary) Dance Festival." }
+      { "id": "r03", "question": "Who received the Nritya Kalanidhi (dance) title in 2026, and what milestone did it mark?", "answer": "Malavika Sarukkai, a veteran Bharatanatyam dancer — the title specifically marked the Music Academy's 100th (centenary) Dance Festival." },
+      { "id": "r04", "question": "What is the Music Academy's annual December Music Season, and how does it relate to the Sangita Kalanidhi award?", "answer": "A month-long Carnatic music festival held every December in Chennai, featuring hundreds of concerts by artists across generations — the Sangita Kalanidhi award is traditionally announced/conferred as part of this Music Season, making Chennai a globally recognised hub for Carnatic music during that period." },
+      { "id": "r05", "question": "Why is Jayanthi Kumaresh's Sangita Kalanidhi notable in terms of gender representation in this award's history?", "answer": "She is among a relatively small number of women to receive the award in its history, and her recognition for 'globalising the Saraswati Veena' highlights how a traditionally male-dominated instrument's performance lineage has been carried forward by a female virtuoso across six generations of her family." }
     ]
   },
   "mockTest": {
@@ -20,7 +22,9 @@
       { "id": "m02", "prompt": "The Sangita Kalanidhi and Nritya Kalanidhi titles are bestowed by:", "options": ["Sangeet Natak Akademi", "The Music Academy, Madras", "Tamil Nadu Government", "Sahitya Akademi"], "correctIndex": 1, "explanation": "The Music Academy, Madras (founded 1928).", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "Jayanthi Kumaresh, the Sangita Kalanidhi 2026 recipient, is known as an exponent of which instrument?", "options": ["Mridangam", "Veena", "Violin", "Flute"], "correctIndex": 1, "explanation": "Veena (Saraswati Veena).", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "Malavika Sarukkai received the Nritya Kalanidhi 2026 title, marking the Music Academy's:", "options": ["50th Dance Festival", "75th Dance Festival", "100th Dance Festival", "125th Dance Festival"], "correctIndex": 2, "explanation": "100th (centenary) Dance Festival.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "The Music Academy, Madras was founded in:", "options": ["1916", "1928", "1947", "1956"], "correctIndex": 1, "explanation": "1928.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "The Music Academy, Madras was founded in:", "options": ["1916", "1928", "1947", "1956"], "correctIndex": 1, "explanation": "1928.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "The Music Academy's month-long Carnatic music festival, during which the Sangita Kalanidhi is traditionally conferred, is held every:", "options": ["January", "June", "December", "October"], "correctIndex": 2, "explanation": "December (the 'December Music Season').", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "Jayanthi Kumaresh is recognised across how many generations of her family's veena-playing lineage?", "options": ["Second", "Fourth", "Sixth", "Eighth"], "correctIndex": 2, "explanation": "Sixth generation.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "civilserviceaspirants.in - 2 dedicated TNPSC MCQ sets (Punctuation, 12 questions total)" }
   ],
-  "researchNotes": "Tenth and final planned Grammar topic — closing out Part C Unit I at 10 topics (slightly above the original ~9 estimate, justified by real evidence density across Day 76-80's unusually rich finds). With this, Part C Units I-VI are now FULLY exhausted, requiring the same kind of post-exhaustion decision already made for Part A's current-affairs rotation.",
+  "researchNotes": "Tenth and final planned Grammar topic — closing out Part C Unit I at 10 topics (slightly above the original ~9 estimate, justified by real evidence density across Day 76-80's unusually rich finds). With this, Part C Units I-VI are now FULLY exhausted, requiring the same kind of post-exhaustion decision already made for Part A's current-affairs rotation. Expansion pass (Batch 17): added the colon-vs-semicolon distinction and the singular/plural possessive-apostrophe rule.",
   "reading": {
     "intro": "Tests correct use of commas (lists, pauses), semicolons (joining related independent clauses), quotation marks (direct speech), apostrophes (possession), periods/question marks (sentence-ending), and colons.",
     "qa": [
@@ -14,7 +14,9 @@
       { "id": "r03", "question": "What is the purpose of quotation marks, and how should this sentence be correctly punctuated: She said, I am coming home late.?", "answer": "Quotation marks enclose direct speech/dialogue. Correctly punctuated: She said, \"I am coming home late.\" (comma after 'said', then the exact quoted words inside quotation marks)." },
       { "id": "r04", "question": "How should a list of 3+ items be correctly punctuated — \"I will bring cake ice cream and drinks\"?", "answer": "I will bring cake, ice cream, and drinks. (Commas separate each item in the list, including before 'and' — the 'Oxford/serial comma' — and 'ice cream' stays as 2 separate words, not hyphenated 'ice-cream'.)" },
       { "id": "r05", "question": "How should a quoted WH-question within a sentence be punctuated — Where are you going she asked?", "answer": "\"Where are you going?\" she asked. (The question mark goes INSIDE the closing quotation mark, since the question belongs to the quoted speech itself; the sentence as a whole then ends with a period, not a second question mark.)" },
-      { "id": "r06", "question": "Which punctuation mark indicates possession, and which is used to complete: \"I am not sure ___ I will go\"?", "answer": "Apostrophe (possession, e.g., \"Ravi's book\"). For the blank: Semicolon — joining 'I am not sure' and 'I will go' as 2 related clauses without a conjunction." }
+      { "id": "r06", "question": "Which punctuation mark indicates possession, and which is used to complete: \"I am not sure ___ I will go\"?", "answer": "Apostrophe (possession, e.g., \"Ravi's book\"). For the blank: Semicolon — joining 'I am not sure' and 'I will go' as 2 related clauses without a conjunction." },
+      { "id": "r07", "question": "What is the purpose of a COLON, and how does it differ from a semicolon?", "answer": "A colon INTRODUCES something — a list, an explanation, or a quotation (e.g., 'She bought three items: milk, bread, and eggs'). A semicolon JOINS two related independent clauses of roughly equal weight — it doesn't introduce anything, it connects two complete thoughts." },
+      { "id": "r08", "question": "How does an apostrophe correctly show possession for a SINGULAR noun ending in 's' (e.g., 'James'), versus a PLURAL noun ending in 's' (e.g., 'the students')?", "answer": "Singular noun ending in 's': add apostrophe + s — \"James's book\" (though \"James' book\" is also widely accepted). Plural noun already ending in 's': add ONLY an apostrophe — \"the students' books\" (NOT \"student's\" or \"students's\")." }
     ]
   },
   "mockTest": {
@@ -28,7 +30,9 @@
       { "id": "m07", "prompt": "Identify the correctly punctuated sentence.", "options": ["\"Where are you going?\" she asked.", "Where are you going, she asked?", "Where are you going she asked?", "She asked, where are you going?"], "correctIndex": 0, "explanation": "\"Where are you going?\" she asked.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "Which punctuation mark is used to indicate possession?", "options": ["Apostrophe", "Hyphen", "Quotation mark", "Colon"], "correctIndex": 0, "explanation": "Apostrophe.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m09", "prompt": "Choose the correct punctuation mark to complete: \"I am not sure ___ I will go.\"", "options": ["Semicolon", "Colon", "Period", "Comma"], "correctIndex": 0, "explanation": "Semicolon.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m10", "prompt": "Which punctuation mark is used to separate items in a list?", "options": ["Hyphen", "Comma", "Period", "Colon"], "correctIndex": 1, "explanation": "Comma.", "sourceTag": "web-research", "difficulty": "easy" }
+      { "id": "m10", "prompt": "Which punctuation mark is used to separate items in a list?", "options": ["Hyphen", "Comma", "Period", "Colon"], "correctIndex": 1, "explanation": "Comma.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m11", "prompt": "Which punctuation mark is used to introduce a list or explanation, unlike a semicolon which joins two clauses?", "options": ["Colon", "Apostrophe", "Hyphen", "Comma"], "correctIndex": 0, "explanation": "Colon.", "sourceTag": "authored", "difficulty": "medium", "trick": "Colon = introduces (points forward to what follows); semicolon = connects two complete, equal thoughts." },
+      { "id": "m12", "prompt": "How should possession be shown for the plural noun 'students' (i.e., belonging to multiple students)?", "options": ["Student's books", "Students's books", "Students' books", "Studentes' books"], "correctIndex": 2, "explanation": "Students' books — plural ending in 's' takes only an apostrophe.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

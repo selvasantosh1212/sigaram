@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "civilserviceaspirants.in - 2-page question set covering figures of speech, theme, vocabulary" }
   ],
-  "researchNotes": "OCR index search for 'chivalry'/'krokos' returned zero hits — web research only. Raw pool of 12 sourced MCQs split cleanly into three groups: figures of speech (4), theme/content (4), and in-context vocabulary meaning (4) — kept all 12 as reading since none overlap.",
+  "researchNotes": "OCR index search for 'chivalry'/'krokos' returned zero hits — web research only. Raw pool of 12 sourced MCQs split cleanly into three groups: figures of speech (4), theme/content (4), and in-context vocabulary meaning (4) — kept all 12 as reading since none overlap. Expansion pass (Batch 19): added the poem's broader generalisation of chivalry/adventure to everyday modern life.",
   "reading": {
     "intro": "A poem (from the Samacheer Kalvi Class 7/10 English anthology, depending on edition) celebrating knightly adventure, romance, and idealism. Real coaching-site evidence shows TNPSC tests figures of speech, the poem's theme, AND in-context vocabulary meaning roughly equally — cover all three.",
     "qa": [
@@ -16,7 +16,8 @@
       { "id": "r05", "question": "Identify the figure of speech: \"adventures hide themselves\" and \"abated breath.\"", "answer": "Both are cited as Personification — giving 'adventures' a human-like ability to 'hide', and 'breath' the ability to be 'abated' (held back), as if it were acting with intent." },
       { "id": "r06", "question": "Identify the figure of speech: \"Maybe life itself is one big adventure.\"", "answer": "Metaphor — life is directly equated with 'one big adventure', without using 'like/as'." },
       { "id": "r07", "question": "In context, what does \"you bounce a bit\" convey, and what does \"transparent\" mean here?", "answer": "\"You bounce a bit\" conveys excitement (a physical sign of eager energy). \"Transparent\" in this poem means being open to experience, not literally see-through." },
-      { "id": "r08", "question": "In context, what do \"embrace you\" and \"days of yore\" mean?", "answer": "\"Embrace you\" means to welcome closely. \"Days of yore\" refers to ancient times (the historical setting of knights and chivalry)." }
+      { "id": "r08", "question": "In context, what do \"embrace you\" and \"days of yore\" mean?", "answer": "\"Embrace you\" means to welcome closely. \"Days of yore\" refers to ancient times (the historical setting of knights and chivalry)." },
+      { "id": "r09", "question": "What broader idea does the poem suggest about 'adventure' beyond just knights of the past?", "answer": "That the spirit of adventure/chivalry isn't limited to a historical era — the poem's closing suggestion that 'life itself is one big adventure' generalises the theme to everyday modern life, implying anyone can embody chivalric ideals (courage, romance, idealism) rather than it being an exclusively medieval trait." }
     ]
   },
   "mockTest": {
@@ -28,7 +29,8 @@
       { "id": "m05", "prompt": "Identify the figure of speech in \"adventures hide themselves.\"", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "correctIndex": 2, "explanation": "Personification — adventures are given the human ability to 'hide'.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m06", "prompt": "Identify the figure of speech in \"Maybe life itself is one big adventure.\"", "options": ["Metaphor", "Simile", "Irony", "Personification"], "correctIndex": 0, "explanation": "Metaphor — life is directly equated with adventure.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "In the poem, \"transparent\" is used to mean:", "options": ["Invisible", "Open to experience", "Weak", "Lost"], "correctIndex": 1, "explanation": "Open to experience.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m08", "prompt": "\"Days of yore\" refers to:", "options": ["Modern age", "Ancient times", "The future", "Teenage years"], "correctIndex": 1, "explanation": "Ancient times.", "sourceTag": "web-research", "difficulty": "easy" }
+      { "id": "m08", "prompt": "\"Days of yore\" refers to:", "options": ["Modern age", "Ancient times", "The future", "Teenage years"], "correctIndex": 1, "explanation": "Ancient times.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "The poem's suggestion that 'life itself is one big adventure' implies that the spirit of chivalry:", "options": ["Is exclusive to medieval knights", "Can be embodied by anyone in everyday modern life", "No longer has any relevance", "Only applies to soldiers"], "correctIndex": 1, "explanation": "Can be embodied by anyone in everyday modern life.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

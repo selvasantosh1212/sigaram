@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "ddnews.gov.in/zeebiz.com - CCEA's MSP approval for 14 Kharif crops (2026-27); estimated ₹2.60 lakh crore farmer payout; PM-KISAN's ₹63,500cr Budget 2026-27 allocation" }
   ],
-  "researchNotes": "Thirteenth Economy current-affairs topic (10th lap). MSP figures are dated to a specific marketing season (2026-27) and approved by a specific Cabinet body (CCEA) — a stable, citable policy decision rather than a constantly-revising statistic.",
+  "researchNotes": "Thirteenth Economy current-affairs topic (10th lap). MSP figures are dated to a specific marketing season (2026-27) and approved by a specific Cabinet body (CCEA) — a stable, citable policy decision rather than a constantly-revising statistic. Expansion pass (Batch 22): added the basic PM-KISAN benefit structure and MSP's core economic purpose, for readers unfamiliar with either scheme's fundamentals.",
   "reading": {
     "intro": "Covers the Cabinet's MSP approval for Kharif crops (2026-27) and the PM-KISAN scheme's Budget 2026-27 allocation.",
     "qa": [
@@ -13,7 +13,9 @@
       { "id": "r02", "question": "Which crop received the highest absolute MSP increase for 2026-27, and by how much?", "answer": "Sunflower seed — a hike of ₹622 per quintal." },
       { "id": "r03", "question": "Name the next 3 crops (after sunflower seed) with the largest MSP increases, and their amounts.", "answer": "Cotton (+₹557/quintal), Nigerseed (+₹515/quintal), and Sesamum (+₹500/quintal)." },
       { "id": "r04", "question": "What is the estimated total farmer payout from MSP operations for the 2026-27 Kharif season?", "answer": "Approximately ₹2.60 lakh crore — one of the largest agricultural procurement support mechanisms." },
-      { "id": "r05", "question": "What was PM-KISAN's allocation in the Union Budget 2026-27?", "answer": "₹63,500 crore." }
+      { "id": "r05", "question": "What was PM-KISAN's allocation in the Union Budget 2026-27?", "answer": "₹63,500 crore." },
+      { "id": "r06", "question": "What is PM-KISAN, and what benefit does it provide to eligible farmers?", "answer": "Pradhan Mantri Kisan Samman Nidhi — a central scheme providing ₹6,000 per year (in 3 equal installments of ₹2,000 each) as direct income support to eligible landholding farmer families, transferred directly into their bank accounts." },
+      { "id": "r07", "question": "What is MSP (Minimum Support Price), and what is its basic economic purpose?", "answer": "A guaranteed minimum price the government commits to pay farmers for specified crops, regardless of market price fluctuations — protecting farmers from distress sales during a bumper harvest when market prices might crash below production cost." }
     ]
   },
   "mockTest": {
@@ -22,7 +24,9 @@
       { "id": "m02", "prompt": "Which crop received the highest absolute MSP increase for 2026-27 (₹622/quintal)?", "options": ["Cotton", "Sunflower seed", "Nigerseed", "Sesamum"], "correctIndex": 1, "explanation": "Sunflower seed.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "Cotton's MSP increase for 2026-27 was approximately:", "options": ["₹357/quintal", "₹457/quintal", "₹557/quintal", "₹657/quintal"], "correctIndex": 2, "explanation": "₹557/quintal.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "The estimated total farmer payout from MSP operations for 2026-27 Kharif crops is approximately:", "options": ["₹1.60 lakh crore", "₹2.10 lakh crore", "₹2.60 lakh crore", "₹3.10 lakh crore"], "correctIndex": 2, "explanation": "₹2.60 lakh crore.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "PM-KISAN's allocation in the Union Budget 2026-27 was:", "options": ["₹43,500 crore", "₹53,500 crore", "₹63,500 crore", "₹73,500 crore"], "correctIndex": 2, "explanation": "₹63,500 crore.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "PM-KISAN's allocation in the Union Budget 2026-27 was:", "options": ["₹43,500 crore", "₹53,500 crore", "₹63,500 crore", "₹73,500 crore"], "correctIndex": 2, "explanation": "₹63,500 crore.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "Under PM-KISAN, eligible farmer families receive how much per year, and in how many installments?", "options": ["₹4,000/year in 2 installments", "₹6,000/year in 3 installments", "₹8,000/year in 4 installments", "₹10,000/year in 2 installments"], "correctIndex": 1, "explanation": "₹6,000/year in 3 equal installments of ₹2,000 each.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "The core purpose of MSP (Minimum Support Price) is to:", "options": ["Maximise government revenue from crops", "Protect farmers from distress sales during price crashes", "Set the maximum retail price of food", "Regulate crop exports only"], "correctIndex": 1, "explanation": "Protect farmers from distress sales during price crashes.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

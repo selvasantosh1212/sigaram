@@ -6,9 +6,11 @@
     { "type": "question-bank", "label": "2025_q1 page 125 Q191 (style reference: multi-step Aptitude word problem)" },
     { "type": "web-research", "label": "tnpscguru.in - TNPSC Aptitude Simplification Questions & Answers" },
     { "type": "web-research", "label": "civilserviceaspirants.in - Simplification, TNPSC Group 2/2A" },
-    { "type": "authored", "label": "standard BODMAS/fraction/surd/algebraic-identity patterns, no direct past-paper hit needed for these — they are the topic's foundational mechanics" }
+    { "type": "authored", "label": "standard BODMAS/fraction/surd/algebraic-identity patterns, no direct past-paper hit needed for these — they are the topic's foundational mechanics" },
+    { "type": "question-bank", "label": "2017_q1 page 61 Q170 (algebraic factoring simplification, (2x⁴-162)/((x²+9)(2x-6)), with answer key, image-verified)" },
+    { "type": "authored", "label": "additional standard patterns for the Days 16-18 content-expansion pass: sum/difference-of-cubes identity, nested/continued fractions, LCM-based unlike-fraction addition, surd simplification, and a fresh difference-of-squares drill" }
   ],
-  "researchNotes": "Math topics don't decompose into discrete trivia facts the way General Studies does — the same handful of techniques (BODMAS order, fraction-of-decimal, ratio scaling, simultaneous equations, algebraic-identity shortcuts) get re-tested every year with different numbers. So the reading material teaches each technique once with a fully worked example (8 techniques, all kept — no real overlap to dedupe), and the mock test applies the *same* techniques to fresh numbers (12 problems) rather than reusing the reading numbers verbatim, so genuine application is tested, not memorized arithmetic. Two reading items and one mock item are anchored to real sourced past-paper numbers; the rest are standard authored drill problems for these same patterns — flagged transparently via sourceTag rather than dressed up as past-paper hits they aren't.",
+  "researchNotes": "Math topics don't decompose into discrete trivia facts the way General Studies does — the same handful of techniques (BODMAS order, fraction-of-decimal, ratio scaling, simultaneous equations, algebraic-identity shortcuts) get re-tested every year with different numbers. So the reading material teaches each technique once with a fully worked example (8 techniques, all kept — no real overlap to dedupe), and the mock test applies the *same* techniques to fresh numbers (12 problems) rather than reusing the reading numbers verbatim, so genuine application is tested, not memorized arithmetic. Two reading items and one mock item are anchored to real sourced past-paper numbers; the rest are standard authored drill problems for these same patterns — flagged transparently via sourceTag rather than dressed up as past-paper hits they aren't. APPEND-ONLY 2026-07 pass (this topic is also used on Day 1, already completed by the user — existing r01-r08/m01-m10 IDs and content untouched): re-scanned the OCR bank with 'simplify/BODMAS' keywords and found one genuine algebraic-factoring past-paper question (image-verified, difference-of-squares-style cancellation), then added standard authored patterns not yet covered (sum/difference of cubes, continued fractions, LCM fraction addition, surds) to round out technique coverage.",
   "reading": {
     "intro": "Simplification is 1 of 10 named Aptitude sub-skills (15 questions total for the whole Aptitude unit). TNPSC's simplification questions are rarely 'plug into one formula' — they combine BODMAS, fractions/decimals, ratios, and algebraic shortcuts. Each item below is a worked method, not just an answer — the goal is to recognize which technique a given expression calls for.",
     "qa": [
@@ -51,6 +53,33 @@
         "id": "r08",
         "question": "Method — mixed numbers with a nested fraction: Simplify 2½ + 3⅓ ÷ ⅔.",
         "answer": "BODMAS still applies to fractions — division before addition. 3⅓ ÷ ⅔ = (10/3) ÷ (2/3) = (10/3) × (3/2) = 5. Then 2½ + 5 = 7½. The common mistake is adding 2½+3⅓ first — division always binds tighter than addition, fractions or not."
+      },
+      {
+        "id": "r09",
+        "question": "Real exam (2017_q1 page 61 Q170): Simplify (2x⁴ − 162) / [(x² + 9)(2x − 6)].",
+        "answer": "Factor the numerator using difference of squares twice: 2x⁴−162 = 2(x⁴−81) = 2(x²−9)(x²+9) = 2(x−3)(x+3)(x²+9). The denominator is (x²+9)(2x−6) = (x²+9)×2×(x−3). Cancel the common (x²+9), the common 2, and the common (x−3) from top and bottom, leaving just (x+3) — the exam's marked answer.",
+        "tip": "Whenever you see a 4th-power term minus a perfect square number (like 162=2×81=2×9²), suspect a hidden 'difference of squares, applied twice' factoring — pull out the common factor first, then factor repeatedly rather than trying to divide the whole polynomial directly."
+      },
+      {
+        "id": "r10",
+        "question": "Method — sum of cubes shortcut: Simplify (5³ + 3³) ÷ (5 + 3) without adding the cubes directly.",
+        "answer": "Use a³+b³ = (a+b)(a²−ab+b²), so (a³+b³)/(a+b) = a²−ab+b² directly. Here a=5, b=3: 25−15+9 = 19. (Check by brute force: 125+27=152, and 152/8=19 ✓.)"
+      },
+      {
+        "id": "r11",
+        "question": "Method — continued/nested fraction: Simplify 2 + 1/(3 + 1/4).",
+        "answer": "Work from the innermost fraction outward: 3 + 1/4 = 13/4. Then 1/(13/4) = 4/13. Finally, 2 + 4/13 = 30/13 (or 2 4/13 as a mixed number). Nested fractions must always be resolved innermost-first, exactly like nested brackets in BODMAS."
+      },
+      {
+        "id": "r12",
+        "question": "Method — LCM-based addition/subtraction of unlike fractions: Simplify 3/4 + 5/6 − 1/3.",
+        "answer": "LCM of 4, 6, 3 is 12. Convert: 3/4=9/12, 5/6=10/12, 1/3=4/12. Sum: 9/12+10/12−4/12 = 15/12 = 5/4 (= 1¼). Always convert every fraction to the SAME denominator (the LCM) before adding or subtracting — never combine numerators across different denominators."
+      },
+      {
+        "id": "r13",
+        "question": "Method — surd (square root) simplification: Simplify √72 + √8 − √18.",
+        "answer": "Break each surd into a perfect-square factor times a smaller surd: √72=√(36×2)=6√2, √8=√(4×2)=2√2, √18=√(9×2)=3√2. Now they share the same √2 'unit' and combine like algebra terms: 6√2+2√2−3√2 = 5√2.",
+        "tip": "Treat √2 (or whatever surd remains after simplifying) exactly like a variable, e.g. 'x' — 6x+2x−3x=5x is the same arithmetic as 6√2+2√2−3√2=5√2. Surds can only be combined once they share the same root part."
       }
     ]
   },
@@ -145,6 +174,76 @@
         "explanation": "This is the (a+b)² pattern in disguise: a²+2ab+b² = (a+b)². Here a=89, b=11, so the answer is (89+11)² = 100² = 10,000 — no separate multiplication needed.",
         "sourceTag": "authored",
         "difficulty": "medium"
+      },
+      {
+        "id": "m11",
+        "prompt": "Simplify (2x⁴ − 32) / [(x² + 4)(2x − 4)] — same method as a real 2017 TNPSC question, fresh numbers.",
+        "options": ["x − 2", "x + 2", "x² − 4", "2x + 4"],
+        "correctIndex": 1,
+        "explanation": "2x⁴−32 = 2(x⁴−16) = 2(x²−4)(x²+4) = 2(x−2)(x+2)(x²+4). Denominator = (x²+4)×2×(x−2). Cancelling the common (x²+4), 2, and (x−2) leaves (x+2).",
+        "sourceTag": "authored",
+        "difficulty": "hard",
+        "trick": "Same shape as the real exam question: a 4th-power-minus-a-perfect-square numerator over a matching bracket pair always collapses via double difference-of-squares factoring."
+      },
+      {
+        "id": "m12",
+        "prompt": "Simplify (6³ + 4³) ÷ (6 + 4) using the sum-of-cubes identity.",
+        "options": ["26", "28", "30", "32"],
+        "correctIndex": 1,
+        "explanation": "a³+b³=(a+b)(a²−ab+b²), so dividing by (a+b) leaves a²−ab+b² = 36−24+16 = 28.",
+        "sourceTag": "authored",
+        "difficulty": "medium",
+        "trick": "Never add the cubes directly if you're then just going to divide by (a+b) — jump straight to a²−ab+b²."
+      },
+      {
+        "id": "m13",
+        "prompt": "Simplify 3 + 1/(2 + 1/3).",
+        "options": ["3 1/7", "3 3/7", "10/3", "22/7"],
+        "correctIndex": 1,
+        "explanation": "2 + 1/3 = 7/3. Then 1/(7/3) = 3/7. Finally 3 + 3/7 = 3 3/7.",
+        "sourceTag": "authored",
+        "difficulty": "medium",
+        "trick": "Resolve nested fractions innermost-first, exactly like nested BODMAS brackets."
+      },
+      {
+        "id": "m14",
+        "prompt": "Simplify 2/3 + 3/4 − 5/12.",
+        "options": ["11/12", "1", "5/6", "3/4"],
+        "correctIndex": 1,
+        "explanation": "LCM of 3, 4, 12 is 12: 2/3=8/12, 3/4=9/12, 5/12 stays as is. 8/12+9/12−5/12 = 12/12 = 1.",
+        "sourceTag": "authored",
+        "difficulty": "medium",
+        "trick": "Convert every fraction to the LCM denominator before combining numerators — never mix denominators."
+      },
+      {
+        "id": "m15",
+        "prompt": "Simplify √50 + √32 − √18.",
+        "options": ["4√2", "6√2", "5√2", "3√2"],
+        "correctIndex": 1,
+        "explanation": "√50=5√2, √32=4√2, √18=3√2. Sum: 5√2+4√2−3√2 = 6√2.",
+        "sourceTag": "authored",
+        "difficulty": "medium",
+        "trick": "Break each surd into (largest perfect square factor) × (remaining surd) first — then combine like algebraic terms."
+      },
+      {
+        "id": "m16",
+        "prompt": "Simplify: 15 × 4 − 20 ÷ 4 + 3².",
+        "options": ["64", "60", "70", "58"],
+        "correctIndex": 0,
+        "explanation": "BODMAS: 3²=9 first, then 15×4=60 and 20÷4=5. So 60−5+9 = 64.",
+        "sourceTag": "authored",
+        "difficulty": "easy",
+        "trick": "Resolve exponents and multiplication/division left-to-right before any addition/subtraction — a classic BODMAS-order check."
+      },
+      {
+        "id": "m17",
+        "prompt": "Find the value of 84² − 16² using the difference-of-squares identity.",
+        "options": ["5,600", "6,800", "5,000", "6,000"],
+        "correctIndex": 1,
+        "explanation": "a²−b²=(a+b)(a−b) = (84+16)(84−16) = 100×68 = 6,800.",
+        "sourceTag": "authored",
+        "difficulty": "medium",
+        "trick": "Any 'square minus square' expression collapses to (sum)×(difference) — almost always faster than squaring both numbers separately."
       }
     ]
   }

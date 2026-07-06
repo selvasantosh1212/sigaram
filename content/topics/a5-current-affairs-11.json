@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "wionews.com/marketsmithindia.com - RBI's June 2026 MPC meeting: repo rate held at 5.25%, GDP growth forecast cut to 6.6%, inflation projection raised to 5.1%" }
   ],
-  "researchNotes": "Fifteenth Economy current-affairs topic (11th lap). Anchored on a single dated MPC MEETING's specific outputs (not a constantly-revising monthly statistic) — framed explicitly as 'this meeting's forecast/decision' rather than asserting the forecast numbers as settled facts, distinguishing this FY27 forward-looking forecast from the FY26 actual growth figure (7.7%) already covered at Day 82.",
+  "researchNotes": "Fifteenth Economy current-affairs topic (11th lap). Anchored on a single dated MPC MEETING's specific outputs (not a constantly-revising monthly statistic) — framed explicitly as 'this meeting's forecast/decision' rather than asserting the forecast numbers as settled facts, distinguishing this FY27 forward-looking forecast from the FY26 actual growth figure (7.7%) already covered at Day 82. Expansion pass (Batch 23, closing out the content-expansion pass): added the neutral-vs-accommodative-vs-restrictive monetary policy stance distinction.",
   "reading": {
     "intro": "Covers the RBI's June 2026 Monetary Policy Committee (MPC) meeting outcomes — its repo-rate decision and revised forecasts.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "How did the RBI revise its GDP growth forecast at this meeting?", "answer": "Cut from 6.9% to 6.6% for the current fiscal year (a forward-looking FORECAST, distinct from the FY26 actual growth figure of ~7.7% covered separately)." },
       { "id": "r03", "question": "How did the RBI revise its inflation projection at this meeting?", "answer": "Raised from 4.6% to 5.1%; core inflation (excluding food and fuel) for FY27 was also revised up, from 4.4% to 4.7%." },
       { "id": "r04", "question": "What was India's retail inflation rate in May 2026, and what primarily drove it?", "answer": "3.9% (up from 3.5% in April 2026, the highest since January of the previous year) — driven largely by an uptick in FOOD inflation, while core inflation remained relatively benign." },
-      { "id": "r05", "question": "What factors does the RBI expect to push inflation higher going forward?", "answer": "Partial pass-through of higher energy prices to domestic pump prices, rising input prices, and expectations of a lower-than-normal monsoon." }
+      { "id": "r05", "question": "What factors does the RBI expect to push inflation higher going forward?", "answer": "Partial pass-through of higher energy prices to domestic pump prices, rising input prices, and expectations of a lower-than-normal monsoon." },
+      { "id": "r06", "question": "What is a 'neutral' monetary policy stance, and how does it differ from an 'accommodative' or 'restrictive' stance?", "answer": "NEUTRAL means the RBI is not pre-committed to either cutting or raising rates — it will move based on incoming data. ACCOMMODATIVE means a bias toward further rate CUTS to support growth. RESTRICTIVE (or 'tightening') means a bias toward further rate HIKES to control inflation. The RBI's June 2026 neutral stance signals data-dependent flexibility rather than a fixed future direction." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "At this meeting, the RBI revised its GDP growth forecast for the current fiscal year from 6.9% to:", "options": ["6.0%", "6.3%", "6.6%", "6.9% (unchanged)"], "correctIndex": 2, "explanation": "6.6%.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m03", "prompt": "At this meeting, the RBI revised its inflation projection from 4.6% to:", "options": ["4.8%", "5.1%", "5.4%", "5.7%"], "correctIndex": 1, "explanation": "5.1%.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "India's retail inflation in May 2026 was 3.9%, primarily driven by an uptick in:", "options": ["Fuel inflation", "Food inflation", "Housing costs", "Healthcare costs"], "correctIndex": 1, "explanation": "Food inflation.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "The RBI's June 2026 MPC decision on the repo rate was:", "options": ["A majority decision (4-2)", "A unanimous decision", "Deferred to the next meeting", "Decided by the Finance Minister"], "correctIndex": 1, "explanation": "A unanimous decision.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "The RBI's June 2026 MPC decision on the repo rate was:", "options": ["A majority decision (4-2)", "A unanimous decision", "Deferred to the next meeting", "Decided by the Finance Minister"], "correctIndex": 1, "explanation": "A unanimous decision.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "A 'neutral' monetary policy stance means the RBI is:", "options": ["Committed to only cutting rates going forward", "Committed to only raising rates going forward", "Not pre-committed to either direction, moving based on incoming data", "Freezing rates permanently"], "correctIndex": 2, "explanation": "Not pre-committed to either direction — data-dependent.", "sourceTag": "web-research", "difficulty": "medium", "trick": "Neutral = flexible/data-dependent; accommodative = bias to cut; restrictive/tightening = bias to hike." }
     ]
   }
 }

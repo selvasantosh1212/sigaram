@@ -13,7 +13,9 @@
       { "id": "r02", "question": "What food did Mani refuse to eat, and why?", "answer": "Potato curry (his usual favourite dish) — he refused because his TEACHER had told him potatoes are a foreign vegetable, and he wanted to eat only locally-grown food." },
       { "id": "r03", "question": "Where did Mani's mother get the potatoes from?", "answer": "From the market." },
       { "id": "r04", "question": "What is the real historical story of the chilli, told within this lesson?", "answer": "Chillies originally grew only in South America, unknown to the rest of the world. Christopher Columbus — while actually searching for a sea route to India to buy black pepper — instead reached South America and discovered the chilli there. Chillies were later brought to India by the Portuguese, first arriving in Goa, where local cooks began incorporating this new spice into their cuisine." },
-      { "id": "r05", "question": "What spice did Indian cooking commonly rely on BEFORE chillies arrived?", "answer": "Black pepper." }
+      { "id": "r05", "question": "What spice did Indian cooking commonly rely on BEFORE chillies arrived?", "answer": "Black pepper." },
+      { "id": "r06", "question": "What broader lesson does the story teach about food history and cultural exchange?", "answer": "That many foods considered 'traditional' or deeply embedded in a cuisine actually arrived through historical trade and exploration — global food history is full of such cross-cultural exchanges, and dismissing something as 'foreign' overlooks how deeply intertwined cultures have always been through trade." },
+      { "id": "r07", "question": "How does the story ultimately resolve Mani's objection to eating potatoes?", "answer": "After learning the fuller history of how foods like chillies travelled between continents and became naturalized into local cuisines, Mani comes to understand that a food's foreign origin doesn't make it any less legitimately part of local cuisine today — implicitly resolving his objection." }
     ]
   },
   "mockTest": {
@@ -25,7 +27,8 @@
       { "id": "m05", "prompt": "Who told Mani that potatoes are foreign vegetables?", "options": ["His mother", "His friend", "His teacher", "His grandfather"], "correctIndex": 2, "explanation": "His teacher.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m06", "prompt": "Where did Mani's mother get the potatoes from?", "options": ["Her garden", "The market", "A farm", "The forest"], "correctIndex": 1, "explanation": "The market.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "Christopher Columbus, while searching for a sea route to India to buy which spice, instead discovered South America and the chilli?", "options": ["Cinnamon", "Black pepper", "Cloves", "Cardamom"], "correctIndex": 1, "explanation": "Black pepper.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m08", "prompt": "Who brought chillies to India, and where did they first arrive?", "options": ["The British, in Madras", "The Portuguese, in Goa", "The French, in Pondicherry", "The Dutch, in Kerala"], "correctIndex": 1, "explanation": "The Portuguese, in Goa.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m08", "prompt": "Who brought chillies to India, and where did they first arrive?", "options": ["The British, in Madras", "The Portuguese, in Goa", "The French, in Pondicherry", "The Dutch, in Kerala"], "correctIndex": 1, "explanation": "The Portuguese, in Goa.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m09", "prompt": "The broader lesson the story teaches about food history is that:", "options": ["Foreign foods should be avoided", "Many 'traditional' foods actually arrived through historical trade and exploration", "Only local produce should ever be eaten", "Potatoes are unhealthy"], "correctIndex": 1, "explanation": "Many 'traditional' foods actually arrived through historical trade and exploration.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

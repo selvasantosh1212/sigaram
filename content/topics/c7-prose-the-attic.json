@@ -15,7 +15,9 @@
       { "id": "r03", "question": "What had Aditya done 29 years earlier that he finally confesses to, and who was the victim?", "answer": "As a child, Aditya had stolen a medal — a 'Special Prize for Recitation' (engraved 'Sriman Sasanka Sanyal — Special Prize for Recitation — 1948') — belonging to a boy named Sasanka Sanyal, and had hidden it in the attic of his ancestral house. He confesses this theft to Sanyal after 29 years, and the medal is finally restored to its rightful owner." },
       { "id": "r04", "question": "What was special about the attic, and what objects from childhood were found there?", "answer": "The attic was Aditya's favourite childhood place, a private world of his own (a common motif — attics being favoured spaces for children's imagination). Among the objects found there were a broken cricket bat, the remains of an armchair, and a wooden packing case." },
       { "id": "r05", "question": "What other factual details about the setting does the story establish — the house's age, the season of the visit, and a notable nearby landmark?", "answer": "Aditya's ancestral house was about 200 years old. The visit took place in the Bengali month of Maha (January/February). Opposite the tea shop in the town (owned by 'Nagen Uncle') stood a Shiva temple." },
-      { "id": "r06", "question": "What was Aditya's father's occupation?", "answer": "He was a landlord." }
+      { "id": "r06", "question": "What was Aditya's father's occupation?", "answer": "He was a landlord." },
+      { "id": "r07", "question": "What ultimately happens to the medal, and what does its return symbolize?", "answer": "It is finally restored to Sasanka Sanyal after 29 years, symbolizing the relief and moral resolution that comes from confession — Aditya's long-held guilt is lifted only once he makes amends." },
+      { "id": "r08", "question": "What does the attic represent as a setting in the story?", "answer": "A private, hidden space tied to both childhood innocence and concealed guilt — Aditya's favourite childhood retreat is, fittingly, also the literal place where he hid the evidence of his wrongdoing for 29 years." }
     ]
   },
   "mockTest": {
@@ -29,7 +31,9 @@
       { "id": "m07", "prompt": "What stood opposite the tea shop in the town?", "options": ["A school", "A bank", "A hospital", "A Shiva temple"], "correctIndex": 3, "explanation": "A Shiva temple.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "The tea shop in the town was owned by:", "options": ["Sanyal", "Kabiraj", "Nagen Uncle", "Aditya's uncle"], "correctIndex": 2, "explanation": "Nagen Uncle.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m09", "prompt": "What was Aditya's favourite childhood place in his ancestral house?", "options": ["The library", "The attic", "The garden", "The kitchen"], "correctIndex": 1, "explanation": "The attic.", "sourceTag": "web-research", "difficulty": "easy" },
-      { "id": "m10", "prompt": "Aditya's father's occupation was:", "options": ["Teacher", "Landlord", "Police officer", "Priest"], "correctIndex": 1, "explanation": "Landlord.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m10", "prompt": "Aditya's father's occupation was:", "options": ["Teacher", "Landlord", "Police officer", "Priest"], "correctIndex": 1, "explanation": "Landlord.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m11", "prompt": "By the end of the story, the stolen medal is:", "options": ["Destroyed by Aditya", "Restored to Sasanka Sanyal", "Kept by Aditya as a memento", "Lost permanently"], "correctIndex": 1, "explanation": "Restored to Sasanka Sanyal after 29 years.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m12", "prompt": "As a setting, the attic in the story represents:", "options": ["Wealth and luxury", "Childhood innocence intertwined with concealed guilt", "A place of danger", "A public gathering space"], "correctIndex": 1, "explanation": "Childhood innocence intertwined with concealed guilt.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "pib.gov.in/insightsonindia.com - Periodic Labour Force Survey (PLFS) Annual Report 2025 — India's first calendar-year-based comprehensive labour report" }
   ],
-  "researchNotes": "Eleventh Economy current-affairs topic (9th lap). Anchored on the REPORT RELEASE itself (a stable, dateable event) and used clean annual year-over-year comparisons (2025 vs. 2024) rather than monthly figures, after noticing the initial monthly unemployment-rate figures found in research were internally inconsistent across sources (Nov 2025 4.7% described as 'lowest since 2018' immediately followed by a claim that Dec 2025's 4.8% 'continued a downward trajectory' — a contradiction, since 4.8% is HIGHER than 4.7%). Skipped the murkier monthly figures per the Day-58 lesson on volatile statistics.",
+  "researchNotes": "Eleventh Economy current-affairs topic (9th lap). Anchored on the REPORT RELEASE itself (a stable, dateable event) and used clean annual year-over-year comparisons (2025 vs. 2024) rather than monthly figures, after noticing the initial monthly unemployment-rate figures found in research were internally inconsistent across sources (Nov 2025 4.7% described as 'lowest since 2018' immediately followed by a claim that Dec 2025's 4.8% 'continued a downward trajectory' — a contradiction, since 4.8% is HIGHER than 4.7%). Skipped the murkier monthly figures per the Day-58 lesson on volatile statistics. Expansion pass (Batch 22): added the WPR-vs-LFPR distinction, a commonly confused pair of labour-statistics terms.",
   "reading": {
     "intro": "Covers the Periodic Labour Force Survey (PLFS) Annual Report 2025 — India's first comprehensive labour report based on a full calendar year.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "When was PLFS launched, and by which body?", "answer": "Launched in 2017 by the National Statistical Office (NSO), to estimate key employment and unemployment indicators." },
       { "id": "r03", "question": "What was India's total employment figure, per this report (persons aged 15+)?", "answer": "56.2 crore persons." },
       { "id": "r04", "question": "What was the Labour Force Participation Rate (LFPR) for persons aged 15+, and the female LFPR specifically?", "answer": "Overall LFPR: 56.1%. Female LFPR: 35.3% — both reflecting rising participation and improving inclusion." },
-      { "id": "r05", "question": "How did youth (15-29 years) unemployment change from 2024 to 2025?", "answer": "Declined from 10.3% (2024) to 9.9% (2025) — a clean year-over-year improvement." }
+      { "id": "r05", "question": "How did youth (15-29 years) unemployment change from 2024 to 2025?", "answer": "Declined from 10.3% (2024) to 9.9% (2025) — a clean year-over-year improvement." },
+      { "id": "r06", "question": "What is the Worker Population Ratio (WPR), and how does it differ from the LFPR?", "answer": "WPR = the percentage of the population that is EMPLOYED (working), out of the total population. LFPR = the percentage of the population that is EITHER employed OR actively seeking work (the total 'labour force'). WPR is always slightly lower than or equal to LFPR, since LFPR also counts the unemployed who are seeking jobs." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "PLFS was launched in 2017 by which body?", "options": ["RBI", "NITI Aayog", "National Statistical Office (NSO)", "Ministry of Finance"], "correctIndex": 2, "explanation": "National Statistical Office (NSO).", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "Per the PLFS Annual Report 2025, India's total employment (persons aged 15+) was approximately:", "options": ["46.2 crore", "51.2 crore", "56.2 crore", "61.2 crore"], "correctIndex": 2, "explanation": "56.2 crore.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "Per the PLFS Annual Report 2025, the female Labour Force Participation Rate (LFPR) was approximately:", "options": ["25.3%", "30.3%", "35.3%", "40.3%"], "correctIndex": 2, "explanation": "35.3%.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "Youth (15-29 years) unemployment declined from 10.3% (2024) to what in 2025?", "options": ["8.9%", "9.4%", "9.9%", "10.1%"], "correctIndex": 2, "explanation": "9.9%.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "Youth (15-29 years) unemployment declined from 10.3% (2024) to what in 2025?", "options": ["8.9%", "9.4%", "9.9%", "10.1%"], "correctIndex": 2, "explanation": "9.9%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The Worker Population Ratio (WPR) measures:", "options": ["The percentage of the population actively seeking work only", "The percentage of the population that is employed", "The total population growth rate", "The ratio of male to female workers"], "correctIndex": 1, "explanation": "The percentage of the population that is employed.", "sourceTag": "authored", "difficulty": "medium", "trick": "WPR ≤ LFPR always — WPR counts only the employed, while LFPR also includes the unemployed who are seeking work." }
     ]
   }
 }

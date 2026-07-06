@@ -19,10 +19,10 @@ Source: 2025_q page 8 Q6 (real, with answer key mark — a "Match the following"
 Source: 2024_q page 14 Q16 (real, with answer key mark).
 - "Which of the following is correctly paired? (i) Hematite Ore – Oxide of iron (ii) Magnetite Ore – Black ore (iii) Limonite – Dolomite (iv) Siderite – Iron Carbonate" → Answer: (i), (ii) and (iv) only [option C in the source]. So (iii) Limonite–Dolomite is the WRONG pairing — Limonite is actually a hydrated iron oxide, not dolomite.
 
-## Reasoning — Number puzzles (Part B Unit II, not yet authored)
+## Reasoning — Number puzzles (Part B Unit II) — CONSUMED into b2-puzzles.json, 2026-07-03 content-expansion pass
 Source: 2025_q page 97 Q101-102 (Part B General Intelligence and Reasoning section header confirms these are genuine Reasoning questions; real, with answer key marks).
-- Q101: "A factory always has ___" (A) Electricity (B) Chimney (C) Workers ✓ (D) Files — logical-necessity type question (what MUST a factory have, vs what it usually/often has).
-- Q102: "The total number of digits used in numbering the pages of a book having 366 pages is" → Answer: 990. (Method: pages 1-9 = 9 pages × 1 digit = 9; pages 10-99 = 90 pages × 2 digits = 180; pages 100-366 = 267 pages × 3 digits = 801; total = 9+180+801 = 990.) Useful real example of a "digit counting" puzzle — a recognized Reasoning/Number-series-adjacent question type.
+- Q101: "A factory always has ___" (A) Electricity (B) Chimney (C) Workers ✓ (D) Files — logical-necessity type question (what MUST a factory have, vs what it usually/often has). Shipped as b2-puzzles r06/m06.
+- Q102: "The total number of digits used in numbering the pages of a book having 366 pages is" → Answer: 990. (Method: pages 1-9 = 9 pages × 1 digit = 9; pages 10-99 = 90 pages × 2 digits = 180; pages 100-366 = 267 pages × 3 digits = 801; total = 9+180+801 = 990.) Shipped as b2-puzzles r07/m07 (plus an authored variant m08).
 
 ## Life Science / Biology (Part A, not yet authored — Day 7 topic)
 Source: 2026_q page 120 Q142-143 (real, with answer key marks).
@@ -47,7 +47,7 @@ Source: 2026_q page 41 Q40 (real, with answer key mark).
 Source: 2022_q page 15 Q53 (real, with answer key mark).
 - Quoted line: "Broad and deep, and still as time; Seeping still, yet still in motion" — marked as being from "The River" (one of 4 poem-title options). VERIFY when authoring c7-poem-the-river whether this line genuinely matches Ilan Shamir's poem (our syllabus's "The River") before using it — flagged earlier that a different 2024 question wrongly attributed "The River" to Caroline Anne Bowles (a different, older-syllabus poem of the same title), so don't assume this 2022 hit is automatically the right poem either without checking the actual text.
 
-## Forest types (Part A Geography, not yet authored — Forest & Wildlife topic)
+## Forest types (Part A Geography, not yet authored — Forest & Wildlife topic) — CONSUMED into a2-forest-wildlife-agriculture.json (original authoring pass; confirmed still present and marked consumed during the 2026-07-04 content-expansion pass, which added 6 more real hits to the same topic)
 Source: 2022_q1 page 42 Q160 (real, with answer key mark).
 - Match: (a) Tropical Evergreen forest, (b) Tropical Deciduous forest, (c) Semi-desert, (d) Mangrove — matched to 1. Thorny Bushes, 2. Tidal Forests, 3. Tropical Rain Forest, 4. Monsoon forest. Re-derive the exact mapping from the marked option when authoring (image showed option A "3 4 1 2" marked: (a)=3 Tropical Rain Forest, (b)=4 Monsoon forest, (c)=1 Thorny Bushes, (d)=2 Tidal Forests).
 
@@ -55,11 +55,11 @@ Source: 2022_q1 page 42 Q160 (real, with answer key mark).
 Source: 2026_q page 64 Q68 (real, with answer key mark).
 - Chronological order of establishment: TANSI (Tamil Nadu Small Industries Corp.) → TANCEM (Tamil Nadu Cement Corp.) → TAMIN (Tamil Nadu Minerals Ltd.) → TANMAG (Tamil Nadu Magnesite Ltd.) — TANSI earliest, TANMAG latest. Re-verify exact mapping from the image when authoring (option A = "(1),(4),(3),(2)" where 1=TANSI,2=TANMAG,3=TAMIN,4=TANCEM).
 
-## Kattupalli Port (Part A Unit V or Transport, not yet authored)
+## Kattupalli Port (Part A Unit V or Transport, not yet authored) — CONSUMED into a2-transport-communication-social-geography.json, 2026-07-04 content-expansion pass (Days 13-15 batch)
 Source: 2026_q page 64 Q67 (real, with answer key mark).
 - "___ is declared as small port of Tiruvallur district which is closer to Ennore major port." → Answer: Kattupalli.
 
-## Dice probability questions (Part B Reasoning, Dice skill — not yet authored, comes after Puzzles)
+## Dice probability questions (Part B Reasoning, Dice skill) — CONSUMED into b2-dice.json (original authoring pass; sourceRefs there already cited this entry but it had never been marked consumed here — fixed during the 2026-07-04 content-expansion pass, which also added 5 more real OCR-sourced dice/probability hits to the same topic)
 Source: tnpscguru.in Logical-Reasoning-Puzzles-Dice page (web-research, real past-paper style).
 - "Probability of getting more than 3 when a die is thrown" → 1/2.
 - "Two dice thrown — probability of getting 'a factor of 4' on the first die" → 1/2.
@@ -78,7 +78,7 @@ Source: 2026_q page 47 Q48 (real, with answer key mark).
 Source: 2024_q page 55 Q82 (real, with answer key mark).
 - "Tamil women who were competent in literature, music and drama were called ___" → Answer: Mudukkuravasi (verify spelling/term against image when authoring — options included Mudukkuravasi, Mudinmagaliyar/similar, Viraliyar, Kanigaiyar).
 
-## Number Series odd-one-out questions (Part B Reasoning, Number Series skill — comes after Alphanumeric Reasoning)
+## Number Series odd-one-out questions (Part B Reasoning, Number Series skill — comes after Alphanumeric Reasoning) — CONSUMED into b2-number-series.json, 2026-07-04 content-expansion pass (Days 16-18 batch)
 Source: 2026_q page 75 Q84-86 (real, with answer key marks).
 - Q84: "Choose the number pair which is different: 17,187 / 14,134 / 12,132 / 15,165" — pattern is ×11 (12×11=132, 15×11=165, 17×11=187), but 14×11=154≠134, so 14,134 is the odd pair (re-verify exact marked option against image before use, my own transcription of the checkmark position was uncertain).
 - Q85: "Choose the number different from others: 225, 125, 64, 216" → Answer: 225 (125=5³, 64=4³, 216=6³ are all perfect cubes; 225=15² is a perfect square, not a cube).
@@ -241,6 +241,10 @@ Source: 2017_q1 page 45 Q187 (real, with answer key mark).
 ## Gandhian model in Indian Planning (Part A Unit V Economy, not yet authored)
 Source: 2017_q page 69 Q185 (real, with answer key mark, partially captured — re-verify exact wording from image when authoring).
 - "Which change was NOT called for by the Gandhian model and growth in the Indian Planning System?" → marked answer relates to replacing employment-oriented planning with production-oriented planning (re-check exact phrasing/option letter from the source image directly when authoring this topic).
+
+## Agricultural scheme matching (Part A Unit V Economy, "Land Reforms & Agriculture" topic — not yet authored, found while researching a2-forest-wildlife-agriculture's Geography clause but belongs to the Economy/schemes topic instead)
+Source: 2026_q page 136 Q162 (real, with answer key mark, image-verified).
+- Match: (a) National Food Security Mission (b) Rainfed Area Development Programme (c) National Agricultural Development Programme (d) Drought Prone Area Programme — matched to confirmed answer key (option B): (a)=3 "Increase production of rice and pulses", (b)=4 "Promotion of horticulture in rainfed area", (c)=1 "Augmenting Mechanisation in agriculture", (d)=2 "Improving rainfed farming".
 
 ## Vice-President qualifications (Part A Unit IV Polity, Union Executive topic — not yet authored)
 Source: 2026_q page 111 Q132 (real, with answer key mark).

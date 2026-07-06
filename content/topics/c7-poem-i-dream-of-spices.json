@@ -8,7 +8,7 @@
     { "type": "web-research", "label": "best-poems.net / englishsummary.com - poet biography and full poem text" },
     { "type": "general", "label": "Samacheer Kalvi Class 6 English Term 1, Unit 3 (the textbook source for this SSLC-level poem)" }
   ],
-  "researchNotes": "Checked the OCR'd text of all 729 question-bank pages (2017-2026) for 'spices', 'Arumugam', 'cinnamon', 'Muthu', 'betel' — zero genuine hits (a few false-positive substring matches on unrelated names, checked and ruled out by viewing the actual pages). This poem is a recent addition to the Class 6 Samacheer Kalvi anthology, so it has likely never been directly tested in the years covered by this question bank — confidence here rests entirely on web-sourced coaching material and the textbook's own content, not on a verified past-paper hit. Flagged transparently rather than implied otherwise. Raw candidate pool was ~25 items across 3 source pages plus bio/theme pages; deduped to 12 reading items (several questions like 'what is the poem about' / 'what was the boy dreaming about' / 'what's the theme' were testing the same underlying idea from different angles and got merged).",
+  "researchNotes": "Checked the OCR'd text of all 729 question-bank pages (2017-2026) for 'spices', 'Arumugam', 'cinnamon', 'Muthu', 'betel' — zero genuine hits (a few false-positive substring matches on unrelated names, checked and ruled out by viewing the actual pages). This poem is a recent addition to the Class 6 Samacheer Kalvi anthology, so it has likely never been directly tested in the years covered by this question bank — confidence here rests entirely on web-sourced coaching material and the textbook's own content, not on a verified past-paper hit. Flagged transparently rather than implied otherwise. Raw candidate pool was ~25 items across 3 source pages plus bio/theme pages; deduped to 12 reading items (several questions like 'what is the poem about' / 'what was the boy dreaming about' / 'what's the theme' were testing the same underlying idea from different angles and got merged). Expansion pass (Batch 18): added the title's double-meaning pun and an explicit tone question.",
   "reading": {
     "intro": "One of 30 poems (alongside 29 prose pieces) in Part C Unit VII Literary Works — a 15-question unit covering all 59 works, so any single poem is low-probability to get more than 1 question, but the exam draws from author facts, plot details, glossary words, and figures of speech in roughly equal measure, so cover all four angles rather than just the story.",
     "qa": [
@@ -71,6 +71,11 @@
         "id": "r12",
         "question": "Trap-style question to watch for: which of the shopping items was NOT on the original list?",
         "answer": "Be careful — TNPSC-style questions mix items from both lists as distractors. The original list was cinnamon/betel leaves/ginger/garlic; the substituted (wrong) list was sesame seeds/onions/tomatoes/pickles. Any item from the second list (e.g. tomatoes) is correctly 'NOT on the original list' — but a hastily-read question could trick you into picking ginger or garlic, which WERE on the original list."
+      },
+      {
+        "id": "r13",
+        "question": "What is the poem's tone, and how does the title's double meaning (dreaming literally vs. daydreaming/being absent-minded) work?",
+        "answer": "The tone is light, humorous, and affectionate rather than critical. 'Dream of spices' works on two levels: literally, the boy might be imagining the spices' smells/tastes on his walk; figuratively, 'dreaming' also means being lost in thought/daydreaming — which is exactly why he forgets the actual list. The title's pun sets up the poem's central joke before it even begins."
       }
     ]
   },
@@ -183,6 +188,15 @@
         "explanation": "The poet's original published title is \"absent-mindedness; or I Dream of Spices\".",
         "sourceTag": "web-research",
         "difficulty": "hard"
+      },
+      {
+        "id": "m13",
+        "prompt": "The overall tone of \"I Dream of Spices\" is best described as:",
+        "options": ["Tragic and mournful", "Light, humorous, and affectionate", "Angry and accusatory", "Solemn and philosophical"],
+        "correctIndex": 1,
+        "explanation": "Light, humorous, and affectionate.",
+        "sourceTag": "authored",
+        "difficulty": "easy"
       }
     ]
   }

@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "insightsonindia.com/dst.gov.in - National Quantum Mission's 1,000-km quantum communication milestone (2026); Quantum Valley Amaravati's 133-qubit computer target" }
   ],
-  "researchNotes": "Seventh Science current-affairs topic, opening Part A's 7th rotation lap. Directly extends the Day-66 topic's Quantum Valley Tech Park (Amaravati) mention with concrete 2026 progress data and the Mission's full budget/target framework.",
+  "researchNotes": "Seventh Science current-affairs topic, opening Part A's 7th rotation lap. Directly extends the Day-66 topic's Quantum Valley Tech Park (Amaravati) mention with concrete 2026 progress data and the Mission's full budget/target framework. Expansion pass (Batch 19): added the administering department (DST) for completeness.",
   "reading": {
     "intro": "Covers the National Quantum Mission's framework and its concrete 2026 progress milestones.",
     "qa": [
@@ -14,7 +14,8 @@
       { "id": "r03", "question": "What quantum communication milestone was announced in 2026?", "answer": "A historic 1,000-km secure quantum communication milestone, achieved in LESS THAN 2 YEARS." },
       { "id": "r04", "question": "What is the Quantum Valley project (Amaravati), and what is its 2026 target?", "answer": "A dedicated quantum-technology hub in Amaravati, aiming to establish India's first 133-qubit quantum computer by 2026." },
       { "id": "r05", "question": "How many Thematic Hubs (T-Hubs) has the NQM established, and what do they focus on?", "answer": "4 Thematic Hubs, focusing on: Quantum Computing, Quantum Communication, Quantum Sensing & Metrology, and Quantum Materials & Devices." },
-      { "id": "r06", "question": "What startup and education support has the NQM provided so far?", "answer": "8 startups supported under NQM's guidelines; 23 academic institutions approved to establish quantum teaching laboratories (with 100+ more proposals under evaluation)." }
+      { "id": "r06", "question": "What startup and education support has the NQM provided so far?", "answer": "8 startups supported under NQM's guidelines; 23 academic institutions approved to establish quantum teaching laboratories (with 100+ more proposals under evaluation)." },
+      { "id": "r07", "question": "Which government department administers the National Quantum Mission?", "answer": "The Department of Science and Technology (DST), under the Ministry of Science and Technology." }
     ]
   },
   "mockTest": {
@@ -23,7 +24,8 @@
       { "id": "m02", "prompt": "The National Quantum Mission's total budget is approximately:", "options": ["₹3,000 crore", "₹4,500 crore", "₹6,000 crore", "₹8,000 crore"], "correctIndex": 2, "explanation": "₹6,003.65 crore.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m03", "prompt": "In 2026, the National Quantum Mission achieved a secure quantum communication milestone of:", "options": ["500 km", "1,000 km", "1,500 km", "2,000 km"], "correctIndex": 1, "explanation": "1,000 km.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "The Quantum Valley project at Amaravati aims to establish India's first quantum computer with how many qubits, by 2026?", "options": ["50 qubits", "100 qubits", "133 qubits", "250 qubits"], "correctIndex": 2, "explanation": "133 qubits.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "How many Thematic Hubs (T-Hubs) has the National Quantum Mission established?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "4 (Quantum Computing, Communication, Sensing & Metrology, Materials & Devices).", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "How many Thematic Hubs (T-Hubs) has the National Quantum Mission established?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "4 (Quantum Computing, Communication, Sensing & Metrology, Materials & Devices).", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The National Quantum Mission is administered by which government department?", "options": ["Department of Space", "Department of Science and Technology (DST)", "Department of Atomic Energy", "Department of Telecommunications"], "correctIndex": 1, "explanation": "Department of Science and Technology (DST).", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

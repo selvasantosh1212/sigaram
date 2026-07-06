@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "isro.gov.in/pib.gov.in - SpaDeX docking (Jan 2025); SSLV Launch Complex, Kulasekarapattinam (TN); Gaganyaan-1 uncrewed mission progress (2026)" }
   ],
-  "researchNotes": "Fourth Science current-affairs topic, opening Part A's 4th rotation lap. The SSLV Launch Complex fact is a useful Science-meets-TN bridge (ISRO's 2nd spaceport is located IN Tamil Nadu, Thoothukudi district) — a natural link to TN-Culture/Geography topics elsewhere in the project.",
+  "researchNotes": "Fourth Science current-affairs topic, opening Part A's 4th rotation lap. The SSLV Launch Complex fact is a useful Science-meets-TN bridge (ISRO's 2nd spaceport is located IN Tamil Nadu, Thoothukudi district) — a natural link to TN-Culture/Geography topics elsewhere in the project. Expansion pass (Batch 15): added the Bharatiya Antariksh Station connection, tying SpaDeX's docking milestone to India's longer-term space-infrastructure ambitions.",
   "reading": {
     "intro": "Covers three connected, dated ISRO/space-technology developments: the SpaDeX docking demonstration, the new TN-based spaceport, and Gaganyaan's human-spaceflight progress.",
     "qa": [
@@ -15,7 +15,8 @@
       { "id": "r04", "question": "Why is the Kulasekarapattinam location strategically chosen for launches?", "answer": "It allows launches directly south over the Indian Ocean without crossing any landmass for thousands of miles — ideal for efficiently launching satellites into polar orbits." },
       { "id": "r05", "question": "What is the SSLV Launch Complex's planned timeline and capacity?", "answer": "Construction began 5 March 2025; the launch pad is planned for commissioning by August 2026, with the first launch by December 2026; the facility is estimated to support 20-25 launches per year." },
       { "id": "r06", "question": "What is 'Gaganyaan-1', and what is it scheduled to carry?", "answer": "Gaganyaan-1 (G1) is ISRO's first UNCREWED test flight under the Gaganyaan human-spaceflight programme, scheduled for March 2026, carrying 'Vyommitra' — a half-humanoid robot — to simulate astronaut conditions and gather life-support/environmental data." },
-      { "id": "r07", "question": "What is Gaganyaan's overall crewed-mission timeline?", "answer": "After uncrewed test flights (G1, G2, G3) through 2026, India's first crewed spaceflight (H1) is planned for 2027, carrying 3 astronauts to low Earth orbit for up to 7 days." }
+      { "id": "r07", "question": "What is Gaganyaan's overall crewed-mission timeline?", "answer": "After uncrewed test flights (G1, G2, G3) through 2026, India's first crewed spaceflight (H1) is planned for 2027, carrying 3 astronauts to low Earth orbit for up to 7 days." },
+      { "id": "r08", "question": "What is the Bharatiya Antariksh Station (BAS), and how does it relate to the facts covered in this topic?", "answer": "India's own planned space station — one of the future missions for which SpaDeX's docking technology serves as a foundational demonstrator, alongside Chandrayaan-4 and the Human Moon Mission (connecting this topic's docking milestone to India's longer-term space infrastructure ambitions)." }
     ]
   },
   "mockTest": {
@@ -25,7 +26,8 @@
       { "id": "m03", "prompt": "ISRO's new second spaceport, the SSLV Launch Complex, is located at:", "options": ["Sriharikota, Andhra Pradesh", "Kulasekarapattinam, Tamil Nadu", "Thumba, Kerala", "Bengaluru, Karnataka"], "correctIndex": 1, "explanation": "Kulasekarapattinam, Thoothukudi district, Tamil Nadu.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m04", "prompt": "Launches from Kulasekarapattinam are strategically advantageous because they can launch directly south over the Indian Ocean, making them ideal for:", "options": ["Geostationary orbit launches", "Polar orbit launches", "Lunar transfer launches", "Deep-space launches only"], "correctIndex": 1, "explanation": "Polar orbit launches.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m05", "prompt": "'Vyommitra', scheduled to fly on Gaganyaan-1 (March 2026), is:", "options": ["A communication satellite", "A half-humanoid robot", "A weather-monitoring probe", "A cargo module"], "correctIndex": 1, "explanation": "A half-humanoid robot.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m06", "prompt": "India's first crewed Gaganyaan spaceflight (H1) is planned for:", "options": ["2026", "2027", "2028", "2029"], "correctIndex": 1, "explanation": "2027.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m06", "prompt": "India's first crewed Gaganyaan spaceflight (H1) is planned for:", "options": ["2026", "2027", "2028", "2029"], "correctIndex": 1, "explanation": "2027.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "SpaDeX's docking technology serves as a foundational demonstrator for which future Indian space infrastructure project, alongside Chandrayaan-4?", "options": ["Aditya-L1", "Bharatiya Antariksh Station (India's space station)", "Mangalyaan-2", "NISAR"], "correctIndex": 1, "explanation": "Bharatiya Antariksh Station.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

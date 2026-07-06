@@ -5,14 +5,15 @@
   "sourceRefs": [
     { "type": "web-research", "label": "swarajyamag.com/pib.gov.in - Ministry of Culture opening monument conservation to private agencies (2026); ASI's 3,686 protected monuments; conservation tech and funding figures" }
   ],
-  "researchNotes": "Eleventh History current-affairs topic (10th lap). A significant policy shift in how India's heritage monuments are conserved — ending ASI's decades-long exclusive control — with concrete supporting facts (monument count, funding, technology).",
+  "researchNotes": "Eleventh History current-affairs topic (10th lap). A significant policy shift in how India's heritage monuments are conserved — ending ASI's decades-long exclusive control — with concrete supporting facts (monument count, funding, technology). Expansion pass (Batch 22): added the standards-consistency concern raised by heritage experts about this policy shift.",
   "reading": {
     "intro": "Covers a major 2026 policy shift: India's Ministry of Culture opening monument conservation to private agencies, ending ASI's exclusive control.",
     "qa": [
       { "id": "r01", "question": "What major policy change did India's Ministry of Culture announce regarding monument conservation in 2026?", "answer": "Allowing PRIVATE conservation agencies to participate in restoring the country's protected monuments — ending the Archaeological Survey of India's (ASI) longstanding exclusive control over this work." },
       { "id": "r02", "question": "How can corporate donors participate in monument conservation under this new approach?", "answer": "Through Corporate Social Responsibility (CSR) contributions to the National Culture Fund — donors can choose from a list of 250 monuments urgently needing conservation, or approach the Ministry separately for monuments in specific regions." },
       { "id": "r03", "question": "How many centrally protected monuments does the ASI currently safeguard, and what was conservation expenditure for 2024-25?", "answer": "3,686 centrally protected monuments; conservation expenditure for 2024-25 was ₹374 crores." },
-      { "id": "r04", "question": "What technologies are being integrated into India's monument conservation efforts?", "answer": "LiDAR, GIS mapping, drones, 3D scanning, photogrammetry, and AI — used for documentation and diagnostics, including drone-based surveys conducted in collaboration with institutions like NISER (National Institute of Science Education and Research)." }
+      { "id": "r04", "question": "What technologies are being integrated into India's monument conservation efforts?", "answer": "LiDAR, GIS mapping, drones, 3D scanning, photogrammetry, and AI — used for documentation and diagnostics, including drone-based surveys conducted in collaboration with institutions like NISER (National Institute of Science Education and Research)." },
+      { "id": "r05", "question": "What concern has this privatisation of conservation work raised among heritage experts?", "answer": "Concerns about maintaining consistent conservation STANDARDS and preventing inappropriate/commercially-motivated restoration work (e.g., using modern materials that don't match original construction techniques) once conservation is no longer solely under ASI's direct, standardised oversight." }
     ]
   },
   "mockTest": {
@@ -21,7 +22,8 @@
       { "id": "m02", "prompt": "Corporate donors can fund monument conservation via CSR contributions to which fund?", "options": ["Swachh Bharat Kosh", "PM CARES Fund", "National Culture Fund", "Heritage Conservation Trust"], "correctIndex": 2, "explanation": "National Culture Fund.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "How many monuments are listed as urgently needing conservation, that corporate donors can choose from?", "options": ["100", "150", "250", "350"], "correctIndex": 2, "explanation": "250.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "The ASI currently safeguards how many centrally protected monuments?", "options": ["2,686", "3,186", "3,686", "4,186"], "correctIndex": 2, "explanation": "3,686.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "Conservation expenditure for India's protected monuments in 2024-25 was approximately:", "options": ["₹174 crore", "₹274 crore", "₹374 crore", "₹474 crore"], "correctIndex": 2, "explanation": "₹374 crore.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "Conservation expenditure for India's protected monuments in 2024-25 was approximately:", "options": ["₹174 crore", "₹274 crore", "₹374 crore", "₹474 crore"], "correctIndex": 2, "explanation": "₹374 crore.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "A key concern raised about opening monument conservation to private agencies is:", "options": ["Loss of revenue for ASI", "Maintaining consistent conservation standards", "Reduced public access to monuments", "Higher entry fees"], "correctIndex": 1, "explanation": "Maintaining consistent conservation standards.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

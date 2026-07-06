@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "pib.gov.in/eci.gov.in - SIR Phase-III rollout (May 2026, 16 states + 3 UTs); ECINET unified digital platform" }
   ],
-  "researchNotes": "Eighth Polity current-affairs topic (7th lap). Directly extends the Day-82 topic (the Supreme Court's ADR v. ECI ruling upholding SIR for Bihar) with the broader nationwide SIR Phase-III rollout and a separate digital-governance initiative (ECINET) — without re-stating the exact Supreme Court ruling date already covered, since a minor date discrepancy exists across sources (27 vs 28 May 2026) and the earlier topic's date is kept as the anchor.",
+  "researchNotes": "Eighth Polity current-affairs topic (7th lap). Directly extends the Day-82 topic (the Supreme Court's ADR v. ECI ruling upholding SIR for Bihar) with the broader nationwide SIR Phase-III rollout and a separate digital-governance initiative (ECINET) — without re-stating the exact Supreme Court ruling date already covered, since a minor date discrepancy exists across sources (27 vs 28 May 2026) and the earlier topic's date is kept as the anchor. Expansion pass (Batch 20): added the general SIR documentation requirements and the lighter burden for voters already on prior rolls.",
   "reading": {
     "intro": "Covers the Election Commission's Special Intensive Revision Phase-III rollout and its new unified digital platform, ECINET — extending the already-covered Supreme Court ruling on SIR's legality.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "Name a few of the 16 states covered under SIR Phase-III.", "answer": "Andhra Pradesh, Karnataka, Maharashtra, Odisha, Punjab, Telangana, Uttarakhand (among others — 16 states total)." },
       { "id": "r03", "question": "Which 3 Union Territories are covered under SIR Phase-III?", "answer": "National Capital Territory of Delhi, Chandigarh, and Dadra and Nagar Haveli and Daman and Diu." },
       { "id": "r04", "question": "What is ECINET, and what does it consolidate?", "answer": "A unified digital platform from the Election Commission of India that consolidates over 40 previously separate apps/websites used for election-related tasks — part of ECI's broader digital reform push since February 2025." },
-      { "id": "r05", "question": "How does this connect to the Supreme Court ruling already covered (Day 82's a4-current-affairs-5 topic)?", "answer": "That ruling (Association for Democratic Reforms v. ECI, May 2026) upheld the constitutionality of SIR for Bihar's electoral rolls specifically — SIR Phase-III is the nationwide ROLLOUT of the same broad SIR mechanism to 16 more states and 3 UTs." }
+      { "id": "r05", "question": "How does this connect to the Supreme Court ruling already covered (Day 82's a4-current-affairs-5 topic)?", "answer": "That ruling (Association for Democratic Reforms v. ECI, May 2026) upheld the constitutionality of SIR for Bihar's electoral rolls specifically — SIR Phase-III is the nationwide ROLLOUT of the same broad SIR mechanism to 16 more states and 3 UTs." },
+      { "id": "r06", "question": "What documents are typically required from voters during the SIR process to verify eligibility?", "answer": "Proof of citizenship/date of birth (e.g., birth certificate, passport) and proof of ordinary residence — voters whose names were already on a prior qualifying electoral roll (e.g., 2003 rolls in Bihar's case) generally face a lighter documentation burden than new entrants." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "The Special Intensive Revision (SIR) process primarily aims to:", "options": ["Redraw constituency boundaries", "Ensure electoral roll accuracy by removing ineligible entries", "Introduce electronic voting machines", "Increase the number of polling booths"], "correctIndex": 1, "explanation": "Ensure electoral roll accuracy.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "ECINET, the Election Commission's new digital platform, consolidates how many previously separate apps/websites?", "options": ["Over 10", "Over 20", "Over 40", "Over 100"], "correctIndex": 2, "explanation": "Over 40.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "Which Union Territory is covered under SIR Phase-III?", "options": ["Puducherry", "NCT of Delhi", "Andaman & Nicobar Islands", "Lakshadweep"], "correctIndex": 1, "explanation": "NCT of Delhi.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "ECI's broader digital reform push (including ECINET) has been underway since:", "options": ["February 2023", "February 2024", "February 2025", "February 2026"], "correctIndex": 2, "explanation": "February 2025.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "ECI's broader digital reform push (including ECINET) has been underway since:", "options": ["February 2023", "February 2024", "February 2025", "February 2026"], "correctIndex": 2, "explanation": "February 2025.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "During SIR, voters already on a prior qualifying electoral roll generally face:", "options": ["A heavier documentation burden than new entrants", "A lighter documentation burden than new entrants", "No verification at all", "Automatic disqualification"], "correctIndex": 1, "explanation": "A lighter documentation burden.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

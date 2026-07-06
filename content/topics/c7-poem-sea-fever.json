@@ -6,7 +6,7 @@
     { "type": "web-research", "label": "civilserviceaspirants.in - figure-of-speech MCQ set" },
     { "type": "web-research", "label": "poemanalysis.com / litcharts.com - structure, theme, and device analysis" }
   ],
-  "researchNotes": "OCR index search for 'masefield' / 'sea fever' returned zero hits — web research only. Raw pool combined the coaching-site MCQ set (6 items, mostly figure-of-speech) with literary-analysis sites for structure/theme (anaphora across stanzas, 3-stanza arc) since the coaching site alone didn't cover the poem's overall shape, only individual lines.",
+  "researchNotes": "OCR index search for 'masefield' / 'sea fever' returned zero hits — web research only. Raw pool combined the coaching-site MCQ set (6 items, mostly figure-of-speech) with literary-analysis sites for structure/theme (anaphora across stanzas, 3-stanza arc) since the coaching site alone didn't cover the poem's overall shape, only individual lines. Expansion pass (Batch 19): added Masefield's biographical sailing background and his 1930 Poet Laureate appointment.",
   "reading": {
     "intro": "A well-known poem about the pull of the sea, from Masefield's 1902 collection Salt-Water Ballads. Real coaching-site evidence shows heavy figure-of-speech testing per line, plus structure (anaphora, rhyme scheme) — both covered below.",
     "qa": [
@@ -17,7 +17,9 @@
       { "id": "r05", "question": "Identify the figure of speech: \"And quiet sleep and a sweet dream when the long trick's over.\"", "answer": "Alliteration — repeated 's' sounds ('sleep'/'sweet') ." },
       { "id": "r06", "question": "What is the rhyme scheme of the opening stanza, and what word rhymes with 'shaking'?", "answer": "AABB rhyme scheme. 'Shaking' rhymes with 'breaking' (as in 'a tall ship and a star to steer her by ... And the wheel's kick and the wind's song and the white sail's shaking, And a grey mist on the sea's face, and a grey dawn breaking')." },
       { "id": "r07", "question": "What does \"the sea's face\" personify, and what other phrases use the same device?", "answer": "It gives the sea a human-like 'face'. Other personification-style phrases include 'the wind's song' and 'call of the running tide' — the sea and wind are repeatedly given human qualities throughout the poem." },
-      { "id": "r08", "question": "Which collection did \"Sea Fever\" first appear in, and when?", "answer": "Salt-Water Ballads, John Masefield's 1902 poetry collection." }
+      { "id": "r08", "question": "Which collection did \"Sea Fever\" first appear in, and when?", "answer": "Salt-Water Ballads, John Masefield's 1902 poetry collection." },
+      { "id": "r09", "question": "Why did John Masefield have unusually authentic authority to write about the sea, biographically?", "answer": "He served as a merchant sailor/naval cadet in his youth before becoming a poet — giving him first-hand experience of sailing life (navigation, ship terminology, the pull of the sea) that grounds the poem's vivid, specific imagery ('wheel's kick', 'grey mist') rather than romanticised guesswork." },
+      { "id": "r10", "question": "What later honour did John Masefield receive in Britain, reflecting his stature as a poet?", "answer": "He was appointed Poet Laureate of the United Kingdom in 1930, a position he held until his death in 1967 — one of the longest tenures in the role's history." }
     ]
   },
   "mockTest": {
@@ -29,7 +31,8 @@
       { "id": "m05", "prompt": "The rhyme scheme of the opening stanza of \"Sea Fever\" is:", "options": ["ABAB", "ABBA", "AABB", "ABCB"], "correctIndex": 2, "explanation": "AABB.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m06", "prompt": "Which word rhymes with \"shaking\" in the opening stanza?", "options": ["Star", "Song", "Breaking", "Face"], "correctIndex": 2, "explanation": "'Shaking' rhymes with 'breaking'.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "\"Sea Fever\" first appeared in which 1902 collection by John Masefield?", "options": ["Salt-Water Ballads", "Collected Poems", "The Everlasting Mercy", "Reynard the Fox"], "correctIndex": 0, "explanation": "Salt-Water Ballads (1902).", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m08", "prompt": "The phrase \"the sea's face\" gives the sea a human-like quality. This is an example of:", "options": ["Simile", "Personification", "Hyperbole", "Onomatopoeia"], "correctIndex": 1, "explanation": "Personification.", "sourceTag": "web-research", "difficulty": "easy" }
+      { "id": "m08", "prompt": "The phrase \"the sea's face\" gives the sea a human-like quality. This is an example of:", "options": ["Simile", "Personification", "Hyperbole", "Onomatopoeia"], "correctIndex": 1, "explanation": "Personification.", "sourceTag": "web-research", "difficulty": "easy" },
+      { "id": "m09", "prompt": "John Masefield was appointed to which prestigious British literary position in 1930?", "options": ["Poet Laureate", "Poet Registrar", "Chief Literary Officer", "Royal Bard"], "correctIndex": 0, "explanation": "Poet Laureate of the United Kingdom.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "scobserver.in/vajiramandravi.com - Justice Surya Kant's appointment as 53rd CJI (Nov 2025); succession list; SC's increased judge strength" }
   ],
-  "researchNotes": "Third Polity current-affairs topic (3rd lap). The Supreme Court strength fact directly confirms/extends the Day-63 topic's coverage of the Supreme Court (Number of Judges) Amendment Bill, 2026 — that Bill's proposed increase to 37 judges (excluding CJI) is confirmed here as already implemented by mid-2026.",
+  "researchNotes": "Third Polity current-affairs topic (3rd lap). The Supreme Court strength fact directly confirms/extends the Day-63 topic's coverage of the Supreme Court (Number of Judges) Amendment Bill, 2026 — that Bill's proposed increase to 37 judges (excluding CJI) is confirmed here as already implemented by mid-2026. Expansion pass (Batch 15): added the Collegium System's nature (practice, not a constitutional body) and the notable future fact of Justice Nagarathna becoming India's first woman CJI in 2027.",
   "reading": {
     "intro": "Covers the current Chief Justice of India, the CJI succession process and upcoming appointments, and the Supreme Court's current composition.",
     "qa": [
@@ -14,7 +14,9 @@
       { "id": "r03", "question": "How is the Chief Justice of India typically appointed, in practice?", "answer": "Through the convention of SENIORITY — the outgoing CJI recommends their successor, who is generally the next senior-most judge of the Supreme Court." },
       { "id": "r04", "question": "Who is set to become CJI after Justice Surya Kant, and for what period?", "answer": "Justice Vikram Nath — from 7 February 2027 to 23 September 2027." },
       { "id": "r05", "question": "What is the Supreme Court's current sanctioned judge strength, and how does this connect to a Bill covered elsewhere?", "answer": "37 judges (excluding the CJI) — confirming that the Supreme Court (Number of Judges) Amendment Bill, 2026 (already covered in a4-current-affairs-1) had been implemented by mid-2026, increasing strength from the earlier 33." },
-      { "id": "r06", "question": "Who are the Supreme Court's current female judges?", "answer": "Justice B.V. Nagarathna and Justice V. Mohana." }
+      { "id": "r06", "question": "Who are the Supreme Court's current female judges?", "answer": "Justice B.V. Nagarathna and Justice V. Mohana." },
+      { "id": "r07", "question": "What is the Collegium System, and who currently comprises the Supreme Court Collegium?", "answer": "A practice (not a constitutional or statutory body) by which the CJI and a group of senior-most Supreme Court judges recommend appointments and transfers of judges to the higher judiciary. As of the current cycle, it comprises the CJI plus the next four senior-most judges of the Supreme Court." },
+      { "id": "r08", "question": "IMPORTANT FUTURE FACT: Which judge is set to become India's FIRST woman Chief Justice, and when?", "answer": "Justice B.V. Nagarathna — set to become India's first woman CJI on 25 September 2027, though her tenure will be notably short (reportedly around 36 days) before her own retirement." }
     ]
   },
   "mockTest": {
@@ -24,7 +26,9 @@
       { "id": "m03", "prompt": "Who preceded Justice Surya Kant as Chief Justice of India?", "options": ["Justice D.Y. Chandrachud", "Justice B.R. Gavai", "Justice Vikram Nath", "Justice Narasimha"], "correctIndex": 1, "explanation": "Justice B.R. Gavai.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "The Chief Justice of India is appointed, by convention, primarily based on:", "options": ["Seniority among Supreme Court judges", "A public election", "Parliamentary vote", "State government nominations"], "correctIndex": 0, "explanation": "Seniority.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m05", "prompt": "As of mid-2026, the Supreme Court's sanctioned strength (excluding the CJI) is:", "options": ["30", "33", "35", "37"], "correctIndex": 3, "explanation": "37.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m06", "prompt": "Which of the following is a current female judge of the Supreme Court of India?", "options": ["Justice B.V. Nagarathna", "Justice Surya Kant", "Justice Vikram Nath", "Justice B.R. Gavai"], "correctIndex": 0, "explanation": "Justice B.V. Nagarathna.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m06", "prompt": "Which of the following is a current female judge of the Supreme Court of India?", "options": ["Justice B.V. Nagarathna", "Justice Surya Kant", "Justice Vikram Nath", "Justice B.R. Gavai"], "correctIndex": 0, "explanation": "Justice B.V. Nagarathna.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "The Collegium System, which recommends judicial appointments, is:", "options": ["A body created by a constitutional amendment", "A body created by an Act of Parliament", "A practice evolved through Supreme Court judgments, not a constitutional/statutory body", "A committee appointed by the President"], "correctIndex": 2, "explanation": "A practice evolved through Supreme Court judgments.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m08", "prompt": "Justice B.V. Nagarathna is set to become India's first woman Chief Justice on:", "options": ["25 September 2026", "25 September 2027", "25 September 2028", "25 September 2029"], "correctIndex": 1, "explanation": "25 September 2027.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

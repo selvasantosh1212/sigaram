@@ -20,7 +20,9 @@
       { "id": "r07", "question": "What task did Prospero assign to Ferdinand, why, and what was the relationship between Ferdinand and Miranda?", "answer": "Prospero assigned Ferdinand the hard labour of PILING LOGS OF WOOD — a deliberate test of Ferdinand's love and devotion to Miranda. Miranda and Ferdinand admired each other (the seeds of a romantic relationship)." },
       { "id": "r08", "question": "How did Ariel torment the King of Naples and Antonio, and how did they feel afterward?", "answer": "By creating illusions and strange sounds. Afterward, they felt sorry and repentant — setting up Prospero's eventual forgiveness rather than revenge." },
       { "id": "r09", "question": "What did Prospero do before finally leaving the island?", "answer": "He forgave everyone (his former enemies) and set Ariel free." },
-      { "id": "r10", "question": "Who helped Prospero survive when he was first cast out to sea with infant Miranda?", "answer": "A kind lord named Gonzalo." }
+      { "id": "r10", "question": "Who helped Prospero survive when he was first cast out to sea with infant Miranda?", "answer": "A kind lord named Gonzalo." },
+      { "id": "r11", "question": "What does the reconciliation-over-revenge ending suggest about the play's overall moral message?", "answer": "That forgiveness and reconciliation are more powerful and noble responses to betrayal than revenge — Prospero, despite having complete magical power over his enemies, chooses mercy once they show genuine remorse." },
+      { "id": "r12", "question": "Why is this text categorized as 'Prose' in the syllabus despite being based on a Shakespeare play?", "answer": "Because it's Charles and Mary Lamb's PROSE retelling (from *Tales from Shakespeare*), which converts Shakespeare's original verse play into narrative prose form for younger readers — not the original dramatic script." }
     ]
   },
   "mockTest": {
@@ -34,7 +36,8 @@
       { "id": "m07", "prompt": "What task did Prospero assign to Ferdinand as a test of his love for Miranda?", "options": ["Guarding the cave", "Piling logs of wood", "Finding food for Miranda", "Building a ship"], "correctIndex": 1, "explanation": "Piling logs of wood.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "What game did Ferdinand and Miranda play together on the island?", "options": ["Carrom", "Hide and Seek", "Chess", "Cards"], "correctIndex": 2, "explanation": "Chess.", "sourceTag": "question-bank-2024", "difficulty": "hard" },
       { "id": "m09", "prompt": "How did Ariel torment the King of Naples and Antonio?", "options": ["By sending them back to sea", "By pretending to be a monster", "By imprisoning them in a cave", "By creating illusions and strange sounds"], "correctIndex": 3, "explanation": "By creating illusions and strange sounds.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m10", "prompt": "What did Prospero do before finally leaving the island?", "options": ["Destroyed the island", "Punished his enemies", "Forgave everyone and set Ariel free", "Took over the island as king"], "correctIndex": 2, "explanation": "Forgave everyone and set Ariel free.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m10", "prompt": "What did Prospero do before finally leaving the island?", "options": ["Destroyed the island", "Punished his enemies", "Forgave everyone and set Ariel free", "Took over the island as king"], "correctIndex": 2, "explanation": "Forgave everyone and set Ariel free.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m11", "prompt": "This version of \"The Tempest\" is categorized as 'Prose' in the syllabus because it is:", "options": ["Shakespeare's original play script", "Charles and Mary Lamb's prose retelling from Tales from Shakespeare", "A modern film adaptation script", "An abridged verse poem"], "correctIndex": 1, "explanation": "Charles and Mary Lamb's prose retelling.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

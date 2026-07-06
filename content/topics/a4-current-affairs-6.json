@@ -5,14 +5,15 @@
   "sourceRefs": [
     { "type": "web-research", "label": "prsindia.org/pib.gov.in - Jan Vishwas (Amendment of Provisions) Bill, 2026 (introduced 27 March 2026, passed both Houses)" }
   ],
-  "researchNotes": "Sixth Polity current-affairs topic (6th lap). A successfully PASSED bill — useful contrast with the Day-75 topic's 131st Amendment Bill, which was REJECTED — together illustrating both possible outcomes of the legislative process for students.",
+  "researchNotes": "Sixth Polity current-affairs topic (6th lap). A successfully PASSED bill — useful contrast with the Day-75 topic's 131st Amendment Bill, which was REJECTED — together illustrating both possible outcomes of the legislative process for students. Expansion pass (Batch 19): added the original 2023 Jan Vishwas Act's scale for comparison, showing this is an ongoing reform strategy.",
   "reading": {
     "intro": "Covers the Jan Vishwas (Amendment of Provisions) Bill, 2026 — a major decriminalisation reform passed by Parliament in 2026.",
     "qa": [
       { "id": "r01", "question": "When was the Jan Vishwas (Amendment of Provisions) Bill, 2026 introduced, and what is its current status?", "answer": "Introduced in the Lok Sabha on 27 March 2026; it has since been PASSED by both Houses of Parliament." },
       { "id": "r02", "question": "What is the Bill's core purpose?", "answer": "To decriminalise or rationalise offences and penalties across central Acts — promoting 'ease of doing business' and 'ease of living' by removing/softening minor criminal penalties for technical or procedural lapses." },
       { "id": "r03", "question": "How many Central Acts and Ministries does the Bill cover, and how many total provisions does it amend?", "answer": "79 Central Acts, administered by 23 Ministries, covering 784 total provisions." },
-      { "id": "r04", "question": "How are the 784 provisions split between decriminalisation and ease-of-living amendments?", "answer": "717 provisions are decriminalised (Ease of Doing Business); 67 provisions are amended for Ease of Living." }
+      { "id": "r04", "question": "How are the 784 provisions split between decriminalisation and ease-of-living amendments?", "answer": "717 provisions are decriminalised (Ease of Doing Business); 67 provisions are amended for Ease of Living." },
+      { "id": "r05", "question": "What was the FIRST Jan Vishwas Act, and how does the 2026 Bill relate to it?", "answer": "The Jan Vishwas (Amendment of Provisions) Act, 2023 was the original decriminalisation reform, amending 42 Acts across 19 Ministries. The 2026 Bill is a SECOND, larger round of the same reform philosophy — extending decriminalisation to a much larger set of 79 Acts and 23 Ministries, showing this is now an ongoing legislative strategy rather than a one-time exercise." }
     ]
   },
   "mockTest": {
@@ -21,7 +22,8 @@
       { "id": "m02", "prompt": "The Jan Vishwas Bill, 2026's core purpose is to:", "options": ["Increase criminal penalties across all laws", "Decriminalise/rationalise offences and penalties across central Acts", "Create new regulatory bodies", "Amend the Constitution's federal structure"], "correctIndex": 1, "explanation": "Decriminalise/rationalise offences and penalties.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "The Jan Vishwas Bill, 2026 amends how many Central Acts?", "options": ["49", "59", "69", "79"], "correctIndex": 3, "explanation": "79 Central Acts.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "Of the Bill's 784 total provisions, how many are decriminalised for Ease of Doing Business?", "options": ["617", "667", "717", "767"], "correctIndex": 2, "explanation": "717 provisions.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "Unlike the Day-75-covered 131st Constitutional Amendment Bill (which was rejected), the Jan Vishwas Bill, 2026 was:", "options": ["Also rejected", "Withdrawn before voting", "Passed by both Houses of Parliament", "Referred indefinitely to a Select Committee"], "correctIndex": 2, "explanation": "Passed by both Houses of Parliament.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "Unlike the Day-75-covered 131st Constitutional Amendment Bill (which was rejected), the Jan Vishwas Bill, 2026 was:", "options": ["Also rejected", "Withdrawn before voting", "Passed by both Houses of Parliament", "Referred indefinitely to a Select Committee"], "correctIndex": 2, "explanation": "Passed by both Houses of Parliament.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The original Jan Vishwas (Amendment of Provisions) Act, 2023 amended how many Acts across how many Ministries?", "options": ["42 Acts, 19 Ministries", "60 Acts, 20 Ministries", "79 Acts, 23 Ministries", "100 Acts, 25 Ministries"], "correctIndex": 0, "explanation": "42 Acts across 19 Ministries.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

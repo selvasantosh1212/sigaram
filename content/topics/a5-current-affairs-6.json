@@ -5,14 +5,15 @@
   "sourceRefs": [
     { "type": "web-research", "label": "tracxn.com/failory.com - India's unicorn startup count (87, 3rd globally) and 2026's newest unicorns (Juspay, KreditBee, Skyroot Aerospace)" }
   ],
-  "researchNotes": "Sixth Economy current-affairs topic (6th lap). Skyroot Aerospace's unicorn status (7 May 2026) is a nice Economy-meets-Science bridge, since it's a private spaceflight/rocket company.",
+  "researchNotes": "Sixth Economy current-affairs topic (6th lap). Skyroot Aerospace's unicorn status (7 May 2026) is a nice Economy-meets-Science bridge, since it's a private spaceflight/rocket company. Expansion pass (Batch 19): added the precise 'unicorn' definition (USD 1 billion+ valuation) for readers unfamiliar with the term.",
   "reading": {
     "intro": "Covers India's startup 'unicorn' (companies valued at $1+ billion) ecosystem and its newest entrants in 2026.",
     "qa": [
       { "id": "r01", "question": "How many unicorn startups does India have as of mid-2026, and where does this rank globally?", "answer": "87 unicorns — ranking 3rd globally, behind the USA (1,196 unicorns, 1st) and China (248 unicorns, 2nd)." },
       { "id": "r02", "question": "Which Indian city leads in number of unicorn startups, and what are the next 2 cities?", "answer": "Bengaluru leads with 55 unicorns, followed by Mumbai (22) and Gurugram (21)." },
       { "id": "r03", "question": "Which sector has produced the most Indian unicorns?", "answer": "Consumer (60 unicorns), followed by Enterprise Applications (41) and Retail (38)." },
-      { "id": "r04", "question": "Name 2026's first 3 new Indian unicorns, in order, and their respective fields.", "answer": "1. Juspay (January 2026) — fintech/payments. 2. KreditBee (April 2026) — fintech/lending. 3. Skyroot Aerospace (7 May 2026) — private spaceflight/rocket launch services." }
+      { "id": "r04", "question": "Name 2026's first 3 new Indian unicorns, in order, and their respective fields.", "answer": "1. Juspay (January 2026) — fintech/payments. 2. KreditBee (April 2026) — fintech/lending. 3. Skyroot Aerospace (7 May 2026) — private spaceflight/rocket launch services." },
+      { "id": "r05", "question": "What is a 'unicorn' startup, precisely, and why is the term used?", "answer": "A privately-held startup company valued at USD 1 billion or more. The term 'unicorn' was coined because such companies were once considered as rare/mythical as the creature — though the term has become more common as the number of unicorns worldwide has grown into the thousands." }
     ]
   },
   "mockTest": {
@@ -21,7 +22,8 @@
       { "id": "m02", "prompt": "India ranks where globally in total number of unicorn startups?", "options": ["1st", "2nd", "3rd", "4th"], "correctIndex": 2, "explanation": "3rd, behind the USA and China.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "Which Indian city has the most unicorn startups?", "options": ["Mumbai", "Bengaluru", "Gurugram", "Delhi"], "correctIndex": 1, "explanation": "Bengaluru (55 unicorns).", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m04", "prompt": "Skyroot Aerospace, which became one of India's newest unicorns on 7 May 2026, operates in which sector?", "options": ["E-commerce", "Private spaceflight/rocket launch services", "Food delivery", "Edtech"], "correctIndex": 1, "explanation": "Private spaceflight/rocket launch services.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "Which sector has produced the most Indian unicorns?", "options": ["Consumer", "Enterprise Applications", "Retail", "Healthcare"], "correctIndex": 0, "explanation": "Consumer (60 unicorns).", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m05", "prompt": "Which sector has produced the most Indian unicorns?", "options": ["Consumer", "Enterprise Applications", "Retail", "Healthcare"], "correctIndex": 0, "explanation": "Consumer (60 unicorns).", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m06", "prompt": "A 'unicorn' startup is defined as a privately-held company valued at:", "options": ["USD 100 million or more", "USD 500 million or more", "USD 1 billion or more", "USD 10 billion or more"], "correctIndex": 2, "explanation": "USD 1 billion or more.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

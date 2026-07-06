@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC MCQ sets for Inferences (6 questions) and Blanks/Substitutions (6 questions)" }
   ],
-  "researchNotes": "Third and final Writing Skills topic, closing out Part C Unit III at 3 topics (matching the original ~3 estimate exactly). Inferences testing in real TNPSC questions sometimes relies on REAL-WORLD knowledge overriding a stated premise (see the penguin example below) rather than strict formal logic — worth flagging so it isn't mistaken for a logic error.",
+  "researchNotes": "Third and final Writing Skills topic, closing out Part C Unit III at 3 topics (matching the original ~3 estimate exactly). Inferences testing in real TNPSC questions sometimes relies on REAL-WORLD knowledge overriding a stated premise (see the penguin example below) rather than strict formal logic — worth flagging so it isn't mistaken for a logic error. Expansion pass (Batch 15): added a general elimination trick for inference questions plus two more fixed-preposition blank examples.",
   "reading": {
     "intro": "Covers drawing reasonable inferences from short scenarios, filling blanks with the correct word/preposition/article, and substituting repeated nouns with appropriate pronouns.",
     "qa": [
@@ -15,7 +15,10 @@
       { "id": "r04", "question": "Fill in the blank correctly: \"The train arrived late ___ heavy rain.\"", "answer": "DUE TO (not 'because' alone, which would need 'because OF'; 'for' and 'although' don't fit the cause-effect relationship here)." },
       { "id": "r05", "question": "Fill in the blank correctly: \"I have never seen ___ elephant before\" and \"She is ___ intelligent girl.\"", "answer": "AN elephant (vowel sound), AN intelligent girl (vowel sound) — both use 'an' because the following word starts with a vowel SOUND, not because of the letter itself." },
       { "id": "r06", "question": "Fill in the blank correctly: \"Let's go for a walk, ___?\" (question tag) and \"My brother is interested ___ photography.\"", "answer": "\"Let's go for a walk, SHALL WE?\" (the standard question tag for 'Let's' statements). \"Interested IN photography\" (the fixed preposition that follows 'interested')." },
-      { "id": "r07", "question": "Substitution example: \"I have two pens. ___ pen is blue and the other is red.\" What word correctly substitutes for the repeated noun?", "answer": "ONE — \"One pen is blue and the other is red\" (using 'one... the other' to refer back to the two pens without repeating 'pen' awkwardly)." }
+      { "id": "r07", "question": "Substitution example: \"I have two pens. ___ pen is blue and the other is red.\" What word correctly substitutes for the repeated noun?", "answer": "ONE — \"One pen is blue and the other is red\" (using 'one... the other' to refer back to the two pens without repeating 'pen' awkwardly)." },
+      { "id": "r08", "question": "What can be inferred from: \"The streets are decorated with lights and flowers, and shops are crowded\"?", "answer": "A festival or special celebration is likely happening — decorations and crowded shops together suggest festive preparation, even without the passage naming a specific festival." },
+      { "id": "r09", "question": "Fill in the blank correctly: \"She is good ___ mathematics\" and \"He apologised ___ his mistake.\"", "answer": "Good AT mathematics (fixed preposition after 'good'). Apologised FOR his mistake (fixed preposition after 'apologise')." },
+      { "id": "r10", "question": "What general TRICK helps quickly eliminate wrong options in inference questions?", "answer": "Eliminate any option that STATES something directly contradicted by the passage, or that requires OUTSIDE information not given/impliable from the passage — the correct inference is always a reasonable step beyond the stated facts, never a leap unsupported by them and never a restatement that flatly contradicts a given fact.", "tip": "A true inference adds ONE small reasonable step beyond the passage — if an option needs several unstated assumptions to be true, it's usually a distractor." }
     ]
   },
   "mockTest": {
@@ -28,7 +31,10 @@
       { "id": "m06", "prompt": "Fill in the blank: \"I have never seen ___ elephant before.\"", "options": ["a", "an", "the", "some"], "correctIndex": 1, "explanation": "an.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m07", "prompt": "Fill in the blank: \"Let's go for a walk, ___?\"", "options": ["isn't it", "won't we", "shall we", "don't we"], "correctIndex": 2, "explanation": "shall we.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "Fill in the blank: \"My brother is interested ___ photography.\"", "options": ["on", "at", "in", "for"], "correctIndex": 2, "explanation": "in.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m09", "prompt": "\"I have two pens. ___ pen is blue and the other is red.\" Choose the correct substitution.", "options": ["It", "One", "Them", "Those"], "correctIndex": 1, "explanation": "One.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m09", "prompt": "\"I have two pens. ___ pen is blue and the other is red.\" Choose the correct substitution.", "options": ["It", "One", "Them", "Those"], "correctIndex": 1, "explanation": "One.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "\"The streets are decorated with lights and flowers, and shops are crowded.\" What can be inferred?", "options": ["A festival is likely happening", "The streets are being repaired", "It is a normal working day", "The shops are closing down"], "correctIndex": 0, "explanation": "A festival is likely happening.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m11", "prompt": "Fill in the blank: \"She is good ___ mathematics.\"", "options": ["in", "at", "on", "for"], "correctIndex": 1, "explanation": "at.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m12", "prompt": "Fill in the blank: \"He apologised ___ his mistake.\"", "options": ["of", "for", "about", "at"], "correctIndex": 1, "explanation": "for.", "sourceTag": "authored", "difficulty": "medium" }
     ]
   }
 }

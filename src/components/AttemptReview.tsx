@@ -47,6 +47,11 @@ export function AttemptReview({ questions }: { questions: ReviewQuestion[] }) {
           <p className="mt-2 text-sm text-zinc-500">
             <em>Explanation:</em> {q.explanation}
           </p>
+          {q.trick && (
+            <p className="mt-1 text-sm text-amber-700">
+              <span className="font-semibold">⚡ Trick:</span> {q.trick}
+            </p>
+          )}
         </div>
       ))}
     </div>

@@ -6,7 +6,7 @@
     { "type": "web-research", "label": "vajiramandravi.com/PIB - Padma Awards 2026 breakdown and science recipients" },
     { "type": "web-research", "label": "infosys.com - Infosys Prize 2025 laureates and prize structure" }
   ],
-  "researchNotes": "Second lap of the Part A Current-Affairs rotation begins (back to Unit I). Picked award announcements — concrete, dated, and stable once announced — over volatile ongoing-research statistics, continuing the lesson logged on Day 58 about preferring durable current-affairs facts.",
+  "researchNotes": "Second lap of the Part A Current-Affairs rotation begins (back to Unit I). Picked award announcements — concrete, dated, and stable once announced — over volatile ongoing-research statistics, continuing the lesson logged on Day 58 about preferring durable current-affairs facts. Expansion pass (Batch 13): added the civilian-awards hierarchy (Bharat Ratna→Vibhushan→Bhushan→Shri) and named notable 2026 recipients across categories.",
   "reading": {
     "intro": "Covers the Padma Awards 2026 (announced on the eve of Republic Day 2026) and the Infosys Prize 2025 — India's major civilian and scientific recognition programmes.",
     "qa": [
@@ -14,7 +14,10 @@
       { "id": "r02", "question": "What were the demographic highlights of the Padma Awards 2026 list?", "answer": "19 women awardees; 6 in the Foreigners/NRI/PIO/OCI category; and 16 posthumous awards." },
       { "id": "r03", "question": "Name two Science & Engineering Padma Shri 2026 awardees and their states.", "answer": "A.E. Muthunayagam (Kerala) and Krishnamurty Balasubramanian (Telangana)." },
       { "id": "r04", "question": "What is the Infosys Prize, and what does each laureate receive?", "answer": "An annual award from the Infosys Science Foundation, given across six categories (Economics, Engineering & Computer Science, Humanities & Social Sciences, Life Sciences, Mathematical Sciences, Physical Sciences). Each winner receives a gold medal, a citation, and USD 100,000." },
-      { "id": "r05", "question": "What notable later achievement is associated with past Infosys Prize laureates, illustrating the prize's track record?", "answer": "Past laureates have gone on to win the Nobel Prize (e.g., Abhijit Banerjee and Esther Duflo) and the Fields Medal (e.g., Manjul Bhargava and Akshay Venkatesh) — underlining the Infosys Prize's reputation as an early indicator of major international scientific recognition." }
+      { "id": "r05", "question": "What notable later achievement is associated with past Infosys Prize laureates, illustrating the prize's track record?", "answer": "Past laureates have gone on to win the Nobel Prize (e.g., Abhijit Banerjee and Esther Duflo) and the Fields Medal (e.g., Manjul Bhargava and Akshay Venkatesh) — underlining the Infosys Prize's reputation as an early indicator of major international scientific recognition." },
+      { "id": "r06", "question": "When were the Padma Awards instituted, and what is the overall civilian awards hierarchy in India?", "answer": "Instituted in 1954. The hierarchy (highest to lowest) is: Bharat Ratna (India's highest civilian award) → Padma Vibhushan → Padma Bhushan → Padma Shri." },
+      { "id": "r07", "question": "Name two notable Padma Vibhushan 2026 recipients and their fields.", "answer": "Dharmendra Singh Deol (posthumous, Art/cinema) and V.S. Achuthanandan (posthumous, former Kerala Chief Minister, Public Affairs) — among the 5 total Padma Vibhushan awardees for 2026." },
+      { "id": "r08", "question": "Name two notable Padma Shri 2026 recipients from the Sports category.", "answer": "Rohit Sharma and Harmanpreet Kaur — both honoured in the Sports category for 2026." }
     ]
   },
   "mockTest": {
@@ -24,7 +27,10 @@
       { "id": "m03", "prompt": "How many Padma Bhushan awards were given in 2026?", "options": ["5", "13", "20", "30"], "correctIndex": 1, "explanation": "13.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "The Padma Awards are announced annually on the eve of:", "options": ["Independence Day", "Republic Day", "Gandhi Jayanti", "Constitution Day"], "correctIndex": 1, "explanation": "Republic Day.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m05", "prompt": "The Infosys Prize is awarded across how many categories?", "options": ["Four", "Five", "Six", "Eight"], "correctIndex": 2, "explanation": "Six.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m06", "prompt": "What does each Infosys Prize laureate receive?", "options": ["A cash prize only", "A gold medal, citation, and USD 100,000", "A government job offer", "Free laboratory space for life"], "correctIndex": 1, "explanation": "Gold medal, citation, and USD 100,000.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m06", "prompt": "What does each Infosys Prize laureate receive?", "options": ["A cash prize only", "A gold medal, citation, and USD 100,000", "A government job offer", "Free laboratory space for life"], "correctIndex": 1, "explanation": "Gold medal, citation, and USD 100,000.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "The Padma Awards were instituted in which year?", "options": ["1947", "1950", "1954", "1961"], "correctIndex": 2, "explanation": "1954.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m08", "prompt": "In India's civilian awards hierarchy, which award ranks immediately below Bharat Ratna?", "options": ["Padma Shri", "Padma Bhushan", "Padma Vibhushan", "Ashoka Chakra"], "correctIndex": 2, "explanation": "Padma Vibhushan.", "sourceTag": "web-research", "difficulty": "medium", "trick": "Remember the order top-down: Bharat Ratna → Vibhushan → Bhushan → Shri (V before B before S, alphabetically reversed from rank — 'VBS' descending)." },
+      { "id": "m09", "prompt": "Which cricketers were among the Padma Shri 2026 Sports category recipients?", "options": ["Virat Kohli and Smriti Mandhana", "Rohit Sharma and Harmanpreet Kaur", "MS Dhoni and Mithali Raj", "Sachin Tendulkar and Jhulan Goswami"], "correctIndex": 1, "explanation": "Rohit Sharma and Harmanpreet Kaur.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

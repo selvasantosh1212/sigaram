@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "hakaimagazine.com/jalshakti-dowr.gov.in - National River Linking Project scope (30 links, $168bn); 2026 implementation status (PFRs/FRs/DPRs); 2026 biodiversity-risk research" }
   ],
-  "researchNotes": "Twelfth Geography current-affairs topic (10th lap). Directly extends the Day-61 Ken-Betwa Link Project topic with the BROADER National River Linking Project framework it belongs to — connecting an already-covered specific project to its larger national context.",
+  "researchNotes": "Twelfth Geography current-affairs topic (10th lap). Directly extends the Day-61 Ken-Betwa Link Project topic with the BROADER National River Linking Project framework it belongs to — connecting an already-covered specific project to its larger national context. Expansion pass (Batch 22): added the National Perspective Plan's 1980 origin and Himalayan/Peninsular component split.",
   "reading": {
     "intro": "Covers India's National River Linking Project (NRLP) — its full scope, 2026 implementation status, and emerging environmental research concerns.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "Which specific link project (already covered as a standalone topic) is the FIRST to enter implementation under the NRLP framework?", "answer": "The Ken-Betwa Link Project — its foundation stone was laid in December 2024, diverting surplus water from the Ken river to the Betwa river." },
       { "id": "r03", "question": "What is the NRLP's 2026 documentation/planning status across all 30 projects?", "answer": "Pre-Feasibility Reports (PFRs): completed for ALL 30 projects. Feasibility Reports (FRs): completed for 26 projects. Detailed Project Reports (DPRs): completed for 11 projects." },
       { "id": "r04", "question": "What environmental concerns did 2026 research raise about river interlinking?", "answer": "That the interlinking routes could act as ecological corridors enabling biotic exchange between previously-isolated river basins — potentially accelerating biological invasions, disrupting migratory routes, altering hydrological regimes, and undermining ecosystem resilience." },
-      { "id": "r05", "question": "What principle governs the implementation of interlinking-of-rivers (ILR) projects across states?", "answer": "CONSENSUS — implementation depends on agreement among the concerned states, since river-linking often involves inter-state water-sharing." }
+      { "id": "r05", "question": "What principle governs the implementation of interlinking-of-rivers (ILR) projects across states?", "answer": "CONSENSUS — implementation depends on agreement among the concerned states, since river-linking often involves inter-state water-sharing." },
+      { "id": "r06", "question": "Which body originally conceptualised India's National Perspective Plan (NPP) for river interlinking, and when?", "answer": "Prepared by the Ministry of Water Resources in 1980, dividing the NRLP into the Himalayan Component (14 links) and the Peninsular Component (16 links) — the same 30-link structure still guiding the programme today." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,8 @@
       { "id": "m02", "prompt": "The NRLP's estimated total cost is approximately:", "options": ["$68 billion", "$118 billion", "$168 billion", "$218 billion"], "correctIndex": 2, "explanation": "$168 billion.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m03", "prompt": "Which link project was the first to enter implementation under the NRLP?", "options": ["Ken-Betwa Link Project", "Godavari-Cauvery Link", "Par-Tapi-Narmada Link", "Damanganga-Pinjal Link"], "correctIndex": 0, "explanation": "Ken-Betwa Link Project.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "As of 2026, Pre-Feasibility Reports (PFRs) are complete for how many of the NRLP's 30 projects?", "options": ["11", "20", "26", "All 30"], "correctIndex": 3, "explanation": "All 30 projects.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "Implementation of interlinking-of-rivers projects depends primarily on:", "options": ["Central government's unilateral decision", "Consensus among concerned states", "Supreme Court approval only", "UN environmental clearance"], "correctIndex": 1, "explanation": "Consensus among concerned states.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "Implementation of interlinking-of-rivers projects depends primarily on:", "options": ["Central government's unilateral decision", "Consensus among concerned states", "Supreme Court approval only", "UN environmental clearance"], "correctIndex": 1, "explanation": "Consensus among concerned states.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "India's National Perspective Plan (NPP) for river interlinking was originally prepared in:", "options": ["1960", "1980", "2000", "2014"], "correctIndex": 1, "explanation": "1980, by the Ministry of Water Resources.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

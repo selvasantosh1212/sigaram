@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "aljazeera.com/weforum.org - India-EU Free Trade Agreement (concluded 27 Jan 2026); India-New Zealand FTA (27 Apr 2026); US-India tariff deal (2 Feb 2026)" }
   ],
-  "researchNotes": "Fourth Economy current-affairs topic (4th lap). Picked 3 dated, concluded/signed trade agreements over RBI repo-rate data (which, while stable at 5.25% through Feb-June 2026, is thinner/less distinctive exam content than a landmark, decades-in-the-making trade deal).",
+  "researchNotes": "Fourth Economy current-affairs topic (4th lap). Picked 3 dated, concluded/signed trade agreements over RBI repo-rate data (which, while stable at 5.25% through Feb-June 2026, is thinner/less distinctive exam content than a landmark, decades-in-the-making trade deal). Expansion pass (Batch 16): added the India-UK CETA — India's most comprehensive FTA with a G-7 nation — rounding out the year's trade-agreement picture to 4 major deals (EU, New Zealand, US, UK).",
   "reading": {
     "intro": "Covers 3 major Free Trade Agreements India concluded in 2026 — its most active year yet for trade diplomacy.",
     "qa": [
@@ -14,7 +14,9 @@
       { "id": "r03", "question": "What tariff relief does the India-EU FTA give Indian exporters, and which Indian sectors benefit most?", "answer": "The EU will eliminate tariffs on 90% of Indian goods immediately (rising to 93% within 7 years). Sectors benefiting with zero tariffs immediately: seafood, chemicals, plastics, leather, textiles, apparel, metals, and gems/jewellery." },
       { "id": "r04", "question": "Which historically protected Indian sector is opening up under the India-EU FTA, and by how much?", "answer": "The automobile sector — tariffs cut from up to 110% down to 30-35% initially, phasing down further to 10% over time." },
       { "id": "r05", "question": "What trade agreement did India sign with New Zealand, and when?", "answer": "India and New Zealand signed a Free Trade Agreement on 27 April 2026, giving Indian exporters full duty-free access to the New Zealand market upon entry into force." },
-      { "id": "r06", "question": "What tariff change did the US-India trade deal (announced 2 February 2026) bring?", "answer": "US tariffs on Indian goods were cut from a punitive 50% down to a consolidated 18%." }
+      { "id": "r06", "question": "What tariff change did the US-India trade deal (announced 2 February 2026) bring?", "answer": "US tariffs on Indian goods were cut from a punitive 50% down to a consolidated 18%." },
+      { "id": "r07", "question": "What is the India-UK Comprehensive Economic and Trade Agreement (CETA), and when was it signed/when does it take effect?", "answer": "India's most comprehensive trade agreement with a G-7 nation, and the UK's most significant bilateral FTA since leaving the EU. Signed on 24 July 2025, after 14 rounds of negotiations over 3 years — set to come into effect on 15 July 2026." },
+      { "id": "r08", "question": "What market access does the India-UK CETA provide, and what is the bilateral trade target?", "answer": "The UK will immediately eliminate duties on 99% of Indian tariff lines, covering nearly 100% of trade value — including removing tariffs of up to 70% on processed foods and 21.5% on marine products. Current bilateral trade (~USD 56 billion) is targeted to DOUBLE by 2030." }
     ]
   },
   "mockTest": {
@@ -23,7 +25,10 @@
       { "id": "m02", "prompt": "The India-EU FTA's combined market represents approximately what share of global GDP?", "options": ["10%", "15%", "20%", "25%"], "correctIndex": 3, "explanation": "About 25% of global GDP.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m03", "prompt": "Under the India-EU FTA, India's automobile sector tariffs (previously up to 110%) are being cut initially to:", "options": ["10%", "20%", "30-35%", "50%"], "correctIndex": 2, "explanation": "30-35% initially, phasing down to 10% over time.", "sourceTag": "web-research", "difficulty": "hard" },
       { "id": "m04", "prompt": "India signed a Free Trade Agreement with New Zealand on:", "options": ["27 January 2026", "2 February 2026", "27 April 2026", "5 June 2026"], "correctIndex": 2, "explanation": "27 April 2026.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m05", "prompt": "The US-India trade deal (announced 2 February 2026) cut US tariffs on Indian goods from 50% to:", "options": ["10%", "18%", "25%", "30%"], "correctIndex": 1, "explanation": "18%.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "The US-India trade deal (announced 2 February 2026) cut US tariffs on Indian goods from 50% to:", "options": ["10%", "18%", "25%", "30%"], "correctIndex": 1, "explanation": "18%.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The India-UK CETA was signed on 24 July 2025 and will come into effect on:", "options": ["1 January 2026", "15 July 2026", "1 October 2026", "26 January 2027"], "correctIndex": 1, "explanation": "15 July 2026.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m07", "prompt": "Under the India-UK CETA, the UK will immediately eliminate duties on what percentage of Indian tariff lines?", "options": ["75%", "85%", "99%", "100%"], "correctIndex": 2, "explanation": "99%.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m08", "prompt": "India-UK bilateral trade (currently ~USD 56 billion) is targeted to double by:", "options": ["2027", "2028", "2030", "2035"], "correctIndex": 2, "explanation": "2030.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

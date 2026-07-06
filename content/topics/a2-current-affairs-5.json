@@ -5,7 +5,7 @@
   "sourceRefs": [
     { "type": "web-research", "label": "drishtiias.com/waterpowermagazine.com - Subansiri Lower Hydroelectric Project progress (Unit 5 completed 14 June 2026; full commissioning expected Dec 2026)" }
   ],
-  "researchNotes": "Fifth Geography current-affairs topic (5th lap). India's largest hydropower project under construction — solid river-systems/North-East-India geography content with a concrete, dated progress milestone.",
+  "researchNotes": "Fifth Geography current-affairs topic (5th lap). India's largest hydropower project under construction — solid river-systems/North-East-India geography content with a concrete, dated progress milestone. Expansion pass (Batch 17): added the project's Brahmaputra-tributary context and the downstream ecological concerns that historically delayed it.",
   "reading": {
     "intro": "Covers India's largest under-construction hydropower project — the Subansiri Lower Hydroelectric Project — its location, capacity, and 2026 progress.",
     "qa": [
@@ -13,7 +13,8 @@
       { "id": "r02", "question": "What is the Subansiri Lower Project's total installed capacity, and how is it structured?", "answer": "2,000 MW total, comprising 8 units of 250 MW each. It is being implemented by NHPC Limited." },
       { "id": "r03", "question": "What milestone did the project reach on 14 June 2026?", "answer": "Successful 'boxing-up' of Unit 5 (250 MW), bringing the project's commissioned capacity to 1,250 MW across 5 units." },
       { "id": "r04", "question": "When is the Subansiri Lower Project expected to be fully commissioned?", "answer": "By December 2026, with the remaining units commissioned in a phased manner." },
-      { "id": "r05", "question": "How much electricity is the project expected to generate annually once complete?", "answer": "About 7,422 million units annually." }
+      { "id": "r05", "question": "How much electricity is the project expected to generate annually once complete?", "answer": "About 7,422 million units annually." },
+      { "id": "r06", "question": "Why has the Subansiri Lower Project historically been controversial, beyond its engineering scale?", "answer": "Downstream concerns in Assam over potential flooding/ecological impact on the Brahmaputra river system (the Subansiri is a major tributary of the Brahmaputra) led to protests and construction delays for several years before work resumed with revised safety/design assurances." }
     ]
   },
   "mockTest": {
@@ -22,7 +23,9 @@
       { "id": "m02", "prompt": "The Subansiri Lower Project's total installed capacity is:", "options": ["1,000 MW", "1,500 MW", "2,000 MW", "2,500 MW"], "correctIndex": 2, "explanation": "2,000 MW (8 units of 250 MW each).", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m03", "prompt": "The Subansiri Lower Project is being implemented by:", "options": ["NTPC", "NHPC Limited", "SJVN", "Tehri Hydro Development Corporation"], "correctIndex": 1, "explanation": "NHPC Limited.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m04", "prompt": "As of 14 June 2026 (after Unit 5's completion), the project's commissioned capacity reached:", "options": ["750 MW", "1,000 MW", "1,250 MW", "1,500 MW"], "correctIndex": 2, "explanation": "1,250 MW across 5 units.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m05", "prompt": "The Subansiri Lower Project is expected to be fully commissioned by:", "options": ["August 2026", "December 2026", "March 2027", "December 2027"], "correctIndex": 1, "explanation": "December 2026.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m05", "prompt": "The Subansiri Lower Project is expected to be fully commissioned by:", "options": ["August 2026", "December 2026", "March 2027", "December 2027"], "correctIndex": 1, "explanation": "December 2026.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m06", "prompt": "The Subansiri River, on which the project is built, is a major tributary of which river?", "options": ["Ganga", "Brahmaputra", "Teesta", "Mahanadi"], "correctIndex": 1, "explanation": "Brahmaputra.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m07", "prompt": "The Subansiri Lower Project faced construction delays for years primarily due to:", "options": ["Funding shortages", "Downstream flooding/ecological concerns in Assam", "Land acquisition issues in Arunachal Pradesh", "Equipment import restrictions"], "correctIndex": 1, "explanation": "Downstream flooding/ecological concerns in Assam.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }

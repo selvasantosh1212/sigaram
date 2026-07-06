@@ -4,6 +4,7 @@ export const QASchema = z.object({
   id: z.string(),
   question: z.string(),
   answer: z.string(),
+  tip: z.string().optional(),
 });
 
 export const MockQuestionSchema = z.object({
@@ -14,6 +15,7 @@ export const MockQuestionSchema = z.object({
   explanation: z.string(),
   sourceTag: z.string(),
   difficulty: z.enum(["easy", "medium", "hard"]),
+  trick: z.string().optional(),
 });
 
 export const TopicSchema = z.object({

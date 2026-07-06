@@ -15,7 +15,9 @@
       { "id": "r03", "question": "Who was always eager to visit the bazaar, and why did he NOT go this time?", "answer": "Suresh was always ready to visit the bazaar — but this time he couldn't go because he had to chop wood." },
       { "id": "r04", "question": "Why was Usha not afraid of ghosts, despite the hill's reputation for being haunted?", "answer": "Because she believed ghosts don't come out during the daytime — a simple, practical reasoning rather than any special charm or protection." },
       { "id": "r05", "question": "Where did Usha go shopping, what did she buy for herself, and what colour was it?", "answer": "She went to the bazaar across the hill. She bought herself a necklace, coloured AMBER." },
-      { "id": "r06", "question": "What did Usha get repaired at the cobbler's, and what bird sang in the ruins?", "answer": "She got her MOTHER's slippers repaired at the cobbler's (not her own). A Whistling Thrush sang in the ruins." }
+      { "id": "r06", "question": "What did Usha get repaired at the cobbler's, and what bird sang in the ruins?", "answer": "She got her MOTHER's slippers repaired at the cobbler's (not her own). A Whistling Thrush sang in the ruins." },
+      { "id": "r07", "question": "What overall tone does the story adopt toward the hill's 'haunted' reputation?", "answer": "A light, matter-of-fact tone rather than genuine horror — treating the supposed haunting as local lore that a practical, unafraid child like Usha simply doesn't take seriously." },
+      { "id": "r08", "question": "What does Usha's characterization (practical, unafraid, capable) suggest about the story's portrayal of rural hill life?", "answer": "It celebrates self-reliance and everyday courage in children raised in rural/hill environments, where daily responsibilities like shopping and chores are handled independently and matter-of-factly, without being framed as extraordinary." }
     ]
   },
   "mockTest": {
@@ -28,7 +30,8 @@
       { "id": "m06", "prompt": "Why was Usha not afraid of ghosts?", "options": ["She had a protective charm", "She had a dog with her", "Ghosts don't come out in the daytime", "She believed she could fly away"], "correctIndex": 2, "explanation": "Ghosts don't come out in the daytime.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "What did Usha buy for herself at the bazaar, and what colour was it?", "options": ["Red bangles", "An amber necklace", "Silver earrings", "A green anklet"], "correctIndex": 1, "explanation": "An amber necklace.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "What did Usha get repaired at the cobbler's?", "options": ["Her own bag", "Her own shoes", "Her own slippers", "Her mother's slippers"], "correctIndex": 3, "explanation": "Her mother's slippers.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m09", "prompt": "What bird sang in the ruins on the hill?", "options": ["Nightingale", "Sparrow", "Whistling Thrush", "Crow"], "correctIndex": 2, "explanation": "Whistling Thrush.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m09", "prompt": "What bird sang in the ruins on the hill?", "options": ["Nightingale", "Sparrow", "Whistling Thrush", "Crow"], "correctIndex": 2, "explanation": "Whistling Thrush.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m10", "prompt": "The story's overall tone toward the hill's 'haunted' reputation is:", "options": ["Genuinely terrifying", "Light and matter-of-fact", "Deeply tragic", "Angrily dismissive"], "correctIndex": 1, "explanation": "Light and matter-of-fact.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

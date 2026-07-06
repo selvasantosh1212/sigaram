@@ -7,7 +7,7 @@
     { "type": "web-research", "label": "civilserviceaspirants.in - dedicated TNPSC Singular/Plural/Zero-Plural MCQ set (6 real-style questions)" },
     { "type": "web-research", "label": "Common Latin-derived English abbreviations (e.g., i.e., etc., RSVP, ASAP, FYI)" }
   ],
-  "researchNotes": "Fifth Vocabulary topic, finally consuming the Furniture zero-plural fact stashed since Day-61-era research, plus a dedicated TNPSC-specific source with 6 directly relevant questions on zero-plural and irregular-plural nouns.",
+  "researchNotes": "Fifth Vocabulary topic, finally consuming the Furniture zero-plural fact stashed since Day-61-era research, plus a dedicated TNPSC-specific source with 6 directly relevant questions on zero-plural and irregular-plural nouns. Expansion pass (Batch 13): added more zero-plural nouns (deer, series, species), classic irregular plurals (child/mouse/tooth/foot), and further common Latin-derived abbreviations (N.B., P.S., a.m./p.m.).",
   "reading": {
     "intro": "Covers 'zero plural' nouns (same form in singular and plural, or always one form regardless of number), irregular plurals, and common abbreviations.",
     "qa": [
@@ -17,7 +17,10 @@
       { "id": "r04", "question": "Real exam: How is 'Fish' pluralised when referring to multiple individual fish?", "answer": "'Fish' typically stays the SAME in the plural: \"Five FISH were in the tank\" (not 'fishes', though 'fishes' is occasionally used when referring to multiple different SPECIES of fish) — confirmed by a real exam question." },
       { "id": "r05", "question": "Real exam: How is 'Sheep' pluralised, and how is 'Goose' pluralised?", "answer": "'Sheep' stays the SAME in the plural: \"one sheep, two sheep\" (zero plural). 'Goose' has an IRREGULAR plural: \"Geese\" (not 'gooses') — both confirmed by real exam questions." },
       { "id": "r06", "question": "What do the common Latin-derived abbreviations 'e.g.', 'i.e.', and 'etc.' stand for and mean?", "answer": "e.g. (exempli gratia) = 'for example'. i.e. (id est) = 'that is' (used to clarify/restate, not give examples). etc. (et cetera) = 'and so on/and other similar things'." },
-      { "id": "r07", "question": "What do the abbreviations 'RSVP', 'ASAP', and 'FYI' stand for?", "answer": "RSVP (Répondez s'il vous plaît, French) = 'please reply'. ASAP = 'as soon as possible'. FYI = 'for your information'." }
+      { "id": "r07", "question": "What do the abbreviations 'RSVP', 'ASAP', and 'FYI' stand for?", "answer": "RSVP (Répondez s'il vous plaît, French) = 'please reply'. ASAP = 'as soon as possible'. FYI = 'for your information'." },
+      { "id": "r08", "question": "What is the correct plural of 'deer', 'series', and 'species' — a group of zero-plural nouns beyond the common animal examples?", "answer": "DEER = same in singular and plural ('one deer, two deer'). SERIES = same in singular and plural ('one series, two series'). SPECIES = same in singular and plural ('one species, several species') — all three keep their exact form regardless of number." },
+      { "id": "r09", "question": "What are the irregular plurals of 'child', 'mouse', 'tooth', and 'foot'?", "answer": "CHILD → CHILDREN. MOUSE → MICE. TOOTH → TEETH. FOOT → FEET — none simply add '-s', unlike the regular pattern." },
+      { "id": "r10", "question": "What do the abbreviations 'NB', 'P.S.', and 'a.m./p.m.' stand for?", "answer": "N.B. (Nota Bene, Latin) = 'note well/take special notice'. P.S. (Post Scriptum, Latin) = 'written after' (used to add a note after signing a letter). a.m. (Ante Meridiem) = 'before noon'; p.m. (Post Meridiem) = 'after noon'." }
     ]
   },
   "mockTest": {
@@ -30,7 +33,12 @@
       { "id": "m06", "prompt": "Pick the correctly written plural for 'sheep':", "options": ["One sheep, two sheeps", "One sheep, two sheep", "One sheep, two sheepes", "One sheep, two sheepe"], "correctIndex": 1, "explanation": "\"One sheep, two sheep.\"", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m07", "prompt": "Select the proper plural form of 'goose':", "options": ["Gooses", "Goosies", "Geese", "Geeses"], "correctIndex": 2, "explanation": "Geese.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m08", "prompt": "What does the abbreviation 'i.e.' stand for?", "options": ["For example", "That is", "And so on", "In other words only in writing"], "correctIndex": 1, "explanation": "'That is' (id est).", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m09", "prompt": "What does 'RSVP' stand for/mean?", "options": ["As soon as possible", "For your information", "Please reply", "For example"], "correctIndex": 2, "explanation": "Please reply.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m09", "prompt": "What does 'RSVP' stand for/mean?", "options": ["As soon as possible", "For your information", "Please reply", "For example"], "correctIndex": 2, "explanation": "Please reply.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Choose the correct plural usage for 'species':", "options": ["Several speciess", "Several species", "Several specieses", "Several specie"], "correctIndex": 1, "explanation": "\"Several species\" — zero plural.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m11", "prompt": "What is the plural of 'mouse' (the animal)?", "options": ["Mouses", "Mices", "Mice", "Mouse"], "correctIndex": 2, "explanation": "Mice.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m12", "prompt": "What is the plural of 'tooth'?", "options": ["Tooths", "Teeth", "Toothes", "Tooth"], "correctIndex": 1, "explanation": "Teeth.", "sourceTag": "authored", "difficulty": "easy" },
+      { "id": "m13", "prompt": "What does 'P.S.' (added at the end of a letter) stand for?", "options": ["Please See", "Post Scriptum (written after)", "Personal Statement", "Please Send"], "correctIndex": 1, "explanation": "Post Scriptum.", "sourceTag": "authored", "difficulty": "medium" },
+      { "id": "m14", "prompt": "What does 'N.B.' stand for, commonly used to flag an important note?", "options": ["Nota Bene (note well)", "New Bulletin", "National Board", "Not Applicable"], "correctIndex": 0, "explanation": "Nota Bene.", "sourceTag": "authored", "difficulty": "hard" }
     ]
   }
 }

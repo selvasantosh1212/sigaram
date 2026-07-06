@@ -9,7 +9,7 @@ export function QaItem({
 }: {
   dayNumber: number;
   topicId: string;
-  qa: { id: string; question: string; answer: string };
+  qa: { id: string; question: string; answer: string; tip?: string };
   number: number;
   bookmarked: boolean;
 }) {
@@ -18,6 +18,11 @@ export function QaItem({
       <div className="flex-1">
         <p className="font-bold text-zinc-900">Q{number}: {qa.question}</p>
         <p className="mt-1 text-zinc-600">A: {qa.answer}</p>
+        {qa.tip && (
+          <p className="mt-1 text-amber-700">
+            <span className="font-semibold">⚡ Trick:</span> {qa.tip}
+          </p>
+        )}
       </div>
       <form
         action={async () => {
