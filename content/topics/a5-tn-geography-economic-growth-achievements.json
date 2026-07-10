@@ -3,9 +3,10 @@
   "unitId": "A-V",
   "name": "Geography of Tamil Nadu's Economic Growth, and Achievements of Tamil Nadu",
   "sourceRefs": [
-    { "type": "web-research", "label": "ibef.org/statisticstimes.com - TN's GSDP rank, contribution to national GDP, ports/industrial corridors, FDI ranking" }
+    { "type": "web-research", "label": "ibef.org/statisticstimes.com - TN's GSDP rank, contribution to national GDP, ports/industrial corridors, FDI ranking" },
+    { "type": "web-research", "label": "TN's coastline length (~1,076 km, 2nd-longest state coastline in India)" }
   ],
-  "researchNotes": "No direct OCR hits found for this specific clause despite several keyword attempts (Western Ghats/Coromandel/Palk Strait/achievements-of-TN all returned zero) — authored from web research, with growth-rate and ranking figures explicitly flagged as time-sensitive snapshots (the kind of statistic likely to be updated in each year's edition of this same syllabus clause) rather than permanent facts.",
+  "researchNotes": "No direct OCR hits found for this specific clause despite several keyword attempts (Western Ghats/Coromandel/Palk Strait/achievements-of-TN all returned zero) — authored from web research, with growth-rate and ranking figures explicitly flagged as time-sensitive snapshots (the kind of statistic likely to be updated in each year's edition of this same syllabus clause) rather than permanent facts. Round-2 pass (2026-07, second expansion): added TN's coastline length (~1,076 km, India's 2nd-longest), a stable geographic fact linking directly to the ports/fisheries material already in this topic.",
   "reading": {
     "intro": "Covers how Tamil Nadu's geography (ports, industrial corridors, connectivity) supports its economic standing among Indian states, and the state's headline economic achievements. Treat specific growth-rate/ranking figures as snapshots from a particular year, since these are revised annually.",
     "qa": [
@@ -16,7 +17,8 @@
       { "id": "r05", "question": "How does Tamil Nadu rank nationally in terms of Foreign Direct Investment (FDI) inflows?", "answer": "5th in India in terms of FDI inflows (a specific year's ranking — treat as a snapshot)." },
       { "id": "r06", "question": "What is Tamil Nadu's longer-term economic growth target?", "answer": "The state aims to become a $1 trillion economy by 2032-33 — part of a broader strategic roadmap toward a much larger ($4+ trillion, longer-term) economy." },
       { "id": "r07", "question": "What role does Tamil Nadu play in India's automobile manufacturing sector?", "answer": "Often called the 'Detroit of India' (or 'Detroit of Asia'), TN hosts major automobile and auto-component manufacturing hubs, particularly around Chennai, contributing significantly to India's total automobile production and exports." },
-      { "id": "r08", "question": "What is Tamil Nadu's position in India's textile industry?", "answer": "Tamil Nadu is India's largest textile-producing state, with the Tiruppur-Coimbatore belt forming a major hub for garment manufacturing and exports — Tiruppur is often called the 'Knitwear Capital of India'." }
+      { "id": "r08", "question": "What is Tamil Nadu's position in India's textile industry?", "answer": "Tamil Nadu is India's largest textile-producing state, with the Tiruppur-Coimbatore belt forming a major hub for garment manufacturing and exports — Tiruppur is often called the 'Knitwear Capital of India'." },
+      { "id": "r09", "question": "Round-2 pass — How long is Tamil Nadu's coastline, and why does this matter economically?", "answer": "Approximately 1,076 km — the second-longest coastline among Indian states (after Gujarat). This long coastline underpins TN's port infrastructure (3 major + 15 minor ports), fisheries sector, and coastal/offshore economic activity, directly supporting the state's trade and connectivity advantages already noted." }
     ]
   },
   "mockTest": {
@@ -29,7 +31,8 @@
       { "id": "m06", "prompt": "Tamil Nadu ranks 5th nationally in terms of which economic indicator?", "options": ["Per-capita income", "FDI inflows", "Literacy rate", "Population"], "correctIndex": 1, "explanation": "FDI inflows.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m07", "prompt": "Tamil Nadu aims to become a $1 trillion economy by:", "options": ["2025-26", "2028-29", "2032-33", "2040-41"], "correctIndex": 2, "explanation": "2032-33.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m08", "prompt": "Tamil Nadu is often referred to as the 'Detroit of India/Asia' because of its strength in:", "options": ["Textiles", "Automobile manufacturing", "Information technology", "Agriculture"], "correctIndex": 1, "explanation": "Automobile manufacturing, especially around Chennai.", "sourceTag": "web-research", "difficulty": "medium" },
-      { "id": "m09", "prompt": "Which Tamil Nadu city is often called the 'Knitwear Capital of India'?", "options": ["Chennai", "Madurai", "Tiruppur", "Salem"], "correctIndex": 2, "explanation": "Tiruppur.", "sourceTag": "web-research", "difficulty": "medium" }
+      { "id": "m09", "prompt": "Which Tamil Nadu city is often called the 'Knitwear Capital of India'?", "options": ["Chennai", "Madurai", "Tiruppur", "Salem"], "correctIndex": 2, "explanation": "Tiruppur.", "sourceTag": "web-research", "difficulty": "medium" },
+      { "id": "m10", "prompt": "Tamil Nadu has the second-longest coastline among Indian states (after Gujarat), at approximately:", "options": ["676 km", "876 km", "1,076 km", "1,276 km"], "correctIndex": 2, "explanation": "Approximately 1,076 km.", "sourceTag": "web-research", "difficulty": "medium" }
     ]
   }
 }

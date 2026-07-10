@@ -3,9 +3,10 @@
   "unitId": "C-VII",
   "name": "Poem: \"The Grumble Family\" — L.M. Montgomery",
   "sourceRefs": [
-    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" }
+    { "type": "web-research", "label": "civilserviceaspirants.in - dedicated MCQ set" },
+    { "type": "web-research", "label": "brainkart.com - re-verified full 5-stanza text for round-2 stanza-attribution check" }
   ],
-  "researchNotes": "OCR index search for 'grumble family'/'montgomery' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept since each tests a distinct fact/device. Expanded 2026-07 pass: sourced the poem's full 5-stanza text for the first time, adding its AABB rhyme scheme, the weather-complaint stanza, the poem's central hypothetical ('if everything pleased them, they'd grumble about having nothing to grumble about'), the ironic final stanza where no family member admits to being a Grumble, and L.M. Montgomery's own biography (Anne of Green Gables).",
+  "researchNotes": "OCR index search for 'grumble family'/'montgomery' returned zero hits — web research only. Raw pool of 6 sourced MCQs, all kept since each tests a distinct fact/device. Expanded 2026-07 pass: sourced the poem's full 5-stanza text for the first time, adding its AABB rhyme scheme, the weather-complaint stanza, the poem's central hypothetical ('if everything pleased them, they'd grumble about having nothing to grumble about'), the ironic final stanza where no family member admits to being a Grumble, and L.M. Montgomery's own biography (Anne of Green Gables). Round-2 pass (2026-07, second expansion): re-verified the full text against an independent source — all facts already in this topic checked out accurate, so only a small stanza-attribution addition was made rather than padding with restatements. This short poem's genuine content is now essentially exhausted; further rounds would need to repeat rather than find new material.",
   "reading": {
     "intro": "A humorous, cautionary poem about a family that complains about absolutely everything, living on 'Complaining Street'. Real coaching-site evidence tests the poem's setting, irony, and a couple of figures of speech.",
     "qa": [
@@ -19,7 +20,8 @@
       { "id": "r08", "question": "What complaint pattern does the poem describe about the weather, in its third stanza?", "answer": "\"The weather is always too hot or cold; summer and winter alike they scold\" — they complain regardless of season, whether it's hot or cold, summer or winter." },
       { "id": "r09", "question": "What hypothetical does the poem raise about what would happen if everything pleased the family perfectly?", "answer": "The poem suggests that even then they wouldn't be satisfied: \"if everything pleased them, there isn't a doubt they'd growl that they'd nothing to grumble about!\" — the poem's central irony about habitual complaining." },
       { "id": "r10", "question": "What does the poem's final stanza reveal about the family members individually?", "answer": "Ironically, not one member of the family will admit to being connected to the 'Grumble' name or acknowledge that they themselves are grumblers — despite being defined entirely by their grumbling." },
-      { "id": "r11", "question": "What is L.M. Montgomery best known for, besides this poem?", "answer": "A Canadian author (1874-1942), most famous for the 'Anne of Green Gables' novel series (starting 1908); she wrote 20 novels, 530 short stories, 500 poems, and 30 essays in total." }
+      { "id": "r11", "question": "What is L.M. Montgomery best known for, besides this poem?", "answer": "A Canadian author (1874-1942), most famous for the 'Anne of Green Gables' novel series (starting 1908); she wrote 20 novels, 530 short stories, 500 poems, and 30 essays in total." },
+      { "id": "r12", "question": "Round-2 pass — Re-verified against the full 5-stanza text: which exact stanza contains \"whether their station be high or humble, they are all known by the name of Grumble\"?", "answer": "The second stanza — distinct from the third stanza's weather-specific complaint ('too hot or cold... summer and winter alike they scold') and the fourth stanza's rain/sun complaint and 'nothing to grumble about' hypothetical. Confirms the existing content's facts were accurate; this pass mainly pins down the precise stanza-by-stanza attribution." }
     ]
   },
   "mockTest": {
@@ -37,7 +39,8 @@
       { "id": "m11", "prompt": "L.M. Montgomery is best known internationally for which novel series?", "options": ["Anne of Green Gables", "Little Women", "The Chronicles of Narnia", "Black Beauty"], "correctIndex": 0, "explanation": "Anne of Green Gables.", "sourceTag": "web-research", "difficulty": "easy" },
       { "id": "m12", "prompt": "L.M. Montgomery was an author from which country?", "options": ["United States", "Canada", "United Kingdom", "Australia"], "correctIndex": 1, "explanation": "Canada.", "sourceTag": "web-research", "difficulty": "medium" },
       { "id": "m13", "prompt": "Which rhyming pair appears in the poem's third stanza?", "options": ["Meet and street", "Cold and scold", "This and amiss", "Sun and done"], "correctIndex": 1, "explanation": "\"Cold\" and \"scold\" in the weather-complaint stanza.", "sourceTag": "web-research", "difficulty": "hard" },
-      { "id": "m14", "prompt": "Which rhyming pair appears in the poem's opening stanza?", "options": ["Meet and street", "Cold and scold", "Sun and done", "Same and name"], "correctIndex": 0, "explanation": "\"Meet\" and \"street\" in the opening lines.", "sourceTag": "web-research", "difficulty": "hard" }
+      { "id": "m14", "prompt": "Which rhyming pair appears in the poem's opening stanza?", "options": ["Meet and street", "Cold and scold", "Sun and done", "Same and name"], "correctIndex": 0, "explanation": "\"Meet\" and \"street\" in the opening lines.", "sourceTag": "web-research", "difficulty": "hard" },
+      { "id": "m15", "prompt": "\"Whether their station be high or humble, they are all known by the name of Grumble\" appears in which stanza?", "options": ["First stanza", "Second stanza", "Third stanza", "Fifth stanza"], "correctIndex": 1, "explanation": "The second stanza — distinct from the third stanza's weather-specific complaints.", "sourceTag": "web-research", "difficulty": "hard" }
     ]
   }
 }
