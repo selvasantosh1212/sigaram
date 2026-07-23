@@ -102,6 +102,7 @@ export async function submitAttemptAction(
   if (attempt?.attempt_kind === "weekly") {
     revalidatePath("/days");
     revalidatePath("/weekly");
+    revalidatePath("/monthly");
     redirect(`/weekly/results/${attemptId}`);
   }
   if (attempt?.attempt_kind === "monthly") {
