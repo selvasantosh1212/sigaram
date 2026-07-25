@@ -1,11 +1,12 @@
 import { readFileSync, readdirSync } from "fs";
 import path from "path";
 import { cache } from "react";
-import { DaySchema, TopicSchema, type Day, type Topic } from "./types";
+import { DaySchema, SyllabusPartSchema, TopicSchema, type Day, type SyllabusPart, type Topic } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const DAYS_PATH = path.join(CONTENT_DIR, "days/days.json");
 const TOPICS_DIR = path.join(CONTENT_DIR, "topics");
+const SYLLABUS_DIR = path.join(CONTENT_DIR, "syllabus");
 
 export const getAllDays = cache((): Day[] => {
   const raw = JSON.parse(readFileSync(DAYS_PATH, "utf8"));
@@ -29,6 +30,14 @@ export const getAllTopicIds = cache((): string[] => {
 
 export const getAllTopics = cache((): Topic[] => {
   return getAllTopicIds().map((id) => getTopic(id));
+});
+
+// The official Part A/B/C -> unit -> mark-weightage breakdown. Nothing else in the
+// codebase reads these files yet; they exist purely as syllabus metadata.
+export const getSyllabusParts = cache((): SyllabusPart[] => {
+  return (["partA", "partB", "partC"] as const).map((f) =>
+    SyllabusPartSchema.parse(JSON.parse(readFileSync(path.join(SYLLABUS_DIR, `${f}.json`), "utf8")))
+  );
 });
 
 export type DayQuestion = {

@@ -44,6 +44,44 @@ export async function getFullMockScoreTrend(): Promise<ScoreTrendPoint[]> {
   return queryScoreTrend("full_mock");
 }
 
+// Weekly/monthly cycle tests are keyed by week_number/month_number rather than
+// day_number, so they need their own label column instead of queryScoreTrend's.
+async function queryCycleScoreTrend(
+  attemptKind: "weekly" | "monthly",
+  numberColumn: "week_number" | "month_number",
+  labelPrefix: string
+): Promise<ScoreTrendPoint[]> {
+  const db = await getDb();
+  const rs = await db.execute({
+    sql: `SELECT id, ${numberColumn} as cycle_number, submitted_at, score_percent, duration_seconds
+       FROM attempts WHERE submitted_at IS NOT NULL AND attempt_kind = ? ORDER BY submitted_at ASC`,
+    args: [attemptKind],
+  });
+  const rows = rowsToObjects(rs) as Array<{
+    id: number;
+    cycle_number: number | null;
+    submitted_at: string;
+    score_percent: number;
+    duration_seconds: number;
+  }>;
+
+  return rows.map((r) => ({
+    attemptId: r.id,
+    label: r.cycle_number != null ? `${labelPrefix} ${r.cycle_number}` : `Attempt ${r.id}`,
+    submittedAt: r.submitted_at,
+    scorePercent: Math.round(r.score_percent * 10) / 10,
+    durationSeconds: r.duration_seconds,
+  }));
+}
+
+export async function getWeeklyScoreTrend(): Promise<ScoreTrendPoint[]> {
+  return queryCycleScoreTrend("weekly", "week_number", "Week");
+}
+
+export async function getMonthlyScoreTrend(): Promise<ScoreTrendPoint[]> {
+  return queryCycleScoreTrend("monthly", "month_number", "Month");
+}
+
 export type PartAccuracy = { part: "A" | "B" | "C"; correct: number; total: number; accuracyPercent: number };
 
 export async function getPartAccuracy(): Promise<PartAccuracy[]> {

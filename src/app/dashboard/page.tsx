@@ -4,14 +4,17 @@ import {
   getDailyScoreTrend,
   getDifficultyAccuracy,
   getFullMockScoreTrend,
+  getMonthlyScoreTrend,
   getPartAccuracy,
   getSourceTagAccuracy,
   getStreaks,
   getTimeOfDayDistribution,
   getTopicLevelStats,
   getUnitAccuracy,
+  getWeeklyScoreTrend,
 } from "@/lib/analytics";
 import { getAllDays, getAllTopics } from "@/lib/content";
+import { getSyllabusCoverage } from "@/lib/syllabus";
 import {
   DifficultyAccuracyChart,
   PartAccuracyChart,
@@ -26,6 +29,8 @@ export default async function DashboardPage() {
     completedDays,
     dailyTrend,
     fullMockTrend,
+    weeklyTrend,
+    monthlyTrend,
     partAccuracy,
     unitAccuracy,
     difficultyAccuracy,
@@ -34,10 +39,13 @@ export default async function DashboardPage() {
     avgDuration,
     streaks,
     topicStats,
+    syllabusCoverage,
   ] = await Promise.all([
     getCompletedDaysCount(),
     getDailyScoreTrend(),
     getFullMockScoreTrend(),
+    getWeeklyScoreTrend(),
+    getMonthlyScoreTrend(),
     getPartAccuracy(),
     getUnitAccuracy(),
     getDifficultyAccuracy(),
@@ -46,6 +54,7 @@ export default async function DashboardPage() {
     getAverageDuration(),
     getStreaks(),
     getTopicLevelStats(),
+    getSyllabusCoverage(),
   ]);
   const topicMeta = new Map(getAllTopics().map((t) => [t.topicId, t]));
   const totalTopics = topicMeta.size;
@@ -61,6 +70,10 @@ export default async function DashboardPage() {
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
         <StatCard label="Days completed" value={`${completedDays} / ${totalDays}`} />
+        <StatCard
+          label="Syllabus read"
+          value={`${syllabusCoverage.topicsCovered} / ${syllabusCoverage.topicsTotal} topics`}
+        />
         <StatCard label="Overall accuracy" value={`${Math.round(overallAccuracy * 1000) / 10}%`} />
         <StatCard label="Mock tests taken" value={`${dailyTrend.length + fullMockTrend.length}`} />
         <StatCard label="Avg. time per test" value={`${Math.round(avgDuration / 60)} min`} />
@@ -87,6 +100,74 @@ export default async function DashboardPage() {
           </div>
         </section>
       </div>
+
+      <div className="grid gap-6 md:grid-cols-2">
+        <section className="rounded-lg border border-zinc-200 bg-white p-5">
+          <h2 className="text-lg font-semibold">Weekly cycle tests — score trend</h2>
+          <p className="text-sm text-zinc-500">
+            Score % on each weekly revision test, in the order taken. {weeklyTrend.length} taken so far.
+          </p>
+          <div className="mt-3">
+            <ScoreTrendChart data={weeklyTrend} />
+          </div>
+        </section>
+
+        <section className="rounded-lg border border-zinc-200 bg-white p-5">
+          <h2 className="text-lg font-semibold">Monthly cycle tests — score trend</h2>
+          <p className="text-sm text-zinc-500">
+            Score % on each monthly revision test, in the order taken. {monthlyTrend.length} taken so far.
+          </p>
+          <div className="mt-3">
+            <ScoreTrendChart data={monthlyTrend} />
+          </div>
+        </section>
+      </div>
+
+      <section className="rounded-lg border border-zinc-200 bg-white p-5">
+        <h2 className="text-lg font-semibold">Syllabus reading coverage</h2>
+        <p className="text-sm text-zinc-500">
+          {`${syllabusCoverage.topicsCovered} / ${syllabusCoverage.topicsTotal} topics read (${syllabusCoverage.topicsCoveragePercent}%), `}
+          {`weighted by exam marks it's ${syllabusCoverage.marksCoveragePercent}% of the ${syllabusCoverage.marksTotal}-mark syllabus.`}
+        </p>
+        <div className="mt-4 grid gap-6 md:grid-cols-3">
+          {syllabusCoverage.byPart.map((p) => (
+            <div key={p.part}>
+              <div className="mb-2 flex items-baseline justify-between">
+                <h3 className="text-sm font-semibold text-zinc-700">Part {p.part}</h3>
+                <span className="text-xs text-zinc-500">
+                  {p.topicsCovered}/{p.topicsTotal} topics · {p.marksCoveragePercent}% of {p.marksTotal} marks
+                </span>
+              </div>
+              <div className="space-y-1.5">
+                {syllabusCoverage.units
+                  .filter((u) => u.part === p.part)
+                  .map((u) => (
+                    <div key={u.unitId} className="flex items-center gap-2 text-xs">
+                      <span className="w-14 shrink-0 truncate font-mono text-zinc-500" title={u.unitId}>
+                        {u.unitId}
+                      </span>
+                      <div className="h-2 flex-1 rounded-full bg-zinc-100">
+                        <div
+                          className={`h-2 rounded-full ${
+                            u.coveragePercent === 0
+                              ? "bg-zinc-300"
+                              : u.coveragePercent < 100
+                                ? "bg-amber-500"
+                                : "bg-green-500"
+                          }`}
+                          style={{ width: `${u.coveragePercent}%` }}
+                        />
+                      </div>
+                      <span className="w-14 shrink-0 text-right text-zinc-600">
+                        {u.topicsCovered}/{u.topicsTotal}
+                      </span>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <div className="grid gap-6 md:grid-cols-2">
         <section className="rounded-lg border border-zinc-200 bg-white p-5">

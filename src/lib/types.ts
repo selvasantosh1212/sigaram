@@ -40,10 +40,26 @@ export const DaySchema = z.object({
   partCTopicId: z.string(),
 });
 
+export const SyllabusPartSchema = z.object({
+  id: z.enum(["A", "B", "C"]),
+  name: z.string(),
+  standard: z.string(),
+  questionCount: z.number().int(),
+  units: z.array(
+    z.object({
+      id: z.string(),
+      number: z.string(),
+      name: z.string(),
+      questionCount: z.number().int(),
+    })
+  ),
+});
+
 export type QA = z.infer<typeof QASchema>;
 export type MockQuestion = z.infer<typeof MockQuestionSchema>;
 export type Topic = z.infer<typeof TopicSchema>;
 export type Day = z.infer<typeof DaySchema>;
+export type SyllabusPart = z.infer<typeof SyllabusPartSchema>;
 
 export type Part = "A" | "B" | "C";
 
