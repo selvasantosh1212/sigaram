@@ -14,6 +14,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Every page reads live progress from the DB, but none use request-time APIs, so
+// Next.js would otherwise prerender them at build time and serve that frozen
+// snapshot (e.g. the dashboard stuck at whatever day was done on deploy day).
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Sigaram — TNPSC Group 2A Study Tracker",
   description: "119-day study plan + mock tests for TNPSC Group 2A",
