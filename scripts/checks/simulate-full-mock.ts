@@ -6,7 +6,7 @@ import { buildFullMockSession, historyKey, unitQuotas, type QuestionHistory } fr
 
 async function main() {
   const dbPath = process.argv[2];
-  const sessions = Number(process.argv[3] ?? 120);
+  const sessions = Number(process.argv[3] ?? 60); // one 200-question paper per day
   const history: QuestionHistory = { seen: new Map(), recentFullMockAttemptIds: new Set() };
   if (dbPath) {
     const db = createClient({ url: `file:${dbPath}` });
@@ -38,8 +38,10 @@ async function main() {
 
   for (let s = 1; s <= sessions; s++) {
     attemptId++;
-    const qs = buildFullMockSession(s, { seen: history.seen, recentFullMockAttemptIds: new Set(recent) });
-    if (qs.length !== 100) console.log(`Session ${s}: ${qs.length} questions`);
+    const qs = buildFullMockSession({ seen: history.seen, recentFullMockAttemptIds: new Set(recent) });
+    if (qs.length !== 200) console.log(`Session ${s}: ${qs.length} questions`);
+    const partOrder = qs.map((q) => q.part).join("");
+    if (!/^A{75}B{25}C{100}$/.test(partOrder)) console.log(`Session ${s}: parts out of order`);
     const perUnit = new Map<string, number>();
     for (const q of qs) {
       perUnit.set(q.unitId, (perUnit.get(q.unitId) ?? 0) + 1);
@@ -58,7 +60,7 @@ async function main() {
       const prev = history.seen.get(key);
       history.seen.set(key, { count: (prev?.count ?? 0) + 1, lastAttemptId: attemptId, lastCorrect: correct });
     }
-    for (const [u, want] of unitQuotas(s)) {
+    for (const [u, want] of unitQuotas()) {
       if ((perUnit.get(u) ?? 0) !== want) {
         quotaMismatches++;
         if (quotaMismatches < 10) console.log(`Session ${s} unit ${u}: got ${perUnit.get(u) ?? 0}, want ${want}`);

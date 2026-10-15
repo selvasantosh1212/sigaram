@@ -37,12 +37,6 @@ export async function getQuestionHistory(): Promise<QuestionHistory> {
   return { seen, recentFullMockAttemptIds: new Set(recent.map((r) => Number(r.id))) };
 }
 
-export async function countFullMockSessions(): Promise<number> {
-  const db = await getDb();
-  const rs = await db.execute("SELECT COUNT(*) AS n FROM attempts WHERE attempt_kind = 'full_mock'");
-  return Number((rowsToObjects(rs)[0] as { n: number }).n);
-}
-
-export async function generateFullMockSession(sessionNumber: number): Promise<FullMockQuestion[]> {
-  return buildFullMockSession(sessionNumber, await getQuestionHistory());
+export async function generateFullMockSession(): Promise<FullMockQuestion[]> {
+  return buildFullMockSession(await getQuestionHistory());
 }

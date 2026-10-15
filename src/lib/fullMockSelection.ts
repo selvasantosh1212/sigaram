@@ -9,6 +9,10 @@ import { MockQuestionSchema, type Part, type QuestionSnapshot } from "./types";
 // Pure session builder for Full Mock — no DB access, so scripts can simulate many
 // sessions. fullMock.ts feeds it the reader's real question history.
 
+// The real paper: 200 questions, 300 marks (1.5 each, no negative marking), 3 hours.
+export const FULL_PAPER_MINUTES = 180;
+export const MARKS_PER_QUESTION = 1.5;
+
 export type FullMockQuestion = {
   part: Part;
   topicId: string;
@@ -36,25 +40,11 @@ export const historyKey = (topicId: string, questionId: string) => `${topicId}|$
 
 // ---------- Unit quotas ----------
 
-// Half of each unit's share of the real 200-question paper. Units with an odd count
-// (e.g. A-IV = 15 → 7.5) alternate rounding up/down between odd and even sessions so
-// every session totals exactly 100 and each day's pair matches the real paper.
-export function unitQuotas(sessionNumber: number): Map<string, number> {
-  const odd = sessionNumber % 2 === 1;
+// Each unit's question count in the real 200-question paper (syllabus metadata).
+export function unitQuotas(): Map<string, number> {
   const quotas = new Map<string, number>();
-  const halves: Array<[string, number]> = [];
   for (const part of getSyllabusParts()) {
-    for (const unit of part.units) halves.push([unit.id, unit.questionCount / 2]);
-  }
-  // Alternate which half-units round up, so the pair of sessions sums to the full count.
-  let flip = odd;
-  for (const [unitId, half] of halves) {
-    if (Number.isInteger(half)) {
-      quotas.set(unitId, half);
-    } else {
-      quotas.set(unitId, flip ? Math.ceil(half) : Math.floor(half));
-      flip = !flip;
-    }
+    for (const unit of part.units) quotas.set(unit.id, unit.questionCount);
   }
   return quotas;
 }
@@ -272,16 +262,18 @@ function generateForUnit(unitId: string, count: number, random: () => number, us
   return out;
 }
 
+// One full paper, laid out like the real booklet: Part A General Studies (Q1–75),
+// Part B Reasoning (Q76–100), Part C General English (Q101–200). Questions are shuffled
+// within each part; reading-comprehension passages stay together.
 export function buildFullMockSession(
-  sessionNumber: number,
   history: QuestionHistory,
   random: () => number = Math.random
 ): FullMockQuestion[] {
   const pools = staticPoolByUnit();
   const usedPrompts = new Set<string>();
-  const blocksAll: PoolItem[][] = [];
+  const blocksByPart: Record<Part, PoolItem[][]> = { A: [], B: [], C: [] };
 
-  for (const [unitId, quota] of unitQuotas(sessionNumber)) {
+  for (const [unitId, quota] of unitQuotas()) {
     const generatedCount = Math.round(quota * (GENERATED_SHARE[unitId] ?? 0));
     const generated = generateForUnit(unitId, generatedCount, random, usedPrompts);
     const fromPool = pickStatic(pools.get(unitId) ?? [], quota - generated.length, history, random, usedPrompts);
@@ -292,11 +284,10 @@ export function buildFullMockSession(
       if (!blocks.has(key)) blocks.set(key, []);
       blocks.get(key)!.push(item);
     }
-    blocksAll.push(...blocks.values());
+    blocksByPart[unitId[0] as Part].push(...blocks.values());
   }
 
-  // Mixed order across parts, as before — only passage groups stay together.
-  return shuffleInPlace(blocksAll, random)
-    .flat()
+  return (["A", "B", "C"] as Part[])
+    .flatMap((part) => shuffleInPlace(blocksByPart[part], random).flat())
     .map((item) => toQuestion(item, random));
 }

@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { getDayQuestions, getTopic, getTopicQuestions, hydrateWrongAnswerRefs } from "@/lib/content";
-import { countFullMockSessions, generateFullMockSession } from "@/lib/fullMock";
+import { generateFullMockSession } from "@/lib/fullMock";
 import { generateMonthlySession, generateWeeklySession } from "@/lib/cycleMock";
 import { markPartRead, markMockStarted } from "@/lib/progress";
 import { createDraftAttempt, getAttempt, getWrongAnswerRefs, submitAttempt } from "@/lib/attempts";
@@ -77,7 +77,7 @@ export async function startMonthlyCycleTestAction(monthNumber: number) {
 }
 
 export async function startFullMockAction(sessionLabel: string) {
-  const questions = await generateFullMockSession((await countFullMockSessions()) + 1);
+  const questions = await generateFullMockSession();
   const draft = await createDraftAttempt({
     attemptKind: "full_mock",
     sessionLabel,

@@ -93,7 +93,7 @@ export default async function DashboardPage() {
         <section className="rounded-lg border border-zinc-200 bg-white p-5">
           <h2 className="text-lg font-semibold">Full-mock practice — score trend</h2>
           <p className="text-sm text-zinc-500">
-            Score % on each 100-question full-mock session (Phase 2, unlocked after Day 119).
+            Score % on each full-mock paper (Phase 2, unlocked after Day 119).
           </p>
           <div className="mt-3">
             <ScoreTrendChart data={fullMockTrend} />

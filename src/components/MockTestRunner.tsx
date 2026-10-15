@@ -1,8 +1,22 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { submitAttemptAction } from "@/app/actions";
 import type { RenderableQuestion } from "@/lib/content";
+
+const PART_NAMES: Record<string, string> = {
+  A: "General Studies",
+  B: "Reasoning & Aptitude",
+  C: "General English",
+};
+
+function formatClock(totalSeconds: number): string {
+  const s = Math.max(0, totalSeconds);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  return `${h}:${String(m).padStart(2, "0")}:${String(sec).padStart(2, "0")}`;
+}
 
 const PART_COLORS: Record<string, string> = {
   A: "bg-rose-100 text-rose-700",
@@ -14,15 +28,52 @@ export function MockTestRunner({
   attemptId,
   dayNumber,
   questions,
+  timeLimitMinutes,
+  startedAt,
 }: {
   attemptId: number;
   dayNumber?: number;
   questions: RenderableQuestion[];
+  // Full Mock only: exam-style countdown measured from when the attempt was created,
+  // so a page refresh doesn't reset the clock.
+  timeLimitMinutes?: number;
+  startedAt?: string;
 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [isPending, startTransition] = useTransition();
   const [confirmOpen, setConfirmOpen] = useState(false);
+  const [now, setNow] = useState<number | null>(null);
+
+  // Answers live only in this tab until submit — keep a copy in localStorage so a
+  // refresh or accidental close mid-paper doesn't wipe them.
+  const storageKey = `sigaram-answers-${attemptId}`;
+  useEffect(() => {
+    try {
+      const saved = window.localStorage.getItem(storageKey);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- restoring client-only state after hydration
+      if (saved) setAnswers(JSON.parse(saved));
+    } catch {
+      // Storage unavailable (private mode etc.) — the test still works, just without restore.
+    }
+  }, [storageKey]);
+  useEffect(() => {
+    try {
+      if (Object.keys(answers).length > 0) window.localStorage.setItem(storageKey, JSON.stringify(answers));
+    } catch {}
+  }, [answers, storageKey]);
+
+  const deadline =
+    timeLimitMinutes && startedAt ? new Date(startedAt).getTime() + timeLimitMinutes * 60_000 : null;
+  useEffect(() => {
+    if (deadline === null) return;
+    const tick = () => setNow(Date.now());
+    tick();
+    const id = window.setInterval(tick, 1000);
+    return () => window.clearInterval(id);
+  }, [deadline]);
+  const secondsLeft = deadline !== null && now !== null ? Math.round((deadline - now) / 1000) : null;
+  const timeUp = secondsLeft !== null && secondsLeft <= 0;
 
   const current = questions[currentIndex];
   const answeredCount = Object.keys(answers).length;
@@ -45,6 +96,9 @@ export function MockTestRunner({
         answerRowId: q.answerRowId,
         selectedIndex: answers[q.answerRowId] ?? null,
       }));
+      try {
+        window.localStorage.removeItem(storageKey);
+      } catch {}
       await submitAttemptAction(attemptId, payload, dayNumber);
     });
   }
@@ -52,6 +106,19 @@ export function MockTestRunner({
   return (
     <div className="grid grid-cols-1 gap-6 md:grid-cols-[1fr_220px]">
       <div className="rounded-lg border border-zinc-200 bg-white p-6">
+        {timeUp && (
+          <div className="mb-4 rounded-md border border-red-300 bg-red-50 p-3 text-sm text-red-800">
+            Time&apos;s up — the real exam would end here. Submit now to see how you did in the
+            allotted {Math.round((timeLimitMinutes ?? 0) / 60)} hours.
+            <button
+              type="button"
+              onClick={() => setConfirmOpen(true)}
+              className="ml-3 rounded-md bg-red-600 px-3 py-1 font-medium text-white hover:bg-red-700"
+            >
+              Submit paper
+            </button>
+          </div>
+        )}
         <div className="flex items-center justify-between text-sm text-zinc-500">
           <span>
             Question {currentIndex + 1} of {questions.length}
@@ -137,12 +204,30 @@ export function MockTestRunner({
         )}
       </div>
 
-      <div className="rounded-lg border border-zinc-200 bg-white p-4">
+      <div className="h-fit rounded-lg border border-zinc-200 bg-white p-4 md:sticky md:top-4">
+        {secondsLeft !== null && (
+          <p
+            className={`mb-2 text-center font-mono text-2xl font-semibold ${
+              secondsLeft <= 600 ? "text-red-600" : "text-zinc-900"
+            }`}
+          >
+            {formatClock(secondsLeft)}
+          </p>
+        )}
         <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
           {answeredCount} / {questions.length} answered
         </p>
-        <div className="mt-3 grid grid-cols-6 gap-1.5">
-          {questions.map((q, idx) => (
+        <div className="mt-3 grid max-h-[65vh] grid-cols-6 gap-1.5 overflow-y-auto">
+          {questions.map((q, idx) => [
+            // Part headings in the palette for long, multi-part papers (Full Mock).
+            questions.length > 100 && (idx === 0 || questions[idx - 1].part !== q.part) ? (
+              <p
+                key={`part-${q.part}-${idx}`}
+                className="col-span-6 mt-2 text-xs font-semibold text-zinc-500 first:mt-0"
+              >
+                Part {q.part} · {PART_NAMES[q.part]}
+              </p>
+            ) : null,
             <button
               key={q.answerRowId}
               type="button"
@@ -156,8 +241,8 @@ export function MockTestRunner({
               }`}
             >
               {idx + 1}
-            </button>
-          ))}
+            </button>,
+          ])}
         </div>
       </div>
     </div>

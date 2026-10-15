@@ -4,6 +4,7 @@ import { hydrateAnswerRowsForReview } from "@/lib/content";
 import { getAttempt, getAttemptAnswers } from "@/lib/attempts";
 import { AttemptReview } from "@/components/AttemptReview";
 import { getResultMessage } from "@/lib/motivation";
+import { MARKS_PER_QUESTION } from "@/lib/fullMockSelection";
 
 export default async function FullMockResultsPage({
   params,
@@ -30,7 +31,14 @@ export default async function FullMockResultsPage({
       </div>
 
       <div className="rounded-lg border border-zinc-200 bg-white p-6">
-        <p className="text-3xl font-bold">{Math.round((attempt.score_percent ?? 0) * 10) / 10}%</p>
+        <p className="text-3xl font-bold">
+          {Math.round((attempt.score_percent ?? 0) * 10) / 10}%
+          {attempt.total_questions >= 200 && (
+            <span className="ml-3 text-xl font-semibold text-zinc-600">
+              {(attempt.correct_count ?? 0) * MARKS_PER_QUESTION} / {attempt.total_questions * MARKS_PER_QUESTION} marks
+            </span>
+          )}
+        </p>
         <p className="mt-1 text-zinc-600">
           {attempt.correct_count} / {attempt.total_questions} correct &middot; took{" "}
           {Math.round((attempt.duration_seconds ?? 0) / 60)} min
@@ -55,7 +63,7 @@ export default async function FullMockResultsPage({
           href="/full-mock"
           className="mt-5 inline-block rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-700"
         >
-          Start another session
+          Start another paper
         </Link>
       </div>
 
