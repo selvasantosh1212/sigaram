@@ -70,3 +70,13 @@ export type QuestionRef = {
   questionId: string;
   difficulty: "easy" | "medium" | "hard";
 };
+
+// A question exactly as it was shown in one attempt — see attempt_answers.question_snapshot.
+export type QuestionSnapshot = {
+  prompt: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string;
+  sourceTag: string;
+  trick?: string;
+};

@@ -1,63 +1,48 @@
-import { getAllTopics } from "./content";
-import type { Part } from "./types";
+import { getDb, rowsToObjects } from "./db";
+import { buildFullMockSession, historyKey, type FullMockQuestion, type QuestionHistory } from "./fullMockSelection";
 
-export type FullMockQuestion = {
-  part: Part;
-  topicId: string;
-  unitId: string;
-  questionId: string;
-  prompt: string;
-  options: string[];
-  correctIndex: number;
-  explanation: string;
-  difficulty: "easy" | "medium" | "hard";
-  sourceTag: string;
-};
+export type { FullMockQuestion };
 
-// Scaled from the real exam's 75:25:100 (out of 200) part ratio down to a single
-// 100-question session: 37.5:12.5:50, rounded to whole numbers summing to 100.
-const SESSION_SIZE: Record<Part, number> = { A: 38, B: 12, C: 50 };
+// Wrong answers seen in this many of the latest full mocks are held back, so a retry
+// comes a few sessions later rather than straight away.
+const RETRY_SPACING_SESSIONS = 3;
 
-function partOf(topicId: string): Part {
-  return topicId[0].toUpperCase() as Part;
+// Every question the reader has been shown, across ALL test kinds (daily, weekly,
+// monthly, revision, full mock) — the repeat complaint spans every level of test.
+export async function getQuestionHistory(): Promise<QuestionHistory> {
+  const db = await getDb();
+  const rows = rowsToObjects(
+    await db.execute("SELECT topic_id, question_id, attempt_id, is_correct FROM attempt_answers ORDER BY id")
+  ) as Array<{ topic_id: string; question_id: string; attempt_id: number; is_correct: number | null }>;
+
+  const seen: QuestionHistory["seen"] = new Map();
+  for (const r of rows) {
+    const key = historyKey(r.topic_id, r.question_id);
+    const prev = seen.get(key);
+    seen.set(key, {
+      count: (prev?.count ?? 0) + 1,
+      lastAttemptId: Number(r.attempt_id),
+      // An unsubmitted draft doesn't overwrite a real earlier result.
+      lastCorrect: r.is_correct == null ? (prev?.lastCorrect ?? null) : r.is_correct === 1,
+    });
+  }
+
+  const recent = rowsToObjects(
+    await db.execute({
+      sql: "SELECT id FROM attempts WHERE attempt_kind = 'full_mock' ORDER BY id DESC LIMIT ?",
+      args: [RETRY_SPACING_SESSIONS],
+    })
+  ) as Array<{ id: number }>;
+
+  return { seen, recentFullMockAttemptIds: new Set(recent.map((r) => Number(r.id))) };
 }
 
-function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
+export async function countFullMockSessions(): Promise<number> {
+  const db = await getDb();
+  const rs = await db.execute("SELECT COUNT(*) AS n FROM attempts WHERE attempt_kind = 'full_mock'");
+  return Number((rowsToObjects(rs)[0] as { n: number }).n);
 }
 
-export function generateFullMockSession(): FullMockQuestion[] {
-  const topics = getAllTopics();
-  const pools: Record<Part, FullMockQuestion[]> = { A: [], B: [], C: [] };
-
-  for (const topic of topics) {
-    const part = partOf(topic.topicId);
-    for (const q of topic.mockTest.questions) {
-      pools[part].push({
-        part,
-        topicId: topic.topicId,
-        unitId: topic.unitId,
-        questionId: q.id,
-        prompt: q.prompt,
-        options: q.options,
-        correctIndex: q.correctIndex,
-        explanation: q.explanation,
-        difficulty: q.difficulty,
-        sourceTag: q.sourceTag,
-      });
-    }
-  }
-
-  const session: FullMockQuestion[] = [];
-  for (const part of ["A", "B", "C"] as Part[]) {
-    const wanted = Math.min(SESSION_SIZE[part], pools[part].length);
-    session.push(...shuffle(pools[part]).slice(0, wanted));
-  }
-
-  return shuffle(session);
+export async function generateFullMockSession(sessionNumber: number): Promise<FullMockQuestion[]> {
+  return buildFullMockSession(sessionNumber, await getQuestionHistory());
 }

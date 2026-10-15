@@ -61,7 +61,17 @@ export default async function DaysPage() {
         <h1 className="text-2xl font-semibold">Study Plan: Days 1-119</h1>
         <p className="mt-1 text-zinc-600">
           {completedCount} / {days.length} days completed ·{" "}
-          {getStreakNudge(daysSinceLastActivity, streaks.currentStreak, PASS_THRESHOLD_PERCENT)}
+          {completedCount === days.length ? (
+            <>
+              Every day is done — time for{" "}
+              <Link href="/full-mock" className="font-medium text-zinc-900 underline">
+                Full Mock practice
+              </Link>
+              .
+            </>
+          ) : (
+            getStreakNudge(daysSinceLastActivity, streaks.currentStreak, PASS_THRESHOLD_PERCENT)
+          )}
         </p>
         <div className="mt-2 h-2 w-full max-w-md rounded-full bg-zinc-200">
           <div

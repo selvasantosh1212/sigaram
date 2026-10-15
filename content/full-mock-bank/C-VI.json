@@ -1,0 +1,1491 @@
+{
+  "unitId": "C-VI",
+  "passages": [],
+  "questions": [
+    {
+      "id": "bank-C-VI-t0001",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'நூலகம்'.",
+      "options": [
+        "Laboratory",
+        "Bookshop",
+        "Museum",
+        "Library"
+      ],
+      "correctIndex": 3,
+      "explanation": "நூலகம் = நூல் (book) + அகம் (place): library. Laboratory = ஆய்வகம்; museum = அருங்காட்சியகம்.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0002",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'அருங்காட்சியகம்'.",
+      "options": [
+        "Zoo",
+        "Library",
+        "Museum",
+        "Auditorium"
+      ],
+      "correctIndex": 2,
+      "explanation": "அருங்காட்சியகம் = museum. A zoo is உயிரியல் பூங்கா; an auditorium is அரங்கம்.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0003",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'நீதிமன்றம்'.",
+      "options": [
+        "Parliament",
+        "Court",
+        "Police station",
+        "Prison"
+      ],
+      "correctIndex": 1,
+      "explanation": "நீதிமன்றம் = court of law. Parliament = நாடாளுமன்றம்; prison = சிறைச்சாலை.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0004",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'சட்டமன்றம்'.",
+      "options": [
+        "Legislative Assembly",
+        "High Court",
+        "Secretariat",
+        "Municipality"
+      ],
+      "correctIndex": 0,
+      "explanation": "சட்டமன்றம் = Legislative Assembly. Secretariat = தலைமைச் செயலகம்; municipality = நகராட்சி.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0005",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'வேட்பாளர்'.",
+      "options": [
+        "Voter",
+        "Candidate",
+        "Returning officer",
+        "Minister"
+      ],
+      "correctIndex": 1,
+      "explanation": "வேட்பாளர் = candidate (one who contests). Voter = வாக்காளர் - a common trap.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0006",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'வானிலை'.",
+      "options": [
+        "Climate",
+        "Season",
+        "Weather",
+        "Rainfall"
+      ],
+      "correctIndex": 2,
+      "explanation": "வானிலை = weather (day-to-day conditions). Climate = காலநிலை; rainfall = மழைப்பொழிவு.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0007",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'நிலநடுக்கம்'.",
+      "options": [
+        "Landslide",
+        "Flood",
+        "Cyclone",
+        "Earthquake"
+      ],
+      "correctIndex": 3,
+      "explanation": "நிலநடுக்கம் = earthquake (நிலம் + நடுக்கம், 'shaking of the land'). Landslide = நிலச்சரிவு.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0008",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'வறட்சி'.",
+      "options": [
+        "Drought",
+        "Famine",
+        "Flood",
+        "Desert"
+      ],
+      "correctIndex": 0,
+      "explanation": "வறட்சி = drought (lack of rain/water). Famine = பஞ்சம்; desert = பாலைவனம்.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0009",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'கல்வெட்டு'.",
+      "options": [
+        "Inscription",
+        "Manuscript",
+        "Sculpture",
+        "Painting"
+      ],
+      "correctIndex": 0,
+      "explanation": "கல்வெட்டு = inscription engraved on stone. Sculpture = சிற்பம்; painting = ஓவியம்.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0010",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'செயற்கைக்கோள்'.",
+      "options": [
+        "Rocket",
+        "Satellite",
+        "Telescope",
+        "Planet"
+      ],
+      "correctIndex": 1,
+      "explanation": "செயற்கைக்கோள் = artificial satellite (செயற்கை = artificial, கோள் = planet/orb). Rocket = ஏவூர்தி.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0011",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'ஒலிபெயர்ப்பு'.",
+      "options": [
+        "Translation",
+        "Pronunciation",
+        "Transliteration",
+        "Dictation"
+      ],
+      "correctIndex": 2,
+      "explanation": "ஒலிபெயர்ப்பு = writing the sounds of one language in the script of another: transliteration. Translation = மொழிபெயர்ப்பு.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0012",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'பழமொழி'.",
+      "options": [
+        "Poem",
+        "Riddle",
+        "Story",
+        "Proverb"
+      ],
+      "correctIndex": 3,
+      "explanation": "பழமொழி = proverb. Riddle = விடுகதை; story = கதை.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0013",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'அகராதி'.",
+      "options": [
+        "Encyclopaedia",
+        "Atlas",
+        "Grammar",
+        "Dictionary"
+      ],
+      "correctIndex": 3,
+      "explanation": "அகராதி = dictionary. Encyclopaedia = கலைக்களஞ்சியம்; grammar = இலக்கணம்.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0014",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'சான்றிதழ்'.",
+      "options": [
+        "Application",
+        "Certificate",
+        "Licence",
+        "Passport"
+      ],
+      "correctIndex": 1,
+      "explanation": "சான்றிதழ் = certificate. Application = விண்ணப்பம்.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0015",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'அரசியலமைப்பு'.",
+      "options": [
+        "Constitution",
+        "Parliament",
+        "Government",
+        "Election"
+      ],
+      "correctIndex": 0,
+      "explanation": "அரசியலமைப்பு (அரசியல் அமைப்புச் சட்டம்) = Constitution. Government = அரசு; election = தேர்தல்.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0016",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'மக்கள்தொகைக் கணக்கெடுப்பு'.",
+      "options": [
+        "Election",
+        "Land survey",
+        "Census",
+        "Budget"
+      ],
+      "correctIndex": 2,
+      "explanation": "மக்கள்தொகைக் கணக்கெடுப்பு = population count: census.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0017",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'வரவு-செலவுத் திட்டம்'.",
+      "options": [
+        "Five-Year Plan",
+        "Tax",
+        "Budget",
+        "Audit"
+      ],
+      "correctIndex": 2,
+      "explanation": "வரவு (income) - செலவு (expenditure) திட்டம் (plan) = budget. Audit = தணிக்கை.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0018",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'தன்வரலாறு'.",
+      "options": [
+        "Biography",
+        "Autobiography",
+        "History",
+        "Diary"
+      ],
+      "correctIndex": 1,
+      "explanation": "தன்வரலாறு = one's own life story: autobiography. Biography = வாழ்க்கை வரலாறு; diary = நாட்குறிப்பு.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0019",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Pick the correct English word for 'மாசுபாடு'.",
+      "options": [
+        "Pollution",
+        "Population",
+        "Purification",
+        "Erosion"
+      ],
+      "correctIndex": 0,
+      "explanation": "மாசுபாடு = pollution. Population = மக்கள்தொகை - a look-alike trap.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0020",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Honesty'.",
+      "options": [
+        "பொறுமை",
+        "வலிமை",
+        "கருணை",
+        "நேர்மை"
+      ],
+      "correctIndex": 3,
+      "explanation": "Honesty = நேர்மை. பொறுமை = patience; வலிமை = strength; கருணை = compassion.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0021",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Patience'.",
+      "options": [
+        "நேர்மை",
+        "கோபம்",
+        "பொறுமை",
+        "சோம்பல்"
+      ],
+      "correctIndex": 2,
+      "explanation": "Patience = பொறுமை. கோபம் = anger; சோம்பல் = laziness.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0022",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Duty'.",
+      "options": [
+        "உரிமை",
+        "கடமை",
+        "ஊதியம்",
+        "விடுமுறை"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duty = கடமை. உரிமை = right; ஊதியம் = wages; விடுமுறை = holiday.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0023",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Unity'.",
+      "options": [
+        "வேற்றுமை",
+        "தனிமை",
+        "பகைமை",
+        "ஒற்றுமை"
+      ],
+      "correctIndex": 3,
+      "explanation": "Unity = ஒற்றுமை. வேற்றுமை = difference/diversity; தனிமை = loneliness; பகைமை = enmity.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0024",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Knowledge'.",
+      "options": [
+        "அறிவு",
+        "அன்பு",
+        "அழகு",
+        "செல்வம்"
+      ],
+      "correctIndex": 0,
+      "explanation": "Knowledge = அறிவு. அன்பு = love; அழகு = beauty; செல்வம் = wealth.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0025",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Freedom'.",
+      "options": [
+        "விடுமுறை",
+        "அடிமைத்தனம்",
+        "கட்டுப்பாடு",
+        "விடுதலை"
+      ],
+      "correctIndex": 3,
+      "explanation": "Freedom = விடுதலை. விடுமுறை (holiday) looks similar - a common trap. அடிமைத்தனம் = slavery.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0026",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Harvest'.",
+      "options": [
+        "விதைப்பு",
+        "உழவு",
+        "அறுவடை",
+        "நடவு"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harvest = அறுவடை. விதைப்பு = sowing; உழவு = ploughing; நடவு = transplanting.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0027",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the correct Tamil word for 'Signature'.",
+      "options": [
+        "முகவரி",
+        "கையொப்பம்",
+        "முத்திரை",
+        "பெயர்ப்பலகை"
+      ],
+      "correctIndex": 1,
+      "explanation": "Signature = கையொப்பம். முகவரி = address; முத்திரை = seal/stamp; பெயர்ப்பலகை = name board.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0028",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"ஆழம் தெரியாமல் காலை விடாதே\"",
+      "options": [
+        "Look before you leap",
+        "Slow and steady wins the race",
+        "Strike while the iron is hot",
+        "Many hands make light work"
+      ],
+      "correctIndex": 0,
+      "explanation": "Literally 'Do not put your leg in without knowing the depth' - i.e. think of the risks first: Look before you leap.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0029",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"சிறு துளி பெரு வெள்ளம்\"",
+      "options": [
+        "Empty vessels make the most noise",
+        "A stitch in time saves nine",
+        "All that glitters is not gold",
+        "Little drops of water make the mighty ocean"
+      ],
+      "correctIndex": 3,
+      "explanation": "Literally 'Small drops (make) a great flood': small amounts add up to something big.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0030",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"நிறைகுடம் தளும்பாது\"",
+      "options": [
+        "Too many cooks spoil the broth",
+        "Health is wealth",
+        "Empty vessels make the most noise",
+        "Look before you leap"
+      ],
+      "correctIndex": 2,
+      "explanation": "Literally 'A full pot does not splash': truly learned people are quiet and humble. The English equivalent says the same thing from the other side.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0031",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"தாயைப் போல பிள்ளை, நூலைப் போல சேலை\"",
+      "options": [
+        "Charity begins at home",
+        "Like mother, like child",
+        "Blood is thicker than water",
+        "Birds of a feather flock together"
+      ],
+      "correctIndex": 1,
+      "explanation": "Literally 'As the mother, so the child; as the thread, so the saree': children resemble their parents.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0032",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"அளவுக்கு மிஞ்சினால் அமிர்தமும் நஞ்சு\"",
+      "options": [
+        "Even nectar turns to poison when taken in excess",
+        "Health is wealth",
+        "Prevention is better than cure",
+        "Hunger is the best sauce"
+      ],
+      "correctIndex": 0,
+      "explanation": "அளவுக்கு மிஞ்சினால் = when it exceeds the limit; அமிர்தமும் = even nectar; நஞ்சு = poison. Too much of anything is harmful.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0033",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"எண்ணித் துணிக கருமம்\"",
+      "options": [
+        "Act first and think later",
+        "Work is worship",
+        "Never put off till tomorrow what you can do today",
+        "Think well before you undertake a task"
+      ],
+      "correctIndex": 3,
+      "explanation": "From the Thirukkural: எண்ணி (having thought) துணிக (undertake) கருமம் (the task). Deliberate first, then act.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0034",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"யாதும் ஊரே யாவரும் கேளிர்\"",
+      "options": [
+        "Every place is my home town; everyone is my kin",
+        "There is no place like home",
+        "Every town has its own customs",
+        "Do not trust strangers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kaniyan Poongundranar's line (Purananuru): யாதும் = every (place), ஊரே = is my town, யாவரும் = all people, கேளிர் = kinsmen.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0035",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"முயற்சி திருவினையாக்கும்\"",
+      "options": [
+        "Wealth brings happiness",
+        "Effort brings prosperity",
+        "Luck is better than effort",
+        "Prayer alone brings success"
+      ],
+      "correctIndex": 1,
+      "explanation": "From the Thirukkural: முயற்சி (effort) திருவினை (prosperity/wealth) ஆக்கும் (will create).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0036",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"காலம் பொன் போன்றது\"",
+      "options": [
+        "Gold is more precious than time",
+        "Time changes everything",
+        "Time is as precious as gold",
+        "Gold shines with time"
+      ],
+      "correctIndex": 2,
+      "explanation": "காலம் = time; பொன் = gold; போன்றது = is like. Time is precious - do not waste it.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0037",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"ஒன்றுபட்டால் உண்டு வாழ்வே\"",
+      "options": [
+        "If we stand united, we can live well",
+        "Each one should live for himself",
+        "Life is lonely for everyone",
+        "Divided we stand, united we fall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bharathiyar's line: ஒன்றுபட்டால் (if we unite) உண்டு (there is) வாழ்வே (life). Compare 'United we stand, divided we fall'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0038",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"இளமையில் கல்\"",
+      "options": [
+        "A stone in youth",
+        "Old age is the time for learning",
+        "Youth is meant for play",
+        "Learn while you are young"
+      ],
+      "correctIndex": 3,
+      "explanation": "Here கல் is the verb 'learn', not the noun 'stone' - a literal-translation trap. இளமையில் = in youth.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0039",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"கற்க கசடற\"",
+      "options": [
+        "Learn quickly without effort",
+        "Teach others what you learn",
+        "Learn thoroughly, free from errors",
+        "Learning is hard"
+      ],
+      "correctIndex": 2,
+      "explanation": "From the Thirukkural: கற்க (learn) கசடு அற (without flaws/doubts) - learn thoroughly.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0040",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Choose the English equivalent of the Tamil saying: \"அகத்தின் அழகு முகத்தில் தெரியும்\"",
+      "options": [
+        "Beauty is only skin deep",
+        "The face is the index of the mind",
+        "Home is where the heart is",
+        "Appearances are deceptive"
+      ],
+      "correctIndex": 1,
+      "explanation": "அகம் here means the mind/heart (not 'home'), முகம் = face: what is in the mind shows on the face. 'Appearances are deceptive' says the opposite.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0041",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நான் நேற்று சென்னைக்குச் சென்றேன்.\"",
+      "options": [
+        "I will go to Chennai tomorrow.",
+        "I went to Chennai yesterday.",
+        "I am going to Chennai today.",
+        "He went to Chennai yesterday."
+      ],
+      "correctIndex": 1,
+      "explanation": "சென்றேன் = past tense, first person (நான்); நேற்று = yesterday. So: simple past 'I went'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0042",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவள் தினமும் காலையில் பாடம் படிக்கிறாள்.\"",
+      "options": [
+        "She studied her lessons yesterday morning.",
+        "She will study her lessons tomorrow morning.",
+        "She studies her lessons every morning.",
+        "They study their lessons every morning."
+      ],
+      "correctIndex": 2,
+      "explanation": "தினமும் (every day) + present tense படிக்கிறாள் = a habit, so the simple present 'studies' is used.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0043",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"குழந்தைகள் பூங்காவில் விளையாடிக் கொண்டிருக்கிறார்கள்.\"",
+      "options": [
+        "The children were playing in the park.",
+        "The children will be playing in the park.",
+        "The children have played in the park.",
+        "The children are playing in the park."
+      ],
+      "correctIndex": 3,
+      "explanation": "விளையாடிக் கொண்டிருக்கிறார்கள் = present continuous: 'are playing'. கொண்டிருந்தார்கள் would be 'were playing'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0044",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நாங்கள் அந்தத் திரைப்படத்தை ஏற்கெனவே பார்த்துவிட்டோம்.\"",
+      "options": [
+        "We have already seen that film.",
+        "We will see that film soon.",
+        "We are seeing that film now.",
+        "We had never seen that film."
+      ],
+      "correctIndex": 0,
+      "explanation": "ஏற்கெனவே (already) + பார்த்துவிட்டோம் (completed action) = present perfect 'have already seen'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0045",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நாளை மழை பெய்யும்.\"",
+      "options": [
+        "It rained yesterday.",
+        "It is raining now.",
+        "It will not rain tomorrow.",
+        "It will rain tomorrow."
+      ],
+      "correctIndex": 3,
+      "explanation": "பெய்யும் is the future form and நாளை = tomorrow: 'It will rain tomorrow'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0046",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவன் நிலையத்தை அடைவதற்கு முன்பே ரயில் புறப்பட்டுவிட்டது.\"",
+      "options": [
+        "The train had left before he reached the station.",
+        "The train left after he reached the station.",
+        "The train will leave before he reaches the station.",
+        "The train has been leaving since he reached the station."
+      ],
+      "correctIndex": 0,
+      "explanation": "Of two past actions, the earlier one (the train leaving) takes the past perfect: 'had left before he reached'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0047",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"இந்தக் கோவில் ராஜராஜ சோழனால் கட்டப்பட்டது.\"",
+      "options": [
+        "This temple is being built by Rajaraja Chola.",
+        "This temple was built by Rajaraja Chola.",
+        "Rajaraja Chola is building this temple.",
+        "This temple will be built by Rajaraja Chola."
+      ],
+      "correctIndex": 1,
+      "explanation": "கட்டப்பட்டது = passive, past ('was built'); சோழனால் = 'by Chola'. The voice and tense must both be kept.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0048",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"திருக்குறள் பல மொழிகளில் மொழிபெயர்க்கப்பட்டுள்ளது.\"",
+      "options": [
+        "Thirukkural is translating many languages.",
+        "Thirukkural translated many languages.",
+        "Thirukkural has been translated into many languages.",
+        "Thirukkural will be translated into many languages."
+      ],
+      "correctIndex": 2,
+      "explanation": "மொழிபெயர்க்கப்பட்டுள்ளது = passive present perfect: 'has been translated'. The book does not do the translating, so the active options are wrong.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0049",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நீ உன் வீட்டுப்பாடத்தை முடித்தாயா?\"",
+      "options": [
+        "Will you finish your homework?",
+        "Are you finishing your homework?",
+        "Finish your homework.",
+        "Did you finish your homework?"
+      ],
+      "correctIndex": 3,
+      "explanation": "முடித்தாயா = past tense + question marker -ஆ: 'Did you finish?'",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0050",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நான் ஐந்து ஆண்டுகளாக இந்த ஊரில் வசித்து வருகிறேன்.\"",
+      "options": [
+        "I lived in this town five years ago.",
+        "I have been living in this town for five years.",
+        "I will live in this town for five years.",
+        "I am going to live in this town after five years."
+      ],
+      "correctIndex": 1,
+      "explanation": "ஆண்டுகளாக (for ... years) + வசித்து வருகிறேன் (have been living, still continuing) = present perfect continuous.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0051",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவர் வந்திருந்தால் நான் அவரைச் சந்தித்திருப்பேன்.\"",
+      "options": [
+        "If he comes, I will meet him.",
+        "If he came, I would meet him.",
+        "If he had come, I would have met him.",
+        "Since he came, I met him."
+      ],
+      "correctIndex": 2,
+      "explanation": "வந்திருந்தால் ... சந்தித்திருப்பேன் describes an unreal past condition: third conditional 'If he had come, I would have met him'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0052",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"மழை பெய்தால் நாங்கள் சுற்றுலா செல்ல மாட்டோம்.\"",
+      "options": [
+        "If it rains, we will not go on the trip.",
+        "Though it rained, we went on the trip.",
+        "If it rains, we will go on the trip.",
+        "As it rained, we did not go on the trip."
+      ],
+      "correctIndex": 0,
+      "explanation": "பெய்தால் = 'if it rains' (condition); செல்ல மாட்டோம் = 'will not go'. First conditional.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0053",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவள் என்னைவிட உயரமானவள்.\"",
+      "options": [
+        "She is taller than me.",
+        "I am taller than her.",
+        "She is as tall as me.",
+        "She is the tallest of all."
+      ],
+      "correctIndex": 0,
+      "explanation": "என்னைவிட = 'than me'; உயரமானவள் = 'she is tall(er)'. Comparative degree.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0054",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"தேர்வு முடிவுகள் நாளை வெளியிடப்படும்.\"",
+      "options": [
+        "The examination results were published yesterday.",
+        "The examination results are being published now.",
+        "The examination results will publish tomorrow.",
+        "The examination results will be published tomorrow."
+      ],
+      "correctIndex": 3,
+      "explanation": "வெளியிடப்படும் = passive future: 'will be published'. 'Will publish' wrongly makes the results the doer.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0055",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அந்தப் பாலம் இப்போது கட்டப்பட்டு வருகிறது.\"",
+      "options": [
+        "The bridge was built long ago.",
+        "The bridge is building now.",
+        "The bridge is being built now.",
+        "The bridge will be built next year."
+      ],
+      "correctIndex": 2,
+      "explanation": "கட்டப்பட்டு வருகிறது = passive present continuous: 'is being built'. 'Is building' wrongly makes the bridge the builder.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0056",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நான் அவனுக்கு ஒரு புத்தகம் கொடுத்தேன்.\"",
+      "options": [
+        "He gave me a book.",
+        "I gave him a book.",
+        "I was given a book by him.",
+        "I will give him a book."
+      ],
+      "correctIndex": 1,
+      "explanation": "நான் (I) ... அவனுக்கு (to him) ... கொடுத்தேன் (gave). Watch the giver and receiver - 'He gave me' reverses them.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0057",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நீ கடினமாக உழைக்க வேண்டும்.\"",
+      "options": [
+        "You worked hard.",
+        "You need not work hard.",
+        "You are working hard.",
+        "You must work hard."
+      ],
+      "correctIndex": 3,
+      "explanation": "உழைக்க வேண்டும் = 'must/should work'. வேண்டும் expresses necessity.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0058",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவர்கள் இரண்டு மணி நேரமாகக் காத்திருக்கிறார்கள்.\"",
+      "options": [
+        "They have been waiting for two hours.",
+        "They waited two hours ago.",
+        "They will wait for two hours.",
+        "They are waiting at two o'clock."
+      ],
+      "correctIndex": 0,
+      "explanation": "மணி நேரமாக = 'for ... hours' (still continuing): present perfect continuous 'have been waiting for two hours'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0059",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"சூரியன் கிழக்கில் உதிக்கிறது.\"",
+      "options": [
+        "The sun rose in the east.",
+        "The sun rises in the east.",
+        "The sun rises in the west.",
+        "The sun has risen in the west."
+      ],
+      "correctIndex": 1,
+      "explanation": "A universal truth takes the simple present: 'rises'. கிழக்கு = east (மேற்கு = west).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0060",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவன் நேற்று பள்ளிக்குச் செல்லவில்லை.\"",
+      "options": [
+        "He does not go to school.",
+        "He will not go to school tomorrow.",
+        "He did not go to school yesterday.",
+        "He went to school yesterday."
+      ],
+      "correctIndex": 2,
+      "explanation": "செல்லவில்லை = negative; with நேற்று (yesterday) it is past: 'did not go'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0061",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவள் பாடிக்கொண்டிருந்தபோது மின்சாரம் தடைப்பட்டது.\"",
+      "options": [
+        "She sang after the power failed.",
+        "The power failed while she was singing.",
+        "The power will fail while she is singing.",
+        "The power had failed before she began to sing."
+      ],
+      "correctIndex": 1,
+      "explanation": "பாடிக்கொண்டிருந்தபோது = 'while she was singing' (past continuous); தடைப்பட்டது = 'failed' (simple past) interrupting it.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0062",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"இக்கட்டுரை மாணவர்களால் எழுதப்பட வேண்டும்.\"",
+      "options": [
+        "The students must have written this essay.",
+        "This essay was written by the students.",
+        "The students are writing this essay.",
+        "This essay must be written by the students."
+      ],
+      "correctIndex": 3,
+      "explanation": "எழுதப்பட வேண்டும் = passive + necessity: 'must be written'. 'Must have written' is a guess about the past.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0063",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவள் கடிதம் எழுதியிருந்தாள்.\"",
+      "options": [
+        "She is writing a letter.",
+        "She will write a letter.",
+        "She had written a letter.",
+        "She has been writing letters."
+      ],
+      "correctIndex": 2,
+      "explanation": "எழுதியிருந்தாள் = past perfect: 'had written'. (எழுதியிருக்கிறாள் would be 'has written'.)",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0064",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவர்கள் நாளை இந்நேரம் பயணம் செய்து கொண்டிருப்பார்கள்.\"",
+      "options": [
+        "They will be travelling at this time tomorrow.",
+        "They were travelling at this time yesterday.",
+        "They travel at this time every day.",
+        "They had travelled by this time yesterday."
+      ],
+      "correctIndex": 0,
+      "explanation": "நாளை இந்நேரம் (at this time tomorrow) + செய்து கொண்டிருப்பார்கள் = future continuous: 'will be travelling'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0065",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"எனக்குத் தலை வலிக்கிறது.\"",
+      "options": [
+        "I had a headache yesterday.",
+        "He has a headache.",
+        "I will get a headache.",
+        "I have a headache."
+      ],
+      "correctIndex": 3,
+      "explanation": "Tamil says 'to me the head aches'; natural English is 'I have a headache' (present).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0066",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"பேருந்து எத்தனை மணிக்கு வரும்?\"",
+      "options": [
+        "What time did the bus come?",
+        "What time will the bus come?",
+        "How many buses will come?",
+        "Why is the bus late?"
+      ],
+      "correctIndex": 1,
+      "explanation": "எத்தனை மணிக்கு = at what time; வரும் = will come (future). 'How many buses' mistranslates எத்தனை.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0067",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நீ வருவாய் என்று நான் எதிர்பார்க்கவில்லை.\"",
+      "options": [
+        "You did not expect that I would come.",
+        "I expected that you would come.",
+        "I did not expect that you would come.",
+        "I do not know whether you will come."
+      ],
+      "correctIndex": 2,
+      "explanation": "நான் எதிர்பார்க்கவில்லை = I did not expect; நீ வருவாய் என்று = that you would come. In reported speech 'will' shifts to 'would'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0068",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவனால் இந்தக் கல்லைத் தூக்க முடியாது.\"",
+      "options": [
+        "He cannot lift this stone.",
+        "He could lift this stone.",
+        "He lifted this stone easily.",
+        "This stone cannot be seen by him."
+      ],
+      "correctIndex": 0,
+      "explanation": "அவனால் ... முடியாது = 'he is not able to': 'He cannot lift this stone'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0069",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"கதவு திறக்கப்பட்டது.\"",
+      "options": [
+        "The door is being opened.",
+        "The door was opened.",
+        "Open the door.",
+        "The door will be opened."
+      ],
+      "correctIndex": 1,
+      "explanation": "திறக்கப்பட்டது = passive, past: 'was opened'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0070",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவர் தமிழில் பல நூல்களை எழுதியுள்ளார்.\"",
+      "options": [
+        "He has written many books in Tamil.",
+        "He is writing a book in Tamil.",
+        "He will write many books in Tamil.",
+        "He has read many books in Tamil."
+      ],
+      "correctIndex": 0,
+      "explanation": "எழுதியுள்ளார் = present perfect: 'has written'. பல நூல்களை = many books. 'Read' (படித்துள்ளார்) is a different verb.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0071",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"ஒவ்வொரு குடிமகனும் வாக்களிக்க வேண்டும்.\"",
+      "options": [
+        "Every citizen voted.",
+        "No citizen should vote.",
+        "Every citizen will be voted.",
+        "Every citizen should vote."
+      ],
+      "correctIndex": 3,
+      "explanation": "வாக்களிக்க வேண்டும் = should/must vote (duty). 'Will be voted' is a meaningless passive.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0072",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவன் எவ்வளவு வேகமாக ஓடுகிறான்!\"",
+      "options": [
+        "How fast does he run?",
+        "He ran very fast.",
+        "How fast he runs!",
+        "He does not run fast."
+      ],
+      "correctIndex": 2,
+      "explanation": "The exclamation mark makes this an exclamatory sentence: 'How fast he runs!' (no question word order).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0073",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவள் சிரித்துக்கொண்டே பதில் சொன்னாள்.\"",
+      "options": [
+        "She smiled but did not answer.",
+        "She will answer with a smile.",
+        "She answered with a smile.",
+        "She answered angrily."
+      ],
+      "correctIndex": 2,
+      "explanation": "சிரித்துக்கொண்டே = while smiling; பதில் சொன்னாள் = answered (past). 'She answered with a smile'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0074",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"பேசுவதற்கு முன் யோசி.\"",
+      "options": [
+        "Think before you speak.",
+        "Speak before you think.",
+        "He thought before he spoke.",
+        "Do not think; just speak."
+      ],
+      "correctIndex": 0,
+      "explanation": "பேசுவதற்கு முன் = before speaking; யோசி = think (command). The order of actions must be preserved.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0075",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"இந்தியா 1947ஆம் ஆண்டு விடுதலை பெற்றது.\"",
+      "options": [
+        "India will attain independence in 1947.",
+        "India attained independence in 1947.",
+        "India lost its independence in 1947.",
+        "India fought for independence after 1947."
+      ],
+      "correctIndex": 1,
+      "explanation": "விடுதலை பெற்றது = got/attained freedom (past tense).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0076",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"நாம் மரங்களை நட வேண்டும்.\"",
+      "options": [
+        "We planted trees.",
+        "We should cut trees.",
+        "We will not plant trees.",
+        "We should plant trees."
+      ],
+      "correctIndex": 3,
+      "explanation": "நட வேண்டும் = should plant. நடு = plant; வெட்டு = cut.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0077",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"அவன் தன் தவறை ஒப்புக்கொண்டான்.\"",
+      "options": [
+        "He denied his mistake.",
+        "He will admit his mistake.",
+        "He made the same mistake again.",
+        "He admitted his mistake."
+      ],
+      "correctIndex": 3,
+      "explanation": "ஒப்புக்கொண்டான் = admitted/accepted (past). மறுத்தான் would be 'denied'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0078",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"இந்தச் சாலை நகராட்சியால் சீரமைக்கப்படும்.\"",
+      "options": [
+        "This road will be repaired by the municipality.",
+        "This road was repaired by the municipality.",
+        "This road is being repaired by the municipality.",
+        "This road will be repaired by the corporation."
+      ],
+      "correctIndex": 0,
+      "explanation": "சீரமைக்கப்படும் = passive future 'will be repaired'; நகராட்சி = municipality (மாநகராட்சி = corporation).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0079",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"மாணவர்கள் ஆசிரியரால் பாராட்டப்பட்டனர்.\"",
+      "options": [
+        "The teacher was praised by the students.",
+        "The students praised the teacher.",
+        "The students were praised by the teacher.",
+        "The students will be praised by the teacher."
+      ],
+      "correctIndex": 2,
+      "explanation": "மாணவர்கள் (subject) ... ஆசிரியரால் (by the teacher) பாராட்டப்பட்டனர் (were praised): passive, past.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0080",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Translate the following sentence into English: \"கடந்த ஆண்டு இங்கே ஒரு பள்ளி கட்டப்பட்டது.\"",
+      "options": [
+        "A school will be built here next year.",
+        "A school was built here last year.",
+        "A school is being built here.",
+        "A school was closed here last year."
+      ],
+      "correctIndex": 1,
+      "explanation": "கடந்த ஆண்டு = last year; கட்டப்பட்டது = was built (passive, past).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0081",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The doctor examined the patient.\"",
+      "options": [
+        "நோயாளி மருத்துவரைப் பரிசோதித்தார்.",
+        "மருத்துவர் நோயாளியைப் பரிசோதித்தார்.",
+        "மருத்துவர் நோயாளியைப் பரிசோதிக்கிறார்.",
+        "மருத்துவர் நோயாளியைப் பரிசோதிப்பார்."
+      ],
+      "correctIndex": 1,
+      "explanation": "The doer (மருத்துவர்) and the object (நோயாளியை) must stay the same, and 'examined' is past: பரிசோதித்தார்.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0082",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The meeting will begin at ten o'clock.\"",
+      "options": [
+        "கூட்டம் பத்து மணிக்குத் தொடங்கியது.",
+        "கூட்டம் பத்து மணிக்குத் தொடங்கவில்லை.",
+        "கூட்டம் பத்து மணிக்குத் தொடங்கும்.",
+        "கூட்டம் பத்து மணி வரை நடந்தது."
+      ],
+      "correctIndex": 2,
+      "explanation": "'Will begin' = future: தொடங்கும். தொடங்கியது is past.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0083",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"She is reading a newspaper.\"",
+      "options": [
+        "அவள் செய்தித்தாள் படித்தாள்.",
+        "அவள் செய்தித்தாள் படிப்பாள்.",
+        "அவன் செய்தித்தாள் படித்துக் கொண்டிருக்கிறான்.",
+        "அவள் செய்தித்தாள் படித்துக் கொண்டிருக்கிறாள்."
+      ],
+      "correctIndex": 3,
+      "explanation": "Present continuous 'is reading' = படித்துக் கொண்டிருக்கிறாள். The last option changes 'she' to 'he' (அவன்).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0084",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The thief was caught by the police.\"",
+      "options": [
+        "திருடன் காவல்துறையினரால் பிடிக்கப்பட்டான்.",
+        "திருடன் காவல்துறையினரைப் பிடித்தான்.",
+        "திருடன் காவல்துறையினரால் பிடிக்கப்படுவான்.",
+        "திருடன் காவல்துறையினரிடமிருந்து தப்பினான்."
+      ],
+      "correctIndex": 0,
+      "explanation": "Passive past 'was caught by' = -ஆல் பிடிக்கப்பட்டான். பிடிக்கப்படுவான் is future; the second option reverses the roles.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0085",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"We have completed the work.\"",
+      "options": [
+        "நாங்கள் வேலையை முடிப்போம்.",
+        "நாங்கள் வேலையை முடித்துக்கொண்டிருக்கிறோம்.",
+        "நாங்கள் வேலையை முடிக்கவில்லை.",
+        "நாங்கள் வேலையை முடித்துவிட்டோம்."
+      ],
+      "correctIndex": 3,
+      "explanation": "Present perfect (completed action) = முடித்துவிட்டோம். முடிப்போம் = will complete.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0086",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Do not touch the electric wire.\"",
+      "options": [
+        "மின்கம்பியைத் தொடுங்கள்.",
+        "மின்கம்பியைத் தொடாதீர்கள்.",
+        "அவன் மின்கம்பியைத் தொட்டான்.",
+        "மின்கம்பியைத் தொடலாம்."
+      ],
+      "correctIndex": 1,
+      "explanation": "A negative command = தொடாதீர்கள் (do not touch). தொடுங்கள் = touch; தொடலாம் = you may touch.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0087",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"He has been ill since Monday.\"",
+      "options": [
+        "அவன் திங்கள்கிழமை மட்டும் உடல்நலமின்றி இருந்தான்.",
+        "அவன் திங்கள்கிழமை முதல் நலமாக இருக்கிறான்.",
+        "அவன் திங்கள்கிழமையிலிருந்து உடல்நலமின்றி இருக்கிறான்.",
+        "அவன் வரும் திங்கள்கிழமை உடல்நலமின்றி இருப்பான்."
+      ],
+      "correctIndex": 2,
+      "explanation": "'Since Monday' = திங்கள்கிழமையிலிருந்து, and 'has been ill' (still ill) = உடல்நலமின்றி இருக்கிறான்.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0088",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Can you help me?\"",
+      "options": [
+        "நீங்கள் எனக்கு உதவ முடியுமா?",
+        "நான் உங்களுக்கு உதவ முடியுமா?",
+        "நீங்கள் எனக்கு உதவினீர்களா?",
+        "நீங்கள் எனக்கு உதவ வேண்டாம்."
+      ],
+      "correctIndex": 0,
+      "explanation": "'Can you ...?' = முடியுமா; 'you help me' = நீங்கள் எனக்கு உதவ. The second option reverses the helper and the helped.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0089",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The shops are closed on Sundays.\"",
+      "options": [
+        "ஞாயிற்றுக்கிழமைகளில் கடைகள் மூடப்பட்டிருக்கும்.",
+        "ஞாயிற்றுக்கிழமைகளில் கடைகள் திறந்திருக்கும்.",
+        "கடந்த ஞாயிற்றுக்கிழமை கடைகள் மூடப்பட்டன.",
+        "ஞாயிற்றுக்கிழமைகளில் கடைகளை மூட வேண்டாம்."
+      ],
+      "correctIndex": 0,
+      "explanation": "A regular state ('on Sundays') = ஞாயிற்றுக்கிழமைகளில் ... மூடப்பட்டிருக்கும். 'Last Sunday' changes the meaning to a single past event.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0090",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Ravi is younger than Kumar.\"",
+      "options": [
+        "குமார் ரவியைவிட இளையவன்.",
+        "ரவி குமாரைவிட மூத்தவன்.",
+        "ரவியும் குமாரும் ஒரே வயதுடையவர்கள்.",
+        "ரவி குமாரைவிட இளையவன்."
+      ],
+      "correctIndex": 3,
+      "explanation": "'Younger than Kumar' = குமாரைவிட இளையவன். மூத்தவன் = older.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0091",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Unless you work hard, you will not succeed.\"",
+      "options": [
+        "நீ கடினமாக உழைத்தால் வெற்றி பெற மாட்டாய்.",
+        "நீ கடினமாக உழைத்தாலொழிய வெற்றி பெற மாட்டாய்.",
+        "நீ கடினமாக உழைக்காவிட்டாலும் வெற்றி பெறுவாய்.",
+        "நீ கடினமாக உழைத்ததால் வெற்றி பெற்றாய்."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Unless' = -ஆலொழிய (except if). The second option says 'if you work hard you will not succeed', the opposite meaning.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0092",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Water boils at 100 degrees Celsius.\"",
+      "options": [
+        "நீர் 100 டிகிரி செல்சியஸில் உறையும்.",
+        "நீர் 100 டிகிரி செல்சியஸில் கொதிக்காது.",
+        "நீர் 100 டிகிரி செல்சியஸில் கொதிக்கும்.",
+        "நீர் நேற்று 100 டிகிரி செல்சியஸில் கொதித்தது."
+      ],
+      "correctIndex": 2,
+      "explanation": "A general truth = கொதிக்கும். உறையும் = freezes.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0093",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Rome was not built in a day.\"",
+      "options": [
+        "ரோம் ஒரே நாளில் கட்டப்பட்டது.",
+        "ரோம் ஒரே நாளில் கட்டப்படும்.",
+        "ரோம் ஒரே நாளில் கட்டப்படவில்லை.",
+        "ரோமை ஒரே நாளில் கட்டிவிடலாம்."
+      ],
+      "correctIndex": 2,
+      "explanation": "Negative passive past = கட்டப்படவில்லை (was not built). The other options drop the negative or change the tense.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0094",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"I have been learning Tamil for two years.\"",
+      "options": [
+        "நான் இரண்டு ஆண்டுகளாகத் தமிழ் கற்று வருகிறேன்.",
+        "நான் இரண்டு ஆண்டுகளுக்கு முன் தமிழ் கற்றேன்.",
+        "நான் இன்னும் இரண்டு ஆண்டுகள் தமிழ் கற்பேன்.",
+        "நான் இரண்டு ஆண்டுகளாகத் தமிழ் கற்கவில்லை."
+      ],
+      "correctIndex": 0,
+      "explanation": "Present perfect continuous = ஆண்டுகளாக ... கற்று வருகிறேன். 'Two years ago' (ஆண்டுகளுக்கு முன்) is a simple past trap.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-VI-t0095",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Let us go to the temple.\"",
+      "options": [
+        "நாம் கோவிலுக்குப் போனோம்.",
+        "நாம் கோவிலுக்குப் போகலாம்.",
+        "அவர்கள் கோவிலுக்குப் போகட்டும்.",
+        "நாம் கோவிலுக்குப் போக வேண்டாம்."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Let us' (a suggestion that includes the speaker) = நாம் ... போகலாம். போகட்டும் = 'let them go'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0096",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The Chief Minister inaugurated the new bridge.\"",
+      "options": [
+        "முதலமைச்சர் புதிய பாலத்தைத் திறந்து வைப்பார்.",
+        "முதலமைச்சர் புதிய பாலத்தைக் கட்டிக் கொண்டிருக்கிறார்.",
+        "புதிய பாலம் முதலமைச்சரால் திறந்து வைக்கப்படவில்லை.",
+        "முதலமைச்சர் புதிய பாலத்தைத் திறந்து வைத்தார்."
+      ],
+      "correctIndex": 3,
+      "explanation": "'Inaugurated' = திறந்து வைத்தார் (past). வைப்பார் = will inaugurate; the last option is negative.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-VI-t0097",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The farmers are waiting for the rain.\"",
+      "options": [
+        "உழவர்கள் மழைக்காகக் காத்திருந்தனர்.",
+        "உழவர்கள் மழைக்காகக் காத்திருக்கிறார்கள்.",
+        "உழவர்கள் மழைக்காகக் காத்திருப்பார்கள்.",
+        "உழவர்கள் மழையை வெறுக்கிறார்கள்."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Are waiting' (present) = காத்திருக்கிறார்கள். காத்திருந்தனர் = were waiting; காத்திருப்பார்கள் = will wait.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0098",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"Honesty is the best policy.\"",
+      "options": [
+        "நேர்மை சில நேரங்களில் மட்டுமே பயன்படும்.",
+        "செல்வமே சிறந்த கொள்கை.",
+        "நேர்மையே சிறந்த கொள்கை.",
+        "நேர்மையால் எந்தப் பயனும் இல்லை."
+      ],
+      "correctIndex": 2,
+      "explanation": "நேர்மை = honesty; சிறந்த = best; கொள்கை = policy/principle. The emphatic -ஏ gives 'is the best'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-VI-t0099",
+      "topicId": "c6-translation-word-sentence",
+      "prompt": "Which of the following Tamil sentences best conveys the meaning of: \"The letter was written by him.\"",
+      "options": [
+        "கடிதம் அவனால் எழுதப்பட்டது.",
+        "கடிதம் அவனால் எழுதப்படும்.",
+        "கடிதம் அவனுக்கு எழுதப்பட்டது.",
+        "அவன் கடிதத்திற்காகக் காத்திருந்தான்."
+      ],
+      "correctIndex": 0,
+      "explanation": "'By him' = அவனால் (agent); 'to him' = அவனுக்கு is a trap. 'Was written' = எழுதப்பட்டது (past passive).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    }
+  ]
+}

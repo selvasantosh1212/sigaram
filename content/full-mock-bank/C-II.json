@@ -1,0 +1,3071 @@
+{
+  "unitId": "C-II",
+  "passages": [],
+  "questions": [
+    {
+      "id": "bank-C-II-v0001",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The minister's speech was so VERBOSE that the audience grew restless.\"",
+      "options": [
+        "Brief",
+        "Wordy",
+        "Angry",
+        "Silent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verbose means using more words than needed, i.e. wordy. 'Brief' is its antonym.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0002",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The judge remained IMPARTIAL throughout the trial.\"",
+      "options": [
+        "Prejudiced",
+        "Careless",
+        "Unbiased",
+        "Impatient"
+      ],
+      "correctIndex": 2,
+      "explanation": "Impartial = not favouring either side = unbiased. 'Prejudiced' is the opposite.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0003",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"His FRUGAL habits helped him save for his daughter's education.\"",
+      "options": [
+        "Extravagant",
+        "Lazy",
+        "Generous",
+        "Thrifty"
+      ],
+      "correctIndex": 3,
+      "explanation": "Frugal means careful and economical with money = thrifty. 'Extravagant' is the antonym.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0004",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The old fort now stands in a DILAPIDATED condition.\"",
+      "options": [
+        "Run-down",
+        "Renovated",
+        "Decorated",
+        "Crowded"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dilapidated describes a building fallen into disrepair, i.e. run-down or ruined.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0005",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The headmaster tried to PLACATE the angry parents.\"",
+      "options": [
+        "Provoke",
+        "Ignore",
+        "Punish",
+        "Pacify"
+      ],
+      "correctIndex": 3,
+      "explanation": "Placate = to calm someone down and make them less angry = pacify. 'Provoke' is the opposite.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0006",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"Her CANDID reply surprised the interview board.\"",
+      "options": [
+        "Evasive",
+        "Frank",
+        "Rude",
+        "Lengthy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Candid means truthful and straightforward = frank. 'Evasive' is the opposite.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0007",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The child's INCESSANT chatter disturbed the whole class.\"",
+      "options": [
+        "Unceasing",
+        "Occasional",
+        "Soft",
+        "Meaningless"
+      ],
+      "correctIndex": 0,
+      "explanation": "Incessant = continuing without a pause = unceasing. 'Occasional' is the opposite.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0008",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The fishermen were APPREHENSIVE about the approaching cyclone.\"",
+      "options": [
+        "Delighted",
+        "Unaware",
+        "Anxious",
+        "Careless"
+      ],
+      "correctIndex": 2,
+      "explanation": "Apprehensive means worried that something bad will happen = anxious.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0009",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The teacher gave a LUCID explanation of the theorem.\"",
+      "options": [
+        "Confusing",
+        "Clear",
+        "Lengthy",
+        "Casual"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lucid = expressed clearly and easy to understand. 'Confusing' is the opposite.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0010",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The thief made a FUTILE attempt to escape from the police.\"",
+      "options": [
+        "Useless",
+        "Successful",
+        "Brave",
+        "Sudden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Futile means producing no useful result = useless/vain.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0011",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"Her DILIGENT research finally led to a breakthrough.\"",
+      "options": [
+        "Idle",
+        "Careless",
+        "Hasty",
+        "Hard-working"
+      ],
+      "correctIndex": 3,
+      "explanation": "Diligent = showing steady, careful effort = hard-working (industrious).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0012",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The tyrant's RUTHLESS orders terrified the people.\"",
+      "options": [
+        "Kind",
+        "Fair",
+        "Merciless",
+        "Lenient"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ruthless = without pity or compassion = merciless.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0013",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The manuscript was written in an OBSCURE dialect that few scholars knew.\"",
+      "options": [
+        "Famous",
+        "Little-known",
+        "Modern",
+        "Simple"
+      ],
+      "correctIndex": 1,
+      "explanation": "Obscure here means not well known; the clause 'that few scholars knew' confirms it.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0014",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The general's AUDACIOUS plan took the enemy by surprise.\"",
+      "options": [
+        "Timid",
+        "Cautious",
+        "Ordinary",
+        "Daring"
+      ],
+      "correctIndex": 3,
+      "explanation": "Audacious = showing a willingness to take bold risks = daring. 'Timid' and 'cautious' are opposites.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0015",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The workers were offered a PALTRY sum as a bonus.\"",
+      "options": [
+        "Huge",
+        "Generous",
+        "Meagre",
+        "Fixed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paltry = very small or insignificant in amount = meagre.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0016",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The professor's ERUDITE lecture impressed even the senior scholars.\"",
+      "options": [
+        "Learned",
+        "Ignorant",
+        "Boring",
+        "Brief"
+      ],
+      "correctIndex": 0,
+      "explanation": "Erudite means having or showing great knowledge = learned/scholarly.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Erudite ~ 'erudition' = deep learning."
+    },
+    {
+      "id": "bank-C-II-v0017",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"His SYCOPHANTIC behaviour towards the manager annoyed his colleagues.\"",
+      "options": [
+        "Fawning",
+        "Hostile",
+        "Honest",
+        "Indifferent"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sycophant flatters powerful people to gain advantage; sycophantic = fawning, servilely flattering.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0018",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The villagers faced the long drought with remarkable FORTITUDE.\"",
+      "options": [
+        "Weakness",
+        "Endurance",
+        "Wealth",
+        "Panic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fortitude = courage and strength in bearing pain or hardship = endurance.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0019",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The victim's statement was CORROBORATED by two independent witnesses.\"",
+      "options": [
+        "Denied",
+        "Destroyed",
+        "Confirmed",
+        "Concealed"
+      ],
+      "correctIndex": 2,
+      "explanation": "To corroborate is to confirm or support a statement with further evidence.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0020",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the synonym of the word in capitals: \"The scholar's argument was so COGENT that nobody could refute it.\"",
+      "options": [
+        "Weak",
+        "Confusing",
+        "Lengthy",
+        "Convincing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cogent = clear, logical and convincing. 'Nobody could refute it' supports this.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0021",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The climate of the hill station is SALUBRIOUS.\"",
+      "options": [
+        "Unhealthy",
+        "Healthy",
+        "Pleasant",
+        "Cool"
+      ],
+      "correctIndex": 0,
+      "explanation": "Salubrious means health-giving; its opposite is unhealthy (insalubrious).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0022",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The village has an ANCIENT temple on the river bank.\"",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Sacred"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ancient = very old; its opposite is modern.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0023",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The workers were RELUCTANT to accept the new shift system.\"",
+      "options": [
+        "Unwilling",
+        "Slow",
+        "Afraid",
+        "Willing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Reluctant = unwilling; the opposite is willing (eager).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0024",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The speaker's remarks were RELEVANT to the topic.\"",
+      "options": [
+        "Related",
+        "Important",
+        "Irrelevant",
+        "Suitable"
+      ],
+      "correctIndex": 2,
+      "explanation": "Relevant = connected with the matter; the opposite is irrelevant (formed with the prefix ir-).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0025",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"Kamarajar was admired for his HUMILITY.\"",
+      "options": [
+        "Modesty",
+        "Arrogance",
+        "Simplicity",
+        "Kindness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humility = modesty, lack of pride; its opposite is arrogance. 'Modesty' is a synonym.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0026",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"After the storm the boat was in a PRECARIOUS position.\"",
+      "options": [
+        "Dangerous",
+        "Uncertain",
+        "Risky",
+        "Secure"
+      ],
+      "correctIndex": 3,
+      "explanation": "Precarious = dangerously unstable; the opposite is secure (safe). The other three are near-synonyms.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0027",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The new law was passed to PROHIBIT child labour.\"",
+      "options": [
+        "Permit",
+        "Forbid",
+        "Ban",
+        "Prevent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prohibit = forbid; its opposite is permit (allow). 'Forbid' and 'ban' are synonyms.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0028",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"Veerapandiya Kattabomman is remembered for his VALOUR.\"",
+      "options": [
+        "Bravery",
+        "Heroism",
+        "Cowardice",
+        "Strength"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valour = great courage; the opposite is cowardice.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0029",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The SCARCITY of water forced many families to migrate.\"",
+      "options": [
+        "Abundance",
+        "Shortage",
+        "Dearth",
+        "Lack"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scarcity = shortage; its opposite is abundance (plenty). 'Dearth' and 'lack' are synonyms.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0030",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The new warden is very LENIENT with latecomers.\"",
+      "options": [
+        "Kind",
+        "Tolerant",
+        "Mild",
+        "Strict"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lenient = merciful, not strict; its opposite is strict (severe).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0031",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"She has taken up a TEMPORARY job during the vacation.\"",
+      "options": [
+        "Brief",
+        "Permanent",
+        "Passing",
+        "Short"
+      ],
+      "correctIndex": 1,
+      "explanation": "Temporary = lasting for a limited time; its opposite is permanent.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0032",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The rich merchant was known for his PARSIMONIOUS nature.\"",
+      "options": [
+        "Stingy",
+        "Miserly",
+        "Generous",
+        "Thrifty"
+      ],
+      "correctIndex": 2,
+      "explanation": "Parsimonious = extremely unwilling to spend money (stingy, miserly). Its opposite is generous.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Parsimony = miserliness."
+    },
+    {
+      "id": "bank-C-II-v0033",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The witness gave only a VAGUE account of the accident.\"",
+      "options": [
+        "Unclear",
+        "Hazy",
+        "Precise",
+        "Confused"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vague = not clear or definite; its opposite is precise (exact).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0034",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The committee's decision was UNANIMOUS.\"",
+      "options": [
+        "Divided",
+        "Agreed",
+        "United",
+        "Undisputed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unanimous = agreed by everyone; its opposite is divided (split).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0035",
+      "topicId": "c2-synonyms-antonyms",
+      "prompt": "Choose the antonym of the word in capitals: \"The student's conduct during the camp was EXEMPLARY.\"",
+      "options": [
+        "Ideal",
+        "Deplorable",
+        "Admirable",
+        "Model"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exemplary = serving as a fine example; its opposite is deplorable (shockingly bad). The other three are synonyms.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0036",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a place to live or stay'.",
+      "options": [
+        "Acommodation",
+        "Accomodation",
+        "Acomodation",
+        "Accommodation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Accommodation has double 'c' and double 'm'.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Two Cs and two Ms: aCCoMModation."
+    },
+    {
+      "id": "bank-C-II-v0037",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'needed; essential'.",
+      "options": [
+        "Neccessary",
+        "Necesary",
+        "Neccesary",
+        "Necessary"
+      ],
+      "correctIndex": 3,
+      "explanation": "Necessary: one 'c', double 's'.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "One Collar, two Sleeves: neCeSSary."
+    },
+    {
+      "id": "bank-C-II-v0038",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'to make someone feel awkward or ashamed'.",
+      "options": [
+        "Embarass",
+        "Embaras",
+        "Embarrass",
+        "Emmbarrass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Embarrass has double 'r' and double 's'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0039",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a period of a thousand years'.",
+      "options": [
+        "Millennium",
+        "Millenium",
+        "Milennium",
+        "Milenium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Millennium has double 'l' and double 'n' (from Latin mille + annus).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0040",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'careful to do one's work well and thoroughly'.",
+      "options": [
+        "Consciencious",
+        "Conscientious",
+        "Conscientous",
+        "Concientious"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conscientious = science + -tious: c-o-n-s-c-i-e-n-t-i-o-u-s.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0041",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a regular, repeated pattern of sound or movement'.",
+      "options": [
+        "Rythm",
+        "Rhythem",
+        "Rhythm",
+        "Rhytm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rhythm: r-h-y-t-h-m, with 'h' after both 'r' and 't' and no vowel before 'm'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0042",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'to divide or keep apart'.",
+      "options": [
+        "Seperate",
+        "Separate",
+        "Separete",
+        "Seprate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Separate has 'a' after the 'p': sep-A-rate.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "There is 'a rat' in sep-a-rat-e."
+    },
+    {
+      "id": "bank-C-II-v0043",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'an incident or event that happens'.",
+      "options": [
+        "Occurence",
+        "Ocurrence",
+        "Occurrance",
+        "Occurrence"
+      ],
+      "correctIndex": 3,
+      "explanation": "Occurrence: double 'c', double 'r', and ends in -ence.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0044",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Which one of the following words is INCORRECTLY spelt?",
+      "options": [
+        "Definately",
+        "Believe",
+        "Receive",
+        "Committee"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct spelling is 'definitely' (from 'finite'). The other three are correctly spelt.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0045",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a system of government run by appointed officials'.",
+      "options": [
+        "Beaurocracy",
+        "Bureaucrasy",
+        "Bureaucracy",
+        "Buraucracy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bureaucracy = bureau + -cracy: b-u-r-e-a-u-c-r-a-c-y.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0046",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a printed set of questions used in a survey'.",
+      "options": [
+        "Questionaire",
+        "Questionnare",
+        "Quesstionnaire",
+        "Questionnaire"
+      ],
+      "correctIndex": 3,
+      "explanation": "Questionnaire has double 'n' and ends in -aire.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0047",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a person who sets up a business, taking financial risk'.",
+      "options": [
+        "Entrepreneur",
+        "Entrepreneaur",
+        "Enterpreneur",
+        "Entreprenuer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Entrepreneur: entre-pre-neur (French origin).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0048",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'communication or co-operation between groups'.",
+      "options": [
+        "Liasion",
+        "Liaison",
+        "Liaision",
+        "Leaison"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liaison: l-i-a-i-s-o-n, with 'i' on both sides of the 'a'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0049",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'the work of keeping something in good condition'.",
+      "options": [
+        "Maintenance",
+        "Maintainance",
+        "Maintenence",
+        "Maintanance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Although the verb is 'maintain', the noun is spelt 'maintenance'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0050",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "Choose the correctly spelt word that means 'a special right or advantage given to a person or group'.",
+      "options": [
+        "Priviledge",
+        "Privelege",
+        "Privilege",
+        "Previlege"
+      ],
+      "correctIndex": 2,
+      "explanation": "Privilege has no 'd': p-r-i-v-i-l-e-g-e.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0051",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a person who travels on foot along a road':",
+      "options": [
+        "Pilgrim",
+        "Passenger",
+        "Vagabond",
+        "Pedestrian"
+      ],
+      "correctIndex": 3,
+      "explanation": "A pedestrian is a person walking rather than travelling in a vehicle.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0052",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a substance applied to wounds to prevent infection by killing germs':",
+      "options": [
+        "Anaesthetic",
+        "Antiseptic",
+        "Antidote",
+        "Sedative"
+      ],
+      "correctIndex": 1,
+      "explanation": "An antiseptic prevents the growth of germs. An anaesthetic removes pain, an antidote counters poison, a sedative calms.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0053",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'the killing of a king':",
+      "options": [
+        "Regicide",
+        "Patricide",
+        "Homicide",
+        "Genocide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regicide (Latin rex/regis = king). Patricide = killing one's father; genocide = killing of a whole people.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0054",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'animals that feed only on plants':",
+      "options": [
+        "Carnivorous",
+        "Herbivorous",
+        "Omnivorous",
+        "Insectivorous"
+      ],
+      "correctIndex": 1,
+      "explanation": "Herbivorous animals eat plants. Carnivores eat flesh; omnivores eat both.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0055",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'government of the people, by the people, for the people':",
+      "options": [
+        "Autocracy",
+        "Monarchy",
+        "Oligarchy",
+        "Democracy"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lincoln's famous definition describes democracy (demos = people).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0056",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'government by a small group of powerful people':",
+      "options": [
+        "Democracy",
+        "Monarchy",
+        "Oligarchy",
+        "Anarchy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oligarchy (Greek oligoi = few). Anarchy = absence of government.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0057",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a list of the books and articles referred to in a piece of research':",
+      "options": [
+        "Biography",
+        "Glossary",
+        "Epilogue",
+        "Bibliography"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bibliography lists sources used. A glossary explains difficult words; a biography is a life story.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0058",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'the story of a person's life written by that person himself or herself':",
+      "options": [
+        "Autobiography",
+        "Biography",
+        "Anthology",
+        "Epitaph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Autobiography = auto (self) + biography. A biography is written by someone else.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0059",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a speech delivered without previous preparation':",
+      "options": [
+        "Rehearsed",
+        "Extempore",
+        "Monologue",
+        "Soliloquy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extempore means spoken or done without preparation.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0060",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a person whose bad habits cannot be corrected':",
+      "options": [
+        "Invincible",
+        "Inevitable",
+        "Incorrigible",
+        "Infallible"
+      ],
+      "correctIndex": 2,
+      "explanation": "Incorrigible = not able to be corrected or reformed.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0061",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'one who cannot be conquered or defeated':",
+      "options": [
+        "Invincible",
+        "Incorrigible",
+        "Indelible",
+        "Inaudible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invincible = too strong to be defeated. Indelible = cannot be erased; inaudible = cannot be heard.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0062",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'an abnormal fear of heights':",
+      "options": [
+        "Hydrophobia",
+        "Acrophobia",
+        "Agoraphobia",
+        "Claustrophobia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acro- = height. Hydrophobia = fear of water; agoraphobia = fear of open/public places; claustrophobia = fear of closed spaces.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0063",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a person who is new to a job or activity and has little experience':",
+      "options": [
+        "Veteran",
+        "Expert",
+        "Novice",
+        "Connoisseur"
+      ],
+      "correctIndex": 2,
+      "explanation": "A novice is a beginner. A veteran has long experience.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0064",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a person with expert knowledge and fine taste in matters such as art, music or food':",
+      "options": [
+        "Amateur",
+        "Glutton",
+        "Novice",
+        "Connoisseur"
+      ],
+      "correctIndex": 3,
+      "explanation": "A connoisseur is an expert judge in matters of taste. A glutton simply eats too much.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0065",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a place where bees are kept':",
+      "options": [
+        "Apiary",
+        "Aviary",
+        "Aquarium",
+        "Granary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apiary (Latin apis = bee). An aviary is for birds; a granary stores grain.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0066",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a large cage or enclosure in which birds are kept':",
+      "options": [
+        "Apiary",
+        "Kennel",
+        "Aviary",
+        "Stable"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aviary (Latin avis = bird). A kennel is for dogs; a stable for horses.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0067",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'words inscribed on a tomb in memory of the person buried there':",
+      "options": [
+        "Epigram",
+        "Epilogue",
+        "Epithet",
+        "Epitaph"
+      ],
+      "correctIndex": 3,
+      "explanation": "An epitaph is a tomb inscription. An epigram is a witty saying; an epithet is a descriptive name.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0068",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'that which cannot be avoided':",
+      "options": [
+        "Invincible",
+        "Inevitable",
+        "Indispensable",
+        "Incredible"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inevitable = certain to happen; unavoidable.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0069",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a child born after the death of its father':",
+      "options": [
+        "Posthumous",
+        "Orphan",
+        "Foundling",
+        "Heir"
+      ],
+      "correctIndex": 0,
+      "explanation": "Posthumous means occurring after death; a posthumous child is born after the father has died.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0070",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'a doctor who specialises in the treatment of children':",
+      "options": [
+        "Gynaecologist",
+        "Paediatrician",
+        "Dermatologist",
+        "Orthopaedist"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paediatrician (Greek pais = child). A dermatologist treats skin diseases.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0071",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'the scientific study of insects':",
+      "options": [
+        "Ornithology",
+        "Anthropology",
+        "Entomology",
+        "Ichthyology"
+      ],
+      "correctIndex": 2,
+      "explanation": "Entomology studies insects. Ornithology = birds; ichthyology = fish; anthropology = human societies.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0072",
+      "topicId": "c2-spelling-one-word-substitution",
+      "prompt": "One word for 'the scientific study of birds':",
+      "options": [
+        "Entomology",
+        "Herpetology",
+        "Ichthyology",
+        "Ornithology"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ornithology (Greek ornis = bird). Herpetology = reptiles.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0073",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The examiners will judge the essays on three ___.\" (criterion)",
+      "options": [
+        "criteria",
+        "criterions",
+        "criterias",
+        "criteriums"
+      ],
+      "correctIndex": 0,
+      "explanation": "Criterion (Greek) takes the plural 'criteria'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0074",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"An eclipse is one of the most striking natural ___.\" (phenomenon)",
+      "options": [
+        "phenomenons",
+        "phenomenas",
+        "phenomena",
+        "phenomenon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Phenomenon (Greek) takes the plural 'phenomena'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0075",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The country faced several economic ___ in that decade.\" (crisis)",
+      "options": [
+        "crisises",
+        "crises",
+        "crisis",
+        "crisies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nouns ending in -is change to -es: crisis -> crises, basis -> bases.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0076",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The laboratory carried out two separate ___ of the water sample.\" (analysis)",
+      "options": [
+        "analysises",
+        "analysis",
+        "analysies",
+        "analyses"
+      ],
+      "correctIndex": 3,
+      "explanation": "Analysis -> analyses (-is becomes -es).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0077",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"Both his ___ attended the wedding.\" (son-in-law)",
+      "options": [
+        "son-in-laws",
+        "sons-in-laws",
+        "sons-in-law",
+        "son-ins-law"
+      ],
+      "correctIndex": 2,
+      "explanation": "In compound nouns the main word takes the plural: sons-in-law.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0078",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"A few ___ stopped to help the injured man.\" (passer-by)",
+      "options": [
+        "passers-by",
+        "passer-bys",
+        "passers-bys",
+        "passer-by"
+      ],
+      "correctIndex": 0,
+      "explanation": "The main noun 'passer' takes the plural: passers-by.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0079",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"Keep the ___ out of the reach of children.\" (knife)",
+      "options": [
+        "knifes",
+        "knives",
+        "knifs",
+        "knive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Knife -> knives (f changes to v + es), like wife -> wives.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0080",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"She bought two kilograms of ___ from the market.\" (potato)",
+      "options": [
+        "potatos",
+        "potatoeses",
+        "potatoe",
+        "potatoes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Potato and tomato add -es: potatoes, tomatoes.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0081",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The farmer yoked two ___ to the plough.\" (ox)",
+      "options": [
+        "oxes",
+        "oxen",
+        "oxs",
+        "oxens"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ox has the irregular plural 'oxen'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0082",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The children were treated for head ___.\" (louse)",
+      "options": [
+        "lice",
+        "louses",
+        "lices",
+        "lousen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Louse -> lice, like mouse -> mice (vowel change).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0083",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The two tribal ___ signed the peace treaty.\" (chief)",
+      "options": [
+        "chieves",
+        "chiefes",
+        "chievs",
+        "chiefs"
+      ],
+      "correctIndex": 3,
+      "explanation": "Chief is an exception to the f -> ves rule: chiefs (also roofs, beliefs).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0084",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"The meeting was attended by the ___ of the three armed forces.\" (commander-in-chief)",
+      "options": [
+        "commander-in-chiefs",
+        "commanders-in-chiefs",
+        "commanders-in-chief",
+        "commander-ins-chief"
+      ],
+      "correctIndex": 2,
+      "explanation": "The principal noun 'commander' is pluralised: commanders-in-chief.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0085",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct plural: \"Many ___ of the college attended its centenary celebration.\" (alumnus)",
+      "options": [
+        "alumni",
+        "alumnuses",
+        "alumnus",
+        "alumnis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alumnus (Latin) -> alumni. (The feminine alumna -> alumnae.)",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0086",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct verb: \"Mathematics ___ my favourite subject.\"",
+      "options": [
+        "are",
+        "were",
+        "have been",
+        "is"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nouns like mathematics, physics and economics look plural but take a singular verb when naming a subject.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0087",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the correct verb: \"The cattle ___ grazing in the field.\"",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Cattle' is always plural in form and use, so it takes a plural verb.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0088",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Choose the grammatically correct sentence.",
+      "options": [
+        "He gave me some useful informations.",
+        "He gave me an useful information.",
+        "He gave me some useful information.",
+        "He gave me a useful informations."
+      ],
+      "correctIndex": 2,
+      "explanation": "'Information' is uncountable: no plural form and no article 'a/an'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0089",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "Which of these nouns is used ONLY in the plural and takes a plural verb?",
+      "options": [
+        "Trousers",
+        "Furniture",
+        "Luggage",
+        "Machinery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trousers (like scissors, spectacles) are plural nouns. Furniture, luggage and machinery are uncountable and take singular verbs.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0090",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In the sentence 'Bring some fruits, e.g. mangoes and bananas', the abbreviation 'e.g.' stands for:",
+      "options": [
+        "et cetera (and so on)",
+        "exempli gratia (for example)",
+        "id est (that is)",
+        "ergo (therefore)"
+      ],
+      "correctIndex": 1,
+      "explanation": "e.g. = exempli gratia, Latin for 'for the sake of example'. 'i.e.' = id est.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0091",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In 'pens, pencils, erasers, etc.', the abbreviation 'etc.' stands for:",
+      "options": [
+        "exempli gratia (for example)",
+        "id est (that is)",
+        "nota bene (note well)",
+        "et cetera (and the rest)"
+      ],
+      "correctIndex": 3,
+      "explanation": "etc. = et cetera, Latin for 'and the rest / and so on'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0092",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In '9 a.m.', the abbreviation 'a.m.' stands for:",
+      "options": [
+        "after midday",
+        "ante midnight",
+        "ante meridiem",
+        "anno meridiem"
+      ],
+      "correctIndex": 2,
+      "explanation": "a.m. = ante meridiem (before noon); p.m. = post meridiem (after noon).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0093",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "The abbreviation 'viz.' (as in 'three colours, viz. red, white and green') means:",
+      "options": [
+        "versus",
+        "namely",
+        "very important",
+        "visit"
+      ],
+      "correctIndex": 1,
+      "explanation": "viz. is short for Latin videlicet, meaning 'namely'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0094",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In police procedure, 'FIR' stands for:",
+      "options": [
+        "First Information Report",
+        "Final Investigation Report",
+        "First Inquiry Record",
+        "Formal Investigation Request"
+      ],
+      "correctIndex": 0,
+      "explanation": "An FIR (First Information Report) is the written document prepared by the police when they receive information about a cognisable offence.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0095",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In 'PIN code', 'PIN' stands for:",
+      "options": [
+        "Personal Identification Number",
+        "Post Information Network",
+        "Postal Indian Number",
+        "Postal Index Number"
+      ],
+      "correctIndex": 3,
+      "explanation": "India Post's six-digit PIN = Postal Index Number. (In banking, PIN = Personal Identification Number, but not in a postal address.)",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0096",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "The abbreviation 'A.D.' used with dates stands for:",
+      "options": [
+        "After Death",
+        "Ante Domini",
+        "Anno Domini",
+        "Anno Dominus"
+      ],
+      "correctIndex": 2,
+      "explanation": "A.D. = Anno Domini, Latin for 'in the year of the Lord'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0097",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In footnotes, 'ibid.' means:",
+      "options": [
+        "in the same place (as the previous reference)",
+        "see below",
+        "compare with",
+        "the opposite of the above"
+      ],
+      "correctIndex": 0,
+      "explanation": "ibid. is short for Latin ibidem, 'in the same place', used when citing the same source again.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0098",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "'UNESCO' stands for:",
+      "options": [
+        "United Nations Economic, Social and Cultural Organization",
+        "United Nations Educational, Scientific and Cultural Organization",
+        "United Nations Educational, Social and Children's Organization",
+        "Universal Network for Education, Science and Culture"
+      ],
+      "correctIndex": 1,
+      "explanation": "UNESCO = United Nations Educational, Scientific and Cultural Organization (headquarters in Paris).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0099",
+      "topicId": "c2-singular-plural-abbreviations",
+      "prompt": "In 'India vs. Australia', the abbreviation 'vs.' stands for:",
+      "options": [
+        "verses",
+        "very special",
+        "versus",
+        "visiting side"
+      ],
+      "correctIndex": 2,
+      "explanation": "vs. = versus (Latin 'against').",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0100",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The ___ of the mountain was covered with snow.\"",
+      "options": [
+        "peek",
+        "pique",
+        "peke",
+        "peak"
+      ],
+      "correctIndex": 3,
+      "explanation": "Peak = the pointed top of a mountain. Peek = a quick look; pique = resentment.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0101",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The bride walked slowly down the ___ of the church.\"",
+      "options": [
+        "isle",
+        "I'll",
+        "aisle",
+        "ail"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aisle = a passage between rows of seats. Isle = a small island; ail = to trouble or be ill.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0102",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The two armies agreed to ___ fire at midnight.\"",
+      "options": [
+        "seize",
+        "sees",
+        "seas",
+        "cease"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cease = stop. Seize = take hold of by force.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0103",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Customs officers managed to ___ the smuggled gold at the airport.\"",
+      "options": [
+        "cease",
+        "seize",
+        "sees",
+        "seas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seize = take possession of by force or legal authority. Cease = stop.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0104",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The boy ___ the ball over the wall.\"",
+      "options": [
+        "threw",
+        "through",
+        "thorough",
+        "throe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Threw is the past tense of throw. Through = from one side to the other.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0105",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Turn ___ at the next signal to reach the bus stand.\"",
+      "options": [
+        "write",
+        "rite",
+        "wright",
+        "right"
+      ],
+      "correctIndex": 3,
+      "explanation": "Right = the direction opposite to left. Write = put words on paper; rite = a ceremony.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0106",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Gunny bags are made of ___ jute fibre.\"",
+      "options": [
+        "coarse",
+        "course",
+        "corse",
+        "cause"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coarse = rough in texture. Course = a route or a series of lessons.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0107",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The city ___ met to discuss the drinking-water problem.\"",
+      "options": [
+        "counsel",
+        "consul",
+        "council",
+        "councel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Council = an elected or appointed body. Counsel = advice, or a lawyer; consul = a diplomatic official.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0108",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The tiger crouched silently, waiting for its ___.\"",
+      "options": [
+        "pray",
+        "prey",
+        "prei",
+        "pry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prey = an animal hunted for food. Pray = speak to God.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0109",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Dark clouds gathered and heavy rain seemed ___.\"",
+      "options": [
+        "eminent",
+        "imminent",
+        "immanent",
+        "emanant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Imminent = about to happen. Eminent = famous and respected; immanent = existing within.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0110",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Dr. S. Radhakrishnan was an ___ philosopher and teacher.\"",
+      "options": [
+        "imminent",
+        "immanent",
+        "emminent",
+        "eminent"
+      ],
+      "correctIndex": 3,
+      "explanation": "Eminent = famous and respected within a field. Imminent = about to happen.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0111",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The elderly passenger asked for a lower ___ in the sleeper coach.\"",
+      "options": [
+        "birth",
+        "bath",
+        "berth",
+        "breath"
+      ],
+      "correctIndex": 2,
+      "explanation": "Berth = a sleeping place on a train or ship. Birth = being born.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0112",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Press the ___ gently when the car goes downhill.\"",
+      "options": [
+        "brakes",
+        "breaks",
+        "braks",
+        "breakes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brakes = the device used to slow a vehicle. Breaks = pauses, or the verb 'to break'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0113",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"These slippers are too ___ for me; they keep falling off.\"",
+      "options": [
+        "lose",
+        "loose",
+        "loss",
+        "lost"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loose = not tight. Lose = fail to keep or to win.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0114",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Everyone went on the trip ___ Ravi, who was ill.\"",
+      "options": [
+        "except",
+        "accept",
+        "expect",
+        "excerpt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Except = not including. Accept = receive willingly.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0115",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"The miser kept a secret ___ of gold coins under the floor.\"",
+      "options": [
+        "horde",
+        "hored",
+        "hord",
+        "hoard"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hoard = a hidden store of valuables. Horde = a large crowd.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0116",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"A ___ of tourists rushed into the museum when the doors opened.\"",
+      "options": [
+        "hoard",
+        "hored",
+        "horde",
+        "hord"
+      ],
+      "correctIndex": 2,
+      "explanation": "Horde = a large, often noisy crowd. Hoard = a hidden store.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0117",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Fill in the blank with the correct word: \"Students must ___ their sources at the end of the project report.\"",
+      "options": [
+        "site",
+        "cite",
+        "sight",
+        "side"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cite = quote or mention as evidence. Site = a location; sight = vision.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0118",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "In the sentence \"They sat on the bank of the Cauvery and watched the sunset\", the word 'bank' means:",
+      "options": [
+        "an institution that keeps money",
+        "a store of blood for hospitals",
+        "to depend on someone",
+        "the land along the edge of a river"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Bank' is a homonym; here, with 'of the Cauvery', it means a river's edge.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0119",
+      "topicId": "c2-homonyms-homophones",
+      "prompt": "Which of the following pairs are HOMOPHONES (same sound, different spelling and meaning)?",
+      "options": [
+        "Bright - Night",
+        "Fight - Flight",
+        "Knight - Night",
+        "Wind (air) - Wind (to coil)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Knight and night sound the same but differ in spelling and meaning. 'Wind/wind' is a homograph (same spelling, different sound).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0120",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"The classroom was a zoo when the teacher stepped out.\" Identify the figure of speech.",
+      "options": [
+        "Metaphor",
+        "Simile",
+        "Personification",
+        "Onomatopoeia"
+      ],
+      "correctIndex": 0,
+      "explanation": "The classroom is directly called a zoo, without 'like' or 'as', so it is a metaphor.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0121",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"Peter Piper picked a peck of pickled peppers.\" Identify the figure of speech.",
+      "options": [
+        "Assonance",
+        "Alliteration",
+        "Oxymoron",
+        "Hyperbole"
+      ],
+      "correctIndex": 1,
+      "explanation": "The same consonant sound /p/ is repeated at the beginning of nearby words: alliteration.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0122",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"The old clock went tick-tock all through the night.\" Identify the figure of speech.",
+      "options": [
+        "Alliteration",
+        "Simile",
+        "Irony",
+        "Onomatopoeia"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Tick-tock' imitates the sound it describes: onomatopoeia.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0123",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"O Death, where is thy sting?\" Identify the figure of speech.",
+      "options": [
+        "Apostrophe",
+        "Simile",
+        "Oxymoron",
+        "Litotes"
+      ],
+      "correctIndex": 0,
+      "explanation": "An absent person or an abstract idea (Death) is addressed directly: apostrophe.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0124",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"Parting is such sweet sorrow.\" (Shakespeare) Identify the figure of speech in 'sweet sorrow'.",
+      "options": [
+        "Simile",
+        "Pun",
+        "Oxymoron",
+        "Metonymy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Two opposite ideas, 'sweet' and 'sorrow', are placed side by side: oxymoron.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0125",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"The pen is mightier than the sword.\" Identify the figure of speech.",
+      "options": [
+        "Simile",
+        "Onomatopoeia",
+        "Metonymy",
+        "Apostrophe"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Pen' stands for writing/ideas and 'sword' for military force. An associated object names the thing: metonymy.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0126",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "The captain shouted, \"All hands on deck!\" The use of 'hands' for 'sailors' is an example of:",
+      "options": [
+        "Simile",
+        "Hyperbole",
+        "Alliteration",
+        "Synecdoche"
+      ],
+      "correctIndex": 3,
+      "explanation": "A part (hands) stands for the whole (the sailors): synecdoche.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0127",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"He is not a bad singer\" (meaning he is quite a good singer). Identify the figure of speech.",
+      "options": [
+        "Hyperbole",
+        "Litotes",
+        "Simile",
+        "Apostrophe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Litotes is understatement that affirms something by denying its opposite.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0128",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"Man proposes, God disposes.\" Identify the figure of speech.",
+      "options": [
+        "Antithesis",
+        "Simile",
+        "Onomatopoeia",
+        "Personification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contrasting ideas (proposes / disposes) are set in balanced phrases: antithesis.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0129",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"The fire station burned down last night.\" This statement contains:",
+      "options": [
+        "Simile",
+        "Alliteration",
+        "Onomatopoeia",
+        "Situational irony"
+      ],
+      "correctIndex": 3,
+      "explanation": "The outcome is the opposite of what is expected (a fire station destroyed by fire): situational irony.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0130",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"The soldier fought as brave as a lion.\" Identify the figure of speech.",
+      "options": [
+        "Metaphor",
+        "Personification",
+        "Simile",
+        "Oxymoron"
+      ],
+      "correctIndex": 2,
+      "explanation": "A comparison using 'as ... as' is a simile.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0131",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"I am so hungry that I could eat an elephant.\" Identify the figure of speech.",
+      "options": [
+        "Litotes",
+        "Hyperbole",
+        "Simile",
+        "Metonymy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deliberate, obvious exaggeration for effect is hyperbole.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0132",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "Which of the following lines contains a SIMILE?",
+      "options": [
+        "My love is like a red, red rose.",
+        "Life is a dream.",
+        "The stars danced in the sky.",
+        "Time is money."
+      ],
+      "correctIndex": 0,
+      "explanation": "Only Burns's line makes a comparison with 'like'. 'Life is a dream' and 'Time is money' are metaphors; 'stars danced' is personification.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0133",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"The camera loves her; every photograph looks wonderful.\" Identify the figure of speech in 'The camera loves her'.",
+      "options": [
+        "Simile",
+        "Hyperbole",
+        "Pun",
+        "Personification"
+      ],
+      "correctIndex": 3,
+      "explanation": "A human feeling (love) is given to a non-living object (camera): personification.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0134",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"His grandfather passed away last winter.\" The phrase 'passed away' is an example of:",
+      "options": [
+        "Hyperbole",
+        "Irony",
+        "Euphemism",
+        "Oxymoron"
+      ],
+      "correctIndex": 2,
+      "explanation": "A mild expression used instead of a harsh one ('died') is a euphemism.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0135",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"A bicycle cannot stand on its own because it is two-tired.\" Identify the figure of speech.",
+      "options": [
+        "Pun",
+        "Simile",
+        "Metonymy",
+        "Apostrophe"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Two-tired' plays on 'too tired' (two tyres): a pun is a play on words with similar sounds.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0136",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"He spent a sleepless night before the examination.\" Identify the figure of speech in 'sleepless night'.",
+      "options": [
+        "Oxymoron",
+        "Transferred epithet",
+        "Simile",
+        "Hyperbole"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is the person, not the night, who is sleepless; the epithet is transferred from the person to the night.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0137",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "The repetition of similar VOWEL sounds in nearby words is called:",
+      "options": [
+        "Alliteration",
+        "Assonance",
+        "Consonance",
+        "Onomatopoeia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assonance repeats vowel sounds; alliteration repeats initial consonants; consonance repeats consonant sounds.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0138",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"Can storied urn or animated bust / Back to its mansion call the fleeting breath?\" (Gray) The question asked only for effect, expecting no answer, is called:",
+      "options": [
+        "Simile",
+        "Pun",
+        "Rhetorical question (Interrogation)",
+        "Litotes"
+      ],
+      "correctIndex": 2,
+      "explanation": "A question asked for effect, not for an answer, is a rhetorical question (interrogation). The implied answer here is 'No'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0139",
+      "topicId": "c2-figures-of-speech",
+      "prompt": "\"Every day, every hour, every minute, I think of my village.\" The repetition of 'every' at the start of successive phrases is:",
+      "options": [
+        "Oxymoron",
+        "Litotes",
+        "Metonymy",
+        "Anaphora"
+      ],
+      "correctIndex": 3,
+      "explanation": "Repeating the same word at the beginning of successive phrases or clauses is anaphora.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0140",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the verb that correctly collocates: \"The police are investigating who ___ the crime.\"",
+      "options": [
+        "committed",
+        "did",
+        "made",
+        "performed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fixed collocation is 'commit a crime'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0141",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correct collocation: \"There was ___ traffic on the highway during the festival.\"",
+      "options": [
+        "strong",
+        "heavy",
+        "thick",
+        "big"
+      ],
+      "correctIndex": 1,
+      "explanation": "English uses 'heavy traffic' for a large volume of vehicles.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0142",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correct collocation: \"A good leader always ___ his promise.\"",
+      "options": [
+        "does",
+        "catches",
+        "keeps",
+        "holds on"
+      ],
+      "correctIndex": 2,
+      "explanation": "The natural collocation is 'keep a promise' (opposite: break a promise).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0143",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correct collocation: \"Murugan ___ a mistake in the last sum.\"",
+      "options": [
+        "did",
+        "took",
+        "had",
+        "made"
+      ],
+      "correctIndex": 3,
+      "explanation": "We 'make a mistake' but 'do homework'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0144",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correct collective noun: \"A ___ of lions rested under the tree.\"",
+      "options": [
+        "pride",
+        "herd",
+        "pack",
+        "flock"
+      ],
+      "correctIndex": 0,
+      "explanation": "A group of lions is a 'pride'. A herd is used for cattle or elephants, a pack for wolves, a flock for sheep or birds.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0145",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correct collective noun: \"A ___ of wolves howled in the forest.\"",
+      "options": [
+        "pride",
+        "swarm",
+        "school",
+        "pack"
+      ],
+      "correctIndex": 3,
+      "explanation": "A group of wolves is a 'pack'. A swarm is used for bees, a school for fish.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0146",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Add the correct prefix to form the opposite of 'legal':",
+      "options": [
+        "illegal",
+        "unlegal",
+        "inlegal",
+        "dislegal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Words beginning with 'l' usually take the prefix il-: illegal, illogical, illiterate.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0147",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Add the correct prefix to form the opposite of 'responsible':",
+      "options": [
+        "unresponsible",
+        "irresponsible",
+        "inresponsible",
+        "disresponsible"
+      ],
+      "correctIndex": 1,
+      "explanation": "Words beginning with 'r' usually take ir-: irresponsible, irregular, irrelevant.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0148",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Add the correct prefix to form the opposite of 'agree':",
+      "options": [
+        "unagree",
+        "inagree",
+        "disagree",
+        "misagree"
+      ],
+      "correctIndex": 2,
+      "explanation": "The opposite of agree is formed with dis-: disagree.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0149",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Add the correct prefix to 'patient' to mean 'not patient; easily annoyed':",
+      "options": [
+        "unpatient",
+        "dispatient",
+        "inpatient",
+        "impatient"
+      ],
+      "correctIndex": 3,
+      "explanation": "Words beginning with 'p' or 'm' often take im-. 'Inpatient' is a different word: a patient who stays in hospital.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0150",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Add the correct suffix to the verb 'arrive' to form a noun: \"We waited for the ___ of the train.\"",
+      "options": [
+        "arrival",
+        "arrivance",
+        "arrivement",
+        "arrivation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arrive + -al = arrival (like refuse -> refusal, approve -> approval).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0151",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correct adjective formed from the noun 'courage':",
+      "options": [
+        "couragious",
+        "courageful",
+        "courageous",
+        "couragable"
+      ],
+      "correctIndex": 2,
+      "explanation": "Courage + -ous keeps the 'e' to keep the 'g' soft: courageous.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0152",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the verb form of the noun 'strength':",
+      "options": [
+        "strengthify",
+        "strengthen",
+        "enstrength",
+        "strengthise"
+      ],
+      "correctIndex": 1,
+      "explanation": "The suffix -en makes verbs from nouns and adjectives: strengthen, lengthen, sharpen.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0153",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "Choose the correctly formed adjective from the noun 'mischief':",
+      "options": [
+        "mischievious",
+        "mischiefful",
+        "mischievous",
+        "mischievful"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mischief -> mischievous (four syllables, mis-chie-vous). 'Mischievious' is a common error.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0154",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "The word 'smog' is a blend of which two words?",
+      "options": [
+        "smell + fog",
+        "smoke + frog",
+        "small + fog",
+        "smoke + fog"
+      ],
+      "correctIndex": 3,
+      "explanation": "Smog = smoke + fog, a blend (portmanteau) word.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0155",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "The word 'motel' is a blend of which two words?",
+      "options": [
+        "mountain + hotel",
+        "motor + hotel",
+        "motor + travel",
+        "model + hotel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Motel = motor + hotel: a roadside hotel for motorists.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0156",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "The word 'exam' is formed from 'examination' by which word-formation process?",
+      "options": [
+        "Clipping",
+        "Blending",
+        "Compounding",
+        "Acronymy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shortening a longer word (examination -> exam, laboratory -> lab) is clipping.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0157",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "The word 'LASER' is an acronym of:",
+      "options": [
+        "Light Activated by Sound and Electric Radiation",
+        "Long Amplified Signal of Electric Rays",
+        "Light Absorption by Stimulated Electron Rays",
+        "Light Amplification by Stimulated Emission of Radiation"
+      ],
+      "correctIndex": 3,
+      "explanation": "LASER = Light Amplification by Stimulated Emission of Radiation; it is now written as an ordinary word 'laser'.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0158",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "What is the American English equivalent of the British English word 'lift' (in a building)?",
+      "options": [
+        "Escalator",
+        "Hoist",
+        "Elevator",
+        "Crane"
+      ],
+      "correctIndex": 2,
+      "explanation": "British 'lift' = American 'elevator'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0159",
+      "topicId": "c2-collocations-compounds-word-creation",
+      "prompt": "What is the American English equivalent of the British English word 'lorry'?",
+      "options": [
+        "Truck",
+        "Van",
+        "Bus",
+        "Trailer"
+      ],
+      "correctIndex": 0,
+      "explanation": "British 'lorry' = American 'truck'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0160",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The huge bungalow he inherited turned out to be a white elephant.\" The idiom 'a white elephant' means:",
+      "options": [
+        "a rare and sacred animal",
+        "a costly possession that is more trouble than it is worth",
+        "a valuable gift from a king",
+        "a very large building"
+      ],
+      "correctIndex": 1,
+      "explanation": "A white elephant is something expensive to maintain but of little use.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0161",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The milk has been spilt; there is no use crying over spilt milk.\" The idiom 'cry over spilt milk' means:",
+      "options": [
+        "to waste food carelessly",
+        "to weep loudly in public",
+        "to regret something that cannot be undone",
+        "to complain about prices"
+      ],
+      "correctIndex": 2,
+      "explanation": "It means to be upset about something that has already happened and cannot be changed.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0162",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The day India won its independence was a red-letter day for every citizen.\" A 'red-letter day' is:",
+      "options": [
+        "a day of mourning",
+        "a day of danger",
+        "a public holiday for banks",
+        "a memorable and important day"
+      ],
+      "correctIndex": 3,
+      "explanation": "A red-letter day is a specially happy or significant day (festivals were once marked in red in calendars).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0163",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Stop beating about the bush and tell me what happened.\" The idiom 'beat about the bush' means:",
+      "options": [
+        "to search for something in a forest",
+        "to avoid coming to the main point",
+        "to punish someone severely",
+        "to work very hard"
+      ],
+      "correctIndex": 1,
+      "explanation": "To beat about the bush is to talk around a subject without coming to the point.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0164",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"After a long struggle, the rebel army finally bit the dust.\" The idiom 'bite the dust' means:",
+      "options": [
+        "to be defeated",
+        "to become very hungry",
+        "to fall asleep",
+        "to tell a lie"
+      ],
+      "correctIndex": 0,
+      "explanation": "To bite the dust means to be defeated, to fail, or to die.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0165",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The contractor cut corners, and the new road developed cracks within months.\" The idiom 'cut corners' means:",
+      "options": [
+        "to do something carelessly or cheaply to save time or money",
+        "to take a shorter route",
+        "to divide work equally",
+        "to decorate the edges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cutting corners means skipping proper procedures to save time or money.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0166",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Kavitha let the cat out of the bag about the surprise party.\" The idiom 'let the cat out of the bag' means:",
+      "options": [
+        "to release a pet",
+        "to cause a quarrel",
+        "to cancel a plan",
+        "to reveal a secret accidentally"
+      ],
+      "correctIndex": 3,
+      "explanation": "To let the cat out of the bag is to disclose a secret, usually by mistake.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0167",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"He submitted the application at the eleventh hour.\" The idiom 'at the eleventh hour' means:",
+      "options": [
+        "at eleven o'clock",
+        "at the last possible moment",
+        "very early",
+        "after the deadline"
+      ],
+      "correctIndex": 1,
+      "explanation": "At the eleventh hour = at the latest possible moment before it is too late.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0168",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The landlord turned a deaf ear to the tenants' complaints.\" The idiom 'turn a deaf ear' means:",
+      "options": [
+        "to become deaf",
+        "to listen carefully",
+        "to refuse to listen",
+        "to reply angrily"
+      ],
+      "correctIndex": 2,
+      "explanation": "To turn a deaf ear is to deliberately ignore a request or complaint.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0169",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Having broken the rules, the students had to face the music.\" The idiom 'face the music' means:",
+      "options": [
+        "to attend a concert",
+        "to enjoy oneself",
+        "to escape punishment",
+        "to accept the consequences of one's actions"
+      ],
+      "correctIndex": 3,
+      "explanation": "To face the music means to accept criticism or punishment for something one has done.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0170",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The news of his transfer came as a bolt from the blue.\" The idiom 'a bolt from the blue' means:",
+      "options": [
+        "a stroke of good luck",
+        "a long-awaited event",
+        "a complete surprise",
+        "a terrible storm"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bolt from the blue is a sudden, unexpected event, like lightning from a clear sky.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0171",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"His rude remarks only added fuel to the fire.\" The idiom 'add fuel to the fire' means:",
+      "options": [
+        "to cook food quickly",
+        "to make a bad situation worse",
+        "to calm everyone down",
+        "to start a new project"
+      ],
+      "correctIndex": 1,
+      "explanation": "To add fuel to the fire is to make an angry or difficult situation worse.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0172",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Raju is in hot water for losing the office keys.\" The idiom 'in hot water' means:",
+      "options": [
+        "in trouble",
+        "taking a bath",
+        "feeling relaxed",
+        "very busy"
+      ],
+      "correctIndex": 0,
+      "explanation": "To be in hot water means to be in trouble or disgrace.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0173",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"When the stranger offered to double her money, she smelt a rat.\" The idiom 'smell a rat' means:",
+      "options": [
+        "to notice a bad smell",
+        "to catch a thief",
+        "to feel afraid of animals",
+        "to suspect that something is wrong"
+      ],
+      "correctIndex": 3,
+      "explanation": "To smell a rat means to suspect deception or trickery.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0174",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"His father threw cold water on his plan to start a business.\" The idiom 'throw cold water on' means:",
+      "options": [
+        "to support enthusiastically",
+        "to cool down",
+        "to discourage",
+        "to examine carefully"
+      ],
+      "correctIndex": 2,
+      "explanation": "To throw cold water on an idea is to discourage it or show no enthusiasm.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0175",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The poor widow took up tailoring to keep the wolf from the door.\" The idiom 'keep the wolf from the door' means:",
+      "options": [
+        "to protect the house from wild animals",
+        "to earn just enough to avoid hunger and poverty",
+        "to keep away unwanted visitors",
+        "to lock the house securely"
+      ],
+      "correctIndex": 1,
+      "explanation": "To keep the wolf from the door is to have enough money to avoid starvation.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0176",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Take his promises with a pinch of salt.\" The idiom 'take with a pinch of salt' means:",
+      "options": [
+        "to doubt whether something is completely true",
+        "to accept eagerly",
+        "to make something tasty",
+        "to remember carefully"
+      ],
+      "correctIndex": 0,
+      "explanation": "To take something with a pinch of salt is to be sceptical about it.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0177",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Mathematics was always his Achilles' heel.\" The expression 'Achilles' heel' means:",
+      "options": [
+        "a source of strength",
+        "a painful injury",
+        "a weak point",
+        "a lucky charm"
+      ],
+      "correctIndex": 2,
+      "explanation": "From Greek myth, Achilles was invulnerable except for his heel; the phrase means a vulnerable spot.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0178",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Everyone agreed the manager must be told, but nobody was ready to bell the cat.\" The idiom 'bell the cat' means:",
+      "options": [
+        "to undertake a dangerous task for the common good",
+        "to keep a pet safe",
+        "to make a loud announcement",
+        "to waste time"
+      ],
+      "correctIndex": 0,
+      "explanation": "From the fable of the mice: to bell the cat is to take on a risky task that benefits everyone.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0179",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The new principal is a hard nut to crack.\" The idiom 'a hard nut to crack' means:",
+      "options": [
+        "a very strong person",
+        "a stingy person",
+        "a person who eats a lot",
+        "a person or problem that is difficult to deal with"
+      ],
+      "correctIndex": 3,
+      "explanation": "A hard nut to crack is someone or something difficult to understand or influence.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0180",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"After resigning publicly, he had burnt his boats and could not return to the firm.\" The idiom 'burn one's boats' means:",
+      "options": [
+        "to destroy someone's property",
+        "to do something that makes it impossible to go back",
+        "to escape by sea",
+        "to lose one's temper"
+      ],
+      "correctIndex": 1,
+      "explanation": "To burn one's boats (or bridges) is to take an action that removes any chance of retreat.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0181",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"He is tired of playing second fiddle to his elder brother in the business.\" The idiom 'play second fiddle' means:",
+      "options": [
+        "to learn music",
+        "to cheat a partner",
+        "to compete fiercely",
+        "to take a less important role than someone else"
+      ],
+      "correctIndex": 3,
+      "explanation": "To play second fiddle is to be in a subordinate position.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0182",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"The soldier showed the white feather and ran from the battlefield.\" The idiom 'show the white feather' means:",
+      "options": [
+        "to surrender honourably",
+        "to show cowardice",
+        "to signal for peace",
+        "to be wounded"
+      ],
+      "correctIndex": 1,
+      "explanation": "To show the white feather is to behave in a cowardly way.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0183",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"With a small salary and a large family, he finds it hard to make both ends meet.\" The idiom 'make both ends meet' means:",
+      "options": [
+        "to finish a long journey",
+        "to settle a quarrel",
+        "to manage to live on one's income",
+        "to tie two ropes together"
+      ],
+      "correctIndex": 2,
+      "explanation": "To make (both) ends meet is to have just enough money for one's needs.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0184",
+      "topicId": "c2-idioms-phrasal-verbs",
+      "prompt": "\"Anita stayed home because she was feeling under the weather.\" The idiom 'under the weather' means:",
+      "options": [
+        "slightly unwell",
+        "caught in the rain",
+        "very happy",
+        "worried about the climate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the weather = feeling slightly ill.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0185",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"Who will look after the baby while you are away?\" The phrasal verb 'look after' means:",
+      "options": [
+        "search for",
+        "look behind",
+        "take care of",
+        "follow"
+      ],
+      "correctIndex": 2,
+      "explanation": "Look after = take care of someone or something.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0186",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"The match was put off because of heavy rain.\" The phrasal verb 'put off' means:",
+      "options": [
+        "cancelled permanently",
+        "postponed",
+        "started",
+        "won"
+      ],
+      "correctIndex": 1,
+      "explanation": "Put off = postpone to a later time. (Call off = cancel.)",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0187",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"I cannot put up with this noise any longer.\" The phrasal verb 'put up with' means:",
+      "options": [
+        "raise",
+        "hide",
+        "construct",
+        "tolerate"
+      ],
+      "correctIndex": 3,
+      "explanation": "Put up with = tolerate or endure something unpleasant.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0188",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"While cleaning the shelf, I came across an old photograph of my grandfather.\" The phrasal verb 'came across' means:",
+      "options": [
+        "found by chance",
+        "threw away",
+        "crossed over",
+        "copied carefully"
+      ],
+      "correctIndex": 0,
+      "explanation": "Come across = find or meet unexpectedly.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0189",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"The bus broke down on the ghat road.\" The phrasal verb 'broke down' means:",
+      "options": [
+        "stopped working",
+        "crashed into a wall",
+        "went downhill",
+        "picked up speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Break down (of a machine or vehicle) = stop working.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0190",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"We set off for Kanyakumari early in the morning.\" The phrasal verb 'set off' means:",
+      "options": [
+        "returned home",
+        "arranged things",
+        "stopped for rest",
+        "started a journey"
+      ],
+      "correctIndex": 3,
+      "explanation": "Set off = begin a journey.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0191",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"Meena takes after her mother; both love music.\" The phrasal verb 'takes after' means:",
+      "options": [
+        "follows behind",
+        "looks after",
+        "resembles",
+        "disagrees with"
+      ],
+      "correctIndex": 2,
+      "explanation": "Take after = resemble an older family member in appearance or character.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0192",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"The committee will look into the complaint.\" The phrasal verb 'look into' means:",
+      "options": [
+        "ignore",
+        "investigate",
+        "look through a window",
+        "accept"
+      ],
+      "correctIndex": 1,
+      "explanation": "Look into = examine or investigate.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0193",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"He worked overtime to make up for the time he had lost.\" The phrasal verb 'make up for' means:",
+      "options": [
+        "compensate for",
+        "invent",
+        "apply make-up",
+        "forget"
+      ],
+      "correctIndex": 0,
+      "explanation": "Make up for = compensate for something lost or missed.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0194",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"Only ten members turned up for the meeting.\" The phrasal verb 'turned up' means:",
+      "options": [
+        "refused",
+        "arrived",
+        "increased the volume",
+        "left early"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turn up = arrive or appear, often unexpectedly or in small numbers.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0195",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"It took her a month to get over the fever.\" The phrasal verb 'get over' means:",
+      "options": [
+        "climb over",
+        "catch",
+        "recover from",
+        "forget about"
+      ],
+      "correctIndex": 2,
+      "explanation": "Get over = recover from an illness or a shock.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0196",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"The First World War broke out in 1914.\" The phrasal verb 'broke out' means:",
+      "options": [
+        "ended",
+        "escaped from prison",
+        "was avoided",
+        "began suddenly"
+      ],
+      "correctIndex": 3,
+      "explanation": "Break out = start suddenly (war, fire, disease). WWI began in 1914.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0197",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"The minister called on the flood victims at the relief camp.\" The phrasal verb 'called on' means:",
+      "options": [
+        "visited briefly",
+        "telephoned",
+        "shouted at",
+        "ignored"
+      ],
+      "correctIndex": 0,
+      "explanation": "Call on = pay a short visit to someone.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0198",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"We went to the airport to see off our uncle.\" The phrasal verb 'see off' means:",
+      "options": [
+        "receive someone on arrival",
+        "watch someone from far",
+        "say goodbye to someone at the place of departure",
+        "search for someone"
+      ],
+      "correctIndex": 2,
+      "explanation": "See off = go with someone to the station or airport to say goodbye.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0199",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"At the last moment the sponsor backed out of the deal.\" The phrasal verb 'backed out' means:",
+      "options": [
+        "supported strongly",
+        "reversed a vehicle",
+        "signed happily",
+        "withdrew from a commitment"
+      ],
+      "correctIndex": 3,
+      "explanation": "Back out = withdraw from something one had agreed to do.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0200",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "\"The doctors were not sure, but the patient pulled through after the surgery.\" The phrasal verb 'pulled through' means:",
+      "options": [
+        "died suddenly",
+        "recovered from a serious illness",
+        "was moved to another hospital",
+        "pulled a muscle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pull through = survive or recover from a serious illness or difficulty.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-C-II-v0201",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "Fill in the blank: \"The fire service quickly put ___ the fire in the godown.\"",
+      "options": [
+        "out",
+        "off",
+        "up",
+        "on"
+      ],
+      "correctIndex": 0,
+      "explanation": "Put out = extinguish (a fire or light).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-C-II-v0202",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "Fill in the blank: \"I cannot make ___ what is written on this old palm leaf.\"",
+      "options": [
+        "up",
+        "out",
+        "off",
+        "for"
+      ],
+      "correctIndex": 1,
+      "explanation": "Make out = manage to read, see or understand with difficulty.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0203",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "Fill in the blank: \"Yesterday I ran ___ an old school friend at the bus stand.\"",
+      "options": [
+        "over",
+        "down",
+        "out",
+        "into"
+      ],
+      "correctIndex": 3,
+      "explanation": "Run into = meet by chance. Run over = knock down with a vehicle; run down = criticise.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-C-II-v0204",
+      "topicId": "c2-idioms-phrasal-verbs-2",
+      "prompt": "Fill in the blank: \"The plane took ___ on time from Chennai airport.\"",
+      "options": [
+        "up",
+        "over",
+        "off",
+        "in"
+      ],
+      "correctIndex": 2,
+      "explanation": "Take off = (of an aircraft) leave the ground.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    }
+  ]
+}

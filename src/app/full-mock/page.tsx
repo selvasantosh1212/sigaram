@@ -40,10 +40,11 @@ export default async function FullMockPage() {
       <div>
         <h1 className="text-2xl font-semibold">Full-Mock Practice (Phase 2)</h1>
         <p className="mt-1 text-zinc-600">
-          200 questions/day across 2 sessions (100 each), sampled fresh every time from the full
-          219-topic pool in the real exam&apos;s Part A:B:C ratio (~38:12:50 per session). Recommended
-          pace: 2 sessions/day for 60 days, but sessions are unlocked all at once — go at your own
-          pace.
+          200 questions/day across 2 sessions (100 each). Each pair of sessions follows the real
+          paper&apos;s unit-by-unit split, questions you haven&apos;t seen in any test come first, past
+          mistakes return a few sessions later, aptitude and number-series questions get fresh numbers
+          every time, and answer options are reshuffled. Recommended pace: 2 sessions/day for 60 days,
+          but sessions are unlocked all at once — go at your own pace.
         </p>
       </div>
 

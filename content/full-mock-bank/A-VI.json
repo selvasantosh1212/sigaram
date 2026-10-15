@@ -1,0 +1,4341 @@
+{
+  "unitId": "A-VI",
+  "passages": [],
+  "questions": [
+    {
+      "id": "bank-A-VI-h0001",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Who was the first Palayakkarar to resist the East India Company's territorial expansion in the Tamil country?",
+      "options": [
+        "Veerapandya Kattabomman",
+        "Marudhu Pandiyar",
+        "Dheeran Chinnamalai",
+        "Puli Thevar"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Samacheer Class 10 textbook states that the first resistance to the Company's territorial aggrandisement came from Puli Thevar of Nerkattumseval in the Tirunelveli region.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0002",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Puli Thevar's main stronghold, besieged by Yusuf Khan in 1760–61, was:",
+      "options": [
+        "Panchalankurichi",
+        "Kalaiyar Kovil",
+        "Sankagiri",
+        "Nerkattumseval"
+      ],
+      "correctIndex": 3,
+      "explanation": "Yusuf Khan battered the Nerkattumseval fort; on 16 May 1761 Puli Thevar's forts at Nerkattumseval, Vasudevanallur and Panayur fell.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0003",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "In which battle were Mahfuzkhan's troops routed by Puli Thevar's forces, helped by soldiers from Travancore?",
+      "options": [
+        "Battle of Kolarpatti",
+        "Battle of Kalaiyar Kovil",
+        "Battle of Wandiwash",
+        "Battle of Kalakadu"
+      ],
+      "correctIndex": 3,
+      "explanation": "Before Mahfuzkhan could station his troops near Kalakadu, 2000 Travancore soldiers joined Puli Thevar, and Mahfuzkhan's army was routed at Kalakadu.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0004",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Yusuf Khan, the Company commander sent against Puli Thevar, was known before his conversion to Islam as:",
+      "options": [
+        "Ondiveeran",
+        "Sivasubramanianar",
+        "Thandavarayanar",
+        "Marudhanayagam"
+      ],
+      "correctIndex": 3,
+      "explanation": "Yusuf Khan (Khan Sahib) was earlier called Marudhanayagam. He was later charged with treachery and hanged in 1764.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0005",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Who finally defeated Puli Thevar in 1767, after which he escaped and died in exile?",
+      "options": [
+        "Colonel Heron",
+        "Captain Campbell",
+        "Major Bannerman",
+        "Colonel Agnew"
+      ],
+      "correctIndex": 1,
+      "explanation": "After recapturing Nerkattumseval in 1764, Puli Thevar was defeated by Captain Campbell in 1767; he escaped and died in exile.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0006",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Ondiveeran, remembered in Tamil oral tradition for his bravery, was a commander in the army of:",
+      "options": [
+        "Velu Nachiyar",
+        "Kattabomman",
+        "Dheeran Chinnamalai",
+        "Puli Thevar"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ondiveeran led one of Puli Thevar's army units and caused heavy damage to the Company's army.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0007",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Velu Nachiyar, who recaptured Sivagangai from the Company, was the daughter of the ruler of:",
+      "options": [
+        "Pudukkottai",
+        "Madurai",
+        "Thanjavur",
+        "Ramanathapuram"
+      ],
+      "correctIndex": 3,
+      "explanation": "Velu Nachiyar was born in 1730 to Raja Sellamuthu Sethupathy of Ramanathapuram, the only daughter of the royal family.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0008",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Velu Nachiyar's husband Muthu Vadugar, Raja of Sivagangai, was killed in 1772 in the attack on:",
+      "options": [
+        "Panchalankurichi",
+        "Kalaiyar Kovil",
+        "Nerkattumseval",
+        "Virupachi"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1772 the Nawab of Arcot and Company troops under Lt. Col. Bon Jour stormed the Kalaiyar Kovil palace; Muthu Vadugar was killed.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0009",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "After her husband's death, Velu Nachiyar lived for eight years under the protection of which Palayakkarar?",
+      "options": [
+        "Kattabomman of Panchalankurichi",
+        "Gopala Nayak of Virupachi",
+        "Puli Thevar of Nerkattumseval",
+        "Raja of Pudukkottai"
+      ],
+      "correctIndex": 1,
+      "explanation": "She escaped with her daughter and lived under the protection of Gopala Nayak at Virupachi near Dindigul for eight years.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0010",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which ruler gave Velu Nachiyar military help to recover Sivagangai from the British?",
+      "options": [
+        "Tipu Sultan",
+        "The Raja of Travancore",
+        "Hyder Ali",
+        "The Nawab of Arcot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hyder Ali, impressed by her courage, ordered his commandant in the Dindigul fort to provide military assistance.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0011",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Kuyili, said to have set herself on fire and walked into the British arsenal (1780), was a faithful commander of:",
+      "options": [
+        "Puli Thevar",
+        "Kattabomman",
+        "Marudhu Pandiyar",
+        "Velu Nachiyar"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuyili, a faithful friend of Velu Nachiyar, is said to have led the women's unit named after Udaiyaal and destroyed the British ammunition store.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0012",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Consider the following about Velu Nachiyar:\n1. She was trained in valari, stick fighting, horse riding and archery.\n2. She wrote to Hyder Ali in Urdu explaining her grievances against the Company.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both are correct as per the Class 10 textbook: she was trained in martial arts like valari and knew English, French and Urdu, and she explained her problems to Hyder Ali in Urdu.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0013",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Veerapandya Kattabomman was the Palayakkarar of:",
+      "options": [
+        "Sivagiri",
+        "Panchalankurichi",
+        "Ettayapuram",
+        "Nerkattumseval"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kattabomman became Palayakkarar of Panchalankurichi at thirty, on the death of his father Jagavira Pandya Kattabomman.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0014",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Kattabomman was made to stand for three hours before which arrogant Collector at Ramanathapuram in 1798?",
+      "options": [
+        "Lushington",
+        "Bannerman",
+        "Jackson",
+        "Wellesley"
+      ],
+      "correctIndex": 2,
+      "explanation": "Collector Jackson granted Kattabomman an interview at Ramanathapuram on 19 September 1798, where he was reportedly made to stand for three hours.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0015",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "After Kattabomman's complaint against Collector Jackson, who succeeded Jackson as Collector?",
+      "options": [
+        "William Brown",
+        "John Casamajor",
+        "Edward Clive",
+        "S.R. Lushington"
+      ],
+      "correctIndex": 3,
+      "explanation": "The committee found Kattabomman not guilty; Jackson was dismissed and S.R. Lushington was appointed the new Collector.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0016",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which Company officer commanded the siege of Panchalankurichi in September 1799?",
+      "options": [
+        "Colonel Gillespie",
+        "Colonel Fancourt",
+        "Colin Macaulay",
+        "Major Bannerman"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lord Wellesley ordered forces from Tiruchirappalli, Thanjavur and Madurai to Tirunelveli under Major Bannerman, who attacked Panchalankurichi.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0017",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Kattabomman's minister Sivasubramanianar was executed by the British at:",
+      "options": [
+        "Kayathar",
+        "Nagalapuram",
+        "Kalaiyar Kovil",
+        "Tirupathur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sivasubramanianar was taken prisoner at Kolarpatti and executed at Nagalapuram on 13 September 1799.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0018",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Veerapandya Kattabomman was hanged in 1799 at:",
+      "options": [
+        "Sankagiri",
+        "Tirupathur",
+        "Kayathar",
+        "Nagalapuram"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kattabomman was hanged from a tamarind tree in the old fort of Kayathar, near Tirunelveli, in front of fellow Palayakkarars.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0019",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "According to the Samacheer textbook, Kattabomman was finally captured after being betrayed by the rulers of:",
+      "options": [
+        "Sivagiri and Travancore",
+        "Ramanathapuram and Madurai",
+        "Ettayapuram and Pudukkottai",
+        "Thanjavur and Mysore"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kattabomman escaped to Pudukkottai; betrayed by the rajas of Ettayapuram and Pudukkottai, he was captured.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0020",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Periya Marudhu and Chinna Marudhu served as generals of which ruler?",
+      "options": [
+        "Kattabomman of Panchalankurichi",
+        "Raja of Ramanathapuram",
+        "Nawab of Arcot",
+        "Muthu Vadugar of Sivagangai"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Marudhu brothers were generals of Muthu Vadugar of Sivagangai, and later helped restore the throne to Velu Nachiyar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0021",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The Tiruchirappalli Proclamation of 1801, an early call to Indians to unite against the British, was issued by:",
+      "options": [
+        "Puli Thevar",
+        "The Marudhu brothers",
+        "Velu Nachiyar",
+        "Dheeran Chinnamalai"
+      ],
+      "correctIndex": 1,
+      "explanation": "In June 1801 the Marudhu Pandyars issued the proclamation of independence known as the Tiruchirappalli Proclamation.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0022",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The Tiruchirappalli Proclamation (1801) was pasted on the walls of the Nawab's palace in the Tiruchirappalli fort and on the walls of:",
+      "options": [
+        "The Madurai Meenakshi temple",
+        "The Srirangam temple",
+        "Fort St. George",
+        "The Vellore fort"
+      ],
+      "correctIndex": 1,
+      "explanation": "The proclamation was pasted on the Nawab's palace in the Tiruchirappalli fort and on the walls of the Srirangam temple.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0023",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The Marudhu brothers were executed in October 1801 at:",
+      "options": [
+        "Kayathar",
+        "Sankagiri fort",
+        "The fort of Tirupathur near Ramanathapuram",
+        "Vellore fort"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Marudhu brothers were executed in the fort of Tirupathur near Ramanathapuram on 24 October 1801.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0024",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "After the South Indian Rebellion (1800–01) was crushed, how many rebels were exiled to Penang in Malaya?",
+      "options": [
+        "Twenty-two",
+        "One hundred and fifty",
+        "Twelve",
+        "Seventy-three"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seventy-three rebels were exiled to Penang in Malaya; Oomathurai and Sevathaiah were beheaded at Panchalankurichi.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0025",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Under which treaty did the British assume direct control over the Tamil country, ending the Palayakkarar system with the demolition of forts?",
+      "options": [
+        "Carnatic Treaty of 1801",
+        "Treaty of Srirangapatnam, 1792",
+        "Treaty of Madras, 1769",
+        "Treaty of Mangalore, 1784"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the Carnatic Treaty of 31 July 1801 the British assumed direct control over Tamilagam and the Palayakkarar system came to an end.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0026",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Theerthagiri, who seized Tipu's tax money and took the name Dheeran Chinnamalai, was hanged in 1805 at:",
+      "options": [
+        "Kayathar",
+        "Sankagiri fort",
+        "Vellore fort",
+        "Tirupathur fort"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dheeran Chinnamalai and his brothers refused to accept British rule and were hanged atop the Sankagiri fort on 31 July 1805.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0027",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Gopala Nayak, who led the Dindigul League against the British, was the Palayakkarar of:",
+      "options": [
+        "Manaparai",
+        "Devadanapatti",
+        "Virupachi",
+        "Sivagiri"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gopala Nayak of Virupachi led the Dindigul League with Lakshmi Nayak of Manaparai and Poojai Nayak of Devadanapatti.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0028",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which of the following is incorrectly paired?\n(i) Gopala Nayak – Dindigul\n(ii) Dhoondaji Wagh – Madurai\n(iii) Marudhu Pandyars – Ettayapuram\n(iv) Puli Thevar – Nerkattumseval",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(iii) and (iv) only",
+        "(i) and (iv) only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dhoondaji belonged to Mysore, not Madurai, and the Marudhu Pandyars belonged to Sivagangai, not Ettayapuram. Gopala Nayak (Dindigul) and Puli Thevar (Nerkattumseval) are correctly paired.",
+      "sourceTag": "question-bank-2025",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0029",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The Vellore Revolt broke out on:",
+      "options": [
+        "10 July 1806",
+        "10 May 1857",
+        "24 October 1801",
+        "10 July 1805"
+      ],
+      "correctIndex": 0,
+      "explanation": "On 10 July 1806, sepoys of the 1st and 23rd regiments in Vellore Fort raised the standard of revolt.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0030",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The military regulations that triggered the Vellore Revolt were issued by Commander-in-Chief:",
+      "options": [
+        "Colonel Gillespie",
+        "Colonel Fancourt",
+        "Lord William Bentinck",
+        "Sir John Cradock"
+      ],
+      "correctIndex": 3,
+      "explanation": "The trigger was a new regulation notified by Commander-in-Chief Sir John Cradock: no caste marks or earrings, a shaven chin and a new turban with a leather cockade.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0031",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "During the Vellore Revolt the rebels proclaimed which son of Tipu Sultan as their ruler?",
+      "options": [
+        "Moizuddin",
+        "Abdul Khaliq",
+        "Fateh Hyder",
+        "Ghulam Muhammad"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rebels proclaimed Fateh Hyder, Tipu's eldest son, as ruler and hoisted the tiger flag of the Mysore sultans.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0032",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Who brutally suppressed the Vellore Revolt, arriving from Arcot with cavalry?",
+      "options": [
+        "Major Armstrong",
+        "Colonel McKerras",
+        "Captain Campbell",
+        "Colonel Gillespie"
+      ],
+      "correctIndex": 3,
+      "explanation": "Colonel Gillespie, the cavalry commandant at Arcot, crushed the uprising; he was later rewarded with 7,000 pagodas.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0033",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Assertion (A): The Vellore Revolt of 1806 is regarded as a forerunner of the Great Rebellion of 1857.\nReason (R): Like 1857, the Vellore Revolt was followed by a widespread civil rebellion across South India.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 2,
+      "explanation": "A is true: the textbook says the revolt had all the forebodings of 1857. R is false: the only difference was that there was no civil rebellion after the Vellore mutiny.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0034",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "After the Vellore Revolt, which of the following were recalled to England as responsible for it?",
+      "options": [
+        "Colonel Gillespie and Major Cootes",
+        "Governor William Bentinck and C-in-C John Cradock",
+        "Lord Wellesley and Major Bannerman",
+        "Colonel Fancourt and Colonel McKerras"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sir John Cradock, Adjutant General Agnew and Governor William Bentinck were held responsible, removed from office and recalled.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0035",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Where were Tipu Sultan's sons sent after the Vellore Revolt?",
+      "options": [
+        "Calcutta",
+        "Bombay",
+        "Mysore",
+        "Madras"
+      ],
+      "correctIndex": 0,
+      "explanation": "After the revolt, Tipu's sons, who had been interned in the Vellore Fort, were ordered to be sent to Calcutta.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0036",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which was the earliest organisation in South India to articulate larger public interests, started in 1852?",
+      "options": [
+        "Madras Mahajana Sabha",
+        "South Indian Liberal Federation",
+        "Madras Dravidian Association",
+        "Madras Native Association"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Madras Native Association was started in 1852 by Gazulu Lakshminarasu, Srinivasanar and associates, mainly merchants.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0037",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Who was the first President of the Madras Mahajana Sabha (1884)?",
+      "options": [
+        "P. Rangaiah",
+        "P. Anandacharlu",
+        "M. Veeraraghavachari",
+        "G. Subramaniam"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Madras Mahajana Sabha was started on 16 May 1884; P. Rangaiah was its first president and P. Anandacharlu its secretary.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0038",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The Hindu (1878) was started by G. Subramaniam and M. Veeraraghavachari in the wake of protests over the appointment of whom as the first Indian judge of the Madras High Court?",
+      "options": [
+        "V. Bhashyam",
+        "T. Muthuswami",
+        "C. Sankaran Nair",
+        "S. Subramaniam"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1877 appointment of T. Muthuswami as the first Indian judge was attacked by the European-owned press; this led to The Hindu in 1878.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0039",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "G. Subramaniam started which Tamil nationalist periodical in 1891, which became a daily in 1899?",
+      "options": [
+        "India",
+        "Desabhimani",
+        "Swadesamitran",
+        "Vijaya"
+      ],
+      "correctIndex": 2,
+      "explanation": "G. Subramaniam started Swadesamitran in 1891; it became a daily in 1899.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0040",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The third session of the Indian National Congress (1887) at Madras was held at Makkis Garden, now known as Thousand Lights. Who presided over it?",
+      "options": [
+        "Dadabhai Naoroji",
+        "W.C. Bonnerjee",
+        "George Yule",
+        "Badruddin Tyabji"
+      ],
+      "correctIndex": 3,
+      "explanation": "The third session was held at Makkis Garden in Madras in 1887 with Badruddin Tyabji as president.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0041",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "V.O. Chidambaranar launched the Swadeshi Steam Navigation Company in 1906 to ply ships between Thoothukudi and:",
+      "options": [
+        "Colombo",
+        "Rangoon",
+        "Penang",
+        "Singapore"
+      ],
+      "correctIndex": 0,
+      "explanation": "VOC bought two ships, Gallia and Lavo, and plied them between Thoothukudi and Colombo.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0042",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which two ships did V.O. Chidambaranar purchase for the Swadeshi Steam Navigation Company?",
+      "options": [
+        "Komagata Maru and Gallia",
+        "Gallia and Lavo",
+        "Lavo and Dufferin",
+        "Rajaji and Bharat"
+      ],
+      "correctIndex": 1,
+      "explanation": "VOC purchased the ships Gallia and Lavo for the service between Thoothukudi and Colombo.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0043",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "In 1908, V.O. Chidambaranar and Subramania Siva led a strike at which European-owned mill in Thoothukudi?",
+      "options": [
+        "Buckingham Mills",
+        "Carnatic Mills",
+        "Coral Mills",
+        "Madura Mills"
+      ],
+      "correctIndex": 2,
+      "explanation": "VOC and Subramania Siva organised mill workers and in 1908 led a strike at the European-owned Coral Mills.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0044",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The Tirunelveli uprising of 1908, in which a police station, court and municipal office were burnt, followed the arrest of:",
+      "options": [
+        "Bharathi and V.V.S. Aiyar",
+        "Vanchinathan and Nilakanta Brahmachari",
+        "Rajaji and Satyamurti",
+        "V.O. Chidambaranar and Subramania Siva"
+      ],
+      "correctIndex": 3,
+      "explanation": "VOC and Subramania Siva were arrested after organising a meeting to celebrate Bipin Chandra Pal's release; the news sparked riots in Tirunelveli.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0045",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Assertion (A): V.O. Chidambaranar was initially given a sentence of two life imprisonments.\nReason (R): He was charged with sedition after organising a public meeting to celebrate Bipin Chandra Pal's release.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both are true and R explains A: VOC and Subramania Siva were charged with sedition for the meeting celebrating Bipin Chandra Pal's release, and VOC initially got two life sentences.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0046",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Vanchinathan of Senkottai shot dead Robert Ashe, Collector of Tirunelveli, in 1911 at:",
+      "options": [
+        "Tirunelveli Junction",
+        "Maniyachi railway junction",
+        "Thoothukudi harbour",
+        "Kovilpatti"
+      ],
+      "correctIndex": 1,
+      "explanation": "On 17 June 1911 Vanchinathan shot Collector Ashe at Maniyachi Junction and then shot himself.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0047",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The secret society Bharata Matha Society, which influenced Vanchinathan, was started in 1904 by:",
+      "options": [
+        "V.V. Subramanianar",
+        "Subramania Siva",
+        "Nilakanta Brahmachari",
+        "M.P.T. Acharya"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 1904 Nilakanta Brahmachari and others started the Bharata Matha Society, a secret society that aimed to kill British officials.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0048",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "To escape arrest, Subramania Bharathi moved in 1908 to:",
+      "options": [
+        "Pondicherry",
+        "Karaikal",
+        "Colombo",
+        "Benares"
+      ],
+      "correctIndex": 0,
+      "explanation": "To avoid imprisonment Bharathi moved to French-ruled Pondicherry, followed by Aurobindo Ghosh and V.V. Subramanianar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0049",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which radical papers were published from Pondicherry by the nationalists who took refuge there?",
+      "options": [
+        "India, Vijaya and Suryodayam",
+        "The Hindu and Swadesamitran",
+        "Kudi Arasu and Viduthalai",
+        "New India and Commonweal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radical papers such as India, Vijaya and Suryodayam were published from Pondicherry.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0050",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Annie Besant started which two newspapers to carry forward the Home Rule agenda?",
+      "options": [
+        "Young India and Navajivan",
+        "New India and Commonweal",
+        "India and Vijaya",
+        "Justice and Dravidan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Annie Besant started New India and Commonweal; she said 'Better bullock carts and freedom than a train de luxe with subjection.'",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0051",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "George Joseph, who led the Home Rule League in Madurai, was fondly called by the people:",
+      "options": [
+        "Vaikom Veerar",
+        "Kodikatha Kumaran",
+        "Rosaappu Durai",
+        "Kappalottiya Tamizhan"
+      ],
+      "correctIndex": 2,
+      "explanation": "George Joseph, a barrister who settled in Madurai, was called 'Rosaappu Durai' for his services to affected communities.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0052",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "In Tamil Nadu, which town was the epicentre of the Khilafat agitation?",
+      "options": [
+        "Erode",
+        "Ambur",
+        "Nagore",
+        "Vaniyambadi"
+      ],
+      "correctIndex": 3,
+      "explanation": "Khilafat Day was observed on 17 April 1920; Vaniyambadi was the epicentre of the Khilafat agitation in Tamil Nadu.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0053",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Tiruppur Kumaran, who died holding the national flag aloft after a police assault in 1932, is hailed as:",
+      "options": [
+        "Kodikatha Kumaran",
+        "Vaikom Veerar",
+        "Kappalottiya Tamizhan",
+        "Mahakavi"
+      ],
+      "correctIndex": 0,
+      "explanation": "O.K.S.R. Kumaraswamy (Tiruppur Kumaran) fell dead holding the national flag aloft during a 1932 procession in Tiruppur and is hailed as Kodikatha Kumaran.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0054",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Tiruppur Kumaran was martyred during which phase of the national movement?",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Swadeshi Movement"
+      ],
+      "correctIndex": 1,
+      "explanation": "He died in January 1932, during the Civil Disobedience Movement, after police beat up a procession carrying national flags in Tiruppur.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0055",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Who composed the marching song for the Vedaranyam Salt Satyagraha, with the line 'A war is ahead sans sword, sans bloodshed'?",
+      "options": [
+        "Subramania Bharathi",
+        "Bharathidasan",
+        "Namakkal V. Ramalinganar",
+        "Kavimani Desigavinayagam Pillai"
+      ],
+      "correctIndex": 2,
+      "explanation": "A special song was composed for the march by Namakkal V. Ramalinganar: 'Kaththi indri raththam indri yuththam ondru varuguthu'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0056",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Who was the first woman to pay a penalty for violating the salt laws during the Civil Disobedience Movement?",
+      "options": [
+        "Ambujammal",
+        "Anjalai Ammal",
+        "Muthulakshmi Reddy",
+        "Rukmani Lakshmipathi"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 10 textbook notes Rukmani Lakshmipathi was the first woman to pay penalty for violation of salt laws.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0057",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Bhashyam, popularly known as Arya, hoisted the national flag atop which building on 26 January 1932?",
+      "options": [
+        "Fort St. George",
+        "Ripon Building",
+        "Madras High Court",
+        "Victoria Public Hall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bhashyam (Arya) hoisted the national flag atop Fort St. George on 26 January 1932.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0058",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The salt satyagrahis led by T. Prakasam and K. Nageswara Rao set up their camp at:",
+      "options": [
+        "Vedaranyam",
+        "Udayavanam near Madras",
+        "Rameswaram",
+        "Tiruvallikeni"
+      ],
+      "correctIndex": 1,
+      "explanation": "T. Prakasam and K. Nageswara Rao set up a satyagraha camp at Udayavanam near Madras; their arrest led to a hartal in Madras.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0059",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "During the Quit India Movement, K. Kamaraj avoided arrest by getting off the train at which station and working underground?",
+      "options": [
+        "Katpadi",
+        "Jolarpet",
+        "Arakkonam",
+        "Chengalpattu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Noticing police waiting at stations to arrest leaders, Kamaraj got down at Arakkonam and worked underground.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0060",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "In Madras, the Simon Boycott Propaganda Committee was headed by:",
+      "options": [
+        "C. Rajagopalachari",
+        "E.V. Ramasamy",
+        "Kasturiranga Iyengar",
+        "S. Satyamurti"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Simon Boycott Propaganda Committee in Madras was set up with S. Satyamurti as president; black flags greeted the Commission on 18 February 1929.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0061",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "The statue of James Neill, the target of nationalist agitation in Madras from 1927, was finally moved to the Madras Museum by the government of:",
+      "options": [
+        "C. Rajagopalachari (1937)",
+        "P. Subbarayan (1926)",
+        "Raja of Panagal (1923)",
+        "T. Prakasam (1946)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Neill statue on Mount Road was moved to the Madras Museum when the Congress ministry led by Rajaji formed the government in 1937.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0062",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Which Congress session declared complete independence as its goal, two years before the Lahore session?",
+      "options": [
+        "Calcutta session, 1928",
+        "Madras session, 1927",
+        "Belgaum session, 1924",
+        "Kanpur session, 1925"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Madras session of the Indian National Congress in 1927 declared complete independence as its goal.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0063",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Arrange the following events in Tamil Nadu in chronological order:\n1. Vanchinathan shoots Collector Ashe\n2. Swadeshi Steam Navigation Company launched\n3. Vedaranyam Salt March\n4. Formation of the Madras Mahajana Sabha",
+      "options": [
+        "4, 2, 1, 3",
+        "2, 4, 1, 3",
+        "4, 1, 2, 3",
+        "2, 1, 4, 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Madras Mahajana Sabha (1884) → Swadeshi Steam Navigation Company (1906) → Ashe murder (1911) → Vedaranyam Salt March (1930).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0064",
+      "topicId": "a6-tn-role-freedom-struggle",
+      "prompt": "Arrange the following in chronological order:\n1. Execution of the Marudhu brothers\n2. Vellore Revolt\n3. Hanging of Dheeran Chinnamalai\n4. Hanging of Kattabomman",
+      "options": [
+        "4, 1, 2, 3",
+        "4, 1, 3, 2",
+        "1, 4, 3, 2",
+        "4, 3, 1, 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kattabomman (1799) → Marudhu brothers (October 1801) → Dheeran Chinnamalai (July 1805) → Vellore Revolt (July 1806).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0065",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar E.V. Ramasamy was born in 1879 in:",
+      "options": [
+        "Kanchipuram",
+        "Salem",
+        "Erode",
+        "Tiruchirappalli"
+      ],
+      "correctIndex": 2,
+      "explanation": "Periyar was born in Erode to Venkatappa and Chinna Thayammal, a wealthy business family.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0066",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Before entering mass politics, Periyar served as Chairman of which Municipal Council (1918–19)?",
+      "options": [
+        "Salem",
+        "Coimbatore",
+        "Madurai",
+        "Erode"
+      ],
+      "correctIndex": 3,
+      "explanation": "Periyar held several official positions in Erode, including Chairman of the Municipal Council (1918–1919).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0067",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "For his leadership in the temple-street entry struggle in Travancore, Periyar was hailed as:",
+      "options": [
+        "Thanthai",
+        "Pagutharivu Pagalavan",
+        "Vaikom Veerar",
+        "Puratchi Kavignar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Periyar led the Vaikom agitation after local leaders were arrested and was imprisoned; people hailed him as Vaikom Veerar (Hero of Vaikom).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0068",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar's break with the Congress was hastened by caste discrimination in the dining hall of which institution run with Congress funds?",
+      "options": [
+        "Pachaiyappa's College",
+        "Kasi Vidyapith",
+        "Annamalai University",
+        "Cheranmadevi Gurukulam"
+      ],
+      "correctIndex": 3,
+      "explanation": "Caste-based dining at the Cheranmadevi Gurukulam, run by V.V. Subramaniam with Tamil Nadu Congress Committee funds, disillusioned Periyar.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0069",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Which was the official newspaper of the Self-Respect Movement, started by Periyar in 1925?",
+      "options": [
+        "Kudi Arasu",
+        "Viduthalai",
+        "Dravida Nadu",
+        "Swadesamitran"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kudi Arasu (Democracy), started in 1925, was the official newspaper of the Self-Respect Movement.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0070",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Match Periyar's journals with the year they were started:\n(a) Kudi Arasu  (b) Revolt  (c) Puratchi  (d) Viduthalai\n1. 1928  2. 1935  3. 1925  4. 1933",
+      "options": [
+        "a-1, b-3, c-4, d-2",
+        "a-3, b-1, c-4, d-2",
+        "a-3, b-1, c-2, d-4",
+        "a-3, b-4, c-1, d-2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kudi Arasu 1925, Revolt (English) 1928, Puratchi 1933, Viduthalai 1935, as listed in the Class 10 textbook.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0071",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar frequently wrote columns in Kudi Arasu under which pseudonym?",
+      "options": [
+        "Kalki",
+        "Saavi",
+        "Chitraputtiran",
+        "Bharathi Dasan"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Class 10 textbook states Periyar frequently wrote columns under the pseudonym Chitraputtiran.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0072",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "In 1936, Periyar had which work of Dr. B.R. Ambedkar translated into Tamil soon after it was written?",
+      "options": [
+        "Who Were the Shudras?",
+        "The Buddha and His Dhamma",
+        "The Problem of the Rupee",
+        "Annihilation of Caste"
+      ],
+      "correctIndex": 3,
+      "explanation": "In 1936 Periyar got Ambedkar's Annihilation of Caste translated into Tamil immediately after it was written.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0073",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar's most important work on the condition of women is:",
+      "options": [
+        "Why the Woman is Enslaved?",
+        "Dasigal Mosavalai",
+        "Penn Viduthalai Kummi",
+        "Kudumba Vilakku"
+      ],
+      "correctIndex": 0,
+      "explanation": "Periyar's most important work on the subject is 'Why the Woman is Enslaved?' (Pen Een Adimaiyanal?).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0074",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar wanted the expression 'giving in marriage' replaced by 'valkaithunai' (companion), a word he took from:",
+      "options": [
+        "Silappathikaram",
+        "Thirukkural",
+        "Tholkappiyam",
+        "Purananuru"
+      ],
+      "correctIndex": 1,
+      "explanation": "Periyar objected to 'giving in marriage' as treating woman as a thing and preferred 'valkaithunai', a word from the Thirukkural.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0075",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar called Rajaji's 1953 vocational education scheme 'Kula Kalvi Thittam' and opposed it. Who became Chief Minister after Rajaji resigned?",
+      "options": [
+        "M. Bhaktavatsalam",
+        "C.N. Annadurai",
+        "K. Kamaraj",
+        "O.P. Ramaswamy Reddiyar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Periyar's campaign against the scheme contributed to Rajaji's resignation; K. Kamaraj then became Chief Minister of Madras State.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0076",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "While in jail during the anti-Hindi agitation, Periyar was elected President of which party in 1938?",
+      "options": [
+        "Indian National Congress",
+        "Communist Party of India",
+        "Scheduled Castes Federation",
+        "Justice Party"
+      ],
+      "correctIndex": 3,
+      "explanation": "When still in jail, Periyar was elected president of the Justice Party; it later merged with the Self-Respect Movement.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0077",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "In 1944 the Justice Party was renamed Dravidar Kazhagam at a conference held in:",
+      "options": [
+        "Salem",
+        "Erode",
+        "Tiruchirappalli",
+        "Kanchipuram"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the Salem conference of 1944 the Justice Party was renamed Dravidar Kazhagam under Periyar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0078",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar's mortal remains were buried at:",
+      "options": [
+        "Erode",
+        "Periyar Thidal, Madras",
+        "Vaikom",
+        "Marina Beach"
+      ],
+      "correctIndex": 1,
+      "explanation": "Periyar died in 1973 at the age of ninety-four; his remains were buried at Periyar Thidal, Madras.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0079",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Consider the following statements about Periyar:\n1. He supported Dr. Ambedkar's demand for separate electorates for the Scheduled Castes.\n2. He had a close relationship with M. Singaravelar, considered the first communist of South India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both are stated in the Class 10 textbook: Periyar supported Ambedkar's demand for separate electorates and was close to Singaravelar.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0080",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The Hindu Succession (Tamil Nadu Amendment) Act of 1989, often seen as fulfilling Periyar's ideal, gave women:",
+      "options": [
+        "Reservation in local bodies",
+        "The right to divorce",
+        "The right to vote",
+        "Equal rights to ancestral property"
+      ],
+      "correctIndex": 3,
+      "explanation": "The 1989 Act ensured equal rights to ancestral property for women and became a trendsetter for national legislation.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0081",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Assertion (A): Periyar demanded property rights for women.\nReason (R): He believed property rights would give women social status and protection.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both true; the textbook states Periyar believed property rights for women would give them social status and protection.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0082",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "C.N. Annadurai was born in 1909 in:",
+      "options": [
+        "Thiruvarur",
+        "Kanchipuram",
+        "Erode",
+        "Madurai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arignar Anna (C.N. Annadurai) was born on 15 September 1909 at Kanchipuram.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0083",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The Dravida Munnetra Kazhagam (DMK) was founded in 1949 by:",
+      "options": [
+        "Periyar E.V. Ramasamy",
+        "M. Karunanidhi",
+        "C.N. Annadurai",
+        "E.V.K. Sampath"
+      ],
+      "correctIndex": 2,
+      "explanation": "Annadurai broke away from the Dravidar Kazhagam and founded the DMK in September 1949 in Madras.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0084",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The DMK was launched in September 1949 at a public meeting in which park in Madras?",
+      "options": [
+        "Robinson Park, Royapuram",
+        "People's Park",
+        "Napier Park",
+        "Nageswara Rao Park"
+      ],
+      "correctIndex": 0,
+      "explanation": "The DMK was formally launched on 17 September 1949 at Robinson Park, Royapuram, Madras.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0085",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Annadurai became Chief Minister of Madras State in March 1967 after the DMK defeated which party in the general election?",
+      "options": [
+        "Indian National Congress",
+        "Swatantra Party",
+        "Justice Party",
+        "Communist Party of India"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the 1967 elections the DMK defeated the Congress and Annadurai was sworn in as Chief Minister on 6 March 1967.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0086",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The change of name from Madras State to Tamil Nadu came into effect on:",
+      "options": [
+        "26 January 1968",
+        "14 January 1969",
+        "1 November 1956",
+        "15 August 1967"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Assembly resolution was moved under Annadurai in 1967; the renaming took effect on 14 January 1969 (Pongal day).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0087",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Annadurai's government legalised which form of marriage in 1967?",
+      "options": [
+        "Inter-religious civil marriages",
+        "Registered temple marriages",
+        "Self-Respect (Suyamariyathai) marriages",
+        "Gandharva marriages"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 1967 state amendment to the Hindu Marriage Act gave legal validity to Self-Respect marriages conducted without priests.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0088",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The two-language formula adopted by the Tamil Nadu Assembly under Annadurai in 1968 provided for:",
+      "options": [
+        "Tamil and Hindi",
+        "Tamil, English and Hindi",
+        "Tamil only",
+        "Tamil and English"
+      ],
+      "correctIndex": 3,
+      "explanation": "In January 1968 the Assembly resolved to drop Hindi and follow a two-language policy of Tamil and English in schools.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0089",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The Second World Tamil Conference was held in Madras in January 1968 under the government of:",
+      "options": [
+        "C.N. Annadurai",
+        "M. Karunanidhi",
+        "K. Kamaraj",
+        "M. Bhaktavatsalam"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Second World Tamil Conference was held in Madras in January 1968, during Annadurai's chief ministership.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0090",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Which honorific title is commonly attached to C.N. Annadurai's name?",
+      "options": [
+        "Thanthai",
+        "Perarignar",
+        "Kavikko",
+        "Mahakavi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Annadurai is called Arignar/Perarignar Anna ('great scholar'), while 'Thanthai' is Periyar's honorific.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0091",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Which of these was a journal edited by C.N. Annadurai?",
+      "options": [
+        "Kudi Arasu",
+        "Desabakthan",
+        "Dravida Nadu",
+        "Thozhilalan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Annadurai ran Dravida Nadu (and later Kanchi and the English weekly Home Land). Kudi Arasu was Periyar's, Desabakthan Thiru.Vi.Ka's and Thozhilalan Singaravelar's.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0092",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Annadurai's famous play, later made into a 1949 film that carried the Dravidian movement's ideas, was:",
+      "options": [
+        "Parasakthi",
+        "Manohara",
+        "Rattha Kanneer",
+        "Velaikkari"
+      ],
+      "correctIndex": 3,
+      "explanation": "Velaikkari was written by Annadurai and filmed in 1949. Parasakthi and Manohara were scripted by Karunanidhi.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0093",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Annadurai entered which house of Parliament in 1962 and spoke there on Dravidian self-determination?",
+      "options": [
+        "Rajya Sabha",
+        "Lok Sabha",
+        "Madras Legislative Council",
+        "Constituent Assembly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Annadurai was elected to the Rajya Sabha in 1962 and in his maiden speech described himself as belonging to the Dravidian stock.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0094",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Assertion (A): The DMK gave up its demand for a separate Dravida Nadu in 1963.\nReason (R): The Sixteenth Constitutional Amendment required candidates to swear to uphold the sovereignty and integrity of India.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1963 Sixteenth Amendment (anti-secession) required oaths to uphold India's sovereignty and integrity, which led the DMK to drop the Dravida Nadu demand.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0095",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Annadurai died in office in:",
+      "options": [
+        "March 1967",
+        "January 1970",
+        "February 1969",
+        "December 1973"
+      ],
+      "correctIndex": 2,
+      "explanation": "Annadurai died on 3 February 1969, less than a month after Madras State became Tamil Nadu.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0096",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Consider the following about Annadurai's government:\n1. It renamed Madras State as Tamil Nadu.\n2. It made Hindi a compulsory subject in schools.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only 1 is correct. Annadurai's government adopted the two-language (Tamil–English) policy and dropped Hindi; it did not make Hindi compulsory.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0097",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Arrange in chronological order:\n1. Founding of the DMK\n2. Self-Respect Movement started\n3. Renaming of the Justice Party as Dravidar Kazhagam\n4. Annadurai becomes Chief Minister",
+      "options": [
+        "2, 3, 1, 4",
+        "3, 2, 1, 4",
+        "2, 1, 3, 4",
+        "2, 3, 4, 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Self-Respect Movement (1925) → Dravidar Kazhagam (1944) → DMK (1949) → Annadurai as CM (1967).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0098",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "The title 'Periyar' was conferred on E.V. Ramasamy in 1938 by:",
+      "options": [
+        "The Justice Party at Salem",
+        "A women's conference in Madras",
+        "The Vaikom satyagrahis",
+        "Students of Annamalai University"
+      ],
+      "correctIndex": 1,
+      "explanation": "The title 'Periyar' was conferred on E.V. Ramasamy by the Tamil Nadu Women's Conference held in Madras in November 1938.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0099",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar walked out of the Congress in 1925 after its Tamil Nadu conference at which place refused to pass his resolution on communal representation?",
+      "options": [
+        "Tiruppur",
+        "Madurai",
+        "Erode",
+        "Kanchipuram"
+      ],
+      "correctIndex": 3,
+      "explanation": "At the Kanchipuram conference of the Tamil Nadu Congress (1925) Periyar's resolution on communal representation was not allowed, and he left the Congress.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0100",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "UNESCO's 1970 citation honoured Periyar with which description?",
+      "options": [
+        "The Voltaire of the East",
+        "The Father of Dravidian Nationalism",
+        "The Lincoln of India",
+        "The Socrates of South-East Asia"
+      ],
+      "correctIndex": 3,
+      "explanation": "UNESCO's 1970 citation described Periyar as 'the Prophet of the New Age, the Socrates of South-East Asia'.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0101",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Which motto, coined by Annadurai, is the guiding slogan of the DMK?",
+      "options": [
+        "Kadamai, Kanniyam, Kattuppadu",
+        "Vaimaiye Vellum",
+        "Yaadhum Oore Yaavarum Kelir",
+        "Ondre Kulam Oruvane Devan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anna gave the DMK the motto 'Kadamai, Kanniyam, Kattuppadu' (Duty, Dignity, Discipline).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0102",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Which of these novels was written by C.N. Annadurai?",
+      "options": [
+        "Ponniyin Selvan",
+        "Rangoon Radha",
+        "Akal Vilakku",
+        "Kurinji Malar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rangoon Radha is Annadurai's novel (filmed in 1956). Ponniyin Selvan is by Kalki, Akal Vilakku by Mu. Varadarasanar, Kurinji Malar by Na. Parthasarathy.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0103",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Consider the following about Periyar's Self-Respect Movement:\n1. It held rationality and self-respect to be more important than self-rule.\n2. It declared illiteracy a source of women's subordination and promoted compulsory elementary education.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both appear in the Class 10 textbook's account of the Self-Respect Movement.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0104",
+      "topicId": "a6-contributions-periyar-anna",
+      "prompt": "Periyar's journal 'Pagutharivu', started in 1934, was named after which idea?",
+      "options": [
+        "Revolution",
+        "Liberation",
+        "Rationalism",
+        "Democracy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pagutharivu means Rationalism. Puratchi means Revolution, Viduthalai Liberation and Kudi Arasu Democracy.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0105",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The South Indian Liberal Federation (later the Justice Party) was founded on 20 November 1916 under the leadership of:",
+      "options": [
+        "Dr. T.M. Nair, P. Theagarayar and C. Natesanar",
+        "Periyar, Anna and Karunanidhi",
+        "Rajaji, Satyamurti and Kamaraj",
+        "M.C. Rajah, Rettaimalai Srinivasan and Iyothee Thass"
+      ],
+      "correctIndex": 0,
+      "explanation": "About thirty non-Brahmin leaders led by Dr. T.M. Nair, Sir Pitti Theagarayar and Dr. C. Natesanar founded the SILF on 20 November 1916.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0106",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The Non-Brahmin Manifesto, which articulated the voice of the non-Brahmin communities, was released in:",
+      "options": [
+        "November 1925",
+        "December 1916",
+        "August 1944",
+        "September 1921"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Non-Brahmin Manifesto was released at a meeting in the Victoria Public Hall in December 1916.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0107",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Match the Justice Party newspapers with their languages:\n(a) Justice  (b) Dravidan  (c) Andhra Prakasika\n1. Telugu  2. English  3. Tamil",
+      "options": [
+        "a-3, b-2, c-1",
+        "a-2, b-1, c-3",
+        "a-2, b-3, c-1",
+        "a-1, b-3, c-2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SILF published Justice in English, Dravidan in Tamil and Andhra Prakasika in Telugu.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0108",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Who became the first Chief Minister of the Madras Presidency after the Justice Party won the 1920 elections?",
+      "options": [
+        "Raja of Panagal",
+        "P. Subbarayan",
+        "B. Munuswamy Naidu",
+        "A. Subbarayalu"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Justice Party won the 1920 elections under dyarchy and A. Subbarayalu became the first Chief Minister.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0109",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "In the 1920 elections to the Madras Legislative Council, boycotted by the Congress, the Justice Party won:",
+      "options": [
+        "63 of 98 elected seats",
+        "98 of 132 seats",
+        "45 of 98 seats",
+        "All 98 elected seats"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Class 10 textbook records that the Justice Party won 63 of the 98 elected seats.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0110",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Who formed the Justice Party ministry after the 1923 elections?",
+      "options": [
+        "A. Subbarayalu",
+        "Raja of Panagal",
+        "P.T. Rajan",
+        "Bobbili Raja"
+      ],
+      "correctIndex": 1,
+      "explanation": "After the 1923 elections, the Raja of Panagal of the Justice Party formed the ministry.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0111",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The two Communal Government Orders passed by the Justice Party government, to distribute appointments among castes and communities, were dated:",
+      "options": [
+        "20 November 1916 and 15 August 1917",
+        "1 April 1937 and 1 April 1938",
+        "16 September 1921 and 15 August 1922",
+        "26 January 1950 and 15 August 1951"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Communal G.O.s of 16 September 1921 and 15 August 1922 were passed to ensure equitable distribution of appointments.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0112",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The Staff Selection Board, set up by the Justice Party government in 1924, was the forerunner of:",
+      "options": [
+        "The Staff Selection Commission",
+        "The Indian Civil Service",
+        "The Madras University Syndicate",
+        "The Public Service Commission"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Staff Selection Board (1924) chose government officials; in 1929 British India adopted the pattern and set up the Public Service Commission.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0113",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The Madras Legislature under the Justice Party was the first in India to approve women's participation in electoral politics, in:",
+      "options": [
+        "1921",
+        "1926",
+        "1916",
+        "1937"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1921 the Madras legislature under the Justice Party became the first to approve women's participation in electoral politics.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0114",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The Hindu Religious Endowment Act introduced by the Justice Party government aimed mainly to:",
+      "options": [
+        "Abolish the devadasi system",
+        "Let anyone, irrespective of caste, become a member of temple committees and manage temple resources",
+        "Ban the entry of non-Hindus into temples",
+        "Transfer all temple lands to tenants"
+      ],
+      "correctIndex": 1,
+      "explanation": "The HRE Act enabled any individual, irrespective of caste, to become a member of a temple committee and govern the resources of religious institutions.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0115",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Assertion (A): The Justice Party remained in office in the Madras Presidency for most of the dyarchy period until 1937.\nReason (R): The Congress boycotted the legislature during much of this period.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both true and R explains A: with the Congress boycotting the councils, the Justice Party stayed in office until the 1937 elections, which the Congress contested and won.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0116",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "In 1912, Dr. C. Natesanar founded the Madras United League, which was later renamed:",
+      "options": [
+        "South Indian Liberal Federation",
+        "Dravidar Kazhagam",
+        "Adi Dravida Mahajana Sabha",
+        "Madras Dravidian Association"
+      ],
+      "correctIndex": 3,
+      "explanation": "Natesanar's Madras United League (1912) was later renamed the Madras Dravidian Association.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0117",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The 'Dravidian Home', a hostel for non-Brahmin students, was founded by Dr. C. Natesanar at:",
+      "options": [
+        "Mylapore, Madras",
+        "Erode",
+        "Triplicane, Madras",
+        "Kumbakonam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Natesanar founded the Dravidian Home at Triplicane (Madras) in 1916 for non-Brahmin students.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0118",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Who founded the Self-Respect Movement in 1925?",
+      "options": [
+        "C.N. Annadurai",
+        "Periyar E.V. Ramasamy",
+        "Dr. T.M. Nair",
+        "Maraimalai Adigal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Periyar E.V. Ramasamy started the Self-Respect Movement (Suyamariyathai Iyakkam) in 1925.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0119",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "A distinguishing feature of a Self-Respect marriage is that it:",
+      "options": [
+        "Must be held inside a temple",
+        "Requires horoscope matching",
+        "Dispenses with priests and Sanskrit rituals",
+        "Is registered only in a church"
+      ],
+      "correctIndex": 2,
+      "explanation": "Self-Respect marriages were conducted without Brahmin priests or rituals, through the mutual consent of the couple.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0120",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Consider the following statements:\n1. The Self-Respect Movement championed the cause of non-Brahmin Hindus only and was opposed to Islam.\n2. The Self-Respect Movement extolled principles of Islam such as equality and brotherhood.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only 2 is correct. The movement championed the Muslims as well and praised Islam's principles of equality and brotherhood.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0121",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Who founded the Adi Dravida Mahajana Sabha in 1893?",
+      "options": [
+        "Rettaimalai Srinivasan",
+        "M.C. Rajah",
+        "Iyothee Thass Pandithar",
+        "Dr. C. Natesanar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rettaimalai Srinivasan founded the Adi Dravida Mahajana Sabha in 1893.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0122",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Rettaimalai Srinivasan represented the depressed classes at the Round Table Conferences along with Dr. B.R. Ambedkar, and was a signatory to:",
+      "options": [
+        "The Lucknow Pact, 1916",
+        "The Gandhi–Irwin Pact, 1931",
+        "The Nehru Report, 1928",
+        "The Poona Pact, 1932"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rettaimalai Srinivasan attended the first and second Round Table Conferences and signed the Poona Pact of 1932.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0123",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "'Jeeviya Saritha Surukkam', one of the earliest Tamil autobiographies (1939), was written by:",
+      "options": [
+        "U.V. Swaminatha Iyer",
+        "Thiru.Vi. Kalyanasundaram",
+        "Rettaimalai Srinivasan",
+        "Namakkal Ramalingam Pillai"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rettaimalai Srinivasan's autobiography Jeeviya Saritha Surukkam (A Brief Autobiography) was published in 1939.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0124",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Rettaimalai Srinivasan started which Tamil journal in 1893 to voice the grievances of the depressed classes?",
+      "options": [
+        "Oru Paisa Tamilan",
+        "Thozhilalan",
+        "Dravida Pandian",
+        "Paraiyan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rettaimalai Srinivasan started the journal Paraiyan in 1893. Oru Paisa Tamilan was Iyothee Thass's, Thozhilalan Singaravelar's.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0125",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "M.C. Rajah, one of the founding members of the Justice Party, founded which organisation in 1928?",
+      "options": [
+        "All India Depressed Classes Association",
+        "Adi Dravida Mahajana Sabha",
+        "Scheduled Castes Federation",
+        "Madras Labour Union"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mylai Chinnathambi Rajah founded the All India Depressed Classes Association in 1928 and was its long-time leader.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0126",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Iyothee Thass Pandithar ran which weekly journal from 1907–08 until his death?",
+      "options": [
+        "Paraiyan",
+        "Oru Paisa Tamilan",
+        "Kudi Arasu",
+        "Swadesamitran"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iyothee Thass Pandithar ran the weekly Oru Paisa Tamilan (later Tamilan) until his death in 1914.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0127",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Iyothee Thass Pandithar argued that the Adi Dravidars were originally followers of which religion?",
+      "options": [
+        "Jainism",
+        "Saivism",
+        "Buddhism",
+        "Ajivika"
+      ],
+      "correctIndex": 2,
+      "explanation": "He argued the Adi Dravidars were the original Buddhists, consigned to 'untouchability' because they opposed Vedic Brahminism.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0128",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Iyothee Thass Pandithar, a native (Siddha) doctor by profession, came under the influence of which Theosophist who supported his Buddhist revival?",
+      "options": [
+        "Annie Besant",
+        "Madame Blavatsky",
+        "C.W. Leadbeater",
+        "Colonel H.S. Olcott"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 11 textbook notes that Iyothee Thass came under the influence of Colonel Olcott of the Theosophical Society.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0129",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Iyothee Thass Pandithar's Buddhist movement found its greatest following in north Tamil Nadu and among the working classes of:",
+      "options": [
+        "Kolar Gold Fields",
+        "Nilgiri tea estates",
+        "Coimbatore textile mills",
+        "Neyveli mines"
+      ],
+      "correctIndex": 0,
+      "explanation": "His movement drew strong support in north Tamil Nadu and among workers of the Kolar Gold Fields.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0130",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Ramalinga Adigal is popularly known as:",
+      "options": [
+        "Thayumanavar",
+        "Vallalar",
+        "Pattinathar",
+        "Vaikunda Swamigal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ramalinga Swamigal (1823–1874) is popularly known as Vallalar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0131",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Ramalinga Adigal established the Sathya Dharma Salai, which fed the poor irrespective of caste and creed, at:",
+      "options": [
+        "Chidambaram",
+        "Marudhur",
+        "Vadalur",
+        "Swamithoppe"
+      ],
+      "correctIndex": 2,
+      "explanation": "He established the Sathya Dharma Salai at Vadalur, feeding the poor especially during the famine of the 1860s.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0132",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Ramalinga Adigal's poems, published by his followers in 1867, are collectively called:",
+      "options": [
+        "Thiruvasagam",
+        "Thirumanthiram",
+        "Akilathirattu Ammanai",
+        "Thiruvarutpa"
+      ],
+      "correctIndex": 3,
+      "explanation": "His followers published his poems as Thiruvarutpa (Songs of Grace) in 1867.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0133",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Which orthodox Saivite from Sri Lanka condemned Ramalinga Adigal's Thiruvarutpa as blasphemous and started a 'tract war'?",
+      "options": [
+        "Arumuga Navalar",
+        "C.W. Damodaram Pillai",
+        "Meenakshisundaram Pillai",
+        "Sivagnana Munivar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Orthodox Saivites under the Sri Lankan reformer Arumuga Navalar criticised Thiruvarutpa as blasphemous, leading to the Arutpa–Marutpa controversy.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0134",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Vaikunda Swamigal, the social reformer of the Travancore region, founded which faith tradition?",
+      "options": [
+        "Sanmarga",
+        "Ayyavazhi",
+        "Brahmo Dharma",
+        "Arya Dharma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vaikunda Swamigal (1809–1851) founded Ayyavazhi, whose centre is at Swamithoppe in Kanyakumari district.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0135",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Which organisation did Vaikunda Swamigal found to promote equality among castes?",
+      "options": [
+        "Sathya Gnana Sabhai",
+        "Pothu Nilai Kalakam",
+        "Samathuva Samajam",
+        "Adi Dravida Mahajana Sabha"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vaikunda Swamigal founded the Samathuva Samajam to fight caste discrimination; Sathya Gnana Sabhai was Vallalar's.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0136",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The religious text of Ayyavazhi, associated with Vaikunda Swamigal, is:",
+      "options": [
+        "Thiruvarutpa",
+        "Thirumanthiram",
+        "Periyapuranam",
+        "Akilathirattu Ammanai"
+      ],
+      "correctIndex": 3,
+      "explanation": "Akilathirattu Ammanai is the main scripture of Ayyavazhi.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0137",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Swamithoppe, the headquarters of the Ayyavazhi faith, is in which district?",
+      "options": [
+        "Kanyakumari",
+        "Tirunelveli",
+        "Thoothukudi",
+        "Ramanathapuram"
+      ],
+      "correctIndex": 0,
+      "explanation": "Swamithoppe, where Vaikunda Swamigal's Pathi stands, is in Kanyakumari district.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0138",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Dr. Muthulakshmi Reddy's bill of 1930 for the 'prevention of the dedication of women to Hindu temples' finally became law in:",
+      "options": [
+        "1930",
+        "1947",
+        "1937",
+        "1956"
+      ],
+      "correctIndex": 1,
+      "explanation": "The bill had to wait over 17 years; the Madras Devadasis (Prevention of Dedication) Act was enacted in 1947.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0139",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Which shelter for destitute girls and women was founded in Madras by Dr. Muthulakshmi Reddy?",
+      "options": [
+        "Seva Sadan",
+        "Saradha Sadan",
+        "Avvai Home",
+        "Kasturba Ashram"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dr. Muthulakshmi Reddy founded the Avvai Home in Madras (around 1930–31) for destitute girls and women.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0140",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Dr. Muthulakshmi Reddy is also remembered for founding which institution in 1954?",
+      "options": [
+        "Christian Medical College, Vellore",
+        "Institute of Child Health, Egmore",
+        "Kilpauk Medical College",
+        "Cancer Institute, Adyar"
+      ],
+      "correctIndex": 3,
+      "explanation": "She founded the Cancer Institute at Adyar, Chennai, in 1954.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0141",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Muvalur Ramamirtham, a Self-Respect activist, wrote which novel exposing the devadasi system?",
+      "options": [
+        "Dasigal Mosavalai",
+        "Pennin Perumai",
+        "Kamala",
+        "Kudumba Vilakku"
+      ],
+      "correctIndex": 0,
+      "explanation": "Muvalur Ramamirtham Ammaiyar wrote 'Dasigal Mosavalai' attacking the devadasi system.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0142",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Who organised the first May Day celebration in India, in Madras in 1923?",
+      "options": [
+        "B.P. Wadia",
+        "M. Singaravelar",
+        "Thiru.Vi. Kalyanasundaram",
+        "V.V. Giri"
+      ],
+      "correctIndex": 1,
+      "explanation": "M. Singaravelar (1860–1946) organised the first ever May Day celebration in 1923.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0143",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "India's first organised trade union, the Madras Labour Union, was formed in:",
+      "options": [
+        "1920",
+        "1923",
+        "1918",
+        "1926"
+      ],
+      "correctIndex": 2,
+      "explanation": "B.P. Wadia, Singaravelar, Thiru.Vi.Ka and others formed the Madras Labour Union in 1918.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0144",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Who is regarded as the father of Tamil linguistic purism and founded the Tani Tamil Iyakkam?",
+      "options": [
+        "Parithimar Kalaignar",
+        "Thiru.Vi. Kalyanasundaram",
+        "Devaneya Pavanar",
+        "Maraimalai Adigal"
+      ],
+      "correctIndex": 3,
+      "explanation": "Maraimalai Adigal (1876–1950), born Vedachalam, founded the Pure Tamil Movement.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0145",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "V.G. Suryanarayana Sastri, who first argued that Tamil is a classical language, took the pure Tamil name:",
+      "options": [
+        "Parithimar Kalaignar",
+        "Maraimalai Adigal",
+        "Bharathidasan",
+        "Pavalareru"
+      ],
+      "correctIndex": 0,
+      "explanation": "V.G. Suryanarayana Sastri adopted the pure Tamil name Parithimar Kalaignar and also introduced the sonnet form in Tamil.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0146",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Match the following:\n(a) Dravidian Home  (b) Thozhilalan  (c) Tani Tamil Iyakkam  (d) Jeeviya Saritha Surukkam\n1. Maraimalai Adigal  2. Rettaimalai Srinivasan  3. C. Natesanar  4. M. Singaravelar",
+      "options": [
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-4, c-1, d-2",
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-4, c-3, d-2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dravidian Home – Natesanar; Thozhilalan – Singaravelar; Tani Tamil Iyakkam – Maraimalai Adigal; Jeeviya Saritha Surukkam – Rettaimalai Srinivasan.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0147",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "The Women's India Association was started at Adyar in 1917 by Annie Besant, Dorothy Jinarajadasa and:",
+      "options": [
+        "Sarojini Naidu",
+        "Muthulakshmi Reddy",
+        "Margaret Cousins",
+        "Kamaladevi Chattopadhyay"
+      ],
+      "correctIndex": 2,
+      "explanation": "The WIA was started in 1917 by Annie Besant, Dorothy Jinarajadasa and Margaret Cousins at Adyar.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0148",
+      "topicId": "a6-justice-party-self-respect-dravidian-movement",
+      "prompt": "Abraham Pandithar's Tanjore Sangitha Vidya Mahajana Sangam (1912) became the kernel of which movement?",
+      "options": [
+        "Tani Tamil Movement",
+        "Self-Respect Movement",
+        "Temple Entry Movement",
+        "Tamil Isai Movement"
+      ],
+      "correctIndex": 3,
+      "explanation": "Abraham Pandithar studied the history of Tamil music; his Sangam (1912) became the kernel of the Tamil Isai (Tamil Music) Movement.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0149",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which of the following is NOT one of the Ettuthogai (Eight Anthologies)?",
+      "options": [
+        "Kurinjipattu",
+        "Natrinai",
+        "Kurunthogai",
+        "Aingurunuru"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kurinjipattu belongs to the Pathupattu (Ten Idylls). Natrinai, Kurunthogai and Aingurunuru are among the Eight Anthologies.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0150",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which of the following belongs to the Pathupattu (Ten Idylls)?",
+      "options": [
+        "Purananuru",
+        "Maduraikanchi",
+        "Kalithogai",
+        "Paripadal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maduraikanchi is one of the Ten Idylls; Purananuru, Kalithogai and Paripadal are in the Ettuthogai.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0151",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The Ettuthogai and Pathupattu together form which category of Sangam literature?",
+      "options": [
+        "Pathinen Keezhkanakku (18 minor works)",
+        "Aimperum Kappiyangal",
+        "Pathinen Melkanakku (18 major works)",
+        "Panniru Thirumurai"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Pathinen Melkanakku comprises the eight anthologies and ten idylls (8 + 10 = 18), the oldest of the classical texts.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0152",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Sangam anthology is chiefly concerned with 'puram' themes such as war, kings and ethics, and has 400 poems?",
+      "options": [
+        "Akananuru",
+        "Kurunthogai",
+        "Natrinai",
+        "Purananuru"
+      ],
+      "correctIndex": 3,
+      "explanation": "Purananuru's 400 poems deal with puram (external) life: war, valour, kings and ethics. Akananuru, Kurunthogai and Natrinai are akam (love) collections.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0153",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Sangam anthology consists of ten decades of poems, each in praise of a Chera king?",
+      "options": [
+        "Pathitrupathu",
+        "Paripadal",
+        "Kalithogai",
+        "Aingurunuru"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pathitrupathu ('ten tens') praises ten Chera kings with ten poems each; the first and last decades are lost.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0154",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Aingurunuru has 500 short poems. How are they arranged?",
+      "options": [
+        "50 poems for each of ten Chera kings",
+        "100 poems for each of the five thinais, each set by a different poet",
+        "Five books of 100 poems on Murugan",
+        "100 poems on each of the five epics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aingurunuru has 100 poems for each of the five akam thinais, each hundred by a different poet (e.g. Kapilar for Kurinji).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0155",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "In Aingurunuru, the hundred poems on the Kurinji thinai were written by:",
+      "options": [
+        "Ammuvanar",
+        "Orampogiyar",
+        "Kapilar",
+        "Peyanar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kapilar wrote the Kurinji hundred; Orampogiyar wrote Marutham, Ammuvanar Neythal, Odalanthaiyar Paalai and Peyanar Mullai.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0156",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Kalithogai, an akam anthology of 150 poems, is traditionally said to have been compiled by:",
+      "options": [
+        "Uruthiranar",
+        "Poorikko",
+        "Kudalur Kizhar",
+        "Nallanthuvanar"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kalithogai was compiled by Nallanthuvanar, who also composed its Neythal poems.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0157",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Akananuru's 400 poems are divided into three sections. Which of the following is one of them?",
+      "options": [
+        "Kalitriyanainirai",
+        "Kanchikandam",
+        "Puhar kandam",
+        "Thiruvaimozhi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akananuru is divided into Kalitriyanainirai (120), Manimidai Pavalam (180) and Nittilakkovai (100).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0158",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Ettuthogai work deals with both akam and puram themes and has hymns on Thirumal, Murugan and the river Vaigai?",
+      "options": [
+        "Kurunthogai",
+        "Paripadal",
+        "Pathitrupathu",
+        "Natrinai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paripadal is a musical anthology of hymns on Thirumal, Murugan and the Vaigai; of its original 70 poems only part survives.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0159",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Thirumurugatruppadai, the first of the Ten Idylls, was composed by:",
+      "options": [
+        "Kapilar",
+        "Mangudi Maruthanar",
+        "Nakkeerar",
+        "Napputhanar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thirumurugatruppadai, in praise of Murugan, was composed by Nakkeerar, who also wrote Nedunalvadai.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0160",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which is the longest of the Ten Idylls (about 782 lines)?",
+      "options": [
+        "Mullaipattu",
+        "Kurinjipattu",
+        "Pattinappalai",
+        "Maduraikanchi"
+      ],
+      "correctIndex": 3,
+      "explanation": "Maduraikanchi by Mangudi Maruthanar, addressed to Pandyan Nedunchezhiyan, is the longest idyll; Mullaipattu (103 lines) is the shortest.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0161",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Mullaipattu, the shortest of the Ten Idylls, was written by:",
+      "options": [
+        "Napputhanar",
+        "Nakkeerar",
+        "Perunkousikanar",
+        "Nallur Nathathanar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mullaipattu (103 lines) was written by Napputhanar.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0162",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Kapilar's Kurinjipattu, which lists 99 flowers, is said to have been composed to teach Tamil culture to:",
+      "options": [
+        "The Chera king Senguttuvan",
+        "The Aryan king Prahathan",
+        "The Chola king Karikalan",
+        "The Pandya king Nedunchezhiyan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tradition says Kapilar composed Kurinjipattu to explain Tamil akam culture to the Aryan king Prahathan.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0163",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Pattinappalai, which describes the port city of Kaveripoompattinam, praises which Chola king?",
+      "options": [
+        "Rajaraja I",
+        "Kocengannan",
+        "Karikalan",
+        "Killivalavan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pattinappalai by Kadiyalur Uruthirankannanar describes Kaveripoompattinam and praises Karikal Chola.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0164",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Match the idylls with their authors:\n(a) Perumpanatruppadai  (b) Sirupanatruppadai  (c) Malaipadukadam  (d) Maduraikanchi\n1. Nallur Nathathanar  2. Perunkousikanar  3. Mangudi Maruthanar  4. Kadiyalur Uruthirankannanar",
+      "options": [
+        "a-1, b-4, c-2, d-3",
+        "a-4, b-1, c-3, d-2",
+        "a-2, b-1, c-4, d-3",
+        "a-4, b-1, c-2, d-3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Perumpanatruppadai – Kadiyalur Uruthirankannanar; Sirupanatruppadai – Nallur Nathathanar; Malaipadukadam – Perunkousikanar; Maduraikanchi – Mangudi Maruthanar.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0165",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Perumpanatruppadai was composed in praise of which ruler of Kanchi?",
+      "options": [
+        "Thondaiman Ilanthiraiyan",
+        "Nalliyakodan",
+        "Nannan",
+        "Athiyaman Neduman Anji"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perumpanatruppadai praises Thondaiman Ilanthiraiyan of Kanchi; Sirupanatruppadai praises Nalliyakodan and Malaipadukadam praises Nannan.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0166",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "'Aatruppadai' poems in Sangam literature are those in which:",
+      "options": [
+        "A woman laments her separated lover",
+        "A bard who has received gifts guides another bard to the same patron",
+        "A king declares war on a neighbour",
+        "A poet praises the five landscapes"
+      ],
+      "correctIndex": 1,
+      "explanation": "In aatruppadai ('showing the way') poems, a minstrel who has been rewarded directs another to the generous patron.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0167",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Tholkappiyam, the oldest extant Tamil grammar, has how many main divisions (adhikarams)?",
+      "options": [
+        "Two – Akam and Puram",
+        "Five – one for each thinai",
+        "Three – Ezhuthu, Sol and Porul",
+        "Ten – one for each idyll"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tholkappiyam has three adhikarams: Ezhuthu (letters), Sol (words) and Porul (subject matter, including poetic conventions).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0168",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "According to Tholkappiyam, the presiding deity of the Kurinji (hilly) landscape is:",
+      "options": [
+        "Thirumal",
+        "Indiran",
+        "Varunan",
+        "Murugan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tholkappiyam names Murugan for Kurinji, Thirumal for Mullai, Indiran for Marutham, Varunan for Neythal and Kotravai for Paalai.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0169",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Match the thinai with its presiding deity:\n(a) Mullai  (b) Marutham  (c) Neythal  (d) Paalai\n1. Varunan  2. Kotravai  3. Thirumal  4. Indiran",
+      "options": [
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-4, c-3, d-2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mullai – Thirumal; Marutham – Indiran; Neythal – Varunan; Paalai – Kotravai (Tholkappiyam).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0170",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The Neythal thinai of Sangam literature refers to which landscape?",
+      "options": [
+        "Hills",
+        "Seashore",
+        "Forest and pasture",
+        "Fertile farmland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neythal is the coastal landscape; Kurinji is hilly, Mullai forest/pastoral and Marutham agricultural.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0171",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The Sangam poem with the line 'Thondruvan matho porkalathane' ('he will appear on the battlefield'), celebrating a mother's pride in her warrior son, was composed by the woman poet:",
+      "options": [
+        "Okkur Masathiyar",
+        "Velliveethiyar",
+        "Kavarpendu",
+        "Avvaiyar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Purananuru 86, in which a mother says her son will be found on the battlefield, is by the poetess Kavarpendu.",
+      "sourceTag": "question-bank-2025",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0172",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The famous line 'Yaadhum oore yaavarum kelir' ('Every town is my town, everyone is my kin') is from:",
+      "options": [
+        "Thirukkural, by Thiruvalluvar",
+        "Silappathikaram, by Ilango Adigal",
+        "Thirumanthiram, by Thirumoolar",
+        "Purananuru, by Kaniyan Poongundranar"
+      ],
+      "correctIndex": 3,
+      "explanation": "The line opens Purananuru poem 192 by Kaniyan Poongundranar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0173",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The Sangam poet Avvaiyar was a close friend of which chieftain, who gave her a rare nelli (gooseberry) fruit said to confer long life?",
+      "options": [
+        "Athiyaman Neduman Anji",
+        "Pari",
+        "Pegan",
+        "Ori"
+      ],
+      "correctIndex": 0,
+      "explanation": "Athiyaman Neduman Anji gave Avvaiyar the rare gooseberry so that the poet would live long.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0174",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Velir chieftain, one of the seven great patrons, is said to have given his chariot to a jasmine creeper?",
+      "options": [
+        "Pegan",
+        "Pari",
+        "Kari",
+        "Nalli"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pari of Parambu gave his chariot as a support for a mullai (jasmine) creeper; Pegan gave his shawl to a peacock.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0175",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Sangam poet, a close friend of the chieftain Pari, cared for Pari's daughters after his death?",
+      "options": [
+        "Paranar",
+        "Nakkeerar",
+        "Kapilar",
+        "Mangudi Maruthanar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kapilar was Pari's friend and looked after his daughters after Pari was killed by the three crowned kings.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0176",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Silappathikaram was written by:",
+      "options": [
+        "Seethalai Sathanar",
+        "Thiruthakka Thevar",
+        "Kambar",
+        "Ilango Adigal"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ilango Adigal, traditionally the brother of the Chera king Senguttuvan, wrote Silappathikaram.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0177",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The three kandams (cantos) of Silappathikaram are named after:",
+      "options": [
+        "Puhar, Madurai and Vanji",
+        "Kanchi, Uraiyur and Karur",
+        "Madurai, Korkai and Musiri",
+        "Puhar, Uraiyur and Kanchi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Silappathikaram's three parts – Puhar kandam, Madurai kandam and Vanji kandam – are named after the Chola, Pandya and Chera capitals.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0178",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Chera king is said in Silappathikaram to have brought a stone from the Himalayas to make an image of Kannagi?",
+      "options": [
+        "Imayavaramban Nedunjeralathan",
+        "Senguttuvan",
+        "Cheraman Perumal",
+        "Kanaikkal Irumporai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Senguttuvan led an expedition north and brought a Himalayan stone for the Pathini (Kannagi) image.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0179",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Manimekalai, the heroine of the epic named after her, was the daughter of:",
+      "options": [
+        "Kovalan and Kannagi",
+        "Senguttuvan and Venmal",
+        "Kovalan and Madhavi",
+        "Udayanan and Vasavadattai"
+      ],
+      "correctIndex": 2,
+      "explanation": "Manimekalai was the daughter of Kovalan and the dancer Madhavi; she became a Buddhist nun.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0180",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which of the five great Tamil epics is a Jain work, also called 'Mana Nool', by Thiruthakka Thevar?",
+      "options": [
+        "Kundalakesi",
+        "Manimekalai",
+        "Silappathikaram",
+        "Seevaka Chinthamani"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seevaka Chinthamani by the Jain monk Thiruthakka Thevar is also called Mana Nool.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0181",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which pair of the five great epics are Buddhist works?",
+      "options": [
+        "Manimekalai and Kundalakesi",
+        "Seevaka Chinthamani and Valayapathi",
+        "Silappathikaram and Valayapathi",
+        "Kundalakesi and Seevaka Chinthamani"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manimekalai (Seethalai Sathanar) and Kundalakesi (Nathakuthanar) are Buddhist; Seevaka Chinthamani and Valayapathi are Jain.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0182",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Kambar's Ramayanam (Ramavataram) acknowledges the patronage of:",
+      "options": [
+        "Kulothunga II",
+        "Sadayappa Vallal of Thiruvennainallur",
+        "Rajaraja I",
+        "Thirumalai Nayak"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kambar repeatedly praises his patron Sadayappa Vallal of Thiruvennainallur in the Ramayanam.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0183",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Periyapuranam, the hagiography of the 63 Nayanmars, was written by:",
+      "options": [
+        "Nambiyandar Nambi",
+        "Manikkavasagar",
+        "Sekkizhar",
+        "Thirumoolar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sekkizhar, a minister of Kulothunga II, wrote Periyapuranam (Thiruthondar Puranam).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0184",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Periyapuranam forms which Thirumurai of the Saiva canon?",
+      "options": [
+        "Eighth",
+        "Tenth",
+        "Seventh",
+        "Twelfth"
+      ],
+      "correctIndex": 3,
+      "explanation": "Periyapuranam is the twelfth (last) Thirumurai; Thiruvasagam is in the eighth and Thirumanthiram the tenth.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0185",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "The hymns of which three Nayanmars together form the Thevaram (first seven Thirumurais)?",
+      "options": [
+        "Sambandar, Appar and Sundarar",
+        "Manikkavasagar, Thirumoolar and Sekkizhar",
+        "Appar, Manikkavasagar and Karaikkal Ammaiyar",
+        "Sambandar, Sundarar and Nambiyandar Nambi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thevaram consists of the hymns of Thirugnanasambandar, Thirunavukkarasar (Appar) and Sundarar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0186",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Thiruvasagam was composed by:",
+      "options": [
+        "Thirumoolar",
+        "Manikkavasagar",
+        "Appar",
+        "Sundarar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thiruvasagam, part of the eighth Thirumurai, is by Manikkavasagar.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0187",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "'Ondre kulam oruvane devan' ('One humanity, one God') is a line of:",
+      "options": [
+        "Thiruvalluvar",
+        "Ramalinga Adigal",
+        "Thirumoolar",
+        "Kaniyan Poongundranar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The line is from Thirumoolar's Thirumanthiram (tenth Thirumurai).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0188",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Who compiled the Nalayira Divya Prabandham, the 4,000 hymns of the Alvars?",
+      "options": [
+        "Nambiyandar Nambi",
+        "Ramanuja",
+        "Periyalvar",
+        "Nathamuni"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nathamuni compiled the Nalayira Divya Prabandham; Nambiyandar Nambi compiled the Saiva Thirumurai.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0189",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Andal, the only woman among the twelve Alvars, composed:",
+      "options": [
+        "Thiruppavai",
+        "Thiruvembavai",
+        "Thiruvaimozhi",
+        "Thirumanthiram"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andal of Srivilliputhur composed Thiruppavai and Nachiyar Thirumozhi; Thiruvembavai is Manikkavasagar's and Thiruvaimozhi Nammalvar's.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0190",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which Nayanar is said to have converted the Pallava king Mahendravarman I from Jainism to Saivism?",
+      "options": [
+        "Sundarar",
+        "Appar (Thirunavukkarasar)",
+        "Sambandar",
+        "Manikkavasagar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Appar, himself a former Jain, is credited with converting Mahendravarman I to Saivism.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0191",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Karaikkal Ammaiyar, one of the earliest Saiva poets, is notable as:",
+      "options": [
+        "The compiler of the Thirumurai",
+        "The author of Thiruppavai",
+        "A woman among the 63 Nayanmars",
+        "A Jain nun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karaikkal Ammaiyar is one of the three women among the 63 Nayanmars and among the earliest Saiva bhakti poets.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0192",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which of these works is NOT by Subramania Bharathi?",
+      "options": [
+        "Kuyil Pattu",
+        "Panchali Sabatham",
+        "Kannan Pattu",
+        "Pandiyan Parisu"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pandiyan Parisu is by Bharathidasan. Kuyil Pattu, Panchali Sabatham and Kannan Pattu are Bharathi's.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0193",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Bharathidasan, hailed as 'Puratchi Kavignar', was born with the name:",
+      "options": [
+        "Kanagasubburathinam",
+        "Vedachalam",
+        "Suryanarayana Sastri",
+        "Muthukutty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bharathidasan was born Kanagasubburathinam in Puducherry and took his pen-name out of admiration for Bharathi.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0194",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Subramania Bharathi was born in 1882 at:",
+      "options": [
+        "Puducherry",
+        "Ettayapuram",
+        "Thoothukudi",
+        "Kadayam"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bharathi was born at Ettayapuram (in present Thoothukudi district) on 11 December 1882.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0195",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "U.V. Swaminatha Iyer, who recovered and published many Sangam classics, is known as:",
+      "options": [
+        "Mahakavi",
+        "Puratchi Kavignar",
+        "Tamil Thatha",
+        "Kavimani"
+      ],
+      "correctIndex": 2,
+      "explanation": "U.V. Swaminatha Iyer (1855–1942) is called Tamil Thatha ('grandfather of Tamil').",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0196",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which classic did U.V. Swaminatha Iyer publish in 1887, his first major edition of an ancient Tamil text?",
+      "options": [
+        "Manimekalai",
+        "Purananuru",
+        "Aingurunuru",
+        "Seevaka Chinthamani"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 10 textbook lists his editions: Civakachinthamani (1887), Paththupattu (1889), Silappathikaram (1892), Purananuru (1894), Manimekalai (1898).",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0197",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Robert Caldwell's 'A Comparative Grammar of the Dravidian or South Indian Family of Languages' was published in:",
+      "options": [
+        "1856",
+        "1812",
+        "1709",
+        "1886"
+      ],
+      "correctIndex": 0,
+      "explanation": "Caldwell's Comparative Grammar (1856) established the separateness of the Dravidian family and the antiquity of Tamil.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0198",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which European missionary wrote the Tamil epic Thembavani and compiled the Sathurakarathi dictionary?",
+      "options": [
+        "G.U. Pope",
+        "Veeramamunivar (Constantine Beschi)",
+        "Ziegenbalg",
+        "Robert Caldwell"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constantine Joseph Beschi (Veeramamunivar) wrote Thembavani and the Sathurakarathi.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0199",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "A full-fledged printing press was established at Tranquebar in 1709 by:",
+      "options": [
+        "F.W. Ellis",
+        "Robert Caldwell",
+        "Ziegenbalg",
+        "Henrique Henriques"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bartholomaeus Ziegenbalg set up the Tranquebar press in 1709; Tamil was the first non-European language to go into print.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0200",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Arrange the following Tamil works in chronological order of composition:\n1. Periyapuranam\n2. Silappathikaram\n3. Tholkappiyam\n4. Thiruvarutpa",
+      "options": [
+        "3, 2, 1, 4",
+        "2, 3, 1, 4",
+        "3, 1, 2, 4",
+        "2, 1, 3, 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tholkappiyam (earliest grammar) → Silappathikaram (post-Sangam epic) → Periyapuranam (12th century) → Thiruvarutpa (19th century).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0201",
+      "topicId": "a6-tamil-literature-sangam-contemporary",
+      "prompt": "Which of the following is the first Tamil writer to receive the Jnanpith Award (1975), for the novel Chithirappavai?",
+      "options": [
+        "Akilan",
+        "Jayakanthan",
+        "Kalki",
+        "Mu. Varadarasanar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akilan (P.V. Akilandam) received the Jnanpith in 1975 for Chithirappavai; Jayakanthan was the second Tamil recipient.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0202",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "How many adhikarams (chapters) does the Thirukkural have?",
+      "options": [
+        "100",
+        "133",
+        "150",
+        "108"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Thirukkural has 133 adhikarams of 10 couplets each, giving 1,330 kurals.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0203",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "How many couplets does each adhikaram of the Thirukkural contain?",
+      "options": [
+        "Seven",
+        "Twelve",
+        "Five",
+        "Ten"
+      ],
+      "correctIndex": 3,
+      "explanation": "Each of the 133 adhikarams has ten kurals (133 × 10 = 1,330).",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0204",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Thirukkural belongs to which group of Tamil works?",
+      "options": [
+        "Ettuthogai",
+        "Pathupattu",
+        "Aimperum Kappiyangal",
+        "Pathinen Keezhkanakku"
+      ],
+      "correctIndex": 3,
+      "explanation": "Thirukkural is the pre-eminent work of the Pathinen Keezhkanakku (18 minor works), the post-Sangam didactic collection.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0205",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The three books (paals) of the Thirukkural are:",
+      "options": [
+        "Aram, Porul and Inbam",
+        "Ezhuthu, Sol and Porul",
+        "Puhar, Madurai and Vanji",
+        "Akam, Puram and Isai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thirukkural is divided into Aram (virtue), Porul (wealth/polity) and Inbam (love). Ezhuthu, Sol, Porul are Tholkappiyam's divisions.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0206",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "How many adhikarams are there in Arathuppal, the book on virtue?",
+      "options": [
+        "70",
+        "38",
+        "25",
+        "40"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arathuppal has 38 adhikarams (380 kurals), Porutpal 70 and Kamathuppal (Inbam) 25.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0207",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "How many adhikarams does Kamathuppal (Inbathuppal) of the Thirukkural contain?",
+      "options": [
+        "38",
+        "70",
+        "25",
+        "30"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kamathuppal has 25 adhikarams, i.e. 250 couplets.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0208",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Thirukkural is written in which metre?",
+      "options": [
+        "Asiriyappa",
+        "Kalippa",
+        "Vanjippa",
+        "Kural venba"
+      ],
+      "correctIndex": 3,
+      "explanation": "Every kural is a two-line kural venba: four feet (cheer) in the first line and three in the second.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0209",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "How many 'cheer' (metrical feet) does a kural venba have in all?",
+      "options": [
+        "Seven",
+        "Five",
+        "Eight",
+        "Ten"
+      ],
+      "correctIndex": 0,
+      "explanation": "A kural venba has seven cheer – four in the first line and three in the second.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0210",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "What is the first adhikaram of the Thirukkural?",
+      "options": [
+        "Vaan Sirappu",
+        "Kadavul Vazhthu",
+        "Neethar Perumai",
+        "Aran Valiyuruthal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kadavul Vazhthu (in praise of God) is the first adhikaram, opening with 'Agara mudhala ezhuthellam'. Vaan Sirappu (excellence of rain) is the second.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0211",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The second adhikaram of the Thirukkural, Vaan Sirappu, is in praise of:",
+      "options": [
+        "Ascetics",
+        "Virtue",
+        "Rain",
+        "Learning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vaan Sirappu celebrates the excellence of rain; Neethar Perumai (third) praises ascetics and Aran Valiyuruthal (fourth) asserts the strength of virtue.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0212",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which is the last (133rd) adhikaram of the Thirukkural?",
+      "options": [
+        "Kadavul Vazhthu",
+        "Kalvi",
+        "Nanri Marappu",
+        "Oodaluvagai"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Kural ends with Oodaluvagai (the pleasure of lovers' quarrel) in Kamathuppal.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0213",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The kural 'Karka kasadara karpavai karrapin nirka atharku thaga' belongs to which adhikaram?",
+      "options": [
+        "Kalvi (Learning)",
+        "Ozhukkamudaimai (Propriety of conduct)",
+        "Virunthombal (Hospitality)",
+        "Ookkamudaimai (Energy)"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Learn flawlessly what should be learnt, and then live according to it' is the first kural of the Kalvi adhikaram.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0214",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which kural expresses the universal message that 'all living beings are equal by birth'?",
+      "options": [
+        "Agara mudhala ezhuthellam",
+        "Pirappokkum ellaa uyirkkum",
+        "Karka kasadara",
+        "Suzhandrum erppinnadhu ulagam"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Pirappokkum ellaa uyirkkum' – birth is alike for all beings; distinction comes only from one's deeds.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0215",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "'Suzhandrum erppinnadhu ulagam' ('However the world turns, it follows the plough') is from which adhikaram?",
+      "options": [
+        "Iraimaatchi (Greatness of the king)",
+        "Porul Seyalvagai (Earning wealth)",
+        "Uzhavu (Agriculture)",
+        "Kudiyiyal (Citizenship)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The opening kural of the Uzhavu (agriculture) adhikaram stresses the centrality of farming.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0216",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "According to Valluvar (Kural 591), what alone can truly be called 'possession' (udaimai)?",
+      "options": [
+        "Wealth",
+        "Education",
+        "Royal power",
+        "Energy or zeal (ookkam)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Udaiyar enappaduvathu ookkam' – those who possess energy alone are truly possessors; others possess nothing real.",
+      "sourceTag": "question-bank-2025",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0217",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which of the following is NOT another name of the Thirukkural?",
+      "options": [
+        "Naaladiyar",
+        "Muppal",
+        "Poyyamozhi",
+        "Ulaga Podhumarai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Naaladiyar is a separate Keezhkanakku work. Muppal (three-part work), Poyyamozhi and Ulaga Podhumarai are names of the Kural.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0218",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The Thirukkural is called 'Ulaga Podhumarai'. This name means:",
+      "options": [
+        "Book of three parts",
+        "Common scripture of the world",
+        "Scripture of the Tamils alone",
+        "Book of kings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ulaga Podhumarai means 'universal common scripture', reflecting the Kural's appeal to all people regardless of religion or region.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0219",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which feature best explains why the Thirukkural is regarded as secular and universal?",
+      "options": [
+        "It was written in Sanskrit and Tamil",
+        "It was composed by a royal court",
+        "It does not name any particular religion, deity, king, region or even the Tamil language",
+        "It contains only devotional hymns"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Kural speaks of virtue, polity and love for all humanity without naming a specific religion, deity, ruler or land.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0220",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Among the ten medieval commentators on the Thirukkural, whose commentary is the most celebrated?",
+      "options": [
+        "Manakkudavar",
+        "Nachinarkiniyar",
+        "Adiyarkunallar",
+        "Parimelazhagar"
+      ],
+      "correctIndex": 3,
+      "explanation": "Parimelazhagar's commentary (13th century) is the most widely studied; Manakkudavar was an earlier commentator. Adiyarkunallar commented on Silappathikaram.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0221",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "In which year was the Thirukkural first printed, making it one of the earliest Tamil literary texts to be published?",
+      "options": [
+        "1812",
+        "1709",
+        "1886",
+        "1856"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Class 10 textbook states that Thirukkural was published in 1812, among the earliest Tamil literary texts printed.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0222",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Who translated the Thirukkural into Latin in the 18th century?",
+      "options": [
+        "G.U. Pope",
+        "Veeramamunivar (Constantine Beschi)",
+        "Ziegenbalg",
+        "F.W. Ellis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constantine Joseph Beschi (Veeramamunivar) translated the Aram and Porul sections into Latin.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0223",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "G.U. Pope, who wished his tombstone to describe him as 'a student of Tamil', translated which three works into English?",
+      "options": [
+        "Thirukkural, Silappathikaram and Manimekalai",
+        "Purananuru, Akananuru and Kalithogai",
+        "Thirukkural, Naladiyar and Thiruvasagam",
+        "Kambaramayanam, Periyapuranam and Thevaram"
+      ],
+      "correctIndex": 2,
+      "explanation": "G.U. Pope published English translations of Thirukkural (1886), Naladiyar and Thiruvasagam.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0224",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which Russian writer quoted a Thirukkural couplet in his 'A Letter to a Hindu' (1908), a letter that influenced Mahatma Gandhi?",
+      "options": [
+        "Fyodor Dostoevsky",
+        "Anton Chekhov",
+        "Maxim Gorky",
+        "Leo Tolstoy"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tolstoy quoted the Kural's teaching on returning good for evil in 'A Letter to a Hindu', which Gandhi read and translated.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0225",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The Thiruvalluvar statue at Kanyakumari stands how many feet tall in all, matching the number of adhikarams?",
+      "options": [
+        "133 feet",
+        "100 feet",
+        "108 feet",
+        "1330 feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The statue, unveiled on 1 January 2000, is 133 ft tall in total (a 38 ft pedestal plus a 95 ft statue), matching the 133 adhikarams.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0226",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The 38-foot pedestal of the Thiruvalluvar statue at Kanyakumari symbolises:",
+      "options": [
+        "The 38 years Valluvar lived",
+        "The 38 adhikarams of Arathuppal",
+        "The 38 Sangam poets",
+        "The 38 commentaries on the Kural"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 38 ft pedestal represents the 38 chapters of Aram; the 95 ft statue stands for Porul (70) and Inbam (25).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0227",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Valluvar Kottam, the chariot-shaped memorial to Thiruvalluvar on which all 1,330 couplets are inscribed, is located in:",
+      "options": [
+        "Kanyakumari",
+        "Mylapore Temple, Madurai",
+        "Chennai",
+        "Thanjavur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valluvar Kottam in Chennai (opened 1976) is shaped like a temple chariot and displays all 1,330 kurals.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0228",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The Thiruvalluvar Era (Thiruvalluvar Aandu) used by the Tamil Nadu government is obtained by adding how many years to the Common Era year?",
+      "options": [
+        "78",
+        "57",
+        "100",
+        "31"
+      ],
+      "correctIndex": 3,
+      "explanation": "Thiruvalluvar Aandu = CE + 31, based on 31 BCE as Valluvar's traditional date.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0229",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Arrange the divisions (iyals) of Porutpal in their order in the Thirukkural, as per Parimelazhagar:",
+      "options": [
+        "Arasiyal, Amaichiyal (Angaviyal), Ozhibiyal",
+        "Amaichiyal, Arasiyal, Ozhibiyal",
+        "Ozhibiyal, Arasiyal, Amaichiyal",
+        "Arasiyal, Ozhibiyal, Amaichiyal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Porutpal opens with Arasiyal (on the king), then Amaichiyal/Angaviyal (limbs of the state) and ends with Ozhibiyal (miscellany).",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0230",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Kamathuppal is divided into which two iyals?",
+      "options": [
+        "Illaraviyal and Thuravaraviyal",
+        "Kalaviyal and Karpiyal",
+        "Arasiyal and Amaichiyal",
+        "Akam and Puram"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kamathuppal has Kalaviyal (premarital love, 7 chapters) and Karpiyal (wedded love, 18 chapters). Illaraviyal and Thuravaraviyal are in Aram.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0231",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which iyal of Arathuppal deals with the virtues of the householder?",
+      "options": [
+        "Thuravaraviyal",
+        "Ozhibiyal",
+        "Illaraviyal",
+        "Kalaviyal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Illaraviyal covers domestic virtue (the householder's life); Thuravaraviyal covers the ascetic's virtue.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0232",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The adhikaram 'Virunthombal' in the Thirukkural is about:",
+      "options": [
+        "Gratitude",
+        "Patience",
+        "Agriculture",
+        "Hospitality"
+      ],
+      "correctIndex": 3,
+      "explanation": "Virunthombal means hospitality – receiving and feeding guests – a central householder virtue.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0233",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The adhikaram 'Seynnandri Arithal' teaches the value of:",
+      "options": [
+        "Gratitude",
+        "Friendship",
+        "Truthfulness",
+        "Courage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seynnandri Arithal is about remembering help received, i.e. gratitude.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0234",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which Thirukkural adhikaram deals with non-killing?",
+      "options": [
+        "Kalvi",
+        "Kollamai",
+        "Ozhukkamudaimai",
+        "Uzhavu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kollamai (not killing) belongs to the Thuravaraviyal of Aram and states non-violence as the supreme virtue.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0235",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Consider the following about the Thirukkural:\n1. It has 1,330 couplets in 133 chapters.\n2. Porutpal, on wealth and polity, is the largest of its three books.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both correct: 133 × 10 = 1,330 couplets, and Porutpal has 70 of the 133 chapters, more than Aram (38) and Inbam (25) together.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0236",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Assertion (A): The Thirukkural is regarded as a universal ethical work.\nReason (R): It addresses virtue, statecraft and love for all humanity without confining itself to any one sect, caste or region.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both are true and R explains A; its non-sectarian treatment of ethics is why it is called Ulaga Podhumarai.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0237",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "The kural venba of the Thirukkural has how many lines?",
+      "options": [
+        "Four",
+        "Three",
+        "Two",
+        "One"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each kural is a couplet of two lines; 'kural' itself means short.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0238",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which of the following is a later Keezhkanakku work that, like the Kural, consists of 400 quatrains and was composed by Jain monks?",
+      "options": [
+        "Thirikadugam",
+        "Naladiyar",
+        "Elathi",
+        "Acharakkovai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naladiyar's 400 four-line verses are attributed to Jain monks; it is often paired with the Kural ('Naalum irandum sollukku urudhi').",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0239",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Match the Pathinen Keezhkanakku works with their authors:\n(a) Thirikadugam  (b) Inna Narpathu  (c) Acharakkovai  (d) Pazhamozhi Nanuru\n1. Kapilar  2. Peruvayil Mulliyar  3. Nallathanar  4. Munrurai Araiyanar",
+      "options": [
+        "a-1, b-3, c-2, d-4",
+        "a-3, b-1, c-4, d-2",
+        "a-3, b-1, c-2, d-4",
+        "a-3, b-2, c-1, d-4"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thirikadugam – Nallathanar; Inna Narpathu – Kapilar; Acharakkovai – Peruvayil Mulliyar; Pazhamozhi Nanuru – Munrurai Araiyanar.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0240",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Kalavazhi Narpathu, unlike most Keezhkanakku works, deals with war. It describes the battle between Chola Senganan and:",
+      "options": [
+        "Pandya Nedunchezhiyan",
+        "Pallava Mahendravarman",
+        "Athiyaman Neduman Anji",
+        "Chera Kanaikkal Irumporai"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kalavazhi Narpathu by Poigaiyar describes Chola Kochenganan's battle against the Chera Kanaikkal Irumporai at Kazhumalam.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0241",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Iniyavai Narpathu ('Forty Pleasant Things') was written by:",
+      "options": [
+        "Poothanchenthanar",
+        "Kapilar",
+        "Kariyasan",
+        "Vilambi Naganar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iniyavai Narpathu is by Poothanchenthanar; Inna Narpathu ('Forty Painful Things') is by Kapilar.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0242",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Which of the following Keezhkanakku works is an akam (love) work rather than a didactic one?",
+      "options": [
+        "Thirikadugam",
+        "Kar Narpathu",
+        "Sirupanchamoolam",
+        "Elathi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kar Narpathu (on the rainy season and separation) is one of the six akam works; Thirikadugam, Sirupanchamoolam and Elathi are ethical works.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0243",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Thirikadugam, Sirupanchamoolam and Elathi are named after:",
+      "options": [
+        "Musical instruments",
+        "Ancient ports",
+        "Traditional medicinal preparations",
+        "Royal titles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thirikadugam (three pungents), Sirupanchamoolam (five small roots) and Elathi (cardamom mixture) are named after medicines, since they cure moral ills.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0244",
+      "topicId": "a6-thirukkural-significance-secular-literature",
+      "prompt": "Periyar suggested replacing the expression 'giving in marriage' with 'valkaithunai'. From which adhikaram of the Kural does this idea of the wife as 'life's companion' come?",
+      "options": [
+        "Virunthombal",
+        "Kalvi",
+        "Kollamai",
+        "Vazhkkai Thunainalam"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vazhkkai Thunainalam ('the worth of a life-partner'), the sixth adhikaram, uses the term valkaithunai.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0245",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Keeladi (Keezhadi), the Sangam-age urban site, lies on the banks of which river?",
+      "options": [
+        "Vaigai",
+        "Thamirabarani",
+        "Kaveri",
+        "Noyyal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Keeladi is on the Vaigai, near Madurai; the textbook notes that the Keeladi excavation on the banks of the Vaigai shows urbanisation by about the 6th century BCE.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0246",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "In which district is Keeladi (Keezhadi) located?",
+      "options": [
+        "Madurai",
+        "Sivagangai",
+        "Ramanathapuram",
+        "Virudhunagar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Keezhadi village is in Thiruppuvanam taluk of Sivagangai district, south-east of Madurai.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0247",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "A carbon sample from the fourth season (2018) of the Keeladi excavations was dated by AMS to:",
+      "options": [
+        "1155 BCE",
+        "200 CE",
+        "580 BCE",
+        "3345 BCE"
+      ],
+      "correctIndex": 2,
+      "explanation": "Of six carbon samples sent to Beta Analytic, Florida, the one from a depth of 353 cm dated to 580 BCE, pointing to literacy and urbanisation in the 6th century BCE.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0248",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "The Keeladi findings are significant because they suggest that urbanisation in Tamil Nadu occurred around the 6th century BCE, at about the same time as in:",
+      "options": [
+        "Mesopotamia",
+        "The Indus valley",
+        "Southeast Asia",
+        "The Gangetic plains"
+      ],
+      "correctIndex": 3,
+      "explanation": "The textbook states Keeladi suggests urbanisation in Tamil Nadu around the 6th century BCE, like in the Gangetic plains.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0249",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which of the following was NOT among the finds at Keeladi?",
+      "options": [
+        "Stone hand-axes of the Lower Palaeolithic",
+        "Brick structures and drainage",
+        "Tamil-Brahmi inscribed potsherds",
+        "Spindle whorls and dice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Keeladi yielded brick buildings, drains, Tamil-Brahmi potsherds, beads, spindle whorls and ivory dice; it is an early-historic site, not a Palaeolithic one.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0250",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "The discovery of about 180 spindle whorls, bone tips, loom weights and a copper needle at Keeladi is evidence of:",
+      "options": [
+        "Iron smelting",
+        "A weaving and cloth-making industry",
+        "Pearl fishing",
+        "Shipbuilding"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Class 11 textbook says these finds show spinning, warping, weaving and dyeing at Keeladi.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0251",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Bricks found at Keeladi are similar to those of other Sangam-age sites, with a size ratio of:",
+      "options": [
+        "1:2:4",
+        "1:3:5",
+        "1:4:6",
+        "1:1:2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Class 11 textbook notes Keeladi bricks have the ratio 1:4:6, showing mastery of construction technology.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0252",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Red earthenware found at Keeladi has been compared to which Roman pottery of the 2nd century BCE?",
+      "options": [
+        "Amphora ware",
+        "Rouletted ware",
+        "Painted Grey Ware",
+        "Arretine ware"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 11 textbook states Keeladi's red earthenware is akin to Arretine ware used in Rome in the 2nd century BCE.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0253",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which institution identified bones of cow/ox, buffalo, sheep, goat, nilgai, blackbuck, wild boar and peacock among animal remains from Keeladi?",
+      "options": [
+        "Deccan College, Pune",
+        "Beta Analytic, Florida",
+        "Archaeological Survey of India, Delhi",
+        "Madras Christian College"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Deccan College Post-graduate and Research Institute, Pune, tested 70 bone samples from Keeladi.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0254",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Adichanallur, the famous urn-burial site, is located in which district?",
+      "options": [
+        "Tirunelveli",
+        "Thoothukudi",
+        "Sivagangai",
+        "Dindigul"
+      ],
+      "correctIndex": 1,
+      "explanation": "Adichanallur, on the Thamirabarani (Porunai), is in Thoothukudi district.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0255",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Adichanallur, Sivakalai and Korkai all lie in the basin of which river?",
+      "options": [
+        "Vaigai",
+        "Kaveri",
+        "Thamirabarani (Porunai)",
+        "Palar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The textbook describes the Porunai (Thamirabarani) basin – Adichanallur, Sivakalai and Korkai – as 'the cradle of Tamil civilisation'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0256",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "The first archaeological excavation at Adichanallur was carried out in 1876 by:",
+      "options": [
+        "Alexander Rea",
+        "Mortimer Wheeler",
+        "Robert Bruce Foote",
+        "Dr. Jagor, a German explorer"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dr. Jagor excavated Adichanallur in 1876; Alexander Rea followed in 1899–1905.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0257",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "The British archaeologist who excavated Adichanallur between 1899 and 1905 and displayed its finds at the Madras Government Museum was:",
+      "options": [
+        "Alexander Rea",
+        "Mortimer Wheeler",
+        "John Marshall",
+        "Robert Bruce Foote"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alexander Rea excavated during 1899–1905 and displayed the artefacts at the Madras Government Museum.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0258",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Husked paddy from a burial urn at Sivakalai, excavated in 2019, was radiocarbon-dated to:",
+      "options": [
+        "580 BCE",
+        "1155 BCE",
+        "490 BCE",
+        "300 CE"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta Analytic Laboratory, Florida dated the Sivakalai paddy to 1155 BCE, making the Thamirabarani civilisation about 3,200 years old.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0259",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "The 2025 Tamil Nadu report 'Antiquity of Iron' pushed back iron use in the state to about 3345 BCE, mainly on the basis of samples from:",
+      "options": [
+        "Keeladi",
+        "Arikamedu",
+        "Sivakalai",
+        "Kodumanal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The report, released in January 2025, cited dates as old as 3345 BCE for charcoal found with iron objects in burial urns at Sivakalai (Thoothukudi district).",
+      "sourceTag": "web-researched",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0260",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which of these items was found in the burial urns of Adichanallur?",
+      "options": [
+        "Roman amphorae",
+        "Tamil-Brahmi rock inscriptions",
+        "Pallava copper plates",
+        "Gold diadems and high-tin bronze objects"
+      ],
+      "correctIndex": 3,
+      "explanation": "Adichanallur urns contained bones, utensils, gold diadems, high-tin bronze vessels and iron weapons.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0261",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Korkai, mentioned in Sangam and Greek texts, was a famous port of which dynasty?",
+      "options": [
+        "Pandyas",
+        "Cholas",
+        "Cheras",
+        "Pallavas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Korkai on the Thamirabarani estuary was the Pandya port, famous for pearls.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0262",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Arikamedu, a Sangam-age port with evidence of Roman trade, is near:",
+      "options": [
+        "Nagapattinam",
+        "Puducherry",
+        "Thoothukudi",
+        "Chennai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arikamedu lies near Puducherry and was excavated by the ASI.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0263",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which of the following archaeologists did NOT excavate Arikamedu?",
+      "options": [
+        "Mortimer Wheeler",
+        "J.M. Casal",
+        "Alexander Rea",
+        "A. Ghosh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mortimer Wheeler, J.M. Casal, A. Ghosh and Krishna Deva excavated Arikamedu; Alexander Rea worked at Adichanallur.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0264",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Arikamedu and Kudikkadu near Cuddalore show evidence of which industry?",
+      "options": [
+        "Iron smelting",
+        "Shell-bangle making",
+        "Weaving",
+        "Glass-bead making"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 9 textbook says Arikkamedu and Kudikkadu show evidence of a glass-bead industry.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0265",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Kodumanal, an important Sangam-age industrial site, is located in which district?",
+      "options": [
+        "Erode",
+        "Dindigul",
+        "Madurai",
+        "Thoothukudi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kodumanal, on the Noyyal river, is near Erode.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0266",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Kodumanal is identified with 'Kodumanam' mentioned in which Sangam work?",
+      "options": [
+        "Purananuru",
+        "Pathitrupathu",
+        "Maduraikanchi",
+        "Kalithogai"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Class 9 textbook says Kodumanal is identified with the Kodumanam of Pathitrupathu.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0267",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which of the following was found at Kodumanal?",
+      "options": [
+        "Roman Arretine ware and a planned port",
+        "Pallava-period temples",
+        "Over 300 Tamil-Brahmi pottery inscriptions and evidence of bead-making",
+        "A Neolithic hand-axe factory"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kodumanal yielded iron, stone-bead and shell work, megalithic burials and more than 300 Tamil-Brahmi pottery inscriptions.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0268",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Evidence of iron smelting in the Sangam age has been found at:",
+      "options": [
+        "Arikamedu and Korkai",
+        "Keeladi and Azhagankulam",
+        "Mangulam and Jambai",
+        "Kodumanal and Guttur"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 9 textbook cites Kodumanal and Guttur for traditional iron-smelting furnaces.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0269",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Porunthal, where a pot filled with rice was found in a grave, is in which district?",
+      "options": [
+        "Dindigul",
+        "Thoothukudi",
+        "Sivagangai",
+        "Erode"
+      ],
+      "correctIndex": 0,
+      "explanation": "Porunthal is near Palani in Dindigul district.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0270",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Paddy from a grave at Porunthal, dated by AMS, helped place the Tamil-Brahmi script found there in about:",
+      "options": [
+        "The 12th century BCE",
+        "The 5th century BCE (c. 490 BCE)",
+        "The 3rd century CE",
+        "The 8th century CE"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paddy from Porunthal (excavated by Pondicherry University under K. Rajan) dated to about 490 BCE, pushing Tamil-Brahmi back to the 5th century BCE.",
+      "sourceTag": "web-researched",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0271",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Match the site with its notable find (as in the Class 6 textbook):\n(a) Keezhadi  (b) Porunthal  (c) Kodumanal  (d) Adichanallur\n1. Gold ornaments  2. Ivory dice  3. Tip of ploughs  4. Spindles",
+      "options": [
+        "a-3, b-2, c-4, d-1",
+        "a-2, b-4, c-3, d-1",
+        "a-2, b-3, c-4, d-1",
+        "a-1, b-3, c-4, d-2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Keezhadi – ivory dice; Porunthal – plough tips; Kodumanal – spindles (spindle whorls); Adichanallur – gold ornaments.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0272",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Azhagankulam, where a potsherd bearing a ship motif was found, is in which district?",
+      "options": [
+        "Nagapattinam",
+        "Kanyakumari",
+        "Cuddalore",
+        "Ramanathapuram"
+      ],
+      "correctIndex": 3,
+      "explanation": "Azhagankulam, a Sangam-age port site near the Vaigai mouth, is in Ramanathapuram district.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0273",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Pottery with Tamil-Brahmi names has been found at Berenike and Quseir al-Qadim. These sites are on the coast of:",
+      "options": [
+        "The Red Sea in Egypt",
+        "The Persian Gulf",
+        "The Mediterranean in Italy",
+        "The Gulf of Thailand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Berenike and Quseir al-Qadim are Red Sea ports in Egypt, showing early Tamil trade with the West.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0274",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Three Tamil-Brahmi names – Panaiori, Kanan and Cattan – were found on pottery at which overseas site?",
+      "options": [
+        "Khuan Luk Pat",
+        "Quseir al-Qadim",
+        "Berenike",
+        "Khor Rori"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Class 9 textbook notes these three names inscribed on pottery at Quseir al-Qadim on the Red Sea coast.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0275",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "A touchstone inscribed 'Perumpatankal', probably used by a goldsmith, was found at Khuan Luk Pat in:",
+      "options": [
+        "Sri Lanka",
+        "Egypt",
+        "Thailand",
+        "Oman"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'Perumpatankal' touchstone was found at Khuan Luk Pat, Thailand; Southeast Asia was 'Suvarna Bhumi' in Tamil literature.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0276",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Tamil-Brahmi cave inscriptions are found mostly in natural caves that were the abodes of:",
+      "options": [
+        "Pallava kings",
+        "Roman traders",
+        "Sangam poets",
+        "Jaina monks"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tamil-Brahmi inscriptions occur in caves converted into residences for monks, mostly Jaina monks.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0277",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which of the following is NOT a site of caves with Tamil-Brahmi inscriptions?",
+      "options": [
+        "Arikamedu",
+        "Mangulam",
+        "Jambai",
+        "Arachalur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mangulam, Muttupatti, Pugalur, Arachalur, Kongarpuliyankulam and Jambai are cave-inscription sites; Arikamedu is a port site.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0278",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Hero stones of the Sangam age with Tamil-Brahmi inscriptions were found in 2006 at Pulimankombai in which district?",
+      "options": [
+        "Pudukkottai",
+        "Theni",
+        "Dindigul",
+        "Krishnagiri"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pulimankombai, in the Vaigai valley of Theni district, yielded rare Tamil-Brahmi hero-stone inscriptions in 2006.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0279",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Hero stones (nadukal) of the Sangam age were erected mainly in memory of warriors who:",
+      "options": [
+        "Built temples",
+        "Won poetry contests",
+        "Died in battles and cattle raids",
+        "Founded ports"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hero stones commemorate those who lost their lives in battles and cattle raids; Tholkappiyam describes how they were erected.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0280",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Punch-marked coins of the Sangam age have been found at:",
+      "options": [
+        "Keeladi and Korkai",
+        "Adichanallur and Sivakalai",
+        "Arikamedu and Kaveripoompattinam",
+        "Kodumanal and Bodinayakkanur"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Class 9 textbook says punch-marked coins were found at Kodumanal and Bodinayakkanur.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0281",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Roman coins in Tamil Nadu are concentrated mostly in which region?",
+      "options": [
+        "Coimbatore region",
+        "Kanyakumari region",
+        "Chennai region",
+        "Thanjavur delta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roman coins are concentrated in the Coimbatore region and also found at Azhagankulam, Karur and Madurai.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0282",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "In Sangam society, salt merchants who travelled in bullock carts with their families were called:",
+      "options": [
+        "Parathavar",
+        "Umanar",
+        "Kalamceyko",
+        "Vanikan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Salt merchants were Umanars; Parathavars collected conch shells; Kalamceyko were potters.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0283",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which of the following were the seven Velir chieftains (Kadai Ezhu Vallalgal) of the Sangam age?",
+      "options": [
+        "Karikalan, Senguttuvan, Nedunchezhiyan, Pari, Ori, Nalli and Ai",
+        "Pari, Kapilar, Avvaiyar, Nakkeerar, Ori, Nalli and Pegan",
+        "Pari, Kari, Ori, Nalli, Pegan, Ai and Athiyaman",
+        "Kari, Ori, Pegan, Senguttuvan, Ai, Nannan and Pari"
+      ],
+      "correctIndex": 2,
+      "explanation": "The seven Velirs were Pari, Kari, Ori, Nalli, Pegan, Ai and Athiyaman, famous for their generosity.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-A-VI-h0284",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which Ashokan edict mentions the Cholas, Pandyas, Keralaputras and Satiyaputras as neighbours beyond his domain?",
+      "options": [
+        "Rock Edict XIII",
+        "Pillar Edict VII",
+        "Kalinga Edict",
+        "Rock Edict II"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rock Edict II lists these Tamil ruling houses as independent neighbours and mentions medical facilities provided for humans and animals.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0285",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which Akananuru poem describes Yavana ships bringing gold and returning with pepper at the port of Muciri?",
+      "options": [
+        "Akananuru 149",
+        "Akananuru 1",
+        "Akananuru 400",
+        "Akananuru 86"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akananuru 149 describes 'the well-crafted ships of the Yavana' coming with gold and returning with pepper at Muciri.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0286",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Assertion (A): Black-and-red ware is characteristic of the Iron Age (megalithic) sites of Tamil Nadu.\nReason (R): Black-and-red ware has a black inside and a red outside with a lustrous surface.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both are true, but R only describes the pottery; it does not explain why the ware is characteristic of the Iron Age.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0287",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Arrange the following dates from archaeological finds in Tamil Nadu from the oldest to the most recent:\n1. Keeladi carbon sample\n2. Sivakalai paddy\n3. Porunthal paddy\n4. Sivakalai iron-associated charcoal (2025 report)",
+      "options": [
+        "4, 2, 1, 3",
+        "2, 4, 1, 3",
+        "4, 2, 3, 1",
+        "2, 4, 3, 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "c. 3345 BCE (Sivakalai iron, 2025 report) → 1155 BCE (Sivakalai paddy) → 580 BCE (Keeladi) → c. 490 BCE (Porunthal).",
+      "sourceTag": "web-researched",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-A-VI-h0288",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Which agency began the excavations at Keeladi in 2015 before the Tamil Nadu State Department of Archaeology took over?",
+      "options": [
+        "Deccan College, Pune",
+        "Pondicherry University",
+        "Madras University",
+        "Archaeological Survey of India"
+      ],
+      "correctIndex": 3,
+      "explanation": "The ASI excavated Keeladi first (from 2015); the TN State Department of Archaeology conducted the later phases from 2018.",
+      "sourceTag": "web-researched",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-A-VI-h0289",
+      "topicId": "a6-tamil-society-archaeological-discoveries",
+      "prompt": "Consider the following statements:\n1. Kaveripoompattinam, Korkai and Azhagankulam were port centres of the Sangam age.\n2. Kanchipuram, Uraiyur, Karur and Madurai were inland trade centres of the Sangam age.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both are correct as per the Class 9 textbook, which also lists Arikamedu and Pattanam as ports and Kodumanal as an inland centre.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    }
+  ]
+}

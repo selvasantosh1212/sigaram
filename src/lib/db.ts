@@ -91,6 +91,11 @@ async function migrate(db: Client): Promise<void> {
   if (!hasSourceTag) {
     await db.execute("ALTER TABLE attempt_answers ADD COLUMN source_tag TEXT NOT NULL DEFAULT 'unknown'");
   }
+  // question_snapshot holds the question exactly as shown (shuffled options, generated
+  // numbers) for full-mock rows; NULL means "re-read it from the topic file".
+  if (!columns.some((c) => c.name === "question_snapshot")) {
+    await db.execute("ALTER TABLE attempt_answers ADD COLUMN question_snapshot TEXT");
+  }
 
   const attemptColumns = rowsToObjects(await db.execute("PRAGMA table_info(attempts)")) as Array<{ name: string }>;
   if (!attemptColumns.some((c) => c.name === "week_number")) {

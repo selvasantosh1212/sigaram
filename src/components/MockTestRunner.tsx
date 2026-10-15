@@ -61,7 +61,7 @@ export function MockTestRunner({
           </span>
         </div>
 
-        <p className="mt-4 text-lg font-bold text-zinc-900">{current.prompt}</p>
+        <p className="mt-4 whitespace-pre-line text-lg font-bold text-zinc-900">{current.prompt}</p>
 
         <div className="mt-4 space-y-2">
           {current.options.map((opt, idx) => {

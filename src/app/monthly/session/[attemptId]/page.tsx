@@ -24,6 +24,7 @@ export default async function MonthlySessionPage({
     part: r.part,
     topicId: r.topic_id,
     questionId: r.question_id,
+    snapshot: r.question_snapshot,
   }));
   const questions = hydrateQuestionRefs(refs);
 

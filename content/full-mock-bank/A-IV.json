@@ -1,0 +1,786 @@
+{
+ "unitId": "A-IV",
+ "passages": [],
+ "questions": [
+  {
+   "id": "bank-A-IV-p0001",
+   "topicId": "a4-political-parties-system",
+   "prompt": "Political parties are registered with the Election Commission of India under which provision?",
+   "options": [
+    "Section 29A of the Representation of the People Act, 1951",
+    "Article 324 of the Constitution",
+    "Section 77 of the Representation of the People Act, 1951",
+    "The Tenth Schedule of the Constitution"
+   ],
+   "correctIndex": 0,
+   "explanation": "Section 29A of the RP Act, 1951 provides for registering associations and bodies as political parties with the Election Commission.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-IV-p0002",
+   "topicId": "a4-political-parties-system",
+   "prompt": "The Model Code of Conduct for political parties and candidates during elections is:",
+   "options": [
+    "Part of the Representation of the People Act, 1951",
+    "Not statutory; it rests on consensus among political parties",
+    "Contained in the Tenth Schedule",
+    "Laid down in Article 329"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Model Code of Conduct has no statutory backing. The Election Commission enforces it under its Article 324 powers, based on consensus among parties. It began in Kerala in 1960.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0003",
+   "topicId": "a4-political-parties-system",
+   "prompt": "The 'None of the Above' (NOTA) option was introduced on EVMs following a Supreme Court judgment in:",
+   "options": [
+    "2009",
+    "2004",
+    "2013",
+    "2017"
+   ],
+   "correctIndex": 2,
+   "explanation": "In PUCL v. Union of India (September 2013), the Supreme Court directed that a NOTA option be provided.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0004",
+   "topicId": "a4-political-parties-system",
+   "prompt": "Electronic Voting Machines (EVMs) were first used, on an experimental basis, in 1982 in which Assembly constituency?",
+   "options": [
+    "Noksen, Nagaland",
+    "Thiruvallur, Tamil Nadu",
+    "Bhopal South, Madhya Pradesh",
+    "Paravur, Kerala"
+   ],
+   "correctIndex": 3,
+   "explanation": "EVMs were first used at Paravur (Kerala) in 1982. VVPAT was first used at Noksen (Nagaland) in 2013.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0005",
+   "topicId": "a4-political-parties-system",
+   "prompt": "The 'Congress System', describing one-party dominance in Indian politics in the decades after Independence, was a concept developed by:",
+   "options": [
+    "Rajni Kothari",
+    "Granville Austin",
+    "K.C. Wheare",
+    "Myron Weiner"
+   ],
+   "correctIndex": 0,
+   "explanation": "Political scientist Rajni Kothari described the 'Congress System' of one-party dominance in the 1960s.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0006",
+   "topicId": "a4-political-parties-system",
+   "prompt": "Match the electoral reform committees with their subjects:\n(a) Dinesh Goswami Committee (1990) - 1. State funding of elections\n(b) Indrajit Gupta Committee (1998) - 2. Comprehensive electoral reforms\n(c) Tarkunde Committee (1974) - 3. Electoral reforms appointed by Jayaprakash Narayan\n(d) Vohra Committee (1993) - 4. Criminal-politician nexus",
+   "options": [
+    "a-1, b-2, c-3, d-4",
+    "a-2, b-1, c-3, d-4",
+    "a-2, b-1, c-4, d-3",
+    "a-3, b-1, c-2, d-4"
+   ],
+   "correctIndex": 1,
+   "explanation": "Goswami: electoral reforms (1990). Indrajit Gupta: State funding of elections (1998). Tarkunde: appointed by JP (1974). N.N. Vohra: nexus between criminals and politicians (1993).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0007",
+   "topicId": "a4-political-parties-system",
+   "prompt": "Who was the first Chief Election Commissioner of India, who conducted the first general elections of 1951-52?",
+   "options": [
+    "K.V.K. Sundaram",
+    "T.N. Seshan",
+    "Sukumar Sen",
+    "S.P. Sen Verma"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sukumar Sen was the first CEC (1950-58) and conducted the first two general elections.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0008",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Who was appointed the first Chairperson of the Lokpal of India in 2019?",
+   "options": [
+    "Justice A.K. Sikri",
+    "Justice J.S. Khehar",
+    "Justice H.L. Dattu",
+    "Justice Pinaki Chandra Ghose"
+   ],
+   "correctIndex": 3,
+   "explanation": "Justice Pinaki Chandra Ghose, a former Supreme Court judge, became the first Lokpal Chairperson in March 2019.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0009",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Under the Lokpal and Lokayuktas Act, 2013, the Lokpal consists of a Chairperson and a maximum of how many members?",
+   "options": [
+    "Eight",
+    "Five",
+    "Ten",
+    "Twelve"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Lokpal has a Chairperson and up to eight members, of whom 50% must be judicial members.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0010",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Which State was the first to set up the institution of Lokayukta, in 1971?",
+   "options": [
+    "Odisha",
+    "Maharashtra",
+    "Karnataka",
+    "Tamil Nadu"
+   ],
+   "correctIndex": 1,
+   "explanation": "Maharashtra set up a Lokayukta in 1971. Odisha had passed a Lokayukta Act in 1970 but brought it into force only in 1983.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0011",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "The setting up of the Lokpal and Lokayukta was first recommended by the:",
+   "options": [
+    "Santhanam Committee, 1964",
+    "Sarkaria Commission, 1983",
+    "First Administrative Reforms Commission (Morarji Desai), 1966",
+    "Second Administrative Reforms Commission, 2005"
+   ],
+   "correctIndex": 2,
+   "explanation": "The First ARC (1966-70), headed by Morarji Desai, recommended two special authorities: the Lokpal and the Lokayukta.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0012",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "The Central Vigilance Commission (CVC) was set up in 1964 on the recommendation of the:",
+   "options": [
+    "Administrative Reforms Commission",
+    "Vohra Committee",
+    "Kripalani Committee",
+    "Santhanam Committee on Prevention of Corruption"
+   ],
+   "correctIndex": 3,
+   "explanation": "The K. Santhanam Committee (1962-64) recommended setting up the CVC.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0013",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Which was the first State in India to enact a law on the right to information, in 1997?",
+   "options": [
+    "Tamil Nadu",
+    "Rajasthan",
+    "Maharashtra",
+    "Goa"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Tamil Nadu Right to Information Act, 1997 was the first such State law, followed by Goa (1997) and others.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0014",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "The Right to Information Act, 2005 came fully into force on:",
+   "options": [
+    "15 June 2005",
+    "12 October 2005",
+    "26 January 2006",
+    "15 August 2005"
+   ],
+   "correctIndex": 1,
+   "explanation": "The RTI Act received assent on 15 June 2005 and came fully into force on 12 October 2005.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0015",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Who was the first Chairperson of the National Human Rights Commission (NHRC)?",
+   "options": [
+    "Justice M.N. Venkatachaliah",
+    "Justice J.S. Verma",
+    "Justice Ranganath Misra",
+    "Justice A.S. Anand"
+   ],
+   "correctIndex": 2,
+   "explanation": "Justice Ranganath Misra, a former Chief Justice of India, was the first NHRC Chairperson (1993).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0016",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Human Rights Day is observed every year on 10 December because on that day in 1948:",
+   "options": [
+    "The United Nations was founded",
+    "India's NHRC was established",
+    "The Geneva Conventions were signed",
+    "The UN General Assembly adopted the Universal Declaration of Human Rights"
+   ],
+   "correctIndex": 3,
+   "explanation": "The UDHR was adopted by the UN General Assembly on 10 December 1948.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-IV-p0017",
+   "topicId": "a4-anticorruption-rti-human-rights",
+   "prompt": "Consider the following statements:\n(1) National Consumer Day is observed in India on 24 December.\n(2) World Consumer Rights Day is observed on 15 March.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "(1) only",
+    "(2) only",
+    "Both (1) and (2)",
+    "Neither (1) nor (2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both are correct. 24 December marks the enactment of the Consumer Protection Act, 1986; 15 March recalls President Kennedy's 1962 address on consumer rights.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0018",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "The Election Commission of India became a multi-member body on a lasting basis from:",
+   "options": [
+    "1950",
+    "1993",
+    "1989",
+    "2004"
+   ],
+   "correctIndex": 1,
+   "explanation": "Two Election Commissioners were briefly added in 1989 but removed in 1990. From October 1993 the Commission has been a three-member body.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0019",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "The voting age in India was lowered from 21 to 18 years by the:",
+   "options": [
+    "42nd Amendment Act, 1976",
+    "44th Amendment Act, 1978",
+    "73rd Amendment Act, 1992",
+    "61st Amendment Act, 1988"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 61st Amendment (1988) amended Article 326 to lower the voting age to 18.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0020",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "Which Article of the Constitution bars courts from interfering in electoral matters, such as the delimitation of constituencies?",
+   "options": [
+    "Article 329",
+    "Article 324",
+    "Article 326",
+    "Article 327"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 329 bars courts from interfering in electoral matters. An election can be challenged only through an election petition.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-IV-p0021",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "Under which Article can the President seek the advisory opinion of the Supreme Court on a question of law or fact?",
+   "options": [
+    "Article 143",
+    "Article 131",
+    "Article 137",
+    "Article 141"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 143 gives the Supreme Court advisory jurisdiction. Article 131 is original jurisdiction, 137 is review, and 141 makes its law binding on all courts.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0022",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "Disputes between the Government of India and one or more States fall under which jurisdiction of the Supreme Court?",
+   "options": [
+    "Appellate jurisdiction under Article 132",
+    "Original jurisdiction under Article 131",
+    "Writ jurisdiction under Article 32",
+    "Advisory jurisdiction under Article 143"
+   ],
+   "correctIndex": 1,
+   "explanation": "Article 131 gives the Supreme Court exclusive original jurisdiction in Centre-State and inter-State disputes.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0023",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "The Madras High Court, one of the three oldest chartered High Courts in India, was established in:",
+   "options": [
+    "1857",
+    "1911",
+    "1862",
+    "1950"
+   ],
+   "correctIndex": 2,
+   "explanation": "The High Courts of Calcutta, Bombay and Madras were set up in 1862 under the Indian High Courts Act, 1861.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0024",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "Lok Adalats and the National Legal Services Authority (NALSA) were given statutory status under the:",
+   "options": [
+    "Gram Nyayalayas Act, 2008",
+    "Code of Civil Procedure, 1908",
+    "Arbitration and Conciliation Act, 1996",
+    "Legal Services Authorities Act, 1987"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Legal Services Authorities Act, 1987 gave Lok Adalats statutory status and set up NALSA to give effect to Article 39A.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0025",
+   "topicId": "a4-elections-judiciary-rule-of-law",
+   "prompt": "Assertion [A]: The Supreme Court is a 'court of record'.\nReason [R]: Its judgments are recorded for perpetual memory and testimony, and it has the power to punish for its contempt.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 129 makes the Supreme Court a court of record. [R] describes exactly what this means, so it explains [A].",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0026",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "A joint sitting of both Houses of Parliament, held to resolve a deadlock over an ordinary bill, is presided over by:",
+   "options": [
+    "The Vice-President of India",
+    "The Speaker of the Lok Sabha",
+    "The President of India",
+    "The senior-most member of the Rajya Sabha"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under Article 108 the President summons the joint sitting and the Speaker presides. Joint sittings cannot be held for Money Bills or Constitution Amendment Bills.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0027",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "Which of the following bills was passed at a joint sitting of the two Houses of Parliament?\n(1) Dowry Prohibition Bill, 1959\n(2) Banking Service Commission (Repeal) Bill, 1977\n(3) Prevention of Terrorism Bill, 2002",
+   "options": [
+    "(1) only",
+    "(1) and (3) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "There have been only three joint sittings, in 1961, 1978 and 2002, for these three bills.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-IV-p0028",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "The total number of Ministers, including the Prime Minister, in the Union Council of Ministers cannot exceed 15% of the strength of the Lok Sabha. This limit was introduced by the:",
+   "options": [
+    "42nd Amendment Act, 1976",
+    "52nd Amendment Act, 1985",
+    "91st Amendment Act, 2003",
+    "44th Amendment Act, 1978"
+   ],
+   "correctIndex": 2,
+   "explanation": "The 91st Amendment (2003) inserted Article 75(1A) on the 15% limit and also tightened the anti-defection law.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0029",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "Under which Article is the Vice-President the ex-officio Chairman of the Council of States (Rajya Sabha)?",
+   "options": [
+    "Article 64",
+    "Article 63",
+    "Article 66",
+    "Article 89"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 63 creates the office of Vice-President, Article 64 makes the Vice-President ex-officio Chairman of the Rajya Sabha, and Article 66 deals with the election.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0030",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "The President's power to grant pardons, reprieves, respites or remissions of punishment is provided under:",
+   "options": [
+    "Article 161",
+    "Article 72",
+    "Article 123",
+    "Article 74"
+   ],
+   "correctIndex": 1,
+   "explanation": "Article 72 covers the President's pardoning power. Article 161 is the Governor's equivalent and Article 123 is the ordinance power.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0031",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "The Comptroller and Auditor General of India is appointed under which Article?",
+   "options": [
+    "Article 76",
+    "Article 280",
+    "Article 148",
+    "Article 315"
+   ],
+   "correctIndex": 2,
+   "explanation": "Article 148 provides for the CAG. Article 76 deals with the Attorney General, 280 with the Finance Commission and 315 with the Public Service Commissions.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0032",
+   "topicId": "a4-union-executive-legislature",
+   "prompt": "Who is the highest law officer of the Government of India?",
+   "options": [
+    "The Solicitor General of India",
+    "The Chief Justice of India",
+    "The Union Law Minister",
+    "The Attorney General of India"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Attorney General (Article 76) is the highest law officer and has the right to speak in, but not vote in, Parliament.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-IV-p0033",
+   "topicId": "a4-state-executive-legislature",
+   "prompt": "The Tamil Nadu Legislative Council was abolished with effect from:",
+   "options": [
+    "1 November 1986",
+    "26 January 1970",
+    "15 August 1977",
+    "1 April 1991"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Tamil Nadu Legislative Council was abolished from 1 November 1986 under the Tamil Nadu Legislative Council (Abolition) Act, 1986, after the Assembly passed a resolution under Article 169.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0034",
+   "topicId": "a4-state-executive-legislature",
+   "prompt": "Under Article 169, a State Legislative Council can be created or abolished by:",
+   "options": [
+    "The Governor on the advice of the Chief Minister",
+    "Parliament by law, after the State Assembly passes a resolution by special majority",
+    "The President by order",
+    "A Constitutional Amendment under Article 368"
+   ],
+   "correctIndex": 1,
+   "explanation": "Parliament acts by ordinary law, which is not treated as an amendment under Article 368, after the Assembly passes a resolution by special majority.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0035",
+   "topicId": "a4-state-executive-legislature",
+   "prompt": "The strength of a State Legislative Council must not exceed one-third of the State Legislative Assembly's total membership, and must not be less than:",
+   "options": [
+    "30",
+    "50",
+    "40",
+    "60"
+   ],
+   "correctIndex": 2,
+   "explanation": "Under Article 171, the Council's strength must be no more than one-third of the Assembly and no less than 40.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-IV-p0036",
+   "topicId": "a4-federalism-centre-state",
+   "prompt": "The Rajamannar Committee (1969), which examined Centre-State relations and recommended greater State autonomy, was appointed by the Government of:",
+   "options": [
+    "Kerala",
+    "West Bengal",
+    "Punjab",
+    "Tamil Nadu"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Tamil Nadu Government (M. Karunanidhi) appointed the P.V. Rajamannar Committee in 1969.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0037",
+   "topicId": "a4-federalism-centre-state",
+   "prompt": "The Commission on Centre-State Relations set up in 2007 was headed by:",
+   "options": [
+    "Justice M.M. Punchhi",
+    "Justice R.S. Sarkaria",
+    "Justice M.N. Venkatachaliah",
+    "P.V. Rajamannar"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Punchhi Commission (2007) followed the Sarkaria Commission (1983) in reviewing Centre-State relations.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0038",
+   "topicId": "a4-federalism-centre-state",
+   "prompt": "Under which Article can Parliament legislate on a State List subject if the Rajya Sabha declares, by a two-thirds majority, that this is necessary in the national interest?",
+   "options": [
+    "Article 252",
+    "Article 249",
+    "Article 253",
+    "Article 250"
+   ],
+   "correctIndex": 1,
+   "explanation": "Article 249 covers Rajya Sabha resolutions. Article 250 covers emergencies, 252 State consent, and 253 implementing international agreements.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0039",
+   "topicId": "a4-local-government-panchayat-raj",
+   "prompt": "The Ashok Mehta Committee (1977-78) on Panchayati Raj recommended a:",
+   "options": [
+    "Three-tier system with the Gram Panchayat as the apex",
+    "Single-tier system at the village level",
+    "Two-tier system with the Zila Parishad and Mandal Panchayat",
+    "Four-tier system including a State Panchayat Council"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ashok Mehta recommended a two-tier system: Zila Parishad at the district level and Mandal Panchayat below it.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0040",
+   "topicId": "a4-local-government-panchayat-raj",
+   "prompt": "Under the 74th Amendment, which Article provides for a District Planning Committee to consolidate the plans of Panchayats and Municipalities?",
+   "options": [
+    "Article 243ZE",
+    "Article 243I",
+    "Article 243K",
+    "Article 243ZD"
+   ],
+   "correctIndex": 3,
+   "explanation": "Article 243ZD provides for District Planning Committees, 243ZE for Metropolitan Planning Committees, 243I for State Finance Commissions and 243K for State Election Commissions.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0041",
+   "topicId": "a4-local-government-panchayat-raj",
+   "prompt": "The State Finance Commission, which reviews the financial position of Panchayats, is constituted every five years by the Governor under:",
+   "options": [
+    "Article 243I",
+    "Article 243G",
+    "Article 280",
+    "Article 243K"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 243I provides for a State Finance Commission for Panchayats. Article 243Y applies it to Municipalities.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0042",
+   "topicId": "a4-fundamental-duties-dpsp",
+   "prompt": "Which of the following Articles of the Directive Principles were inserted by the 42nd Amendment Act, 1976?\n(1) Article 39A - Equal justice and free legal aid\n(2) Article 43A - Participation of workers in management of industries\n(3) Article 48A - Protection of environment, forests and wildlife",
+   "options": [
+    "(1) only",
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "All three Articles (39A, 43A and 48A) were added by the 42nd Amendment, 1976.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0043",
+   "topicId": "a4-fundamental-duties-dpsp",
+   "prompt": "In which case did the Supreme Court hold that harmony and balance between Fundamental Rights and Directive Principles is part of the basic structure of the Constitution?",
+   "options": [
+    "Golaknath case (1967)",
+    "Champakam Dorairajan case (1951)",
+    "Minerva Mills case (1980)",
+    "Maneka Gandhi case (1978)"
+   ],
+   "correctIndex": 2,
+   "explanation": "In Minerva Mills (1980) the Court struck down parts of the 42nd Amendment that gave all DPSPs primacy over Articles 14 and 19.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0044",
+   "topicId": "a4-fundamental-rights-equality-freedom-exploitation",
+   "prompt": "Reservation of up to 10% for Economically Weaker Sections (EWS) in education and public employment was introduced by the:",
+   "options": [
+    "101st Amendment Act, 2016",
+    "103rd Amendment Act, 2019",
+    "102nd Amendment Act, 2018",
+    "104th Amendment Act, 2020"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 103rd Amendment (2019) inserted Articles 15(6) and 16(6). The Supreme Court upheld it in Janhit Abhiyan (2022).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0045",
+   "topicId": "a4-fundamental-rights-equality-freedom-exploitation",
+   "prompt": "The Right to Property was removed from the list of Fundamental Rights and made a constitutional legal right under Article 300A by the:",
+   "options": [
+    "44th Amendment Act, 1978",
+    "42nd Amendment Act, 1976",
+    "1st Amendment Act, 1951",
+    "25th Amendment Act, 1971"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 44th Amendment (1978) repealed Articles 19(1)(f) and 31 and inserted Article 300A.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0046",
+   "topicId": "a4-fundamental-rights-religion-cultural-remedies",
+   "prompt": "Article 28 of the Constitution deals with:",
+   "options": [
+    "Freedom to manage religious affairs",
+    "Freedom from religious instruction in certain educational institutions",
+    "Freedom from taxes for promoting a religion",
+    "Protection of interests of minorities"
+   ],
+   "correctIndex": 1,
+   "explanation": "Article 28 bars religious instruction in wholly State-funded institutions and makes attendance voluntary in State-aided or State-recognised ones.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0047",
+   "topicId": "a4-fundamental-rights-religion-cultural-remedies",
+   "prompt": "Which writ is issued by a superior court to quash an order already passed by a lower court or tribunal acting beyond its jurisdiction?",
+   "options": [
+    "Prohibition",
+    "Mandamus",
+    "Certiorari",
+    "Habeas Corpus"
+   ],
+   "correctIndex": 2,
+   "explanation": "Certiorari is corrective and is issued after the order is passed. Prohibition is preventive and is issued while the proceedings are pending.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0048",
+   "topicId": "a4-union-state-territory",
+   "prompt": "Madras State was renamed 'Tamil Nadu' with effect from:",
+   "options": [
+    "1 November 1956",
+    "26 January 1965",
+    "1 November 1968",
+    "14 January 1969"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Madras State (Alteration of Name) Act, 1968 renamed the State Tamil Nadu from 14 January 1969.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0049",
+   "topicId": "a4-union-state-territory",
+   "prompt": "The first State formed on a linguistic basis, in 1953, after the death of Potti Sriramulu following his fast, was:",
+   "options": [
+    "Andhra State",
+    "Kerala",
+    "Karnataka (Mysore)",
+    "Bombay"
+   ],
+   "correctIndex": 0,
+   "explanation": "Andhra State was carved out of Madras State on 1 October 1953.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0050",
+   "topicId": "a4-salient-features-of-constitution",
+   "prompt": "Who was the Constitutional Adviser to the Constituent Assembly, who prepared its initial draft of the Constitution?",
+   "options": [
+    "Dr. B.R. Ambedkar",
+    "Sir B.N. Rau",
+    "K.M. Munshi",
+    "Alladi Krishnaswamy Iyer"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sir B.N. Rau was the Constitutional Adviser. His draft was examined by the Drafting Committee under Dr. Ambedkar.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0051",
+   "topicId": "a4-citizenship",
+   "prompt": "Which of the following is NOT a ground on which the Central Government may deprive a naturalised citizen of Indian citizenship?",
+   "options": [
+    "Obtaining citizenship by fraud or concealment of material facts",
+    "Showing disloyalty to the Constitution of India",
+    "Residing in another State of India for over seven years",
+    "Unlawfully trading with an enemy during a war"
+   ],
+   "correctIndex": 2,
+   "explanation": "Deprivation grounds under the Citizenship Act, 1955 include fraud, disloyalty, trading with the enemy in wartime, and imprisonment within five years of registration or naturalisation. Moving between States has no effect because India has single citizenship.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-IV-p0052",
+   "topicId": "a4-constitution-preamble-overview",
+   "prompt": "Who was elected the permanent President of the Constituent Assembly on 11 December 1946?",
+   "options": [
+    "Dr. B.R. Ambedkar",
+    "Jawaharlal Nehru",
+    "Dr. Sachchidananda Sinha",
+    "Dr. Rajendra Prasad"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dr. Rajendra Prasad was elected permanent President on 11 December 1946; Sachchidananda Sinha had been the temporary chairman.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  }
+ ]
+}

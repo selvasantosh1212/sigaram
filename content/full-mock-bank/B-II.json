@@ -1,0 +1,1460 @@
+{
+  "unitId": "B-II",
+  "passages": [],
+  "questions": [
+    {
+      "id": "bank-B-II-r0001",
+      "topicId": "b2-dice",
+      "prompt": "Three different positions of the same dice show these visible faces: (i) 1, 2, 3  (ii) 1, 3, 6  (iii) 1, 5, 6. Which number is opposite to 1?",
+      "options": [
+        "2",
+        "5",
+        "6",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "Faces seen together with 1 are adjacent to it. From the three views, 1 is adjacent to 2, 3, 5 and 6. A face has only four neighbours, so the one number never seen with 1, which is 4, must be opposite to it.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "List every number that appears with the given face. The number that never appears with it is the opposite face."
+    },
+    {
+      "id": "bank-B-II-r0002",
+      "topicId": "b2-dice",
+      "prompt": "Two positions of a dice are given as (Top, Front, Right): Position 1 = (2, 4, 6) and Position 2 = (2, 1, 5). Which number is opposite to 6?",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "3"
+      ],
+      "correctIndex": 2,
+      "explanation": "The top face 2 is common and is in the same place in both positions. So the faces in matching places are opposite: Front 4 is opposite Front 1, and Right 6 is opposite Right 5. The remaining pair is 2 and 3.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "When a common face is in the same position in two views, the faces in the matching positions are opposite."
+    },
+    {
+      "id": "bank-B-II-r0003",
+      "topicId": "b2-dice",
+      "prompt": "A standard dice (opposite faces add up to 7) rests on a table with 2 on the top face. What is the total number of dots on its four side faces?",
+      "options": [
+        "14",
+        "12",
+        "15",
+        "19"
+      ],
+      "correctIndex": 0,
+      "explanation": "All six faces of a die add up to 1+2+3+4+5+6 = 21. Top 2 and bottom 5 together make 7. The four side faces add up to 21 − 7 = 14.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "On a standard die the four side faces always total 21 − 7 = 14, whatever is on top."
+    },
+    {
+      "id": "bank-B-II-r0004",
+      "topicId": "b2-dice",
+      "prompt": "Three standard dice (opposite faces add up to 7) are stacked one on top of another on a table. The top face of the uppermost die shows 4. What is the total number of dots on all the horizontal faces that are hidden (the faces touching each other and the face touching the table)?",
+      "options": [
+        "14",
+        "17",
+        "18",
+        "21"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hidden faces: bottom of the top die = 7 − 4 = 3; top and bottom of the middle die = 7; top and bottom of the lowest die = 7. Total = 3 + 7 + 7 = 17.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Each fully hidden die contributes a top–bottom pair = 7. Add 7 for each such die, then add the hidden bottom of the top die."
+    },
+    {
+      "id": "bank-B-II-r0005",
+      "topicId": "b2-dice",
+      "prompt": "Three standard dice (opposite faces add up to 7) lie on a table with 1, 2 and 3 on their top faces. What is the total number of dots on their bottom faces?",
+      "options": [
+        "15",
+        "6",
+        "14",
+        "21"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bottom faces are 7 − 1 = 6, 7 − 2 = 5 and 7 − 3 = 4. Total = 6 + 5 + 4 = 15.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Bottom total = 7 × (number of dice) − top total = 21 − 6 = 15."
+    },
+    {
+      "id": "bank-B-II-r0006",
+      "topicId": "b2-dice",
+      "prompt": "A cube painted blue on all its faces is cut into 64 equal smaller cubes. How many of the smaller cubes have exactly two faces painted?",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "24"
+      ],
+      "correctIndex": 3,
+      "explanation": "64 = 4 × 4 × 4, so n = 4. Cubes with exactly two painted faces lie on the 12 edges, excluding the corners: 12 × (n − 2) = 12 × 2 = 24.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Two faces painted = 12(n − 2); three faces = 8; one face = 6(n − 2)²; none = (n − 2)³."
+    },
+    {
+      "id": "bank-B-II-r0007",
+      "topicId": "b2-dice",
+      "prompt": "Six faces of a cube are drawn as a cross-shaped net: face X is in the centre, A is above X, C is to the left of X, D is to the right of X, B is below X and E is below B. When the net is folded into a cube, which face is opposite to A?",
+      "options": [
+        "E",
+        "C",
+        "B",
+        "D"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the vertical strip A–X–B–E, faces with exactly one square between them are opposite: A is opposite B, and X is opposite E. C and D, on either side of X, are opposite each other.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "In a straight strip of a net, alternate squares (skip one) are opposite faces."
+    },
+    {
+      "id": "bank-B-II-r0008",
+      "topicId": "b2-dice",
+      "prompt": "A cube net has four squares in a row, numbered 1, 2, 3, 4 from left to right. Square 5 is attached above square 2 and square 6 is attached below square 2. When folded into a cube, which number is opposite to 2?",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "5"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the row 1–2–3–4, alternate squares are opposite: 1 is opposite 3 and 2 is opposite 4. Squares 5 and 6 fold up from the top and bottom edges of the strip, so they are opposite each other.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Skip one square in a row to find the opposite face."
+    },
+    {
+      "id": "bank-B-II-r0009",
+      "topicId": "b2-dice",
+      "prompt": "In the flat layout of a box, squares K, L, M and N are joined in one straight horizontal line. Square P sits on top of K and square R hangs below N. After folding this layout into a closed cube, which face lies opposite P?",
+      "options": [
+        "L",
+        "M",
+        "N",
+        "R"
+      ],
+      "correctIndex": 3,
+      "explanation": "The row K–L–M–N wraps round to form the four side faces (K opposite M, L opposite N). Square P folds over the top of the band and square R folds under the bottom, so P and R are opposite. It does not matter which square of the row they are attached to.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "One square above the row and one below it always become the top and bottom, which are opposite faces."
+    },
+    {
+      "id": "bank-B-II-r0010",
+      "topicId": "b2-dice",
+      "prompt": "On a standard dice the numbers on opposite faces add up to 7. If 3 is on the top face, which of these numbers can NOT be on any of the four side faces?",
+      "options": [
+        "4",
+        "1",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bottom face is 7 − 3 = 4. The side faces are 1, 2, 5 and 6. So 4 cannot be on a side face.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0011",
+      "topicId": "b2-dice",
+      "prompt": "Three positions of a cube with letters on its faces show these visible faces: (i) A, B, C  (ii) A, C, F  (iii) B, C, D. Which letter is opposite to C?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "B"
+      ],
+      "correctIndex": 1,
+      "explanation": "C appears together with A, B, F and D, so these four are adjacent to C. The only letter never seen with C is E, so E is opposite to C.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Pick the face that appears in all views, collect its neighbours, and the missing letter is opposite."
+    },
+    {
+      "id": "bank-B-II-r0012",
+      "topicId": "b2-dice",
+      "prompt": "Three positions of a dice show these visible numbers: (i) 2, 1, 4  (ii) 2, 4, 3  (iii) 2, 3, 6. Which number is opposite to 2?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "2 appears in all three views, together with 1, 4, 3 and 6. These are its four neighbours, so the opposite face is the number not seen with 2, which is 5.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0013",
+      "topicId": "b2-dice",
+      "prompt": "Two positions of a dice show the visible faces (1, 2, 3) and (1, 2, 5). Which number is opposite to 3?",
+      "options": [
+        "1",
+        "2",
+        "6",
+        "5"
+      ],
+      "correctIndex": 3,
+      "explanation": "Both views show the edge where faces 1 and 2 meet. That edge has two ends (corners). At one corner the third face is 3 and at the other it is 5. The two faces that close the two ends of the same edge are opposite each other, so 3 is opposite 5.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "If two views share TWO faces, the remaining faces of the two views are opposite."
+    },
+    {
+      "id": "bank-B-II-r0014",
+      "topicId": "b2-dice",
+      "prompt": "The six faces of a cube are coloured red, blue, green, yellow, white and black. Red is opposite black and blue is opposite yellow. Which colour is opposite green?",
+      "options": [
+        "White",
+        "Red",
+        "Blue",
+        "Black"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cube has three pairs of opposite faces. Two pairs are red–black and blue–yellow, so the third pair must be green–white.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0015",
+      "topicId": "b2-dice",
+      "prompt": "A standard dice (opposite faces add up to 7) is placed on a table with 1 on top, 2 facing north and 3 facing east. It is rolled over once towards the north. Which number is now on top?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "When a die rolls towards the north, the top face goes to the north side and the south face comes up to the top. The south face is opposite north (2), so it is 7 − 2 = 5. Now 5 is on top.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Rolling towards a direction brings the face on the OPPOSITE side to the top."
+    },
+    {
+      "id": "bank-B-II-r0016",
+      "topicId": "b2-dice",
+      "prompt": "Mani keeps an ordinary die (opposite sides total seven) with one dot uppermost, two dots towards the north and three dots towards the east. He tips it over once onto its east side. How many dots now show uppermost?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rolling east sends the top face to the east side and brings the west face to the top. The west face is opposite east (3), so it is 7 − 3 = 4.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0017",
+      "topicId": "b2-dice",
+      "prompt": "Two dice are thrown together. What is the probability that the sum of the numbers is 9?",
+      "options": [
+        "1/12",
+        "1/9",
+        "5/36",
+        "1/6"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pairs giving 9: (3,6), (4,5), (5,4), (6,3), which is 4 outcomes out of 36. Probability = 4/36 = 1/9.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Number of ways for a sum s (s ≤ 7) is s − 1; for s > 7 it is 13 − s. For 9: 13 − 9 = 4."
+    },
+    {
+      "id": "bank-B-II-r0018",
+      "topicId": "b2-dice",
+      "prompt": "When a pair of dice is rolled, find the chance that multiplying the two scores gives an even result.",
+      "options": [
+        "1/2",
+        "1/4",
+        "2/3",
+        "3/4"
+      ],
+      "correctIndex": 3,
+      "explanation": "The product is odd only when both numbers are odd: 3 × 3 = 9 outcomes. So P(odd) = 9/36 = 1/4 and P(even) = 1 − 1/4 = 3/4.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Find the complement: odd × odd is the only way to get an odd product."
+    },
+    {
+      "id": "bank-B-II-r0019",
+      "topicId": "b2-dice",
+      "prompt": "A pair of dice is rolled at once. Find the chance that their total turns out to be a prime.",
+      "options": [
+        "1/3",
+        "7/18",
+        "5/12",
+        "1/2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prime sums possible: 2, 3, 5, 7, 11. Number of ways: 1 + 2 + 4 + 6 + 2 = 15. Probability = 15/36 = 5/12.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-B-II-r0020",
+      "topicId": "b2-dice",
+      "prompt": "A standard dice (opposite faces add up to 7) stands on a table so that its top face and four side faces can be seen. What is the greatest possible total of the visible dots?",
+      "options": [
+        "20",
+        "15",
+        "18",
+        "21"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visible total = 21 − (bottom face). This is greatest when the bottom face is 1, giving 21 − 1 = 20.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0021",
+      "topicId": "b2-dice",
+      "prompt": "A block has the letters P, Q, R, S, T and U painted on its sides. Looking at it in three ways you see P, Q, R first; then Q, S, T; then R, S, U. Find the letter on the side facing away from Q.",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "P"
+      ],
+      "correctIndex": 2,
+      "explanation": "Q is seen with P and R in view (i) and with S and T in view (ii). So Q is adjacent to P, R, S and T. The only remaining letter, U, is opposite to Q.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0022",
+      "topicId": "b2-dice",
+      "prompt": "A cube painted on all its faces is cut into 125 equal smaller cubes. How many of the smaller cubes have no face painted?",
+      "options": [
+        "8",
+        "36",
+        "64",
+        "27"
+      ],
+      "correctIndex": 3,
+      "explanation": "125 = 5 × 5 × 5, so n = 5. The unpainted cubes form the inner block of (n − 2)³ = 3³ = 27.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "No face painted = (n − 2)³."
+    },
+    {
+      "id": "bank-B-II-r0023",
+      "topicId": "b2-dice",
+      "prompt": "A wooden block measuring 3 cm on every edge is coloured red on every side and then sawn into 1 cm cubes. Count the small pieces that carry red on exactly one side.",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "n = 3. Cubes with only one painted face are at the centre of each face: 6 × (n − 2)² = 6 × 1 = 6.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "One face painted = 6(n − 2)²."
+    },
+    {
+      "id": "bank-B-II-r0024",
+      "topicId": "b2-puzzles",
+      "prompt": "Five friends A, B, C, D and E sit in a row facing north. C is in the middle. A is at the extreme left end. B is immediately to the right of C. E is not next to A. Who sits second from the left?",
+      "options": [
+        "E",
+        "D",
+        "B",
+        "C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Number seats 1 to 5 from the left. A = 1, C = 3, B = 4. D and E take seats 2 and 5. Since E is not next to A, E cannot be in seat 2, so E = 5 and D = 2. Order: A, D, C, B, E.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0025",
+      "topicId": "b2-puzzles",
+      "prompt": "Six persons A, B, C, D, E and F sit around a circular table facing the centre. A is opposite D. B is immediately to the right of A. E is immediately to the left of D. C is not next to A. Who sits immediately to the left of A?",
+      "options": [
+        "C",
+        "B",
+        "E",
+        "F"
+      ],
+      "correctIndex": 3,
+      "explanation": "Going clockwise (seen from above), place A in seat 0 and D opposite in seat 3. When facing the centre, a person's right is the anticlockwise neighbour and left is the clockwise neighbour. So B (right of A) = seat 5 and E (left of D) = seat 4. C and F take seats 1 and 2. C is not next to A, so C = 2 and F = 1. Seat 1 is to the left of A, so the answer is F.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "When everyone faces the centre, left = clockwise and right = anticlockwise."
+    },
+    {
+      "id": "bank-B-II-r0026",
+      "topicId": "b2-puzzles",
+      "prompt": "In a class of 40 students, Ravi's rank is 12th from the top. What is his rank from the bottom?",
+      "options": [
+        "28",
+        "30",
+        "29",
+        "27"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rank from bottom = total − rank from top + 1 = 40 − 12 + 1 = 29.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Top rank + bottom rank = total + 1."
+    },
+    {
+      "id": "bank-B-II-r0027",
+      "topicId": "b2-puzzles",
+      "prompt": "In a row of boys, Arun is 7th from the left and Babu is 12th from the right. When they exchange their places, Arun becomes 15th from the left. How many boys are in the row?",
+      "options": [
+        "26",
+        "25",
+        "27",
+        "22"
+      ],
+      "correctIndex": 0,
+      "explanation": "After the exchange Arun is in Babu's old place. That place is 15th from the left and 12th from the right. Total = 15 + 12 − 1 = 26.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "After an exchange, combine the NEW position from one end with the OLD position from the other end of the same seat."
+    },
+    {
+      "id": "bank-B-II-r0028",
+      "topicId": "b2-puzzles",
+      "prompt": "In a test, A scored more than B but less than C. D scored less than B. E scored more than C. Who came third?",
+      "options": [
+        "B",
+        "A",
+        "C",
+        "E"
+      ],
+      "correctIndex": 1,
+      "explanation": "Order from highest to lowest: E > C > A > B > D. The third person is A.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0029",
+      "topicId": "b2-puzzles",
+      "prompt": "A is B's brother. C is A's mother. D is C's father. E is D's mother. How is A related to D?",
+      "options": [
+        "Grandson",
+        "Son",
+        "Great-grandson",
+        "Nephew"
+      ],
+      "correctIndex": 0,
+      "explanation": "C is A's mother and D is C's father, so D is A's maternal grandfather. A is male (a brother), so A is D's grandson. E is only extra information.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0030",
+      "topicId": "b2-puzzles",
+      "prompt": "Pointing to a girl in a photograph, Kumar said, 'She is the daughter of my father's father's only son.' How is the girl related to Kumar?",
+      "options": [
+        "Cousin",
+        "Sister",
+        "Niece",
+        "Aunt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The only son of Kumar's father's father (his paternal grandfather) is Kumar's father himself. The daughter of Kumar's father is Kumar's sister.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Start from the end of the sentence: 'father's father's only son' = father."
+    },
+    {
+      "id": "bank-B-II-r0031",
+      "topicId": "b2-puzzles",
+      "prompt": "In a certain code, 'P + Q' means P is the father of Q, 'P − Q' means P is the wife of Q, and 'P × Q' means P is the brother of Q. If A + B × C − D, how is A related to D?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Grandfather",
+        "Father-in-law"
+      ],
+      "correctIndex": 3,
+      "explanation": "A + B: A is B's father. B × C: B is C's brother, so C is also A's child. C − D: C is D's wife, so C is A's daughter and D is her husband. A is therefore D's father-in-law.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Decode one symbol at a time from left to right and draw a small family tree."
+    },
+    {
+      "id": "bank-B-II-r0032",
+      "topicId": "b2-puzzles",
+      "prompt": "Anitha's mother is the sister of Bala's father. How is Anitha related to Bala?",
+      "options": [
+        "Niece",
+        "Sister",
+        "Cousin",
+        "Aunt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anitha's mother and Bala's father are sister and brother. Children of siblings are cousins.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0033",
+      "topicId": "b2-puzzles",
+      "prompt": "X and Y are the children of Z. Z is the father of X, but Y is not the son of Z. How is Y related to Z?",
+      "options": [
+        "Son",
+        "Niece",
+        "Wife",
+        "Daughter"
+      ],
+      "correctIndex": 3,
+      "explanation": "Y is a child of Z but not Z's son, so Y must be Z's daughter.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0034",
+      "topicId": "b2-puzzles",
+      "prompt": "Ram walks 10 m towards the north, turns right and walks 6 m, then turns right again and walks 10 m. Where is he now with respect to his starting point?",
+      "options": [
+        "6 m to the west",
+        "10 m to the south",
+        "6 m to the east",
+        "16 m to the east"
+      ],
+      "correctIndex": 2,
+      "explanation": "North 10 m, then right (east) 6 m, then right (south) 10 m. The north and south walks cancel, so he is 6 m east of the start.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Cancel opposite moves first: 10 N and 10 S cancel, leaving 6 E."
+    },
+    {
+      "id": "bank-B-II-r0035",
+      "topicId": "b2-puzzles",
+      "prompt": "Starting from point A, Sita walks 5 km south, turns left and walks 3 km, then turns left again and walks 9 km. In which direction is she now from A?",
+      "options": [
+        "South-east",
+        "North-east",
+        "North-west",
+        "East"
+      ],
+      "correctIndex": 1,
+      "explanation": "Facing south, a left turn means facing east, so she walks 3 km east. Facing east, a left turn means facing north, so she walks 9 km north. Net: 3 km east and 9 − 5 = 4 km north, so she is to the north-east of A.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0036",
+      "topicId": "b2-puzzles",
+      "prompt": "One morning after sunrise, Raju is standing so that his shadow falls exactly to his right. Which direction is he facing?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the morning the sun is in the east, so shadows fall towards the west. If west is on his right, he is facing south.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Morning shadow → west; evening shadow → east. Then fix your right hand on that direction."
+    },
+    {
+      "id": "bank-B-II-r0037",
+      "topicId": "b2-puzzles",
+      "prompt": "Mani walks 12 km to the west and then 5 km to the south. What is the shortest distance between Mani and his starting point?",
+      "options": [
+        "17 km",
+        "13 km",
+        "7 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "The two walks are at right angles, so distance = √(12² + 5²) = √(144 + 25) = √169 = 13 km.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Remember Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 6-8-10."
+    },
+    {
+      "id": "bank-B-II-r0038",
+      "topicId": "b2-puzzles",
+      "prompt": "26 January 2020 was a Sunday. On which day of the week did 26 January 2021 fall?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Tuesday",
+        "Sunday"
+      ],
+      "correctIndex": 2,
+      "explanation": "From 26 Jan 2020 to 26 Jan 2021 the period includes 29 February 2020, so it has 366 days = 52 weeks + 2 days. Sunday + 2 = Tuesday.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Check whether 29 February falls inside the period: if yes, add 2 days; if not, add 1."
+    },
+    {
+      "id": "bank-B-II-r0039",
+      "topicId": "b2-puzzles",
+      "prompt": "Today is Wednesday. Which day of the week will it be 100 days from today?",
+      "options": [
+        "Friday",
+        "Thursday",
+        "Saturday",
+        "Monday"
+      ],
+      "correctIndex": 0,
+      "explanation": "100 ÷ 7 leaves a remainder of 2 (98 = 14 weeks). Wednesday + 2 days = Friday.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Only the remainder after dividing by 7 matters."
+    },
+    {
+      "id": "bank-B-II-r0040",
+      "topicId": "b2-puzzles",
+      "prompt": "How many odd days are there in a leap year?",
+      "options": [
+        "1",
+        "0",
+        "3",
+        "2"
+      ],
+      "correctIndex": 3,
+      "explanation": "A leap year has 366 days = 52 weeks + 2 days, so it has 2 odd days.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Ordinary year = 1 odd day; leap year = 2 odd days."
+    },
+    {
+      "id": "bank-B-II-r0041",
+      "topicId": "b2-puzzles",
+      "prompt": "If the 3rd day of a month is a Monday, which day of the week is the 26th of the same month?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Wednesday"
+      ],
+      "correctIndex": 3,
+      "explanation": "From the 3rd to the 26th is 23 days = 3 weeks + 2 days. Monday + 2 = Wednesday.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0042",
+      "topicId": "b2-puzzles",
+      "prompt": "How many times do the hour hand and the minute hand of a clock coincide (overlap) in a day of 24 hours?",
+      "options": [
+        "22",
+        "24",
+        "12",
+        "44"
+      ],
+      "correctIndex": 0,
+      "explanation": "In every 12 hours the hands coincide 11 times (the overlap between 11 and 1 o'clock happens only once, at 12). So in 24 hours they coincide 22 times.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Coincide 22 times, opposite 22 times, right angle 44 times per day."
+    },
+    {
+      "id": "bank-B-II-r0043",
+      "topicId": "b2-puzzles",
+      "prompt": "At what time between 3 o'clock and 4 o'clock are the hands of a clock together?",
+      "options": [
+        "15 minutes past 3",
+        "16 4/11 minutes past 3",
+        "16 minutes past 3",
+        "17 3/11 minutes past 3"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 3:00 the minute hand is 15 minute-spaces (90°) behind the hour hand. It gains 11/2 degrees each minute, so it takes 90 ÷ 5.5 = 180/11 = 16 4/11 minutes to catch up.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Hands together between H and H+1 at (60H/11) minutes past H; for H = 3: 180/11 = 16 4/11."
+    },
+    {
+      "id": "bank-B-II-r0044",
+      "topicId": "b2-puzzles",
+      "prompt": "A clock gains 5 minutes every hour. It is set right at 6 a.m. What time will it show when the correct time is 6 p.m. the same day?",
+      "options": [
+        "6:05 p.m.",
+        "6:30 p.m.",
+        "7 p.m.",
+        "7:05 p.m."
+      ],
+      "correctIndex": 2,
+      "explanation": "From 6 a.m. to 6 p.m. is 12 hours. Gain = 12 × 5 = 60 minutes. So the clock shows 6 p.m. + 1 hour = 7 p.m.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0045",
+      "topicId": "b2-puzzles",
+      "prompt": "Five persons P, Q, R, S and T live on the five floors of a building, one on each floor (floor 1 is the lowest). S lives on the top floor. T lives on floor 1. Q lives immediately above T. P lives above Q but below R. Who lives on floor 3?",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "P"
+      ],
+      "correctIndex": 3,
+      "explanation": "T = 1, Q = 2, S = 5. Floors 3 and 4 are left for P and R. P is below R, so P = 3 and R = 4.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0046",
+      "topicId": "b2-puzzles",
+      "prompt": "Six children M, N, O, P, Q and R stand in a row facing north. N is third from the right end. M is immediately to the left of N. Q is at the left end. P is immediately to the right of Q. R is not at the right end. Who is at the right end?",
+      "options": [
+        "O",
+        "R",
+        "P",
+        "M"
+      ],
+      "correctIndex": 0,
+      "explanation": "Number places 1 to 6 from the left. N = 4 (third from the right), M = 3, Q = 1, P = 2. R and O take places 5 and 6. R is not at the right end, so R = 5 and O = 6.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-B-II-r0047",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statements: All roses are flowers. All flowers are plants. Conclusions: I. All roses are plants. II. Some plants are roses.",
+      "options": [
+        "Only I follows",
+        "Both I and II follow",
+        "Only II follows",
+        "Neither I nor II follows"
+      ],
+      "correctIndex": 1,
+      "explanation": "Roses lie inside flowers, and flowers lie inside plants, so all roses are plants (I). Since every rose is a plant, at least some plants are roses (II). Both follow.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "'All A are B' always gives 'Some B are A' by conversion."
+    },
+    {
+      "id": "bank-B-II-r0048",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statements: Some pens are books. No book is a bag. Conclusions: I. Some pens are not bags. II. No pen is a bag.",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Only I follows",
+        "Neither I nor II follows"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pens that are books cannot be bags, so I follows. Other pens (not books) may or may not be bags, so II does not follow.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Some + No = Some-not."
+    },
+    {
+      "id": "bank-B-II-r0049",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statements: All cats are dogs. No dog is a rat. Conclusions: I. No cat is a rat. II. Some rats are cats.",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cats lie entirely inside dogs, and dogs have nothing in common with rats, so no cat is a rat (I). II contradicts I, so it does not follow.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "All + No = No."
+    },
+    {
+      "id": "bank-B-II-r0050",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statements: Some boys are players. Some players are singers. Conclusions: I. Some boys are singers. II. No boy is a singer.",
+      "options": [
+        "Only I follows",
+        "Either I or II follows",
+        "Only II follows",
+        "Both I and II follow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two 'some' statements do not give a definite conclusion, so neither I nor II follows on its own. But I and II are about the same two terms (boys, singers) and one says 'some are', the other 'none are'. Exactly one of them must be true, so the answer is 'Either I or II follows'.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Some + Some = no conclusion; look for an 'either–or' pair."
+    },
+    {
+      "id": "bank-B-II-r0051",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statements: No apple is a mango. All mangoes are fruits. Conclusions: I. Some fruits are not apples. II. No fruit is an apple.",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Only I follows",
+        "Neither I nor II follows"
+      ],
+      "correctIndex": 2,
+      "explanation": "Every mango is a fruit and no mango is an apple, so those fruits (the mangoes) are not apples, and I follows. Apples may still be fruits outside the mango circle, so II does not follow.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "No + All (reversed) = Some-not."
+    },
+    {
+      "id": "bank-B-II-r0052",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statements: All teachers are graduates. Some graduates are unemployed. Conclusions: I. Some teachers are unemployed. II. All graduates are teachers.",
+      "options": [
+        "Neither I nor II follows",
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The unemployed graduates may or may not include teachers, so I is not certain. 'All teachers are graduates' cannot be reversed to 'All graduates are teachers', so II does not follow either.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "An 'All' statement can only be converted to 'Some', never to 'All'."
+    },
+    {
+      "id": "bank-B-II-r0053",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statement: Only students with identity cards will be allowed into the examination hall. Conclusions: I. A student without an identity card will not be allowed in. II. Every student with an identity card will pass the examination. Which conclusion follows?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Only students with ID cards' means having an ID card is necessary for entry, so I follows. The statement says nothing about passing, so II does not follow.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0054",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Statement: All the members of the club are above 18 years of age. Ravi is a member of the club. Conclusions: I. Ravi is above 18 years of age. II. Ravi is 25 years old. Which conclusion follows?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Either I or II follows"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ravi is a member, so he must be above 18 (I). His exact age cannot be found from the statement, so II does not follow.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0055",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Bird : Nest :: Bee : ?",
+      "options": [
+        "Den",
+        "Hive",
+        "Burrow",
+        "Stable"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bird lives in a nest; a bee lives in a hive. (Den – lion, burrow – rabbit, stable – horse.)",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0056",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Thermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Humidity",
+        "Wind speed",
+        "Atmospheric pressure",
+        "Rainfall"
+      ],
+      "correctIndex": 2,
+      "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure. (Hygrometer – humidity, anemometer – wind speed, rain gauge – rainfall.)",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0057",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Lion : Pride :: Fish : ?",
+      "options": [
+        "Herd",
+        "School",
+        "Flock",
+        "Swarm"
+      ],
+      "correctIndex": 1,
+      "explanation": "A group of lions is called a pride; a group of fish is called a school (or shoal). Herd – cattle, flock – sheep or birds, swarm – bees.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0058",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Analogy: 3 is related to 27 in the same way as 5 is related to which number?",
+      "options": [
+        "125",
+        "25",
+        "75",
+        "135"
+      ],
+      "correctIndex": 0,
+      "explanation": "3³ = 27, so the rule is 'cube the number'. 5³ = 125.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0059",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Analogy: just as 7 pairs with 50, which number pairs with 9 by the same rule?",
+      "options": [
+        "81",
+        "72",
+        "82",
+        "90"
+      ],
+      "correctIndex": 2,
+      "explanation": "7² + 1 = 50, so the rule is 'square and add 1'. 9² + 1 = 82.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Check squares and cubes first, then ±1."
+    },
+    {
+      "id": "bank-B-II-r0060",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Pen : Writer :: Brush : ?",
+      "options": [
+        "Sculptor",
+        "Tailor",
+        "Carpenter",
+        "Painter"
+      ],
+      "correctIndex": 3,
+      "explanation": "A writer works with a pen; a painter works with a brush. (Sculptor – chisel, tailor – needle, carpenter – saw.)",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0061",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Choose the odd one out: Mercury, Venus, Moon, Mars.",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Moon"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mercury, Venus and Mars are planets that go round the Sun. The Moon is a natural satellite of the Earth.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0062",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Which number is the odd one out: 121, 144, 169, 190?",
+      "options": [
+        "121",
+        "190",
+        "144",
+        "169"
+      ],
+      "correctIndex": 1,
+      "explanation": "121 = 11², 144 = 12² and 169 = 13² are perfect squares. 190 is not a perfect square.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0063",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Pick the odd one out: Square, Rectangle, Triangle, Rhombus.",
+      "options": [
+        "Triangle",
+        "Square",
+        "Rectangle",
+        "Rhombus"
+      ],
+      "correctIndex": 0,
+      "explanation": "A square, rectangle and rhombus each have four sides (quadrilaterals). A triangle has three sides.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0064",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Which number does not belong to the group: 17, 23, 29, 33?",
+      "options": [
+        "17",
+        "23",
+        "33",
+        "29"
+      ],
+      "correctIndex": 2,
+      "explanation": "17, 23 and 29 are prime numbers. 33 = 3 × 11 is not prime.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Test small primes 3, 7, 11 for divisibility; 3 + 3 = 6 is divisible by 3, so 33 is composite."
+    },
+    {
+      "id": "bank-B-II-r0065",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Spot the odd one out: Kabaddi, Football, Hockey, Chess.",
+      "options": [
+        "Kabaddi",
+        "Chess",
+        "Football",
+        "Hockey"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kabaddi, football and hockey are team field games played by running on a ground. Chess is an indoor board game between two players.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0066",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "In a certain language, 'sky' is called 'sea', 'sea' is called 'land', 'land' is called 'tree' and 'tree' is called 'forest'. In that language, where do fish live?",
+      "options": [
+        "sea",
+        "sky",
+        "land",
+        "tree"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fish live in the sea. In this language the sea is called 'land', so the answer is 'land'.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "First answer the question in real life, then replace that word with its code name."
+    },
+    {
+      "id": "bank-B-II-r0067",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "In a code language, 'pit na sa' means 'you are good', 'na ka ta' means 'they are bad' and 'ta ru pit' means 'you look bad'. Which code word means 'good'?",
+      "options": [
+        "na",
+        "pit",
+        "ta",
+        "sa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sentences 1 and 2 share 'are' and the code 'na', so na = are. Sentences 1 and 3 share 'you' and the code 'pit', so pit = you. The only code left in sentence 1 is 'sa', so sa = good.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Compare two sentences at a time: the common word matches the common code."
+    },
+    {
+      "id": "bank-B-II-r0068",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "If 'white' is called 'blue', 'blue' is called 'red', 'red' is called 'yellow' and 'yellow' is called 'green', what is the colour of human blood called?",
+      "options": [
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human blood is red. In this code 'red' is called 'yellow', so the answer is 'yellow'.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0069",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Arrange in a meaningful order from smallest to largest: 1. District  2. State  3. Village  4. Taluk  5. Country",
+      "options": [
+        "3, 1, 4, 2, 5",
+        "4, 3, 1, 2, 5",
+        "3, 4, 2, 1, 5",
+        "3, 4, 1, 2, 5"
+      ],
+      "correctIndex": 3,
+      "explanation": "A village is part of a taluk, a taluk is part of a district, a district is part of a state, and a state is part of the country: Village → Taluk → District → State → Country.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0070",
+      "topicId": "b2-logical-reasoning",
+      "prompt": "Arrange these words in the order they appear in an English dictionary: 1. Through  2. Thought  3. Thorough  4. Throne",
+      "options": [
+        "2, 3, 4, 1",
+        "3, 2, 4, 1",
+        "3, 2, 1, 4",
+        "4, 3, 2, 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "All begin with 'th'. 'Tho-' comes before 'Thr-'. Among Thorough and Thought, the 4th letters are r and u, and r comes first: Thorough, Thought. Among Throne and Through, the 5th letters are n and u: Throne, Through. Order: Thorough (3), Thought (2), Throne (4), Through (1).",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Compare letter by letter; stop at the first letter that differs."
+    },
+    {
+      "id": "bank-B-II-r0071",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "In a triangle, four straight lines are drawn from the top vertex to the base, dividing the base into 5 parts. How many triangles are there in the figure?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Every triangle uses the top vertex and two of the 6 points on the base. Number of ways = 6 × 5 ÷ 2 = 15. (Equivalently, 5 + 4 + 3 + 2 + 1 = 15.)",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "With n parts on the base, triangles = n(n + 1)/2."
+    },
+    {
+      "id": "bank-B-II-r0072",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square is drawn and both its diagonals are drawn inside it. How many triangles are there in the figure?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagonals make 4 small triangles. Each diagonal also splits the square into 2 large triangles, giving 2 × 2 = 4 more. Total = 4 + 4 = 8.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0073",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A large square is divided into a 3 × 3 grid of equal small squares (like a noughts-and-crosses board). How many squares of all sizes are there?",
+      "options": [
+        "9",
+        "10",
+        "14",
+        "13"
+      ],
+      "correctIndex": 2,
+      "explanation": "1 × 1 squares: 9; 2 × 2 squares: 4; 3 × 3 square: 1. Total = 9 + 4 + 1 = 14.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Squares in an n × n grid = 1² + 2² + … + n²."
+    },
+    {
+      "id": "bank-B-II-r0074",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A rectangle is divided into a grid of 2 rows and 3 columns of equal small squares. How many squares of all sizes are there in it?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "correctIndex": 1,
+      "explanation": "1 × 1 squares: 2 × 3 = 6. 2 × 2 squares: (2 − 1) × (3 − 1) = 2. No 3 × 3 square fits. Total = 6 + 2 = 8.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "For an m × n grid, k × k squares = (m − k + 1)(n − k + 1)."
+    },
+    {
+      "id": "bank-B-II-r0075",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square is divided into a 2 × 2 grid of four equal small squares. How many rectangles (counting squares as rectangles too) are there in the figure?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "9"
+      ],
+      "correctIndex": 3,
+      "explanation": "A rectangle is fixed by choosing 2 of the 3 vertical lines and 2 of the 3 horizontal lines: 3 × 3 = 9. (4 small squares + 4 half-rectangles + 1 whole square = 9.)",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Rectangles in an m × n grid = C(m+1, 2) × C(n+1, 2)."
+    },
+    {
+      "id": "bank-B-II-r0076",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "Written in CAPITAL letters, which of these words reads exactly the same when seen in a mirror placed to its right (left–right reflection)?",
+      "options": [
+        "MOM",
+        "DAD",
+        "NUN",
+        "POP"
+      ],
+      "correctIndex": 0,
+      "explanation": "A mirror reverses the order of the letters and flips each letter left to right. MOM is a palindrome and M and O are symmetric about a vertical line, so its image is unchanged. D, N and P are not left–right symmetric, so DAD, NUN and POP change.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "The word must be a palindrome AND use only vertically symmetric letters (A, H, I, M, O, T, U, V, W, X, Y)."
+    },
+    {
+      "id": "bank-B-II-r0077",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "Written in CAPITAL letters, which of these words looks exactly the same in its water image (top–bottom reflection)?",
+      "options": [
+        "CODE",
+        "MAP",
+        "TAN",
+        "RUN"
+      ],
+      "correctIndex": 0,
+      "explanation": "A water image keeps the order of letters but flips each one upside down. C, O, D and E are symmetric about a horizontal line, so CODE looks the same. M, A, P, T, N, R and U are not.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Letters unchanged in a water image: B, C, D, E, H, I, K, O, X."
+    },
+    {
+      "id": "bank-B-II-r0078",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "Which of these capital letters looks exactly the same in BOTH its mirror image and its water image?",
+      "options": [
+        "A",
+        "H",
+        "E",
+        "M"
+      ],
+      "correctIndex": 1,
+      "explanation": "H is symmetric about both a vertical and a horizontal line. A and M are only left–right symmetric (they turn upside down in water). E is only top–bottom symmetric (it reverses in a mirror).",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Letters with both symmetries: H, I, O, X."
+    },
+    {
+      "id": "bank-B-II-r0079",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "Which of these capital letters looks DIFFERENT in its mirror image (left–right reflection)?",
+      "options": [
+        "A",
+        "H",
+        "R",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanation": "A, H and V are symmetric about a vertical line, so their mirror images look the same. R is not, so it appears reversed.",
+      "sourceTag": "authored",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bank-B-II-r0080",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "The time on a wall clock is 2:50. What time does its mirror image show?",
+      "options": [
+        "10:10",
+        "9:50",
+        "10:50",
+        "9:10"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mirror time = 11:60 − actual time. 11:60 − 2:50 = 9:10.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Mirror image time = 11:60 − given time (use 23:60 for 24-hour clocks)."
+    },
+    {
+      "id": "bank-B-II-r0081",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "At which of these times does a clock and its mirror image (left–right reflection) show exactly the same time?",
+      "options": [
+        "3:00",
+        "6:00",
+        "9:00",
+        "3:30"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 6:00 both hands lie along the vertical line through 12 and 6, so the left–right flip does not change them. 3:00 becomes 9:00, 9:00 becomes 3:00 and 3:30 becomes 8:30.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Only 12:00 and 6:00 are unchanged in a mirror."
+    },
+    {
+      "id": "bank-B-II-r0082",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
+      "options": [
+        "120°",
+        "140°",
+        "130°",
+        "150°"
+      ],
+      "correctIndex": 2,
+      "explanation": "Angle = |30 × 3 − 5.5 × 40| = |90 − 220| = 130°.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Angle between the hands = |30H − 5.5M| degrees (take 360 minus it if it is above 180)."
+    },
+    {
+      "id": "bank-B-II-r0083",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "Find the angle between the two hands of a clock at 7:20.",
+      "options": [
+        "90°",
+        "110°",
+        "80°",
+        "100°"
+      ],
+      "correctIndex": 3,
+      "explanation": "Angle = |30 × 7 − 5.5 × 20| = |210 − 110| = 100°.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Angle between the hands = |30H − 5.5M| degrees (take 360 minus it if it is above 180)."
+    },
+    {
+      "id": "bank-B-II-r0084",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "How many degrees apart are the hands of a clock at half past four (4:30)?",
+      "options": [
+        "45°",
+        "30°",
+        "60°",
+        "15°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angle = |30 × 4 − 5.5 × 30| = |120 − 165| = 45°. (At 4:30 the hour hand is halfway between 4 and 5, which is 1.5 hour-spaces from 6.)",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Angle between the hands = |30H − 5.5M| degrees (take 360 minus it if it is above 180)."
+    },
+    {
+      "id": "bank-B-II-r0085",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "Through how many degrees does the hour hand of a clock turn from 10 a.m. to 2:30 p.m. on the same day?",
+      "options": [
+        "120°",
+        "150°",
+        "135°",
+        "105°"
+      ],
+      "correctIndex": 2,
+      "explanation": "The hour hand turns 30° each hour. From 10 a.m. to 2:30 p.m. is 4½ hours, so it turns 4.5 × 30 = 135°.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Hour hand: 30° per hour = ½° per minute. Minute hand: 6° per minute."
+    },
+    {
+      "id": "bank-B-II-r0086",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "How many times in a day (24 hours) are the hour hand and minute hand of a clock at right angles to each other?",
+      "options": [
+        "48",
+        "44",
+        "22",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 12 hours the hands are at right angles 22 times (twice an hour, except near 3 and 9 o'clock, where one occurrence is shared). In 24 hours: 2 × 22 = 44.",
+      "sourceTag": "authored",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bank-B-II-r0087",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square sheet of paper is folded in half three times, one fold after another. A single hole is then punched through all the layers. How many holes will the sheet have when it is opened out?",
+      "options": [
+        "8",
+        "3",
+        "6",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each fold doubles the layers: 2 → 4 → 8. One punch through 8 layers makes 8 holes.",
+      "sourceTag": "authored",
+      "difficulty": "easy",
+      "trick": "Holes = 2^(number of folds) for a single punch."
+    },
+    {
+      "id": "bank-B-II-r0088",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square sheet is folded along its vertical centre line, so that the left half lies exactly on the right half. A hole is punched near the top-right corner of the folded paper. Where will the holes be when the sheet is opened out?",
+      "options": [
+        "Near the top-right and bottom-right corners",
+        "Only near the top-right corner",
+        "Near the top-right and bottom-left corners",
+        "Near the top-left and top-right corners"
+      ],
+      "correctIndex": 3,
+      "explanation": "The punch goes through both layers. On the right half the hole stays near the top-right corner. The left half was folded over the vertical line, so its hole is the mirror image: near the top-left corner.",
+      "sourceTag": "authored",
+      "difficulty": "medium",
+      "trick": "Unfolding = reflecting the hole across the fold line."
+    },
+    {
+      "id": "bank-B-II-r0089",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square sheet is folded along the diagonal joining its top-left and bottom-right corners, so that the lower-left triangle lies on the upper-right triangle. A hole is punched near the top-right corner of the folded paper. Where will the holes be after unfolding?",
+      "options": [
+        "Near the top-right and top-left corners",
+        "Near the top-right and bottom-left corners",
+        "Near the top-right and bottom-right corners",
+        "Near the top-left and bottom-right corners"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hole on the upper-right layer stays near the top-right corner. The lower-left layer is unfolded back across the diagonal (top-left to bottom-right); the reflection of the top-right corner across that diagonal is the bottom-left corner.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Reflect each hole across the fold line; a diagonal fold sends a corner to the opposite corner."
+    },
+    {
+      "id": "bank-B-II-r0090",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square has both its diagonals drawn, and also the two lines joining the midpoints of opposite sides (one vertical, one horizontal). How many triangles are there in the figure?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Count by size. (1) The four lines through the centre cut the square into 8 smallest triangles. (2) Two smallest triangles on either side of a midline join to form a triangle with one whole side of the square as its base and the centre as its apex: 4 such. (3) Each diagonal splits the square into 2 half-square triangles: 4 such. Total = 8 + 4 + 4 = 16.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Count by size: smallest pieces first, then pairs, then halves of the square."
+    },
+    {
+      "id": "bank-B-II-r0091",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "In triangle ABC, with A at the top, a line is drawn from A to the midpoint of the base BC. Another line joins the midpoints of sides AB and AC. How many triangles are there in the figure?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Upper part (above the line joining the midpoints): 2 small triangles + 1 formed by both = 3. Whole height: left half, right half and the full triangle ABC = 3. Total = 3 + 3 = 6. The pieces below the midpoint line are four-sided, so they are not triangles.",
+      "sourceTag": "authored",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bank-B-II-r0092",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "How many squares of all sizes are there on an ordinary 8 × 8 chessboard?",
+      "options": [
+        "204",
+        "64",
+        "196",
+        "256"
+      ],
+      "correctIndex": 0,
+      "explanation": "Squares = 1² + 2² + … + 8² = 8 × 9 × 17 ÷ 6 = 204.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Sum of squares 1² + … + n² = n(n + 1)(2n + 1)/6."
+    },
+    {
+      "id": "bank-B-II-r0093",
+      "topicId": "b2-visual-reasoning",
+      "prompt": "A square is divided into a 3 × 3 grid of equal small squares. How many rectangles (including squares) are there in the figure?",
+      "options": [
+        "14",
+        "24",
+        "40",
+        "36"
+      ],
+      "correctIndex": 3,
+      "explanation": "The grid has 4 vertical and 4 horizontal lines. A rectangle is fixed by choosing 2 of each: C(4,2) × C(4,2) = 6 × 6 = 36.",
+      "sourceTag": "authored",
+      "difficulty": "hard",
+      "trick": "Rectangles in an n × n grid = [n(n + 1)/2]²."
+    }
+  ]
+}

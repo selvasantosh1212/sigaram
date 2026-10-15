@@ -1,0 +1,2653 @@
+{
+ "unitId": "C-III",
+ "passages": [],
+ "questions": [
+  {
+   "id": "bank-C-III-w0001",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Tamil Nadu has a long coastline along the Bay of Bengal.\nP: Many of them depend on fishing for their livelihood.\nQ: Fishing villages dot this coast from Pulicat to Kanyakumari.\nR: During the stormy months, however, the sea becomes too rough for small boats.\nS: In those weeks, families often have little income.\nS6: Savings groups and cooperative societies help them through this lean period.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "RQPS",
+    "QPRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q introduces the fishing villages; P ('Many of them') refers to the villagers; R contrasts with 'however'; S ('In those weeks') refers back to the stormy months in R.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "Pronouns like 'them' and phrases like 'those weeks' always point back to an earlier sentence."
+  },
+  {
+   "id": "bank-C-III-w0002",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Rani decided to plant a small vegetable garden behind her house.\nP: First, she cleared the stones and weeds from the plot.\nQ: Then she dug the soil and mixed in compost.\nR: After that, she sowed seeds of brinjal, tomato and lady's finger.\nS: Every evening she watered the young plants carefully.\nS6: Within two months, her family was eating vegetables from their own garden.",
+   "options": [
+    "PQRS",
+    "QPRS",
+    "PRQS",
+    "SPQR"
+   ],
+   "correctIndex": 0,
+   "explanation": "The sequence markers First – Then – After that, followed by watering the young plants, give the order P-Q-R-S.",
+   "sourceTag": "authored",
+   "difficulty": "easy",
+   "trick": "Time markers (First, Then, After that, Finally) settle process paragraphs instantly."
+  },
+  {
+   "id": "bank-C-III-w0003",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: The Grand Anicut, also called Kallanai, is one of the oldest water-regulating structures in the world still in use.\nP: It was built across the Cauvery by the Chola king Karikala.\nQ: Because it was so well designed, the structure has survived for centuries and still serves farmers.\nR: The dam diverted the river's water into canals that irrigated the delta.\nS: This made the delta one of the most fertile rice-growing regions of South India.\nS6: It stands as a proud symbol of ancient Tamil engineering.",
+   "options": [
+    "QPRS",
+    "RPSQ",
+    "PRSQ",
+    "PSRQ"
+   ],
+   "correctIndex": 2,
+   "explanation": "P tells who built it, R explains what the dam did, S gives the result ('This made the delta...'), and Q sums up its lasting value before the concluding S6.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0004",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Mobile phones have changed the way people communicate.\nP: Earlier, a letter could take several days to reach a relative in another town.\nQ: Today, a message reaches anyone in seconds.\nR: However, many people now spend so much time on their phones that they neglect face-to-face conversation.\nS: This speed has made both personal and business communication much easier.\nS6: Therefore, we must learn to use this technology wisely.",
+   "options": [
+    "QPSR",
+    "PQSR",
+    "PQRS",
+    "PSQR"
+   ],
+   "correctIndex": 1,
+   "explanation": "P (Earlier) contrasts with Q (Today); S ('This speed') refers to Q; R ('However') introduces the drawback that leads to the conclusion in S6.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0005",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: When he reached the bus stop, he realised he had left his wallet at home.\nQ: Arun woke up late on the morning of his examination.\nR: He hurriedly got dressed and ran out of the house.\nS: Luckily, a kind neighbour lent him money for the bus fare.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "QRSP",
+    "QRPS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q introduces Arun, R follows naturally (getting ready), P is the problem at the bus stop and S is its solution.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0006",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Water is one of our most precious natural resources.\nP: Yet in many towns, water is wasted through leaking taps and pipes.\nQ: Without it, no plant or animal could survive.\nR: Simple steps, such as repairing leaks and harvesting rainwater, can save a great deal.\nS: Such waste becomes serious during summer, when reservoirs run dry.\nS6: Every citizen should therefore treat water as a shared treasure.",
+   "options": [
+    "QPSR",
+    "PQSR",
+    "QSPR",
+    "QPRS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Q ('Without it') continues S1; P ('Yet') introduces wastage; S ('Such waste') refers to P; R offers the remedy before the conclusion.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0007",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Then the mixture is poured into moulds and allowed to set.\nQ: First, milk is boiled and sugar is added to it.\nR: Finally, the kulfi is removed from the moulds and served cold.\nS: Next, chopped nuts and cardamom are stirred in.",
+   "options": [
+    "QPSR",
+    "QSPR",
+    "SQPR",
+    "QSRP"
+   ],
+   "correctIndex": 1,
+   "explanation": "First (Q) – Next (S) – Then (P) – Finally (R).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0008",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Thiruvalluvar's Thirukkural is one of the greatest works in Tamil literature.\nP: These couplets are grouped into three sections: virtue, wealth and love.\nQ: It consists of 1,330 couplets.\nR: Because its teachings are universal, it has been translated into many languages.\nS: Each section offers practical guidance for daily life.\nS6: For this reason, it is often called the 'Universal Veda' (Ulaga Podhu Marai).",
+   "options": [
+    "QSPR",
+    "PQSR",
+    "QPSR",
+    "QPRS"
+   ],
+   "correctIndex": 2,
+   "explanation": "Q mentions the couplets; P ('These couplets') follows; S ('Each section') refers to the three sections; R explains its universal appeal, which leads to the title in S6.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0009",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: The officer examined the documents and approved the request.\nQ: Kumar wanted a certified copy of his land record.\nR: He submitted an application at the taluk office along with the required fee.\nS: A week later, the certified copy was issued to him.",
+   "options": [
+    "QRPS",
+    "RQPS",
+    "QPRS",
+    "PQRS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Need (Q) – application (R) – examination and approval (P) – issue of the copy (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0010",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Plastic bags are cheap and convenient.\nP: They do not decompose for hundreds of years.\nQ: But their convenience comes at a heavy cost to the environment.\nR: Cattle grazing in those fields often swallow them and fall ill.\nS: As a result, they pile up in drains, rivers and fields.\nS6: Using cloth bags is a simple way to reduce this harm.",
+   "options": [
+    "QSPR",
+    "QPSR",
+    "PQSR",
+    "QPRS"
+   ],
+   "correctIndex": 1,
+   "explanation": "Q ('But') contrasts with S1; P gives the reason; S ('As a result') follows from P; R mentions 'those fields', which were named in S.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0011",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: As a result, the company's sales rose sharply.\nQ: The company noticed that its sales were falling.\nR: It decided to improve the quality of its products and lower prices.\nS: It also started an advertising campaign on television.",
+   "options": [
+    "QRPS",
+    "RQSP",
+    "QSRP",
+    "QRSP"
+   ],
+   "correctIndex": 3,
+   "explanation": "Problem (Q) – first step (R) – 'also' adds a second step (S) – 'As a result' gives the outcome (P).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0012",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: A good library is the heart of a school.\nP: Teachers, too, use it to prepare their lessons.\nQ: It gives students access to books beyond their textbooks.\nR: Reading these books widens their knowledge and improves their language.\nS: Thus, both students and teachers benefit from it.\nS6: Every school should therefore have a well-stocked library.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "QRPS",
+    "QRSP"
+   ],
+   "correctIndex": 2,
+   "explanation": "Q (students) – R ('these books') – P ('Teachers, too') – S ('Thus, both students and teachers').",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0013",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Consequently, the farmers began switching to drip irrigation.\nQ: For decades, farmers in the region relied on flood irrigation.\nR: This method, however, wasted large amounts of groundwater.\nS: Within a few years, the water table had fallen alarmingly.",
+   "options": [
+    "QSRP",
+    "RQSP",
+    "QRSP",
+    "QRPS"
+   ],
+   "correctIndex": 2,
+   "explanation": "Q introduces flood irrigation; R ('This method') criticises it; S states the effect; P ('Consequently') gives the farmers' response.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0014",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: The Indian Constitution came into force on 26 January 1950.\nP: It was drafted by a Drafting Committee chaired by Dr. B.R. Ambedkar.\nQ: The draft was debated clause by clause in the Constituent Assembly.\nR: After nearly three years of work, the Constitution was adopted on 26 November 1949.\nS: That is why 26 November is observed as Constitution Day.\nS6: Since then, 26 January has been celebrated as Republic Day.",
+   "options": [
+    "PQRS",
+    "QPRS",
+    "PRQS",
+    "RPQS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Drafting (P) – debate (Q) – adoption (R) – 'That is why' (S) refers to the adoption date.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0015",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Every year, the Northeast Monsoon brings much of Tamil Nadu's rainfall.\nP: Farmers prepare their fields in anticipation of these rains.\nQ: When the rains arrive in October, tanks and lakes begin to fill.\nR: The stored water is then used to irrigate crops in the following months.\nS: Sometimes, however, heavy downpours cause floods in low-lying areas.\nS6: Hence, both water storage and flood management are important for the state.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "QPSR",
+    "PSQR"
+   ],
+   "correctIndex": 1,
+   "explanation": "Preparation (P) – arrival of rain (Q) – use of stored water (R) – 'however' introduces floods (S), which leads to the two-sided conclusion.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0016",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: He took it to the nearest police station.\nQ: Selvam found a purse lying on the road.\nR: The police traced the owner using the identity card inside it.\nS: The owner thanked Selvam for his honesty.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "QPSR",
+    "QPRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q introduces the purse ('it' in P); the police (R) then trace the owner, who thanks Selvam (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0017",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Tea is the most popular beverage in many Indian homes.\nP: The leaves are then withered, rolled and dried in factories.\nQ: In Tamil Nadu, it is grown mainly on the slopes of the Nilgiris.\nR: Workers pluck the tender leaves by hand.\nS: Finally, the tea is graded and packed for sale.\nS6: From the hills, it travels to cups across the country.",
+   "options": [
+    "QRPS",
+    "RQPS",
+    "QPRS",
+    "QRSP"
+   ],
+   "correctIndex": 0,
+   "explanation": "Where it grows (Q) – plucking (R) – 'then' processing (P) – 'Finally' packing (S).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0018",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Such errors, if unchecked, can mislead the public.\nQ: Newspapers are expected to report facts accurately.\nR: Therefore, responsible editors verify every report before printing it.\nS: Yet, in the race to publish first, mistakes sometimes creep in.",
+   "options": [
+    "QPSR",
+    "SQPR",
+    "QSRP",
+    "QSPR"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q states the ideal; S ('Yet') introduces mistakes; P ('Such errors') refers to S; R ('Therefore') gives the remedy.",
+   "sourceTag": "authored",
+   "difficulty": "hard",
+   "trick": "A sentence beginning with 'Such ...' can never open a paragraph."
+  },
+  {
+   "id": "bank-C-III-w0019",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Kabaddi is a traditional contact sport popular in Tamil Nadu.\nP: The raider must keep chanting \"kabaddi\" without taking a breath.\nQ: Two teams take turns sending a \"raider\" into the opponents' half.\nR: If he touches an opponent and returns safely, his team scores points.\nS: But if he is caught and held, he is out.\nS6: The game thus demands strength, speed and breath control.",
+   "options": [
+    "PQRS",
+    "QPRS",
+    "QRPS",
+    "QPSR"
+   ],
+   "correctIndex": 1,
+   "explanation": "Q introduces the raider; P (rule for 'the raider'); R (success); S ('But' – failure).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0020",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: The doctor advised him to walk for thirty minutes every day.\nQ: Mr. Raman had been feeling tired and breathless for weeks.\nR: He followed the advice faithfully.\nS: So he went to the hospital for a check-up.",
+   "options": [
+    "QPRS",
+    "SQPR",
+    "QSPR",
+    "QRSP"
+   ],
+   "correctIndex": 2,
+   "explanation": "Problem (Q) – 'So' he went to hospital (S) – the doctor's advice (P) – he followed 'the advice' (R).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0021",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Rainwater harvesting is a simple way to conserve water.\nP: This water is led through pipes into a storage tank or a recharge pit.\nQ: Rain falling on the roof of a building is collected.\nR: The stored water can be used for gardening and washing.\nS: Water sent into recharge pits, on the other hand, raises the groundwater level.\nS6: Tamil Nadu made such structures compulsory for buildings in 2003.",
+   "options": [
+    "PQRS",
+    "QPSR",
+    "QPRS",
+    "QRPS"
+   ],
+   "correctIndex": 2,
+   "explanation": "Collection (Q) – 'This water' is led to tank or pit (P) – use of tank water (R) – 'on the other hand', the pit water (S).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0022",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: That very night, a severe storm struck the coast.\nQ: The fishermen were planning to go to sea at dawn.\nR: Thanks to the warning, no lives were lost.\nS: But the meteorological department issued a cyclone warning in the evening, so they stayed ashore.",
+   "options": [
+    "QPRS",
+    "QSPR",
+    "SPQR",
+    "QSRP"
+   ],
+   "correctIndex": 1,
+   "explanation": "Plan (Q) – 'But' a warning (S) – the storm that night (P) – 'Thanks to the warning' (R).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0023",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Good handwriting is an asset to every student.\nP: Examiners can read such answers quickly and easily.\nQ: Neat writing makes an answer paper look well organised.\nR: Poor handwriting, on the other hand, may cause correct answers to be misread.\nS: Students should therefore practise writing neatly from an early age.\nS6: A little daily practice can make a big difference.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "QRPS",
+    "RQPS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Q (neat writing) – P ('such answers') – R ('on the other hand') – S ('therefore').",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0024",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Next, enter the amount and confirm the payment with your PIN.\nQ: To pay the electricity bill online, first open the payment app.\nR: Then select the electricity board and enter your consumer number.\nS: Finally, save the receipt that appears on the screen.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "QRSP",
+    "QRPS"
+   ],
+   "correctIndex": 3,
+   "explanation": "first (Q) – Then (R) – Next (P) – Finally (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0025",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: In 1930, Gandhiji led the Salt March to Dandi.\nP: In Tamil Nadu, C. Rajagopalachari led a similar march from Tiruchirappalli to Vedaranyam.\nQ: The march protested against the British tax on salt.\nR: The volunteers made salt on the Vedaranyam coast in defiance of the law.\nS: Rajaji and many of his followers were arrested.\nS6: The Vedaranyam march remains a proud chapter in Tamil Nadu's freedom struggle.",
+   "options": [
+    "PQRS",
+    "QPSR",
+    "QRPS",
+    "QPRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q explains the purpose of Gandhiji's march; P introduces the Tamil Nadu march; R describes the act of defiance; S gives the consequence (arrest).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0026",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Fewer head injuries mean fewer deaths on the road.\nQ: Wearing a helmet does not prevent accidents.\nR: It does, however, greatly reduce the risk of serious head injury when one occurs.\nS: Hence, the law requires two-wheeler riders to wear helmets.",
+   "options": [
+    "QRPS",
+    "RQPS",
+    "QPRS",
+    "PQRS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Q makes a concession; R ('however') states the benefit; P draws out its consequence; S ('Hence') concludes.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0027",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Ramu, the cobbler, worked in a tiny shop near the bus stand.\nQ: One day, a rich merchant brought him a pair of torn shoes.\nR: Ramu mended them so skilfully that they looked new.\nS: Pleased, the merchant recommended him to all his friends.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "PRQS",
+    "PQSR"
+   ],
+   "correctIndex": 1,
+   "explanation": "Introduction of Ramu (P) – 'One day' event (Q) – his work (R) – the merchant's reaction (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0028",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Each of these pillars is intricately carved.\nQ: Visitors are especially struck by its tall gopurams.\nR: The Meenakshi Amman Temple in Madurai attracts thousands of visitors every day.\nS: Inside, the Hall of a Thousand Pillars is equally famous.",
+   "options": [
+    "RSQP",
+    "QRSP",
+    "RQSP",
+    "RQPS"
+   ],
+   "correctIndex": 2,
+   "explanation": "R names the temple; Q ('its gopurams') refers to it; S ('Inside') moves within; P ('these pillars') refers to the hall in S.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0029",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Hence, it is often called the \"Detroit of Asia\".\nQ: Chennai is a major centre of the automobile industry.\nR: Many leading car and two-wheeler manufacturers have factories there.\nS: A large share of India's automobile output comes from the region.",
+   "options": [
+    "QSRP",
+    "RQSP",
+    "QRSP",
+    "QRPS"
+   ],
+   "correctIndex": 2,
+   "explanation": "Topic (Q) – 'there' (R) – the result in output (S) – 'Hence' the nickname (P).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0030",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: The postman is a familiar figure in every village.\nP: He delivers letters, money orders and parcels.\nQ: In the past, his arrival was eagerly awaited by every household.\nR: With the spread of mobile phones and email, fewer letters are written today.\nS: Even so, the post office continues to serve people through savings schemes and parcel services.\nS6: The postman thus remains an important link between people.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "PRQS",
+    "RPQS"
+   ],
+   "correctIndex": 1,
+   "explanation": "His work (P) – the past (Q) – the present change (R) – 'Even so' (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0031",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Although she came from a poor family, Meena dreamt of becoming a doctor.\nQ: She studied late into the night under a street lamp.\nR: Her hard work paid off when she secured a seat in a government medical college.\nS: Today, she serves patients in her own village.",
+   "options": [
+    "PRSQ",
+    "QPRS",
+    "RPQS",
+    "PQRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Introduction and dream (P) – effort (Q) – result (R) – present (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0032",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The sentences below, when rearranged, form a paragraph. Which sentence should come FIRST?\nP: As a result, she won the first prize.\nQ: Kavitha practised the veena for three hours every day.\nR: She took part in the district music competition.\nS: Her performance impressed the judges.",
+   "options": [
+    "Kavitha practised the veena for three hours every day.",
+    "As a result, she won the first prize.",
+    "She took part in the district music competition.",
+    "Her performance impressed the judges."
+   ],
+   "correctIndex": 0,
+   "explanation": "Only Q names Kavitha; the others use 'she/her' or 'As a result', which need an earlier sentence. Order: Q-R-S-P.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0033",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The sentences below, when rearranged, form a paragraph. Which sentence should come LAST?\nP: Therefore, it is best to start saving early.\nQ: Money saved regularly grows steadily over the years.\nR: Even small amounts add up when they earn interest.\nS: A person who starts late has less time to benefit from this growth.",
+   "options": [
+    "Money saved regularly grows steadily over the years.",
+    "Therefore, it is best to start saving early.",
+    "Even small amounts add up when they earn interest.",
+    "A person who starts late has less time to benefit from this growth."
+   ],
+   "correctIndex": 1,
+   "explanation": "'Therefore' introduces the conclusion drawn from all the other points. Order: Q-R-S-P.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0034",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Vaccination is one of the most effective ways of preventing disease.\nP: When a vaccinated person is later exposed to the real germ, the body fights it off quickly.\nQ: A vaccine contains a weakened or harmless form of a germ.\nR: It trains the body's immune system to recognise that germ.\nS: Mass vaccination has helped eradicate smallpox across the world.\nS6: Vaccines thus protect not only individuals but whole communities.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "SQRP",
+    "QRPS"
+   ],
+   "correctIndex": 3,
+   "explanation": "What a vaccine is (Q) – how it works (R) – what happens 'later' (P) – the large-scale result (S).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0035",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: But the hare, confident of victory, lay down for a nap.\nQ: The tortoise, meanwhile, kept plodding steadily on.\nR: A hare once challenged a tortoise to a race.\nS: When the hare awoke, the tortoise had already crossed the finish line.",
+   "options": [
+    "RPQS",
+    "RQPS",
+    "PRQS",
+    "RPSQ"
+   ],
+   "correctIndex": 0,
+   "explanation": "R opens the story with 'A hare'; P ('But') – Q ('meanwhile') – S (the ending).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0036",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Many young people today want to start their own businesses.\nP: A good idea alone, however, is not enough.\nQ: They must also plan carefully, raise funds and understand their customers.\nR: Government schemes offer loans and training to such entrepreneurs.\nS: With this support, many small start-ups have grown into successful companies.\nS6: Entrepreneurship thus creates jobs and strengthens the economy.",
+   "options": [
+    "QPRS",
+    "RPQS",
+    "PQRS",
+    "PRQS"
+   ],
+   "correctIndex": 2,
+   "explanation": "P qualifies S1; Q ('also') adds what is needed; R ('such entrepreneurs') – S ('With this support').",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0037",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Once it hatches, the caterpillar eats leaves voraciously.\nQ: A butterfly lays its eggs on a leaf.\nR: It then forms a pupa, inside which it changes form.\nS: Finally, an adult butterfly emerges.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "RQPS",
+    "QPRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Life cycle: egg (Q) – caterpillar (P) – pupa (R) – adult (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0038",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: The Right to Information Act, 2005 gives citizens the power to seek information from public authorities.\nP: The officer must normally reply within thirty days.\nQ: A citizen submits a written application to the Public Information Officer of the office concerned.\nR: If the reply is not satisfactory, the citizen may file an appeal.\nS: The first appeal lies with an officer senior to the Public Information Officer.\nS6: The Act has thus made administration more transparent and accountable.",
+   "options": [
+    "PQRS",
+    "QPRS",
+    "QRPS",
+    "QPSR"
+   ],
+   "correctIndex": 1,
+   "explanation": "Application (Q) – reply (P) – appeal if unsatisfied (R) – where 'the first appeal' lies (S).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0039",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: In the end, the villagers built a check dam with their own labour.\nQ: Every summer, the village faced a severe shortage of water.\nR: Their appeals to the authorities brought only promises.\nS: Tired of waiting, the panchayat president called a meeting of the villagers.",
+   "options": [
+    "QRSP",
+    "QSRP",
+    "RQSP",
+    "QRPS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Problem (Q) – failed appeals (R) – 'Tired of waiting' (S) – 'In the end' (P).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0040",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Exercise is essential for good health.\nP: It also reduces stress and improves sleep.\nQ: Regular physical activity strengthens the heart and muscles.\nR: Yet many people say they have no time for it.\nS: Even a brisk thirty-minute walk each day, however, is enough to bring benefits.\nS6: There is, therefore, no excuse for avoiding exercise.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "QPRS",
+    "QPSR"
+   ],
+   "correctIndex": 2,
+   "explanation": "First benefit (Q) – 'also' second benefit (P) – 'Yet' objection (R) – 'however' answer to the objection (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0041",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: He noticed smoke coming from a neighbour's house.\nQ: Without wasting a moment, he called the fire service.\nR: Kannan was returning home late one night.\nS: The firemen arrived quickly and put out the fire.",
+   "options": [
+    "RPQS",
+    "PRQS",
+    "RQPS",
+    "RPSQ"
+   ],
+   "correctIndex": 0,
+   "explanation": "Setting (R) – what he saw (P) – his action (Q) – the outcome (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0042",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: The Nilgiris is home to several tribal communities.\nP: The Todas, for instance, are known for their buffalo herding and barrel-vaulted huts.\nQ: Each community has its own language, customs and crafts.\nR: Their distinctive embroidery has received a Geographical Indication (GI) tag.\nS: Such traditions are an important part of the region's heritage.\nS6: Efforts are being made to preserve them for future generations.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "RQPS",
+    "QPRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "General statement (Q) – example: the Todas (P) – 'Their' embroidery (R) – 'Such traditions' (S).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0043",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Critics, however, argue that it reduces the time children spend outdoors.\nQ: Online learning expanded rapidly during the pandemic.\nR: Supporters say it allows students to learn at their own pace.\nS: A balanced approach that combines both methods may therefore be the best solution.",
+   "options": [
+    "QPRS",
+    "RQPS",
+    "QRPS",
+    "QRSP"
+   ],
+   "correctIndex": 2,
+   "explanation": "Topic (Q) – supporters (R) – critics 'however' (P) – balanced conclusion (S).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0044",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Chess is believed to have originated in India.\nP: In ancient times, it was called chaturanga.\nQ: The name referred to the four divisions of an army: infantry, cavalry, elephants and chariots.\nR: The game later spread to Persia and then to Europe.\nS: Over the centuries, its rules changed into the form we know today.\nS6: India's chess tradition continues through its many grandmasters.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "PRQS",
+    "RPQS"
+   ],
+   "correctIndex": 1,
+   "explanation": "Ancient name (P) – 'The name' explained (Q) – spread (R) – later changes (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0045",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: Satisfied, the bank manager sanctioned the loan.\nQ: Murugan wanted to buy a tractor for his farm.\nR: He applied for a loan at the nearby bank.\nS: The manager visited his farm to verify the details.",
+   "options": [
+    "QSRP",
+    "RQSP",
+    "QRPS",
+    "QRSP"
+   ],
+   "correctIndex": 3,
+   "explanation": "Need (Q) – application (R) – verification (S) – 'Satisfied', sanction (P).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0046",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Silk weaving is the main occupation of many families in Kancheepuram.\nP: The weavers use pure mulberry silk and gold zari.\nQ: A single saree may take two weeks or more to complete.\nR: Because of this skill and labour, Kancheepuram silk sarees are prized across India.\nS: They have also received a Geographical Indication tag.\nS6: Today, however, the weavers face competition from cheaper power-loom products.",
+   "options": [
+    "PRQS",
+    "PQRS",
+    "RPQS",
+    "PQSR"
+   ],
+   "correctIndex": 1,
+   "explanation": "Materials (P) – time taken (Q) – 'Because of this skill and labour' (R) – 'They have also' (S) refers to the sarees named in R.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0047",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: But many fear harassment if they speak up.\nQ: Corruption in public life cannot be removed by laws alone.\nR: Citizens must also be willing to report wrongdoing.\nS: Whistle-blowers therefore need legal protection.",
+   "options": [
+    "QRPS",
+    "QPRS",
+    "RQSP",
+    "QRSP"
+   ],
+   "correctIndex": 0,
+   "explanation": "Claim (Q) – 'also' citizens' role (R) – 'But' their fear (P) – 'therefore' protection (S).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0048",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Long ago, a king wished to choose the wiser of his two sons.\nP: The first son filled the hall with straw, but many corners remained empty.\nQ: He gave each of them a coin and asked them to fill a hall with whatever it could buy.\nR: The second son simply lit a lamp, and its light filled every corner.\nS: The king declared the second son the winner.\nS6: Wisdom, the story teaches, matters more than wealth.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "QPRS",
+    "QPSR"
+   ],
+   "correctIndex": 2,
+   "explanation": "The task (Q) – first son (P) – second son (R) – the verdict (S).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0049",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: These include lakes, ponds and marshes.\nQ: Wetlands are areas where water covers the soil for all or part of the year.\nR: They provide shelter to many migratory birds.\nS: Vedanthangal in Chengalpattu district is one such famous bird sanctuary.",
+   "options": [
+    "QPRS",
+    "PQRS",
+    "QRPS",
+    "RQPS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Definition (Q) – examples (P) – their importance for birds (R) – 'one such' sanctuary (S).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0050",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The sentences below, when rearranged, form a paragraph. Which sentence should come LAST?\nP: Yet bee populations are declining because of pesticides and habitat loss.\nQ: Bees pollinate a large share of the world's food crops.\nR: Without them, yields of fruits and vegetables would fall sharply.\nS: Protecting bees is therefore essential for food security.",
+   "options": [
+    "Yet bee populations are declining because of pesticides and habitat loss.",
+    "Protecting bees is therefore essential for food security.",
+    "Bees pollinate a large share of the world's food crops.",
+    "Without them, yields of fruits and vegetables would fall sharply."
+   ],
+   "correctIndex": 1,
+   "explanation": "The sentence with 'therefore' draws the conclusion. Order: Q-R-P-S.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0051",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The sentences below, when rearranged, form a paragraph. Which sentence should come FIRST?\nP: Then they rest under the shade of a tree.\nQ: In the evening, they return home with their cattle.\nR: Early every morning, the shepherd boys take their cattle to the hills.\nS: By noon, the sun becomes very hot.",
+   "options": [
+    "Then they rest under the shade of a tree.",
+    "In the evening, they return home with their cattle.",
+    "By noon, the sun becomes very hot.",
+    "Early every morning, the shepherd boys take their cattle to the hills."
+   ],
+   "correctIndex": 3,
+   "explanation": "R introduces 'the shepherd boys' and the earliest time (morning). Order: R-S-P-Q.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0052",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Language is more than a means of communication.\nP: When a language dies, therefore, a whole way of seeing the world is lost.\nQ: It carries the memory, values and knowledge of a people.\nR: Unfortunately, many small languages are disappearing as speakers shift to dominant ones.\nS: Folk songs, proverbs and names of plants, for example, are passed down only through speech.\nS6: Documenting endangered languages is thus an urgent task.",
+   "options": [
+    "QRSP",
+    "SQRP",
+    "QSRP",
+    "QPSR"
+   ],
+   "correctIndex": 2,
+   "explanation": "Q states what language carries; S gives examples; R introduces the decline; P ('therefore') states the loss, leading to the call for action in S6.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0053",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: When it was finally completed, the bridge cut the journey by two hours.\nQ: For years, villagers had to cross the river by boat.\nR: During floods, even this became impossible.\nS: The government then sanctioned a bridge, which took three years to build.",
+   "options": [
+    "QSPR",
+    "QRSP",
+    "RQSP",
+    "SQRP"
+   ],
+   "correctIndex": 1,
+   "explanation": "Situation (Q) – 'even this' (R) – remedy (S) – 'When it was finally completed' (P).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0054",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "Rearrange the following sentences P, Q, R and S to form a meaningful paragraph.\nP: \"Then you must apply for one,\" said the clerk.\nQ: \"I would like to open a savings account,\" said Ravi.\nR: \"I'm afraid I don't have one,\" replied Ravi.\nS: \"Certainly. Do you have an identity proof with your address?\" asked the clerk.",
+   "options": [
+    "QRSP",
+    "SQRP",
+    "QSRP",
+    "QSPR"
+   ],
+   "correctIndex": 2,
+   "explanation": "Request (Q) – the clerk's question (S) – Ravi's reply (R) – the clerk's advice (P).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0055",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Coral reefs are often called the rainforests of the sea.\nP: They support an enormous variety of marine life.\nQ: Rising sea temperatures, however, are causing corals to lose their colour and die.\nR: This process is known as coral bleaching.\nS: The Gulf of Mannar has been declared a marine biosphere reserve partly to protect its reefs.\nS6: Protecting reefs protects the livelihood of coastal communities too.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "PRQS",
+    "QPRS"
+   ],
+   "correctIndex": 0,
+   "explanation": "Importance (P) – threat 'however' (Q) – 'This process' named (R) – protective measure (S).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0056",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Urbanisation is one of the defining trends of the modern era.\nP: This influx, in turn, places heavy pressure on housing, transport and water supply.\nQ: People migrate from villages to cities in search of jobs and better services.\nR: Planners must therefore anticipate growth rather than merely react to it.\nS: Where such pressure is ignored, slums and traffic congestion multiply.\nS6: Well-planned cities can turn urbanisation into an engine of growth.",
+   "options": [
+    "QSPR",
+    "PQSR",
+    "QPRS",
+    "QPSR"
+   ],
+   "correctIndex": 3,
+   "explanation": "Migration (Q) – 'This influx' (P) – 'such pressure' (S) – 'therefore' the planners' task (R).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0057",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: Scientific knowledge grows through a cycle of observation and testing.\nP: The scientist then designs experiments to test it.\nQ: An observation that cannot be explained leads to a possible explanation, called a hypothesis.\nR: If the results repeatedly support it, the hypothesis gains acceptance as a theory.\nS: If they contradict it, the hypothesis is revised or rejected.\nS6: In this way, science corrects itself over time.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "QPRS",
+    "RQPS"
+   ],
+   "correctIndex": 2,
+   "explanation": "Hypothesis (Q) – testing it (P) – 'the results' first named (R) – 'they' (the results) contradict (S).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0058",
+   "topicId": "c3-jumbled-sentences",
+   "prompt": "The first (S1) and last (S6) sentences of a paragraph are given. Rearrange the middle sentences P, Q, R and S in the correct order.\nS1: The Panchayati Raj system brought democracy to the village level.\nP: It gave constitutional status to panchayats.\nQ: The 73rd Constitutional Amendment Act of 1992 was a landmark in this process.\nR: It also provided for regular elections and reservation of seats for women.\nS: In Tamil Nadu, women's reservation in local bodies has since been raised to fifty per cent.\nS6: As a result, lakhs of women now take part in local governance.",
+   "options": [
+    "PQRS",
+    "QRPS",
+    "RQPS",
+    "QPRS"
+   ],
+   "correctIndex": 3,
+   "explanation": "Q names the Act; P ('It') – R ('It also') – S (Tamil Nadu's extension).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0059",
+   "topicId": "c3-letter-writing",
+   "prompt": "A formal letter begins with the salutation \"Dear Sir/Madam\". Which complimentary close matches it?",
+   "options": [
+    "Yours lovingly",
+    "Yours faithfully",
+    "Your loving friend",
+    "With warm hugs"
+   ],
+   "correctIndex": 1,
+   "explanation": "When the addressee is not named (Dear Sir/Madam), the standard close is 'Yours faithfully'.",
+   "sourceTag": "authored",
+   "difficulty": "easy",
+   "trick": "Sir/Madam -> faithfully; named person (Dear Mr. Kumar) -> sincerely."
+  },
+  {
+   "id": "bank-C-III-w0060",
+   "topicId": "c3-letter-writing",
+   "prompt": "You begin a formal letter with \"Dear Mr. Ramesh\". The most appropriate complimentary close is:",
+   "options": [
+    "Yours sincerely",
+    "Yours faithfully",
+    "Yours affectionately",
+    "Your loving son"
+   ],
+   "correctIndex": 0,
+   "explanation": "When the addressee is named in the salutation, a formal letter normally closes with 'Yours sincerely'.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "Named person -> sincerely."
+  },
+  {
+   "id": "bank-C-III-w0061",
+   "topicId": "c3-letter-writing",
+   "prompt": "In a letter written to a close friend, which complimentary close is suitable?",
+   "options": [
+    "Yours faithfully",
+    "Yours affectionately",
+    "Yours obediently",
+    "Yours truly, Manager"
+   ],
+   "correctIndex": 1,
+   "explanation": "Personal (informal) letters to friends or relatives close with affectionate forms such as 'Yours affectionately' or 'Yours lovingly'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0062",
+   "topicId": "c3-letter-writing",
+   "prompt": "In a leave letter written by a student to the Principal, which complimentary close is customarily used in Indian schools?",
+   "options": [
+    "Yours lovingly",
+    "Your dear friend",
+    "Yours obediently",
+    "Cheers"
+   ],
+   "correctIndex": 2,
+   "explanation": "Indian school leave letters to the Principal traditionally close with 'Yours obediently' (or 'Your obedient student').",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0063",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the correct order of the parts of a formal letter?",
+   "options": [
+    "Date – Salutation – Sender's address – Subject – Body – Receiver's address – Signature – Complimentary close",
+    "Salutation – Subject – Body – Date – Signature – Sender's address – Receiver's address – Complimentary close",
+    "Receiver's address – Signature – Subject – Body – Salutation – Date – Sender's address – Complimentary close",
+    "Sender's address – Date – Receiver's address – Subject – Salutation – Body – Complimentary close – Signature"
+   ],
+   "correctIndex": 3,
+   "explanation": "A formal letter opens with the sender's address and date, then the receiver's address, subject and salutation, followed by the body, complimentary close and signature.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0064",
+   "topicId": "c3-letter-writing",
+   "prompt": "In a formal letter, where is the 'Subject' line placed?",
+   "options": [
+    "After the receiver's address and before the salutation",
+    "After the signature",
+    "Before the sender's address",
+    "At the end of the body"
+   ],
+   "correctIndex": 0,
+   "explanation": "The subject line comes after the inside (receiver's) address and just before the salutation, so the reader knows the purpose at once.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0065",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the most suitable subject line for a letter to the Commissioner about irregular garbage collection in your street?",
+   "options": [
+    "Subject: Hello Sir",
+    "Subject: Some problem",
+    "Subject: Irregular garbage collection in Gandhi Street, Ward 12",
+    "Subject: Letter from a citizen"
+   ],
+   "correctIndex": 2,
+   "explanation": "A subject line should be brief and specific, stating the exact issue and place.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0066",
+   "topicId": "c3-letter-writing",
+   "prompt": "Complete the opening of a complaint letter appropriately:\n\"Sir,\nI wish to ______ the poor condition of the road leading to our village school.\"",
+   "options": [
+    "make a joke about",
+    "invite you to",
+    "congratulate you on",
+    "bring to your kind notice"
+   ],
+   "correctIndex": 3,
+   "explanation": "'I wish to bring to your kind notice...' is the standard formal phrase used to introduce a complaint.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0067",
+   "topicId": "c3-letter-writing",
+   "prompt": "Choose the most appropriate closing line for a job application letter.",
+   "options": [
+    "Give me the job immediately.",
+    "I look forward to the opportunity of an interview.",
+    "Reply fast or I will apply elsewhere.",
+    "That's all for now, bye!"
+   ],
+   "correctIndex": 1,
+   "explanation": "A formal application closes politely by expressing hope for an interview; the other options are rude or casual.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0068",
+   "topicId": "c3-letter-writing",
+   "prompt": "Fill in the blank in this leave letter:\n\"Respected Sir,\nAs I am suffering from high fever, I am unable to attend school today. ______ grant me leave for two days, i.e., 10th and 11th July.\"",
+   "options": [
+    "Kindly",
+    "Must",
+    "Immediately",
+    "Never"
+   ],
+   "correctIndex": 0,
+   "explanation": "'Kindly grant me leave...' is the polite formal request used in leave letters.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0069",
+   "topicId": "c3-letter-writing",
+   "prompt": "The abbreviation \"Encl.\" at the foot of a letter indicates that:",
+   "options": [
+    "The letter is confidential",
+    "A copy has been sent to someone else",
+    "The letter has ended",
+    "Some documents are attached with the letter"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Encl.' (Enclosure) lists documents attached to the letter.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0070",
+   "topicId": "c3-letter-writing",
+   "prompt": "\"P.S.\" written after the signature of a letter stands for:",
+   "options": [
+    "Personal Secretary",
+    "Please Sign",
+    "Postscript",
+    "Public Service"
+   ],
+   "correctIndex": 2,
+   "explanation": "P.S. (Latin post scriptum) is a note added after the signature.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0071",
+   "topicId": "c3-letter-writing",
+   "prompt": "In an email, the person whose address is entered in the \"Bcc\" field:",
+   "options": [
+    "Must reply before the others",
+    "Receives the email, but the other recipients cannot see their address",
+    "Receives only the subject line",
+    "Is shown to all recipients as the main addressee"
+   ],
+   "correctIndex": 1,
+   "explanation": "Bcc (blind carbon copy) recipients get the mail while their address stays hidden from the other recipients.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0072",
+   "topicId": "c3-letter-writing",
+   "prompt": "In the 'Block format' of a formal letter:",
+   "options": [
+    "All parts of the letter begin at the left margin",
+    "Every paragraph is indented by five spaces",
+    "The address is written in the centre",
+    "The signature is written at the top"
+   ],
+   "correctIndex": 0,
+   "explanation": "In block format, every line, including addresses, date and signature, starts at the left margin with no indentation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0073",
+   "topicId": "c3-letter-writing",
+   "prompt": "A letter to the Editor of a newspaper is generally written to:",
+   "options": [
+    "Order goods from the newspaper",
+    "Express a view on a public issue for publication",
+    "Apply for leave",
+    "Invite the editor to a family wedding"
+   ],
+   "correctIndex": 1,
+   "explanation": "Letters to the Editor raise public issues and seek publication so that the authorities and the public take notice.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0074",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which salutation is appropriate in a letter to the Editor of a newspaper?",
+   "options": [
+    "My dear Editor",
+    "Hi Editor",
+    "Dear friend",
+    "Sir/Madam"
+   ],
+   "correctIndex": 3,
+   "explanation": "Letters to the Editor use the formal 'Sir/Madam' (or 'Dear Sir/Madam').",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0075",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following sentences is most suitable for the body of a formal letter?",
+   "options": [
+    "I would be grateful if you could look into this matter at the earliest.",
+    "Hey, sort this out quickly, okay?",
+    "You people never do anything right.",
+    "Pls do the needful asap!!!"
+   ],
+   "correctIndex": 0,
+   "explanation": "Formal letters use polite, complete sentences without slang, abbreviations like 'pls/asap', or accusations.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0076",
+   "topicId": "c3-letter-writing",
+   "prompt": "The expression \"Thanking you in anticipation\" in a formal letter means that the writer:",
+   "options": [
+    "Is waiting to be thanked",
+    "Is unhappy with the reader",
+    "Thanks the reader in advance for the action requested",
+    "Expects no reply"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Thanking you in anticipation' thanks the reader beforehand for the help the writer expects.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0077",
+   "topicId": "c3-letter-writing",
+   "prompt": "A NOTICE is usually written:",
+   "options": [
+    "Inside a box, with a heading, date, clear details and the writer's name and designation",
+    "As a long personal letter with a salutation",
+    "Without any date or signature",
+    "Only in the form of a poem"
+   ],
+   "correctIndex": 0,
+   "explanation": "A notice is a short formal announcement, placed in a box, with the institution's name, the word NOTICE, date, heading, body and the issuing authority's signature and designation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0078",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following details is LEAST necessary in a school notice announcing an inter-house quiz?",
+   "options": [
+    "Date and time of the quiz",
+    "Venue of the quiz",
+    "The favourite subject of the person writing the notice",
+    "Last date for registering names"
+   ],
+   "correctIndex": 2,
+   "explanation": "A notice must answer what, when, where and whom to contact; the writer's personal preferences are irrelevant.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0079",
+   "topicId": "c3-letter-writing",
+   "prompt": "Choose the correct ending for a notice issued by a school.",
+   "options": [
+    "Yours lovingly, Meena",
+    "(Sd/-) R. Meena, Secretary, Literary Club",
+    "With hugs, your Meena",
+    "Bye, Meena"
+   ],
+   "correctIndex": 1,
+   "explanation": "A notice ends with the signature, name and designation of the person issuing it, not with a letter-style complimentary close.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0080",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is NOT usually part of an informal letter?",
+   "options": [
+    "The writer's address and date",
+    "A friendly salutation such as 'Dear Priya'",
+    "A personal complimentary close",
+    "A subject line and the recipient's official designation"
+   ],
+   "correctIndex": 3,
+   "explanation": "Informal letters do not need a subject line or the recipient's official designation; those belong to formal letters.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0081",
+   "topicId": "c3-letter-writing",
+   "prompt": "When you write a letter of enquiry to a college asking about admission, the purpose of the letter is to:",
+   "options": [
+    "Seek information about courses, fees and admission procedure",
+    "Complain about the college canteen",
+    "Thank the college for admitting you",
+    "Resign from the college"
+   ],
+   "correctIndex": 0,
+   "explanation": "An enquiry letter asks for information.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0082",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which phrase is most appropriate to introduce enclosed documents in a job application?",
+   "options": [
+    "I'm throwing in my papers, take a look.",
+    "Please find enclosed copies of my certificates for your reference.",
+    "Certificates are somewhere in this envelope, I think.",
+    "Read my certificates if you have time."
+   ],
+   "correctIndex": 1,
+   "explanation": "'Please find enclosed...' is the standard formal way to mention attachments.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0083",
+   "topicId": "c3-letter-writing",
+   "prompt": "Fill in the blank with the most suitable phrase:\n\"Dear Sir,\nWith reference to your advertisement in The Hindu dated 5th June, ______ the post of Junior Assistant in your office.\"",
+   "options": [
+    "I order you to give me",
+    "I wish to cancel",
+    "I complain against",
+    "I wish to apply for"
+   ],
+   "correctIndex": 3,
+   "explanation": "A job application states 'I wish to apply for the post of...' after referring to the advertisement.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0084",
+   "topicId": "c3-letter-writing",
+   "prompt": "In a business letter, the line \"Ref: Your letter No. 245/A2/2024 dated 12.03.2024\" is used to:",
+   "options": [
+    "Show the writer's salary",
+    "Give the writer's personal phone number",
+    "Link the present letter to an earlier letter on the same matter",
+    "Indicate the letter is informal"
+   ],
+   "correctIndex": 2,
+   "explanation": "A reference line cites earlier correspondence so the reader can trace the file and context.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0085",
+   "topicId": "c3-letter-writing",
+   "prompt": "Where is the date written in a formal letter in the traditional (semi-block) format used in Indian schools?",
+   "options": [
+    "After the signature",
+    "Inside the subject line only",
+    "At the very end of the body",
+    "Below the sender's address, before the receiver's address"
+   ],
+   "correctIndex": 3,
+   "explanation": "The date is written just below the sender's address and before the receiver's (inside) address.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0086",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the best way to begin the body of a letter to a friend congratulating her on winning a prize?",
+   "options": [
+    "I was thrilled to hear that you won the first prize in the state-level essay competition!",
+    "With reference to your letter dated 5th June, I wish to inform you...",
+    "I regret to inform you that...",
+    "Subject: Prize – reg."
+   ],
+   "correctIndex": 0,
+   "explanation": "A congratulatory letter to a friend opens warmly and directly; the others are formal or negative openings.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0087",
+   "topicId": "c3-letter-writing",
+   "prompt": "A letter written to the Bank Manager requesting a new cheque book is an example of a:",
+   "options": [
+    "Personal letter",
+    "Formal letter",
+    "Diary entry",
+    "Informal letter"
+   ],
+   "correctIndex": 1,
+   "explanation": "Letters to officials and institutions for official purposes are formal letters.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0088",
+   "topicId": "c3-letter-writing",
+   "prompt": "The phrase \"I remain\" sometimes written before the complimentary close in old-style formal letters is best replaced in modern letters by:",
+   "options": [
+    "Writing 'Cheers'",
+    "Leaving out the signature",
+    "Simply writing the complimentary close, e.g., 'Yours faithfully'",
+    "Writing the date again"
+   ],
+   "correctIndex": 2,
+   "explanation": "Modern letters avoid old-fashioned phrases like 'I remain' and use just the complimentary close followed by the signature.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0089",
+   "topicId": "c3-letter-writing",
+   "prompt": "Choose the sentence that maintains a firm but polite tone in a complaint letter.",
+   "options": [
+    "Your office is completely useless and lazy.",
+    "Fix the lights or else!",
+    "Maybe someday, if you feel like it, you could see the lights.",
+    "Despite two earlier complaints, the street lights have not been repaired; I request you to take immediate action."
+   ],
+   "correctIndex": 3,
+   "explanation": "A complaint should be firm, factual and courteous, not abusive or vague.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0090",
+   "topicId": "c3-letter-writing",
+   "prompt": "In an application to the Tahsildar for a community certificate, which closing is appropriate?",
+   "options": [
+    "Love and regards, Yours lovingly",
+    "Take care, Your friend",
+    "Thanking you, Yours faithfully",
+    "Ok bye, Yours"
+   ],
+   "correctIndex": 2,
+   "explanation": "An application to an official ends formally with 'Thanking you, Yours faithfully'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0091",
+   "topicId": "c3-letter-writing",
+   "prompt": "An informal letter to your grandfather would begin with the salutation:",
+   "options": [
+    "Dear Sir/Madam,",
+    "My dear Grandpa,",
+    "To whomsoever it may concern,",
+    "Respected Sir, Sub: Leave"
+   ],
+   "correctIndex": 1,
+   "explanation": "Informal letters to relatives use an affectionate salutation.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0092",
+   "topicId": "c3-letter-writing",
+   "prompt": "\"To whomsoever it may concern\" is used as a salutation when:",
+   "options": [
+    "The letter or certificate is meant for any reader and no specific person is addressed",
+    "Writing to one's mother",
+    "Writing to a close friend",
+    "Writing a diary entry"
+   ],
+   "correctIndex": 0,
+   "explanation": "It is used in certificates and testimonials meant for any authority or reader.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0093",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following sentences is best suited for the concluding paragraph of an order letter to a book supplier?",
+   "options": [
+    "We hope you are doing well and enjoying the weather.",
+    "We are angry about your prices.",
+    "Kindly dispatch the books by registered parcel at the earliest and send the bill along with them.",
+    "The books may be sent whenever you remember."
+   ],
+   "correctIndex": 2,
+   "explanation": "An order letter ends with clear instructions about delivery and payment.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0094",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is most suitable as the subject line of a leave letter?",
+   "options": [
+    "Sub: Request for leave on 14th and 15th August",
+    "Sub: My fever and my grandmother's village",
+    "Sub: Hello",
+    "Sub: About many things"
+   ],
+   "correctIndex": 0,
+   "explanation": "A subject line states the purpose briefly, specifying the dates of leave.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0095",
+   "topicId": "c3-letter-writing",
+   "prompt": "In a formal letter, the sender's signature appears:",
+   "options": [
+    "Above the salutation",
+    "Below the complimentary close, followed by the sender's name",
+    "Before the date",
+    "In the subject line"
+   ],
+   "correctIndex": 1,
+   "explanation": "The signature is placed below 'Yours faithfully/sincerely', with the name written below it.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0096",
+   "topicId": "c3-letter-writing",
+   "prompt": "Fill in the blank appropriately:\n\"I am writing ______ the inconvenience caused to commuters by the frequent cancellation of the 7.30 a.m. bus from Melur to Madurai.\"",
+   "options": [
+    "to thank you for",
+    "to apologise for",
+    "to celebrate",
+    "to draw your attention to"
+   ],
+   "correctIndex": 3,
+   "explanation": "'To draw your attention to' is used to introduce a problem in a complaint letter.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0097",
+   "topicId": "c3-letter-writing",
+   "prompt": "Complete the letter to the Postmaster:\n\"Sir,\nI had sent a registered parcel to my brother in Delhi on 2nd May. It has not been delivered so far. I request you to ______ and inform me of its present status.\"",
+   "options": [
+    "cancel my birthday",
+    "send me a new brother",
+    "trace the parcel",
+    "close the post office"
+   ],
+   "correctIndex": 2,
+   "explanation": "The writer asks the Postmaster to trace (find out the whereabouts of) the undelivered parcel.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0098",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the correct way to write the receiver's address in a letter to a District Collector?",
+   "options": [
+    "Mr. Collector, Somewhere in the city",
+    "Hey Collector, Trichy",
+    "Collectorate, The, 620 001 – Tiruchirappalli, District",
+    "The District Collector,\nCollectorate,\nTiruchirappalli – 620 001."
+   ],
+   "correctIndex": 3,
+   "explanation": "The inside address gives the designation, office, place and PIN code, line by line.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0099",
+   "topicId": "c3-letter-writing",
+   "prompt": "In a formal email, which is the most suitable subject line for applying for an internship?",
+   "options": [
+    "Application for Summer Internship – B.Com. Student, XYZ College",
+    "hi",
+    "Internship pls",
+    "URGENT!!! READ NOW"
+   ],
+   "correctIndex": 0,
+   "explanation": "A formal email subject is concise and informative; it avoids slang, capitals and exclamation marks.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0100",
+   "topicId": "c3-letter-writing",
+   "prompt": "\"CC\" in an official letter or email indicates that:",
+   "options": [
+    "The letter is cancelled",
+    "A copy of the letter is being sent to the persons named",
+    "The writer has changed their address",
+    "The letter needs no reply"
+   ],
+   "correctIndex": 1,
+   "explanation": "'CC' (carbon copy / courtesy copy) lists others to whom copies are sent for information.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0101",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the most appropriate first sentence of a letter of apology to a customer for a delayed delivery?",
+   "options": [
+    "Delays happen, so do not worry about it.",
+    "We sincerely apologise for the delay in delivering your order No. 1452.",
+    "You ordered too late, so it is your fault.",
+    "We are pleased to announce our new products."
+   ],
+   "correctIndex": 1,
+   "explanation": "An apology letter begins by acknowledging the problem and apologising clearly.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0102",
+   "topicId": "c3-letter-writing",
+   "prompt": "A student writes: \"Respected Madam, I request you to issue my Transfer Certificate as my father has been transferred to Salem.\" Which part of the letter is this?",
+   "options": [
+    "The body, stating the purpose",
+    "The complimentary close",
+    "The sender's address",
+    "The postscript"
+   ],
+   "correctIndex": 0,
+   "explanation": "Stating the request and its reason forms the body of the letter.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0103",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is an example of an informal expression that should be avoided in a formal letter?",
+   "options": [
+    "\"I shall be grateful for your kind consideration.\"",
+    "\"I request you to look into the matter.\"",
+    "\"Kindly acknowledge receipt of this letter.\"",
+    "\"Thanks a ton, buddy!\""
+   ],
+   "correctIndex": 3,
+   "explanation": "Slang such as 'thanks a ton, buddy' is not suitable in formal correspondence.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0104",
+   "topicId": "c3-letter-writing",
+   "prompt": "Complete the sentence in an invitation letter:\n\"The Headmaster and staff of Government Higher Secondary School, Vellore, request the pleasure of your ______ at the Annual Day celebrations on 20th January at 5 p.m.\"",
+   "options": [
+    "absence",
+    "complaint",
+    "company",
+    "leave"
+   ],
+   "correctIndex": 2,
+   "explanation": "Formal invitations use the fixed phrase 'request the pleasure of your company'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0105",
+   "topicId": "c3-letter-writing",
+   "prompt": "\"R.S.V.P.\" printed on an invitation card means:",
+   "options": [
+    "Please reply",
+    "Bring a gift",
+    "Dress formally",
+    "Entry is free"
+   ],
+   "correctIndex": 0,
+   "explanation": "R.S.V.P. is from French 'Répondez s'il vous plaît', meaning 'please reply'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0106",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following best describes a 'formal invitation' written in the third person?",
+   "options": [
+    "I am inviting you to my sister's wedding, please come.",
+    "Mr. and Mrs. K. Raman request the pleasure of your company at the wedding of their daughter...",
+    "Hey! Wedding next week, don't miss it.",
+    "You must come to our wedding without fail, dear."
+   ],
+   "correctIndex": 1,
+   "explanation": "Formal invitations are written in the third person ('Mr. and Mrs. ... request...'), without a salutation or signature.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0107",
+   "topicId": "c3-letter-writing",
+   "prompt": "A reply to a formal invitation, declining it, should:",
+   "options": [
+    "Ignore the invitation completely",
+    "Criticise the host's choice of date",
+    "Thank the host, express regret and give a brief reason",
+    "Ask the host to postpone the function"
+   ],
+   "correctIndex": 2,
+   "explanation": "A polite refusal thanks the host, regrets inability to attend and gives a short reason.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0108",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following closing sentences is appropriate for a letter requesting a refund?",
+   "options": [
+    "Refund now or face consequences.",
+    "Keep the money, I don't care.",
+    "Hope your family is well.",
+    "I request you to refund the amount of Rs. 1,250 to my account at the earliest."
+   ],
+   "correctIndex": 3,
+   "explanation": "A refund request ends with a clear, polite statement of the action and amount expected.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0109",
+   "topicId": "c3-letter-writing",
+   "prompt": "A letter of complaint to a company about a defective product should ideally include:",
+   "options": [
+    "The writer's favourite film",
+    "The date of purchase, bill number and the nature of the defect",
+    "A list of other companies' prices only",
+    "No details, only anger"
+   ],
+   "correctIndex": 1,
+   "explanation": "Specific details such as date, bill/invoice number and the defect help the company act quickly.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0110",
+   "topicId": "c3-letter-writing",
+   "prompt": "In the letter below, choose the most suitable phrase for the blank.\n\"Sir,\nI am a resident of Anna Nagar. ______, the drainage in our street has been overflowing, causing a health hazard.\"",
+   "options": [
+    "Next year",
+    "Once upon a time",
+    "Tomorrow morning",
+    "For the past two weeks"
+   ],
+   "correctIndex": 3,
+   "explanation": "The complaint describes a continuing problem, so a duration phrase ('For the past two weeks') with the present perfect continuous is correct.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0111",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the correct format of the date in a formal letter written in Indian/British style?",
+   "options": [
+    "August the fifteen, 24",
+    "15-Aug-ish",
+    "15th August 2024",
+    "Fifteen of eight"
+   ],
+   "correctIndex": 2,
+   "explanation": "Indian/British style writes the day first: '15th August 2024' or '15.08.2024'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0112",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of these sentences would be appropriate in a personal letter but NOT in an official letter?",
+   "options": [
+    "Mom sends her love and asks when you'll visit us next.",
+    "I request you to issue a duplicate mark sheet.",
+    "The fee of Rs. 200 has been remitted by demand draft.",
+    "Kindly acknowledge receipt of the documents."
+   ],
+   "correctIndex": 0,
+   "explanation": "References to family affection belong to personal letters; the others are official in content and tone.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0113",
+   "topicId": "c3-letter-writing",
+   "prompt": "Which of the following is the most suitable salutation for a letter addressed to 'The Manager, State Bank of India, Madurai'?",
+   "options": [
+    "Sir/Madam,",
+    "My dear Manager,",
+    "Dear friend,",
+    "Hello Bank,"
+   ],
+   "correctIndex": 0,
+   "explanation": "A letter to an official whose name is not known uses 'Sir/Madam'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0114",
+   "topicId": "c3-letter-writing",
+   "prompt": "While writing a formal letter, the main body should ideally be divided into:",
+   "options": [
+    "One long paragraph without breaks",
+    "Bullet points only, without sentences",
+    "A poem followed by the signature",
+    "An opening paragraph stating the purpose, a middle with details, and a closing paragraph with the request or action expected"
+   ],
+   "correctIndex": 3,
+   "explanation": "A clear three-part structure (purpose, details, action) makes a formal letter easy to follow.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0115",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Every evening, long queues form outside the ration shop in our street. Many people leave without their rice because the stock runs out before their turn.\nWhich inference is best supported?",
+   "options": [
+    "People in the street do not eat rice",
+    "The supply of rice at the shop is not enough for the demand",
+    "The ration shop is open only on Sundays",
+    "Rice prices in the market have fallen"
+   ],
+   "correctIndex": 1,
+   "explanation": "Stock running out while people are still waiting shows that supply falls short of demand.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0116",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The temple car festival in the town drew lakhs of devotees. Special buses were run from neighbouring districts, and all lodges in the town were full a week in advance.\nWhat can be inferred?",
+   "options": [
+    "Only local residents attend the festival",
+    "The town has no lodges",
+    "The festival attracts visitors from well beyond the town",
+    "Buses do not run to the town on other days"
+   ],
+   "correctIndex": 2,
+   "explanation": "Special buses from other districts and fully booked lodges indicate many outside visitors.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0117",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Selvi's mother noticed that Selvi had stopped playing outdoors, kept rubbing her eyes and held her books very close to her face while reading.\nWhat is the most reasonable inference?",
+   "options": [
+    "Selvi may have a problem with her eyesight",
+    "Selvi dislikes her books",
+    "Selvi is preparing for a sports event",
+    "Selvi's books are printed in large letters"
+   ],
+   "correctIndex": 0,
+   "explanation": "Rubbing the eyes and holding books very close are common signs of poor vision.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0118",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: In the last ten years, the number of sparrows seen in the city has dropped sharply. During the same period, old tiled houses with open eaves have been replaced by sealed concrete buildings.\nWhich inference is most reasonable?",
+   "options": [
+    "Sparrows prefer concrete buildings",
+    "Loss of nesting places may be one reason for the decline of sparrows",
+    "Sparrows have increased in the city",
+    "Concrete buildings attract more birds"
+   ],
+   "correctIndex": 1,
+   "explanation": "The passage links the decline with the disappearance of open eaves where sparrows nest; it suggests a possible cause, not a proven one.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0119",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The shopkeeper said, \"Sorry, we have sold the last umbrella. Come back on Monday; a fresh stock is expected.\"\nWhich of the following can be inferred?",
+   "options": [
+    "The shop never sells umbrellas",
+    "Monday is a holiday for the shop",
+    "Umbrellas are in high demand at present",
+    "The customer bought an umbrella"
+   ],
+   "correctIndex": 2,
+   "explanation": "The stock is sold out, which implies strong demand; nothing suggests the shop is closed on Monday.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0120",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: There were different streams in the Indian freedom movement – moderates, extremists, revolutionaries and socialists – each with its own methods.\nWhich is the best inference?",
+   "options": [
+    "All freedom fighters followed a single method",
+    "The freedom movement had no leaders",
+    "Only revolutionaries fought for freedom",
+    "The Indian freedom movement was not uniform in its approach"
+   ],
+   "correctIndex": 3,
+   "explanation": "Several streams with different methods mean the movement was diverse (heterogeneous), not uniform.",
+   "sourceTag": "question-bank-2025",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0121",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Although the factory has installed new machines, its output has not increased. Workers say they were never trained to operate them.\nWhat can be inferred?",
+   "options": [
+    "Lack of training may be preventing the new machines from being used effectively",
+    "The new machines are of poor quality",
+    "The workers do not want to work",
+    "The factory has closed down"
+   ],
+   "correctIndex": 0,
+   "explanation": "The passage gives the workers' lack of training as the explanation; nothing is said about the machines' quality.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0122",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: When the teacher entered the classroom, the noise stopped at once and all the students stood up.\nWhich inference is best?",
+   "options": [
+    "The students were asleep",
+    "The teacher was absent",
+    "The class had no students",
+    "The students respect the teacher"
+   ],
+   "correctIndex": 3,
+   "explanation": "Falling silent and standing up show respect for the teacher.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0123",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Kumaran has been late to office four times this week. Each time, he blamed traffic. His colleagues who travel by the same route reached on time.\nWhat is the most reasonable inference?",
+   "options": [
+    "Traffic on the route is always heavy",
+    "Traffic may not be the real reason for Kumaran's late arrival",
+    "Kumaran's colleagues live in the office",
+    "Kumaran is never late"
+   ],
+   "correctIndex": 1,
+   "explanation": "Others on the same route arrived on time, so his excuse is doubtful.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0124",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: All the students who scored above 90 in the test were given a medal. Divya was not given a medal.\nWhich conclusion follows definitely?",
+   "options": [
+    "Divya failed the test",
+    "Divya scored exactly 90",
+    "Divya did not score above 90",
+    "Divya did not write the test"
+   ],
+   "correctIndex": 2,
+   "explanation": "If every student above 90 got a medal and Divya did not, she could not have scored above 90. Whether she failed or scored exactly 90 cannot be known.",
+   "sourceTag": "authored",
+   "difficulty": "hard",
+   "trick": "Only the statement guaranteed by the premises 'follows definitely'."
+  },
+  {
+   "id": "bank-C-III-w0125",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Some engineers are poets. All poets are good speakers.\nWhich conclusion follows?",
+   "options": [
+    "All engineers are good speakers",
+    "No engineer is a good speaker",
+    "Some engineers are good speakers",
+    "All good speakers are engineers"
+   ],
+   "correctIndex": 2,
+   "explanation": "The engineers who are poets must be good speakers, so 'some engineers are good speakers' follows.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0126",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The pond near the village used to dry up every April. Since the villagers desilted it last year and cleared the channels that feed it, it has held water through the summer.\nWhat can be inferred?",
+   "options": [
+    "Rainfall has completely stopped",
+    "Desilting and clearing the feeder channels improved the pond's water storage",
+    "The villagers built a new pond",
+    "The pond now dries up in March"
+   ],
+   "correctIndex": 1,
+   "explanation": "The change followed desilting and clearing of channels, suggesting they increased storage and inflow.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0127",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Reforestation projects restore degraded ecosystems. They increase biodiversity and improve air quality. They also enhance water retention.\nWhich set of statements best supports the claim that reforestation is beneficial?\n(a) Reforestation decreases biodiversity.\n(b) Reforestation restores degraded ecosystems.\n(c) Reforestation improves air quality.\n(d) Reforestation enhances water retention.",
+   "options": [
+    "(b), (c) and (d)",
+    "(a), (b) and (c)",
+    "(a) and (d) only",
+    "(a), (c) and (d)"
+   ],
+   "correctIndex": 0,
+   "explanation": "Statement (a) contradicts the passage; (b), (c) and (d) are all benefits stated in it.",
+   "sourceTag": "question-bank-2025",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0128",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: First, the paddy is harvested. Then it is threshed to separate the grain. Next, the grain is dried in the sun. Finally, it is husked to obtain rice.\nWhich statements correctly describe the sequence?\n(a) Threshing comes before drying.\n(b) Husking comes before harvesting.\n(c) Drying comes after threshing and before husking.\n(d) The process begins with husking.",
+   "options": [
+    "(b) and (d)",
+    "(a) and (b)",
+    "(c) and (d)",
+    "(a) and (c)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Order: harvest – thresh – dry – husk. Only (a) and (c) agree with it.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0129",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Online shopping and traditional shopping both let customers buy goods. Online shopping offers home delivery and wider choice, while traditional shopping lets customers touch and examine goods before buying.\nWhich statements correctly compare the two?\n(a) Both allow customers to buy goods.\n(b) Only traditional shopping offers home delivery.\n(c) Traditional shopping allows customers to examine goods physically.\n(d) Online shopping offers a narrower choice.",
+   "options": [
+    "(b) and (d)",
+    "(a) and (b)",
+    "(c) and (d)",
+    "(a) and (c)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The passage says both allow buying and only traditional shopping allows physical examination; (b) and (d) reverse the facts.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0130",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The library's new rule allows students to borrow books only if they have returned all earlier books. Arjun borrowed two books yesterday.\nWhat can be inferred?",
+   "options": [
+    "Arjun had no overdue books when he borrowed them",
+    "Arjun never reads books",
+    "Arjun has lost a library book",
+    "The library has stopped lending books"
+   ],
+   "correctIndex": 0,
+   "explanation": "Under the rule, borrowing is possible only after returning earlier books, so Arjun must have had none pending.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0131",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The speaker paused, looked at his watch, and said, \"I will be brief.\" He then spoke for an hour.\nWhat does the writer most likely imply?",
+   "options": [
+    "The speaker's watch was broken",
+    "The speaker did not keep his promise to be brief",
+    "The audience asked him to continue",
+    "The speech lasted only a few minutes"
+   ],
+   "correctIndex": 1,
+   "explanation": "The contrast between 'I will be brief' and speaking for an hour is ironic: he did not keep his word.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0132",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Many coastal villages that had dense mangrove forests suffered less damage in the 2004 tsunami than nearby villages without them.\nWhich inference is best supported?",
+   "options": [
+    "Mangroves cause tsunamis",
+    "Villages without mangroves were not affected at all",
+    "Mangrove forests can reduce the impact of waves on the coast",
+    "Mangroves grow only after a tsunami"
+   ],
+   "correctIndex": 2,
+   "explanation": "The comparison suggests mangroves acted as a buffer against the waves.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0133",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The new bus route was introduced in January. Since then, the number of students attending the village high school has risen, especially among girls from distant hamlets.\nWhat is the most reasonable inference?",
+   "options": [
+    "Girls do not like the school",
+    "The school has shifted to the town",
+    "Easier transport has helped more students, especially girls, attend school",
+    "Fewer buses run now than before"
+   ],
+   "correctIndex": 2,
+   "explanation": "Attendance rose after the bus route started, especially among those who live far away.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0134",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: \"The Collector ordered the immediate closure of the quarry after residents complained that blasting had cracked the walls of their houses.\"\nWhich inference can be drawn?",
+   "options": [
+    "The residents wanted more blasting",
+    "The Collector treated the residents' complaint as serious",
+    "The quarry was closed before the complaint",
+    "The houses were built by the quarry owners"
+   ],
+   "correctIndex": 1,
+   "explanation": "Ordering immediate closure in response to the complaint shows that it was taken seriously.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0135",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The match was to begin at 3 p.m. At 2.55 p.m., dark clouds gathered, the umpires inspected the pitch, and the ground staff rushed out with covers.\nWhat can be inferred?",
+   "options": [
+    "The match had already ended",
+    "The pitch was being repainted",
+    "The umpires had gone home",
+    "Rain was expected to interrupt the match"
+   ],
+   "correctIndex": 3,
+   "explanation": "Dark clouds and covers being brought out indicate expected rain.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0136",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Every candidate who passed the written test was called for the interview. Nirmala was called for the interview.\nWhich conclusion is valid?",
+   "options": [
+    "None of the given conclusions follows definitely",
+    "Nirmala passed the written test",
+    "Nirmala failed the written test",
+    "Only Nirmala was called for the interview"
+   ],
+   "correctIndex": 0,
+   "explanation": "The statement says passing leads to an interview call, but it does not say only those who passed were called; so we cannot be sure Nirmala passed.",
+   "sourceTag": "authored",
+   "difficulty": "hard",
+   "trick": "'All A are B' does not mean 'all B are A'."
+  },
+  {
+   "id": "bank-C-III-w0137",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The price of onions doubled in a single month after unseasonal rains damaged the crop in the major growing districts.\nWhich inference is best supported?",
+   "options": [
+    "Demand for onions fell sharply",
+    "A fall in supply due to crop damage pushed up onion prices",
+    "Onions are not grown in India",
+    "The rains increased onion production"
+   ],
+   "correctIndex": 1,
+   "explanation": "Crop damage reduced supply, which explains the price rise.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0138",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The author writes, \"My grandfather never went to school, yet he could calculate the yield of his field to the last measure and predict rain from the behaviour of ants.\"\nWhat does the author most likely want to convey?",
+   "options": [
+    "Practical knowledge can be gained without formal schooling",
+    "Schools are unnecessary for everyone",
+    "Ants can count",
+    "His grandfather was a weather scientist"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 'never went to school, yet...' contrast highlights his practical wisdom; it does not argue that schools are useless.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0139",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: In a survey, 80% of the people who used the new park said they felt healthier. The survey did not include people who did not use the park.\nWhich statement is the most reasonable?",
+   "options": [
+    "The park definitely makes everyone healthier",
+    "People who avoid the park are unhealthy",
+    "Only 20% of the town is healthy",
+    "The survey alone cannot prove that the park made people healthier"
+   ],
+   "correctIndex": 3,
+   "explanation": "Without comparing with non-users, the survey cannot establish cause and effect.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0140",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The old banyan tree in the village square has been the meeting place of the village elders for generations. When the road-widening plan proposed cutting it down, the villagers submitted a petition with five hundred signatures.\nWhat can be inferred?",
+   "options": [
+    "The villagers support cutting the tree",
+    "The tree was planted last year",
+    "The villagers value the tree and want it preserved",
+    "The road has already been widened"
+   ],
+   "correctIndex": 2,
+   "explanation": "A large petition against cutting the tree shows their attachment to it.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0141",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Of the 40 students in the class, 25 play cricket and 20 play football. Every student plays at least one of the two games.\nWhich conclusion follows?",
+   "options": [
+    "At least 5 students play both games",
+    "No student plays both games",
+    "Exactly 25 students play only cricket",
+    "Football is more popular than cricket"
+   ],
+   "correctIndex": 0,
+   "explanation": "25 + 20 = 45 exceeds 40, so at least 45 – 40 = 5 students play both; with 'every student plays at least one', exactly 5 play both.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0142",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: The doctor said, \"Your test results are normal, but I would like you to cut down on salt and walk every day.\"\nWhat can be inferred from the doctor's advice?",
+   "options": [
+    "The patient is seriously ill",
+    "The tests were not done",
+    "The patient must stop walking",
+    "The doctor is recommending precautions to stay healthy"
+   ],
+   "correctIndex": 3,
+   "explanation": "Normal results plus lifestyle advice indicate preventive care, not illness.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0143",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Although the State has received above-normal rainfall this year, several tanks in the district remain dry because their inlet channels are encroached upon.\nWhich inference is most reasonable?",
+   "options": [
+    "The district received no rain",
+    "Clearing encroachments on inlet channels could help the tanks fill",
+    "Tanks fill only through groundwater",
+    "Encroachments increase water flow"
+   ],
+   "correctIndex": 1,
+   "explanation": "The passage blames blocked inlets, not lack of rain, for the dry tanks.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0144",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the passage and choose the best inference.\nPassage: Crypto-currencies and stocks both involve investment. Crypto-currencies are highly volatile, while stocks are relatively stable. Both are affected by market fluctuations, though differently.\nWhich statements accurately compare them?\n(a) Neither involves investment.\n(b) Both involve investment.\n(c) Both are immune to market fluctuations.\n(d) They react differently to market fluctuations.",
+   "options": [
+    "(a) and (c)",
+    "(c) and (d)",
+    "(b) and (d)",
+    "(a) and (b)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The passage states both involve investment and react differently to fluctuations; (a) and (c) contradict it.",
+   "sourceTag": "question-bank-2025",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0145",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Raghu wanted to buy a bicycle. He saved a part of his pocket money every week. ______ By the end of the year, he had enough to buy the bicycle he wanted.",
+   "options": [
+    "He also did small jobs for neighbours to earn extra money.",
+    "He spent all his money on sweets.",
+    "He decided he did not want a bicycle.",
+    "His bicycle was stolen the next day."
+   ],
+   "correctIndex": 0,
+   "explanation": "The blank must add to his saving effort and lead to having 'enough' money.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0146",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Trees are essential for life on earth. ______ They also provide shade, fruit and timber, and are home to countless birds and insects.",
+   "options": [
+    "Many trees are cut down for furniture.",
+    "They give out oxygen and absorb carbon dioxide.",
+    "Trees cannot grow in cities at all.",
+    "Some people are afraid of climbing trees."
+   ],
+   "correctIndex": 1,
+   "explanation": "The paragraph lists benefits; 'They also provide...' needs a preceding benefit.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0147",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: The village had no hospital. Pregnant women had to travel thirty kilometres for a check-up. ______ Since then, the number of safe deliveries in the village has increased.",
+   "options": [
+    "The road to the town was closed last year.",
+    "Many families moved away from the village.",
+    "Doctors in the town went on leave.",
+    "Last year, a primary health centre was opened in the village."
+   ],
+   "correctIndex": 3,
+   "explanation": "'Since then' needs an event that explains the increase in safe deliveries.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0148",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Smartphones have many advantages. They help us stay in touch, find information and pay bills. ______ Excessive screen time can harm eyesight and sleep.",
+   "options": [
+    "Therefore, everyone should use them all day.",
+    "Moreover, they are very cheap.",
+    "However, they must be used in moderation.",
+    "In addition, they never break."
+   ],
+   "correctIndex": 2,
+   "explanation": "The next sentence describes harm, so the blank needs a contrast ('However') introducing caution.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0149",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Thiruvalluvar urged people to speak sweet words. ______ Kind speech, he said, is like ripe fruit, while harsh words are like unripe fruit.",
+   "options": [
+    "He wrote only about wealth and war.",
+    "He compared the two kinds of speech to fruit.",
+    "He was born in a palace in Rome.",
+    "He disliked all kinds of fruit."
+   ],
+   "correctIndex": 1,
+   "explanation": "The blank introduces the comparison that the following sentence explains (Kural 100).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0150",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Our school started a 'No Plastic' drive. Students were asked to bring lunch in steel boxes and water in reusable bottles. ______ Within a month, the amount of plastic waste in the school had fallen sharply.",
+   "options": [
+    "The canteen began selling more plastic-wrapped snacks.",
+    "Students were told to bring plastic bags.",
+    "The drive was cancelled after one day.",
+    "Dustbins were checked every week to see how much plastic was being thrown away."
+   ],
+   "correctIndex": 3,
+   "explanation": "The blank must be consistent with the drive and its success.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0151",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Many people believe that success depends on luck. ______ A farmer who prepares his field well is more likely to reap a good harvest than one who waits for fortune.",
+   "options": [
+    "Luck is the only thing that matters.",
+    "Farmers never work hard.",
+    "In reality, hard work and preparation matter far more.",
+    "Harvests do not depend on anything."
+   ],
+   "correctIndex": 2,
+   "explanation": "The example of the farmer supports the idea that preparation matters more than luck.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0152",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: The meeting was scheduled for 10 a.m. ______ As a result, it began only at 11.30 a.m.",
+   "options": [
+    "The chief guest was held up in heavy traffic.",
+    "Everyone arrived on time.",
+    "The meeting ended at 10.15 a.m.",
+    "The hall was ready a day early."
+   ],
+   "correctIndex": 0,
+   "explanation": "'As a result' requires a cause for the delay.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0153",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Seasonal fruits are cheaper and fresher than imported ones. ______ Buying them also supports local farmers.",
+   "options": [
+    "They are available only in foreign countries.",
+    "They are always more expensive than imported fruits.",
+    "They are also rich in the nutrients our bodies need in that season.",
+    "They are not grown in India."
+   ],
+   "correctIndex": 2,
+   "explanation": "The blank continues the list of advantages of seasonal fruits; the other options contradict the first sentence.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0154",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Ilango had always dreamt of seeing the sea. When his uncle took him to Marina Beach, ______ He stood silently for a long time, watching the waves.",
+   "options": [
+    "he was overwhelmed by the sight of the endless blue water.",
+    "he refused to look at the water.",
+    "he complained that the beach was boring.",
+    "he fell asleep in the car."
+   ],
+   "correctIndex": 0,
+   "explanation": "The following sentence (standing silently, watching) fits wonder at the sight.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0155",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Early humans lived by hunting and gathering. ______ This led to settled villages, because people had to stay near their fields.",
+   "options": [
+    "They lived only in large cities.",
+    "They used computers for hunting.",
+    "They never moved from place to place.",
+    "Later, they learnt to grow crops and tame animals."
+   ],
+   "correctIndex": 3,
+   "explanation": "'This led to settled villages ... near their fields' requires the discovery of agriculture.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0156",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: The government introduced a helpline for senior citizens. ______ Within six months, more than ten thousand calls were received.",
+   "options": [
+    "The helpline number was kept secret.",
+    "Elderly people could call it for medical, legal or emotional help.",
+    "Senior citizens were not allowed to use it.",
+    "It worked only for one day."
+   ],
+   "correctIndex": 1,
+   "explanation": "The blank must explain the helpline's use, consistent with the large number of calls.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0157",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Reading newspapers daily has several benefits. It keeps us informed about current events. ______ Finally, it develops the habit of reading.",
+   "options": [
+    "Firstly, newspapers are printed on paper.",
+    "Secondly, it improves our vocabulary and language.",
+    "However, newspapers are useless.",
+    "In conclusion, never read newspapers."
+   ],
+   "correctIndex": 1,
+   "explanation": "The paragraph lists benefits in order; the blank is the second benefit before 'Finally'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0158",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: The bridge had developed cracks. Engineers warned that it could collapse under heavy loads. ______ Traffic was diverted through another route until repairs were completed.",
+   "options": [
+    "The authorities therefore banned heavy vehicles from using it.",
+    "Heavy lorries were invited to use the bridge.",
+    "The cracks were declared harmless.",
+    "The engineers were dismissed for raising the alarm."
+   ],
+   "correctIndex": 0,
+   "explanation": "The logical response to the warning is restricting heavy vehicles, leading to the diversion.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0159",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Hard water does not lather easily with soap. ______ Such water also leaves white deposits in kettles and pipes.",
+   "options": [
+    "This is because it is very pure.",
+    "This is why it is used in batteries.",
+    "It is always found in rainwater.",
+    "This is because it contains dissolved salts of calcium and magnesium."
+   ],
+   "correctIndex": 3,
+   "explanation": "Hardness of water is caused by dissolved calcium and magnesium salts, which also form scale.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0160",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Writing a diary can be helpful. ______ It also helps us remember important events and reflect on our mistakes.",
+   "options": [
+    "It is a waste of paper.",
+    "Nobody should ever write anything.",
+    "It allows us to express our feelings freely.",
+    "It is useful only for famous people."
+   ],
+   "correctIndex": 2,
+   "explanation": "'It also helps...' requires a preceding benefit.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0161",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Many young people leave villages to work in cities. ______ As a result, agricultural work in some villages now suffers from a shortage of labour.",
+   "options": [
+    "Cities have no jobs at all.",
+    "They are attracted by better wages and facilities in urban areas.",
+    "Village wages are higher than city wages.",
+    "They prefer farming to every other job."
+   ],
+   "correctIndex": 1,
+   "explanation": "The blank gives the reason for migration, which leads to the labour shortage.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0162",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Mahatma Gandhi believed in non-violence. ______ He led millions in peaceful protests such as the Salt Satyagraha.",
+   "options": [
+    "He encouraged his followers to use weapons.",
+    "He disliked all forms of protest.",
+    "He held that even the strongest opponent could be won over through truth and love.",
+    "He never took part in the freedom struggle."
+   ],
+   "correctIndex": 2,
+   "explanation": "The blank must agree with non-violence and peaceful protest.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0163",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Arun forgot to switch off the geyser before leaving for college. ______ He decided to be more careful in future.",
+   "options": [
+    "The geyser switched itself off and saved power.",
+    "He never used the geyser at all.",
+    "His college gave him a prize for the geyser.",
+    "When he returned, his mother told him about the high electricity bill and the risk of overheating."
+   ],
+   "correctIndex": 3,
+   "explanation": "The blank must show a consequence that leads to his resolution to be careful.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0164",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: The Western Ghats receive heavy rainfall during the south-west monsoon. ______ The eastern side, lying in the rain-shadow, receives much less rain at that time.",
+   "options": [
+    "The moist winds rise along the western slopes and shed most of their rain there.",
+    "The winds become wetter after crossing the mountains.",
+    "The eastern slopes receive the heaviest rain.",
+    "The monsoon winds blow from the east."
+   ],
+   "correctIndex": 0,
+   "explanation": "Orographic rainfall: moist south-west winds rise over the western slopes and drop most of their moisture, leaving the leeward side in a rain-shadow.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0165",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Lakshmi was nervous before her first stage performance. Her hands were cold and her voice shook as she began. ______ By the end, the audience was on its feet, applauding.",
+   "options": [
+    "She ran off the stage in the middle of the song.",
+    "The audience left before she began.",
+    "She forgot every word and stopped singing.",
+    "Gradually, as she lost herself in the music, her confidence returned."
+   ],
+   "correctIndex": 3,
+   "explanation": "The blank must bridge the nervous start and the standing ovation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0166",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Some people argue that examinations test only memory. ______ Others feel that well-designed examinations can test understanding and application too.",
+   "options": [
+    "They believe students simply reproduce what they have memorised.",
+    "Everyone agrees that examinations are perfect.",
+    "Examinations were abolished long ago.",
+    "Memory is never needed in life."
+   ],
+   "correctIndex": 0,
+   "explanation": "The blank explains the first view; 'Others feel' presents the opposite view.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0167",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the sentence that best fills the blank in the paragraph.\nParagraph: Electric vehicles produce no exhaust fumes. ______ However, their batteries are costly, and charging stations are still few.",
+   "options": [
+    "They pollute the air more than diesel buses.",
+    "They have no batteries.",
+    "They are therefore better for the air quality of our cities.",
+    "They are cheaper than all other vehicles."
+   ],
+   "correctIndex": 2,
+   "explanation": "The blank continues the advantage; 'However' then introduces the drawbacks.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0168",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the correct set of words to fill the blanks in order:\n1. The judge's ______ verdict ended all doubts about the case.\n2. The artist's ______ carvings attracted tourists from abroad.\n3. The leader's ______ speech motivated the young volunteers.\n4. The team's ______ performance earned them the trophy.",
+   "options": [
+    "exquisite, conclusive, excellent, inspiring",
+    "conclusive, exquisite, inspiring, excellent",
+    "inspiring, excellent, conclusive, exquisite",
+    "excellent, inspiring, exquisite, conclusive"
+   ],
+   "correctIndex": 1,
+   "explanation": "A verdict ending doubts is 'conclusive'; fine carvings are 'exquisite'; a motivating speech is 'inspiring'; a trophy-winning performance is 'excellent'.",
+   "sourceTag": "question-bank-2025",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0169",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the correct set of words to fill the blanks in order:\n1. The ______ rain flooded the low-lying streets.\n2. The ______ child shared his lunch with a classmate.\n3. The ______ path through the forest was hard to follow.\n4. The ______ reply of the officer annoyed the visitors.",
+   "options": [
+    "generous, torrential, curt, winding",
+    "torrential, generous, winding, curt",
+    "winding, curt, torrential, generous",
+    "curt, winding, generous, torrential"
+   ],
+   "correctIndex": 1,
+   "explanation": "Heavy flooding rain is torrential; sharing shows a generous child; a hard-to-follow path is winding; an annoying short reply is curt.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0170",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Choose the correct set of words to fill the blanks in order:\n1. The scientist's ______ research led to a new vaccine.\n2. The ______ old man could not climb the stairs.\n3. The minister gave a ______ answer that satisfied no one.\n4. The ______ fragrance of jasmine filled the room.",
+   "options": [
+    "frail, pioneering, sweet, vague",
+    "vague, sweet, pioneering, frail",
+    "sweet, vague, frail, pioneering",
+    "pioneering, frail, vague, sweet"
+   ],
+   "correctIndex": 3,
+   "explanation": "New vaccine – pioneering research; cannot climb – frail; satisfies no one – vague; jasmine – sweet fragrance.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-III-w0171",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the notice and answer the query.\nNOTICE: \"The college library will remain closed from 2nd to 4th October for stock verification. Books due for return during this period may be returned on 5th October without fine.\"\nQuery: A student's book is due on 3rd October. What should he do?",
+   "options": [
+    "Return it on 3rd October to the closed library",
+    "Pay a fine for late return on 5th October",
+    "Return it on 5th October without paying a fine",
+    "Keep it till the end of the month"
+   ],
+   "correctIndex": 2,
+   "explanation": "The notice allows books due during the closure to be returned on 5th October without fine.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0172",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the notice and answer the query.\nNOTICE: \"Applications for the scholarship must reach the office on or before 15th November. Incomplete applications and those received after the due date will be rejected.\"\nQuery: Priya's complete application reached the office on 15th November. What will happen?",
+   "options": [
+    "It will be considered, as it reached on the due date",
+    "It will be rejected for being late",
+    "It will be returned for completion",
+    "It will be kept for next year"
+   ],
+   "correctIndex": 0,
+   "explanation": "'On or before 15th November' includes 15th November itself.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0173",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the message and answer the query.\n\"Dear Parents, the school bus will leave at 7.15 a.m. instead of 7.30 a.m. from Monday, as the morning assembly will begin earlier.\"\nQuery: Why has the bus timing been changed?",
+   "options": [
+    "Because the morning assembly will begin earlier",
+    "Because the bus driver has changed",
+    "Because the road is under repair",
+    "Because Monday is a holiday"
+   ],
+   "correctIndex": 0,
+   "explanation": "The message states the reason directly: the assembly will begin earlier.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0174",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the advertisement and answer the query.\n\"WANTED: Typist with at least two years' experience. Knowledge of Tamil and English typing essential. Apply with copies of certificates within 10 days.\"\nQuery: Which applicant is NOT eligible?",
+   "options": [
+    "Meena, who knows Tamil and English typing and has three years' experience",
+    "Ravi, who knows only English typing and has five years' experience",
+    "Kumar, who knows Tamil and English typing and has two years' experience",
+    "Latha, who knows Tamil and English typing and has four years' experience"
+   ],
+   "correctIndex": 1,
+   "explanation": "Knowledge of both Tamil and English typing is essential, so Ravi does not qualify despite his experience.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-III-w0175",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the extract and answer the query.\n\"Visitors are requested not to feed the animals. Food from outside can make them seriously ill. Offenders will be fined Rs. 500.\"\nQuery: Why should visitors not feed the animals?",
+   "options": [
+    "The animals are already overfed",
+    "Feeding the animals is too costly",
+    "Outside food can make the animals seriously ill",
+    "The animals bite visitors who feed them"
+   ],
+   "correctIndex": 2,
+   "explanation": "The extract gives the reason: outside food can make them ill.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-III-w0176",
+   "topicId": "c3-queries-inferences-blanks",
+   "prompt": "Read the extract and answer the query.\n\"The Madurai Express, scheduled to depart at 1.40 p.m., will leave at 2.25 p.m. owing to the late arrival of the connecting rake.\"\nQuery: By how many minutes has the departure been delayed?",
+   "options": [
+    "35 minutes",
+    "55 minutes",
+    "25 minutes",
+    "45 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "From 1.40 p.m. to 2.25 p.m. is 45 minutes.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  }
+ ]
+}

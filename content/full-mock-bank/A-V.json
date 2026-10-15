@@ -1,0 +1,3561 @@
+{
+ "unitId": "A-V",
+ "passages": [],
+ "questions": [
+  {
+   "id": "bank-A-V-e0001",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The Planning Commission of India was set up in March 1950 by:",
+   "options": [
+    "A resolution of the Union Cabinet",
+    "An Act of Parliament",
+    "A Constitutional Amendment",
+    "An Ordinance of the President"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Planning Commission was set up on 15 March 1950 by a resolution of the Government of India (Union Cabinet). It was neither a constitutional nor a statutory body.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0002",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Who was the first Deputy Chairman of the Planning Commission of India?",
+   "options": [
+    "V.T. Krishnamachari",
+    "Gulzarilal Nanda",
+    "C.D. Deshmukh",
+    "P.C. Mahalanobis"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gulzarilal Nanda was the first Deputy Chairman (1950); the Prime Minister, Jawaharlal Nehru, was the ex-officio Chairman.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0003",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The Second Five-Year Plan (1956-61) was based on the growth model developed by:",
+   "options": [
+    "Harrod and Domar",
+    "Raj Krishna",
+    "P.C. Mahalanobis",
+    "V.K.R.V. Rao"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Second Plan followed the Mahalanobis model, which stressed rapid industrialisation through basic and heavy industries.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0004",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The First Five-Year Plan (1951-56) was based on which growth model?",
+   "options": [
+    "Mahalanobis model",
+    "Lewis model",
+    "Rao-Manmohan model",
+    "Harrod-Domar model"
+   ],
+   "correctIndex": 3,
+   "explanation": "The First Plan used the Harrod-Domar model, linking growth to the savings rate and capital-output ratio.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0005",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Which sector received the highest priority in India's First Five-Year Plan?",
+   "options": [
+    "Agriculture, including irrigation",
+    "Heavy industries",
+    "Information technology",
+    "Defence production"
+   ],
+   "correctIndex": 0,
+   "explanation": "Coming after Partition and food shortages, the First Plan gave top priority to agriculture, irrigation and power.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0006",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Achieving a 'self-reliant and self-generating economy' was the main objective of which Five-Year Plan?",
+   "options": [
+    "First Plan (1951-56)",
+    "Third Plan (1961-66)",
+    "Sixth Plan (1980-85)",
+    "Ninth Plan (1997-2002)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Third Plan aimed at a self-reliant and self-generating economy; it failed largely because of the 1962 and 1965 wars and drought.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0007",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The period 1966-69, when India implemented three Annual Plans instead of a Five-Year Plan, is known as the:",
+   "options": [
+    "Rolling Plan",
+    "Perspective Plan",
+    "Plan Holiday",
+    "Indicative Plan"
+   ],
+   "correctIndex": 2,
+   "explanation": "After the failure of the Third Plan, three Annual Plans were run in 1966-67, 1967-68 and 1968-69: the 'Plan Holiday'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0008",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Which of the following led to the 'Plan Holiday' of 1966-69?\n(1) The Indo-Pakistan war of 1965\n(2) Severe droughts in 1965-66 and 1966-67\n(3) The failure of the Third Five-Year Plan",
+   "options": [
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1) and (3) only",
+    "(1), (2) and (3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "War, successive droughts and the resulting failure of the Third Plan together forced the government to postpone the Fourth Plan, so all three are correct.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0009",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "'Growth with stability and progressive achievement of self-reliance' was the objective of which Five-Year Plan?",
+   "options": [
+    "Fourth Plan (1969-74)",
+    "Second Plan (1956-61)",
+    "Seventh Plan (1985-90)",
+    "Tenth Plan (2002-07)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Fourth Plan (1969-74) aimed at growth with stability and progressive achievement of self-reliance.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0010",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Removal of poverty ('Garibi Hatao') and attainment of self-reliance were the twin objectives of which Five-Year Plan?",
+   "options": [
+    "Third Plan (1961-66)",
+    "Fifth Plan (1974-79)",
+    "Seventh Plan (1985-90)",
+    "Ninth Plan (1997-2002)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Fifth Plan placed poverty removal and self-reliance at the centre of its strategy.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0011",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The Minimum Needs Programme (MNP), to provide basic amenities such as elementary education, rural health and drinking water, was introduced in the:",
+   "options": [
+    "First Five-Year Plan",
+    "Eighth Five-Year Plan",
+    "Fifth Five-Year Plan",
+    "Eleventh Five-Year Plan"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Minimum Needs Programme was introduced in the first year of the Fifth Plan (1974).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0012",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Which Five-Year Plan was terminated one year ahead of schedule by the Janata Party government in 1978?",
+   "options": [
+    "Fourth Plan",
+    "Sixth Plan",
+    "Third Plan",
+    "Fifth Plan"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Janata government ended the Fifth Plan (1974-79) in 1978 and introduced the Rolling Plan.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0013",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "'Food, Work and Productivity' was the basic priority of which Five-Year Plan?",
+   "options": [
+    "Seventh Plan (1985-90)",
+    "Sixth Plan (1980-85)",
+    "Eighth Plan (1992-97)",
+    "Fourth Plan (1969-74)"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Seventh Plan emphasised food, work and productivity.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0014",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Which Five-Year Plan, launched after the 1991 economic reforms, adopted 'indicative planning' and made human resource development its main focus?",
+   "options": [
+    "Seventh Plan (1985-90)",
+    "Eighth Plan (1992-97)",
+    "Ninth Plan (1997-2002)",
+    "Sixth Plan (1980-85)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Eighth Plan began in 1992 after two Annual Plans (1990-92); it shifted to indicative planning, with the State acting as facilitator.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0015",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "'Growth with Social Justice and Equality' was the theme of which Five-Year Plan?",
+   "options": [
+    "Eighth Plan (1992-97)",
+    "Tenth Plan (2002-07)",
+    "Ninth Plan (1997-2002)",
+    "Twelfth Plan (2012-17)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Ninth Plan's focus was growth with social justice and equality.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0016",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The Tenth Five-Year Plan (2002-07) set a target average annual GDP growth rate of:",
+   "options": [
+    "5.6 per cent",
+    "6.5 per cent",
+    "10 per cent",
+    "8 per cent"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Tenth Plan targeted 8% annual GDP growth and aimed to double per capita income in ten years.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0017",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The theme of the Twelfth Five-Year Plan (2012-17) was:",
+   "options": [
+    "Faster, more inclusive and sustainable growth",
+    "Growth with social justice and equality",
+    "Food, work and productivity",
+    "Removal of poverty and self-reliance"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Twelfth Plan's theme was 'Faster, More Inclusive and Sustainable Growth'. It was also India's last Five-Year Plan.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0018",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Which was the last Five-Year Plan implemented in India?",
+   "options": [
+    "Eleventh Plan (2007-12)",
+    "Twelfth Plan (2012-17)",
+    "Tenth Plan (2002-07)",
+    "Thirteenth Plan (2017-22)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Twelfth Plan ended on 31 March 2017. After that the Five-Year Plan system was discontinued, NITI Aayog having replaced the Planning Commission in 2015.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0019",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The National Development Council (NDC), which approved the Five-Year Plans, was set up in:",
+   "options": [
+    "1950",
+    "1956",
+    "1952",
+    "1969"
+   ],
+   "correctIndex": 2,
+   "explanation": "The NDC was set up on 6 August 1952 by an executive resolution, with the Prime Minister as its chairman.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0020",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Consider the following statements about the National Development Council (NDC):\n(1) It was set up by an executive resolution of the Government of India.\n(2) It was chaired by the Prime Minister.\n(3) It is a constitutional body under Article 280.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "(1) only",
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
+   ],
+   "correctIndex": 1,
+   "explanation": "The NDC was an extra-constitutional, non-statutory body (1952) chaired by the Prime Minister. Article 280 deals with the Finance Commission, so (3) is wrong.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0021",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Who was the first Vice-Chairman of NITI Aayog?",
+   "options": [
+    "Rajiv Kumar",
+    "Montek Singh Ahluwalia",
+    "Bibek Debroy",
+    "Arvind Panagariya"
+   ],
+   "correctIndex": 3,
+   "explanation": "Arvind Panagariya was the first Vice-Chairman (2015-17); Rajiv Kumar succeeded him.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0022",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Who was the first Chief Executive Officer (CEO) of NITI Aayog?",
+   "options": [
+    "Amitabh Kant",
+    "Arvind Panagariya",
+    "Sindhushree Khullar",
+    "Bibek Debroy"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sindhushree Khullar was the first CEO of NITI Aayog (2015-16); Amitabh Kant followed her.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0023",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "NITI Aayog stands for:",
+   "options": [
+    "National Institute for Technology and Innovation",
+    "National Investment and Trade Initiative",
+    "National Integrated Transformation Institute",
+    "National Institution for Transforming India"
+   ],
+   "correctIndex": 3,
+   "explanation": "NITI Aayog is the National Institution for Transforming India, set up on 1 January 2015 by a Union Cabinet resolution.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0024",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The Governing Council of NITI Aayog comprises the Prime Minister and:",
+   "options": [
+    "The Chief Ministers of all States and of UTs with legislatures, and the Lieutenant Governors of other UTs",
+    "Only the Union Cabinet Ministers",
+    "Only the Chief Ministers of the States with the largest populations",
+    "The Governors of all States"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Governing Council brings together the Prime Minister, the Chief Ministers of all States and of UTs with legislatures, and the Lieutenant Governors of other UTs. It is a forum of cooperative federalism.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0025",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "In place of Five-Year Plans, NITI Aayog proposed a planning framework consisting of a:",
+   "options": [
+    "15-year Vision, 7-year Strategy and 3-year Action Agenda",
+    "10-year Perspective Plan and Annual Plans",
+    "20-year Vision and 5-year Rolling Plans",
+    "25-year Vision and 2-year Action Agenda"
+   ],
+   "correctIndex": 0,
+   "explanation": "NITI Aayog proposed a 15-year Vision, a 7-year Strategy and a 3-year Action Agenda; the first Action Agenda covered 2017-18 to 2019-20.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0026",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The National Planning Committee, set up by the Indian National Congress in 1938, was headed by:",
+   "options": [
+    "Subhas Chandra Bose",
+    "Jawaharlal Nehru",
+    "M. Visvesvaraya",
+    "Sardar Vallabhbhai Patel"
+   ],
+   "correctIndex": 1,
+   "explanation": "The National Planning Committee was set up in 1938, when Subhas Chandra Bose was Congress President, with Jawaharlal Nehru as its chairman.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0027",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The book 'Planned Economy for India' (1934) was written by:",
+   "options": [
+    "M.N. Roy",
+    "Shriman Narayan Agarwal",
+    "M. Visvesvaraya",
+    "Jayaprakash Narayan"
+   ],
+   "correctIndex": 2,
+   "explanation": "Sir M. Visvesvaraya's 'Planned Economy for India' (1934) is regarded as the first blueprint for planning in India.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0028",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Match the pre-Independence or early plans with their authors:\n(a) People's Plan (1945) - 1. Jayaprakash Narayan\n(b) Sarvodaya Plan (1950) - 2. M.N. Roy\n(c) Gandhian Plan (1944) - 3. Eight industrialists\n(d) Bombay Plan (1944) - 4. Shriman Narayan Agarwal",
+   "options": [
+    "a-1, b-2, c-4, d-3",
+    "a-2, b-1, c-3, d-4",
+    "a-4, b-1, c-2, d-3",
+    "a-2, b-1, c-4, d-3"
+   ],
+   "correctIndex": 3,
+   "explanation": "People's Plan: M.N. Roy. Sarvodaya Plan: Jayaprakash Narayan. Gandhian Plan: S.N. Agarwal. Bombay Plan: eight leading industrialists.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0029",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The term 'Hindu rate of growth', describing India's low growth of about 3.5% a year between the 1950s and 1980s, was coined by:",
+   "options": [
+    "Raj Krishna",
+    "Amartya Sen",
+    "Jagdish Bhagwati",
+    "K.N. Raj"
+   ],
+   "correctIndex": 0,
+   "explanation": "Economist Raj Krishna coined the phrase 'Hindu rate of growth'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0030",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The first estimate of India's national income, for 1867-68, was made by:",
+   "options": [
+    "V.K.R.V. Rao",
+    "Dadabhai Naoroji",
+    "R.C. Desai",
+    "William Digby"
+   ],
+   "correctIndex": 1,
+   "explanation": "Dadabhai Naoroji estimated national income for 1867-68 in 'Poverty and Un-British Rule in India'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0031",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The National Income Committee, set up in 1949 to prepare official estimates of India's national income, was chaired by:",
+   "options": [
+    "D.R. Gadgil",
+    "V.K.R.V. Rao",
+    "P.C. Mahalanobis",
+    "C.D. Deshmukh"
+   ],
+   "correctIndex": 2,
+   "explanation": "The National Income Committee (1949) was chaired by P.C. Mahalanobis, with D.R. Gadgil and V.K.R.V. Rao as members.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0032",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Gross National Product (GNP) is equal to:",
+   "options": [
+    "GDP minus depreciation",
+    "GDP minus indirect taxes",
+    "GDP plus subsidies",
+    "GDP plus net factor income from abroad"
+   ],
+   "correctIndex": 3,
+   "explanation": "GNP = GDP + net factor income from abroad. Subtracting depreciation from GNP gives NNP.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0033",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Net National Product (NNP) is obtained by subtracting which of the following from GNP?",
+   "options": [
+    "Depreciation",
+    "Indirect taxes",
+    "Subsidies",
+    "Net factor income from abroad"
+   ],
+   "correctIndex": 0,
+   "explanation": "NNP = GNP - depreciation (consumption of fixed capital).",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0034",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Assertion [A]: The Second Five-Year Plan gave priority to basic and heavy industries.\nReason [R]: The Mahalanobis model held that building capital-goods capacity would lay the foundation for rapid long-run growth.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "Both are true, and the Mahalanobis strategy of investing in capital goods is exactly why the Second Plan prioritised heavy industry.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0035",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "The First Five-Year Plan targeted a growth rate of 2.1% a year. What growth rate did it actually achieve?",
+   "options": [
+    "1.5 per cent",
+    "2.1 per cent",
+    "3.6 per cent",
+    "5.6 per cent"
+   ],
+   "correctIndex": 2,
+   "explanation": "The First Plan exceeded its target of 2.1%, achieving about 3.6% growth, helped by good monsoons.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0036",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "When the New Economic Policy of 1991 (Liberalisation, Privatisation and Globalisation) was introduced, the Union Finance Minister was:",
+   "options": [
+    "P. Chidambaram",
+    "Yashwant Sinha",
+    "Pranab Mukherjee",
+    "Manmohan Singh"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 1991 reforms were introduced by the P.V. Narasimha Rao government, with Manmohan Singh as Finance Minister.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0037",
+   "topicId": "a5-economy-nature-five-year-plans",
+   "prompt": "Assertion [A]: NITI Aayog is a statutory body.\nReason [R]: NITI Aayog was created by an executive resolution of the Union Cabinet.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 3,
+   "explanation": "NITI Aayog was created by a Cabinet resolution (1 January 2015) and is neither constitutional nor statutory. [A] is false and [R] is true.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0038",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The establishment of the Reserve Bank of India was recommended by the:",
+   "options": [
+    "Simon Commission",
+    "Hilton Young Commission",
+    "Hunter Commission",
+    "Chamberlain Commission"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Royal Commission on Indian Currency and Finance (Hilton Young Commission, 1926) recommended a central bank, which led to the RBI Act of 1934.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0039",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The central office of the Reserve Bank of India was first located in:",
+   "options": [
+    "Bombay",
+    "Madras",
+    "Calcutta",
+    "Delhi"
+   ],
+   "correctIndex": 2,
+   "explanation": "The RBI's central office was first set up in Calcutta in 1935 and moved permanently to Bombay (Mumbai) in 1937.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0040",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Who was the first Indian Governor of the Reserve Bank of India?",
+   "options": [
+    "Osborne Smith",
+    "C.D. Deshmukh",
+    "Benegal Rama Rau",
+    "James Taylor"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sir C.D. Deshmukh (1943-49) was the first Indian Governor. The first Governor was Sir Osborne Smith.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0041",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Reserve Bank of India began functioning in 1935 with which person as its Governor?",
+   "options": [
+    "Sir Osborne Smith",
+    "Sir James Taylor",
+    "C.D. Deshmukh",
+    "Sir Benegal Rama Rau"
+   ],
+   "correctIndex": 0,
+   "explanation": "Sir Osborne Smith was the first RBI Governor (1935-37).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0042",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Which of the following is a qualitative (selective) credit control instrument of the RBI?",
+   "options": [
+    "Cash Reserve Ratio",
+    "Margin requirements on loans",
+    "Open Market Operations",
+    "Bank Rate"
+   ],
+   "correctIndex": 1,
+   "explanation": "Margin requirements, credit rationing, moral suasion and direct action are qualitative tools. CRR, OMO and the bank rate are quantitative tools that affect the total volume of credit.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0043",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Open Market Operations (OMO) by the RBI refer to:",
+   "options": [
+    "Lending to farmers through cooperative banks",
+    "Fixing the exchange rate of the rupee",
+    "Buying and selling government securities in the market",
+    "Issuing new currency notes"
+   ],
+   "correctIndex": 2,
+   "explanation": "Through OMO the RBI buys government securities to inject liquidity or sells them to absorb liquidity.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0044",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Under the Statutory Liquidity Ratio (SLR), commercial banks must keep a portion of their net demand and time liabilities in the form of:",
+   "options": [
+    "Cash balances with the RBI only",
+    "Foreign currency deposits",
+    "Loans to the priority sector",
+    "Liquid assets such as cash, gold and approved government securities"
+   ],
+   "correctIndex": 3,
+   "explanation": "SLR assets (cash, gold, approved securities) are held by the banks themselves. CRR, by contrast, is cash kept with the RBI.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0045",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "To curb inflation, the RBI would most likely:",
+   "options": [
+    "Raise the repo rate and sell government securities",
+    "Cut the repo rate and buy government securities",
+    "Lower the CRR and the SLR",
+    "Reduce the bank rate"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tight (dear) money policy means raising policy rates and selling securities to absorb liquidity, which reduces credit and demand.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0046",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Marginal Standing Facility (MSF), under which banks can borrow overnight from the RBI against their SLR securities, was introduced in:",
+   "options": [
+    "2000",
+    "2011",
+    "2016",
+    "1991"
+   ],
+   "correctIndex": 1,
+   "explanation": "The MSF was introduced in the RBI's Monetary Policy Statement of May 2011.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0047",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Liquidity Adjustment Facility (LAF), operating through repo and reverse repo, was introduced by the RBI in:",
+   "options": [
+    "1991",
+    "1985",
+    "2000",
+    "2011"
+   ],
+   "correctIndex": 2,
+   "explanation": "The LAF was introduced in June 2000, following the recommendations of the Narasimham Committee (1998).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0048",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "How many members does the Monetary Policy Committee (MPC) of the RBI have?",
+   "options": [
+    "Five",
+    "Seven",
+    "Nine",
+    "Six"
+   ],
+   "correctIndex": 3,
+   "explanation": "The MPC has six members: three from the RBI, including the Governor, and three external members appointed by the Central Government.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0049",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "If the votes in the RBI's Monetary Policy Committee are tied, the decision is made by:",
+   "options": [
+    "The casting vote of the RBI Governor",
+    "The Union Finance Minister",
+    "The senior-most external member",
+    "A fresh vote by the RBI Central Board"
+   ],
+   "correctIndex": 0,
+   "explanation": "Under the amended RBI Act, 1934, the Governor chairs the MPC and has a second or casting vote in case of a tie.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0050",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Under the flexible inflation targeting framework notified in 2016, the CPI inflation target was set at:",
+   "options": [
+    "2 per cent, with a tolerance band of +/- 1 per cent",
+    "4 per cent, with a tolerance band of +/- 2 per cent",
+    "5 per cent, with a tolerance band of +/- 1 per cent",
+    "6 per cent, with no tolerance band"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 2016 framework set CPI inflation at 4%, with an upper limit of 6% and a lower limit of 2%.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0051",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Which committee (2014) recommended that the RBI adopt the Consumer Price Index as the nominal anchor for monetary policy, leading to inflation targeting?",
+   "options": [
+    "Narasimham Committee",
+    "Rangarajan Committee",
+    "Urjit Patel Committee",
+    "Raghuram Rajan Committee"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Expert Committee headed by Urjit Patel (2014) recommended flexible inflation targeting based on CPI.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0052",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "In India, one-rupee currency notes are issued by:",
+   "options": [
+    "The Reserve Bank of India",
+    "The State Bank of India",
+    "Security Printing and Minting Corporation on its own authority",
+    "The Ministry of Finance, Government of India"
+   ],
+   "correctIndex": 3,
+   "explanation": "The one-rupee note is issued by the Government of India and signed by the Finance Secretary. All other notes are issued by the RBI and signed by the Governor.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0053",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Under the Minimum Reserve System adopted in 1956, the RBI must hold gold and foreign exchange worth at least ₹200 crore, of which gold must be worth at least:",
+   "options": [
+    "₹115 crore",
+    "₹85 crore",
+    "₹100 crore",
+    "₹150 crore"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Minimum Reserve System (since 1956) requires ₹200 crore of reserves, at least ₹115 crore of it in gold.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0054",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Fourteen major commercial banks were nationalised in India on:",
+   "options": [
+    "1 January 1949",
+    "19 July 1969",
+    "1 July 1955",
+    "15 April 1980"
+   ],
+   "correctIndex": 1,
+   "explanation": "On 19 July 1969, 14 banks with deposits above ₹50 crore were nationalised; six more followed on 15 April 1980.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0055",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Imperial Bank of India was converted into the State Bank of India in 1955 on the recommendation of the:",
+   "options": [
+    "Narasimham Committee",
+    "Hilton Young Commission",
+    "All India Rural Credit Survey Committee",
+    "Shivaraman Committee"
+   ],
+   "correctIndex": 2,
+   "explanation": "The All India Rural Credit Survey Committee (A.D. Gorwala) recommended this; SBI came into being on 1 July 1955.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0056",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "NABARD was established in 1982 on the recommendation of the:",
+   "options": [
+    "Narasimham Committee",
+    "Gadgil Study Group",
+    "Kelkar Committee",
+    "CRAFICARD (B. Sivaraman Committee)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Committee to Review Arrangements for Institutional Credit for Agriculture and Rural Development (CRAFICARD), chaired by B. Sivaraman, recommended NABARD, which was set up on 12 July 1982.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0057",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Regional Rural Banks (RRBs) were first established in India on:",
+   "options": [
+    "2 October 1975",
+    "19 July 1969",
+    "12 July 1982",
+    "1 April 1935"
+   ],
+   "correctIndex": 0,
+   "explanation": "RRBs were set up on 2 October 1975, on the recommendation of the Narasimham Working Group, to provide credit to the rural poor.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0058",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Goods and Services Tax (GST) came into force in India on:",
+   "options": [
+    "1 April 2016",
+    "1 July 2017",
+    "1 January 2018",
+    "8 November 2016"
+   ],
+   "correctIndex": 1,
+   "explanation": "GST was launched on 1 July 2017 under the 101st Constitutional Amendment Act, 2016.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0059",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The GST Council is chaired by:",
+   "options": [
+    "The Prime Minister",
+    "The Governor of the RBI",
+    "The Union Finance Minister",
+    "The Chairman of the Finance Commission"
+   ],
+   "correctIndex": 2,
+   "explanation": "Under Article 279A, the GST Council is chaired by the Union Finance Minister; the State Finance Ministers are members.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0060",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "GST in India is best described as a:",
+   "options": [
+    "Origin-based tax on production",
+    "Direct tax on income",
+    "Tax levied only on imports",
+    "Destination-based tax on consumption"
+   ],
+   "correctIndex": 3,
+   "explanation": "GST is a destination-based consumption tax: the revenue goes to the State where the goods or services are consumed.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0061",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The fiscal deficit of the Government is best described as:",
+   "options": [
+    "Total expenditure minus total receipts excluding borrowings",
+    "Revenue expenditure minus revenue receipts",
+    "Fiscal deficit minus interest payments",
+    "Total expenditure minus capital receipts"
+   ],
+   "correctIndex": 0,
+   "explanation": "Fiscal deficit = total expenditure - (revenue receipts + non-debt capital receipts). It equals the Government's total borrowing requirement.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0062",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Primary deficit is calculated as:",
+   "options": [
+    "Revenue deficit minus grants for capital assets",
+    "Fiscal deficit minus interest payments",
+    "Fiscal deficit plus interest payments",
+    "Revenue expenditure minus capital expenditure"
+   ],
+   "correctIndex": 1,
+   "explanation": "Primary deficit = fiscal deficit - interest payments. It shows borrowing for purposes other than paying interest on past debt.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0063",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Revenue deficit refers to the excess of:",
+   "options": [
+    "Capital expenditure over capital receipts",
+    "Total expenditure over total receipts",
+    "Revenue expenditure over revenue receipts",
+    "Imports over exports"
+   ],
+   "correctIndex": 2,
+   "explanation": "Revenue deficit = revenue expenditure - revenue receipts.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0064",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Under which Article of the Constitution is the Union Budget presented as the 'Annual Financial Statement'?",
+   "options": [
+    "Article 110",
+    "Article 202",
+    "Article 265",
+    "Article 112"
+   ],
+   "correctIndex": 3,
+   "explanation": "Article 112 requires the President to lay the Annual Financial Statement before Parliament. Article 202 is the State equivalent.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0065",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "'No tax shall be levied or collected except by authority of law' is provided in Article:",
+   "options": [
+    "265",
+    "266",
+    "267",
+    "280"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 265 says taxes can be levied only by authority of law. Article 266 deals with the Consolidated Fund and Article 267 with the Contingency Fund.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0066",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Contingency Fund of India, placed at the disposal of the President to meet unforeseen expenditure, is provided under Article:",
+   "options": [
+    "266",
+    "267",
+    "268",
+    "282"
+   ],
+   "correctIndex": 1,
+   "explanation": "Article 267 provides for the Contingency Fund of India and of the States.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0067",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Who chaired the First Finance Commission of India (1951)?",
+   "options": [
+    "K. Santhanam",
+    "P.V. Rajamannar",
+    "K.C. Neogy",
+    "A.K. Chanda"
+   ],
+   "correctIndex": 2,
+   "explanation": "K.C. Neogy chaired the First Finance Commission (1951). K. Santhanam chaired the Second.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0068",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Who chaired the Fifteenth Finance Commission of India?",
+   "options": [
+    "Y.V. Reddy",
+    "Vijay Kelkar",
+    "C. Rangarajan",
+    "N.K. Singh"
+   ],
+   "correctIndex": 3,
+   "explanation": "N.K. Singh chaired the Fifteenth Finance Commission (award period 2021-26). Y.V. Reddy chaired the Fourteenth.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0069",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Which of the following is NOT one of Adam Smith's four canons of taxation?",
+   "options": [
+    "Canon of elasticity",
+    "Canon of equality",
+    "Canon of certainty",
+    "Canon of convenience"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adam Smith's four canons are equality, certainty, convenience and economy. Elasticity was added by later economists.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0070",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "A tax whose rate rises as the taxable income rises is called a:",
+   "options": [
+    "Regressive tax",
+    "Progressive tax",
+    "Proportional tax",
+    "Degressive tax"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under a progressive tax, higher incomes pay a higher rate, as in India's income-tax slabs.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0071",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Income tax was first introduced in India in 1860 by:",
+   "options": [
+    "Lord Dalhousie",
+    "Sir Richard Temple",
+    "James Wilson",
+    "Sir John Strachey"
+   ],
+   "correctIndex": 2,
+   "explanation": "James Wilson, the first Finance Member, introduced income tax in 1860 to meet the losses of the 1857 revolt.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0072",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Laffer curve shows the relationship between:",
+   "options": [
+    "Inflation and unemployment",
+    "Money supply and interest rates",
+    "Income and consumption",
+    "Tax rates and tax revenue"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Laffer curve suggests that beyond a point, raising tax rates reduces total tax revenue. The Phillips curve links inflation and unemployment.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0073",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "In the RBI's measures of money supply, 'broad money' refers to:",
+   "options": [
+    "M3",
+    "M1",
+    "M0",
+    "M2"
+   ],
+   "correctIndex": 0,
+   "explanation": "M1 is narrow money (currency with the public plus demand deposits). M3 = M1 + time deposits of banks, which is broad money.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0074",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Foreign Exchange Management Act (FEMA), 1999 replaced which earlier law?",
+   "options": [
+    "MRTP Act, 1969",
+    "Foreign Exchange Regulation Act (FERA), 1973",
+    "Banking Regulation Act, 1949",
+    "Industries (Development and Regulation) Act, 1951"
+   ],
+   "correctIndex": 1,
+   "explanation": "FEMA, 1999 (in force from 2000) replaced the restrictive FERA, 1973; foreign exchange offences became civil matters.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0075",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Which direct tax was abolished in the Union Budget for 2015-16?",
+   "options": [
+    "Corporation tax",
+    "Securities transaction tax",
+    "Wealth tax",
+    "Capital gains tax"
+   ],
+   "correctIndex": 2,
+   "explanation": "Wealth tax was abolished from 2015-16 and replaced by an additional surcharge on the super-rich.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0076",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Consider the following statements:\n(1) The Railway Budget was merged with the Union General Budget from 2017-18.\n(2) From 2017, the Union Budget began to be presented on 1 February instead of the last working day of February.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "(1) only",
+    "(2) only",
+    "Both (1) and (2)",
+    "Neither (1) nor (2)"
+   ],
+   "correctIndex": 2,
+   "explanation": "Both reforms took effect with the 2017-18 Budget: the separate Railway Budget, presented since 1924, ended, and the Budget date moved to 1 February.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0077",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Assertion [A]: An increase in the repo rate tends to reduce inflationary pressure.\nReason [R]: A higher repo rate makes borrowing from the RBI costlier for banks, which reduces credit in the economy.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "A repo-rate hike raises the cost of funds, which slows credit growth and demand, so [R] explains [A].",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0078",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Which Article of the Constitution provides for taxes levied and collected by the Union to be distributed between the Union and the States?",
+   "options": [
+    "Article 268",
+    "Article 275",
+    "Article 293",
+    "Article 270"
+   ],
+   "correctIndex": 3,
+   "explanation": "Article 270 covers taxes levied and collected by the Union whose net proceeds are shared with the States, on Finance Commission recommendations (the divisible pool).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0079",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The Securities and Exchange Board of India (SEBI), set up in 1988, received statutory powers in:",
+   "options": [
+    "1988",
+    "1995",
+    "2002",
+    "1992"
+   ],
+   "correctIndex": 3,
+   "explanation": "SEBI was set up as a non-statutory body in 1988 and given statutory powers by the SEBI Act, 1992.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0080",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "The N.K. Singh Committee (2017), which reviewed the FRBM framework, recommended which of the following as the primary target?",
+   "options": [
+    "Revenue deficit",
+    "Debt-to-GDP ratio",
+    "Inflation rate",
+    "Current account deficit"
+   ],
+   "correctIndex": 1,
+   "explanation": "The FRBM Review Committee recommended public debt as the medium-term anchor, aiming for a combined debt-to-GDP ratio of 60%, with the fiscal deficit as the operational target.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0081",
+   "topicId": "a5-revenue-rbi-fiscal-monetary-policy",
+   "prompt": "Gender Budgeting was formally introduced in the Union Budget of India in:",
+   "options": [
+    "2005-06",
+    "1991-92",
+    "2000-01",
+    "2014-15"
+   ],
+   "correctIndex": 0,
+   "explanation": "A Gender Budget Statement was first included in the Union Budget in 2005-06.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0082",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Independent India's first Industrial Policy Resolution was announced in:",
+   "options": [
+    "1951",
+    "1948",
+    "1956",
+    "1991"
+   ],
+   "correctIndex": 1,
+   "explanation": "The first Industrial Policy Resolution was announced on 6 April 1948. It was followed by the IPR of 1956 and the New Industrial Policy of 1991.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0083",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Industrial Policy Resolution of 1956 is often described as the:",
+   "options": [
+    "'Magna Carta of Indian Industry'",
+    "'Charter of Liberalisation'",
+    "'Economic Constitution of India'",
+    "'Bombay Plan of the State'"
+   ],
+   "correctIndex": 2,
+   "explanation": "The IPR 1956, which fitted the Second Plan's heavy-industry strategy and the socialistic pattern of society, is called India's 'Economic Constitution'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0084",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Under the Industrial Policy Resolution, 1956, Schedule A listed industries whose future development would be the exclusive responsibility of the State. How many industries did it contain?",
+   "options": [
+    "12",
+    "8",
+    "6",
+    "17"
+   ],
+   "correctIndex": 3,
+   "explanation": "Schedule A had 17 industries reserved for the State, Schedule B had 12 industries to be progressively State-owned, and Schedule C covered the rest, left to the private sector.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0085",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The licensing of industries in India was provided for under the:",
+   "options": [
+    "Industries (Development and Regulation) Act, 1951",
+    "Companies Act, 1956",
+    "MRTP Act, 1969",
+    "Factories Act, 1948"
+   ],
+   "correctIndex": 0,
+   "explanation": "The IDR Act, 1951 provided the legal basis for industrial licensing, which the 1991 policy largely abolished.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0086",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The New Industrial Policy of 1991 was announced on:",
+   "options": [
+    "1 April 1991",
+    "24 July 1991",
+    "15 August 1991",
+    "26 January 1991"
+   ],
+   "correctIndex": 1,
+   "explanation": "The New Industrial Policy was tabled on 24 July 1991, the same day as the Union Budget. It abolished licensing for most industries and opened the economy to private and foreign investment.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0087",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Competition Act, 2002 established which regulatory body to prevent anti-competitive practices?",
+   "options": [
+    "Monopolies Commission of India",
+    "Securities and Exchange Board of India",
+    "Competition Commission of India",
+    "Tariff Commission"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Competition Act, 2002 set up the Competition Commission of India (CCI), which replaced the MRTP Commission.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0088",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Micro, small and medium enterprises in India are governed by the:",
+   "options": [
+    "Factories Act, 1948",
+    "IDR Act, 1951",
+    "Companies Act, 2013",
+    "MSMED Act, 2006"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Micro, Small and Medium Enterprises Development Act, 2006 defines and promotes MSMEs in both manufacturing and services.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0089",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Which is the highest status category conferred on Central Public Sector Enterprises (CPSEs) by the Government of India?",
+   "options": [
+    "Maharatna",
+    "Navratna",
+    "Miniratna Category-I",
+    "Miniratna Category-II"
+   ],
+   "correctIndex": 0,
+   "explanation": "The order is Maharatna (highest), then Navratna, then Miniratna Category-I and Category-II. Each grants more financial autonomy.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0090",
+   "topicId": "a5-industrial-growth",
+   "prompt": "In 2016 the Department of Disinvestment was renamed as:",
+   "options": [
+    "Department of Public Enterprises",
+    "Department of Investment and Public Asset Management (DIPAM)",
+    "Department for Promotion of Industry and Internal Trade",
+    "NITI Aayog Disinvestment Cell"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Department of Disinvestment became DIPAM in April 2016, under the Ministry of Finance.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0091",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The 'Make in India' initiative, to make India a global manufacturing hub, was launched on:",
+   "options": [
+    "1 July 2015",
+    "16 January 2016",
+    "25 September 2014",
+    "15 August 2014"
+   ],
+   "correctIndex": 2,
+   "explanation": "Make in India was launched on 25 September 2014.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0092",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The 'Startup India' initiative was launched on:",
+   "options": [
+    "25 September 2014",
+    "1 July 2015",
+    "1 April 2017",
+    "16 January 2016"
+   ],
+   "correctIndex": 3,
+   "explanation": "Startup India was launched on 16 January 2016 to build an ecosystem for startups.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0093",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Asia's first Export Processing Zone (EPZ) was set up in India in 1965 at:",
+   "options": [
+    "Kandla",
+    "Santacruz",
+    "Falta",
+    "Chennai"
+   ],
+   "correctIndex": 0,
+   "explanation": "Kandla (Gujarat) EPZ, set up in 1965, was the first in Asia. SEZs were later given a legal framework by the SEZ Act, 2005.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0094",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Which of the following is NOT one of India's eight core industries?",
+   "options": [
+    "Cement",
+    "Automobiles",
+    "Fertilizers",
+    "Refinery products"
+   ],
+   "correctIndex": 1,
+   "explanation": "The eight core industries are coal, crude oil, natural gas, refinery products, fertilizers, steel, cement and electricity.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0095",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Insolvency and Bankruptcy Code, which provides a time-bound process to resolve corporate insolvency, was enacted in:",
+   "options": [
+    "2002",
+    "2008",
+    "2016",
+    "2019"
+   ],
+   "correctIndex": 2,
+   "explanation": "The IBC, 2016 replaced earlier mechanisms such as SICA/BIFR for resolving industrial sickness and insolvency.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0096",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Tamil Nadu Industrial Development Corporation (TIDCO) was established in:",
+   "options": [
+    "1949",
+    "1971",
+    "1977",
+    "1965"
+   ],
+   "correctIndex": 3,
+   "explanation": "TIDCO was formed on 21 May 1965. TIIC dates from 1949, SIPCOT from 1971 and ELCOT from 1977.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0097",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Electronics Corporation of Tamil Nadu (ELCOT), which also serves as the back office of the State's IT Department, was established in:",
+   "options": [
+    "1977",
+    "1965",
+    "1990",
+    "2007"
+   ],
+   "correctIndex": 0,
+   "explanation": "ELCOT was founded in March 1977.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0098",
+   "topicId": "a5-industrial-growth",
+   "prompt": "TANSIDCO, established in 1970, mainly promotes:",
+   "options": [
+    "Large petrochemical complexes",
+    "Micro, small and medium enterprises through industrial estates",
+    "State transport undertakings",
+    "Overseas tourism"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Tamil Nadu Small Industries Development Corporation (TANSIDCO, 1970) develops industrial estates and supports MSMEs.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0099",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Tamil Nadu Newsprint and Papers Limited (TNPL), which uses sugarcane bagasse as its main raw material, is located at:",
+   "options": [
+    "Mettur, Salem district",
+    "Pallipalayam, Namakkal district",
+    "Kagithapuram, Karur district",
+    "Udumalpet, Tiruppur district"
+   ],
+   "correctIndex": 2,
+   "explanation": "TNPL's mill at Kagithapuram in Karur district is known for making paper from bagasse instead of wood.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0100",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Integral Coach Factory (ICF), which manufactures railway coaches, is located at:",
+   "options": [
+    "Avadi, Chennai",
+    "Tiruchirappalli",
+    "Madurai",
+    "Perambur, Chennai"
+   ],
+   "correctIndex": 3,
+   "explanation": "ICF at Perambur, Chennai began production in 1955. Avadi is home to the Heavy Vehicles Factory.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0101",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Salem Steel Plant of the Steel Authority of India Limited is known mainly for producing:",
+   "options": [
+    "Stainless steel",
+    "Pig iron for export",
+    "Railway rails",
+    "Steel for shipbuilding"
+   ],
+   "correctIndex": 0,
+   "explanation": "Salem Steel Plant specialises in cold-rolled stainless steel.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0102",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Sivakasi in Virudhunagar district is famous for which industries?",
+   "options": [
+    "Leather and footwear",
+    "Fireworks, safety matches and printing",
+    "Knitwear and hosiery",
+    "Locks and safes"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sivakasi is India's main centre for fireworks, matches and printing, and has been called 'Little Japan'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0103",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Match the Tamil Nadu town with the industry it is known for:\n(a) Ambur - 1. Locks\n(b) Dindigul - 2. Poultry and eggs\n(c) Namakkal - 3. Leather and footwear\n(d) Tiruppur - 4. Knitwear",
+   "options": [
+    "a-1, b-3, c-2, d-4",
+    "a-3, b-2, c-1, d-4",
+    "a-3, b-1, c-2, d-4",
+    "a-4, b-1, c-2, d-3"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ambur: leather. Dindigul: locks. Namakkal: poultry and eggs. Tiruppur: knitwear.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0104",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Neyveli lignite project, operated by NLC India Limited (formerly Neyveli Lignite Corporation), is located in which district of Tamil Nadu?",
+   "options": [
+    "Ariyalur",
+    "Villupuram",
+    "Thanjavur",
+    "Cuddalore"
+   ],
+   "correctIndex": 3,
+   "explanation": "Neyveli in Cuddalore district holds large lignite reserves used for thermal power generation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0105",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Tamil Nadu Cements Corporation (TANCEM) operates cement plants at:",
+   "options": [
+    "Alangulam and Ariyalur",
+    "Sankari and Dalmiapuram",
+    "Coimbatore and Tirunelveli",
+    "Ennore and Mettur"
+   ],
+   "correctIndex": 0,
+   "explanation": "TANCEM's cement units are at Alangulam (Virudhunagar district) and Ariyalur.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0106",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Coimbatore is popularly known as the 'Manchester of South India' because of its:",
+   "options": [
+    "Leather tanneries",
+    "Cotton textile mills",
+    "Automobile factories",
+    "Silk-weaving clusters"
+   ],
+   "correctIndex": 1,
+   "explanation": "Coimbatore's many cotton spinning and textile mills earned it this name. It is also a hub for pumps, motors and wet grinders.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0107",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The Tamil Nadu Defence Industrial Corridor, announced in 2018, has nodes at Chennai, Hosur, Salem, Tiruchirappalli and:",
+   "options": [
+    "Madurai",
+    "Thoothukudi",
+    "Coimbatore",
+    "Vellore"
+   ],
+   "correctIndex": 2,
+   "explanation": "The corridor's five nodes are Chennai, Coimbatore, Hosur, Salem and Tiruchirappalli.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0108",
+   "topicId": "a5-industrial-growth",
+   "prompt": "The first Tamil Nadu Global Investors Meet was held in Chennai in:",
+   "options": [
+    "2010",
+    "2019",
+    "2024",
+    "2015"
+   ],
+   "correctIndex": 3,
+   "explanation": "The first Global Investors Meet was held in September 2015, the second in January 2019 and the third in January 2024.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0109",
+   "topicId": "a5-industrial-growth",
+   "prompt": "Assertion [A]: The New Industrial Policy of 1991 reduced the number of industries reserved for the public sector.\nReason [R]: The 1991 policy aimed to open the economy to greater private and foreign participation.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 1991 policy cut the public-sector reserved list from 17 industries to 8 (later fewer) as part of liberalisation, so [R] explains [A].",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0110",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Permanent Settlement (Zamindari system) was introduced in Bengal in 1793 by:",
+   "options": [
+    "Lord Wellesley",
+    "Lord Cornwallis",
+    "Warren Hastings",
+    "Lord Dalhousie"
+   ],
+   "correctIndex": 1,
+   "explanation": "Lord Cornwallis introduced the Permanent Settlement in 1793, making zamindars the owners of land and fixing the revenue permanently.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0111",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Ryotwari system of land revenue, under which revenue was settled directly with the cultivators, was introduced in the Madras Presidency mainly by:",
+   "options": [
+    "Holt Mackenzie and R.M. Bird",
+    "Lord Cornwallis and John Shore",
+    "Thomas Munro and Alexander Read",
+    "Lord Hastings and Elphinstone"
+   ],
+   "correctIndex": 2,
+   "explanation": "Alexander Read and Thomas Munro developed the Ryotwari system in Madras (Munro made it general in 1820). Holt Mackenzie is associated with the Mahalwari system.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0112",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Mahalwari system, under which land revenue was settled with the village community as a whole, was introduced in 1822 in the North-Western Provinces by:",
+   "options": [
+    "Thomas Munro",
+    "Lord Cornwallis",
+    "Alexander Read",
+    "Holt Mackenzie"
+   ],
+   "correctIndex": 3,
+   "explanation": "Holt Mackenzie introduced the Mahalwari system in 1822; it was later revised under Lord William Bentinck (R.M. Bird).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0113",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Which of the following are components of land reforms in India?\n(1) Abolition of intermediaries\n(2) Tenancy reforms\n(3) Ceiling on land holdings\n(4) Consolidation of holdings",
+   "options": [
+    "(1) and (2) only",
+    "(1), (2) and (3) only",
+    "(2), (3) and (4) only",
+    "(1), (2), (3) and (4)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Land reforms in India covered all four: abolishing zamindari intermediaries, regulating tenancy, ceilings on holdings with redistribution of surplus land, and consolidating fragmented holdings.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0114",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Act that abolished zamindari estates in the Madras Presidency and converted them into ryotwari tenure was the:",
+   "options": [
+    "Tamil Nadu Land Reforms (Fixation of Ceiling on Land) Act, 1961",
+    "Madras Estates (Abolition and Conversion into Ryotwari) Act, 1948",
+    "Madras Cultivating Tenants Protection Act, 1955",
+    "Tamil Nadu Panchayats Act, 1994"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Madras Estates (Abolition and Conversion into Ryotwari) Act, 1948 removed zamindari intermediaries in the Presidency.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0115",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The law fixing a ceiling on agricultural land holdings in Tamil Nadu is the Tamil Nadu Land Reforms (Fixation of Ceiling on Land) Act of:",
+   "options": [
+    "1948",
+    "1955",
+    "1961",
+    "1976"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Tamil Nadu Land Reforms (Fixation of Ceiling on Land) Act, 1961 fixed ceilings on holdings; it was later amended to lower the ceiling.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0116",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Bhoodan (land gift) movement was started by Acharya Vinoba Bhave in 1951 at:",
+   "options": [
+    "Pochampalli, Telangana",
+    "Sevagram, Maharashtra",
+    "Champaran, Bihar",
+    "Bardoli, Gujarat"
+   ],
+   "correctIndex": 0,
+   "explanation": "Vinoba Bhave began Bhoodan at Pochampalli (Nalgonda region, Telangana) on 18 April 1951. It later grew into Gramdan.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0117",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "'Operation Barga', a programme to record the rights of sharecroppers, was implemented in 1978 in:",
+   "options": [
+    "West Bengal",
+    "Kerala",
+    "Tamil Nadu",
+    "Punjab"
+   ],
+   "correctIndex": 0,
+   "explanation": "Operation Barga (1978) in West Bengal recorded bargadars (sharecroppers) to give them security of tenure.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0118",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Tebhaga movement of 1946-47 in Bengal demanded that sharecroppers be given:",
+   "options": [
+    "Full ownership of land",
+    "Two-thirds of the produce",
+    "One-half of the produce",
+    "Exemption from land revenue"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Tebhaga' means 'three shares'. Sharecroppers demanded two-thirds of the crop instead of one-half.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0119",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Who is known as the 'Father of the Green Revolution' at the global level?",
+   "options": [
+    "M.S. Swaminathan",
+    "Verghese Kurien",
+    "Norman Borlaug",
+    "C. Subramaniam"
+   ],
+   "correctIndex": 2,
+   "explanation": "American agronomist Norman Borlaug developed high-yielding dwarf wheat varieties and won the Nobel Peace Prize in 1970. M.S. Swaminathan led the Green Revolution in India.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0120",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Assertion [A]: The benefits of the Green Revolution in its early phase were concentrated mainly in wheat-growing regions such as Punjab, Haryana and western Uttar Pradesh.\nReason [R]: The high-yielding variety technology required assured irrigation, which these regions had.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "The HYV package (seeds, fertilizer, irrigation) succeeded first in irrigated wheat belts, so [R] explains [A].",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0121",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Match the agricultural revolutions with their fields:\n(a) Yellow Revolution - 1. Fish production\n(b) Blue Revolution - 2. Oilseeds\n(c) Silver Revolution - 3. Horticulture\n(d) Golden Revolution - 4. Eggs/poultry",
+   "options": [
+    "a-1, b-2, c-4, d-3",
+    "a-2, b-1, c-3, d-4",
+    "a-3, b-1, c-4, d-2",
+    "a-2, b-1, c-4, d-3"
+   ],
+   "correctIndex": 3,
+   "explanation": "Yellow: oilseeds. Blue: fish. Silver: eggs/poultry. Golden: horticulture (fruits, vegetables, honey).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0122",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The National Dairy Development Board (NDDB), which implemented Operation Flood, was set up in 1965 at:",
+   "options": [
+    "Karnal, Haryana",
+    "Anand, Gujarat",
+    "Bengaluru, Karnataka",
+    "New Delhi"
+   ],
+   "correctIndex": 1,
+   "explanation": "NDDB was set up at Anand in 1965 and launched Operation Flood in 1970.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0123",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Food Corporation of India (FCI), responsible for procurement, storage and distribution of foodgrains, was set up in:",
+   "options": [
+    "1955",
+    "1971",
+    "1965",
+    "1985"
+   ],
+   "correctIndex": 2,
+   "explanation": "FCI was set up in 1965 under the Food Corporations Act, 1964.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0124",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Kisan Credit Card (KCC) scheme, to give farmers timely short-term credit, was introduced in:",
+   "options": [
+    "1982",
+    "2004",
+    "2015",
+    "1998"
+   ],
+   "correctIndex": 3,
+   "explanation": "The KCC scheme was introduced in 1998 on the basis of the R.V. Gupta Committee's recommendations, and is implemented through banks with NABARD.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0125",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Pradhan Mantri Fasal Bima Yojana (PMFBY), launched in 2016, is a scheme for:",
+   "options": [
+    "Crop insurance",
+    "Soil testing",
+    "Irrigation",
+    "Farm mechanisation"
+   ],
+   "correctIndex": 0,
+   "explanation": "PMFBY (2016) replaced the earlier NAIS and modified NAIS crop insurance schemes.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0126",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Soil Health Card scheme was launched in February 2015 at:",
+   "options": [
+    "Anand, Gujarat",
+    "Suratgarh, Rajasthan",
+    "Pusa, Bihar",
+    "Coimbatore, Tamil Nadu"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Soil Health Card scheme was launched on 19 February 2015 at Suratgarh, Rajasthan. Cards give farmers nutrient status and fertilizer advice for their soil.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0127",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "e-NAM (National Agriculture Market), an online trading platform linking APMC mandis, was launched in:",
+   "options": [
+    "2010",
+    "2019",
+    "2016",
+    "2013"
+   ],
+   "correctIndex": 2,
+   "explanation": "e-NAM was launched in April 2016 to create a unified national market for agricultural commodities.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0128",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "'Har Khet Ko Pani' and 'More crop per drop' are the mottos of which scheme?",
+   "options": [
+    "Pradhan Mantri Fasal Bima Yojana",
+    "Rashtriya Krishi Vikas Yojana",
+    "Paramparagat Krishi Vikas Yojana",
+    "Pradhan Mantri Krishi Sinchayee Yojana"
+   ],
+   "correctIndex": 3,
+   "explanation": "PMKSY (2015) aims to expand irrigated area and improve water-use efficiency.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0129",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The National Commission on Farmers, set up in 2004, was headed by:",
+   "options": [
+    "M.S. Swaminathan",
+    "Verghese Kurien",
+    "C. Subramaniam",
+    "Y.K. Alagh"
+   ],
+   "correctIndex": 0,
+   "explanation": "The National Commission on Farmers (2004-06) was chaired by M.S. Swaminathan. It recommended an MSP of at least 50% above the weighted average cost of production.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0130",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Which of the following is a Rabi crop?",
+   "options": [
+    "Rice",
+    "Wheat",
+    "Cotton",
+    "Maize"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rabi crops are sown in winter and harvested in spring, for example wheat, mustard and gram. Rice, cotton and maize are mainly Kharif crops.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0131",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "In the Cauvery delta, the short-duration paddy crop sown in June and harvested in September is called:",
+   "options": [
+    "Samba",
+    "Thaladi",
+    "Kuruvai",
+    "Navarai"
+   ],
+   "correctIndex": 2,
+   "explanation": "Kuruvai is the short-term crop (June-September), Samba is the main long-term crop (August-January) and Thaladi follows Kuruvai (October-February).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0132",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Tamil Nadu Agricultural University (TNAU) at Coimbatore was established as a university in:",
+   "options": [
+    "1906",
+    "1957",
+    "1989",
+    "1971"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Agricultural College at Coimbatore dates from the early 1900s and became Tamil Nadu Agricultural University in 1971.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0133",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Tamil Nadu presented its first separate Agriculture Budget in:",
+   "options": [
+    "2021",
+    "2011",
+    "2016",
+    "2006"
+   ],
+   "correctIndex": 0,
+   "explanation": "The first separate Agriculture Budget of Tamil Nadu was presented in August 2021.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0134",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The first Uzhavar Sandhai (farmers' market), where farmers sell produce directly to consumers, was opened in 1999 at:",
+   "options": [
+    "Coimbatore",
+    "Madurai",
+    "Thanjavur",
+    "Salem"
+   ],
+   "correctIndex": 1,
+   "explanation": "The first Uzhavar Sandhai was inaugurated in Madurai on 14 November 1999. These markets remove middlemen.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0135",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The System of Rice Intensification (SRI), widely promoted in Tamil Nadu, originated in:",
+   "options": [
+    "Philippines",
+    "Japan",
+    "Madagascar",
+    "Vietnam"
+   ],
+   "correctIndex": 2,
+   "explanation": "SRI was developed in Madagascar in the 1980s by Fr. Henri de Laulanie. It uses young seedlings, wide spacing and intermittent irrigation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0136",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Bt cotton, a genetically modified crop, was approved for commercial cultivation in India in:",
+   "options": [
+    "1995",
+    "2010",
+    "1998",
+    "2002"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Genetic Engineering Approval Committee approved Bt cotton for commercial cultivation in 2002.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0137",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Indian Council of Agricultural Research (ICAR) was originally set up in 1929 on the recommendation of the:",
+   "options": [
+    "Royal Commission on Agriculture",
+    "Famine Commission",
+    "Hilton Young Commission",
+    "Indian Industrial Commission"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Royal Commission on Agriculture (1926-28, Lord Linlithgow) recommended it. It was set up in 1929 as the Imperial Council of Agricultural Research.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0138",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Match the research institute with its location:\n(a) Sugarcane Breeding Institute - 1. Cuttack\n(b) National Rice Research Institute - 2. Shimla\n(c) Central Potato Research Institute - 3. Kasaragod\n(d) Central Plantation Crops Research Institute - 4. Coimbatore",
+   "options": [
+    "a-1, b-4, c-2, d-3",
+    "a-4, b-1, c-2, d-3",
+    "a-4, b-2, c-1, d-3",
+    "a-4, b-1, c-3, d-2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sugarcane Breeding Institute: Coimbatore. National (Central) Rice Research Institute: Cuttack. CPRI: Shimla. CPCRI: Kasaragod.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0139",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "The Commission for Agricultural Costs and Prices (CACP) was originally set up in 1965 under the name:",
+   "options": [
+    "Agricultural Produce Marketing Board",
+    "Food Prices Board",
+    "Agricultural Prices Commission",
+    "National Agricultural Commission"
+   ],
+   "correctIndex": 2,
+   "explanation": "It was set up in 1965 as the Agricultural Prices Commission and renamed CACP in 1985.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0140",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "'Consolidation of holdings' as a land reform measure means:",
+   "options": [
+    "Fixing the maximum land a family can own",
+    "Giving ownership rights to tenants",
+    "Abolishing zamindars",
+    "Bringing an owner's scattered small plots together into one compact block"
+   ],
+   "correctIndex": 3,
+   "explanation": "Consolidation reduces fragmentation by exchanging scattered plots for one or a few compact holdings.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0141",
+   "topicId": "a5-land-reforms-agriculture",
+   "prompt": "Under the Seventh Schedule of the Constitution, 'land' (including land tenures and land reforms) falls in the:",
+   "options": [
+    "State List",
+    "Union List",
+    "Concurrent List",
+    "Residuary powers of the Union"
+   ],
+   "correctIndex": 0,
+   "explanation": "Land is Entry 18 of the State List, which is why land reform laws are enacted by the States.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0142",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "According to the 2011 Census, the sex ratio of Tamil Nadu was:",
+   "options": [
+    "943",
+    "996",
+    "940",
+    "1084"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tamil Nadu's sex ratio in 2011 was 996 females per 1,000 males, against the national 943. Kerala (1084) was the highest.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0143",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "According to the 2011 Census, the literacy rate of Tamil Nadu was about:",
+   "options": [
+    "74.0 per cent",
+    "93.9 per cent",
+    "80.1 per cent",
+    "67.0 per cent"
+   ],
+   "correctIndex": 2,
+   "explanation": "Tamil Nadu's literacy rate was 80.09% (2011), above the national 74.04%. Kerala had the highest at 93.91%.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0144",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "According to the 2011 Census, which State had the lowest literacy rate in India?",
+   "options": [
+    "Rajasthan",
+    "Uttar Pradesh",
+    "Jharkhand",
+    "Bihar"
+   ],
+   "correctIndex": 3,
+   "explanation": "Bihar had the lowest literacy rate (about 61.8%) in 2011, and Kerala the highest.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0145",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "According to the 2011 Census, which district of Tamil Nadu had the lowest population?",
+   "options": [
+    "Perambalur",
+    "The Nilgiris",
+    "Ariyalur",
+    "Ramanathapuram"
+   ],
+   "correctIndex": 0,
+   "explanation": "Perambalur (about 5.65 lakh) was the least populous district in 2011, and Chennai the most populous.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0146",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "Which district of Tamil Nadu recorded the fewest persons per square kilometre in the 2011 Census?",
+   "options": [
+    "Perambalur",
+    "The Nilgiris",
+    "Sivaganga",
+    "Ramanathapuram"
+   ],
+   "correctIndex": 1,
+   "explanation": "The hilly Nilgiris district had the lowest density, and Chennai the highest.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0147",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "In India, the sex ratio is defined as the number of:",
+   "options": [
+    "Males per 1,000 females",
+    "Females per 100 males",
+    "Females per 1,000 males",
+    "Live births per 1,000 population"
+   ],
+   "correctIndex": 2,
+   "explanation": "Indian Census defines sex ratio as females per 1,000 males.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0148",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Infant Mortality Rate (IMR) measures the number of infant deaths (under one year of age) per:",
+   "options": [
+    "100,000 live births",
+    "1,000 population",
+    "100 live births",
+    "1,000 live births"
+   ],
+   "correctIndex": 3,
+   "explanation": "IMR is expressed per 1,000 live births. The Maternal Mortality Ratio is per 1,00,000 live births.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0149",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "According to Malthus, population grows in a geometric progression, while food supply grows in:",
+   "options": [
+    "An arithmetic progression",
+    "A geometric progression",
+    "A harmonic progression",
+    "An exponential progression"
+   ],
+   "correctIndex": 0,
+   "explanation": "Thomas Malthus (1798) argued that population tends to outrun food supply, which increases only arithmetically.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0150",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The 'Optimum Theory of Population' is associated with:",
+   "options": [
+    "Thomas Malthus",
+    "Edwin Cannan",
+    "Karl Marx",
+    "Warren Thompson"
+   ],
+   "correctIndex": 1,
+   "explanation": "Edwin Cannan developed the optimum population theory: the size at which per capita income is the highest. Warren Thompson is linked to demographic transition theory.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0151",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The year 1921 is called the 'Year of the Great Divide' in India's demographic history because:",
+   "options": [
+    "India's first census was held that year",
+    "India's population fell sharply after 1921",
+    "After 1921, India's population grew continuously",
+    "Family planning was introduced that year"
+   ],
+   "correctIndex": 2,
+   "explanation": "Before 1921, population grew erratically and even declined (1911-21). From 1921 it rose steadily.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0152",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The first synchronous (simultaneous, all-India) census in India was conducted in 1881 under:",
+   "options": [
+    "Lord Mayo",
+    "Lord Curzon",
+    "Lord Lytton",
+    "Lord Ripon"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 1872 census under Lord Mayo was not synchronous. The first complete synchronous census was in 1881 under Lord Ripon.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0153",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "India became the first country in the world to launch an official family planning programme in:",
+   "options": [
+    "1952",
+    "1947",
+    "1966",
+    "1976"
+   ],
+   "correctIndex": 0,
+   "explanation": "India launched its National Family Planning Programme in 1952.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0154",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The National Population Policy, 2000 set the long-term objective of achieving a stable population by:",
+   "options": [
+    "2026",
+    "2045",
+    "2030",
+    "2050"
+   ],
+   "correctIndex": 1,
+   "explanation": "NPP 2000 aimed at replacement-level TFR (2.1) by 2010 in the medium term, and a stable population by 2045 in the long term.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0155",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "Match the poverty estimation committees with the year of their report:\n(a) Y.K. Alagh Task Force - 1. 2014\n(b) Lakdawala Expert Group - 2. 2009\n(c) Tendulkar Expert Group - 3. 1993\n(d) Rangarajan Expert Group - 4. 1979",
+   "options": [
+    "a-3, b-4, c-2, d-1",
+    "a-4, b-2, c-3, d-1",
+    "a-4, b-3, c-2, d-1",
+    "a-4, b-3, c-1, d-2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Alagh: 1979 (calorie-based poverty line). Lakdawala: 1993. Tendulkar: 2009. Rangarajan: 2014.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0156",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) guarantees at least how many days of wage employment per year to a rural household?",
+   "options": [
+    "150 days",
+    "200 days",
+    "365 days",
+    "100 days"
+   ],
+   "correctIndex": 3,
+   "explanation": "MGNREGA (2005) guarantees 100 days of unskilled manual work a year to every rural household whose adult members volunteer. It began on 2 February 2006.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0157",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "'Disguised unemployment' refers to a situation where:",
+   "options": [
+    "More people are engaged in a job than needed, so the marginal productivity of the extra workers is zero",
+    "Workers are unemployed during certain seasons only",
+    "Workers lose jobs due to changes in technology",
+    "People are between jobs while searching for better work"
+   ],
+   "correctIndex": 0,
+   "explanation": "Disguised unemployment, common in Indian agriculture, means removing the extra workers would not reduce output. The other options describe seasonal, technological and frictional unemployment.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0158",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Periodic Labour Force Survey (PLFS), which provides employment and unemployment estimates, is conducted by:",
+   "options": [
+    "NITI Aayog",
+    "The National Statistics Office (NSO)",
+    "The Reserve Bank of India",
+    "The Labour Bureau of the ILO"
+   ],
+   "correctIndex": 1,
+   "explanation": "PLFS was launched by NSO (MoSPI) in April 2017 to give quarterly urban and annual all-India labour estimates.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0159",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Right of Children to Free and Compulsory Education Act, 2009 came into force on:",
+   "options": [
+    "15 August 2009",
+    "26 January 2010",
+    "1 April 2010",
+    "1 April 2009"
+   ],
+   "correctIndex": 2,
+   "explanation": "The RTE Act, 2009 came into force on 1 April 2010 and gives effect to Article 21A for children aged 6 to 14.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0160",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Education Commission of 1964-66, which recommended a common '10+2+3' structure of education, was headed by:",
+   "options": [
+    "S. Radhakrishnan",
+    "A. Lakshmanaswami Mudaliar",
+    "K. Kasturirangan",
+    "D.S. Kothari"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Kothari Commission (1964-66) shaped the National Policy on Education, 1968.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0161",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "Match the education commissions with their chairpersons:\n(a) University Education Commission (1948-49) - 1. K. Kasturirangan\n(b) Secondary Education Commission (1952-53) - 2. D.S. Kothari\n(c) Education Commission (1964-66) - 3. A. Lakshmanaswami Mudaliar\n(d) Draft National Education Policy 2019 committee - 4. S. Radhakrishnan",
+   "options": [
+    "a-4, b-3, c-2, d-1",
+    "a-3, b-4, c-2, d-1",
+    "a-4, b-2, c-3, d-1",
+    "a-4, b-3, c-1, d-2"
+   ],
+   "correctIndex": 0,
+   "explanation": "Radhakrishnan: university education. Mudaliar: secondary education. Kothari: Education Commission. Kasturirangan: committee that drafted NEP 2020.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0162",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Health Survey and Development Committee (1946), whose report laid the foundation of India's public health system, was headed by:",
+   "options": [
+    "Sir A.L. Mudaliar",
+    "Sir Joseph Bhore",
+    "Dr. B.C. Roy",
+    "Dr. Muthulakshmi Reddy"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Bhore Committee (1946) recommended a three-tier primary health care system.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0163",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY) was launched in September 2018 at:",
+   "options": [
+    "New Delhi",
+    "Varanasi",
+    "Ranchi",
+    "Ahmedabad"
+   ],
+   "correctIndex": 2,
+   "explanation": "PM-JAY was launched on 23 September 2018 at Ranchi, Jharkhand.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0164",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Integrated Child Development Services (ICDS) scheme, implemented through Anganwadis, was launched on:",
+   "options": [
+    "15 August 1947",
+    "14 November 1985",
+    "2 October 1995",
+    "2 October 1975"
+   ],
+   "correctIndex": 3,
+   "explanation": "ICDS was launched on 2 October 1975 to provide nutrition, pre-school education and health services to children and mothers.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0165",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The Human Development Index (HDI), published by UNDP since 1990, was developed by Mahbub ul Haq along with:",
+   "options": [
+    "Amartya Sen",
+    "Jagdish Bhagwati",
+    "Raghuram Rajan",
+    "Joseph Stiglitz"
+   ],
+   "correctIndex": 0,
+   "explanation": "Pakistani economist Mahbub ul Haq and Amartya Sen developed the HDI. It measures health (life expectancy), education and standard of living (GNI per capita).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0166",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "Which of the following Acts is correctly paired with its year of enactment?\n(1) Dowry Prohibition Act - 1961\n(2) Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act - 1994\n(3) Protection of Women from Domestic Violence Act - 2005",
+   "options": [
+    "(1) only",
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "All three pairings are correct: Dowry Prohibition Act 1961, PCPNDT (originally PNDT) Act 1994, Domestic Violence Act 2005.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0167",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "The 'Beti Bachao Beti Padhao' scheme was launched in January 2015 at:",
+   "options": [
+    "Jaipur, Rajasthan",
+    "Varanasi, Uttar Pradesh",
+    "Panipat, Haryana",
+    "New Delhi"
+   ],
+   "correctIndex": 2,
+   "explanation": "Beti Bachao Beti Padhao was launched on 22 January 2015 at Panipat to address the declining child sex ratio.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0168",
+   "topicId": "a5-social-problems-population-education-health",
+   "prompt": "Assertion [A]: Tamil Nadu has a lower Total Fertility Rate than many northern States of India.\nReason [R]: Higher female literacy, better health services and wider access to family welfare in Tamil Nadu have helped reduce fertility.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tamil Nadu reached below-replacement fertility early, and female literacy and health services are the main drivers, so [R] explains [A].",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0169",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Chief Minister's Nutritious Noon Meal Programme, extending free noon meals to all school children in Tamil Nadu, was launched in 1982 by:",
+   "options": [
+    "K. Kamaraj",
+    "M.G. Ramachandran",
+    "C.N. Annadurai",
+    "M. Karunanidhi"
+   ],
+   "correctIndex": 1,
+   "explanation": "MGR launched the universal Nutritious Noon Meal Programme on 1 July 1982, building on the midday meal scheme started under Kamaraj.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0170",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "Free midday meals for school children in Tamil Nadu (then Madras State) were first introduced on a large scale during the Chief Ministership of:",
+   "options": [
+    "C. Rajagopalachari",
+    "K. Kamaraj",
+    "M. Bhaktavatsalam",
+    "M.G. Ramachandran"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under Kamaraj, free midday meals were introduced in government schools in the late 1950s to improve enrolment.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0171",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Chief Minister's Breakfast Scheme for government primary school children was launched on 15 September 2022 at:",
+   "options": [
+    "Chennai",
+    "Tiruchirappalli",
+    "Madurai",
+    "Coimbatore"
+   ],
+   "correctIndex": 2,
+   "explanation": "The scheme was launched in Madurai on 15 September 2022, the birth anniversary of C.N. Annadurai.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0172",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme ('Pudhumai Penn') gives monthly assistance to:",
+   "options": [
+    "Pregnant women for institutional delivery",
+    "Widows for self-employment",
+    "Women heads of families",
+    "Girl students from government schools who pursue higher education"
+   ],
+   "correctIndex": 3,
+   "explanation": "Launched on 5 September 2022, Pudhumai Penn supports girls who studied in government schools (Classes 6-12) when they go on to higher education.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0173",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The 'Tamil Pudhalvan' scheme, which extends Pudhumai Penn-type monthly assistance to male students from government schools pursuing higher education, was launched in 2024 at:",
+   "options": [
+    "Coimbatore",
+    "Madurai",
+    "Chennai",
+    "Thoothukudi"
+   ],
+   "correctIndex": 0,
+   "explanation": "Chief Minister M.K. Stalin launched Tamil Pudhalvan in Coimbatore on 9 August 2024.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0174",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Kalaignar Magalir Urimai Thogai scheme, giving monthly entitlement assistance to women heads of families, was launched on 15 September 2023 at:",
+   "options": [
+    "Madurai",
+    "Kancheepuram",
+    "Tiruvarur",
+    "Chennai"
+   ],
+   "correctIndex": 1,
+   "explanation": "It was launched in Kancheepuram, Annadurai's birthplace, on his birth anniversary.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0175",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "'Vidiyal Payanam' in Tamil Nadu refers to:",
+   "options": [
+    "Free bicycles for school students",
+    "Early-morning breakfast for students",
+    "Free travel for women in government town buses",
+    "A rural road connectivity scheme"
+   ],
+   "correctIndex": 2,
+   "explanation": "Vidiyal Payanam is the scheme of free travel for women in ordinary government town buses, introduced in 2021.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0176",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "'Naan Mudhalvan', launched by the Tamil Nadu Government in March 2022, mainly focuses on:",
+   "options": [
+    "Free health check-ups",
+    "Housing for the poor",
+    "Crop insurance",
+    "Skill development and career guidance for students"
+   ],
+   "correctIndex": 3,
+   "explanation": "Naan Mudhalvan (1 March 2022) provides skill training, career guidance and placement support to college and school students.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0177",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "'Amma Unavagam', the Tamil Nadu scheme of subsidised canteens serving low-cost food, was started in:",
+   "options": [
+    "2013",
+    "2006",
+    "2001",
+    "2018"
+   ],
+   "correctIndex": 0,
+   "explanation": "Amma Unavagam canteens started in Chennai in February 2013 under the Greater Chennai Corporation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0178",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Cradle Baby Scheme of Tamil Nadu, introduced in 1992 to prevent female infanticide, was first launched in which district?",
+   "options": [
+    "Madurai",
+    "Salem",
+    "Dharmapuri",
+    "Theni"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Cradle Baby Scheme began in Salem district in 1992 and was later extended to other districts with high female infanticide.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0179",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The 'Periyar Ninaivu Samathuvapuram' scheme of Tamil Nadu aims at:",
+   "options": [
+    "Providing free electricity to farmers",
+    "Promoting rationalist literature",
+    "Building model villages where people of all castes live together",
+    "Building memorials to social reformers"
+   ],
+   "correctIndex": 2,
+   "explanation": "Samathuvapuram ('equality village') houses families of different castes, including Scheduled Castes, side by side, with common facilities, to promote social harmony.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0180",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Self-Help Group (SHG) movement in Tamil Nadu began in 1989 in Dharmapuri district with the assistance of:",
+   "options": [
+    "The World Bank",
+    "The Asian Development Bank",
+    "UNICEF",
+    "The International Fund for Agricultural Development (IFAD)"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Tamil Nadu Corporation for Development of Women formed SHGs in Dharmapuri in 1989 under the IFAD-aided Tamil Nadu Women's Development Project. This led to Mahalir Thittam.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0181",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The 'Pudhu Vaazhvu' project, launched in Tamil Nadu in 2005 to empower the rural poor through village-level community institutions, was supported by:",
+   "options": [
+    "The World Bank",
+    "The Asian Development Bank",
+    "IFAD",
+    "JICA"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Tamil Nadu Empowerment and Poverty Reduction Project ('Pudhu Vaazhvu') was World Bank-aided and launched in 2005.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0182",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Tamil Nadu State Planning Commission was constituted in:",
+   "options": [
+    "1950",
+    "1971",
+    "1967",
+    "1986"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Tamil Nadu State Planning Commission was constituted on 25 May 1971, with the Chief Minister as its Chairman.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0183",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Old Age Pension scheme for destitute elderly people was introduced in Tamil Nadu in:",
+   "options": [
+    "1975",
+    "1989",
+    "1962",
+    "1995"
+   ],
+   "correctIndex": 2,
+   "explanation": "Tamil Nadu has run an Old Age Pension scheme since 1962, long before the central National Social Assistance Programme (1995).",
+   "sourceTag": "web-researched",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0184",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Tamil Nadu Civil Supplies Corporation (TNCSC), which runs the Public Distribution System in the State, was established in:",
+   "options": [
+    "1956",
+    "1965",
+    "1983",
+    "1972"
+   ],
+   "correctIndex": 3,
+   "explanation": "TNCSC was incorporated in 1972 to procure, store and distribute essential commodities.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0185",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "Tamil Nadu follows which type of Public Distribution System (PDS)?",
+   "options": [
+    "A universal PDS covering all rice card holders",
+    "A targeted PDS limited to BPL families",
+    "No PDS; only cash transfers",
+    "A PDS limited to urban areas"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tamil Nadu has kept a universal PDS, unlike the targeted PDS adopted by most States after 1997.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0186",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "'Tamil Nadu Vision 2023', a strategic plan for infrastructure and growth, was released by the Tamil Nadu Government in:",
+   "options": [
+    "2006",
+    "2012",
+    "2016",
+    "2020"
+   ],
+   "correctIndex": 1,
+   "explanation": "Vision 2023 was released in 2012. It targeted high growth and large investment in infrastructure by 2023.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0187",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO) was set up in 1974 mainly to:",
+   "options": [
+    "Build roads in hill areas",
+    "Run State transport",
+    "Promote the economic development and housing of Scheduled Castes",
+    "Promote handloom exports"
+   ],
+   "correctIndex": 2,
+   "explanation": "TAHDCO implements economic development and housing programmes for Adi Dravidars (Scheduled Castes).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0188",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "Assertion [A]: The services sector contributes the largest share of Tamil Nadu's Gross State Domestic Product.\nReason [R]: Agriculture still employs a large share of the workforce in Tamil Nadu.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 1,
+   "explanation": "Both are true, but agriculture's large share of employment does not explain why services lead in GSDP. The cause is growth in trade, transport, IT, finance and real estate.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0189",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The 'Kalaignar Kanavu Illam' scheme of Tamil Nadu (2024) aims to:",
+   "options": [
+    "Provide free laptops to students",
+    "Give interest-free loans to farmers",
+    "Provide free television sets",
+    "Replace huts in rural areas with permanent concrete houses"
+   ],
+   "correctIndex": 3,
+   "explanation": "Kalaignar Kanavu Illam aims to build concrete houses for rural families still living in huts.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0190",
+   "topicId": "a5-tn-economic-trends-welfare-schemes",
+   "prompt": "The Dr. Muthulakshmi Reddy Maternity Benefit Scheme of Tamil Nadu provides:",
+   "options": [
+    "Free higher education to girls",
+    "Marriage assistance to orphan girls",
+    "Financial assistance to poor pregnant women and new mothers",
+    "Pensions to widows"
+   ],
+   "correctIndex": 2,
+   "explanation": "The scheme provides cash assistance (and nutrition kits) to poor pregnant women to compensate for wage loss and improve maternal and child health.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0191",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "Madras Medical College, one of the oldest medical colleges in India, was established in:",
+   "options": [
+    "1857",
+    "1906",
+    "1947",
+    "1835"
+   ],
+   "correctIndex": 3,
+   "explanation": "Madras Medical College traces its origin to 1835.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0192",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The University of Madras, one of India's three oldest modern universities, was established in:",
+   "options": [
+    "1857",
+    "1835",
+    "1916",
+    "1929"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Universities of Madras, Bombay and Calcutta were all established in 1857.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0193",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "Anna University, Chennai was established in:",
+   "options": [
+    "1978",
+    "1957",
+    "1966",
+    "1987"
+   ],
+   "correctIndex": 0,
+   "explanation": "Anna University was established in 1978 as a unitary technical university.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0194",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "Tamil University, established in 1981 to promote advanced research in Tamil, is located at:",
+   "options": [
+    "Madurai",
+    "Thanjavur",
+    "Chidambaram",
+    "Karaikudi"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tamil University was established at Thanjavur in 1981.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0195",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "Match the universities with their locations:\n(a) Bharathidasan University - 1. Karaikudi\n(b) Bharathiar University - 2. Tirunelveli\n(c) Alagappa University - 3. Tiruchirappalli\n(d) Manonmaniam Sundaranar University - 4. Coimbatore",
+   "options": [
+    "a-4, b-3, c-1, d-2",
+    "a-3, b-4, c-2, d-1",
+    "a-3, b-4, c-1, d-2",
+    "a-3, b-1, c-4, d-2"
+   ],
+   "correctIndex": 2,
+   "explanation": "Bharathidasan: Tiruchirappalli. Bharathiar: Coimbatore. Alagappa: Karaikudi. Manonmaniam Sundaranar: Tirunelveli.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0196",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The Tamil Nadu Open University, offering distance and open learning, was established in:",
+   "options": [
+    "1981",
+    "1995",
+    "2010",
+    "2002"
+   ],
+   "correctIndex": 3,
+   "explanation": "Tamil Nadu Open University was established in 2002 by an Act of the State Legislature.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0197",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "In 2020 Tamil Nadu provided 7.5% horizontal reservation in admission to medical courses for:",
+   "options": [
+    "Students who studied in government schools",
+    "Students from hill areas",
+    "Children of ex-servicemen",
+    "Students from Tamil-medium private schools"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 2020 law reserves 7.5% of medical seats for students who studied in government schools from Class 6 to 12.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0198",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "'Kalvi TV', the educational television channel of the Tamil Nadu School Education Department, was launched in:",
+   "options": [
+    "2010",
+    "2019",
+    "2015",
+    "2022"
+   ],
+   "correctIndex": 1,
+   "explanation": "Kalvi TV was launched in August 2019. It was used widely for lessons during the COVID-19 school closures.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0199",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The 'Ennum Ezhuthum' mission of Tamil Nadu (2022) aims to:",
+   "options": [
+    "Provide free coaching for competitive exams",
+    "Train teachers in digital skills",
+    "Ensure foundational literacy and numeracy for children in Classes 1 to 3",
+    "Provide scholarships to college students"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ennum Ezhuthum aims to ensure that children up to age 8 (Classes 1-3) can read with comprehension and do basic arithmetic.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0200",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The 'Makkalai Thedi Maruthuvam' scheme, delivering health care to people's doorsteps for non-communicable diseases, was launched in August 2021 in which district?",
+   "options": [
+    "Chennai",
+    "Madurai",
+    "Tiruvarur",
+    "Krishnagiri"
+   ],
+   "correctIndex": 3,
+   "explanation": "The scheme was launched on 5 August 2021 at Samanapalli village in Krishnagiri district.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0201",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The Tamil Nadu scheme 'Innuyir Kappom - Nammai Kaakkum 48' provides:",
+   "options": [
+    "Free emergency treatment to road accident victims for the first 48 hours",
+    "48 days of free nutrition to pregnant women",
+    "Health insurance for 48 major diseases",
+    "Ambulance service within 48 minutes"
+   ],
+   "correctIndex": 0,
+   "explanation": "Launched in December 2021, the scheme covers free treatment for road accident victims during the 'golden' first 48 hours in empanelled hospitals.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0202",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The '108' free emergency ambulance service was launched in Tamil Nadu in:",
+   "options": [
+    "2001",
+    "2008",
+    "2012",
+    "2016"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 108 emergency ambulance service started in Tamil Nadu in September 2008 under a public-private partnership.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0203",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The 'Kalaignarin Varumun Kappom' scheme, relaunched by the Tamil Nadu Government in September 2021, mainly provides:",
+   "options": [
+    "Crop insurance for delta farmers",
+    "Flood-relief shelters",
+    "Free comprehensive health check-up camps for preventive care",
+    "Insurance for fishermen"
+   ],
+   "correctIndex": 2,
+   "explanation": "Relaunched on 29 September 2021 in Salem district, the scheme holds medical camps that offer health check-ups, treatment and health education.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0204",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The Tamil Nadu e-Governance Agency (TNeGA), which drives e-governance initiatives in the State, was created in:",
+   "options": [
+    "1997",
+    "2001",
+    "2015",
+    "2007"
+   ],
+   "correctIndex": 3,
+   "explanation": "TNeGA was created in 2007 as a society under the IT Department (G.O. of January 2007).",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0205",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The Tamil Virtual Academy (originally Tamil Virtual University), which offers Tamil education online to Tamils worldwide, was established in:",
+   "options": [
+    "2001",
+    "1981",
+    "2010",
+    "1995"
+   ],
+   "correctIndex": 0,
+   "explanation": "Tamil Virtual University was established in 2001 and later renamed Tamil Virtual Academy.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0206",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The National e-Governance Plan (NeGP), with its Mission Mode Projects, was approved by the Government of India in:",
+   "options": [
+    "2000",
+    "2006",
+    "2015",
+    "1998"
+   ],
+   "correctIndex": 1,
+   "explanation": "NeGP was approved in May 2006. Its slogan was to make all government services accessible to the common man in his locality.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0207",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The 'Digital India' programme was launched by the Government of India on:",
+   "options": [
+    "25 September 2014",
+    "15 August 2016",
+    "1 July 2015",
+    "26 January 2015"
+   ],
+   "correctIndex": 2,
+   "explanation": "Digital India was launched on 1 July 2015 to transform India into a digitally empowered society.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0208",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The law that gives legal recognition to electronic records and digital signatures in India is the:",
+   "options": [
+    "Right to Information Act, 2005",
+    "Indian Telegraph Act, 1885",
+    "Digital India Act, 2015",
+    "Information Technology Act, 2000"
+   ],
+   "correctIndex": 3,
+   "explanation": "The IT Act, 2000 is the legal basis for e-governance and e-commerce in India.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0209",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The 'Mudhalvarin Mugavari' department, created by the Tamil Nadu Government in 2021, deals with:",
+   "options": [
+    "Redressal of public grievances submitted to the Chief Minister",
+    "Allotment of houses",
+    "Issue of community certificates",
+    "Tourism promotion"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mudhalvarin Mugavari ('the Chief Minister's address') brings together the CM's grievance cells and portals for time-bound grievance redressal.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0210",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS) of Tamil Nadu was launched in:",
+   "options": [
+    "2006",
+    "2012",
+    "2009",
+    "2018"
+   ],
+   "correctIndex": 1,
+   "explanation": "CMCHIS was launched in January 2012, replacing the Kalaignar insurance scheme for life-saving treatments (2009).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0211",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "Samacheer Kalvi (uniform school education) in Tamil Nadu was implemented under the:",
+   "options": [
+    "Right of Children to Free and Compulsory Education Act, 2009",
+    "Tamil Nadu Education Rules, 1994",
+    "Tamil Nadu Uniform System of School Education Act, 2010",
+    "National Policy on Education, 1986"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Tamil Nadu Uniform System of School Education Act, 2010 brought State Board, Matriculation, Anglo-Indian and Oriental schools under a common syllabus. The Supreme Court upheld it in 2011.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0212",
+   "topicId": "a5-tn-education-health-egovernance",
+   "prompt": "The Tamil Nadu State Wide Area Network (TNSWAN) is mainly used to:",
+   "options": [
+    "Provide free Wi-Fi to all households",
+    "Supply electricity to rural areas",
+    "Monitor rainfall in reservoirs",
+    "Connect State, district and block-level government offices for data, voice and video communication"
+   ],
+   "correctIndex": 3,
+   "explanation": "TNSWAN, a core infrastructure component under NeGP, is the government's secure network that links offices from the State headquarters down to the blocks.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0213",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The highest peak in Tamil Nadu is:",
+   "options": [
+    "Doddabetta",
+    "Anaimudi",
+    "Mahendragiri",
+    "Velliangiri"
+   ],
+   "correctIndex": 0,
+   "explanation": "Doddabetta (2,637 m) in the Nilgiris is the highest peak in Tamil Nadu. Anaimudi, in Kerala, is the highest peak of South India.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0214",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Tamil Nadu receives the bulk of its annual rainfall during:",
+   "options": [
+    "The southwest monsoon (June-September)",
+    "The northeast monsoon (October-December)",
+    "Winter western disturbances",
+    "Pre-monsoon cyclones in April-May"
+   ],
+   "correctIndex": 1,
+   "explanation": "Unlike most of India, Tamil Nadu gets most of its rain from the northeast monsoon.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0215",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Assertion [A]: Most parts of Tamil Nadu receive comparatively little rainfall during the southwest monsoon.\nReason [R]: During the southwest monsoon, Tamil Nadu lies in the rain-shadow region of the Western Ghats.",
+   "options": [
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Western Ghats block the moisture-laden southwest winds, which shed their rain on the windward Kerala side. So [R] explains [A].",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0216",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Which type of soil covers the largest area of Tamil Nadu?",
+   "options": [
+    "Black soil",
+    "Alluvial soil",
+    "Laterite soil",
+    "Red soil"
+   ],
+   "correctIndex": 3,
+   "explanation": "Red soil is the most widespread soil in Tamil Nadu. Alluvial soils dominate the Cauvery delta, and black soils occur in parts of the western and southern districts.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0217",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The Mettur Dam (Stanley Reservoir) across the Cauvery was completed in:",
+   "options": [
+    "1925",
+    "1947",
+    "1934",
+    "1956"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Mettur Dam was completed in 1934 and irrigates the Cauvery delta.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0218",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The Kallanai (Grand Anicut) across the Cauvery, one of the oldest water-regulating structures still in use, was built by:",
+   "options": [
+    "Rajaraja Chola",
+    "Karikala Chola",
+    "Pandya Nedunchezhiyan",
+    "Mahendravarman Pallava"
+   ],
+   "correctIndex": 1,
+   "explanation": "The Kallanai is attributed to the Chola king Karikala Chola.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0219",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The major port at Thoothukudi is named after:",
+   "options": [
+    "K. Kamaraj",
+    "C. Rajagopalachari",
+    "V.O. Chidambaranar",
+    "Subramania Bharati"
+   ],
+   "correctIndex": 2,
+   "explanation": "Tuticorin Port was renamed V.O. Chidambaranar Port after the freedom fighter who founded the Swadeshi Steam Navigation Company.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0220",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Which major port of Tamil Nadu was the first major port in India to be set up as a public company (corporatised)?",
+   "options": [
+    "Chennai Port",
+    "V.O. Chidambaranar Port",
+    "Nagapattinam Port",
+    "Kamarajar Port (Ennore)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Ennore Port (now Kamarajar Port Ltd) was India's first corporatised major port.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-A-V-e0221",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The Kudankulam Nuclear Power Project, built with Russian collaboration, is located in which district?",
+   "options": [
+    "Tirunelveli",
+    "Thoothukudi",
+    "Kanyakumari",
+    "Ramanathapuram"
+   ],
+   "correctIndex": 0,
+   "explanation": "Kudankulam is in Tirunelveli district and uses Russian VVER reactors.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0222",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The Madras Atomic Power Station (MAPS) is located at:",
+   "options": [
+    "Kudankulam",
+    "Kalpakkam",
+    "Neyveli",
+    "Ennore"
+   ],
+   "correctIndex": 1,
+   "explanation": "MAPS is at Kalpakkam in Chengalpattu district, which also hosts the Indira Gandhi Centre for Atomic Research.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0223",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Muppandal, one of the largest wind farm clusters in India, is located in which district?",
+   "options": [
+    "Tirunelveli",
+    "Theni",
+    "Kanyakumari",
+    "Coimbatore"
+   ],
+   "correctIndex": 2,
+   "explanation": "Muppandal in Kanyakumari district benefits from strong winds through the Aralvaimozhi pass.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0224",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The large solar power plant at Kamuthi, commissioned in 2016, is located in which district?",
+   "options": [
+    "Virudhunagar",
+    "Thoothukudi",
+    "Sivaganga",
+    "Ramanathapuram"
+   ],
+   "correctIndex": 3,
+   "explanation": "The 648 MW Kamuthi solar plant is in Ramanathapuram district.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0225",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The first hydroelectric project in Tamil Nadu (then Madras Presidency), commissioned in 1932, was:",
+   "options": [
+    "Pykara",
+    "Mettur",
+    "Papanasam",
+    "Periyar"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Pykara hydroelectric project in the Nilgiris was commissioned in 1932 to power industries in Coimbatore.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0226",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Match the minerals with their main areas in Tamil Nadu:\n(a) Lignite - 1. Salem\n(b) Magnesite - 2. Ariyalur\n(c) Limestone - 3. Neyveli\n(d) Garnet and ilmenite beach sands - 4. Kanyakumari-Tirunelveli coast",
+   "options": [
+    "a-1, b-3, c-2, d-4",
+    "a-3, b-1, c-2, d-4",
+    "a-3, b-2, c-1, d-4",
+    "a-3, b-1, c-4, d-2"
+   ],
+   "correctIndex": 1,
+   "explanation": "Lignite: Neyveli. Magnesite: Salem. Limestone: Ariyalur (cement belt). Heavy-mineral beach sands: Kanyakumari-Tirunelveli coast.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0227",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Which Tamil Nadu city is known as the 'Turmeric City'?",
+   "options": [
+    "Salem",
+    "Dindigul",
+    "Erode",
+    "Karur"
+   ],
+   "correctIndex": 2,
+   "explanation": "Erode is a major turmeric market, and Erode turmeric has a GI tag.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0228",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Thoothukudi is popularly known as the:",
+   "options": [
+    "Temple City",
+    "Silk City",
+    "Lock City",
+    "Pearl City"
+   ],
+   "correctIndex": 3,
+   "explanation": "Thoothukudi is famous for pearl fishing in the Gulf of Mannar.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0229",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Which district is known as the 'Rice Bowl of Tamil Nadu'?",
+   "options": [
+    "Thanjavur",
+    "Tirunelveli",
+    "Salem",
+    "Vellore"
+   ],
+   "correctIndex": 0,
+   "explanation": "Thanjavur, in the fertile Cauvery delta, is called the Rice Bowl of Tamil Nadu.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-A-V-e0230",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Consider the following products from Tamil Nadu:\n(1) Madurai Malli\n(2) Kovilpatti Kadalai Mittai\n(3) Srivilliputhur Palkova\nWhich of the above have received a Geographical Indication (GI) tag?",
+   "options": [
+    "(1) only",
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
+   ],
+   "correctIndex": 3,
+   "explanation": "All three (Madurai jasmine, Kovilpatti groundnut candy, Srivilliputhur palkova) hold GI tags.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0231",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The new spaceport of ISRO for small satellite launch vehicles is coming up at Kulasekarapattinam in which district?",
+   "options": [
+    "Tirunelveli",
+    "Kanyakumari",
+    "Thoothukudi",
+    "Ramanathapuram"
+   ],
+   "correctIndex": 2,
+   "explanation": "The foundation stone for the Kulasekarapattinam spaceport in Thoothukudi district was laid in February 2024.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0232",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "The ISRO Propulsion Complex, where liquid and cryogenic engines are tested, is located at:",
+   "options": [
+    "Sriharikota, Andhra Pradesh",
+    "Mahendragiri, Tirunelveli district",
+    "Kalpakkam, Chengalpattu district",
+    "Hosur, Krishnagiri district"
+   ],
+   "correctIndex": 1,
+   "explanation": "The ISRO Propulsion Complex (IPRC) is at Mahendragiri in Tirunelveli district.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0233",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "National Highway 44, India's longest national highway, runs from Srinagar to:",
+   "options": [
+    "Kanyakumari",
+    "Chennai",
+    "Rameswaram",
+    "Thoothukudi"
+   ],
+   "correctIndex": 0,
+   "explanation": "NH 44 runs north-south from Srinagar to Kanyakumari, passing through Hosur, Salem, Namakkal, Karur, Dindigul, Madurai and Tirunelveli in Tamil Nadu.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0234",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Tamil Nadu is among India's leading salt producers. Which district is the main salt-producing centre of the State?",
+   "options": [
+    "Chennai",
+    "Thoothukudi",
+    "Cuddalore",
+    "Kanyakumari"
+   ],
+   "correctIndex": 1,
+   "explanation": "Thoothukudi, with its long dry coastal flats, produces most of Tamil Nadu's salt. Tamil Nadu is second only to Gujarat in salt production.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0235",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Salem district is a major centre of which agro-based industry in Tamil Nadu?",
+   "options": [
+    "Jute",
+    "Tea processing",
+    "Sago (from tapioca)",
+    "Coir"
+   ],
+   "correctIndex": 2,
+   "explanation": "Salem is the hub of the sago and starch industry based on tapioca (cassava). Sagoserve is located there.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0236",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "In Tamil Nadu, tea is grown mainly in:",
+   "options": [
+    "The Cauvery delta",
+    "The Ramanathapuram plains",
+    "The Javadhu hills only",
+    "The Nilgiris and the Anamalai (Valparai) hills"
+   ],
+   "correctIndex": 3,
+   "explanation": "The Nilgiris and the Valparai-Anamalai region of Coimbatore district are the main tea-growing areas.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-A-V-e0237",
+   "topicId": "a5-tn-geography-economic-growth-achievements",
+   "prompt": "Through an ordinance followed by the Tamil Nadu Municipal Laws (Second Amendment) Act, Tamil Nadu made rainwater harvesting structures compulsory for all public and private buildings in:",
+   "options": [
+    "2003",
+    "1991",
+    "2010",
+    "2015"
+   ],
+   "correctIndex": 0,
+   "explanation": "In 2003 Tamil Nadu made rainwater harvesting compulsory for all buildings to augment groundwater, a landmark measure in water conservation.",
+   "sourceTag": "web-researched",
+   "difficulty": "medium"
+  }
+ ]
+}

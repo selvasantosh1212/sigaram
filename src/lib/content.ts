@@ -1,7 +1,16 @@
 import { readFileSync, readdirSync } from "fs";
 import path from "path";
 import { cache } from "react";
-import { DaySchema, SyllabusPartSchema, TopicSchema, type Day, type SyllabusPart, type Topic } from "./types";
+import {
+  DaySchema,
+  SyllabusPartSchema,
+  TopicSchema,
+  type Day,
+  type MockQuestion,
+  type QuestionSnapshot,
+  type SyllabusPart,
+  type Topic,
+} from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const DAYS_PATH = path.join(CONTENT_DIR, "days/days.json");
@@ -52,7 +61,21 @@ export type DayQuestion = {
   difficulty: "easy" | "medium" | "hard";
   sourceTag: string;
   trick?: string;
+  snapshot?: QuestionSnapshot;
 };
+
+// Resolves the question as it was actually shown: the stored snapshot when the attempt
+// row has one (full mock), otherwise the topic file's copy.
+function resolveQuestion(
+  topic: Topic,
+  questionId: string,
+  snapshot: string | null | undefined
+): QuestionSnapshot & Pick<MockQuestion, "id"> {
+  if (snapshot) return { id: questionId, ...(JSON.parse(snapshot) as QuestionSnapshot) };
+  const q = topic.mockTest.questions.find((mq) => mq.id === questionId);
+  if (!q) throw new Error(`Question ${questionId} not found in topic ${topic.topicId}`);
+  return q;
+}
 
 export type RenderableQuestion = {
   answerRowId: number;
@@ -68,12 +91,17 @@ export type RenderableQuestion = {
 // deliberately does NOT include correctIndex/explanation, so the answer key never
 // reaches the client before the attempt is submitted.
 export function hydrateQuestionRefs(
-  refs: Array<{ answerRowId: number; part: "A" | "B" | "C"; topicId: string; questionId: string }>
+  refs: Array<{
+    answerRowId: number;
+    part: "A" | "B" | "C";
+    topicId: string;
+    questionId: string;
+    snapshot?: string | null;
+  }>
 ): RenderableQuestion[] {
   return refs.map((ref) => {
     const topic = getTopic(ref.topicId);
-    const q = topic.mockTest.questions.find((mq) => mq.id === ref.questionId);
-    if (!q) throw new Error(`Question ${ref.questionId} not found in topic ${ref.topicId}`);
+    const q = resolveQuestion(topic, ref.questionId, ref.snapshot);
     return {
       answerRowId: ref.answerRowId,
       part: ref.part,
@@ -112,12 +140,12 @@ export function hydrateAnswerRowsForReview(
     question_id: string;
     selected_index: number | null;
     is_correct: number | null;
+    question_snapshot?: string | null;
   }>
 ): ReviewQuestion[] {
   return rows.map((row) => {
     const topic = getTopic(row.topic_id);
-    const q = topic.mockTest.questions.find((mq) => mq.id === row.question_id);
-    if (!q) throw new Error(`Question ${row.question_id} not found in topic ${row.topic_id}`);
+    const q = resolveQuestion(topic, row.question_id, row.question_snapshot);
     return {
       answerRowId: row.id,
       part: row.part,
@@ -154,12 +182,12 @@ export function getDayQuestions(dayNumber: number): DayQuestion[] {
 // Builds a quiz-ready question set from cross-topic (topicId, questionId) refs — used
 // by the mistake bank, where questions can come from any topic rather than one day's three.
 export function hydrateWrongAnswerRefs(
-  refs: Array<{ topicId: string; questionId: string; part: "A" | "B" | "C" }>
+  refs: Array<{ topicId: string; questionId: string; part: "A" | "B" | "C"; snapshot?: string | null }>
 ): DayQuestion[] {
   return refs.map((ref) => {
     const topic = getTopic(ref.topicId);
-    const q = topic.mockTest.questions.find((mq) => mq.id === ref.questionId);
-    if (!q) throw new Error(`Question ${ref.questionId} not found in topic ${ref.topicId}`);
+    const q = resolveQuestion(topic, ref.questionId, ref.snapshot);
+    const difficulty = topic.mockTest.questions.find((mq) => mq.id === ref.questionId)?.difficulty ?? "medium";
     return {
       part: ref.part,
       topicId: topic.topicId,
@@ -169,9 +197,10 @@ export function hydrateWrongAnswerRefs(
       options: q.options,
       correctIndex: q.correctIndex,
       explanation: q.explanation,
-      difficulty: q.difficulty,
+      difficulty,
       sourceTag: q.sourceTag,
       trick: q.trick,
+      snapshot: ref.snapshot ? (JSON.parse(ref.snapshot) as QuestionSnapshot) : undefined,
     };
   });
 }

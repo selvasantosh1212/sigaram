@@ -1,7 +1,7 @@
 import { getDb, rowsToObjects } from "./db";
 import { scoreAttempt, type AnsweredQuestion } from "./scoring";
 import { markMockSubmitted } from "./progress";
-import type { Part } from "./types";
+import type { Part, QuestionSnapshot } from "./types";
 
 export type QuestionInstance = {
   part: Part;
@@ -14,6 +14,10 @@ export type QuestionInstance = {
   explanation: string;
   difficulty: "easy" | "medium" | "hard";
   sourceTag: string;
+  trick?: string;
+  // Set when the question as shown differs from its topic file (shuffled options,
+  // generated numbers, full-mock bank) — stored so review shows exactly what was asked.
+  snapshot?: QuestionSnapshot;
 };
 
 export type AttemptRow = {
@@ -72,9 +76,19 @@ export async function createDraftAttempt(params: {
   const answerResults = params.questions.length
     ? await db.batch(
         params.questions.map((q) => ({
-          sql: `INSERT INTO attempt_answers (attempt_id, part, topic_id, unit_id, question_id, difficulty, source_tag, correct_index, selected_index)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL)`,
-          args: [attemptId, q.part, q.topicId, q.unitId, q.questionId, q.difficulty, q.sourceTag, q.correctIndex],
+          sql: `INSERT INTO attempt_answers (attempt_id, part, topic_id, unit_id, question_id, difficulty, source_tag, correct_index, selected_index, question_snapshot)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL, ?)`,
+          args: [
+            attemptId,
+            q.part,
+            q.topicId,
+            q.unitId,
+            q.questionId,
+            q.difficulty,
+            q.sourceTag,
+            q.correctIndex,
+            q.snapshot ? JSON.stringify(q.snapshot) : null,
+          ],
         })),
         "write"
       )
@@ -104,6 +118,7 @@ type AttemptAnswerRow = {
   selected_index: number | null;
   correct_index: number;
   is_correct: number | null;
+  question_snapshot: string | null;
 };
 
 export async function getAttemptAnswers(attemptId: number): Promise<AttemptAnswerRow[]> {
@@ -242,18 +257,28 @@ export async function getAllAttempts(): Promise<AttemptRow[]> {
   return rowsToObjects(rs) as AttemptRow[];
 }
 
-export type WrongAnswerRef = { topicId: string; questionId: string; part: Part };
+export type WrongAnswerRef = { topicId: string; questionId: string; part: Part; snapshot: string | null };
 
 // One row per (topic, question) where the MOST RECENT scored attempt at it was wrong —
 // a question you've since gotten right (in any attempt kind) naturally drops out.
 export async function getWrongAnswerRefs(): Promise<WrongAnswerRef[]> {
   const db = await getDb();
   const rs = await db.execute(
-    `SELECT topic_id, question_id, part FROM attempt_answers
+    `SELECT topic_id, question_id, part, question_snapshot FROM attempt_answers
        WHERE id IN (
          SELECT MAX(id) FROM attempt_answers WHERE is_correct IS NOT NULL GROUP BY topic_id, question_id
        ) AND is_correct = 0`
   );
-  const rows = rowsToObjects(rs) as Array<{ topic_id: string; question_id: string; part: Part }>;
-  return rows.map((r) => ({ topicId: r.topic_id, questionId: r.question_id, part: r.part }));
+  const rows = rowsToObjects(rs) as Array<{
+    topic_id: string;
+    question_id: string;
+    part: Part;
+    question_snapshot: string | null;
+  }>;
+  return rows.map((r) => ({
+    topicId: r.topic_id,
+    questionId: r.question_id,
+    part: r.part,
+    snapshot: r.question_snapshot,
+  }));
 }

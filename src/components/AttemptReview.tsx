@@ -20,7 +20,7 @@ export function AttemptReview({ questions }: { questions: ReviewQuestion[] }) {
               {q.isCorrect ? "Correct" : q.selectedIndex === null ? "Skipped" : "Incorrect"}
             </span>
           </div>
-          <p className="mt-2 font-bold">
+          <p className="mt-2 whitespace-pre-line font-bold">
             {i + 1}. {q.prompt}
           </p>
           <ul className="mt-2 space-y-1 text-sm">

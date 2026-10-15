@@ -1,0 +1,2775 @@
+{
+ "unitId": "C-IV",
+ "passages": [],
+ "questions": [
+  {
+   "id": "bank-C-IV-k0001",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'ad hoc' committee is one that is:",
+   "options": [
+    "Permanent and statutory",
+    "Formed for a particular purpose and usually temporary",
+    "Elected by the people directly",
+    "Formed only of retired officers"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Ad hoc' (Latin, 'for this') means set up for a specific purpose, usually for a limited period.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0002",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The appointment was made on an 'ad hoc' basis. This means the appointment is:",
+   "options": [
+    "Temporary, made to meet an immediate need, pending regular selection",
+    "Permanent from the date of joining",
+    "Made through a competitive examination",
+    "Made by the President of India"
+   ],
+   "correctIndex": 0,
+   "explanation": "Ad hoc appointments are stop-gap arrangements until a regular appointment is made.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0003",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The Assembly was adjourned 'sine die'. This means it was adjourned:",
+   "options": [
+    "For exactly one day",
+    "Till the next morning",
+    "Without fixing a date for the next sitting",
+    "Permanently dissolved"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Sine die' means 'without a day' – no date is fixed for reassembly. It is not dissolution.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "Sine die = without a day."
+  },
+  {
+   "id": "bank-C-IV-k0004",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Prima facie' evidence means evidence that is:",
+   "options": [
+    "Final and cannot be challenged",
+    "Collected secretly",
+    "Given by the first witness only",
+    "Sufficient at first sight, unless disproved"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Prima facie' means 'at first sight' or 'on the face of it'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0005",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The Collector found the complaint to be 'prima facie' true and ordered an inquiry. 'Prima facie' here means:",
+   "options": [
+    "Proved beyond doubt after a trial",
+    "False and baseless",
+    "Appearing true on first examination",
+    "Anonymous"
+   ],
+   "correctIndex": 2,
+   "explanation": "An order of inquiry follows because the complaint appears true at first sight; full proof comes later.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0006",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An action that is 'ultra vires' is one that is:",
+   "options": [
+    "Beyond the legal powers of the authority taking it",
+    "Within the powers of the authority",
+    "Approved by the Legislature",
+    "Taken in an emergency"
+   ],
+   "correctIndex": 0,
+   "explanation": "'Ultra vires' (beyond the powers) describes acts exceeding legal authority; such acts are void.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "Ultra = beyond; intra = within."
+  },
+  {
+   "id": "bank-C-IV-k0007",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The opposite of 'ultra vires' is:",
+   "options": [
+    "Ex officio",
+    "Sine die",
+    "Bona fide",
+    "Intra vires"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Intra vires' means within the powers of the authority.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0008",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A case heard 'in camera' is heard:",
+   "options": [
+    "With television cameras recording it",
+    "In private, with the public and press excluded",
+    "In the open court before the public",
+    "Through video conference only"
+   ],
+   "correctIndex": 1,
+   "explanation": "'In camera' (Latin, 'in a chamber') means in private.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "In camera has nothing to do with cameras – think 'in chamber'."
+  },
+  {
+   "id": "bank-C-IV-k0009",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'interim' order is one that is:",
+   "options": [
+    "The final judgment in a case",
+    "Temporary, in force until a final decision is made",
+    "Passed after the case is closed",
+    "An order that can never be modified"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Interim' means for the intervening period; an interim order holds until the final order.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0010",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The term 'bona fide' means:",
+   "options": [
+    "In bad faith",
+    "By force",
+    "Without a date",
+    "In good faith; genuine"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Bona fide' means genuine or done in good faith; its opposite is 'mala fide'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0011",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An officer's action is described as 'mala fide'. This means the action was:",
+   "options": [
+    "Done in bad faith, with a dishonest or improper motive",
+    "Done in good faith",
+    "Done in the presence of a magistrate",
+    "Done on a holiday"
+   ],
+   "correctIndex": 0,
+   "explanation": "'Mala fide' means in bad faith.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0012",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Bona fide student certificate' is issued by an institution to certify that the person:",
+   "options": [
+    "Has passed all examinations with distinction",
+    "Has paid no fees",
+    "Is a genuine student currently studying there",
+    "Is a former teacher of the institution"
+   ],
+   "correctIndex": 2,
+   "explanation": "A bona fide certificate confirms that the person is genuinely on the rolls of the institution.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0013",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The Speaker 'pro tem' of a newly elected Assembly is:",
+   "options": [
+    "The Speaker elected for five years",
+    "A temporary Speaker who presides until the regular Speaker is elected",
+    "The leader of the opposition",
+    "The Governor's nominee for the Cabinet"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Pro tem' (pro tempore) means for the time being.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0014",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Status quo' means:",
+   "options": [
+    "A new order of things",
+    "A state of emergency",
+    "The previous government",
+    "The existing state of affairs"
+   ],
+   "correctIndex": 3,
+   "explanation": "The court ordered 'status quo' – that is, things must remain as they are now.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0015",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The court ordered both parties to maintain 'status quo' regarding the disputed land. This means:",
+   "options": [
+    "The land must be sold immediately",
+    "The land goes to the government",
+    "Neither party should change the present position of the land until further orders",
+    "Both parties must build on the land"
+   ],
+   "correctIndex": 2,
+   "explanation": "Maintaining status quo means preserving the existing position.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0016",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'De facto' means:",
+   "options": [
+    "In fact or in practice, whether or not legally recognised",
+    "By law",
+    "From the beginning",
+    "In good faith"
+   ],
+   "correctIndex": 0,
+   "explanation": "'De facto' (in fact) contrasts with 'de jure' (by law).",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "De jure = by law (jure ~ jury/justice)."
+  },
+  {
+   "id": "bank-C-IV-k0017",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A ruler who holds power legally but not in practice is called the ruler:",
+   "options": [
+    "De facto",
+    "Ad hoc",
+    "De jure",
+    "Pro rata"
+   ],
+   "correctIndex": 2,
+   "explanation": "'De jure' means by right or by law, as opposed to 'de facto' (in practice).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0018",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The appointment was declared void 'ab initio'. This means it was void:",
+   "options": [
+    "From the date of the court order only",
+    "From the very beginning",
+    "For a period of one year",
+    "Only in part"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Ab initio' means from the beginning; the appointment is treated as never valid.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0019",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The phrase 'inter alia' in an official order means:",
+   "options": [
+    "Without delay",
+    "In the same way",
+    "By the same authority",
+    "Among other things"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Inter alia' indicates that only some items are being mentioned from a larger list.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0020",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "Bonus was distributed 'pro rata' among the employees. This means it was distributed:",
+   "options": [
+    "In proportion to each employee's share (e.g., service or salary)",
+    "Equally to everyone",
+    "Only to senior officers",
+    "As a free gift to the public"
+   ],
+   "correctIndex": 0,
+   "explanation": "'Pro rata' means proportionately.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0021",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Mutatis mutandis' in a Government Order means that the rules apply:",
+   "options": [
+    "With the necessary changes having been made",
+    "Without any change whatsoever",
+    "Only to temporary staff",
+    "Only after Assembly approval"
+   ],
+   "correctIndex": 0,
+   "explanation": "Mutatis mutandis = 'the necessary changes having been made'.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0022",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Ipso facto' means:",
+   "options": [
+    "After the fact",
+    "By that very fact",
+    "Before the fact",
+    "Against the fact"
+   ],
+   "correctIndex": 1,
+   "explanation": "E.g., a person convicted of certain offences is ipso facto disqualified – automatically, by that very fact.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0023",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The proposal was rejected 'in toto'. This means it was rejected:",
+   "options": [
+    "Partly",
+    "Temporarily",
+    "Completely, as a whole",
+    "Conditionally"
+   ],
+   "correctIndex": 2,
+   "explanation": "'In toto' means entirely.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0024",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A person who has 'locus standi' in a case has:",
+   "options": [
+    "No connection with the case",
+    "Already been punished",
+    "The power to appoint judges",
+    "The right to be heard in that court or proceeding"
+   ],
+   "correctIndex": 3,
+   "explanation": "Locus standi is the legal standing to bring an action or be heard.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0025",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A matter that is 'sub judice' is one that:",
+   "options": [
+    "Has been finally decided",
+    "Can be freely debated in the Assembly",
+    "Has been withdrawn",
+    "Is under consideration by a court and not yet decided"
+   ],
+   "correctIndex": 3,
+   "explanation": "Matters pending before a court are sub judice and are generally not discussed in the legislature.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0026",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'ex gratia' payment made by the Government to the family of a victim is:",
+   "options": [
+    "Made as a gesture of goodwill, not as a legal obligation",
+    "A loan to be repaid",
+    "A fine imposed on the family",
+    "A salary arrear due by law"
+   ],
+   "correctIndex": 0,
+   "explanation": "'Ex gratia' means 'out of grace'; it is not legally owed.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0027",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'ex parte' order is passed:",
+   "options": [
+    "After hearing both parties fully",
+    "In the absence of, or without hearing, the other party",
+    "By the President",
+    "Only in criminal cases"
+   ],
+   "correctIndex": 1,
+   "explanation": "Ex parte = on behalf of one side only.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0028",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The Chief Secretary is a member of the board 'ex officio'. This means he is a member:",
+   "options": [
+    "As an elected representative",
+    "On a temporary contract",
+    "Because of the office he holds",
+    "Only for one meeting"
+   ],
+   "correctIndex": 2,
+   "explanation": "Ex officio membership comes automatically with holding a particular post.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0029",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The High Court took up the issue of potholes on city roads 'suo motu' on the basis of a newspaper report. This means the Court:",
+   "options": [
+    "Dismissed the case without hearing",
+    "Transferred the case to the Supreme Court",
+    "Waited for the Government to file a case",
+    "Took up the case on its own, without a petition being filed"
+   ],
+   "correctIndex": 3,
+   "explanation": "Suo motu = on its own motion.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0030",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "If a meeting is adjourned for 'want of quorum', it means:",
+   "options": [
+    "The minimum number of members needed to transact business were not present",
+    "The agenda was not prepared",
+    "The chairman was absent on leave",
+    "The members disagreed on every point"
+   ],
+   "correctIndex": 0,
+   "explanation": "Quorum is the minimum attendance required for valid proceedings; without it, the meeting cannot proceed.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0031",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Quid pro quo' means:",
+   "options": [
+    "Without any reason",
+    "Something given in return for something else",
+    "For the public good",
+    "A temporary arrangement"
+   ],
+   "correctIndex": 1,
+   "explanation": "It refers to an exchange of favours.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0032",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Persona non grata' refers to a person who is:",
+   "options": [
+    "A guest of honour",
+    "A government servant on leave",
+    "Not welcome or not acceptable, especially a diplomat asked to leave a country",
+    "A person who has no nationality"
+   ],
+   "correctIndex": 2,
+   "explanation": "A host country may declare a foreign diplomat persona non grata.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0033",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Vice versa' means:",
+   "options": [
+    "In addition",
+    "The other way round",
+    "In conclusion",
+    "Before the event"
+   ],
+   "correctIndex": 1,
+   "explanation": "E.g., 'Officers must inform staff of changes, and vice versa' – staff must also inform officers.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0034",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The abbreviation 'viz.' in an official letter means:",
+   "options": [
+    "For example",
+    "And so on",
+    "Note well",
+    "Namely"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Viz.' (videlicet) introduces a full list: 'three districts, viz., Salem, Erode and Namakkal'.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "viz. = namely (full list); e.g. = for example (part list)."
+  },
+  {
+   "id": "bank-C-IV-k0035",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'N.B.' written in a circular stands for 'Nota bene', which means:",
+   "options": [
+    "No balance",
+    "New business",
+    "Note well",
+    "Not binding"
+   ],
+   "correctIndex": 2,
+   "explanation": "N.B. draws the reader's attention to an important point.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0036",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Per se' means:",
+   "options": [
+    "By itself; in itself",
+    "Per person",
+    "For each year",
+    "By post"
+   ],
+   "correctIndex": 0,
+   "explanation": "E.g., 'Delay per se is not a ground for rejection' – delay by itself is not enough.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0037",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'caveat' filed in a court is:",
+   "options": [
+    "A final judgment",
+    "An application for bail",
+    "A request to transfer a judge",
+    "A notice requesting that no order be passed in a matter without first hearing the person who filed it"
+   ],
+   "correctIndex": 3,
+   "explanation": "A caveat (Latin, 'let him beware') ensures the caveator is heard before any order is passed.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0038",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The witness's statement was recorded 'verbatim'. This means it was recorded:",
+   "options": [
+    "In summary form",
+    "In translation only",
+    "Word for word, exactly as spoken",
+    "After correcting its grammar"
+   ],
+   "correctIndex": 2,
+   "explanation": "Verbatim = in exactly the same words.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0039",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'viva voce' examination is:",
+   "options": [
+    "A written examination",
+    "An oral examination",
+    "A practical examination in a laboratory",
+    "An online examination"
+   ],
+   "correctIndex": 1,
+   "explanation": "Viva voce = 'by the living voice', i.e., oral.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0040",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The writ of 'Habeas Corpus' is issued to:",
+   "options": [
+    "Produce a detained person before the court to examine whether the detention is lawful",
+    "Command a public official to perform a duty",
+    "Question a person's right to hold a public office",
+    "Transfer a case from a lower court"
+   ],
+   "correctIndex": 0,
+   "explanation": "Habeas corpus ('you may have the body') protects personal liberty against unlawful detention.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0041",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The writ of 'Mandamus' is a command issued by a court to:",
+   "options": [
+    "Release a person from illegal detention",
+    "Stop a lower court from exceeding its jurisdiction",
+    "Remove a person illegally holding a public office",
+    "A public authority to perform a public duty it has failed to perform"
+   ],
+   "correctIndex": 3,
+   "explanation": "Mandamus means 'we command'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0042",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The writ of 'Quo Warranto' asks a person:",
+   "options": [
+    "Why he is detained",
+    "By what authority he holds a public office",
+    "Why he has not paid tax",
+    "Why a lower court's record should not be quashed"
+   ],
+   "correctIndex": 1,
+   "explanation": "Quo warranto ('by what warrant') challenges the right to hold a public office.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0043",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "Which writ is issued by a higher court to quash the order of a lower court or tribunal that acted without jurisdiction?",
+   "options": [
+    "Habeas Corpus",
+    "Mandamus",
+    "Certiorari",
+    "Quo Warranto"
+   ],
+   "correctIndex": 2,
+   "explanation": "Certiorari ('to be certified') quashes orders already passed; Prohibition prevents a lower court from proceeding further.",
+   "sourceTag": "authored",
+   "difficulty": "hard",
+   "trick": "Prohibition stops a case midway; certiorari quashes an order already made."
+  },
+  {
+   "id": "bank-C-IV-k0044",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'affidavit' is:",
+   "options": [
+    "A written statement confirmed by oath or affirmation before an authorised officer",
+    "An oral complaint",
+    "A government circular",
+    "An unsigned letter"
+   ],
+   "correctIndex": 0,
+   "explanation": "Affidavits are sworn before a notary or other authorised official and can be used as evidence.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0045",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'corrigendum' issued by an office is:",
+   "options": [
+    "A new recruitment advertisement",
+    "An order of promotion",
+    "A letter of appreciation",
+    "A notice correcting an error in an earlier order or publication"
+   ],
+   "correctIndex": 3,
+   "explanation": "Corrigendum = something to be corrected.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0046",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'addendum' to a Government Order is:",
+   "options": [
+    "An order cancelling it",
+    "A summary of it",
+    "Something added to it as a supplement",
+    "A translation of it"
+   ],
+   "correctIndex": 2,
+   "explanation": "An addendum adds material to an earlier document without changing the rest.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "Addendum adds; corrigendum corrects."
+  },
+  {
+   "id": "bank-C-IV-k0047",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'moratorium' on loan repayment means:",
+   "options": [
+    "Cancellation of the loan",
+    "A temporary suspension or postponement of repayment",
+    "Doubling of interest",
+    "Immediate recovery of the loan"
+   ],
+   "correctIndex": 1,
+   "explanation": "Moratorium = authorised delay or suspension of an activity or obligation for a period.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0048",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'embargo' is:",
+   "options": [
+    "An official ban, especially on trade with a country",
+    "A government subsidy",
+    "A type of tax return",
+    "An award for exporters"
+   ],
+   "correctIndex": 0,
+   "explanation": "An embargo prohibits trade or other activity by official order.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0049",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Notification' issued by the Government is usually:",
+   "options": [
+    "A private letter to an officer",
+    "A reminder to pay fees",
+    "A note written on a file",
+    "Published in the Gazette to announce rules, appointments or orders having legal effect"
+   ],
+   "correctIndex": 3,
+   "explanation": "Statutory rules, appointments of gazetted officers, etc., are notified in the Gazette.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0050",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Circular' is a communication that is:",
+   "options": [
+    "Addressed only to the Governor",
+    "Written by a citizen to the Collector",
+    "Sent to several offices or officers at once, conveying instructions or information",
+    "A court judgment"
+   ],
+   "correctIndex": 2,
+   "explanation": "Circulars circulate the same message to many recipients.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0051",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'Ordinance' in a State is promulgated by:",
+   "options": [
+    "The Chief Justice of the High Court",
+    "The Governor, when the Legislative Assembly is not in session",
+    "The District Collector",
+    "The State Election Commission"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under Article 213, the Governor may promulgate ordinances when the Legislature is not in session; they have the force of law.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0052",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'Ordinance' issued by the Governor must be laid before the State Legislature and ceases to operate at the expiration of:",
+   "options": [
+    "Six weeks from the reassembly of the Legislature, unless approved earlier",
+    "Six months from its issue",
+    "One year from its issue",
+    "Two weeks from its issue"
+   ],
+   "correctIndex": 0,
+   "explanation": "Article 213(2): an ordinance ceases six weeks after the Legislature reassembles, unless disapproved earlier.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0053",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The term 'Minutes' of a meeting refers to:",
+   "options": [
+    "The time limit for each speaker",
+    "The list of items to be discussed",
+    "The invitation to the meeting",
+    "The official written record of the proceedings and decisions of a meeting"
+   ],
+   "correctIndex": 3,
+   "explanation": "Minutes record what was discussed and decided; the agenda lists what will be discussed.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0054",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Resolution' passed in a meeting is:",
+   "options": [
+    "A complaint against the chairman",
+    "An invitation card",
+    "A formal decision taken by the members",
+    "A note of attendance"
+   ],
+   "correctIndex": 2,
+   "explanation": "Resolutions record formal decisions adopted by a meeting.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0055",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Memorandum of Understanding (MoU)' between the Government and a company is:",
+   "options": [
+    "A written document recording the agreed intentions of the parties",
+    "A court decree",
+    "A police complaint",
+    "A tax demand notice"
+   ],
+   "correctIndex": 0,
+   "explanation": "An MoU records the broad terms on which parties agree to cooperate.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0056",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'press release' issued by a Government department is meant for:",
+   "options": [
+    "Internal circulation among clerks only",
+    "Giving official information to the media for publication",
+    "Recording a staff member's leave",
+    "Ordering stationery"
+   ],
+   "correctIndex": 1,
+   "explanation": "Press releases communicate official news to the public through the media.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0057",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Delegation of powers' in administration means:",
+   "options": [
+    "Abolishing a post",
+    "A higher authority entrusting some of its powers to a subordinate authority",
+    "Taking powers back from subordinates",
+    "Electing a new legislature"
+   ],
+   "correctIndex": 1,
+   "explanation": "Delegation helps quicker decisions at lower levels, while ultimate responsibility remains with the delegating authority.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0058",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Ex post facto' sanction for an expenditure means sanction given:",
+   "options": [
+    "After the expenditure has already been incurred",
+    "Before the expenditure is incurred",
+    "Without any expenditure",
+    "By the Auditor only"
+   ],
+   "correctIndex": 0,
+   "explanation": "Ex post facto = after the fact; it regularises action already taken.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0059",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A decision 'in principle' means:",
+   "options": [
+    "The proposal is rejected",
+    "The proposal is implemented immediately in full",
+    "The decision applies only to principals of schools",
+    "The proposal is accepted in general, with details to be worked out later"
+   ],
+   "correctIndex": 3,
+   "explanation": "Approval in principle is approval of the basic idea, subject to final details and formal sanction.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0060",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Res judicata' means that:",
+   "options": [
+    "Every case must be heard twice",
+    "A judge can reopen any case at will",
+    "A matter already finally decided by a competent court cannot be tried again between the same parties",
+    "Cases are decided by the public"
+   ],
+   "correctIndex": 2,
+   "explanation": "Res judicata ('a matter judged') bars re-litigation of the same issue.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0061",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Superannuation' of a government servant refers to:",
+   "options": [
+    "Promotion to a higher post",
+    "Transfer to another district",
+    "Retirement on attaining the age prescribed in the service rules",
+    "Suspension pending inquiry"
+   ],
+   "correctIndex": 2,
+   "explanation": "Retirement on reaching the prescribed age is retirement on superannuation.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0062",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "In service rules, 'lien' means:",
+   "options": [
+    "A penalty imposed for misconduct",
+    "The right of a government servant to hold a regular post substantively, to which he can return",
+    "An advance paid for festivals",
+    "The salary paid during suspension"
+   ],
+   "correctIndex": 1,
+   "explanation": "An employee on deputation retains a lien on his parent post and returns to it later.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0063",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Probation' in government service refers to:",
+   "options": [
+    "The period after retirement",
+    "A period of leave without pay",
+    "A punishment for misconduct",
+    "A period of trial after appointment, during which the employee's suitability is assessed"
+   ],
+   "correctIndex": 3,
+   "explanation": "On satisfactory completion of probation, the employee is declared an approved probationer.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0064",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An officer is said to be 'officiating' in a post when he:",
+   "options": [
+    "Performs the duties of a post on which another person holds a lien, or a vacant post, without holding it substantively",
+    "Has retired from that post",
+    "Has been dismissed from that post",
+    "Is on long leave from that post"
+   ],
+   "correctIndex": 0,
+   "explanation": "Officiating means discharging the duties of a post temporarily, not as its substantive holder.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0065",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Full Additional Charge' (FAC) of a post means an officer:",
+   "options": [
+    "Is relieved of all his duties",
+    "Is promoted permanently to a higher post",
+    "Gets double pay without extra work",
+    "Holds the full charge of another post in addition to his own regular post"
+   ],
+   "correctIndex": 3,
+   "explanation": "When a post is vacant, an officer may be asked to hold its full additional charge besides his own.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0066",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A government servant placed under 'suspension' is:",
+   "options": [
+    "Permanently removed from service",
+    "Temporarily kept away from duty, pending an inquiry or criminal case",
+    "Promoted on probation",
+    "Sent on foreign training"
+   ],
+   "correctIndex": 1,
+   "explanation": "Suspension is not a penalty by itself; the employee remains in service but cannot perform duties.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0067",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The allowance paid to a government servant during the period of suspension is called:",
+   "options": [
+    "Dearness allowance",
+    "Travelling allowance",
+    "Subsistence allowance",
+    "House rent allowance"
+   ],
+   "correctIndex": 2,
+   "explanation": "A suspended employee gets subsistence allowance instead of full pay.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0068",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Reversion' of a government servant means:",
+   "options": [
+    "Sending him back from a higher post to a lower post",
+    "Granting him a higher post",
+    "Accepting his resignation",
+    "Extending his probation"
+   ],
+   "correctIndex": 0,
+   "explanation": "Reversion returns an officiating or promoted employee to his lower (substantive) post.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0069",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Voluntary retirement' means:",
+   "options": [
+    "Retirement at the employee's own request before the age of superannuation, as allowed by rules",
+    "Retirement imposed as a punishment",
+    "Retirement on reaching the prescribed age",
+    "Retirement because of the post being abolished"
+   ],
+   "correctIndex": 0,
+   "explanation": "Voluntary retirement is sought by the employee; compulsory retirement is ordered by the Government.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0070",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Charge Memo' issued to a government servant:",
+   "options": [
+    "Grants him earned leave",
+    "Sanctions his annual increment",
+    "Transfers him to another office",
+    "Sets out the charges of misconduct against him and calls for his explanation"
+   ],
+   "correctIndex": 3,
+   "explanation": "Disciplinary proceedings start with a memo of charges; the employee is given an opportunity to reply.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0071",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "Under the Tamil Nadu Civil Services (Discipline and Appeal) Rules, a charge memo under Rule 17(b) relates to:",
+   "options": [
+    "Minor penalties",
+    "Major penalties",
+    "Grant of leave",
+    "Fixation of pay"
+   ],
+   "correctIndex": 1,
+   "explanation": "Rule 17(a) proceedings are for minor penalties; Rule 17(b) proceedings are for major penalties such as removal or dismissal.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0072",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Censure' in disciplinary matters is:",
+   "options": [
+    "Dismissal from service",
+    "A cash reward",
+    "A formal written reprimand recorded against an employee",
+    "A promotion order"
+   ],
+   "correctIndex": 2,
+   "explanation": "Censure is one of the lightest formal penalties.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0073",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'annual increment' is:",
+   "options": [
+    "A one-time festival advance",
+    "A fine for late attendance",
+    "The yearly rise in pay within the scale of pay of a post",
+    "The pension paid after retirement"
+   ],
+   "correctIndex": 2,
+   "explanation": "Increments move the employee to the next stage of the pay scale each year.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0074",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Stoppage of increment' as a penalty means:",
+   "options": [
+    "The employee is dismissed",
+    "The employee's pay is doubled",
+    "The employee is transferred",
+    "The employee's yearly rise in pay is withheld for a specified period"
+   ],
+   "correctIndex": 3,
+   "explanation": "Withholding of increment is a penalty that delays the employee's pay rise.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0075",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Dearness Allowance' (DA) is paid to government employees to:",
+   "options": [
+    "Compensate for the rise in the cost of living",
+    "Reward outstanding performance",
+    "Meet the cost of house rent",
+    "Meet travel costs on tour"
+   ],
+   "correctIndex": 0,
+   "explanation": "DA is revised periodically in line with price indices to neutralise inflation.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0076",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'House Rent Allowance' (HRA) is admissible to an employee who:",
+   "options": [
+    "Lives in a government quarters rent-free",
+    "Does not occupy government-provided accommodation, as per the rules",
+    "Is on leave without pay for a year",
+    "Has retired from service"
+   ],
+   "correctIndex": 1,
+   "explanation": "HRA helps employees meet rent when they do not live in government quarters.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0077",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The 'Daily Allowance' (DA) paid on tour is meant to cover:",
+   "options": [
+    "The extra expenses of an employee while camping away from headquarters on duty",
+    "The cost of living at the headquarters",
+    "Medical expenses of family members",
+    "School fees of children"
+   ],
+   "correctIndex": 0,
+   "explanation": "On tour, Daily Allowance meets boarding and incidental expenses away from headquarters (not to be confused with Dearness Allowance).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0078",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Earned Leave' is so called because:",
+   "options": [
+    "It is granted only on medical grounds",
+    "It is earned by the employee in proportion to the period spent on duty",
+    "It is a reward for promotion",
+    "It is given only to retired employees"
+   ],
+   "correctIndex": 1,
+   "explanation": "Earned leave accrues with duty and can be accumulated within limits.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0079",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Loss of Pay' (LOP) leave means:",
+   "options": [
+    "Leave on full pay",
+    "Leave on half pay",
+    "Leave for which no pay or allowances are paid",
+    "Leave given as a reward"
+   ],
+   "correctIndex": 2,
+   "explanation": "When no other leave is admissible, absence may be treated as leave on loss of pay.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0080",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Casual Leave' is meant for:",
+   "options": [
+    "Higher studies abroad for two years",
+    "Maternity",
+    "Long illness of six months",
+    "Short absences for unforeseen or personal reasons"
+   ],
+   "correctIndex": 3,
+   "explanation": "Casual leave covers brief absences; it is not regular leave earned by duty.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0081",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'No Objection Certificate' (NOC) is issued by an authority to state that:",
+   "options": [
+    "The applicant has committed an offence",
+    "The applicant must pay a fine",
+    "It has no objection to the proposed action of the applicant",
+    "The applicant has resigned"
+   ],
+   "correctIndex": 2,
+   "explanation": "E.g., a department issues an NOC before an employee applies for another job or a passport.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0082",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'relieving order' is issued when an employee:",
+   "options": [
+    "Joins service for the first time",
+    "Applies for a loan",
+    "Is selected for an award",
+    "Is released from his present post, e.g., on transfer or retirement"
+   ],
+   "correctIndex": 3,
+   "explanation": "The relieving order formally ends his duties in the old post; he then submits a joining report at the new one.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0083",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Joining time' refers to:",
+   "options": [
+    "The time of reporting to office every day",
+    "The time allowed to a transferred employee to join the new post",
+    "The probation period",
+    "The time allowed to reply to a charge memo"
+   ],
+   "correctIndex": 1,
+   "explanation": "Joining time allows for travel and settling between relief from the old post and joining the new one.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0084",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The 'Service Register' of a government employee contains:",
+   "options": [
+    "A record of the employee's entire service history, such as appointment, pay, leave and promotions",
+    "Only the employee's medical history",
+    "The daily attendance of all staff",
+    "The office's stationery stock"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Service Register (Service Book) is the authoritative record of an employee's service.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0085",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'Annual Confidential Report' (ACR) records:",
+   "options": [
+    "The employee's family income",
+    "An assessment of an employee's work and conduct during the year",
+    "Public complaints against the office",
+    "The annual budget of the department"
+   ],
+   "correctIndex": 1,
+   "explanation": "ACRs are used for assessing suitability for promotion and confirmation.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0086",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Panel' prepared for promotion is:",
+   "options": [
+    "A wooden board in the office",
+    "A list of retired employees",
+    "An approved list of eligible persons, in order, for promotion to a higher post",
+    "A committee to investigate complaints"
+   ],
+   "correctIndex": 2,
+   "explanation": "A promotion panel lists those found fit, usually in order of seniority/merit.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0087",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Regularisation' of service means:",
+   "options": [
+    "Removing an employee from service",
+    "Granting leave without pay",
+    "Reducing an employee's pay",
+    "Bringing a temporary or ad hoc appointee into regular service in accordance with rules"
+   ],
+   "correctIndex": 3,
+   "explanation": "Regularisation converts irregular or temporary service into regular service.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0088",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'compassionate appointment' is made to:",
+   "options": [
+    "A dependant of a government servant who died in harness, to relieve the family's financial distress",
+    "An employee who has been promoted twice",
+    "A retired officer for a second term",
+    "A candidate who topped the competitive examination"
+   ],
+   "correctIndex": 0,
+   "explanation": "Compassionate appointment helps the bereaved family of an employee who died while in service.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0089",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Sanctioned strength' of an office refers to:",
+   "options": [
+    "The number of employees present today",
+    "The physical fitness of the staff",
+    "The number of files pending",
+    "The number of posts approved by the Government for that office"
+   ],
+   "correctIndex": 3,
+   "explanation": "Sanctioned strength is the total of posts sanctioned, whether filled or vacant.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0090",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The 'Cadre strength' minus the 'number of persons in position' gives the number of:",
+   "options": [
+    "Vacancies",
+    "Promotions",
+    "Transfers",
+    "Increments"
+   ],
+   "correctIndex": 0,
+   "explanation": "Vacant posts = sanctioned posts not presently filled.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0091",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Gazetted Officer' is so called because:",
+   "options": [
+    "He reads the Gazette every day",
+    "His appointment is notified in the Government Gazette",
+    "He prints the Gazette",
+    "He is appointed by a private company"
+   ],
+   "correctIndex": 1,
+   "explanation": "Appointments of gazetted officers are published in the official Gazette; they are authorised to attest documents.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0092",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Attestation' of a copy of a certificate by a gazetted officer means:",
+   "options": [
+    "Cancelling the original certificate",
+    "Translating the certificate",
+    "Certifying that the copy is a true copy of the original",
+    "Issuing a new certificate"
+   ],
+   "correctIndex": 2,
+   "explanation": "The officer compares the copy with the original and certifies it as a true copy.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0093",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Commutation of pension' means:",
+   "options": [
+    "Stopping the pension permanently",
+    "Doubling the pension",
+    "Receiving a lump sum in exchange for giving up a portion of the monthly pension",
+    "Transferring the pension to another person"
+   ],
+   "correctIndex": 2,
+   "explanation": "A pensioner may commute (convert) part of the pension into an immediate lump-sum payment.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0094",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Gratuity' paid to a retiring government servant is:",
+   "options": [
+    "A monthly salary",
+    "A lump-sum payment in recognition of long service",
+    "A fine",
+    "A loan to be repaid"
+   ],
+   "correctIndex": 1,
+   "explanation": "Gratuity is a one-time retirement benefit related to length of service.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0095",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Family pension' is paid to:",
+   "options": [
+    "The eligible family members of a deceased government servant or pensioner",
+    "Every member of the public",
+    "Only serving officers",
+    "The government servant's colleagues"
+   ],
+   "correctIndex": 0,
+   "explanation": "Family pension supports the family after the employee's or pensioner's death.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0096",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Re-appropriation' in government finance means:",
+   "options": [
+    "Approving a new tax",
+    "Cancelling the entire budget",
+    "Collecting arrears of revenue",
+    "Transfer of savings from one unit of appropriation to meet excess expenditure under another, within the same grant"
+   ],
+   "correctIndex": 3,
+   "explanation": "Re-appropriation shifts funds between heads within the same grant, with sanction of the competent authority.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0097",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Supplementary Grant' is sought from the Legislature when:",
+   "options": [
+    "The budget has a surplus",
+    "The amount authorised for a service in the current year is found insufficient",
+    "A minister resigns",
+    "The financial year ends"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under Article 205, supplementary grants are presented when sanctioned funds are insufficient.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0098",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Vote on Account' allows the Government to:",
+   "options": [
+    "Spend money without any approval",
+    "Borrow from foreign countries",
+    "Collect new taxes without a law",
+    "Withdraw money for expenditure for part of the year pending the passing of the full budget"
+   ],
+   "correctIndex": 3,
+   "explanation": "Vote on account grants advance approval for expenditure for a part of the financial year.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0099",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The financial year of the Government of Tamil Nadu runs from:",
+   "options": [
+    "1st April to 31st March",
+    "1st January to 31st December",
+    "1st July to 30th June",
+    "14th April to 13th April"
+   ],
+   "correctIndex": 0,
+   "explanation": "Government accounts in India follow the April–March financial year.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0100",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'Imprest' (permanent advance) is:",
+   "options": [
+    "The annual salary of an officer",
+    "A penalty on late payment",
+    "A fixed sum kept with an officer to meet petty and urgent expenses, recouped periodically",
+    "A tax on imports"
+   ],
+   "correctIndex": 2,
+   "explanation": "Imprest money is replenished on presentation of accounts for the amount spent.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0101",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Contingent expenditure' in an office refers to:",
+   "options": [
+    "Salaries of officers",
+    "Construction of new buildings",
+    "Expenditure on incidental items such as stationery, postage and minor repairs",
+    "Pension payments"
+   ],
+   "correctIndex": 2,
+   "explanation": "Contingencies are the incidental charges of running an office.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0102",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'honorarium' is:",
+   "options": [
+    "A monthly salary for regular work",
+    "A fine imposed for absence",
+    "An interest-free loan",
+    "A payment made for occasional or special work that is not part of one's regular duties"
+   ],
+   "correctIndex": 3,
+   "explanation": "E.g., an honorarium may be paid to an employee for setting question papers.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0103",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Arrears' of pay means:",
+   "options": [
+    "Advance pay for the next month",
+    "Amounts that were due earlier but have not yet been paid",
+    "Deductions made for tax",
+    "Pay of a retired officer"
+   ],
+   "correctIndex": 1,
+   "explanation": "Pay revisions with retrospective effect often result in arrears.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0104",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Tender' in government purchase is:",
+   "options": [
+    "A formal offer by a supplier or contractor to supply goods or do work at a stated price",
+    "A receipt for payment",
+    "A complaint by a supplier",
+    "A transfer order"
+   ],
+   "correctIndex": 0,
+   "explanation": "Government invites tenders to obtain competitive prices.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0105",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Earnest Money Deposit' (EMD) is collected from tenderers to:",
+   "options": [
+    "Pay the salaries of the tender committee",
+    "Ensure that bidders are serious and do not withdraw their offers",
+    "Refund the cost of the tender form",
+    "Penalise the lowest bidder"
+   ],
+   "correctIndex": 1,
+   "explanation": "EMD is a security deposit forfeited if a bidder backs out; it is refunded to unsuccessful bidders.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0106",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'Indent' in an office is:",
+   "options": [
+    "A leave application",
+    "A disciplinary order",
+    "A formal requisition or order for supplies",
+    "A newspaper advertisement"
+   ],
+   "correctIndex": 2,
+   "explanation": "Offices place indents for stationery, forms or stores.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0107",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "A 'Challan' is used to:",
+   "options": [
+    "Remit money into the Government account at the treasury or bank",
+    "Apply for a passport",
+    "Record attendance",
+    "Register a birth"
+   ],
+   "correctIndex": 0,
+   "explanation": "Challans accompany payments of fees, taxes and dues into the Government account.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0108",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'audit objection' (audit para) is raised when:",
+   "options": [
+    "An officer is promoted",
+    "A meeting lacks quorum",
+    "A new scheme is launched",
+    "Auditors find an irregularity or lack of proper sanction in accounts"
+   ],
+   "correctIndex": 3,
+   "explanation": "Audit objections must be answered and settled by the department concerned.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0109",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "In Tamil Nadu's revenue administration, a 'Patta' is:",
+   "options": [
+    "A ration card",
+    "A birth certificate",
+    "A trade licence",
+    "A revenue record establishing the ownership and right over a piece of land"
+   ],
+   "correctIndex": 3,
+   "explanation": "Patta is issued by the Revenue Department in the name of the landholder, showing survey number and extent.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0110",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Adangal' in Tamil Nadu village accounts is:",
+   "options": [
+    "The register maintained by the Village Administrative Officer showing details of land and the crops cultivated",
+    "A court summons",
+    "A register of births and deaths only",
+    "A bank pass book"
+   ],
+   "correctIndex": 0,
+   "explanation": "Adangal records cultivation details for each survey number in the village.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0111",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "An 'Encumbrance Certificate' (EC) shows:",
+   "options": [
+    "The income of the property owner",
+    "The caste of the property owner",
+    "The registered transactions and liabilities relating to a property over a period",
+    "The electricity consumption of the property"
+   ],
+   "correctIndex": 2,
+   "explanation": "ECs are issued by the Registration Department and are used to check if a property is free of encumbrances.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0112",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "In Tamil Nadu, a 'Firka' is:",
+   "options": [
+    "A district headquarters",
+    "A revenue unit consisting of a group of villages within a taluk, under a Revenue Inspector",
+    "A municipal ward",
+    "A type of land tax"
+   ],
+   "correctIndex": 1,
+   "explanation": "Revenue hierarchy: district – division – taluk – firka – village.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0113",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "'Jamabandi' in Tamil Nadu revenue administration refers to:",
+   "options": [
+    "The election of village presidents",
+    "The annual inspection and settlement of village revenue accounts",
+    "A festival of farmers",
+    "A water-sharing agreement"
+   ],
+   "correctIndex": 1,
+   "explanation": "Jamabandi is the annual audit of village accounts conducted by revenue officers.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0114",
+   "topicId": "c4-administrative-departmental-terms",
+   "prompt": "The officer in charge of a Taluk in Tamil Nadu is the:",
+   "options": [
+    "Tahsildar",
+    "Revenue Divisional Officer",
+    "Village Administrative Officer",
+    "District Collector"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Tahsildar heads the taluk; the RDO heads a revenue division; the Collector heads the district.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0115",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "In Tamil Nadu Government usage, 'G.O.' stands for:",
+   "options": [
+    "General Office",
+    "Gazetted Officer",
+    "Government Office",
+    "Government Order"
+   ],
+   "correctIndex": 3,
+   "explanation": "A G.O. is the formal order by which the State Government conveys its decisions.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0116",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A Tamil Nadu Government Order is numbered 'G.O.(Ms) No. 45'. In this series name, 'Ms' denotes:",
+   "options": [
+    "Ministerial Section",
+    "Miscellaneous",
+    "Manuscript",
+    "Main Secretariat"
+   ],
+   "correctIndex": 2,
+   "explanation": "G.O.(Ms) – Manuscript series – is used for orders of general importance, such as policy decisions and rules.",
+   "sourceTag": "authored",
+   "difficulty": "medium",
+   "trick": "Ms = Manuscript (important/general); Rt = Routine (individual, day-to-day)."
+  },
+  {
+   "id": "bank-C-IV-k0117",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Leave sanctioned to a single Secretariat assistant was issued as 'G.O.(Rt) No. 210'. What does 'Rt' mean?",
+   "options": [
+    "Rate",
+    "Routine",
+    "Retired",
+    "Revenue Tax"
+   ],
+   "correctIndex": 1,
+   "explanation": "G.O.(Rt) – Routine series – covers routine matters such as individual leave, transfers or minor sanctions.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0118",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Which type of Government Order would normally be used to issue a new State policy affecting the public at large?",
+   "options": [
+    "G.O.(Rt)",
+    "U.O. note",
+    "Endorsement",
+    "G.O.(Ms)"
+   ],
+   "correctIndex": 3,
+   "explanation": "Policy decisions and orders of general importance are issued as G.O.(Ms); routine individual matters as G.O.(Rt).",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0119",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'D.O. letter' is a:",
+   "options": [
+    "Demi-Official letter",
+    "Departmental Order letter",
+    "District Office letter",
+    "Direct Order letter"
+   ],
+   "correctIndex": 0,
+   "explanation": "D.O. = Demi-Official; it is written in a personal form from one officer to another.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0120",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A Demi-Official (D.O.) letter is used when an officer wishes to:",
+   "options": [
+    "Issue a statutory notification",
+    "Publish a tender",
+    "Draw the personal attention of another officer to a matter, in a personal and friendly tone",
+    "Order the arrest of a person"
+   ],
+   "correctIndex": 2,
+   "explanation": "D.O. letters are written in the first person to secure personal attention or exchange views informally.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0121",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A Demi-Official letter usually ends with the complimentary close:",
+   "options": [
+    "Yours faithfully",
+    "Yours obediently",
+    "Yours sincerely",
+    "No complimentary close at all"
+   ],
+   "correctIndex": 2,
+   "explanation": "As a personal form of official correspondence, a D.O. letter begins 'Dear Thiru/Tmt. ...' and ends 'Yours sincerely'.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0122",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'U.O. note' stands for:",
+   "options": [
+    "Unofficial note",
+    "Urgent Order note",
+    "Under Officer note",
+    "Union Office note"
+   ],
+   "correctIndex": 0,
+   "explanation": "U.O. = Unofficial.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0123",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "An 'Unofficial (U.O.) note' is mainly used for:",
+   "options": [
+    "Correspondence with the general public",
+    "Consultation or exchange of views between departments or offices of the same Government",
+    "Communication with foreign governments",
+    "Announcing results of examinations"
+   ],
+   "correctIndex": 1,
+   "explanation": "U.O. notes are used for inter-departmental consultation and do not carry a salutation or complimentary close.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0124",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'Memorandum' as a form of official communication is written:",
+   "options": [
+    "In the first person with 'Dear Sir'",
+    "Only in Tamil verse",
+    "With 'Yours lovingly' at the end",
+    "In the third person, without a salutation or complimentary close"
+   ],
+   "correctIndex": 3,
+   "explanation": "A memorandum (memo) is signed with the officer's designation and has no salutation or closing.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0125",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "An 'Endorsement' in official correspondence is used to:",
+   "options": [
+    "Start a court case",
+    "Fix the salary of an employee",
+    "Forward a copy of a communication to another office for information or action",
+    "Print the Government Gazette"
+   ],
+   "correctIndex": 2,
+   "explanation": "An endorsement (e.g., 'Copy forwarded to ...') sends copies or returns papers without a separate covering letter.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0126",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "In Tamil Nadu, orders issued by Heads of Departments and District Collectors are commonly issued in the form of:",
+   "options": [
+    "Ordinances",
+    "Bills",
+    "Writs",
+    "Proceedings"
+   ],
+   "correctIndex": 3,
+   "explanation": "E.g., 'Proceedings of the District Collector, Madurai' or 'Proceedings of the Director of School Education'.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0127",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "An 'Office Order' is generally used for:",
+   "options": [
+    "Internal administrative matters of an office, such as distribution of work or sanction of leave",
+    "Laws passed by the Legislature",
+    "Judgments of the High Court",
+    "Advertisements for public auctions"
+   ],
+   "correctIndex": 0,
+   "explanation": "Office orders deal with the internal working of an office.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0128",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "In Tamil Nadu offices, the word 'Tappal' refers to:",
+   "options": [
+    "The office canteen",
+    "The incoming and outgoing mail or correspondence of an office",
+    "The office's vehicle",
+    "The record room key"
+   ],
+   "correctIndex": 1,
+   "explanation": "Tappal (dak) – letters received and despatched – is registered and distributed daily.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0129",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "The 'Personal Register' maintained by an assistant (clerk) in an office records:",
+   "options": [
+    "His personal family details",
+    "His salary and leave only",
+    "The papers received by that assistant and their disposal",
+    "Visitors to the office canteen"
+   ],
+   "correctIndex": 2,
+   "explanation": "Each assistant notes in the Personal Register the papers allotted to him and the action taken, so pendency can be monitored.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0130",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "'Despatch' in office procedure refers to:",
+   "options": [
+    "The process of sending out communications from the office",
+    "Receiving visitors",
+    "Destroying old records",
+    "Recording minutes of a meeting"
+   ],
+   "correctIndex": 0,
+   "explanation": "The despatch section sends out letters and records them in the despatch register.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0131",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'Docket' is best described as:",
+   "options": [
+    "A long report of a committee",
+    "A brief summary or entry noting the particulars of a paper, written for easy reference",
+    "A legal punishment",
+    "A bank cheque"
+   ],
+   "correctIndex": 1,
+   "explanation": "Docketing records the essential particulars of a document so that it can be traced and referred to quickly.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0132",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "'File noting' (a note in the file) is:",
+   "options": [
+    "A letter sent to the public",
+    "A newspaper advertisement",
+    "A stamp on an envelope",
+    "Remarks recorded on a file by officials to help in the disposal of the case"
+   ],
+   "correctIndex": 3,
+   "explanation": "Notes summarise the issue, cite rules and precedents, and suggest a course of action.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0133",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'Draft for Approval' (DFA) is:",
+   "options": [
+    "A draft of a proposed communication put up to the competent officer for approval before issue",
+    "The final signed letter",
+    "A bank draft for payment",
+    "The minutes of a meeting"
+   ],
+   "correctIndex": 0,
+   "explanation": "Once the DFA is approved, a fair copy is prepared for signature.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0134",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'Fair copy' in office procedure means:",
+   "options": [
+    "A rough draft with corrections",
+    "The clean final copy of an approved draft, prepared for signature and issue",
+    "A photocopy for the file",
+    "A copy given to the press"
+   ],
+   "correctIndex": 1,
+   "explanation": "After the draft is approved, the fair copy is typed and signed.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0135",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'Reminder' is sent when:",
+   "options": [
+    "A reply has already been received",
+    "An employee retires",
+    "The financial year begins",
+    "No reply has been received to an earlier communication within a reasonable time"
+   ],
+   "correctIndex": 3,
+   "explanation": "Reminders refer to the earlier letter and request an early reply.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0136",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "An application sent 'through proper channel' is one that is:",
+   "options": [
+    "Sent directly to the Minister",
+    "Sent by email to all offices",
+    "Routed through the applicant's immediate superior officers to the final authority",
+    "Delivered by hand to a newspaper"
+   ],
+   "correctIndex": 2,
+   "explanation": "Employees forward applications through their controlling officers so that remarks can be added.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0137",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "In a Tamil Nadu G.O., the 'ABSTRACT' at the top gives:",
+   "options": [
+    "The full list of officers to whom copies are sent",
+    "The signature of the Secretary",
+    "The budget of the department for the year",
+    "A brief summary of the subject of the order"
+   ],
+   "correctIndex": 3,
+   "explanation": "The abstract states the subject in brief, ending with words like 'Orders – Issued'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0138",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "In a G.O., the entries listed under 'Read:' are:",
+   "options": [
+    "The names of persons who must read the order",
+    "Books recommended by the department",
+    "The earlier references (letters, G.O.s, reports) on which the order is based",
+    "The newspapers that published the order"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Read' lists the references considered before passing the order.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0139",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Tamil Nadu G.O.s carry the words '(BY ORDER OF THE GOVERNOR)' because:",
+   "options": [
+    "The Governor personally writes every G.O.",
+    "The executive action of the State Government is expressed to be taken in the name of the Governor",
+    "The Governor is the head of each department's office",
+    "Only the Governor can sign G.O.s"
+   ],
+   "correctIndex": 1,
+   "explanation": "Article 166 of the Constitution requires all executive action of the State to be expressed as taken in the name of the Governor.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0140",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "At the end of a Tamil Nadu G.O., the endorsement '//Forwarded by Order//' is signed by the:",
+   "options": [
+    "Section Officer",
+    "Governor",
+    "Chief Minister",
+    "District Collector"
+   ],
+   "correctIndex": 0,
+   "explanation": "The Secretary signs the order; a Section Officer authenticates the copies with '//Forwarded by Order//'.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0141",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "A 'Gazette Extraordinary' is published:",
+   "options": [
+    "Whenever an urgent notification has to be issued outside the regular weekly issue",
+    "Only once in five years",
+    "Only by private publishers",
+    "Only for sports news"
+   ],
+   "correctIndex": 0,
+   "explanation": "Extraordinary issues are brought out for urgent notifications such as ordinances or election notices.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0142",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ABSTRACT: School Education – Supply of free bicycles to Class XI students of Government schools – Sanction accorded – Orders – Issued.\nSchool Education (C2) Department, G.O.(Ms) No. 112, Dated: 14.06.2023.\"\nQuestion: Which department issued this G.O.?",
+   "options": [
+    "Finance Department",
+    "Transport Department",
+    "Revenue Department",
+    "School Education Department"
+   ],
+   "correctIndex": 3,
+   "explanation": "The department is named just below the abstract: 'School Education (C2) Department'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0143",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ABSTRACT: Public Health – Mobile medical units for hilly areas – Sanction of Rs. 4.20 crore – Orders – Issued.\nHealth and Family Welfare Department, G.O.(Ms) No. 76, Dated: 03.02.2024.\"\nQuestion: What does the abbreviation 'Rs. 4.20 crore' in the abstract indicate?",
+   "options": [
+    "The salary of the Health Secretary",
+    "The amount sanctioned for the mobile medical units",
+    "The cost of one ambulance",
+    "The fine on private hospitals"
+   ],
+   "correctIndex": 1,
+   "explanation": "The abstract states 'Sanction of Rs. 4.20 crore' for the mobile medical units.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0144",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government have examined the proposal of the Director of Agriculture carefully and direct that 500 farm ponds be dug in the drought-prone blocks of Ramanathapuram and Sivaganga districts during 2024-25. The expenditure shall be met from the State Drought Mitigation Fund.\"\nQuestion: Who sent the proposal to the Government?",
+   "options": [
+    "The Collector of Ramanathapuram",
+    "The Finance Secretary",
+    "The Director of Agriculture",
+    "The farmers' association"
+   ],
+   "correctIndex": 2,
+   "explanation": "The order says the Government examined 'the proposal of the Director of Agriculture'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0145",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government direct that 500 farm ponds be dug in the drought-prone blocks of Ramanathapuram and Sivaganga districts during 2024-25. The expenditure shall be met from the State Drought Mitigation Fund.\"\nQuestion: From which source will the expenditure be met?",
+   "options": [
+    "The State Drought Mitigation Fund",
+    "Contributions from farmers",
+    "The Central Road Fund",
+    "Loans from private banks"
+   ],
+   "correctIndex": 0,
+   "explanation": "The extract states that expenditure 'shall be met from the State Drought Mitigation Fund'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0146",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: Sanction is accorded for the appointment of 120 temporary guest lecturers in Government Arts Colleges for the academic year 2023-24 on a consolidated pay of Rs. 25,000 per month. The appointments shall terminate automatically at the end of the academic year.\"\nQuestion: When will the appointments end?",
+   "options": [
+    "After five years of service",
+    "Automatically at the end of the academic year",
+    "When the lecturers turn sixty",
+    "Only on receipt of a termination order"
+   ],
+   "correctIndex": 1,
+   "explanation": "The order states that the appointments 'shall terminate automatically at the end of the academic year'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0147",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: Sanction is accorded for the appointment of 120 temporary guest lecturers in Government Arts Colleges for 2023-24 on a consolidated pay of Rs. 25,000 per month.\"\nQuestion: The phrase 'consolidated pay' means:",
+   "options": [
+    "Pay that increases every month",
+    "Pay paid only at the end of the year",
+    "Pay shared among all lecturers",
+    "A fixed lump-sum monthly payment without separate allowances"
+   ],
+   "correctIndex": 3,
+   "explanation": "Consolidated pay is a single fixed amount, without scale, increments or separate DA/HRA.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0148",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ABSTRACT: Establishment – Thiru R. Selvam, Assistant Section Officer, Revenue Department – Earned leave for 30 days from 01.07.2024 to 30.07.2024 – Sanctioned – Orders – Issued.\nRevenue (Estt.) Department, G.O.(Rt) No. 845.\"\nQuestion: Why has this order been issued in the 'Rt' series?",
+   "options": [
+    "It lays down a new State policy",
+    "It amends the Constitution",
+    "It concerns a routine matter relating to an individual employee",
+    "It is an ordinance"
+   ],
+   "correctIndex": 2,
+   "explanation": "Leave of an individual is a routine matter, so it is issued as G.O.(Rt).",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0149",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ABSTRACT: Establishment – Thiru R. Selvam, Assistant Section Officer – Earned leave for 30 days from 01.07.2024 to 30.07.2024 – Sanctioned – Orders – Issued.\"\nQuestion: What kind of leave has been sanctioned?",
+   "options": [
+    "Casual leave",
+    "Maternity leave",
+    "Leave on loss of pay",
+    "Earned leave"
+   ],
+   "correctIndex": 3,
+   "explanation": "The abstract states 'Earned leave for 30 days'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0150",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"OFFICE ORDER: Tmt. K. Lalitha, Junior Assistant, is hereby transferred from Section B3 to Section C1 with immediate effect. She shall hand over the charge of her files to Thiru M. Babu, Junior Assistant, before joining Section C1.\"\nQuestion: To whom must Tmt. Lalitha hand over her files?",
+   "options": [
+    "The Head of Section C1",
+    "The District Collector",
+    "Thiru M. Babu, Junior Assistant",
+    "The record clerk"
+   ],
+   "correctIndex": 2,
+   "explanation": "The order directs her to hand over charge to Thiru M. Babu.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0151",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"OFFICE ORDER: Tmt. K. Lalitha, Junior Assistant, is hereby transferred from Section B3 to Section C1 with immediate effect.\"\nQuestion: 'With immediate effect' means the transfer:",
+   "options": [
+    "Takes effect next year",
+    "Takes effect at once",
+    "Is only a proposal",
+    "Is cancelled"
+   ],
+   "correctIndex": 1,
+   "explanation": "'With immediate effect' means from the date of the order, without delay.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0152",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"CIRCULAR: All Heads of Offices are requested to ensure that the biometric attendance system is used by every employee from 1st January. Monthly attendance reports shall be sent to this office before the 5th of the following month. Any lapse will be viewed seriously.\"\nQuestion: By when must the monthly attendance reports be sent?",
+   "options": [
+    "Before the 5th of the following month",
+    "On the last day of the same month",
+    "Once a year",
+    "Before the 15th of every month"
+   ],
+   "correctIndex": 0,
+   "explanation": "The circular says reports must reach 'before the 5th of the following month'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0153",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"CIRCULAR: All Heads of Offices are requested to ensure that the biometric attendance system is used by every employee from 1st January. Any lapse will be viewed seriously.\"\nQuestion: The expression 'Any lapse will be viewed seriously' implies that:",
+   "options": [
+    "The instruction is optional",
+    "Employees will be rewarded for lapses",
+    "The system will be withdrawn",
+    "Failure to follow the instruction may lead to action against those responsible"
+   ],
+   "correctIndex": 3,
+   "explanation": "The phrase warns of consequences for non-compliance.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0154",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"MEMORANDUM: Thiru S. Arul, Record Clerk, is informed that his request for transfer to Coimbatore has been examined and cannot be complied with at present owing to administrative reasons. – Sd/- District Revenue Officer.\"\nQuestion: What is the decision on Thiru Arul's request?",
+   "options": [
+    "It has been granted immediately",
+    "It has been forwarded to the Governor",
+    "It cannot be granted at present for administrative reasons",
+    "He has been suspended"
+   ],
+   "correctIndex": 2,
+   "explanation": "The memo says the request 'cannot be complied with at present owing to administrative reasons'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0155",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"MEMORANDUM: Thiru S. Arul, Record Clerk, is informed that his request for transfer to Coimbatore cannot be complied with at present. – Sd/- District Revenue Officer.\"\nQuestion: 'Sd/-' before the officer's designation means:",
+   "options": [
+    "Signed (the original bears the officer's signature)",
+    "Special duty",
+    "Section director",
+    "Sent by despatch"
+   ],
+   "correctIndex": 0,
+   "explanation": "'Sd/-' on a copy indicates that the original was signed by the officer.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0156",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government have decided to rename the 'Village Library Scheme' as the 'Namma Ooru Reading Centres Scheme'. All other conditions of the scheme shall remain unchanged.\"\nQuestion: What changes under this order?",
+   "options": [
+    "The conditions of the scheme",
+    "Only the name of the scheme",
+    "The funding of the scheme",
+    "The districts covered by the scheme"
+   ],
+   "correctIndex": 1,
+   "explanation": "The order renames the scheme and says all other conditions remain unchanged.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0157",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: In partial modification of the orders issued in G.O.(Ms) No. 58, dated 12.03.2024, the Government direct that the monthly review meetings shall henceforth be held once in two months.\"\nQuestion: What does 'in partial modification' indicate?",
+   "options": [
+    "The earlier G.O. is cancelled completely",
+    "The earlier G.O. is being reissued without change",
+    "The earlier G.O. was never valid",
+    "Only a part of the earlier G.O. is being changed"
+   ],
+   "correctIndex": 3,
+   "explanation": "Partial modification changes part of an earlier order while the rest continues.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0158",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: In partial modification of the orders issued in G.O.(Ms) No. 58, dated 12.03.2024, the Government direct that the monthly review meetings shall henceforth be held once in two months.\"\nQuestion: How often will review meetings be held from now on?",
+   "options": [
+    "Every month",
+    "Once a year",
+    "Once in two months",
+    "Twice a month"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Henceforth be held once in two months' replaces the earlier monthly meetings.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0159",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government hereby cancel the orders issued in G.O.(Rt) No. 412, dated 05.09.2023, sanctioning the construction of a shopping complex on the temple tank bund, as the land is classified as a water body.\"\nQuestion: Why has the earlier order been cancelled?",
+   "options": [
+    "The contractor demanded more money",
+    "The land is classified as a water body",
+    "The temple did not want a tank",
+    "The shops were already built"
+   ],
+   "correctIndex": 1,
+   "explanation": "The order states the reason: the land is classified as a water body.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0160",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government hereby cancel the orders issued in G.O.(Rt) No. 412, dated 05.09.2023.\"\nQuestion: An order that withdraws or cancels an earlier order is said to:",
+   "options": [
+    "Rescind it",
+    "Ratify it",
+    "Endorse it",
+    "Gazette it"
+   ],
+   "correctIndex": 0,
+   "explanation": "To rescind is to revoke or cancel an order.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0161",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government accord administrative sanction for the construction of a new Taluk Office building at Usilampatti at an estimated cost of Rs. 3.50 crore. The work shall be executed by the Public Works Department and completed within eighteen months.\"\nQuestion: Within what period must the work be completed?",
+   "options": [
+    "Eight months",
+    "Three years",
+    "Twelve months",
+    "Eighteen months"
+   ],
+   "correctIndex": 3,
+   "explanation": "The order says the work shall be 'completed within eighteen months'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0162",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government accord administrative sanction for the construction of a new Taluk Office building at Usilampatti at an estimated cost of Rs. 3.50 crore. The work shall be executed by the Public Works Department.\"\nQuestion: Which agency will execute the work?",
+   "options": [
+    "The Public Works Department",
+    "The Revenue Department",
+    "A panchayat union",
+    "The Highways Department"
+   ],
+   "correctIndex": 0,
+   "explanation": "The extract names the Public Works Department as the executing agency.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0163",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government accord administrative sanction for the construction of a new Taluk Office building at an estimated cost of Rs. 3.50 crore.\"\nQuestion: 'Administrative sanction' here means:",
+   "options": [
+    "A penalty imposed on officers",
+    "Formal acceptance of the proposal by the competent authority",
+    "Permission to collect a new tax",
+    "Transfer of officers to a new taluk"
+   ],
+   "correctIndex": 1,
+   "explanation": "Administrative sanction is approval of the work in principle by the Government, after which funds are allotted and technical sanction obtained.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0164",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"PROCEEDINGS OF THE DISTRICT COLLECTOR, VILLUPURAM. Sub: Elections – Local Body by-elections – Deployment of staff – Orders issued. The following officials are posted as Presiding Officers for the polling stations noted against their names. They shall report at the Taluk Office at 2 p.m. on the day before the poll.\"\nQuestion: When should the officials report at the Taluk Office?",
+   "options": [
+    "At 7 a.m. on the polling day",
+    "One week before the poll",
+    "At 2 p.m. on the day before the poll",
+    "After the counting of votes"
+   ],
+   "correctIndex": 2,
+   "explanation": "The proceedings direct them to report 'at 2 p.m. on the day before the poll'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0165",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"PROCEEDINGS OF THE DISTRICT COLLECTOR, VILLUPURAM. Sub: Elections – Local Body by-elections – Deployment of staff – Orders issued.\"\nQuestion: Who has issued these proceedings?",
+   "options": [
+    "The State Election Commissioner",
+    "The District Collector, Villupuram",
+    "The Tahsildar of Villupuram",
+    "The Chief Secretary"
+   ],
+   "correctIndex": 1,
+   "explanation": "The heading reads 'Proceedings of the District Collector, Villupuram'.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0166",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government direct that all Government offices shall use Tamil as the language of administration. However, correspondence with the Government of India and with other States may continue in English.\"\nQuestion: In which case may English continue to be used?",
+   "options": [
+    "Correspondence with the Government of India and other States",
+    "All internal file notings",
+    "Letters to Tamil Nadu citizens",
+    "Office orders of district offices"
+   ],
+   "correctIndex": 0,
+   "explanation": "The 'However' clause permits English for correspondence with the Union Government and other States.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0167",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: Each beneficiary under the scheme shall be paid a one-time assistance of Rs. 10,000, subject to the condition that the annual family income does not exceed Rs. 72,000.\"\nQuestion: Which family is NOT eligible under this order?",
+   "options": [
+    "A family with an annual income of Rs. 72,000",
+    "A family with an annual income of Rs. 60,000",
+    "A family with an annual income of Rs. 45,000",
+    "A family with an annual income of Rs. 80,000"
+   ],
+   "correctIndex": 3,
+   "explanation": "'Does not exceed Rs. 72,000' allows incomes up to and including Rs. 72,000; Rs. 80,000 exceeds the limit.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0168",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: Each beneficiary under the scheme shall be paid a one-time assistance of Rs. 10,000.\"\nQuestion: 'One-time assistance' means the amount will be paid:",
+   "options": [
+    "Every month",
+    "Every year",
+    "Only once",
+    "Twice a year"
+   ],
+   "correctIndex": 2,
+   "explanation": "One-time means a single payment, not recurring.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0169",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Collectors are requested to send their compliance report to the Government within fifteen days from the date of receipt of this order.\"\nQuestion: A 'compliance report' is a report that:",
+   "options": [
+    "States the action taken to carry out the order",
+    "Complains about the order",
+    "Requests cancellation of the order",
+    "Lists the Collectors' personal expenses"
+   ],
+   "correctIndex": 0,
+   "explanation": "A compliance report informs the issuing authority that its instructions have been complied with.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0170",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: This order issues with the concurrence of the Finance Department vide its U.O. No. 2345/Fin(Edn)/2024, dated 10.04.2024.\"\nQuestion: What does this sentence tell us?",
+   "options": [
+    "The Finance Department has opposed the order",
+    "The Finance Department has agreed to the order, as conveyed in its unofficial note",
+    "The order was issued by the Finance Minister personally",
+    "The order has been sent to the Finance Department for printing"
+   ],
+   "correctIndex": 1,
+   "explanation": "'Concurrence' means agreement; the Finance Department's agreement was conveyed through a U.O. note.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0171",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"To: The District Collectors (All). Copy to: The Commissioner of Revenue Administration, Chennai. Copy to: Stock File / Spare Copy.\"\nQuestion: The 'Stock File' copy is meant for:",
+   "options": [
+    "The Governor's personal use",
+    "Sale to the public",
+    "Publication in newspapers",
+    "Retention in the issuing section's own records"
+   ],
+   "correctIndex": 3,
+   "explanation": "A copy of every communication issued is kept in the stock file of the issuing section for reference.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0172",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"Ref: Your letter No. Rc. 1203/2024/B2, dated 05.08.2024.\nSub: Repair of school buildings – Funds – Reg.\nI am directed to state that the proposal sent in the reference cited is under examination.\"\nQuestion: 'Reg.' in the subject line is short for:",
+   "options": [
+    "Registered",
+    "Regional",
+    "Regarding",
+    "Regular"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Reg.' (regarding) is commonly used at the end of subject lines in official letters.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0173",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"Sub: Repair of school buildings – Funds – Reg.\nI am directed to state that the proposal sent in the reference cited is under examination.\"\nQuestion: 'I am directed to state' indicates that the writer is:",
+   "options": [
+    "Expressing his personal opinion",
+    "Giving directions to the Government",
+    "Refusing to reply",
+    "Conveying the views of the Government or a higher authority, not his own personal view"
+   ],
+   "correctIndex": 3,
+   "explanation": "Officials writing on behalf of the Government use 'I am directed to...' to show they convey the authority's decision.",
+   "sourceTag": "authored",
+   "difficulty": "hard"
+  },
+  {
+   "id": "bank-C-IV-k0174",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"Sub: Repair of school buildings – Funds – Reg.\nRef: Your letter No. Rc. 1203/2024/B2, dated 05.08.2024.\nThe proposal sent in the reference cited is under examination.\"\nQuestion: 'The reference cited' refers to:",
+   "options": [
+    "The subject line",
+    "A court judgment",
+    "The letter mentioned in the 'Ref' line",
+    "The signature at the bottom"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Reference cited' points to the communication listed under 'Ref'.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0175",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"Dear Thiru Ganesan,\nI would like to draw your personal attention to the large number of pending pension cases in your district. I shall be grateful if you could review them personally and clear them by the end of this month.\nWith regards,\nYours sincerely,\n(Secretary to Government)\"\nQuestion: This communication is an example of a:",
+   "options": [
+    "Demi-Official (D.O.) letter",
+    "Government Order",
+    "Notification",
+    "Memorandum"
+   ],
+   "correctIndex": 0,
+   "explanation": "A personal salutation ('Dear Thiru Ganesan'), first-person appeal for personal attention and 'Yours sincerely' mark a D.O. letter.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0176",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"Thiru P. Murugan, Typist, is directed to show cause within seven days of receipt of this memo why disciplinary action should not be taken against him for unauthorised absence from 02.05.2024 to 10.05.2024.\"\nQuestion: For how many days was Thiru Murugan absent without authorisation?",
+   "options": [
+    "Seven days",
+    "Nine days",
+    "Eight days",
+    "Ten days"
+   ],
+   "correctIndex": 1,
+   "explanation": "From 2nd to 10th May, both days inclusive, is nine days.",
+   "sourceTag": "authored",
+   "difficulty": "hard",
+   "trick": "Count both the first and the last day: 10 – 2 + 1 = 9."
+  },
+  {
+   "id": "bank-C-IV-k0177",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"Thiru P. Murugan, Typist, is directed to show cause within seven days of receipt of this memo why disciplinary action should not be taken against him for unauthorised absence.\"\nQuestion: What happens if he gives no explanation within seven days?",
+   "options": [
+    "He will automatically be promoted",
+    "The memo becomes invalid",
+    "Further action may be taken without his explanation",
+    "He gets seven more days of leave"
+   ],
+   "correctIndex": 2,
+   "explanation": "A show-cause memo implies that, if no reply is received within the time allowed, action may proceed on the available records.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0178",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"NOTIFICATION: In exercise of the powers conferred by section 5 of the Tamil Nadu Panchayats Act, 1994, the Governor of Tamil Nadu hereby ... \"\nQuestion: The opening words 'In exercise of the powers conferred by section 5 ...' indicate:",
+   "options": [
+    "The name of the officer who drafted it",
+    "The legal provision under which the notification is issued",
+    "The date of publication",
+    "The penalty for violating it"
+   ],
+   "correctIndex": 1,
+   "explanation": "Notifications cite the enabling provision of the Act that gives the authority power to issue them.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0179",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government direct that the scheme shall come into force with effect from 15.08.2024. The orders issued earlier on the subject stand superseded.\"\nQuestion: 'Stand superseded' means the earlier orders:",
+   "options": [
+    "Are replaced by this order and are no longer in force",
+    "Continue alongside the new order",
+    "Are kept pending",
+    "Are sent to the Governor for approval"
+   ],
+   "correctIndex": 0,
+   "explanation": "To supersede is to replace; the earlier orders cease to operate.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0180",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government direct that the scheme shall come into force with effect from 15.08.2024.\"\nQuestion: From which date will the scheme be operative?",
+   "options": [
+    "The date the G.O. was signed",
+    "1st April 2024",
+    "15th August 2025",
+    "15th August 2024"
+   ],
+   "correctIndex": 3,
+   "explanation": "'With effect from 15.08.2024' fixes the starting date.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  },
+  {
+   "id": "bank-C-IV-k0181",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The pay and allowances of the staff shall be drawn by the Block Development Officer and debited to the head of account '2515 – Other Rural Development Programmes'.\"\nQuestion: Who is authorised to draw the pay of the staff?",
+   "options": [
+    "The staff themselves",
+    "The Block Development Officer",
+    "The Accountant General",
+    "The District Treasury Officer"
+   ],
+   "correctIndex": 1,
+   "explanation": "The order says pay 'shall be drawn by the Block Development Officer', who is the drawing officer.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0182",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: Sanction is accorded for the purchase of 25 computers at a cost not exceeding Rs. 50,000 each, through the Tamil Nadu e-Governance Agency, subject to observance of the tender rules.\"\nQuestion: What is the maximum total amount permitted for this purchase?",
+   "options": [
+    "Rs. 12,50,000",
+    "Rs. 50,000",
+    "Rs. 1,25,000",
+    "Rs. 25,00,000"
+   ],
+   "correctIndex": 0,
+   "explanation": "25 computers × Rs. 50,000 each = Rs. 12,50,000 at most.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0183",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: Sanction is accorded for the purchase of 25 computers at a cost not exceeding Rs. 50,000 each, subject to observance of the tender rules.\"\nQuestion: 'Subject to observance of the tender rules' means:",
+   "options": [
+    "Tender rules are cancelled for this purchase",
+    "The computers must be bought from abroad",
+    "The purchase must follow the prescribed tender procedure",
+    "No sanction is needed for the purchase"
+   ],
+   "correctIndex": 2,
+   "explanation": "'Subject to' introduces a condition that must be fulfilled.",
+   "sourceTag": "authored",
+   "difficulty": "medium"
+  },
+  {
+   "id": "bank-C-IV-k0184",
+   "topicId": "c4-official-correspondence-go-passages",
+   "prompt": "Read the following sample extract and answer the question.\n\"ORDER: The Government extend the term of the One-Man Commission by six months, from 01.01.2024 to 30.06.2024, to enable it to complete its inquiry and submit its report.\"\nQuestion: Why has the term of the Commission been extended?",
+   "options": [
+    "Because it has already submitted its report",
+    "To reduce its expenses",
+    "Because the Commission was abolished",
+    "To enable it to complete its inquiry and submit its report"
+   ],
+   "correctIndex": 3,
+   "explanation": "The order gives the reason: to complete the inquiry and submit the report.",
+   "sourceTag": "authored",
+   "difficulty": "easy"
+  }
+ ]
+}
